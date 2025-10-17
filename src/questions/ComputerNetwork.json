@@ -1,0 +1,1655 @@
+{
+  "topic": "Computer Network",
+  "concepts": [
+    {
+      "topic": "Computer Network",
+      "concept": "Network Topology",
+      "questions": [
+        {
+          "question": "What is network topology in computer networks?",
+          "correctAnswer": "The arrangement of various elements (links, nodes) in a computer network",
+          "wrongAnswer1": "The type of data being transmitted over the network",
+          "wrongAnswer2": "The security protocols used within a network",
+          "wrongAnswer3": "The speed at which data is transferred in the network",
+          "explanation": "Network topology refers to the layout pattern of interconnections among nodes and links in a computer network.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a common type of network topology?",
+          "correctAnswer": "Circular topology",
+          "wrongAnswer1": "Star topology",
+          "wrongAnswer2": "Mesh topology",
+          "wrongAnswer3": "Bus topology",
+          "explanation": "Common network topologies include star, mesh, ring, and bus. Circular topology is not a standard term used in networking.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In a star topology, what is the role of the central node?",
+          "correctAnswer": "It acts as a hub that connects all other nodes and manages communication",
+          "wrongAnswer1": "It connects to only one other node",
+          "wrongAnswer2": "It stores all the data from the network",
+          "wrongAnswer3": "It directly connects two nodes without involving others",
+          "explanation": "In a star topology, all nodes are connected to a central hub or switch that manages data transmission and connectivity.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "IP Address",
+      "questions": [
+        {
+          "question": "What does an IP address represent in a computer network?",
+          "correctAnswer": "A unique identifier assigned to each device on a network",
+          "wrongAnswer1": "The physical address of a device",
+          "wrongAnswer2": "The speed of the internet connection",
+          "wrongAnswer3": "The type of operating system used by a device",
+          "explanation": "An IP address uniquely identifies each device on a network, allowing communication between devices.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a valid IPv4 address format?",
+          "correctAnswer": "192.168.1.1",
+          "wrongAnswer1": "192.168.1.256",
+          "wrongAnswer2": "192.168.1",
+          "wrongAnswer3": "192.168.1.1.1",
+          "explanation": "An IPv4 address consists of four octets each ranging from 0 to 255.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the main difference between a public IP address and a private IP address?",
+          "correctAnswer": "Public IP addresses are used on the internet and private IP addresses are used within local networks",
+          "wrongAnswer1": "Public IP addresses are always static and private IP addresses are always dynamic",
+          "wrongAnswer2": "Private IP addresses can be accessed from anywhere worldwide",
+          "wrongAnswer3": "Public IP addresses do not require assignment by an authority",
+          "explanation": "Public IP addresses are assigned globally and used for internet communication, while private IPs are used within internal networks.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Subnet Mask",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a subnet mask in a computer network?",
+          "correctAnswer": "To divide the IP address into the network and host portions",
+          "wrongAnswer1": "To assign a gateway address",
+          "wrongAnswer2": "To encrypt network data",
+          "wrongAnswer3": "To identify the type of IP address",
+          "explanation": "A subnet mask is used to divide an IP address into network and host parts, allowing for subnetting of networks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following subnet masks corresponds to a Class C IP address with 256 hosts per subnet?",
+          "correctAnswer": "255.255.255.0",
+          "wrongAnswer1": "255.255.0.0",
+          "wrongAnswer2": "255.0.0.0",
+          "wrongAnswer3": "255.255.255.255",
+          "explanation": "The subnet mask 255.255.255.0 is used for Class C networks and supports up to 256 IP addresses including network and broadcast addresses.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does changing the subnet mask affect a computer network?",
+          "correctAnswer": "It changes the size and number of possible subnets in the network",
+          "wrongAnswer1": "It changes the physical location of the network hardware",
+          "wrongAnswer2": "It encrypts data packets sent over the network",
+          "wrongAnswer3": "It modifies the IP address assigned to a host",
+          "explanation": "Modifying the subnet mask alters how many bits are used for the network and host portions, thus affecting the subnetting and size of each subnet.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "MAC Address",
+      "questions": [
+        {
+          "question": "What does MAC in MAC address stand for?",
+          "correctAnswer": "Media Access Control",
+          "wrongAnswer1": "Memory Access Control",
+          "wrongAnswer2": "Machine Address Code",
+          "wrongAnswer3": "Main Access Channel",
+          "explanation": "MAC address stands for Media Access Control address and it is a unique identifier assigned to network interfaces for communications at the data link layer of a network segment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Where is a MAC address primarily used in a computer network?",
+          "correctAnswer": "At the data link layer for local network communication",
+          "wrongAnswer1": "At the application layer for user authentication",
+          "wrongAnswer2": "At the network layer for routing packets",
+          "wrongAnswer3": "At the physical layer for signal transmission",
+          "explanation": "MAC addresses operate at the data link layer to uniquely identify devices on the same local network segment and to facilitate local communication.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is true about MAC addresses?",
+          "correctAnswer": "They are usually assigned by the manufacturer and are globally unique",
+          "wrongAnswer1": "They are dynamically assigned by the router for each connection",
+          "wrongAnswer2": "They are the same as IP addresses",
+          "wrongAnswer3": "They are used to encrypt data sent over the network",
+          "explanation": "MAC addresses are typically assigned by device manufacturers and are designed to be unique worldwide for each network interface device.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Routing Protocol",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a routing protocol in a computer network?",
+          "correctAnswer": "To determine the best path for data packets to travel across the network",
+          "wrongAnswer1": "To encrypt data packets for secure transmission",
+          "wrongAnswer2": "To assign IP addresses to devices in the network",
+          "wrongAnswer3": "To physically connect network devices",
+          "explanation": "Routing protocols are used to find the most efficient route for data packets to travel between devices in a network, ensuring data reaches its correct destination efficiently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of a common routing protocol?",
+          "correctAnswer": "OSPF",
+          "wrongAnswer1": "HTTP",
+          "wrongAnswer2": "FTP",
+          "wrongAnswer3": "SMTP",
+          "explanation": "OSPF (Open Shortest Path First) is a widely used routing protocol. HTTP, FTP, and SMTP are protocols used for other purposes like web, file transfer, and email respectively.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does a distance-vector routing protocol determine the best path to a destination?",
+          "correctAnswer": "By using the number of hops to the destination as a metric",
+          "wrongAnswer1": "By measuring the bandwidth of the links",
+          "wrongAnswer2": "By calculating the link delay based on traffic",
+          "wrongAnswer3": "By analyzing the security level of each path",
+          "explanation": "Distance-vector routing protocols determine the best path based on hop count, where fewer hops usually indicate a better path. Other metrics like bandwidth or delay are used in different types of routing protocols.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Switching Techniques",
+      "questions": [
+        {
+          "question": "What is the primary function of switching techniques in computer networks?",
+          "correctAnswer": "To forward data packets between devices based on addressing information",
+          "wrongAnswer1": "To encrypt data for secure transmission",
+          "wrongAnswer2": "To assign IP addresses to devices",
+          "wrongAnswer3": "To detect physical cable faults",
+          "explanation": "Switching techniques are used to forward data packets between devices by examining addressing information like MAC addresses or network addresses.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which switching technique establishes a dedicated communication path between two nodes before data transfer begins?",
+          "correctAnswer": "Circuit switching",
+          "wrongAnswer1": "Packet switching",
+          "wrongAnswer2": "Message switching",
+          "wrongAnswer3": "Broadcast switching",
+          "explanation": "Circuit switching creates a dedicated communication path for the duration of the communication session, ensuring a constant connection between nodes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which switching technique breaks data into packets, each of which may take different paths to the destination?",
+          "correctAnswer": "Packet switching",
+          "wrongAnswer1": "Circuit switching",
+          "wrongAnswer2": "Message switching",
+          "wrongAnswer3": "Virtual circuit switching",
+          "explanation": "Packet switching divides data into packets that are routed individually, which allows efficient use of network resources and dynamic routing.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "OSI Model",
+      "questions": [
+        {
+          "question": "Which layer of the OSI model is responsible for establishing, managing, and terminating sessions between applications?",
+          "correctAnswer": "Session layer",
+          "wrongAnswer1": "Transport layer",
+          "wrongAnswer2": "Network layer",
+          "wrongAnswer3": "Data Link layer",
+          "explanation": "The Session layer (Layer 5) manages sessions in the OSI model, including establishing, maintaining, and terminating communication sessions between applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the main function of the Transport layer in the OSI model?",
+          "correctAnswer": "Provides reliable data transfer across the network",
+          "wrongAnswer1": "Handles routing and forwarding of data packets",
+          "wrongAnswer2": "Encrypts and decrypts data",
+          "wrongAnswer3": "Defines physical means of sending data",
+          "explanation": "The Transport layer (Layer 4) provides reliable data transfer services to upper layers, including error recovery, flow control, and segmentation.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the OSI model, which layer is responsible for data representation and encryption?",
+          "correctAnswer": "Presentation layer",
+          "wrongAnswer1": "Application layer",
+          "wrongAnswer2": "Session layer",
+          "wrongAnswer3": "Physical layer",
+          "explanation": "The Presentation layer (Layer 6) is responsible for translating data formats, data encryption, and compression to ensure the proper representation of data between systems.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "TCP Protocol",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the TCP protocol in computer networks?",
+          "correctAnswer": "To provide reliable, ordered, and error-checked delivery of data between applications.",
+          "wrongAnswer1": "To route data packets between different networks.",
+          "wrongAnswer2": "To assign IP addresses to devices on a network.",
+          "wrongAnswer3": "To encrypt data transmitted over the internet.",
+          "explanation": "TCP (Transmission Control Protocol) ensures reliable and ordered delivery of data between applications by establishing a connection, managing data packets, and handling retransmissions in case of packet loss.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature of TCP ensures that data is delivered in the same order it was sent?",
+          "correctAnswer": "Sequencing of data packets",
+          "wrongAnswer1": "Broadcasting packets",
+          "wrongAnswer2": "Address resolution",
+          "wrongAnswer3": "Data encryption",
+          "explanation": "TCP assigns sequence numbers to each data packet, allowing the receiver to reorder packets and deliver data in the correct sequence, maintaining data integrity.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What mechanism does TCP use to detect lost packets and request their retransmission?",
+          "correctAnswer": "Acknowledgments and timeouts",
+          "wrongAnswer1": "Routing tables",
+          "wrongAnswer2": "IP address checking",
+          "wrongAnswer3": "Packet filtering",
+          "explanation": "TCP uses acknowledgments from the receiver and timeouts at the sender to detect lost packets. If an acknowledgment is not received within a certain time, TCP retransmits the packet to ensure reliable communication.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "UDP Protocol",
+      "questions": [
+        {
+          "question": "What does UDP stand for in computer networking?",
+          "correctAnswer": "User Datagram Protocol",
+          "wrongAnswer1": "Universal Data Protocol",
+          "wrongAnswer2": "Unified Datagram Protocol",
+          "wrongAnswer3": "User Data Package",
+          "explanation": "UDP stands for User Datagram Protocol, which is a communication protocol used across IP networks for sending messages without establishing a connection.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which characteristic best describes UDP?",
+          "correctAnswer": "Connectionless and unreliable",
+          "wrongAnswer1": "Connection-oriented and reliable",
+          "wrongAnswer2": "Connection-oriented and unreliable",
+          "wrongAnswer3": "Connectionless and reliable",
+          "explanation": "UDP is a connectionless protocol that does not guarantee delivery, ordering, or error-checking, making it unreliable but fast, unlike TCP which is connection-oriented and reliable.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "For which type of applications is UDP typically preferred?",
+          "correctAnswer": "Applications that require fast transmission and can tolerate some data loss",
+          "wrongAnswer1": "Applications that require guaranteed delivery and ordering",
+          "wrongAnswer2": "Secure applications requiring encryption by default",
+          "wrongAnswer3": "Applications that transfer large files reliably",
+          "explanation": "UDP is preferred in applications like streaming or gaming where speed is critical and occasional data loss is acceptable, unlike TCP which is used where reliable data delivery is essential.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Ethernet Frame",
+      "questions": [
+        {
+          "question": "What is the primary purpose of an Ethernet frame in computer networking?",
+          "correctAnswer": "To encapsulate data for transmission over Ethernet",
+          "wrongAnswer1": "To increase the speed of the network",
+          "wrongAnswer2": "To encrypt data between devices",
+          "wrongAnswer3": "To control access to the internet",
+          "explanation": "An Ethernet frame is used to encapsulate data packets for transmission over an Ethernet network. It includes addressing and control information.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which part of an Ethernet frame identifies the destination device?",
+          "correctAnswer": "Destination MAC address",
+          "wrongAnswer1": "Source IP address",
+          "wrongAnswer2": "Frame Check Sequence",
+          "wrongAnswer3": "Preamble",
+          "explanation": "The destination MAC address field in an Ethernet frame specifies the intended recipient device on the local network segment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is included in the Frame Check Sequence (FCS) field of an Ethernet frame?",
+          "correctAnswer": "A cyclic redundancy check to detect errors",
+          "wrongAnswer1": "The source MAC address",
+          "wrongAnswer2": "Data payload",
+          "wrongAnswer3": "The size of the frame",
+          "explanation": "The Frame Check Sequence field contains a cyclic redundancy check (CRC) code to detect errors in the frame during transmission.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Wireless Networking",
+      "questions": [
+        {
+          "question": "What is the primary advantage of wireless networking over wired networking?",
+          "correctAnswer": "Mobility and ease of installation",
+          "wrongAnswer1": "Higher data transfer speeds",
+          "wrongAnswer2": "More secure connections",
+          "wrongAnswer3": "Lower power consumption",
+          "explanation": "Wireless networking allows devices to connect without physical cables, providing mobility and easier installation compared to wired networks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which frequency bands are commonly used for Wi-Fi in wireless networking?",
+          "correctAnswer": "2.4 GHz and 5 GHz",
+          "wrongAnswer1": "1.2 GHz and 3.6 GHz",
+          "wrongAnswer2": "900 MHz and 1.8 GHz",
+          "wrongAnswer3": "6 GHz and 10 GHz",
+          "explanation": "Wi-Fi typically operates on the 2.4 GHz and 5 GHz frequency bands, which are designated for wireless local area networks.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a common security protocol used to protect wireless networks?",
+          "correctAnswer": "WPA2",
+          "wrongAnswer1": "HTTP",
+          "wrongAnswer2": "FTP",
+          "wrongAnswer3": "SMTP",
+          "explanation": "WPA2 is a widely used security protocol for encrypting data and securing wireless networks from unauthorized access.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Security",
+      "questions": [
+        {
+          "question": "What is the primary purpose of network security?",
+          "correctAnswer": "To protect data and resources from unauthorized access and attacks",
+          "wrongAnswer1": "To increase the speed of the network",
+          "wrongAnswer2": "To reduce the number of connected devices",
+          "wrongAnswer3": "To make the network more complex",
+          "explanation": "Network security aims to safeguard data and network resources against unauthorized access, misuse, malfunction, modification, destruction, or improper disclosure.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which one of these is a common method used for network security?",
+          "correctAnswer": "Firewalls",
+          "wrongAnswer1": "Ethernet cables",
+          "wrongAnswer2": "Printers",
+          "wrongAnswer3": "Monitors",
+          "explanation": "Firewalls are security systems designed to prevent unauthorized access to or from a private network. They are a fundamental part of network security.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does a Virtual Private Network (VPN) do in terms of security?",
+          "correctAnswer": "It creates a secure and encrypted connection over a less secure network",
+          "wrongAnswer1": "It increases network speed by removing encryption",
+          "wrongAnswer2": "It allows anyone to access the network without authentication",
+          "wrongAnswer3": "It disables security features to improve connectivity",
+          "explanation": "A VPN provides a secure and encrypted connection to protect data transmissions over insecure networks such as the internet.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Firewall",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a network firewall?",
+          "correctAnswer": "To monitor and control incoming and outgoing network traffic based on security rules",
+          "wrongAnswer1": "To provide high-speed internet to users",
+          "wrongAnswer2": "To store large amounts of data securely",
+          "wrongAnswer3": "To manage software updates automatically",
+          "explanation": "A network firewall's main purpose is to monitor and control network traffic according to predefined security policies to protect against unauthorized access.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following types of firewalls filters traffic based on IP addresses and ports?",
+          "correctAnswer": "Packet-filtering firewall",
+          "wrongAnswer1": "Proxy firewall",
+          "wrongAnswer2": "Stateful inspection firewall",
+          "wrongAnswer3": "Application firewall",
+          "explanation": "Packet-filtering firewalls examine packets and filter traffic based on IP addresses, ports, and protocols.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does a stateful inspection firewall differ from a simple packet-filtering firewall?",
+          "correctAnswer": "It tracks the state of active connections to make more informed filtering decisions",
+          "wrongAnswer1": "It only filters packets based on source IP address",
+          "wrongAnswer2": "It encrypts all network traffic",
+          "wrongAnswer3": "It primarily blocks traffic based on application layer data",
+          "explanation": "Stateful inspection firewalls keep track of active connections and use this context to determine whether packets are allowed.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Virtual Private",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Virtual Private Network (VPN)?",
+          "correctAnswer": "To create a secure connection over a public network",
+          "wrongAnswer1": "To increase the physical network speed",
+          "wrongAnswer2": "To connect only devices within the same local network",
+          "wrongAnswer3": "To replace antivirus software",
+          "explanation": "A VPN is designed to create a secure and encrypted connection over a less secure network, such as the internet, allowing safe communication.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a benefit of using a Virtual Private Network?",
+          "correctAnswer": "Improving computer hardware performance",
+          "wrongAnswer1": "Enhancing online privacy",
+          "wrongAnswer2": "Securing data transmission over public networks",
+          "wrongAnswer3": "Accessing region-restricted websites",
+          "explanation": "VPNs enhance privacy and security and enable bypassing geo-restrictions but do not affect hardware performance.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What encryption method is commonly used in Virtual Private Networks to protect data?",
+          "correctAnswer": "AES (Advanced Encryption Standard)",
+          "wrongAnswer1": "HTML (HyperText Markup Language)",
+          "wrongAnswer2": "TCP/IP (Transmission Control Protocol/Internet Protocol)",
+          "wrongAnswer3": "USB (Universal Serial Bus)",
+          "explanation": "AES is widely used in VPNs to encrypt data securely, unlike protocols or languages such as HTML or USB peripherals.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Data Packet",
+      "questions": [
+        {
+          "question": "What is a data packet in computer networks?",
+          "correctAnswer": "A formatted unit of data carried by a packet-switched network",
+          "wrongAnswer1": "A physical wire used to connect computers",
+          "wrongAnswer2": "A type of software that manages network connections",
+          "wrongAnswer3": "A programming language used in network configuration",
+          "explanation": "A data packet is a formatted unit of data carried by a packet-switched network. It contains control information and user data, also known as payload.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following components is typically found in a data packet?",
+          "correctAnswer": "Header, payload, and trailer",
+          "wrongAnswer1": "Screen, keyboard, and mouse",
+          "wrongAnswer2": "IP address, URL, and browser",
+          "wrongAnswer3": "Operating system, software, and hardware",
+          "explanation": "A data packet usually consists of a header (control information), a payload (actual data), and sometimes a trailer (error checking information).",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why are data packets important in networking?",
+          "correctAnswer": "They enable efficient and reliable data transmission across networks",
+          "wrongAnswer1": "They provide power to network devices",
+          "wrongAnswer2": "They increase the speed of the computer processor",
+          "wrongAnswer3": "They store data permanently on the hard drive",
+          "explanation": "Data packets allow for the breaking down of large messages into smaller chunks, enabling efficient and reliable transmission across various types of networks, handling errors, and routing.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Access Point",
+      "questions": [
+        {
+          "question": "What is the primary function of an Access Point in a wireless network?",
+          "correctAnswer": "To allow wireless devices to connect to a wired network",
+          "wrongAnswer1": "To connect two wired networks directly",
+          "wrongAnswer2": "To boost the signal strength of a wired network",
+          "wrongAnswer3": "To encrypt data on the network",
+          "explanation": "An Access Point (AP) is a device that allows wireless devices to connect to a wired network using Wi-Fi or related standards. It serves as a bridge between wireless clients and the wired network infrastructure.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT typically a feature of an Access Point?",
+          "correctAnswer": "Generating its own IP address for the entire network",
+          "wrongAnswer1": "Facilitating wireless connectivity",
+          "wrongAnswer2": "Broadcasting the network SSID",
+          "wrongAnswer3": "Providing security through encryption protocols",
+          "explanation": "Access Points do not generate their own IP address for the entire network; they usually have their own IP address to manage the device but do not assign network-wide IP addresses. IP assignment is typically handled by a DHCP server.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does an Access Point differ from a wireless router?",
+          "correctAnswer": "An Access Point extends a wired network wirelessly, whereas a wireless router combines routing functions and wireless access.",
+          "wrongAnswer1": "An Access Point provides internet access, but a wireless router does not.",
+          "wrongAnswer2": "An Access Point is used in wired networks only, while a wireless router handles wireless communications.",
+          "wrongAnswer3": "An Access Point requires user credentials for access, a router does not.",
+          "explanation": "An Access Point primarily extends an existing wired network to wireless clients, while a wireless router incorporates routing functions, network address translation, and usually includes an Access Point function for wireless connectivity.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Bandwidth Management",
+      "questions": [
+        {
+          "question": "What is the primary purpose of bandwidth management in a computer network?",
+          "correctAnswer": "To control and allocate network bandwidth efficiently",
+          "wrongAnswer1": "To increase the physical cable length",
+          "wrongAnswer2": "To secure the network from malware",
+          "wrongAnswer3": "To change IP addresses automatically",
+          "explanation": "Bandwidth management involves controlling and allocating the network bandwidth in an efficient way to ensure optimal network performance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following techniques is commonly used for bandwidth management?",
+          "correctAnswer": "Traffic shaping",
+          "wrongAnswer1": "Antivirus scanning",
+          "wrongAnswer2": "Data encryption",
+          "wrongAnswer3": "IP address filtering",
+          "explanation": "Traffic shaping is a bandwidth management technique that controls the volume of traffic sent into a network in a specified period to optimize or guarantee performance.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In bandwidth management, what does QoS stand for and what does it do?",
+          "correctAnswer": "Quality of Service; it prioritizes certain types of network traffic",
+          "wrongAnswer1": "Quantity of Service; it measures data packet sizes",
+          "wrongAnswer2": "Quality of Security; it encrypts data packets",
+          "wrongAnswer3": "Queue of Service; it stores data in buffers",
+          "explanation": "Quality of Service (QoS) is a bandwidth management method that prioritizes certain types of network traffic to ensure high performance for critical applications.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "LAN Technology",
+      "questions": [
+        {
+          "question": "What does LAN stand for in networking?",
+          "correctAnswer": "Local Area Network",
+          "wrongAnswer1": "Large Area Network",
+          "wrongAnswer2": "Longitudinal Area Network",
+          "wrongAnswer3": "Local Access Network",
+          "explanation": "LAN stands for Local Area Network, which is a network that spans a relatively small area such as a room, building, or campus.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common technology used for LANs?",
+          "correctAnswer": "Ethernet",
+          "wrongAnswer1": "Bluetooth",
+          "wrongAnswer2": "Wi-Fi",
+          "wrongAnswer3": "Fiber Optic WAN",
+          "explanation": "Ethernet is the most widely used LAN technology for wired local area networks, providing reliable connectivity and fast data transfer rates.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the maximum typical range of a LAN?",
+          "correctAnswer": "Up to a few kilometers",
+          "wrongAnswer1": "Several thousand kilometers",
+          "wrongAnswer2": "Over 10,000 kilometers",
+          "wrongAnswer3": "Only a few meters",
+          "explanation": "LANs generally cover a limited physical area such as a home, office, or building complex and typically extend up to a few kilometers.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "WAN Protocol",
+      "questions": [
+        {
+          "question": "Which protocol is commonly used for wide area network (WAN) communications?",
+          "correctAnswer": "Frame Relay",
+          "wrongAnswer1": "Ethernet",
+          "wrongAnswer2": "Wi-Fi",
+          "wrongAnswer3": "Bluetooth",
+          "explanation": "Frame Relay is a WAN protocol designed specifically for efficient data transmission over wide area networks, unlike Ethernet or Wi-Fi which are typically used in local area networks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the primary purpose of the Point-to-Point Protocol (PPP) in WANs?",
+          "correctAnswer": "Establishing direct connections between two nodes",
+          "wrongAnswer1": "Encrypting data packets",
+          "wrongAnswer2": "Routing traffic within a LAN",
+          "wrongAnswer3": "Providing wireless connectivity",
+          "explanation": "PPP is used to establish a direct connection between two nodes in a WAN, allowing the transmission of multi-protocol data over point-to-point links.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which protocol works at the data link layer to provide error detection and framing for packet-switched WANs?",
+          "correctAnswer": "High-Level Data Link Control (HDLC)",
+          "wrongAnswer1": "Internet Protocol (IP)",
+          "wrongAnswer2": "Transmission Control Protocol (TCP)",
+          "wrongAnswer3": "Simple Network Management Protocol (SNMP)",
+          "explanation": "HDLC is a data link layer protocol used in WANs that provides framing and error detection, whereas IP and TCP operate at higher layers and SNMP is used for network management.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Interface",
+      "questions": [
+        {
+          "question": "What is the primary function of a network interface in a computer network?",
+          "correctAnswer": "To connect a device to a network and manage data transmission",
+          "wrongAnswer1": "To store data permanently",
+          "wrongAnswer2": "To provide power to network devices",
+          "wrongAnswer3": "To encrypt data only",
+          "explanation": "A network interface connects a device to a network and manages sending and receiving data between the device and the network.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which hardware component commonly represents the network interface in a computer?",
+          "correctAnswer": "Network Interface Card (NIC)",
+          "wrongAnswer1": "Hard Drive",
+          "wrongAnswer2": "Power Supply Unit",
+          "wrongAnswer3": "Graphics Processing Unit",
+          "explanation": "The Network Interface Card (NIC) is the hardware component that serves as the network interface allowing a computer to connect to a network.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In the context of network interfaces, what does a MAC address uniquely identify?",
+          "correctAnswer": "The network interface hardware on a device",
+          "wrongAnswer1": "The device's IP address",
+          "wrongAnswer2": "The network router",
+          "wrongAnswer3": "The data being transmitted",
+          "explanation": "A MAC address is a unique identifier assigned to the network interface hardware of a device to distinguish it on the local network.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Packet Switching",
+      "questions": [
+        {
+          "question": "What is packet switching in computer networks?",
+          "correctAnswer": "A method where data is broken into packets and each packet is sent independently through the network.",
+          "wrongAnswer1": "A technique where a dedicated communication path is established for the entire message.",
+          "wrongAnswer2": "A process of converting data into analog signals for transmission.",
+          "wrongAnswer3": "A method of encrypting data before transmission.",
+          "explanation": "Packet switching divides data into packets, which are routed independently to the destination. This differs from circuit switching, where a dedicated path is used.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an advantage of packet switching over circuit switching?",
+          "correctAnswer": "Efficient utilization of network bandwidth by sharing paths among multiple transmissions.",
+          "wrongAnswer1": "Guaranteed delivery of data without any delay.",
+          "wrongAnswer2": "Establishes a fixed end-to-end connection for every communication.",
+          "wrongAnswer3": "Requires less processing for routing data.",
+          "explanation": "Packet switching allows multiple communications to share network resources dynamically, leading to better bandwidth usage compared to circuit switching.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In packet switching, how are packets typically forwarded from source to destination?",
+          "correctAnswer": "Packets are routed independently based on current network conditions.",
+          "wrongAnswer1": "All packets follow the same predetermined path regardless of network status.",
+          "wrongAnswer2": "Packets are sent in a fixed sequence through dedicated circuits.",
+          "wrongAnswer3": "Packets are broadcasted to all nodes in the network.",
+          "explanation": "Each packet can take different routes to reach the destination depending on network traffic, which enhances flexibility and robustness.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Addressing",
+      "questions": [
+        {
+          "question": "What is the primary purpose of network addressing in computer networks?",
+          "correctAnswer": "To uniquely identify devices on a network",
+          "wrongAnswer1": "To encrypt data on the network",
+          "wrongAnswer2": "To increase the speed of data transmission",
+          "wrongAnswer3": "To physically connect devices",
+          "explanation": "Network addressing is used to provide unique identifiers to devices within a network, allowing for proper data routing and communication.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common form of network address used for identifying devices on the Internet?",
+          "correctAnswer": "IP address",
+          "wrongAnswer1": "MAC address",
+          "wrongAnswer2": "Serial number",
+          "wrongAnswer3": "File path",
+          "explanation": "The IP address is the standard network address used for identifying devices on the Internet and facilitating routing of data packets.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In the IPv4 addressing system, how many bits are used to represent an IP address?",
+          "correctAnswer": "32 bits",
+          "wrongAnswer1": "64 bits",
+          "wrongAnswer2": "16 bits",
+          "wrongAnswer3": "128 bits",
+          "explanation": "IPv4 uses a 32-bit address format, which allows for approximately 4.3 billion unique addresses.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "DHCP Server",
+      "questions": [
+        {
+          "question": "What is the primary function of a DHCP server in a network?",
+          "correctAnswer": "To automatically assign IP addresses to devices on the network",
+          "wrongAnswer1": "To translate domain names to IP addresses",
+          "wrongAnswer2": "To control access to the network resources",
+          "wrongAnswer3": "To route data packets between different networks",
+          "explanation": "A DHCP (Dynamic Host Configuration Protocol) server is responsible for automatically assigning IP addresses to devices on a network, which simplifies network administration.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following information is typically provided by a DHCP server to a client?",
+          "correctAnswer": "IP address, subnet mask, default gateway, and DNS servers",
+          "wrongAnswer1": "MAC address and device hostname",
+          "wrongAnswer2": "Data encryption keys",
+          "wrongAnswer3": "User credentials for network access",
+          "explanation": "A DHCP server typically provides clients with necessary network configuration information such as IP address, subnet mask, default gateway, and DNS servers to ensure proper connectivity.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens when a DHCP lease expires on a client device?",
+          "correctAnswer": "The client must request to renew its IP address lease from the DHCP server",
+          "wrongAnswer1": "The client keeps using the IP address permanently without renewal",
+          "wrongAnswer2": "The client loses network connectivity immediately and cannot reconnect",
+          "wrongAnswer3": "The DHCP server automatically assigns a new IP address without any request",
+          "explanation": "When a DHCP lease expires, the client device needs to request the DHCP server to renew the lease to continue using the assigned IP address; otherwise, it may lose network access.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "DNS Server",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a DNS server in a computer network?",
+          "correctAnswer": "To translate domain names into IP addresses",
+          "wrongAnswer1": "To manage email delivery",
+          "wrongAnswer2": "To provide firewall protection",
+          "wrongAnswer3": "To store website content",
+          "explanation": "A DNS server translates human-readable domain names into machine-readable IP addresses, allowing browsers to load Internet resources.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which protocol does a DNS server primarily work with?",
+          "correctAnswer": "UDP",
+          "wrongAnswer1": "TCP",
+          "wrongAnswer2": "HTTP",
+          "wrongAnswer3": "FTP",
+          "explanation": "DNS queries typically use the UDP protocol due to its lower overhead, although TCP is used for larger queries.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens if a DNS server cannot resolve a domain name?",
+          "correctAnswer": "The server queries another DNS server higher up in the hierarchy or returns an error if resolution fails.",
+          "wrongAnswer1": "The server generates an IP address randomly",
+          "wrongAnswer2": "The server redirects the request to the user's local machine",
+          "wrongAnswer3": "The server blocks the user's access to the internet",
+          "explanation": "DNS servers follow a hierarchical query process and try to find the IP address by asking other DNS servers or returning an error when resolution is not possible.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Latency",
+      "questions": [
+        {
+          "question": "What does network latency refer to in computer networking?",
+          "correctAnswer": "The delay between sending and receiving data over a network",
+          "wrongAnswer1": "The maximum bandwidth available on a network",
+          "wrongAnswer2": "The number of devices connected to a network",
+          "wrongAnswer3": "The security level of a network",
+          "explanation": "Network latency is the time delay experienced in the transmission of data from source to destination across a network.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which factor can most directly increase network latency?",
+          "correctAnswer": "Long physical distance between devices",
+          "wrongAnswer1": "Higher network bandwidth",
+          "wrongAnswer2": "Use of encrypted connections",
+          "wrongAnswer3": "More network devices connected",
+          "explanation": "Latency increases with the physical distance because data packets take longer to travel over extended distances.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which method is commonly used to measure network latency?",
+          "correctAnswer": "Ping testing",
+          "wrongAnswer1": "FTP file transfer",
+          "wrongAnswer2": "Traceroute analysis",
+          "wrongAnswer3": "DNS lookup",
+          "explanation": "Ping sends ICMP echo requests and measures the time to receive echo replies, giving a direct measure of latency.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Throughput",
+      "questions": [
+        {
+          "question": "What does network throughput measure in a computer network?",
+          "correctAnswer": "The amount of data successfully delivered over the network in a given time period",
+          "wrongAnswer1": "The number of devices connected to the network",
+          "wrongAnswer2": "The maximum speed capability of the network hardware",
+          "wrongAnswer3": "The total distance data travels on the network",
+          "explanation": "Network throughput measures the actual rate at which data is successfully transferred from one point to another on a network, usually expressed in bits per second (bps).",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which factor can directly reduce network throughput?",
+          "correctAnswer": "High network congestion causing packet loss and retransmissions",
+          "wrongAnswer1": "Increasing the physical distance between devices only",
+          "wrongAnswer2": "Using faster network hardware",
+          "wrongAnswer3": "Upgrading to a more efficient communication protocol",
+          "explanation": "Network congestion results in packet loss and the need for retransmissions, which reduces the effective throughput. Other options typically improve or do not affect throughput.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How is network throughput different from network bandwidth?",
+          "correctAnswer": "Throughput is the actual data transfer rate, while bandwidth is the maximum potential data transfer rate",
+          "wrongAnswer1": "Throughput measures signal strength, bandwidth measures cable length",
+          "wrongAnswer2": "Throughput is measured in bytes, bandwidth is measured in packets",
+          "wrongAnswer3": "Throughput is unrelated to data transfer, bandwidth is data transfer speed",
+          "explanation": "Bandwidth is the theoretical maximum rate that data can be transferred on a network, whereas throughput is the real-world rate of successful data transfer observed under actual conditions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Congestion",
+      "questions": [
+        {
+          "question": "What is network congestion in computer networks?",
+          "correctAnswer": "A state where the network is overloaded with data traffic causing performance degradation",
+          "wrongAnswer1": "A method to increase network speed by adding more nodes",
+          "wrongAnswer2": "A security protocol to protect data transmission",
+          "wrongAnswer3": "A type of hardware failure in network devices",
+          "explanation": "Network congestion occurs when the demand for network resources exceeds the available capacity, causing delays and packet loss.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common cause of network congestion?",
+          "correctAnswer": "High volume of data exceeding network capacity",
+          "wrongAnswer1": "Using outdated antivirus software",
+          "wrongAnswer2": "Faulty power supply in routers",
+          "wrongAnswer3": "Incorrect IP addressing",
+          "explanation": "Network congestion is commonly caused by too much data traffic trying to use the same network resources simultaneously.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which technique is used to control or avoid network congestion?",
+          "correctAnswer": "Traffic shaping and congestion control algorithms",
+          "wrongAnswer1": "Increasing the physical size of the network cables",
+          "wrongAnswer2": "Disabling firewalls temporarily",
+          "wrongAnswer3": "Installing more printers on the network",
+          "explanation": "Traffic shaping and use of congestion control algorithms help manage the data flow effectively to prevent congestion.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Monitoring",
+      "questions": [
+        {
+          "question": "What is the primary purpose of network monitoring?",
+          "correctAnswer": "To observe and analyze network traffic and performance",
+          "wrongAnswer1": "To create network hardware components",
+          "wrongAnswer2": "To develop software applications",
+          "wrongAnswer3": "To design the physical layout of the network",
+          "explanation": "Network monitoring involves observing and analyzing network traffic and performance to ensure the network operates efficiently and to detect any issues.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which tool is commonly used for network monitoring?",
+          "correctAnswer": "Wireshark",
+          "wrongAnswer1": "Photoshop",
+          "wrongAnswer2": "Microsoft Word",
+          "wrongAnswer3": "Excel",
+          "explanation": "Wireshark is a popular tool used for capturing and analyzing network packets, widely used in network monitoring.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What can network monitoring help identify to improve network security?",
+          "correctAnswer": "Unusual traffic patterns and potential intrusions",
+          "wrongAnswer1": "The color scheme of network diagrams",
+          "wrongAnswer2": "User interface design issues",
+          "wrongAnswer3": "The number of printers connected",
+          "explanation": "Network monitoring helps identify unusual traffic patterns and potential intrusions, which are critical for improving network security.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Wireless Access",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a wireless access point in a computer network?",
+          "correctAnswer": "To allow wireless devices to connect to a wired network",
+          "wrongAnswer1": "To store data for wireless devices",
+          "wrongAnswer2": "To increase the speed of wired connections",
+          "wrongAnswer3": "To provide power to network devices",
+          "explanation": "A wireless access point serves as a bridge that allows wireless devices to connect to a wired network, enabling communication between them.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which frequency bands are commonly used for wireless access in Wi-Fi networks?",
+          "correctAnswer": "2.4 GHz and 5 GHz",
+          "wrongAnswer1": "1.8 GHz and 3.5 GHz",
+          "wrongAnswer2": "900 MHz and 1.2 GHz",
+          "wrongAnswer3": "60 GHz and 90 GHz",
+          "explanation": "Wi-Fi networks commonly operate in the 2.4 GHz and 5 GHz frequency bands to provide wireless connectivity.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What standard is primarily used for wireless local area networking (WLAN)?",
+          "correctAnswer": "IEEE 802.11",
+          "wrongAnswer1": "IEEE 802.3",
+          "wrongAnswer2": "IEEE 802.5",
+          "wrongAnswer3": "IEEE 802.15",
+          "explanation": "The IEEE 802.11 family of standards defines the protocols for wireless local area networking, commonly known as Wi-Fi.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Adapter",
+      "questions": [
+        {
+          "question": "What is the primary function of a network adapter in a computer network?",
+          "correctAnswer": "To connect a computer to a network and enable communication",
+          "wrongAnswer1": "To store data locally on the computer",
+          "wrongAnswer2": "To increase the computer's processing speed",
+          "wrongAnswer3": "To protect the computer from malware",
+          "explanation": "A network adapter allows a computer to connect to a network and communicate with other devices, enabling data transfer and network access.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following types of network adapters is commonly used to connect a computer to a wired Ethernet network?",
+          "correctAnswer": "Ethernet Network Interface Card (NIC)",
+          "wrongAnswer1": "Wireless network adapter",
+          "wrongAnswer2": "Modem",
+          "wrongAnswer3": "Router",
+          "explanation": "An Ethernet Network Interface Card (NIC) is a common type of network adapter used to connect computers to wired Ethernet networks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does a wireless network adapter differ from a wired network adapter?",
+          "correctAnswer": "It connects to the network without using physical cables",
+          "wrongAnswer1": "It can only connect to Bluetooth devices",
+          "wrongAnswer2": "It requires a physical network cable to connect",
+          "wrongAnswer3": "It is only used for connecting printers",
+          "explanation": "A wireless network adapter connects a computer to a network over radio waves without the need for physical cables, unlike wired adapters that require cables.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "IP Routing",
+      "questions": [
+        {
+          "question": "What is the primary purpose of IP routing in a computer network?",
+          "correctAnswer": "To determine the best path for data packets to reach their destination.",
+          "wrongAnswer1": "To encrypt data packets for secure transmission.",
+          "wrongAnswer2": "To assign IP addresses to devices in the network.",
+          "wrongAnswer3": "To establish a physical connection between devices.",
+          "explanation": "IP routing is used to find the best path for data packets to travel across interconnected networks to deliver them to their destination IP address.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which device primarily performs the function of IP routing?",
+          "correctAnswer": "Router",
+          "wrongAnswer1": "Switch",
+          "wrongAnswer2": "Hub",
+          "wrongAnswer3": "Repeater",
+          "explanation": "A router is responsible for forwarding data packets between different networks based on their IP addresses, performing the key role in IP routing.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does a routing table contain in the context of IP routing?",
+          "correctAnswer": "Information about network paths and next-hop addresses.",
+          "wrongAnswer1": "User authentication credentials.",
+          "wrongAnswer2": "List of MAC addresses of devices in a network.",
+          "wrongAnswer3": "Encryption keys for secure communication.",
+          "explanation": "A routing table stores the routes to different network destinations and is used by routers to decide where to forward packets next.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Segmentation",
+      "questions": [
+        {
+          "question": "What is the primary purpose of network segmentation?",
+          "correctAnswer": "To divide a computer network into smaller parts for better security and performance",
+          "wrongAnswer1": "To combine multiple networks into one large network",
+          "wrongAnswer2": "To increase the number of devices on a network",
+          "wrongAnswer3": "To make a network wireless",
+          "explanation": "Network segmentation divides a large network into smaller segments to improve security, reduce congestion, and enhance performance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which device is commonly used to implement network segmentation?",
+          "correctAnswer": "Network switch",
+          "wrongAnswer1": "Repeater",
+          "wrongAnswer2": "Modem",
+          "wrongAnswer3": "Hub",
+          "explanation": "Network switches are commonly used to segment networks into smaller parts or segments by managing traffic and improving security within a LAN.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does network segmentation improve network security?",
+          "correctAnswer": "By isolating sensitive data within separate network segments to limit access and reduce attack surfaces",
+          "wrongAnswer1": "By increasing the total bandwidth of the network",
+          "wrongAnswer2": "By allowing all devices to communicate without restriction",
+          "wrongAnswer3": "By disabling firewall protections",
+          "explanation": "Network segmentation improves security by isolating sensitive resources in different segments, thus limiting unauthorized access and containing potential breaches.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "VPN Connection",
+      "questions": [
+        {
+          "question": "What does VPN stand for in computer networking?",
+          "correctAnswer": "Virtual Private Network",
+          "wrongAnswer1": "Virtual Public Network",
+          "wrongAnswer2": "Verified Private Network",
+          "wrongAnswer3": "Verified Public Network",
+          "explanation": "VPN stands for Virtual Private Network which allows secure connections over the internet by creating a private encrypted tunnel.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a primary benefit of using a VPN connection?",
+          "correctAnswer": "Enhanced security and privacy when accessing the internet",
+          "wrongAnswer1": "Increased internet speed without encryption",
+          "wrongAnswer2": "Free access to all websites without restrictions",
+          "wrongAnswer3": "Automatically blocking all internet ads",
+          "explanation": "A VPN enhances security and privacy by encrypting your internet connection, protecting your data from eavesdroppers and allowing safe remote access.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does a VPN connection typically secure data transmitted over the internet?",
+          "correctAnswer": "By encrypting data traffic between the user device and the VPN server",
+          "wrongAnswer1": "By compressing data to speed up transmission",
+          "wrongAnswer2": "By routing data through multiple public servers without encryption",
+          "wrongAnswer3": "By storing the data locally on the user device",
+          "explanation": "A VPN secures data by encrypting the traffic which prevents unauthorized parties from intercepting or reading the data.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Bridge",
+      "questions": [
+        {
+          "question": "What is the primary function of a network bridge?",
+          "correctAnswer": "To connect two or more network segments and filter traffic between them",
+          "wrongAnswer1": "To assign IP addresses to devices in a network",
+          "wrongAnswer2": "To convert digital signals to analog signals",
+          "wrongAnswer3": "To provide wireless access to a network",
+          "explanation": "A network bridge connects multiple network segments at the data link layer and filters traffic to reduce collisions and improve network efficiency.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "At which OSI model layer does a network bridge operate?",
+          "correctAnswer": "Data Link Layer (Layer 2)",
+          "wrongAnswer1": "Network Layer (Layer 3)",
+          "wrongAnswer2": "Physical Layer (Layer 1)",
+          "wrongAnswer3": "Transport Layer (Layer 4)",
+          "explanation": "Network bridges operate at the Data Link Layer where they examine MAC addresses to forward or filter data frames between segments.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does a network bridge help improve network performance?",
+          "correctAnswer": "By reducing traffic on each segment through filtering based on MAC addresses",
+          "wrongAnswer1": "By increasing the bandwidth of the entire network",
+          "wrongAnswer2": "By encrypting all network traffic",
+          "wrongAnswer3": "By acting as a firewall between network segments",
+          "explanation": "Network bridges analyze incoming frames and only forward them if the destination is on a different segment, which helps in reducing unnecessary traffic and collisions, thus improving network performance.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Gateway",
+      "questions": [
+        {
+          "question": "What is the primary function of a network gateway?",
+          "correctAnswer": "To connect different networks and route traffic between them",
+          "wrongAnswer1": "To store data permanently",
+          "wrongAnswer2": "To provide wireless access to devices",
+          "wrongAnswer3": "To secure the network with encryption",
+          "explanation": "A network gateway serves as a node that connects different networks and routes traffic between them, allowing communication across diverse network architectures.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which device typically acts as a network gateway in a local network?",
+          "correctAnswer": "Router",
+          "wrongAnswer1": "Switch",
+          "wrongAnswer2": "Modem",
+          "wrongAnswer3": "Access Point",
+          "explanation": "A router functions as a network gateway by directing data between different networks, such as between a local home network and the internet.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does a network gateway differ from a network switch?",
+          "correctAnswer": "A network gateway routes traffic between different networks, while a switch connects devices within the same network",
+          "wrongAnswer1": "A network gateway only connects devices wirelessly, a switch uses cables",
+          "wrongAnswer2": "A network gateway stores IP addresses, a switch stores MAC addresses",
+          "wrongAnswer3": "A network gateway encrypts data, a switch does not",
+          "explanation": "Network gateways operate at the network layer and route traffic between different networks. Switches operate at the data link layer connecting devices within a single network and do not route traffic to other networks.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Proxy",
+      "questions": [
+        {
+          "question": "What is the main purpose of a network proxy?",
+          "correctAnswer": "To act as an intermediary for requests from clients seeking resources from other servers",
+          "wrongAnswer1": "To directly connect two devices without any intermediaries",
+          "wrongAnswer2": "To store all data permanently on a local machine",
+          "wrongAnswer3": "To increase the bandwidth of a network connection",
+          "explanation": "A network proxy serves as an intermediary between client devices and the resources they request from servers. It forwards client requests to the server and then sends the server's response back to the clients.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a typical function of a network proxy?",
+          "correctAnswer": "Performing client hardware diagnostics",
+          "wrongAnswer1": "Improving security by filtering content",
+          "wrongAnswer2": "Caching web pages to reduce load times",
+          "wrongAnswer3": "Anonymizing user IP addresses",
+          "explanation": "Network proxies often perform security filtering, caching, and anonymization. However, they do not perform hardware diagnostics on client devices.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does a forward proxy differ from a reverse proxy?",
+          "correctAnswer": "A forward proxy serves clients and a reverse proxy serves servers",
+          "wrongAnswer1": "A forward proxy increases server load while a reverse proxy decreases it",
+          "wrongAnswer2": "A forward proxy encrypts data but a reverse proxy does not",
+          "wrongAnswer3": "A forward proxy only works in wireless networks while a reverse proxy only works in wired networks",
+          "explanation": "A forward proxy acts on behalf of clients seeking resources from servers, while a reverse proxy acts on behalf of servers by handling incoming requests and distributing them accordingly.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Load",
+      "questions": [
+        {
+          "question": "What is meant by network load in computer networks?",
+          "correctAnswer": "The amount of data being transmitted over the network at a given time",
+          "wrongAnswer1": "The number of devices connected to the network",
+          "wrongAnswer2": "The speed of the internet connection",
+          "wrongAnswer3": "The size of the network infrastructure",
+          "explanation": "Network load refers to the amount of data or traffic that is being transmitted through the network at any given moment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does high network load typically affect network performance?",
+          "correctAnswer": "It can cause delays and reduce data transmission speeds",
+          "wrongAnswer1": "It increases the bandwidth available",
+          "wrongAnswer2": "It ensures better connectivity for all devices",
+          "wrongAnswer3": "It improves the security of the network",
+          "explanation": "High network load can cause congestion, leading to delays, packet loss, and slower data transfer rates.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is commonly used to manage network load?",
+          "correctAnswer": "Load balancing",
+          "wrongAnswer1": "Data encryption",
+          "wrongAnswer2": "IP addressing",
+          "wrongAnswer3": "Firewall configuration",
+          "explanation": "Load balancing is a technique used to distribute network traffic evenly across multiple servers or paths to optimize resource use and avoid overload.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Device",
+      "questions": [
+        {
+          "question": "What is the primary function of a router in a computer network?",
+          "correctAnswer": "To forward data packets between different networks",
+          "wrongAnswer1": "To connect devices within the same network segment",
+          "wrongAnswer2": "To convert digital signals to analog signals",
+          "wrongAnswer3": "To filter spam emails",
+          "explanation": "A router connects multiple networks and directs data packets to their destination across these networks. It operates at the network layer and forwards packets based on IP addresses.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which network device is used to connect multiple devices within the same local area network and operates at the data link layer?",
+          "correctAnswer": "Switch",
+          "wrongAnswer1": "Router",
+          "wrongAnswer2": "Modem",
+          "wrongAnswer3": "Firewall",
+          "explanation": "A switch connects devices in a LAN and uses MAC addresses to forward data only to the intended device, reducing congestion compared to hubs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What role does a firewall play in a computer network?",
+          "correctAnswer": "It monitors and controls incoming and outgoing network traffic based on security rules",
+          "wrongAnswer1": "It amplifies network signals to extend reach",
+          "wrongAnswer2": "It assigns IP addresses to devices on a network",
+          "wrongAnswer3": "It serves as a central point for connecting wired devices",
+          "explanation": "A firewall controls network traffic according to defined security policies to protect networks from unauthorized access and threats.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Wireless Spectrum",
+      "questions": [
+        {
+          "question": "What is the primary role of the wireless spectrum in communication?",
+          "correctAnswer": "It carries radio signals for wireless communication.",
+          "wrongAnswer1": "It stores data in wireless devices.",
+          "wrongAnswer2": "It powers wireless devices.",
+          "wrongAnswer3": "It controls the device's software.",
+          "explanation": "The wireless spectrum is a range of electromagnetic frequencies used to transmit radio signals wirelessly, enabling wireless communication such as WiFi and mobile networks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following frequency bands is commonly used for WiFi communication?",
+          "correctAnswer": "2.4 GHz and 5 GHz bands",
+          "wrongAnswer1": "900 MHz band",
+          "wrongAnswer2": "700 MHz band",
+          "wrongAnswer3": "400 MHz band",
+          "explanation": "WiFi commonly uses the 2.4 GHz and 5 GHz frequency bands in the wireless spectrum for data transmission.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is spectrum management important in wireless communications?",
+          "correctAnswer": "To prevent interference between different wireless services.",
+          "wrongAnswer1": "To increase the hardware size of devices.",
+          "wrongAnswer2": "To limit the number of wireless devices used.",
+          "wrongAnswer3": "To reduce internet speeds.",
+          "explanation": "Managing the wireless spectrum ensures that different services do not interfere with each other by efficiently allocating frequency ranges for various uses.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Cable",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a network cable in computer networking?",
+          "correctAnswer": "To connect devices and enable data transmission between them",
+          "wrongAnswer1": "To store data temporarily",
+          "wrongAnswer2": "To provide power to network devices",
+          "wrongAnswer3": "To encrypt data during transmission",
+          "explanation": "A network cable is used to physically connect different devices in a network and allow data to be transmitted between them.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of network cable is most commonly used for fast Ethernet connections?",
+          "correctAnswer": "Cat5e Ethernet cable",
+          "wrongAnswer1": "Coaxial cable",
+          "wrongAnswer2": "Fiber optic cable",
+          "wrongAnswer3": "USB cable",
+          "explanation": "Cat5e Ethernet cables are standard for fast Ethernet (100 Mbps) and gigabit Ethernet (1 Gbps) connections due to their performance and cost-effectiveness.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the main advantage of fiber optic cables over traditional copper network cables?",
+          "correctAnswer": "They transmit data at much higher speeds and over longer distances without signal loss",
+          "wrongAnswer1": "They are easier to install and cheaper",
+          "wrongAnswer2": "They are compatible with all types of network devices without adapters",
+          "wrongAnswer3": "They require less power to operate",
+          "explanation": "Fiber optic cables use light signals which can travel faster and further than electrical signals in copper cables, making them superior for long-distance and high-speed networks.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Switch",
+      "questions": [
+        {
+          "question": "What is the primary function of a network switch?",
+          "correctAnswer": "To connect multiple devices within the same network and forward data based on MAC addresses",
+          "wrongAnswer1": "To assign IP addresses to devices",
+          "wrongAnswer2": "To convert digital signals to analog signals",
+          "wrongAnswer3": "To provide internet access to devices",
+          "explanation": "A network switch connects devices within the same network and uses MAC addresses to forward data to the correct destination.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key difference between a network switch and a hub?",
+          "correctAnswer": "A switch forwards data only to the intended device, while a hub broadcasts data to all devices.",
+          "wrongAnswer1": "A hub can assign IP addresses, but a switch cannot.",
+          "wrongAnswer2": "A switch is only used for wireless connections, while a hub is wired.",
+          "wrongAnswer3": "A hub filters data based on MAC addresses whereas a switch does not.",
+          "explanation": "Unlike hubs, switches send data only to the specific device that needs it, improving efficiency and reducing collisions.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does a network switch learn the addresses of devices on its network?",
+          "correctAnswer": "By reading the source MAC address of incoming frames and storing them in a MAC address table",
+          "wrongAnswer1": "By assigning IP addresses to devices",
+          "wrongAnswer2": "By scanning the network for active devices periodically",
+          "wrongAnswer3": "By broadcasting a request to all devices and waiting for responses",
+          "explanation": "Switches dynamically learn device addresses by observing the source MAC addresses of incoming frames, building a MAC address table to forward traffic properly.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Router",
+      "questions": [
+        {
+          "question": "What is the primary function of a network router?",
+          "correctAnswer": "To forward data packets between different networks",
+          "wrongAnswer1": "To store data for backup purposes",
+          "wrongAnswer2": "To convert digital signals to analog",
+          "wrongAnswer3": "To connect devices within the same network",
+          "explanation": "A network router's main function is to forward data packets between different networks, directing traffic on the internet or other networks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which layer of the OSI model does a router primarily operate on?",
+          "correctAnswer": "Network Layer",
+          "wrongAnswer1": "Data Link Layer",
+          "wrongAnswer2": "Physical Layer",
+          "wrongAnswer3": "Application Layer",
+          "explanation": "Routers operate primarily at the Network Layer (Layer 3) of the OSI model where they route packets based on IP addresses.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is NOT a typical feature of a network router?",
+          "correctAnswer": "Providing IP addresses via DHCP to devices",
+          "wrongAnswer1": "Routing data packets between networks",
+          "wrongAnswer2": "Filtering traffic using access control lists",
+          "wrongAnswer3": "Connecting multiple networks together",
+          "explanation": "While many routers include DHCP server functionality to assign IP addresses, it is not a fundamental feature of all routers. Routing data packets and connecting networks are core router functions, and many also filter traffic using ACLs.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Hub",
+      "questions": [
+        {
+          "question": "What is the primary function of a network hub in computer networking?",
+          "correctAnswer": "To connect multiple Ethernet devices, making them act as a single network segment",
+          "wrongAnswer1": "To route data packets to their destination based on IP addresses",
+          "wrongAnswer2": "To assign IP addresses to devices on a network",
+          "wrongAnswer3": "To convert digital signals to analog signals for transmission",
+          "explanation": "A network hub connects multiple Ethernet devices, creating a single collision domain where data sent by any device is broadcast to all other connected devices.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a characteristic of a traditional network hub?",
+          "correctAnswer": "It broadcasts incoming packets to all ports",
+          "wrongAnswer1": "It sends data only to the intended recipient device",
+          "wrongAnswer2": "It operates at the network layer of the OSI model",
+          "wrongAnswer3": "It can perform packet filtering based on MAC addresses",
+          "explanation": "Traditional network hubs operate at the physical layer and broadcast incoming packets to all ports without any filtering or intelligent routing.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In which layer of the OSI model does a network hub operate?",
+          "correctAnswer": "Physical layer",
+          "wrongAnswer1": "Data link layer",
+          "wrongAnswer2": "Network layer",
+          "wrongAnswer3": "Transport layer",
+          "explanation": "A network hub operates at the physical layer (Layer 1) of the OSI model, dealing with the transmission and reception of raw bit streams rather than packet processing or routing.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Protocol",
+      "questions": [
+        {
+          "question": "What is the primary function of a network protocol in computer networks?",
+          "correctAnswer": "To establish rules for data communication between devices",
+          "wrongAnswer1": "To provide physical connectivity between devices",
+          "wrongAnswer2": "To encrypt data before transmission",
+          "wrongAnswer3": "To store data within the network",
+          "explanation": "A network protocol defines the rules and conventions for communication between network devices, enabling them to exchange data effectively.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of a network protocol?",
+          "correctAnswer": "Transmission Control Protocol",
+          "wrongAnswer1": "Random Access Memory",
+          "wrongAnswer2": "Central Processing Unit",
+          "wrongAnswer3": "Solid State Drive",
+          "explanation": "Transmission Control Protocol (TCP) is a core network protocol used for reliable data transmission in computer networks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why are network protocols important for interoperability in networks?",
+          "correctAnswer": "They provide standardized communication methods for different devices to understand each other",
+          "wrongAnswer1": "They increase the speed of the Internet connection",
+          "wrongAnswer2": "They limit the number of devices that can connect to a network",
+          "wrongAnswer3": "They prevent physical damage to network cables",
+          "explanation": "Network protocols ensure that devices from different manufacturers can communicate in a standardized way, enabling interoperability across diverse networks.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Socket",
+      "questions": [
+        {
+          "question": "What is a network socket primarily used for?",
+          "correctAnswer": "To enable communication between two devices over a network",
+          "wrongAnswer1": "To store data on a server",
+          "wrongAnswer2": "To secure a network connection",
+          "wrongAnswer3": "To increase the speed of the internet",
+          "explanation": "A network socket is an endpoint for sending or receiving data across a computer network, facilitating communication between two devices.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which two components uniquely identify a network socket on the internet?",
+          "correctAnswer": "IP address and port number",
+          "wrongAnswer1": "MAC address and IP address",
+          "wrongAnswer2": "Port number and subnet mask",
+          "wrongAnswer3": "IP address and domain name",
+          "explanation": "A network socket is uniquely identified by a combination of an IP address and a port number, allowing proper routing of data to and from specific applications on a device.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the context of network sockets, what does the term 'bind' refer to?",
+          "correctAnswer": "Associating a socket with a specific IP address and port",
+          "wrongAnswer1": "Closing an active socket connection",
+          "wrongAnswer2": "Sending data through a socket",
+          "wrongAnswer3": "Listening for incoming connections",
+          "explanation": "The 'bind' operation ties a socket to a specific local IP address and port number so it can listen for incoming data on that endpoint.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Packet",
+      "questions": [
+        {
+          "question": "What is the main purpose of a network packet in computer networks?",
+          "correctAnswer": "To transmit data between devices across a network",
+          "wrongAnswer1": "To store data permanently on a device",
+          "wrongAnswer2": "To provide network security encryption",
+          "wrongAnswer3": "To manage hardware devices in a network",
+          "explanation": "A network packet is a formatted unit of data carried by a packet-switched network. Its main purpose is to transmit data between devices over a network efficiently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which part of a network packet typically contains information about the source and destination?",
+          "correctAnswer": "Packet header",
+          "wrongAnswer1": "Packet payload",
+          "wrongAnswer2": "Packet trailer",
+          "wrongAnswer3": "Packet checksum",
+          "explanation": "The packet header contains control information such as source and destination addresses, which are essential for routing the packet across the network.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the context of network packets, what does the payload refer to?",
+          "correctAnswer": "The actual data being transmitted",
+          "wrongAnswer1": "The routing information of the packet",
+          "wrongAnswer2": "The error detection code",
+          "wrongAnswer3": "The packet size indicator",
+          "explanation": "The payload of a network packet is the actual data that needs to be delivered to the destination, separate from the header and trailer which contain control and error-checking information.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Traffic",
+      "questions": [
+        {
+          "question": "What is network traffic in computer networks?",
+          "correctAnswer": "The amount of data moving across a network at any given time",
+          "wrongAnswer1": "The physical cables connecting computers",
+          "wrongAnswer2": "The software used to configure a network",
+          "wrongAnswer3": "The security protocols used in a network",
+          "explanation": "Network traffic refers to the data moving across a network at any given time, which can include files, communications, and other forms of information exchange.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes the impact of high network traffic?",
+          "correctAnswer": "It can cause network congestion and slow down data transmission",
+          "wrongAnswer1": "It increases the number of connected devices",
+          "wrongAnswer2": "It reduces the risk of network attacks",
+          "wrongAnswer3": "It automatically upgrades network hardware",
+          "explanation": "High network traffic can lead to congestion, causing delays and slower data transmission as the network struggles to handle the large volume of data.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which tool is commonly used to analyze network traffic?",
+          "correctAnswer": "Wireshark",
+          "wrongAnswer1": "Photoshop",
+          "wrongAnswer2": "Microsoft Word",
+          "wrongAnswer3": "Slack",
+          "explanation": "Wireshark is a popular network protocol analyzer used to capture and analyze packets of data traveling through a network, helping to understand network traffic patterns.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Fault",
+      "questions": [
+        {
+          "question": "What is a network fault?",
+          "correctAnswer": "An issue or failure in the network that disrupts communication",
+          "wrongAnswer1": "A type of network protocol",
+          "wrongAnswer2": "A hardware device used in networks",
+          "wrongAnswer3": "A software used to configure a network",
+          "explanation": "A network fault refers to any problem or failure in the network infrastructure that causes disruption of data communication between devices.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a common cause of network faults?",
+          "correctAnswer": "Correct cable connection",
+          "wrongAnswer1": "Hardware failure",
+          "wrongAnswer2": "Software bugs",
+          "wrongAnswer3": "Configuration errors",
+          "explanation": "Network faults can be caused by hardware failure, software bugs, or configuration errors. A correct cable connection does not cause a fault, but rather prevents one.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the primary purpose of fault detection in a computer network?",
+          "correctAnswer": "To identify and isolate network problems quickly",
+          "wrongAnswer1": "To increase network speed",
+          "wrongAnswer2": "To design new network protocols",
+          "wrongAnswer3": "To encrypt network data",
+          "explanation": "Fault detection helps administrators quickly identify and isolate network problems, minimizing downtime and maintaining network performance.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Loop",
+      "questions": [
+        {
+          "question": "What is a network loop in computer networking?",
+          "correctAnswer": "A situation where a data packet continuously circulates in a network causing disruption",
+          "wrongAnswer1": "A backup connection to enhance network reliability",
+          "wrongAnswer2": "A method to speed up data transmission",
+          "wrongAnswer3": "A security protocol for wireless networks",
+          "explanation": "A network loop occurs when data packets continuously circulate due to redundant paths without proper loop prevention, causing network disruption.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which device is typically used to prevent network loops in a switched network?",
+          "correctAnswer": "Spanning Tree Protocol (STP)",
+          "wrongAnswer1": "Dynamic Host Configuration Protocol (DHCP)",
+          "wrongAnswer2": "Domain Name System (DNS)",
+          "wrongAnswer3": "Simple Mail Transfer Protocol (SMTP)",
+          "explanation": "Spanning Tree Protocol (STP) is used in switched networks to detect and prevent loops by blocking redundant paths.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a common consequence of a network loop in an Ethernet network?",
+          "correctAnswer": "Broadcast storm leading to network congestion",
+          "wrongAnswer1": "Increased network security",
+          "wrongAnswer2": "Reduced electrical interference",
+          "wrongAnswer3": "Improved routing efficiency",
+          "explanation": "Network loops can cause broadcast storms where packets circulate endlessly, congesting and disrupting the network.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Network",
+      "concept": "Network Simulation",
+      "questions": [
+        {
+          "question": "What is the main purpose of network simulation in computer networking?",
+          "correctAnswer": "To model and analyze the behavior of networks without physical hardware",
+          "wrongAnswer1": "To build actual physical network hardware",
+          "wrongAnswer2": "To connect networks in real-time",
+          "wrongAnswer3": "To encrypt data transmissions",
+          "explanation": "Network simulation allows researchers and engineers to study network behavior, performance, and protocols without the need for costly physical equipment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a commonly used tool for network simulation?",
+          "correctAnswer": "NS2 or NS3",
+          "wrongAnswer1": "Adobe Photoshop",
+          "wrongAnswer2": "Microsoft Word",
+          "wrongAnswer3": "AutoCAD",
+          "explanation": "NS2 and NS3 are popular network simulator tools used to model the performance of networks and protocols.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is one significant advantage of using network simulation over real network testing?",
+          "correctAnswer": "It allows testing of network designs under different scenarios without hardware costs",
+          "wrongAnswer1": "It guarantees perfect network performance",
+          "wrongAnswer2": "It replaces the need for network security measures",
+          "wrongAnswer3": "It automatically fixes network issues",
+          "explanation": "Network simulation enables experimentation with various configurations and conditions without the expense and limitations of physical setups.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

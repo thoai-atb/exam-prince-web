@@ -1,0 +1,1655 @@
+{
+  "topic": "Linux",
+  "concepts": [
+    {
+      "topic": "Linux",
+      "concept": "Linux Kernel",
+      "questions": [
+        {
+          "question": "What is the primary role of the Linux Kernel?",
+          "correctAnswer": "To manage hardware resources and provide essential services to software",
+          "wrongAnswer1": "To provide a user interface for Linux systems",
+          "wrongAnswer2": "To store user data securely",
+          "wrongAnswer3": "To compile programs automatically",
+          "explanation": "The Linux Kernel is the core component of the operating system responsible for managing hardware resources like CPU, memory, and devices, and providing essential services to software applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which programming language is predominantly used to write the Linux Kernel?",
+          "correctAnswer": "C",
+          "wrongAnswer1": "Python",
+          "wrongAnswer2": "Java",
+          "wrongAnswer3": "Ruby",
+          "explanation": "The Linux Kernel is mainly written in C language, which allows efficient low-level hardware interaction and performance.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is NOT a function of the Linux Kernel?",
+          "correctAnswer": "Running user applications",
+          "wrongAnswer1": "Memory management",
+          "wrongAnswer2": "Process scheduling",
+          "wrongAnswer3": "Device driver management",
+          "explanation": "The Linux Kernel manages hardware resources and system processes but does not run user applications directly; that is handled by user-space programs.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Open Source",
+      "questions": [
+        {
+          "question": "What does it mean for Linux to be open source?",
+          "correctAnswer": "Its source code is freely available for anyone to view, modify, and distribute.",
+          "wrongAnswer1": "It is a paid software licensed to a limited number of users.",
+          "wrongAnswer2": "It can only be used in government organizations.",
+          "wrongAnswer3": "It is developed only by a single company and not shared with others.",
+          "explanation": "Open source means that the source code is available to the public so anyone can inspect, modify, and share the software.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key benefit of Linux being open source?",
+          "correctAnswer": "Users can customize the operating system to fit their needs.",
+          "wrongAnswer1": "Users must pay for each customization.",
+          "wrongAnswer2": "The software cannot be changed after installation.",
+          "wrongAnswer3": "Only the original developers can update the system.",
+          "explanation": "Since Linux is open source, users and developers can modify and customize the software to meet specific needs.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Who typically contributes to the development of open source software like Linux?",
+          "correctAnswer": "A community of developers from around the world.",
+          "wrongAnswer1": "Only employees of one software company.",
+          "wrongAnswer2": "Government officials exclusively.",
+          "wrongAnswer3": "Professional hackers.",
+          "explanation": "Open source projects like Linux are usually developed collaboratively by a global community of developers.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Command Line",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Linux command line?",
+          "correctAnswer": "To execute commands and manage the system",
+          "wrongAnswer1": "To browse websites",
+          "wrongAnswer2": "To design graphics",
+          "wrongAnswer3": "To play music",
+          "explanation": "The Linux command line is used to execute commands and perform system management tasks, rather than activities like browsing websites or playing media.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to list files and directories in Linux command line?",
+          "correctAnswer": "ls",
+          "wrongAnswer1": "list",
+          "wrongAnswer2": "dirlist",
+          "wrongAnswer3": "showfiles",
+          "explanation": "The 'ls' command is used in Linux to list files and directories within the current directory.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you change the current directory in the Linux command line?",
+          "correctAnswer": "Using the cd command followed by the directory name",
+          "wrongAnswer1": "Using the change command",
+          "wrongAnswer2": "Using the mv command",
+          "wrongAnswer3": "Using the dir command",
+          "explanation": "The 'cd' command is used to change the current working directory to any specified directory in the Linux command line.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Shell Scripting",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a shell script in Linux?",
+          "correctAnswer": "To automate tasks by executing a series of commands",
+          "wrongAnswer1": "To provide a graphical interface for the user",
+          "wrongAnswer2": "To manage user permissions",
+          "wrongAnswer3": "To compile source code into executable files",
+          "explanation": "Shell scripts are used to automate repetitive tasks by executing a series of commands automatically.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which symbol is commonly used to indicate a comment in a shell script?",
+          "correctAnswer": "#",
+          "wrongAnswer1": "//",
+          "wrongAnswer2": "<!--",
+          "wrongAnswer3": "/*",
+          "explanation": "In shell scripting, the hash symbol (#) is used to start a comment, which is ignored during execution.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What command is used to make a shell script executable in Linux?",
+          "correctAnswer": "chmod +x scriptname",
+          "wrongAnswer1": "execute scriptname",
+          "wrongAnswer2": "run scriptname",
+          "wrongAnswer3": "open scriptname",
+          "explanation": "The chmod command with the +x option sets the executable permission on the script file.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "File System",
+      "questions": [
+        {
+          "question": "What is the root directory in a Linux file system?",
+          "correctAnswer": "It is the top-level directory represented by a single slash",
+          "wrongAnswer1": "It is the home directory of the user",
+          "wrongAnswer2": "It is the directory where user files are stored",
+          "wrongAnswer3": "It is a temporary storage directory",
+          "explanation": "The root directory is the highest level directory in a Linux file system hierarchy, denoted by a single slash (/), and all other directories branch out from it.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to display the current directory in Linux?",
+          "correctAnswer": "pwd",
+          "wrongAnswer1": "ls",
+          "wrongAnswer2": "cd",
+          "wrongAnswer3": "mkdir",
+          "explanation": "The pwd command prints the current working directory in Linux, showing the full path from the root.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the purpose of the /etc directory in a Linux file system?",
+          "correctAnswer": "It contains system configuration files",
+          "wrongAnswer1": "It stores user documents",
+          "wrongAnswer2": "It holds executable binaries",
+          "wrongAnswer3": "It is used for temporary files",
+          "explanation": "The /etc directory is used for storing configuration files that affect the system’s behavior and settings.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Package Manager",
+      "questions": [
+        {
+          "question": "What is the primary function of a package manager in Linux?",
+          "correctAnswer": "To automate the process of installing, updating, and removing software packages",
+          "wrongAnswer1": "To manage user permissions in the Linux system",
+          "wrongAnswer2": "To monitor system performance and resource usage",
+          "wrongAnswer3": "To compile source code into executable files",
+          "explanation": "A package manager in Linux automates the installation, update, and removal of software packages, handling dependencies and ensuring the software is correctly installed and configured.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a popular package manager used in Debian-based Linux distributions?",
+          "correctAnswer": "APT",
+          "wrongAnswer1": "YUM",
+          "wrongAnswer2": "Pacman",
+          "wrongAnswer3": "Zypper",
+          "explanation": "APT (Advanced Package Tool) is the package manager used in Debian-based systems like Ubuntu, facilitating the installation and management of software packages.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the command 'yum update' do in a Linux system that uses YUM as a package manager?",
+          "correctAnswer": "It updates all installed packages to the newest available versions",
+          "wrongAnswer1": "It removes all installed packages",
+          "wrongAnswer2": "It installs new packages from the software repository",
+          "wrongAnswer3": "It cleans the package cache",
+          "explanation": "The 'yum update' command upgrades all installed packages to their latest available versions from the configured repositories in Linux systems using YUM.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Kernel Modules",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a kernel module in Linux?",
+          "correctAnswer": "To extend the functionality of the kernel without rebooting",
+          "wrongAnswer1": "To provide a graphical user interface",
+          "wrongAnswer2": "To manage user permissions",
+          "wrongAnswer3": "To install software packages",
+          "explanation": "Kernel modules allow the Linux kernel to be extended dynamically, enabling new features or drivers without the need to reboot the system.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to load a kernel module in Linux?",
+          "correctAnswer": "insmod",
+          "wrongAnswer1": "rmmod",
+          "wrongAnswer2": "modprobe -r",
+          "wrongAnswer3": "lsmod",
+          "explanation": "The insmod command inserts a module into the Linux kernel. rmmod removes a module, modprobe removes a module with dependencies, and lsmod lists currently loaded modules.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What file extension do kernel modules typically have in Linux?",
+          "correctAnswer": ".ko",
+          "wrongAnswer1": ".exe",
+          "wrongAnswer2": ".mod",
+          "wrongAnswer3": ".bin",
+          "explanation": "Kernel modules in Linux typically have the .ko extension, which stands for kernel object files.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "System Call",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a system call in Linux?",
+          "correctAnswer": "To request services from the kernel",
+          "wrongAnswer1": "To execute user programs directly",
+          "wrongAnswer2": "To manage network configurations",
+          "wrongAnswer3": "To format the file system",
+          "explanation": "A system call allows user-space applications to request services from the kernel, such as accessing hardware or system resources.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of a Linux system call?",
+          "correctAnswer": "fork",
+          "wrongAnswer1": "ls",
+          "wrongAnswer2": "cd",
+          "wrongAnswer3": "echo",
+          "explanation": "fork is a system call used to create a new process by duplicating the calling process, whereas ls, cd, and echo are shell commands.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do system calls in Linux differ from regular function calls?",
+          "correctAnswer": "They transition from user mode to kernel mode",
+          "wrongAnswer1": "They execute faster than regular function calls",
+          "wrongAnswer2": "They bypass memory protection",
+          "wrongAnswer3": "They are only available in user space",
+          "explanation": "System calls switch the processor to kernel mode to safely execute privileged operations, unlike regular function calls that operate entirely in user mode.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Process Management",
+      "questions": [
+        {
+          "question": "What command in Linux is used to display currently running processes?",
+          "correctAnswer": "ps",
+          "wrongAnswer1": "ls",
+          "wrongAnswer2": "cd",
+          "wrongAnswer3": "mv",
+          "explanation": "The 'ps' command is used to display information about active processes in Linux.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which signal is used to terminate a process immediately in Linux?",
+          "correctAnswer": "SIGKILL",
+          "wrongAnswer1": "SIGSTOP",
+          "wrongAnswer2": "SIGTERM",
+          "wrongAnswer3": "SIGCONT",
+          "explanation": "SIGKILL is a signal used to immediately terminate a process. It cannot be caught or ignored by the process.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the difference between a foreground process and a background process in Linux?",
+          "correctAnswer": "Foreground processes occupy the terminal and background processes run without terminal interaction.",
+          "wrongAnswer1": "Background processes use more CPU than foreground processes.",
+          "wrongAnswer2": "Foreground processes cannot be stopped once started, background processes can.",
+          "wrongAnswer3": "There is no difference; they are the same.",
+          "explanation": "Foreground processes are those that require terminal interaction and occupy the terminal until they complete. Background processes run independently without tying up the terminal.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "User Permissions",
+      "questions": [
+        {
+          "question": "What permission allows a user to modify a file in Linux?",
+          "correctAnswer": "Write permission",
+          "wrongAnswer1": "Execute permission",
+          "wrongAnswer2": "Read permission",
+          "wrongAnswer3": "Delete permission",
+          "explanation": "Write permission allows a user to change the contents of a file. Execute permission allows running a file as a program, and read permission allows viewing the contents.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Linux file permissions, what does the 'rwx' stand for for a user?",
+          "correctAnswer": "Read, write, and execute permissions",
+          "wrongAnswer1": "Read, write, and wait permissions",
+          "wrongAnswer2": "Run, write, and execute permissions",
+          "wrongAnswer3": "Read, write, and edit permissions",
+          "explanation": "'rwx' represents read, write, and execute permissions respectively for a user in Linux.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to change the permissions of a file in Linux?",
+          "correctAnswer": "chmod",
+          "wrongAnswer1": "chown",
+          "wrongAnswer2": "ls",
+          "wrongAnswer3": "passwd",
+          "explanation": "The chmod command is used to change the permissions of a file or directory in Linux. Chown changes ownership, ls lists files, and passwd changes user passwords.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Bash Shell",
+      "questions": [
+        {
+          "question": "What does Bash stand for in Linux?",
+          "correctAnswer": "Bourne Again SHell",
+          "wrongAnswer1": "Basic Shell",
+          "wrongAnswer2": "Binary Shell",
+          "wrongAnswer3": "Bash Automated SHell",
+          "explanation": "Bash stands for Bourne Again SHell, which is a successor to the original Bourne shell (sh). It is the default shell on many Linux distributions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to list files and directories in Bash?",
+          "correctAnswer": "ls",
+          "wrongAnswer1": "list",
+          "wrongAnswer2": "dirlist",
+          "wrongAnswer3": "show",
+          "explanation": "The ls command is used in Bash to list files and directories in the current directory.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you create a new variable in Bash shell?",
+          "correctAnswer": "variableName=value",
+          "wrongAnswer1": "set variableName=value",
+          "wrongAnswer2": "create variableName=value",
+          "wrongAnswer3": "var variableName=value",
+          "explanation": "Variables in Bash are created by simply assigning a value using the syntax variableName=value without spaces around the equals sign.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Cron Jobs",
+      "questions": [
+        {
+          "question": "What is a cron job in Linux?",
+          "correctAnswer": "A scheduled task that runs automatically at specified intervals",
+          "wrongAnswer1": "A command to start the Linux kernel",
+          "wrongAnswer2": "A user account management tool",
+          "wrongAnswer3": "A file system repair utility",
+          "explanation": "A cron job is a scheduled task in Linux that runs automatically at specified times and intervals using the cron daemon.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Where are user-specific cron jobs typically stored in Linux?",
+          "correctAnswer": "In the crontab file of the user",
+          "wrongAnswer1": "In the /etc/passwd file",
+          "wrongAnswer2": "In the /var/log directory",
+          "wrongAnswer3": "In the /etc/fstab file",
+          "explanation": "User-specific cron jobs are stored in the user's crontab file, which can be edited using the crontab command.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which command is used to edit the current user's cron jobs?",
+          "correctAnswer": "crontab -e",
+          "wrongAnswer1": "cronedit",
+          "wrongAnswer2": "cronjob -edit",
+          "wrongAnswer3": "editcrontab",
+          "explanation": "The command crontab -e is used to edit the current user's cron jobs by opening the crontab file in the default text editor.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Systemd Services",
+      "questions": [
+        {
+          "question": "What is the primary function of systemd in modern Linux distributions?",
+          "correctAnswer": "To initialize and manage system services and the system state during booting and runtime",
+          "wrongAnswer1": "To provide a graphical user interface for Linux systems",
+          "wrongAnswer2": "To compile the Linux kernel",
+          "wrongAnswer3": "To serve as a package manager",
+          "explanation": "Systemd is a system and service manager for Linux operating systems that initializes system components and services during bootup and manages them throughout the system runtime.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to start a systemd service immediately?",
+          "correctAnswer": "systemctl start service_name",
+          "wrongAnswer1": "service service_name start",
+          "wrongAnswer2": "start service_name",
+          "wrongAnswer3": "initctl start service_name",
+          "explanation": "The systemctl command is the main command to interact with systemd and start services immediately using 'systemctl start service_name'.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What file extension do systemd service files typically have?",
+          "correctAnswer": ".service",
+          "wrongAnswer1": ".conf",
+          "wrongAnswer2": ".sh",
+          "wrongAnswer3": ".sys",
+          "explanation": "Systemd service files generally use the .service extension to define service configuration which systemd uses to manage the service.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Device Drivers",
+      "questions": [
+        {
+          "question": "What is the primary role of a device driver in a Linux system?",
+          "correctAnswer": "To act as an interface between the hardware device and the operating system",
+          "wrongAnswer1": "To manage user permissions",
+          "wrongAnswer2": "To compile the Linux kernel",
+          "wrongAnswer3": "To provide network connectivity",
+          "explanation": "Device drivers in Linux serve as a software interface that allows the operating system to communicate with hardware devices, managing the device operations and data exchanges.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command can be used to list all currently loaded device drivers in Linux?",
+          "correctAnswer": "lsmod",
+          "wrongAnswer1": "modprobe",
+          "wrongAnswer2": "insmod",
+          "wrongAnswer3": "rmmod",
+          "explanation": "The lsmod command displays the status of modules in the Linux Kernel, showing all currently loaded device drivers.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In Linux, what is the purpose of the /dev directory?",
+          "correctAnswer": "It contains special files that represent devices",
+          "wrongAnswer1": "It stores device drivers source code",
+          "wrongAnswer2": "It is where system logs are saved",
+          "wrongAnswer3": "It contains kernel configuration files",
+          "explanation": "The /dev directory holds device files which represent physical or virtual devices, allowing user-space programs to interact with the hardware through these device nodes.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Ubuntu Distribution",
+      "questions": [
+        {
+          "question": "What is a primary characteristic of the Ubuntu Linux distribution?",
+          "correctAnswer": "It is user-friendly and suitable for beginners.",
+          "wrongAnswer1": "It is designed exclusively for servers.",
+          "wrongAnswer2": "It does not support graphical user interfaces.",
+          "wrongAnswer3": "It is only compatible with proprietary software.",
+          "explanation": "Ubuntu is well-known for being user-friendly and is often recommended for those new to Linux, offering a strong community and support for desktop environments.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which company primarily develops the Ubuntu Linux distribution?",
+          "correctAnswer": "Canonical Ltd.",
+          "wrongAnswer1": "Red Hat Inc.",
+          "wrongAnswer2": "Debian Project",
+          "wrongAnswer3": "OpenSUSE Project",
+          "explanation": "Canonical Ltd. is the company that develops and maintains Ubuntu, unlike other distributions which are community driven or maintained by other entities.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What package management system does Ubuntu use by default?",
+          "correctAnswer": "APT (Advanced Package Tool)",
+          "wrongAnswer1": "Yum",
+          "wrongAnswer2": "Pacman",
+          "wrongAnswer3": "Zypper",
+          "explanation": "Ubuntu uses the APT package management system by default, which is derived from Debian, making software installation and updates straightforward.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Fedora Distribution",
+      "questions": [
+        {
+          "question": "What is Fedora Linux primarily known for?",
+          "correctAnswer": "Being a cutting-edge distribution that integrates the latest technologies",
+          "wrongAnswer1": "Being a long-term support distribution with minimal updates",
+          "wrongAnswer2": "Exclusively designed for enterprise servers",
+          "wrongAnswer3": "A distribution that only runs on ARM architecture",
+          "explanation": "Fedora Linux is recognized for being a leading-edge distribution that often incorporates the newest software and technologies before other distributions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which organization sponsors the Fedora Project?",
+          "correctAnswer": "Red Hat",
+          "wrongAnswer1": "Debian Project",
+          "wrongAnswer2": "Canonical",
+          "wrongAnswer3": "SUSE",
+          "explanation": "The Fedora Project is sponsored by Red Hat and serves as a community-driven project for innovation and development.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which package management system is Fedora known to use?",
+          "correctAnswer": "DNF (Dandified Yum)",
+          "wrongAnswer1": "APT (Advanced Package Tool)",
+          "wrongAnswer2": "Pacman",
+          "wrongAnswer3": "Zypper",
+          "explanation": "Fedora uses DNF as its package manager, which is the successor to the older YUM system, for managing and updating software packages.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Debian Distribution",
+      "questions": [
+        {
+          "question": "What is Debian known for in the Linux community?",
+          "correctAnswer": "Being a stable and versatile Linux distribution",
+          "wrongAnswer1": "Being a game development platform",
+          "wrongAnswer2": "Being a Windows alternative with exclusive software",
+          "wrongAnswer3": "A programming language",
+          "explanation": "Debian is known for its stability and versatility as a Linux distribution, widely used on servers and desktops.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What package management system does Debian use?",
+          "correctAnswer": "APT with DEB packages",
+          "wrongAnswer1": "RPM with YUM packages",
+          "wrongAnswer2": "Pacman with TGZ packages",
+          "wrongAnswer3": "Snap packages only",
+          "explanation": "Debian uses the Advanced Package Tool (APT) with DEB packages for software management.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following best describes the release philosophy of Debian?",
+          "correctAnswer": "Focus on stability with releases after thorough testing",
+          "wrongAnswer1": "Frequent rolling releases with latest software",
+          "wrongAnswer2": "Releases timed with new hardware launches",
+          "wrongAnswer3": "Only updated via paid support subscriptions",
+          "explanation": "Debian prioritizes stability and releases new versions after rigorous testing, making it reliable for servers and production environments.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Red Hat",
+      "questions": [
+        {
+          "question": "What is Red Hat in the context of Linux?",
+          "correctAnswer": "A popular enterprise Linux distribution",
+          "wrongAnswer1": "A Linux text editor",
+          "wrongAnswer2": "A Linux web browser",
+          "wrongAnswer3": "A hardware manufacturer",
+          "explanation": "Red Hat is well known as a major provider of enterprise Linux distributions designed for commercial use.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which company develops the Red Hat Enterprise Linux distribution?",
+          "correctAnswer": "Red Hat Inc.",
+          "wrongAnswer1": "Canonical Ltd.",
+          "wrongAnswer2": "SUSE",
+          "wrongAnswer3": "Debian Project",
+          "explanation": "Red Hat Enterprise Linux is developed by Red Hat Inc., a company specializing in open source solutions.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the primary package management system used by Red Hat Linux?",
+          "correctAnswer": "RPM Package Manager",
+          "wrongAnswer1": "APT",
+          "wrongAnswer2": "dpkg",
+          "wrongAnswer3": "Pacman",
+          "explanation": "Red Hat uses the RPM Package Manager for handling software packages, unlike Debian-based systems which use APT and dpkg.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "CentOS Linux",
+      "questions": [
+        {
+          "question": "What is CentOS Linux primarily known for?",
+          "correctAnswer": "Being a free, community-supported rebuild of Red Hat Enterprise Linux",
+          "wrongAnswer1": "A proprietary Linux distribution developed by IBM",
+          "wrongAnswer2": "A Linux distribution for desktop gaming",
+          "wrongAnswer3": "An operating system designed exclusively for mobile devices",
+          "explanation": "CentOS Linux is well known for being a free and open-source community-driven version that rebuilds Red Hat Enterprise Linux, aiming for binary compatibility.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which company is the original source of the packages used to build CentOS Linux?",
+          "correctAnswer": "Red Hat",
+          "wrongAnswer1": "Canonical",
+          "wrongAnswer2": "SUSE",
+          "wrongAnswer3": "Debian",
+          "explanation": "CentOS Linux is built from the source code of Red Hat Enterprise Linux, making Red Hat the original source of the packages.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What was a major change announced for CentOS Linux starting from version 8?",
+          "correctAnswer": "CentOS Linux 8 was discontinued and replaced by CentOS Stream as the main release.",
+          "wrongAnswer1": "CentOS no longer supports any server deployments.",
+          "wrongAnswer2": "CentOS switched to using the Debian package format.",
+          "wrongAnswer3": "CentOS became a commercial, paid-only distribution.",
+          "explanation": "Starting with CentOS 8, the project shifted focus to CentOS Stream, which serves as a rolling preview of Red Hat Enterprise Linux development, discontinuing traditional CentOS Linux releases.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Linux Mint",
+      "questions": [
+        {
+          "question": "What is Linux Mint primarily known for?",
+          "correctAnswer": "A user-friendly Linux distribution based on Ubuntu",
+          "wrongAnswer1": "A programming language",
+          "wrongAnswer2": "A hardware device",
+          "wrongAnswer3": "A proprietary operating system",
+          "explanation": "Linux Mint is a popular Linux distribution known for its ease of use and its Ubuntu base, making Linux accessible to beginners.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which desktop environment is commonly associated with Linux Mint?",
+          "correctAnswer": "Cinnamon",
+          "wrongAnswer1": "Windows Aero",
+          "wrongAnswer2": "GNOME Shell exclusively",
+          "wrongAnswer3": "KDE Plasma exclusively",
+          "explanation": "Linux Mint is commonly associated with the Cinnamon desktop environment, though it also supports MATE and Xfce, providing a familiar user experience.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which statement best describes Linux Mint's approach to software management?",
+          "correctAnswer": "It uses APT package management with access to Ubuntu repositories",
+          "wrongAnswer1": "It only uses proprietary software packages",
+          "wrongAnswer2": "It uses RPM packages from Fedora repositories",
+          "wrongAnswer3": "It requires manual installation of all software",
+          "explanation": "Linux Mint uses the APT package manager and has access to Ubuntu repositories, making software installation and updates straightforward.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Kernel Panic",
+      "questions": [
+        {
+          "question": "What is a kernel panic in Linux?",
+          "correctAnswer": "A critical error detected by the kernel causing the system to halt",
+          "wrongAnswer1": "A scheduled system update",
+          "wrongAnswer2": "A normal shutdown process",
+          "wrongAnswer3": "A routine hardware check",
+          "explanation": "A kernel panic is a safety measure taken by an operating system's kernel when it detects an internal fatal error from which it cannot safely recover, resulting in a system halt.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common cause of a kernel panic in Linux?",
+          "correctAnswer": "Faulty device driver or hardware issue",
+          "wrongAnswer1": "Normal user login",
+          "wrongAnswer2": "Updating user applications",
+          "wrongAnswer3": "Running a web server",
+          "explanation": "Kernel panics often occur due to faulty drivers, corrupted kernel data structures, or hardware failures that the kernel cannot resolve.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the typical action taken by a Linux system when a kernel panic occurs?",
+          "correctAnswer": "It stops all processes and displays an error message",
+          "wrongAnswer1": "It automatically restarts the system silently",
+          "wrongAnswer2": "It completes all ongoing processes before shutting down",
+          "wrongAnswer3": "It logs out current users but keeps the system running",
+          "explanation": "When a kernel panic occurs, Linux halts all operations and often displays diagnostic information to help identify the cause, ensuring no data corruption occurs.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Package Repository",
+      "questions": [
+        {
+          "question": "What is the main purpose of a package repository in Linux?",
+          "correctAnswer": "To store and distribute software packages for easy installation and updates",
+          "wrongAnswer1": "To compile source code into executable files",
+          "wrongAnswer2": "To store user data and documents",
+          "wrongAnswer3": "To monitor system performance",
+          "explanation": "A package repository is a centralized storage location where software packages are kept. It facilitates easy installation, updates, and management of software on Linux systems.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is commonly used to interact with package repositories on Debian-based Linux systems?",
+          "correctAnswer": "apt-get",
+          "wrongAnswer1": "yum",
+          "wrongAnswer2": "rpm",
+          "wrongAnswer3": "make",
+          "explanation": "On Debian-based systems, apt-get is the common command line tool to interact with package repositories for installing, updating, and removing packages.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does it mean when a package repository is described as 'mirrored'?",
+          "correctAnswer": "It is copied and hosted on multiple servers to distribute the load and improve availability",
+          "wrongAnswer1": "It is only available locally on one computer",
+          "wrongAnswer2": "It contains only source code and no binaries",
+          "wrongAnswer3": "It automatically updates the software without user intervention",
+          "explanation": "Mirroring a package repository means copying its content to multiple servers, which helps distribute network load and ensures better availability and faster download speeds for users.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Virtual File System",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Virtual File System in Linux?",
+          "correctAnswer": "To provide a uniform interface for different file system types",
+          "wrongAnswer1": "To manage physical memory allocation",
+          "wrongAnswer2": "To control user permissions",
+          "wrongAnswer3": "To handle network traffic",
+          "explanation": "The Virtual File System (VFS) in Linux acts as an abstraction layer that provides a uniform interface to different file system types, allowing the operating system to access different file systems in a consistent manner.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes the role of the Virtual File System in Linux?",
+          "correctAnswer": "It abstracts file system operations to support multiple file system types transparently",
+          "wrongAnswer1": "It converts Linux file paths to Windows format",
+          "wrongAnswer2": "It manages hardware drivers for storage devices",
+          "wrongAnswer3": "It encrypts files stored on disk",
+          "explanation": "The VFS allows Linux to support multiple different file systems by abstracting file system operations. This means applications can work with files regardless of the underlying file system type.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In Linux, how does the Virtual File System (VFS) improve system flexibility?",
+          "correctAnswer": "By enabling simultaneous support for multiple file system implementations",
+          "wrongAnswer1": "By reducing the number of system calls needed for file operations",
+          "wrongAnswer2": "By storing files in a single universal format",
+          "wrongAnswer3": "By preventing user access to system files",
+          "explanation": "The VFS improves flexibility by allowing the kernel to interface with different file system implementations at the same time, making it easier to add support for new file systems without changing user programs.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Linux Containers",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Linux containers?",
+          "correctAnswer": "To isolate applications and their dependencies within a shared operating system",
+          "wrongAnswer1": "To virtualize hardware resources entirely",
+          "wrongAnswer2": "To serve as a replacement for the Linux kernel",
+          "wrongAnswer3": "To manage user permissions across multiple hosts",
+          "explanation": "Linux containers provide lightweight isolation by sharing the host OS kernel while encapsulating an application's environment including dependencies, enabling consistent deployment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following technologies is commonly used to create Linux containers?",
+          "correctAnswer": "Docker",
+          "wrongAnswer1": "VirtualBox",
+          "wrongAnswer2": "KVM",
+          "wrongAnswer3": "VMware",
+          "explanation": "Docker is widely used for creating and managing Linux containers by packaging applications with their dependencies into container images.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do Linux containers differ from virtual machines?",
+          "correctAnswer": "Containers share the host OS kernel, virtual machines run a full guest OS",
+          "wrongAnswer1": "Containers emulate hardware, while VMs share the OS",
+          "wrongAnswer2": "Containers are slower to start than VMs",
+          "wrongAnswer3": "Containers always require more resources than VMs",
+          "explanation": "Linux containers use OS-level virtualization sharing the kernel for efficiency, whereas VMs virtualize hardware to run separate OS instances, resulting in higher overhead.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "SELinux Security",
+      "questions": [
+        {
+          "question": "What does SELinux stand for in the context of Linux security?",
+          "correctAnswer": "Security-Enhanced Linux",
+          "wrongAnswer1": "Secure Encryption Linux",
+          "wrongAnswer2": "System Encrypted Linux",
+          "wrongAnswer3": "Security Enabled Linux",
+          "explanation": "SELinux stands for Security-Enhanced Linux, which is a security architecture integrated into the Linux kernel that provides mandatory access control mechanisms.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which mode in SELinux enforces the defined security policies and denies access based on those policies?",
+          "correctAnswer": "Enforcing mode",
+          "wrongAnswer1": "Permissive mode",
+          "wrongAnswer2": "Disabled mode",
+          "wrongAnswer3": "Logging mode",
+          "explanation": "In enforcing mode, SELinux enforces the security policies actively and denies unauthorized access attempts according to those policies.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In SELinux, what is the purpose of a 'context'?",
+          "correctAnswer": "To label files and processes with security attributes for access control",
+          "wrongAnswer1": "To define user permissions in a traditional UNIX manner",
+          "wrongAnswer2": "To encrypt files stored on disk",
+          "wrongAnswer3": "To configure firewall rules for network traffic",
+          "explanation": "SELinux uses contexts to label files, processes, and other objects with security attributes which are then used to determine access control decisions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Linux Mint",
+      "questions": [
+        {
+          "question": "What is Linux Mint primarily known for?",
+          "correctAnswer": "User-friendly Linux distribution based on Ubuntu",
+          "wrongAnswer1": "Windows operating system variant",
+          "wrongAnswer2": "A type of hardware device",
+          "wrongAnswer3": "A programming language",
+          "explanation": "Linux Mint is widely known as a user-friendly Linux distribution that is based on Ubuntu, designed to provide a more approachable and comfortable experience for new Linux users.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which desktop environment is most commonly associated with Linux Mint?",
+          "correctAnswer": "Cinnamon",
+          "wrongAnswer1": "KDE Plasma",
+          "wrongAnswer2": "GNOME",
+          "wrongAnswer3": "XFCE",
+          "explanation": "Linux Mint is most famously associated with the Cinnamon desktop environment, which was developed by the Linux Mint team to provide a traditional and easy-to-use interface.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which package management system does Linux Mint primarily use?",
+          "correctAnswer": "APT (Advanced Package Tool)",
+          "wrongAnswer1": "YUM",
+          "wrongAnswer2": "RPM",
+          "wrongAnswer3": "Pacman",
+          "explanation": "Linux Mint primarily uses APT for package management since it is based on Ubuntu and Debian, which use the APT system to handle software installation and updates.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Linux Terminal",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Linux terminal?",
+          "correctAnswer": "To interact with the operating system using text-based commands",
+          "wrongAnswer1": "To browse the internet graphically",
+          "wrongAnswer2": "To play multimedia files",
+          "wrongAnswer3": "To design graphical user interfaces",
+          "explanation": "The Linux terminal allows users to execute commands and interact with the system through a text-based interface.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which symbol is commonly used as the command prompt in a Linux terminal for a regular user?",
+          "correctAnswer": "$",
+          "wrongAnswer1": "#",
+          "wrongAnswer2": ">",
+          "wrongAnswer3": "&",
+          "explanation": "In most Linux systems, the dollar sign ($) indicates a regular user prompt and the hash (#) indicates the root user prompt.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What command is used to list files and directories in the current directory in the Linux terminal?",
+          "correctAnswer": "ls",
+          "wrongAnswer1": "cd",
+          "wrongAnswer2": "mkdir",
+          "wrongAnswer3": "rm",
+          "explanation": "The 'ls' command lists the files and directories in the current working directory.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Filesystem Hierarchy",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the /etc directory in the Linux filesystem hierarchy?",
+          "correctAnswer": "/etc contains configuration files for the system and applications",
+          "wrongAnswer1": "/etc stores user home directories",
+          "wrongAnswer2": "/etc contains executable binaries",
+          "wrongAnswer3": "/etc holds temporary files",
+          "explanation": "/etc directory stores configuration files required to boot and configure the system and applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which directory in the Linux filesystem hierarchy typically contains user home directories?",
+          "correctAnswer": "/home",
+          "wrongAnswer1": "/usr",
+          "wrongAnswer2": "/var",
+          "wrongAnswer3": "/root",
+          "explanation": "/home directory contains individual user directories where user files and personal data are stored.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Where are the variable data files such as logs and databases stored in the Linux filesystem?",
+          "correctAnswer": "/var",
+          "wrongAnswer1": "/bin",
+          "wrongAnswer2": "/sbin",
+          "wrongAnswer3": "/dev",
+          "explanation": "The /var directory contains files to which the system writes data during the course of its operation, like logs and databases.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Software Compilation",
+      "questions": [
+        {
+          "question": "What is the primary purpose of using the 'make' command in software compilation on Linux?",
+          "correctAnswer": "To automate the build process by reading 'Makefile' instructions",
+          "wrongAnswer1": "To install software packages automatically",
+          "wrongAnswer2": "To edit source code files",
+          "wrongAnswer3": "To compile and run software without editing",
+          "explanation": "The 'make' command uses instructions from a 'Makefile' to automate the compilation process, handling dependencies and efficient building.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a typical sequence of commands used to compile and install software from source in Linux?",
+          "correctAnswer": "./configure, make, sudo make install",
+          "wrongAnswer1": "make, ./install, sudo make",
+          "wrongAnswer2": "sudo make, ./configure, make install",
+          "wrongAnswer3": "./install, make, sudo configure",
+          "explanation": "The conventional method is to run './configure' to set up the build configuration, 'make' to compile, and 'sudo make install' to install the software.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What role does the 'configure' script play in the process of software compilation in Linux?",
+          "correctAnswer": "It checks the system environment and prepares necessary files for compilation",
+          "wrongAnswer1": "It compiles the source code directly",
+          "wrongAnswer2": "It installs the compiled software to the system directories",
+          "wrongAnswer3": "It generates documentation for the software",
+          "explanation": "'configure' scripts examine system settings, libraries, and paths so the build can be customized to the specific environment before compiling.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "System Boot",
+      "questions": [
+        {
+          "question": "What is the first stage of the Linux system boot process?",
+          "correctAnswer": "BIOS or UEFI initialization",
+          "wrongAnswer1": "Kernel loading",
+          "wrongAnswer2": "Init system start",
+          "wrongAnswer3": "User login prompt",
+          "explanation": "The first stage in the Linux boot process is BIOS or UEFI initialization, which performs hardware checks and prepares the system to load the bootloader.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What component typically loads the Linux kernel during the boot process?",
+          "correctAnswer": "Bootloader",
+          "wrongAnswer1": "Shell",
+          "wrongAnswer2": "Systemd",
+          "wrongAnswer3": "GRUB configuration file",
+          "explanation": "The bootloader, commonly GRUB, is responsible for loading the Linux kernel into memory during the boot process.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "During the Linux boot process, what is the role of systemd?",
+          "correctAnswer": "To initialize and manage system services",
+          "wrongAnswer1": "To load the kernel",
+          "wrongAnswer2": "To check hardware connectivity",
+          "wrongAnswer3": "To display the BIOS screen",
+          "explanation": "Systemd is the init system used to initialize and manage system services after the kernel is loaded.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Network Configuration",
+      "questions": [
+        {
+          "question": "Which command is used in Linux to display the current network configuration?",
+          "correctAnswer": "ifconfig",
+          "wrongAnswer1": "lsconfig",
+          "wrongAnswer2": "netconfig",
+          "wrongAnswer3": "ipconfig",
+          "explanation": "The ifconfig command is traditionally used in Linux to display current network interface configurations including IP address, netmask, and broadcast address.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What file is commonly edited to configure static IP settings on a Linux system?",
+          "correctAnswer": "/etc/network/interfaces",
+          "wrongAnswer1": "/etc/hosts",
+          "wrongAnswer2": "/etc/resolv.conf",
+          "wrongAnswer3": "/etc/passwd",
+          "explanation": "The /etc/network/interfaces file is often used in Debian-based Linux distributions for configuring static IP addresses and other network interface details.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In Linux, which command replaces ifconfig in many modern distributions for network management?",
+          "correctAnswer": "ip",
+          "wrongAnswer1": "netstat",
+          "wrongAnswer2": "route",
+          "wrongAnswer3": "ping",
+          "explanation": "The ip command is part of the iproute2 package and is the modern replacement for ifconfig, providing more features and better support for newer networking technologies.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Linux Kernel Modules",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Linux kernel modules?",
+          "correctAnswer": "To add functionality to the kernel without rebooting",
+          "wrongAnswer1": "To replace the entire kernel",
+          "wrongAnswer2": "To speed up the boot process",
+          "wrongAnswer3": "To create user interfaces",
+          "explanation": "Linux kernel modules allow adding or removing functionalities dynamically without the need to reboot the system.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to insert a kernel module into the Linux kernel?",
+          "correctAnswer": "insmod",
+          "wrongAnswer1": "modload",
+          "wrongAnswer2": "loadmodule",
+          "wrongAnswer3": "addmodule",
+          "explanation": "The insmod command is used to insert a module into the Linux kernel.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What file extension do Linux kernel modules usually have?",
+          "correctAnswer": ".ko",
+          "wrongAnswer1": ".mod",
+          "wrongAnswer2": ".kernel",
+          "wrongAnswer3": ".kmod",
+          "explanation": "Linux kernel modules typically have the .ko file extension, which stands for kernel object.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Scheduler",
+      "questions": [
+        {
+          "question": "What is the primary role of the scheduler in the Linux operating system?",
+          "correctAnswer": "To manage the execution order of processes on the CPU",
+          "wrongAnswer1": "To manage file permissions",
+          "wrongAnswer2": "To allocate memory to programs",
+          "wrongAnswer3": "To handle device input and output",
+          "explanation": "The scheduler in Linux is responsible for deciding which process runs at any given time, managing CPU time allocation among processes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common scheduling algorithm used by the Linux kernel?",
+          "correctAnswer": "Completely Fair Scheduler",
+          "wrongAnswer1": "Round Robin without time slices",
+          "wrongAnswer2": "First Come First Served exclusively",
+          "wrongAnswer3": "Shortest Job Next without preemption",
+          "explanation": "The Completely Fair Scheduler is the default scheduler in modern Linux kernels, designed to fairly distribute CPU time among tasks.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the context of Linux scheduling, what does preemption mean?",
+          "correctAnswer": "Interrupting a running process to start or resume another",
+          "wrongAnswer1": "Allowing a process to finish before switching",
+          "wrongAnswer2": "Prioritizing I/O operations over CPU tasks",
+          "wrongAnswer3": "Delaying process execution indefinitely",
+          "explanation": "Preemption allows the scheduler to interrupt a process running on the CPU to give another process a chance, helping in enforcing priority and responsiveness.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Init System",
+      "questions": [
+        {
+          "question": "What is the primary function of the init system in Linux?",
+          "correctAnswer": "To initialize the system and manage services during booting",
+          "wrongAnswer1": "To compile the Linux kernel",
+          "wrongAnswer2": "To manage user permissions",
+          "wrongAnswer3": "To provide a graphical user interface",
+          "explanation": "The init system is the first process started during booting and is responsible for initializing the system and managing services and daemons.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a commonly used init system in modern Linux distributions?",
+          "correctAnswer": "systemd",
+          "wrongAnswer1": "Apache",
+          "wrongAnswer2": "MySQL",
+          "wrongAnswer3": "Docker",
+          "explanation": "systemd is the most commonly used init system in many modern Linux distributions, responsible for managing system initialization and services.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the runlevel in an init system specify?",
+          "correctAnswer": "The state of the machine and the services that should be running",
+          "wrongAnswer1": "The version of the kernel to boot",
+          "wrongAnswer2": "The amount of RAM available",
+          "wrongAnswer3": "The user login credentials",
+          "explanation": "Runlevels define different states of the machine, determining which services and processes are started or stopped.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Process ID",
+      "questions": [
+        {
+          "question": "What is a Process ID in Linux?",
+          "correctAnswer": "A unique number assigned to each running process",
+          "wrongAnswer1": "The name of the user running the process",
+          "wrongAnswer2": "The amount of memory used by a process",
+          "wrongAnswer3": "A type of file system",
+          "explanation": "In Linux, a Process ID (PID) is a unique identifier assigned by the operating system to each running process for management and tracking.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is commonly used to find the Process ID of a running program in Linux?",
+          "correctAnswer": "pidof",
+          "wrongAnswer1": "cp",
+          "wrongAnswer2": "ls",
+          "wrongAnswer3": "mkdir",
+          "explanation": "The pidof command is used to find the Process ID (PID) of a running program by specifying its name.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens if two processes have the same Process ID in Linux?",
+          "correctAnswer": "This cannot happen as the system ensures each PID is unique",
+          "wrongAnswer1": "They merge into a single process",
+          "wrongAnswer2": "One process immediately terminates",
+          "wrongAnswer3": "They share the same memory space",
+          "explanation": "Linux operating system assigns a unique Process ID to each process, so no two active processes will have the same PID at the same time.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Root User",
+      "questions": [
+        {
+          "question": "Who is the root user in a Linux system?",
+          "correctAnswer": "The superuser with full administrative privileges",
+          "wrongAnswer1": "A regular user with limited access",
+          "wrongAnswer2": "A guest user with no privileges",
+          "wrongAnswer3": "A user with only read permissions",
+          "explanation": "The root user in Linux is the superuser who has full administrative privileges, allowing complete control over the system.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What command is used to switch to the root user in Linux?",
+          "correctAnswer": "su",
+          "wrongAnswer1": "ls",
+          "wrongAnswer2": "cd",
+          "wrongAnswer3": "exit",
+          "explanation": "The 'su' command is used to switch to the root user in Linux, assuming you have the correct password.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why should you be cautious when operating as the root user on Linux?",
+          "correctAnswer": "Because root can modify or delete critical system files, potentially harming the system",
+          "wrongAnswer1": "Because root can only read files and cannot make changes",
+          "wrongAnswer2": "Because root user cannot install new software",
+          "wrongAnswer3": "Because root user has no special permissions",
+          "explanation": "Operating as root should be done cautiously as it has the ability to modify or delete critical system files, which can cause severe damage to the operating system.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "chmod Command",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the chmod command in Linux?",
+          "correctAnswer": "To change the permissions of a file or directory",
+          "wrongAnswer1": "To change the ownership of a file",
+          "wrongAnswer2": "To view the contents of a file",
+          "wrongAnswer3": "To create a new directory",
+          "explanation": "The chmod command is used to change the file permissions, determining who can read, write, or execute a file or directory.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following chmod permission settings allows the owner to read, write, and execute, and others to only read?",
+          "correctAnswer": "744",
+          "wrongAnswer1": "755",
+          "wrongAnswer2": "666",
+          "wrongAnswer3": "700",
+          "explanation": "The permission 744 means the owner has read, write, execute (7), group has read only (4), and others have read only (4).",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "When using chmod, what does the symbolic mode u+x mean?",
+          "correctAnswer": "Add execute permission to the user (owner)",
+          "wrongAnswer1": "Remove execute permission from user",
+          "wrongAnswer2": "Add execute permission to all users",
+          "wrongAnswer3": "Set execute permission only for the group",
+          "explanation": "In chmod symbolic mode, u means user (owner) and +x means add execute permission.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Chown Command",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the chown command in Linux?",
+          "correctAnswer": "To change the ownership of a file or directory",
+          "wrongAnswer1": "To change the permission of a file or directory",
+          "wrongAnswer2": "To create a new user",
+          "wrongAnswer3": "To list files in a directory",
+          "explanation": "The chown command is used to change the ownership of a file or directory to a specified user or group in Linux.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is the correct syntax to change the owner of a file named example.txt to user john using chown?",
+          "correctAnswer": "chown john example.txt",
+          "wrongAnswer1": "chown example.txt john",
+          "wrongAnswer2": "chown -r john example.txt",
+          "wrongAnswer3": "chown john -r example.txt",
+          "explanation": "The correct syntax to change the owner is chown followed by the new owner and the file name.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens when you run chown with the -R option?",
+          "correctAnswer": "It changes ownership recursively for all files and directories within the specified directory",
+          "wrongAnswer1": "It changes ownership only for the top-level directory",
+          "wrongAnswer2": "It removes the ownership of files",
+          "wrongAnswer3": "It changes file permissions instead of ownership",
+          "explanation": "The -R option allows chown to operate recursively through all files and subdirectories of a directory, changing their ownership.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Filesystem Permissions",
+      "questions": [
+        {
+          "question": "What does the read permission allow a user to do on a file in Linux?",
+          "correctAnswer": "View the contents of the file",
+          "wrongAnswer1": "Modify the contents of the file",
+          "wrongAnswer2": "Execute the file as a program",
+          "wrongAnswer3": "Delete the file",
+          "explanation": "The read permission allows a user to open and view the contents of a file but does not allow modifying or executing it.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Linux, which permission is required to execute a file?",
+          "correctAnswer": "Execute",
+          "wrongAnswer1": "Read",
+          "wrongAnswer2": "Write",
+          "wrongAnswer3": "Delete",
+          "explanation": "The execute permission allows a user to run a file as a program or script. Without it, the file cannot be executed even if it is readable.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does it mean if a directory has write permission for a user?",
+          "correctAnswer": "The user can add or remove files in that directory",
+          "wrongAnswer1": "The user can only list files in the directory",
+          "wrongAnswer2": "The user can read the contents of the files inside the directory",
+          "wrongAnswer3": "The user can execute files inside the directory",
+          "explanation": "Write permission on a directory allows the user to add, delete, or rename files within that directory.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Disk Partitioning",
+      "questions": [
+        {
+          "question": "What is the primary purpose of disk partitioning in Linux?",
+          "correctAnswer": "To divide a physical disk into separate, manageable sections",
+          "wrongAnswer1": "To increase the overall speed of the disk",
+          "wrongAnswer2": "To encrypt the disk for security",
+          "wrongAnswer3": "To create multiple users on the system",
+          "explanation": "Disk partitioning divides a physical disk into separate sections, allowing for organization, multiple file systems, or multiple operating systems.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is commonly used in Linux to create and manage disk partitions?",
+          "correctAnswer": "fdisk",
+          "wrongAnswer1": "ls",
+          "wrongAnswer2": "chmod",
+          "wrongAnswer3": "ps",
+          "explanation": "The fdisk command is a widely used utility in Linux for creating and managing disk partitions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Linux, what type of partition is typically used to support more than four primary partitions?",
+          "correctAnswer": "Extended partition",
+          "wrongAnswer1": "Swap partition",
+          "wrongAnswer2": "Logical partition",
+          "wrongAnswer3": "Boot partition",
+          "explanation": "An extended partition allows the creation of multiple logical partitions within it, extending beyond the limit of four primary partitions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Swap Space",
+      "questions": [
+        {
+          "question": "What is the primary purpose of swap space in Linux?",
+          "correctAnswer": "To provide additional virtual memory when RAM is full",
+          "wrongAnswer1": "To store system logs",
+          "wrongAnswer2": "To hold user files temporarily",
+          "wrongAnswer3": "To speed up the CPU",
+          "explanation": "Swap space is used by Linux to provide additional virtual memory when the physical RAM is fully utilized. It helps in managing memory by swapping inactive pages out of RAM to disk.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common format for swap space in Linux?",
+          "correctAnswer": "Swap partition",
+          "wrongAnswer1": "Ext4 partition",
+          "wrongAnswer2": "NTFS partition",
+          "wrongAnswer3": "FAT32 partition",
+          "explanation": "Swap space in Linux is commonly created as a dedicated swap partition or a swap file. It is different from file system partitions like Ext4 or NTFS.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does Linux decide to use swap space?",
+          "correctAnswer": "When physical memory (RAM) is full or near full",
+          "wrongAnswer1": "When CPU load is high",
+          "wrongAnswer2": "When disk space is below threshold",
+          "wrongAnswer3": "When network bandwidth is low",
+          "explanation": "Linux starts using swap space when the physical RAM is full or nearly full to avoid out-of-memory errors. It moves inactive pages from RAM to swap space on the disk.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Linux Distribution",
+      "questions": [
+        {
+          "question": "What is a Linux distribution?",
+          "correctAnswer": "A collection of the Linux kernel, software, and package management system",
+          "wrongAnswer1": "A type of computer hardware",
+          "wrongAnswer2": "A cloud storage service",
+          "wrongAnswer3": "A programming language",
+          "explanation": "A Linux distribution bundles the Linux kernel with software and package management tools to create a complete operating system.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which component is common to all Linux distributions?",
+          "correctAnswer": "Linux kernel",
+          "wrongAnswer1": "Windows kernel",
+          "wrongAnswer2": "MacOS kernel",
+          "wrongAnswer3": "Android operating system",
+          "explanation": "All Linux distributions use the Linux kernel as the core of the operating system.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these is an example of a Linux distribution?",
+          "correctAnswer": "Ubuntu",
+          "wrongAnswer1": "Microsoft Windows",
+          "wrongAnswer2": "macOS",
+          "wrongAnswer3": "iOS",
+          "explanation": "Ubuntu is a popular Linux distribution, whereas the others are different operating systems.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "X Window",
+      "questions": [
+        {
+          "question": "What is the primary function of the X Window System in Linux?",
+          "correctAnswer": "To provide a graphical user interface for managing windows on the screen",
+          "wrongAnswer1": "To act as a file system manager",
+          "wrongAnswer2": "To serve as a command-line interpreter",
+          "wrongAnswer3": "To monitor network connections",
+          "explanation": "The X Window System, commonly known as X11 or X, provides the basic framework for a graphical user interface (GUI) environment, including window management, on Linux and UNIX systems.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which protocol does the X Window System primarily use for communication between the client and the server?",
+          "correctAnswer": "X11 protocol",
+          "wrongAnswer1": "HTTP protocol",
+          "wrongAnswer2": "FTP protocol",
+          "wrongAnswer3": "SMTP protocol",
+          "explanation": "The X Window System uses the X11 protocol to communicate between the X server that manages the display and the X clients which are the graphical applications.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the context of the X Window System, what is an X server responsible for?",
+          "correctAnswer": "Managing display hardware and input devices",
+          "wrongAnswer1": "Running applications in the background",
+          "wrongAnswer2": "Compiling code",
+          "wrongAnswer3": "Handling network requests",
+          "explanation": "The X server handles the display output and input devices such as keyboard and mouse, allowing clients (applications) to draw and receive input events on the screen.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Wayland Display",
+      "questions": [
+        {
+          "question": "What is Wayland in the context of Linux?",
+          "correctAnswer": "A display server protocol that aims to replace X11",
+          "wrongAnswer1": "A Linux distribution",
+          "wrongAnswer2": "A file system used in Linux",
+          "wrongAnswer3": "A network protocol",
+          "explanation": "Wayland is a modern display server protocol intended to replace the older X11 system in Linux environments, improving efficiency and performance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which component is responsible for compositing and displaying windows in a Wayland system?",
+          "correctAnswer": "The Wayland compositor",
+          "wrongAnswer1": "The X server",
+          "wrongAnswer2": "The Linux kernel",
+          "wrongAnswer3": "The window manager in X11",
+          "explanation": "In Wayland, the compositor is responsible for both compositing and displaying windows, unlike X11 where these tasks are separated.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Wayland improve graphical performance compared to X11?",
+          "correctAnswer": "By reducing round trips between client and server through direct rendering",
+          "wrongAnswer1": "By using more CPU resources for rendering",
+          "wrongAnswer2": "By relying on network-based rendering exclusively",
+          "wrongAnswer3": "By eliminating the use of compositors",
+          "explanation": "Wayland improves performance by allowing clients to render directly to buffers shared with the compositor, reducing the communication overhead present in X11.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Linux Mint",
+      "questions": [
+        {
+          "question": "What is Linux Mint primarily known for in the Linux distribution world?",
+          "correctAnswer": "Being user-friendly and suitable for beginners",
+          "wrongAnswer1": "Being a command-line only system",
+          "wrongAnswer2": "Focusing mainly on server use",
+          "wrongAnswer3": "Exclusively supporting the KDE desktop environment",
+          "explanation": "Linux Mint is known for its user-friendly interface and ease of use, making it popular among beginners transitioning from other operating systems.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which desktop environments are commonly available in Linux Mint?",
+          "correctAnswer": "Cinnamon, MATE, and Xfce",
+          "wrongAnswer1": "GNOME only",
+          "wrongAnswer2": "KDE and LXQt only",
+          "wrongAnswer3": "Unity only",
+          "explanation": "Linux Mint offers several desktop environments including Cinnamon, MATE, and Xfce to cater to different user preferences.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a key feature of Linux Mint's update policy?",
+          "correctAnswer": "It provides safe and stable updates with a focus on system reliability",
+          "wrongAnswer1": "It installs all updates automatically without user control",
+          "wrongAnswer2": "It discourages users from updating their system",
+          "wrongAnswer3": "It updates only the kernel, ignoring other software",
+          "explanation": "Linux Mint emphasizes stable and reliable updates, allowing users to selectively apply updates to avoid system issues.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "apt-get Command",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the apt-get command in Linux?",
+          "correctAnswer": "To manage packages by installing, upgrading, or removing them",
+          "wrongAnswer1": "To modify user permissions",
+          "wrongAnswer2": "To monitor system processes",
+          "wrongAnswer3": "To format hard drives",
+          "explanation": "The apt-get command is used in Debian-based Linux distributions to handle package management tasks such as installation, upgrades, and removal of software packages.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which apt-get option is used to update the local package database?",
+          "correctAnswer": "apt-get update",
+          "wrongAnswer1": "apt-get upgrade",
+          "wrongAnswer2": "apt-get install",
+          "wrongAnswer3": "apt-get remove",
+          "explanation": "The 'apt-get update' command refreshes the local package index with the latest information from the repositories, enabling the system to know about updated or new packages.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the command 'apt-get upgrade' do?",
+          "correctAnswer": "It upgrades all installed packages to the latest available versions",
+          "wrongAnswer1": "It installs new packages without upgrading existing ones",
+          "wrongAnswer2": "It removes unused packages",
+          "wrongAnswer3": "It updates the list of available packages",
+          "explanation": "'apt-get upgrade' upgrades all the currently installed packages to their newest versions as found in the package source lists without removing any packages.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Yum Package",
+      "questions": [
+        {
+          "question": "What is the primary function of the Yum package manager in Linux?",
+          "correctAnswer": "To manage software packages including installation, update, and removal",
+          "wrongAnswer1": "To compile source code into executables",
+          "wrongAnswer2": "To monitor system performance metrics",
+          "wrongAnswer3": "To configure network settings",
+          "explanation": "Yum is a package manager used in Linux distributions to handle software packages by installing, updating, and removing them efficiently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command would you use with Yum to install a package called example-package?",
+          "correctAnswer": "yum install example-package",
+          "wrongAnswer1": "yum update example-package",
+          "wrongAnswer2": "yum remove example-package",
+          "wrongAnswer3": "yum search example-package",
+          "explanation": "To install a package using Yum, the correct command syntax is yum install followed by the package name.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is one advantage of using Yum over manually downloading and installing RPM packages?",
+          "correctAnswer": "Yum automatically resolves and installs package dependencies.",
+          "wrongAnswer1": "Yum allows you to directly edit package source code.",
+          "wrongAnswer2": "Yum runs faster than all other package managers.",
+          "wrongAnswer3": "Yum requires no internet connection.",
+          "explanation": "Yum's ability to automatically handle dependencies simplifies package management compared to manual installation using RPM.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "RPM Package",
+      "questions": [
+        {
+          "question": "What does the RPM in RPM package stand for?",
+          "correctAnswer": "Red Hat Package Manager",
+          "wrongAnswer1": "Random Package Manager",
+          "wrongAnswer2": "Reliable Package Module",
+          "wrongAnswer3": "Remote Package Manager",
+          "explanation": "RPM originally stood for Red Hat Package Manager but now it is a recursive acronym that stands for RPM Package Manager. It is a package management system used primarily by Red Hat based Linux distributions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following commands is used to install an RPM package in Linux?",
+          "correctAnswer": "rpm -i package.rpm",
+          "wrongAnswer1": "rpm -u package.rpm",
+          "wrongAnswer2": "rpm -r package.rpm",
+          "wrongAnswer3": "rpm -e package.rpm",
+          "explanation": "The command rpm -i is used to install a new RPM package. The -u option is for upgrading, -r is not a valid option, and -e is used for erasing (uninstalling) a package.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these commands would list all installed RPM packages on a Linux system?",
+          "correctAnswer": "rpm -qa",
+          "wrongAnswer1": "rpm -ql",
+          "wrongAnswer2": "rpm -q package-name",
+          "wrongAnswer3": "rpm -qi package-name",
+          "explanation": "The rpm command with the -qa option lists all installed packages, while options like -ql list files in a package, and -q or -qi are used for querying a specific package.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Shell Environment",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a shell in a Linux environment?",
+          "correctAnswer": "To interpret and execute user commands",
+          "wrongAnswer1": "To manage hardware resources",
+          "wrongAnswer2": "To provide graphical user interface",
+          "wrongAnswer3": "To store files and directories",
+          "explanation": "A shell in Linux acts as a command interpreter that reads user input and executes commands accordingly.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following files typically contains environment variable settings in a user's shell environment?",
+          "correctAnswer": "~/.bashrc",
+          "wrongAnswer1": "/etc/fstab",
+          "wrongAnswer2": "/var/log/syslog",
+          "wrongAnswer3": "/usr/bin/bash",
+          "explanation": "The ~/.bashrc file is commonly used to configure environment variables and shell settings for a user's session in bash shell.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What command can you use to display all the environment variables currently set in a Linux shell?",
+          "correctAnswer": "env",
+          "wrongAnswer1": "ls",
+          "wrongAnswer2": "cd",
+          "wrongAnswer3": "pwd",
+          "explanation": "The env command prints all current environment variables available in the shell environment.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Linux",
+      "concept": "Linux Security",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Linux file permissions in security?",
+          "correctAnswer": "To control who can read, write, or execute files",
+          "wrongAnswer1": "To increase file size",
+          "wrongAnswer2": "To backup files automatically",
+          "wrongAnswer3": "To speed up file access",
+          "explanation": "Linux file permissions determine which users can read, write, or execute a file, thereby enhancing system security by restricting unauthorized access.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is commonly used to change file permissions in Linux?",
+          "correctAnswer": "chmod",
+          "wrongAnswer1": "chown",
+          "wrongAnswer2": "ls",
+          "wrongAnswer3": "passwd",
+          "explanation": "The chmod command is used to change the permissions of a file or directory in Linux, which is essential for managing security and access control.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is SELinux in the context of Linux security?",
+          "correctAnswer": "A security module that enforces access control policies",
+          "wrongAnswer1": "A file system type",
+          "wrongAnswer2": "An antivirus software",
+          "wrongAnswer3": "A package manager",
+          "explanation": "SELinux is a security module in the Linux kernel that provides a mechanism for supporting access control security policies, including mandatory access controls (MAC).",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

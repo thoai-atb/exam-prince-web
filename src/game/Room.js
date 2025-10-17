@@ -9,6 +9,8 @@ export default class Room {
     walkable = false,
     current = false,
     floorplan = null,
+    beingDrafted = false,
+    failed = false
   } = {}) {
     this.row = row;
     this.col = col;
@@ -17,6 +19,8 @@ export default class Room {
     this.walkable = walkable;
     this.current = current;
     this.floorplan = floorplan; // may be null until room is opened
+    this.beingDrafted = beingDrafted;
+    this.failed = failed // if answered incorrectly
   }
 
   clone() {
@@ -28,6 +32,8 @@ export default class Room {
       walkable: this.walkable,
       current: this.current,
       floorplan: this.floorplan?.clone() || null,
+      beingDrafted: this.beingDrafted,
+      failed: this.failed
     });
   }
 
@@ -39,6 +45,10 @@ export default class Room {
 
   setCurrent(isCurrent) {
     this.current = isCurrent;
+  }
+
+  setBeingDrafted(beingDrafted) {
+    this.beingDrafted = beingDrafted;
   }
 
   /**

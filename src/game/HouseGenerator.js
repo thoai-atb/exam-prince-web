@@ -1,4 +1,5 @@
 import FloorPlan from "./FloorPlan.js";
+import Question from "./Question.js";
 
 export default class HouseGenerator {
   constructor(rows, cols, poolSize = 100, questionsFile = null) {
@@ -67,7 +68,18 @@ export default class HouseGenerator {
           ? questions[Math.floor(Math.random() * questions.length)]
           : null;
 
-      return new FloorPlan({ name, color, doors, question });
+      const questionObject = new Question({
+        topic: question.topic,
+        concept: question.concept,
+        question: question.question,
+        explanation: question.explanation,
+        difficulty: question.difficulty,
+        correctAnswer: question.correctAnswer,
+        wrongAnswers: [question.wrongAnswer1, question.wrongAnswer2, question.wrongAnswer3],
+      });
+
+      const floorPlan = new FloorPlan({ id: `FP-${i + 1}`, name, color, doors, question: questionObject });
+      return floorPlan;
     });
   }
 

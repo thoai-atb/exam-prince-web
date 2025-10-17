@@ -1,0 +1,1655 @@
+{
+  "topic": "Git",
+  "concepts": [
+    {
+      "topic": "Git",
+      "concept": "Version control",
+      "questions": [
+        {
+          "question": "What is the primary purpose of version control in Git?",
+          "correctAnswer": "To track and manage changes to files over time",
+          "wrongAnswer1": "To speed up the internet connection",
+          "wrongAnswer2": "To design user interfaces",
+          "wrongAnswer3": "To create video games",
+          "explanation": "Version control systems like Git help in tracking and managing changes to files, especially source code, over time, allowing collaboration and history tracking.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key advantage of using Git for version control?",
+          "correctAnswer": "Ability to manage branches and merge changes efficiently",
+          "wrongAnswer1": "Automatic fixing of code errors",
+          "wrongAnswer2": "Unlimited cloud storage for files",
+          "wrongAnswer3": "Real-time video conferencing",
+          "explanation": "Git provides powerful branching and merging capabilities that enable multiple developers to work on different features simultaneously and then integrate changes smoothly.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the context of Git version control, what does committing changes mean?",
+          "correctAnswer": "Saving a snapshot of changes to the repository history",
+          "wrongAnswer1": "Deleting files permanently",
+          "wrongAnswer2": "Uploading files to a website",
+          "wrongAnswer3": "Restarting the computer",
+          "explanation": "Committing in Git records a snapshot of your changes in the repository's history, allowing you to revert or review past changes.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Repository",
+      "questions": [
+        {
+          "question": "What is a Git repository?",
+          "correctAnswer": "A storage space where your project files and their revision history are kept",
+          "wrongAnswer1": "A type of database for web applications",
+          "wrongAnswer2": "A cloud service for hosting websites",
+          "wrongAnswer3": "A programming language",
+          "explanation": "A Git repository is a storage space that holds your project files and tracks all changes made to them, allowing for version control.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to create a new Git repository?",
+          "correctAnswer": "git init",
+          "wrongAnswer1": "git start",
+          "wrongAnswer2": "git create",
+          "wrongAnswer3": "git new",
+          "explanation": "The git init command initializes a new Git repository in the current directory.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What files and folders are included in a Git repository?",
+          "correctAnswer": "Project files and the .git directory that stores version history",
+          "wrongAnswer1": "Only the project files without any hidden folders",
+          "wrongAnswer2": "Files stored on cloud servers",
+          "wrongAnswer3": "Only the latest version of the files",
+          "explanation": "A Git repository contains the project files and a hidden .git directory which stores all information about changes and history of the project.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Commit",
+      "questions": [
+        {
+          "question": "What does a commit in Git represent?",
+          "correctAnswer": "A snapshot of the project's changes at a specific point in time",
+          "wrongAnswer1": "A branch of the project",
+          "wrongAnswer2": "A clone of the repository",
+          "wrongAnswer3": "An error message during code compilation",
+          "explanation": "A commit in Git captures the current state of the project files at a certain time, allowing you to record and review changes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Git command is used to create a new commit?",
+          "correctAnswer": "git commit",
+          "wrongAnswer1": "git push",
+          "wrongAnswer2": "git branch",
+          "wrongAnswer3": "git merge",
+          "explanation": "The git commit command records changes to the repository with a message describing what has been changed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What information must be included with a Git commit?",
+          "correctAnswer": "A commit message describing the changes",
+          "wrongAnswer1": "The size of files changed",
+          "wrongAnswer2": "The list of branches affected",
+          "wrongAnswer3": "The number of commits made by others",
+          "explanation": "Every commit requires a message explaining what changes were made, which helps in tracking the project history.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Branch",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a branch in Git?",
+          "correctAnswer": "To develop features isolated from the main codebase",
+          "wrongAnswer1": "To permanently delete files from the repository",
+          "wrongAnswer2": "To merge unrelated projects",
+          "wrongAnswer3": "To create backups of the repository",
+          "explanation": "Branches in Git are used to isolate development work without affecting the main codebase, allowing multiple features or fixes to be developed in parallel.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to create a new branch in Git?",
+          "correctAnswer": "git branch branch_name",
+          "wrongAnswer1": "git create branch branch_name",
+          "wrongAnswer2": "git new branch_name",
+          "wrongAnswer3": "git init branch_name",
+          "explanation": "The correct command to create a new branch in Git is 'git branch branch_name'. Other commands are incorrect or do not exist.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens to changes made in a branch when you switch to another branch without merging?",
+          "correctAnswer": "Changes remain in the original branch and do not appear in the other branch",
+          "wrongAnswer1": "Changes are automatically merged into the new branch",
+          "wrongAnswer2": "Changes are discarded when switching branches",
+          "wrongAnswer3": "Changes are copied to all branches",
+          "explanation": "Changes made in a branch stay isolated in that branch until explicitly merged. Switching branches changes your working directory to that branch's snapshot.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Merge",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the git merge command?",
+          "correctAnswer": "To combine changes from one branch into another",
+          "wrongAnswer1": "To delete a branch",
+          "wrongAnswer2": "To create a new branch",
+          "wrongAnswer3": "To upload changes to a remote repository",
+          "explanation": "The git merge command is used to integrate changes from one branch into another branch, combining their histories.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens when a merge conflict occurs in Git?",
+          "correctAnswer": "Git pauses the merge and asks the user to manually resolve conflicts",
+          "wrongAnswer1": "Git automatically discards conflicting changes",
+          "wrongAnswer2": "Git deletes the conflicting files",
+          "wrongAnswer3": "Git merges only the non-conflicting files and ignores conflicts",
+          "explanation": "When git detects conflicting changes during a merge, it stops and requires the user to manually resolve the conflicts before completing the merge.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which Git command can be used to abort an ongoing merge process?",
+          "correctAnswer": "git merge --abort",
+          "wrongAnswer1": "git reset --hard",
+          "wrongAnswer2": "git revert HEAD",
+          "wrongAnswer3": "git checkout --merge",
+          "explanation": "The git merge --abort command stops the merge process and returns the repository to the state before the merge began.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Clone repository",
+      "questions": [
+        {
+          "question": "What command is used to create a local copy of a remote Git repository?",
+          "correctAnswer": "git clone",
+          "wrongAnswer1": "git copy",
+          "wrongAnswer2": "git pull",
+          "wrongAnswer3": "git fetch",
+          "explanation": "The git clone command is used to create a local copy of a remote repository. It downloads the entire repository including its history.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When you use git clone, what does Git automatically set up for the cloned repository?",
+          "correctAnswer": "The remote called origin pointing to the cloned repository URL",
+          "wrongAnswer1": "A new branch named master automatically",
+          "wrongAnswer2": "A local branch tracking the remote master branch named upstream",
+          "wrongAnswer3": "The repository is set to read-only mode",
+          "explanation": "Git clone sets up a remote named origin which points to the repository URL you cloned from, enabling easy fetch and push operations.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is true about the git clone operation?",
+          "correctAnswer": "It copies all the files, branches, and the entire commit history from the remote repository",
+          "wrongAnswer1": "It only copies the most recent state of the files without commit history",
+          "wrongAnswer2": "It copies the repository but does not allow for pushing changes back",
+          "wrongAnswer3": "It clones the repository but does not include branches",
+          "explanation": "Git clone copies the entire repository including all branches, files, and commit history, making it a complete local copy.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Pull request",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a pull request in Git?",
+          "correctAnswer": "To propose changes and request that they be merged into another branch",
+          "wrongAnswer1": "To create a new branch in the repository",
+          "wrongAnswer2": "To delete a branch from the repository",
+          "wrongAnswer3": "To clone the repository to your local machine",
+          "explanation": "A pull request is used to notify team members about changes that you want to merge into a main branch, facilitating code review and discussion before integration.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes the workflow associated with a pull request?",
+          "correctAnswer": "Fork or branch a repository, make changes, then submit a pull request for review",
+          "wrongAnswer1": "Make changes on the main branch and push directly without review",
+          "wrongAnswer2": "Delete and recreate the repository for every change",
+          "wrongAnswer3": "Clone the repository and delete branches remotely",
+          "explanation": "The common workflow involves branching out to make changes, then submitting a pull request to integrate these changes after review, ensuring collaboration and quality control.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the context of GitHub, what happens after a pull request is approved?",
+          "correctAnswer": "The changes are merged into the target branch",
+          "wrongAnswer1": "The pull request is closed without merging",
+          "wrongAnswer2": "The repository is deleted",
+          "wrongAnswer3": "The branch remains unchanged",
+          "explanation": "Once a pull request is approved, the proposed changes can be merged into the target branch, effectively integrating the new code.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Fork repository",
+      "questions": [
+        {
+          "question": "What does forking a repository in GitHub allow you to do?",
+          "correctAnswer": "Create a personal copy of someone else's repository to freely experiment with changes.",
+          "wrongAnswer1": "Directly modify the original repository without restrictions.",
+          "wrongAnswer2": "Delete the original repository.",
+          "wrongAnswer3": "Merge another user's repository into your own without permission.",
+          "explanation": "Forking a repository creates a personal copy of another user's repository under your GitHub account, enabling you to experiment and make changes independently without affecting the original repository.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When you fork a repository, what is the relationship between your fork and the original repository?",
+          "correctAnswer": "The fork remains linked to the original repository, allowing you to propose changes via pull requests.",
+          "wrongAnswer1": "The fork acts as a completely independent project with no connection to the original.",
+          "wrongAnswer2": "The fork deletes the original repository.",
+          "wrongAnswer3": "The original repository automatically synchronizes all changes made in the fork.",
+          "explanation": "A fork retains a connection to the original repository so you can later submit pull requests to suggest your changes be merged back, but it is essentially a copy that you control independently.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a common next step after forking a repository if you want to contribute changes back?",
+          "correctAnswer": "Clone your fork, make changes, push to your fork, and then create a pull request.",
+          "wrongAnswer1": "Push changes directly to the original repository without permission.",
+          "wrongAnswer2": "Delete your fork and recreate it with the changes done locally.",
+          "wrongAnswer3": "Make changes only on the original repository without cloning the fork.",
+          "explanation": "After forking, you typically clone your fork locally to make changes, push those changes back to your fork on GitHub, and finally create a pull request to have your changes reviewed and possibly merged into the original repository.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "GitHub integration",
+      "questions": [
+        {
+          "question": "What is a primary benefit of integrating Git with GitHub?",
+          "correctAnswer": "It allows for remote repository hosting and collaborative development.",
+          "wrongAnswer1": "It provides an alternative version control system to Git.",
+          "wrongAnswer2": "It automatically generates code without any commits.",
+          "wrongAnswer3": "It replaces the local git repository with a cloud-based one only.",
+          "explanation": "GitHub integration allows users to host repositories remotely and collaborate with others through features like pull requests and issues.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Git command is commonly used to link a local repository to a GitHub repository?",
+          "correctAnswer": "git remote add origin",
+          "wrongAnswer1": "git push initial setup",
+          "wrongAnswer2": "git clone repository",
+          "wrongAnswer3": "git merge origin master",
+          "explanation": "The command git remote add origin is used to specify the remote repository URL on GitHub for the local Git repository.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does GitHub integration enhance collaborative workflows?",
+          "correctAnswer": "By enabling features such as pull requests and code review on remote repositories.",
+          "wrongAnswer1": "By automatically syncing all local commits without user intervention.",
+          "wrongAnswer2": "By allowing only a single user to modify the repository at a time.",
+          "wrongAnswer3": "By disabling branch creation to keep the repository simple.",
+          "explanation": "GitHub provides collaboration tools like pull requests and code reviews which facilitate team development and communication.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "GitLab platform",
+      "questions": [
+        {
+          "question": "What is GitLab primarily used for?",
+          "correctAnswer": "A web-based Git repository manager for version control and CI/CD",
+          "wrongAnswer1": "A programming language",
+          "wrongAnswer2": "A database management system",
+          "wrongAnswer3": "An operating system",
+          "explanation": "GitLab is a web-based platform that provides Git repository management, issue tracking, and continuous integration/continuous deployment tools.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature of GitLab allows automated software testing and deployment?",
+          "correctAnswer": "Continuous Integration/Continuous Deployment (CI/CD)",
+          "wrongAnswer1": "Code review",
+          "wrongAnswer2": "Issue tracking",
+          "wrongAnswer3": "Wiki documentation",
+          "explanation": "GitLab's CI/CD pipelines automate the processes of building, testing, and deploying software, helping teams to deliver applications faster.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In GitLab, what is a 'merge request' used for?",
+          "correctAnswer": "Requesting to merge code changes from one branch to another",
+          "wrongAnswer1": "Creating a new repository",
+          "wrongAnswer2": "Deleting a branch",
+          "wrongAnswer3": "Cloning a repository",
+          "explanation": "A merge request in GitLab is a way to propose code changes and have them reviewed and merged into the target branch after approval.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Staging area",
+      "questions": [
+        {
+          "question": "What is the main purpose of the staging area in Git?",
+          "correctAnswer": "To prepare and review changes before committing them to the repository",
+          "wrongAnswer1": "To store the entire history of the project",
+          "wrongAnswer2": "To keep a backup of all committed versions",
+          "wrongAnswer3": "To manage remote repository connections",
+          "explanation": "The staging area in Git is used to gather changes that will be included in the next commit, allowing you to review and fine-tune the changes before finalizing them in the repository.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Git command is used to add changes to the staging area?",
+          "correctAnswer": "git add",
+          "wrongAnswer1": "git commit",
+          "wrongAnswer2": "git push",
+          "wrongAnswer3": "git status",
+          "explanation": "The git add command updates the staging area with changes from the working directory, marking them for inclusion in the next commit.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If you modify a file, then run git add on that file, what happens if you modify the file again before committing?",
+          "correctAnswer": "The staging area will have the version at the time of git add, later changes are not staged until added again",
+          "wrongAnswer1": "The staging area automatically updates with the latest changes",
+          "wrongAnswer2": "The commit will include both the staged and unstaged changes automatically",
+          "wrongAnswer3": "Git will prevent further changes until after commit",
+          "explanation": "Once you run git add, the current snapshot is stored in the staging area. Further modifications will not be staged until you run git add again for those newer changes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Remote repository",
+      "questions": [
+        {
+          "question": "What is the main purpose of a remote repository in Git?",
+          "correctAnswer": "To share code and collaborate with others by hosting a common repository on a server",
+          "wrongAnswer1": "To track local changes on a single developer's machine",
+          "wrongAnswer2": "To compile and run code automatically",
+          "wrongAnswer3": "To store backup copies of code on a physical hard drive",
+          "explanation": "A remote repository in Git is used to host a repository on a server so that multiple developers can collaborate and share code by pushing and pulling changes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Git command is used to add a remote repository to your local repository?",
+          "correctAnswer": "git remote add",
+          "wrongAnswer1": "git remote remove",
+          "wrongAnswer2": "git remote update",
+          "wrongAnswer3": "git clone",
+          "explanation": "The command 'git remote add' is used to add a new remote repository to your local Git repository to enable pushing and pulling changes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the 'git push' command do in relation to a remote repository?",
+          "correctAnswer": "Uploads your local changes to the remote repository",
+          "wrongAnswer1": "Downloads changes from the remote repository to your local machine",
+          "wrongAnswer2": "Deletes the remote repository",
+          "wrongAnswer3": "Creates a new branch in the remote repository",
+          "explanation": "'git push' sends your committed changes from your local repository to the remote repository so others can access them.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Local repository",
+      "questions": [
+        {
+          "question": "What is a local repository in Git?",
+          "correctAnswer": "A local repository is a Git repository stored on your computer where you can make changes and commit them.",
+          "wrongAnswer1": "A local repository is a remote server where your code is stored.",
+          "wrongAnswer2": "A local repository is a backup copy of your Git repository on an external drive.",
+          "wrongAnswer3": "A local repository is a copy of another user's repository without any history.",
+          "explanation": "A local repository in Git is the repository stored on your local machine. It contains the full history and all the files, allowing you to work offline and commit changes locally before pushing them to a remote repository.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Where is the local repository in Git usually located?",
+          "correctAnswer": "On your personal computer's file system.",
+          "wrongAnswer1": "On a cloud-based server managed by Git providers.",
+          "wrongAnswer2": "In an external hard drive connected to your computer by default.",
+          "wrongAnswer3": "Only on USB devices used for version control.",
+          "explanation": "The local repository is the Git repository stored on your personal computer, in your project's directory, allowing you to work offline and manage version control locally.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to create a new local Git repository?",
+          "correctAnswer": "git init",
+          "wrongAnswer1": "git clone",
+          "wrongAnswer2": "git push",
+          "wrongAnswer3": "git commit",
+          "explanation": "The command git init initializes a new local Git repository in the current directory. git clone copies an existing repository; git push uploads changes; git commit records changes.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git init",
+      "questions": [
+        {
+          "question": "What does the git init command do?",
+          "correctAnswer": "It creates a new Git repository in the current directory.",
+          "wrongAnswer1": "It clones an existing repository from a remote source.",
+          "wrongAnswer2": "It commits changes to the repository.",
+          "wrongAnswer3": "It merges two branches together.",
+          "explanation": "The git init command creates a new Git repository in the current directory, setting up all necessary files and directories for version control.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When should you use git init?",
+          "correctAnswer": "When you want to start tracking a directory with Git for version control.",
+          "wrongAnswer1": "When you want to download a repository from GitHub.",
+          "wrongAnswer2": "When you want to share your repository with others.",
+          "wrongAnswer3": "When you want to delete all Git history from a directory.",
+          "explanation": "You use git init to turn an existing directory into a Git repository so that you can start version controlling the files and changes in that directory.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What files or folders does git init create?",
+          "correctAnswer": "A hidden .git directory containing repository metadata.",
+          "wrongAnswer1": "A README file describing the project.",
+          "wrongAnswer2": "A backup of all files in the directory.",
+          "wrongAnswer3": "A new branch called master.",
+          "explanation": "The git init command creates a hidden .git directory that stores all the metadata and objects for the repository, enabling Git to manage version control.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git add",
+      "questions": [
+        {
+          "question": "What is the purpose of the git add command?",
+          "correctAnswer": "To stage changes in the working directory for the next commit",
+          "wrongAnswer1": "To create a new Git branch",
+          "wrongAnswer2": "To clone a remote repository",
+          "wrongAnswer3": "To delete files from the repository",
+          "explanation": "The git add command is used to add changes from the working directory to the staging area so they can be included in the next commit.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which files does git add . include when run in a repository root?",
+          "correctAnswer": "All new, modified, and deleted files in the current directory and its subdirectories",
+          "wrongAnswer1": "Only the files that are currently tracked by Git",
+          "wrongAnswer2": "Only untracked files in the repository root directory",
+          "wrongAnswer3": "Only files that have been committed previously",
+          "explanation": "Running git add with a dot stages all changes (including new, modified, and deleted files) in the current directory and all its subdirectories.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens if you run git add on a file that has been modified?",
+          "correctAnswer": "The changes in the file are staged for the next commit",
+          "wrongAnswer1": "The file is deleted from the working directory",
+          "wrongAnswer2": "The file's history is permanently erased",
+          "wrongAnswer3": "The file is duplicated in the repository",
+          "explanation": "Using git add on a modified file stages those changes so when you commit, the new changes will be saved in the repository's history.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git commit",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the git commit command?",
+          "correctAnswer": "To save changes to the local repository",
+          "wrongAnswer1": "To push changes to the remote repository",
+          "wrongAnswer2": "To clone a repository",
+          "wrongAnswer3": "To create a new branch",
+          "explanation": "The git commit command saves changes to the local repository by creating a new commit object that records the changes staged in the index.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes what information a git commit stores?",
+          "correctAnswer": "A snapshot of the project files along with a commit message",
+          "wrongAnswer1": "Only the changed files without any message",
+          "wrongAnswer2": "The entire history of the project",
+          "wrongAnswer3": "Only the list of files staged for commit",
+          "explanation": "A git commit stores a snapshot of the project's files at that point along with a message describing the changes made.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What option allows you to amend the most recent git commit?",
+          "correctAnswer": "git commit --amend",
+          "wrongAnswer1": "git commit --redo",
+          "wrongAnswer2": "git commit --reset",
+          "wrongAnswer3": "git commit --replace",
+          "explanation": "Using git commit with the --amend option lets you modify the last commit by adding new changes or updating the commit message.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git push",
+      "questions": [
+        {
+          "question": "What is the purpose of the git push command?",
+          "correctAnswer": "To upload local repository content to a remote repository",
+          "wrongAnswer1": "To download content from a remote repository",
+          "wrongAnswer2": "To create a new branch in the local repository",
+          "wrongAnswer3": "To merge branches in the local repository",
+          "explanation": "The git push command is used to upload local repository changes to a remote repository so others can access the updated content.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following git push commands uploads changes from the current branch to the remote origin?",
+          "correctAnswer": "git push origin HEAD",
+          "wrongAnswer1": "git fetch origin HEAD",
+          "wrongAnswer2": "git commit origin HEAD",
+          "wrongAnswer3": "git pull origin HEAD",
+          "explanation": "The command git push origin HEAD pushes the changes in the current local branch to its corresponding branch on the remote named origin.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens if you try to git push when your local branch is behind the remote branch?",
+          "correctAnswer": "The push will be rejected until you pull and merge the remote changes",
+          "wrongAnswer1": "The push will overwrite the remote branch without warning",
+          "wrongAnswer2": "The push will create a new branch on the remote repository",
+          "wrongAnswer3": "The push will automatically merge conflicting changes",
+          "explanation": "Git prevents pushing if your local branch is behind the remote branch to avoid overwriting changes. You must first pull and merge remote updates before pushing.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git pull",
+      "questions": [
+        {
+          "question": "What does the Git pull command do?",
+          "correctAnswer": "Fetches changes from a remote repository and merges them into the current branch",
+          "wrongAnswer1": "Deletes the local branch and replaces it with the remote branch",
+          "wrongAnswer2": "Pushes local commits to the remote repository",
+          "wrongAnswer3": "Creates a new branch from the remote repository",
+          "explanation": "Git pull is a command that fetches changes from a remote repository and immediately merges them into the current local branch.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which two Git commands are combined when executing git pull?",
+          "correctAnswer": "git fetch and git merge",
+          "wrongAnswer1": "git clone and git commit",
+          "wrongAnswer2": "git push and git branch",
+          "wrongAnswer3": "git rebase and git commit",
+          "explanation": "Git pull performs a git fetch followed by a git merge to update the local branch with changes from the remote repository.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens if there are conflicts during a git pull merge?",
+          "correctAnswer": "You must resolve conflicts manually before completing the merge",
+          "wrongAnswer1": "The local changes are automatically overwritten by remote changes",
+          "wrongAnswer2": "Git pull will abort and discard all local changes",
+          "wrongAnswer3": "The merge is completed automatically without any manual effort",
+          "explanation": "If conflicts occur during the merge step of git pull, the user must manually resolve them to complete the merge.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git fetch",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the git fetch command?",
+          "correctAnswer": "To download commits, files, and references from a remote repository",
+          "wrongAnswer1": "To merge remote changes into your current branch",
+          "wrongAnswer2": "To push your local commits to a remote repository",
+          "wrongAnswer3": "To delete remote branches",
+          "explanation": "Git fetch downloads changes from a remote repository to your local repository without merging them automatically, allowing you to review changes before integrating them.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "After running git fetch, what must you do to update your local branch with the fetched changes?",
+          "correctAnswer": "Merge or rebase the fetched changes into your local branch",
+          "wrongAnswer1": "Nothing, git fetch updates the current branch automatically",
+          "wrongAnswer2": "Delete and recreate the local branch",
+          "wrongAnswer3": "Run git push to synchronize local changes",
+          "explanation": "Git fetch only downloads changes; it does not apply them to your current branch. You need to merge or rebase to incorporate those changes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which Git command would you use to update your remote tracking branches without modifying your working directory?",
+          "correctAnswer": "git fetch",
+          "wrongAnswer1": "git pull",
+          "wrongAnswer2": "git merge",
+          "wrongAnswer3": "git clone",
+          "explanation": "Git fetch updates remote tracking branches in your local repository but does not alter your working directory or the current branch.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "HEAD pointer",
+      "questions": [
+        {
+          "question": "What does the HEAD pointer in Git represent?",
+          "correctAnswer": "It points to the current branch reference or commit",
+          "wrongAnswer1": "It points to the remote repository",
+          "wrongAnswer2": "It is the name of the last commit",
+          "wrongAnswer3": "It stores the repository configuration",
+          "explanation": "In Git, the HEAD pointer represents the current branch reference or the specific commit that you are working on. It tells Git where you currently are in your repository history.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens to the HEAD pointer when you switch branches in Git?",
+          "correctAnswer": "It moves to reference the tip of the new branch",
+          "wrongAnswer1": "It stays fixed to the original branch",
+          "wrongAnswer2": "It points to the first commit in the repository",
+          "wrongAnswer3": "It points to the remote origin by default",
+          "explanation": "When you switch branches in Git using checkout or switch, the HEAD pointer moves to point to the tip (latest commit) of the new branch, indicating the current working branch.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "If HEAD is detached in Git, what does this mean?",
+          "correctAnswer": "HEAD points directly to a commit rather than a branch",
+          "wrongAnswer1": "HEAD points to an invalid branch",
+          "wrongAnswer2": "HEAD is pointing to a remote branch",
+          "wrongAnswer3": "HEAD has been deleted",
+          "explanation": "A detached HEAD in Git means HEAD points directly to a specific commit, not to a branch reference. This situation occurs when you checkout a commit hash instead of a branch and means you are not on a branch tip.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Detached HEAD",
+      "questions": [
+        {
+          "question": "What does it mean in Git when you are in a detached HEAD state?",
+          "correctAnswer": "You are not on any branch and HEAD points directly to a commit",
+          "wrongAnswer1": "You have merged two branches and are ready to push",
+          "wrongAnswer2": "Your repository is corrupted and needs repair",
+          "wrongAnswer3": "You are on the master branch but it is outdated",
+          "explanation": "A detached HEAD state in Git means that HEAD points directly to a commit rather than a branch, so you are not working on any branch at the moment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following actions can lead to a detached HEAD state in Git?",
+          "correctAnswer": "Checking out a specific commit by its hash",
+          "wrongAnswer1": "Switching from one branch to another branch",
+          "wrongAnswer2": "Running git pull to update the branch",
+          "wrongAnswer3": "Adding and committing changes to a branch",
+          "explanation": "When you checkout a commit directly by its hash instead of a branch name, Git enters a detached HEAD state because HEAD points to that commit, not to any branch.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can you safely return to a branch from a detached HEAD state in Git?",
+          "correctAnswer": "Use git checkout branch_name to switch back to a branch",
+          "wrongAnswer1": "Use git merge detached_HEAD to merge changes",
+          "wrongAnswer2": "Delete the detached HEAD with git reset --hard",
+          "wrongAnswer3": "Run git push to update the remote repository",
+          "explanation": "To leave the detached HEAD state and get back on a branch, you simply checkout the desired branch by name. This moves HEAD to point to that branch instead of a commit.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Conflict resolution",
+      "questions": [
+        {
+          "question": "What is a common cause of conflicts in Git when merging branches?",
+          "correctAnswer": "Changes made to the same lines of code in different branches",
+          "wrongAnswer1": "Different commit messages on branches",
+          "wrongAnswer2": "Branches created from the same commit",
+          "wrongAnswer3": "Using different programming languages in branches",
+          "explanation": "Conflicts typically occur when the same parts of the code are changed in different branches. Git cannot automatically decide which change to keep, causing a conflict.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Git command is used to manually resolve conflicts after a merge?",
+          "correctAnswer": "Editing the conflicted files followed by git add and git commit",
+          "wrongAnswer1": "git push origin main",
+          "wrongAnswer2": "git clone repository",
+          "wrongAnswer3": "git fetch origin",
+          "explanation": "After conflicts occur, you manually edit the affected files to resolve differences, then use git add to stage the resolved files, and git commit to complete the merge.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the marker <<<<<<< in a conflicted file indicate in Git?",
+          "correctAnswer": "The start of the conflicting changes from the current branch",
+          "wrongAnswer1": "The start of a deleted line",
+          "wrongAnswer2": "The end of a code block",
+          "wrongAnswer3": "A comment added by the user",
+          "explanation": "Markers like <<<<<<<, =======, and >>>>>>> denote the conflicting sections in files. <<<<<<< indicates the start of changes from the current branch involved in the conflict.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Rebase",
+      "questions": [
+        {
+          "question": "What is the primary purpose of using Git rebase?",
+          "correctAnswer": "To rewrite commit history by applying changes from one branch onto another",
+          "wrongAnswer1": "To merge two branches without changing commit history",
+          "wrongAnswer2": "To delete remote branches",
+          "wrongAnswer3": "To create a new branch from the current HEAD",
+          "explanation": "Git rebase allows you to move or combine a sequence of commits to a new base commit. This rewrites the commit history, unlike merge which preserves history.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to start an interactive rebase in Git?",
+          "correctAnswer": "git rebase -i",
+          "wrongAnswer1": "git merge -i",
+          "wrongAnswer2": "git checkout -i",
+          "wrongAnswer3": "git reset -i",
+          "explanation": "The 'git rebase -i' command opens an interactive rebase session allowing you to edit, reorder, squash, or drop commits.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is one risk of using Git rebase on a branch that has been pushed to a shared remote repository?",
+          "correctAnswer": "It can rewrite branch history and cause conflicts for collaborators",
+          "wrongAnswer1": "It automatically deletes the remote branch",
+          "wrongAnswer2": "It prevents further commits on that branch",
+          "wrongAnswer3": "It converts all commits into merge commits",
+          "explanation": "Rebasing published branches changes commit history, which can create difficulties for others working on the same branch. It is recommended to use rebase mainly for local commits.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Cherry pick",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the cherry pick command in Git?",
+          "correctAnswer": "To apply a specific commit from one branch onto another branch",
+          "wrongAnswer1": "To merge all changes from one branch to another",
+          "wrongAnswer2": "To delete a specific commit from the history",
+          "wrongAnswer3": "To create a new branch from a commit",
+          "explanation": "Cherry pick is used to select specific commits from one branch and apply them onto another branch without merging the entire branch.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following commands correctly demonstrates how to cherry pick a commit in Git?",
+          "correctAnswer": "git cherry-pick <commit-hash>",
+          "wrongAnswer1": "git cherry-pick branch-name",
+          "wrongAnswer2": "git apply <commit-hash>",
+          "wrongAnswer3": "git merge <commit-hash>",
+          "explanation": "The git cherry-pick command followed by the specific commit hash applies that commit to the current branch.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens if a conflict occurs during a cherry pick operation?",
+          "correctAnswer": "Git pauses the cherry pick and asks the user to resolve conflicts manually before continuing",
+          "wrongAnswer1": "The cherry pick is automatically aborted and all changes discarded",
+          "wrongAnswer2": "Git ignores the conflicted files and completes the cherry pick",
+          "wrongAnswer3": "Git automatically merges conflicts using the last commit changes",
+          "explanation": "During a cherry pick that results in conflicts, Git stops and requires the user to manually resolve conflicts before continuing or aborting the operation.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git stash",
+      "questions": [
+        {
+          "question": "What does the command git stash do in Git?",
+          "correctAnswer": "It temporarily saves changes in the working directory that are not yet committed",
+          "wrongAnswer1": "It permanently deletes untracked files",
+          "wrongAnswer2": "It merges two branches",
+          "wrongAnswer3": "It initializes a new Git repository",
+          "explanation": "Git stash temporarily shelves changes in your working directory, allowing you to switch branches without committing those changes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to apply the most recent stash saved?",
+          "correctAnswer": "git stash apply",
+          "wrongAnswer1": "git stash pop",
+          "wrongAnswer2": "git stash save",
+          "wrongAnswer3": "git stash drop",
+          "explanation": "The git stash apply command reapplies the changes from the most recent stash but keeps them in the stash list, unlike git stash pop which also removes the stash after applying.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens if you run git stash pop after stashing changes?",
+          "correctAnswer": "It applies the stash and removes it from the stash list",
+          "wrongAnswer1": "It only applies the stash but keeps it in the list",
+          "wrongAnswer2": "It stashes the current changes again",
+          "wrongAnswer3": "It shows the stash list without applying",
+          "explanation": "git stash pop reapplies the changes from the stash and then removes that stash from the stash list. This helps in cleaning up after applying the saved changes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git tag",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Git tag?",
+          "correctAnswer": "To mark specific points in history as important, like releases",
+          "wrongAnswer1": "To create branches for new features",
+          "wrongAnswer2": "To merge changes from one branch to another",
+          "wrongAnswer3": "To store uncommitted changes temporarily",
+          "explanation": "Git tags are used to label specific commits as important points in the repository's history, such as marking release versions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to create a lightweight Git tag?",
+          "correctAnswer": "git tag <tag_name>",
+          "wrongAnswer1": "git branch <tag_name>",
+          "wrongAnswer2": "git commit -m <tag_name>",
+          "wrongAnswer3": "git checkout <tag_name>",
+          "explanation": "The command 'git tag <tag_name>' creates a lightweight tag pointing to the current commit without additional metadata.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do annotated tags differ from lightweight tags in Git?",
+          "correctAnswer": "Annotated tags store additional metadata such as the tagger's name, email, and date",
+          "wrongAnswer1": "Lightweight tags include commit messages while annotated tags do not",
+          "wrongAnswer2": "Annotated tags cannot be pushed to remote repositories",
+          "wrongAnswer3": "Lightweight tags create a new branch automatically",
+          "explanation": "Annotated tags contain extra information like the tagger's details and a tagging message, whereas lightweight tags are just pointers to commits.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Diff",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the git diff command?",
+          "correctAnswer": "To show the differences between files or commits",
+          "wrongAnswer1": "To delete files from the repository",
+          "wrongAnswer2": "To merge branches",
+          "wrongAnswer3": "To create a new branch",
+          "explanation": "The git diff command is used to display the differences between various states such as files, commits, or the working directory, helping users understand what changes have been made.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following commands would show the differences between the working directory and the staging area?",
+          "correctAnswer": "git diff",
+          "wrongAnswer1": "git diff --staged",
+          "wrongAnswer2": "git status",
+          "wrongAnswer3": "git commit",
+          "explanation": "Running git diff without additional arguments compares the working directory to the staging area, showing changes that are not yet staged for commit.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can you view differences between two specific commits in Git?",
+          "correctAnswer": "git diff commit1 commit2",
+          "wrongAnswer1": "git diff --between commit1 commit2",
+          "wrongAnswer2": "git log --diff commit1 commit2",
+          "wrongAnswer3": "git show commit1 commit2",
+          "explanation": "Using git diff followed by the two commit hashes shows the differences between those specific commits, highlighting what has changed from one to the other.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Log history",
+      "questions": [
+        {
+          "question": "What command is used to view the commit history in Git?",
+          "correctAnswer": "git log",
+          "wrongAnswer1": "git status",
+          "wrongAnswer2": "git commit",
+          "wrongAnswer3": "git push",
+          "explanation": "The git log command displays the commit history of the current branch with details like commit ID, author, date, and message.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which option of git log allows you to view the history of a specific file?",
+          "correctAnswer": "git log -- <filename>",
+          "wrongAnswer1": "git log -a",
+          "wrongAnswer2": "git log --all",
+          "wrongAnswer3": "git log -f",
+          "explanation": "Using git log followed by a filename shows the commit history that affected that particular file specifically.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can you display the git log output on a single line per commit?",
+          "correctAnswer": "git log --oneline",
+          "wrongAnswer1": "git log --short",
+          "wrongAnswer2": "git log --compact",
+          "wrongAnswer3": "git log --brief",
+          "explanation": "The --oneline option condenses each commit to one line showing the abbreviated commit hash and the commit message summary.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Blame annotation",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Git blame annotation?",
+          "correctAnswer": "To identify the author and commit of each line in a file",
+          "wrongAnswer1": "To highlight syntax errors in the code",
+          "wrongAnswer2": "To merge two branches together",
+          "wrongAnswer3": "To create a backup of the repository",
+          "explanation": "Git blame shows the author and the commit that last modified each line of a file, helping track changes and their origins.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to perform a blame annotation in Git?",
+          "correctAnswer": "git blame",
+          "wrongAnswer1": "git track",
+          "wrongAnswer2": "git annotate",
+          "wrongAnswer3": "git commit --blame",
+          "explanation": "The git blame command is used to annotate each line in a file with information about the last modification.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can Git blame annotation be useful during code reviews?",
+          "correctAnswer": "It helps identify who last changed specific lines to ask clarifying questions",
+          "wrongAnswer1": "It automatically fixes bugs found in lines of code",
+          "wrongAnswer2": "It rewrites the commit history for clarity",
+          "wrongAnswer3": "It merges the review comments into the code",
+          "explanation": "Git blame is useful in code reviews to see who authored specific lines, allowing reviewers to target questions or comments appropriately.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git reset",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the git reset command?",
+          "correctAnswer": "To undo changes by resetting the current HEAD to a specified state",
+          "wrongAnswer1": "To permanently delete a repository",
+          "wrongAnswer2": "To create a new branch from current HEAD",
+          "wrongAnswer3": "To commit changes to the remote repository",
+          "explanation": "The git reset command is mainly used to undo changes by moving the current HEAD to a specified commit, effectively resetting the state of the index and working directory depending on the options used.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which option with git reset resets the index but does not change the working directory?",
+          "correctAnswer": "--soft",
+          "wrongAnswer1": "--hard",
+          "wrongAnswer2": "--mixed",
+          "wrongAnswer3": "--merge",
+          "explanation": "The --soft option with git reset moves HEAD to the specified commit but does not change the index or working directory. The --mixed option resets index but not working directory, and --hard resets both index and working directory.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the effect of running git reset --hard HEAD~1?",
+          "correctAnswer": "It moves HEAD back one commit and discards all changes in the working directory and index",
+          "wrongAnswer1": "It creates a new commit based on the previous one",
+          "wrongAnswer2": "It stages changes from the last commit",
+          "wrongAnswer3": "It pushes the last commit to the remote repository",
+          "explanation": "The command git reset --hard HEAD~1 resets the current branch to the commit before the latest one, and discards any changes in both the working directory and the index. This effectively removes the last commit and its changes locally.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git revert",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the git revert command?",
+          "correctAnswer": "To create a new commit that undoes the changes of a previous commit",
+          "wrongAnswer1": "To delete a commit from the history",
+          "wrongAnswer2": "To permanently remove a branch",
+          "wrongAnswer3": "To merge two branches together",
+          "explanation": "The git revert command creates a new commit that reverses the changes introduced by a specified earlier commit without altering the existing commit history.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about git revert?",
+          "correctAnswer": "It undoes changes by creating a new commit, preserving the commit history",
+          "wrongAnswer1": "It rewrites the commit history by deleting old commits",
+          "wrongAnswer2": "It only works on uncommitted changes in the working directory",
+          "wrongAnswer3": "It removes commits from the remote repository permanently",
+          "explanation": "Git revert does not delete commits or rewrite history; instead, it safely undoes changes by adding a new commit that negates prior changes, thus keeping history intact.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "When using git revert on a commit that introduced a new feature, what happens?",
+          "correctAnswer": "A new commit is created which reverses the changes of that feature without removing the original commit",
+          "wrongAnswer1": "The commit introducing the feature is deleted from history",
+          "wrongAnswer2": "The feature is removed without creating any new commits",
+          "wrongAnswer3": "The entire branch is reset to the state before the feature was added",
+          "explanation": "Git revert creates a new commit that undoes the effect of the specified commit; the original commit remains in the history for traceability.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Commit message",
+      "questions": [
+        {
+          "question": "What is the purpose of a commit message in Git?",
+          "correctAnswer": "To describe the changes made in the commit",
+          "wrongAnswer1": "To store the files for the commit",
+          "wrongAnswer2": "To delete previous commits",
+          "wrongAnswer3": "To merge branches automatically",
+          "explanation": "A commit message in Git is used to describe the changes made in that particular commit, helping others understand what was modified and why.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a good practice for writing a Git commit message?",
+          "correctAnswer": "Write a short summary in the first line followed by a more detailed description if needed",
+          "wrongAnswer1": "Write a very long paragraph without line breaks",
+          "wrongAnswer2": "Include unrelated changes in the commit message",
+          "wrongAnswer3": "Use only generic messages like 'update' or 'fix'",
+          "explanation": "A good commit message should have a concise summary as the first line and may include a detailed description after a blank line. This makes the commit history easier to read and understand.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "When should you write a commit message in Git?",
+          "correctAnswer": "At the time of creating a commit",
+          "wrongAnswer1": "After pushing the commit to the remote repository",
+          "wrongAnswer2": "Before making any changes to files",
+          "wrongAnswer3": "Only when merging branches",
+          "explanation": "The commit message is written at the time of creating a commit to document what changes are included in that commit. It is part of the commit creation process.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git ignore",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a .gitignore file in a Git repository?",
+          "correctAnswer": "To specify files and directories that Git should ignore and not track",
+          "wrongAnswer1": "To list all files that must be committed to the repository",
+          "wrongAnswer2": "To configure the user permissions for the repository",
+          "wrongAnswer3": "To define Git aliases for commands",
+          "explanation": ".gitignore files tell Git which files or directories to ignore so they are not tracked or committed to the repository. This is useful for excluding temporary files, build outputs, or sensitive data.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following patterns in a .gitignore file will ignore all files with the .log extension?",
+          "correctAnswer": "*.log",
+          "wrongAnswer1": "log/*",
+          "wrongAnswer2": "log",
+          "wrongAnswer3": "**.log",
+          "explanation": "The pattern '*.log' will ignore all files that end with the .log extension regardless of their location in the project directory.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "If a file is already tracked by Git, what must you do to stop tracking it using .gitignore?",
+          "correctAnswer": "Remove the file from the index using git rm --cached and then add it to .gitignore",
+          "wrongAnswer1": "Simply add the file to .gitignore and commit",
+          "wrongAnswer2": "Delete the file from the working directory",
+          "wrongAnswer3": "Reinitialize the repository",
+          "explanation": ".gitignore only affects untracked files. To stop tracking a file already in the repository, you have to remove it from Git's index using git rm --cached and then add it to the .gitignore to prevent it from being re-added.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Tracking files",
+      "questions": [
+        {
+          "question": "What does it mean to track a file in Git?",
+          "correctAnswer": "Git monitors changes to the file and includes it in version history",
+          "wrongAnswer1": "Git deletes the file from the repository",
+          "wrongAnswer2": "Git encrypts the file content for security",
+          "wrongAnswer3": "Git moves the file to a temporary folder",
+          "explanation": "Tracking a file in Git means the system monitors the file for changes and includes those changes in the repository's version history when committed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to start tracking a new file in Git?",
+          "correctAnswer": "git add filename",
+          "wrongAnswer1": "git track filename",
+          "wrongAnswer2": "git commit filename",
+          "wrongAnswer3": "git push filename",
+          "explanation": "The git add command stages a new or modified file to the index, indicating that Git should track it and include it in the next commit.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If a file is not tracked in Git, what happens to changes made to it?",
+          "correctAnswer": "They are not included in commits until the file is added to tracking",
+          "wrongAnswer1": "They automatically get committed",
+          "wrongAnswer2": "They get deleted when switching branches",
+          "wrongAnswer3": "They are backed up separately outside Git",
+          "explanation": "Untracked files do not have their changes included in commits. They must be added with git add to be tracked and included in version history.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Untracked files",
+      "questions": [
+        {
+          "question": "What does it mean when a file is untracked in Git?",
+          "correctAnswer": "The file is not yet added to the Git repository and is not being tracked for changes.",
+          "wrongAnswer1": "The file is committed and part of the latest commit.",
+          "wrongAnswer2": "The file has been deleted from the repository.",
+          "wrongAnswer3": "The file is staged and ready to be committed.",
+          "explanation": "In Git, an untracked file is a file that exists in the working directory but has not been added to the repository and thus is not tracked by Git for changes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Git command would you use to start tracking an untracked file?",
+          "correctAnswer": "git add",
+          "wrongAnswer1": "git commit",
+          "wrongAnswer2": "git status",
+          "wrongAnswer3": "git remove",
+          "explanation": "The git add command adds untracked files to the staging area, which prepares them to be committed to the repository.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can you see a list of untracked files in your Git working directory?",
+          "correctAnswer": "git status",
+          "wrongAnswer1": "git log",
+          "wrongAnswer2": "git diff",
+          "wrongAnswer3": "git branch",
+          "explanation": "The git status command displays the state of the working directory and staging area, including any untracked files.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git config",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Git config command?",
+          "correctAnswer": "To set configuration options for Git such as user details and preferences.",
+          "wrongAnswer1": "To create a new Git repository.",
+          "wrongAnswer2": "To commit changes to the repository.",
+          "wrongAnswer3": "To clone a remote repository.",
+          "explanation": "The Git config command is used mainly to set user preferences and configurations such as user name, email, and behavior of Git operations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following scopes can be used with git config?",
+          "correctAnswer": "System, global, and local",
+          "wrongAnswer1": "User, project, and global",
+          "wrongAnswer2": "User, system, and repository",
+          "wrongAnswer3": "Local, remote, and global",
+          "explanation": "Git config supports three levels or scopes: system-wide, global (user-level), and local (repository-level) configurations.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you set your email address for commits using git config globally?",
+          "correctAnswer": "git config --global user.email example@example.com",
+          "wrongAnswer1": "git set email global example@example.com",
+          "wrongAnswer2": "git config set email example@example.com",
+          "wrongAnswer3": "git update config email example@example.com",
+          "explanation": "The correct syntax to set the global email address for commit author details is git config --global user.email followed by the email address.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git hooks",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Git hooks?",
+          "correctAnswer": "To automate scripts before or after Git events like commits and merges",
+          "wrongAnswer1": "To create branches automatically",
+          "wrongAnswer2": "To visualize Git repository history",
+          "wrongAnswer3": "To backup the Git repository data",
+          "explanation": "Git hooks are scripts that run automatically on specific Git events such as committing, merging, or pushing, allowing automation of tasks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Where are Git hook scripts stored within a Git repository?",
+          "correctAnswer": "Inside the .git/hooks directory",
+          "wrongAnswer1": "In the root directory of the repository",
+          "wrongAnswer2": "In the user home directory",
+          "wrongAnswer3": "In the remote repository server",
+          "explanation": "Git hook scripts are located in the .git/hooks directory of a Git repository, where sample scripts are provided by default.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Git hook would you use to prevent a commit based on custom validation?",
+          "correctAnswer": "pre-commit",
+          "wrongAnswer1": "post-commit",
+          "wrongAnswer2": "pre-push",
+          "wrongAnswer3": "post-merge",
+          "explanation": "The pre-commit hook runs before a commit is finalized and can be used to check and possibly block the commit if certain conditions are not met.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Fast forward",
+      "questions": [
+        {
+          "question": "What happens during a fast forward merge in Git?",
+          "correctAnswer": "The branch pointer is simply moved forward to the target commit without creating a new merge commit.",
+          "wrongAnswer1": "A new merge commit is created that combines the changes from both branches.",
+          "wrongAnswer2": "All commits from the source branch are rebased onto the target branch.",
+          "wrongAnswer3": "The source branch is deleted automatically after the merge.",
+          "explanation": "In a fast forward merge, Git moves the branch pointer forward to the latest commit of the source branch when there have been no divergent changes, so no new merge commit is needed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When can a fast forward merge occur in Git?",
+          "correctAnswer": "When the branch being merged has all commits ahead of the current branch without any divergence.",
+          "wrongAnswer1": "When there are conflicts between branches that must be resolved.",
+          "wrongAnswer2": "When the branches have diverged with different commits on both sides.",
+          "wrongAnswer3": "When a merge commit is manually forced.",
+          "explanation": "A fast forward merge can only happen if the current branch has not moved forward since the source branch was created, meaning the current branch is behind the source and can just move forward to include those commits.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which Git command option can prevent a fast forward merge?",
+          "correctAnswer": "--no-ff",
+          "wrongAnswer1": "--ff-only",
+          "wrongAnswer2": "--force",
+          "wrongAnswer3": "--rebase",
+          "explanation": "The option --no-ff forces Git to create a merge commit even if a fast forward merge is possible, preserving the branch history explicitly.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git archive",
+      "questions": [
+        {
+          "question": "What is the primary use of the git archive command?",
+          "correctAnswer": "To create an archive file of files from a specific commit or branch",
+          "wrongAnswer1": "To clone a remote repository to the local machine",
+          "wrongAnswer2": "To merge two branches together",
+          "wrongAnswer3": "To display the commit history",
+          "explanation": "The git archive command is used to create a compressed archive file (such as a zip or tar file) of the contents of a particular commit, branch, or tag without the git metadata.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following formats can git archive output be created in by default?",
+          "correctAnswer": "tar and zip",
+          "wrongAnswer1": "gzip and bzip2",
+          "wrongAnswer2": "rar and 7z",
+          "wrongAnswer3": "exe and dmg",
+          "explanation": "Git archive supports creating output archives in tar and zip formats by default. Other formats are not supported without additional tools.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can you create an archive of only a specific directory within a git repository using git archive?",
+          "correctAnswer": "By specifying the directory path as a path parameter in the git archive command",
+          "wrongAnswer1": "By cloning the repository and deleting unwanted files before archiving",
+          "wrongAnswer2": "By using git clone with a directory filter option",
+          "wrongAnswer3": "By using git stash to save the directory changes before running git archive",
+          "explanation": "Git archive allows you to specify a path after the commit or branch name to archive only a subset of files or a directory from the repository.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git bundle",
+      "questions": [
+        {
+          "question": "What is a Git bundle primarily used for?",
+          "correctAnswer": "To package multiple Git objects into a single file for transfer or backup",
+          "wrongAnswer1": "To compress repository files for faster cloning",
+          "wrongAnswer2": "To create a new branch in a Git repository",
+          "wrongAnswer3": "To merge two branches in a Git repository",
+          "explanation": "A Git bundle is used to package multiple Git objects, such as commits, branches, and tags, into a single file which can be transferred or backed up easily without network access.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you create a Git bundle of a repository?",
+          "correctAnswer": "git bundle create filename.bundle --all",
+          "wrongAnswer1": "git bundle start filename.bundle",
+          "wrongAnswer2": "git create bundle filename.bundle",
+          "wrongAnswer3": "git bundle new filename.bundle --commit",
+          "explanation": "To create a Git bundle that includes all refs, the command git bundle create filename.bundle --all is used.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which command do you use to clone from a Git bundle?",
+          "correctAnswer": "git clone filename.bundle repo-name",
+          "wrongAnswer1": "git bundle clone filename.bundle",
+          "wrongAnswer2": "git clone --bundle filename.bundle",
+          "wrongAnswer3": "git bundle checkout filename.bundle",
+          "explanation": "To clone a repository from a Git bundle, you use git clone followed by the bundle file name, and optionally the target directory name.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git submodules",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Git submodules?",
+          "correctAnswer": "To include and manage a separate Git repository within another repository",
+          "wrongAnswer1": "To automatically merge branches in the main repository",
+          "wrongAnswer2": "To create a backup of the repository",
+          "wrongAnswer3": "To revert the repository to a previous commit",
+          "explanation": "Git submodules allow you to embed one Git repository inside another. This is useful for including libraries or other projects within a main project while keeping their histories separate.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you add a Git submodule to your repository?",
+          "correctAnswer": "Using the command git submodule add followed by the repository URL",
+          "wrongAnswer1": "Using git add submodule followed by the repository URL",
+          "wrongAnswer2": "Using git clone --submodule followed by the repository URL",
+          "wrongAnswer3": "Using git submodule init followed by the repository URL",
+          "explanation": "The correct command to add a submodule is git submodule add [repository URL] which clones the submodule repository into your main project and tracks it.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What must you do after cloning a repository that contains Git submodules to initialize and fetch the submodules?",
+          "correctAnswer": "Run git submodule update --init",
+          "wrongAnswer1": "Run git clone --recursive",
+          "wrongAnswer2": "Run git pull --submodules",
+          "wrongAnswer3": "Run git submodule fetch",
+          "explanation": "After cloning a repository with submodules, running git submodule update --init fetches and initializes the submodules. Alternatively, cloning with git clone --recursive also initializes submodules at clone time.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git credentials",
+      "questions": [
+        {
+          "question": "What is the purpose of Git credentials?",
+          "correctAnswer": "To authenticate a user when interacting with remote repositories",
+          "wrongAnswer1": "To store the history of changes in a repository",
+          "wrongAnswer2": "To merge branches automatically",
+          "wrongAnswer3": "To compile the source code",
+          "explanation": "Git credentials are used to verify the identity of a user when they access or push changes to remote repositories, ensuring secure access.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common method to manage Git credentials on your local machine?",
+          "correctAnswer": "Using a credential helper such as Git Credential Manager",
+          "wrongAnswer1": "Editing the .gitignore file",
+          "wrongAnswer2": "Changing file permissions on the repository",
+          "wrongAnswer3": "Disabling SSH keys",
+          "explanation": "Credential helpers store or cache credentials securely to avoid repeatedly entering usernames and passwords when accessing remote repositories.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the Git Credential Manager typically store?",
+          "correctAnswer": "Usernames and passwords or access tokens for Git servers",
+          "wrongAnswer1": "The entire history of commits",
+          "wrongAnswer2": "The source code of the project",
+          "wrongAnswer3": "Configuration settings for branches",
+          "explanation": "Git Credential Manager securely stores authentication details like usernames, passwords, and tokens to facilitate smoother Git operations involving remote repositories.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git squash",
+      "questions": [
+        {
+          "question": "What is the purpose of using git squash in a project?",
+          "correctAnswer": "To combine multiple commits into a single commit",
+          "wrongAnswer1": "To delete a branch permanently",
+          "wrongAnswer2": "To create a new branch from a commit",
+          "wrongAnswer3": "To revert the last commit made",
+          "explanation": "Git squash is used to combine multiple commits into one to simplify the commit history before merging.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which git command is commonly used to squash commits?",
+          "correctAnswer": "git rebase -i",
+          "wrongAnswer1": "git merge",
+          "wrongAnswer2": "git pull",
+          "wrongAnswer3": "git branch",
+          "explanation": "The interactive rebase command git rebase -i allows you to squash commits by combining them during the rebase process.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a potential risk when performing git squash during collaborative development?",
+          "correctAnswer": "It can rewrite commit history affecting others' branches",
+          "wrongAnswer1": "It deletes all branches in the repository",
+          "wrongAnswer2": "It permanently removes all files in the project",
+          "wrongAnswer3": "It automatically pushes changes to the remote repository",
+          "explanation": "Squashing rewrites commit history which can cause conflicts or issues for collaborators who have copied the original commits.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git reflog",
+      "questions": [
+        {
+          "question": "What is the purpose of the Git reflog command?",
+          "correctAnswer": "To record updates to the tip of branches and other references",
+          "wrongAnswer1": "To permanently delete commits from the repository",
+          "wrongAnswer2": "To merge two branches together",
+          "wrongAnswer3": "To clone a remote repository",
+          "explanation": "Git reflog records changes made to branch tips and other references, allowing you to view and recover previous states, even if they are not part of any current branch history.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can Git reflog help when you accidentally delete a branch?",
+          "correctAnswer": "It allows you to find the commit hash to restore the branch",
+          "wrongAnswer1": "It automatically recreates the deleted branch",
+          "wrongAnswer2": "It merges the deleted branch back into master",
+          "wrongAnswer3": "It prevents the branch from being deleted permanently",
+          "explanation": "Git reflog keeps a history of where branch references have been, so you can find the commit hash the branch pointed to before deletion and recreate the branch from that commit.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which command would you use to view the reflog entries?",
+          "correctAnswer": "git reflog",
+          "wrongAnswer1": "git log",
+          "wrongAnswer2": "git status",
+          "wrongAnswer3": "git branch",
+          "explanation": "The command git reflog shows the history of reference updates, including commits, resets, checkouts, and more, which is different from git log that shows commit history of the current branch.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git worktree",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Git worktree feature?",
+          "correctAnswer": "To allow multiple branches to be checked out simultaneously with separate working directories",
+          "wrongAnswer1": "To merge two branches automatically",
+          "wrongAnswer2": "To initialize a new Git repository",
+          "wrongAnswer3": "To delete branches from the repository",
+          "explanation": "Git worktree allows you to have several working trees attached to the same repository, enabling simultaneous work on multiple branches without needing to switch branches in a single working directory.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you add a new worktree in Git?",
+          "correctAnswer": "Use the command git worktree add followed by the path and branch name",
+          "wrongAnswer1": "Use git clone to create a new worktree",
+          "wrongAnswer2": "Edit the .git/config file to include the new worktree path",
+          "wrongAnswer3": "Run git branch create worktree from the main branch",
+          "explanation": "The git worktree add command is used to create a new working tree attached to the repository, specifying the location and branch to check out.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a benefit of using Git worktree?",
+          "correctAnswer": "You can work on multiple branches without switching or stashing changes",
+          "wrongAnswer1": "It automatically rebases branches when you switch",
+          "wrongAnswer2": "It compresses your repository size",
+          "wrongAnswer3": "It ensures all branches are always merged",
+          "explanation": "Git worktree lets developers check out multiple branches at once in separate folders, so you don’t need to switch branches or stash changes to move between tasks.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git LFS",
+      "questions": [
+        {
+          "question": "What does Git LFS stand for?",
+          "correctAnswer": "Git Large File Storage",
+          "wrongAnswer1": "Git Limited File System",
+          "wrongAnswer2": "Git Lightweight File Sync",
+          "wrongAnswer3": "Git Local File Server",
+          "explanation": "Git LFS stands for Git Large File Storage. It is an extension for managing large files in Git repositories.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What problem does Git LFS primarily solve?",
+          "correctAnswer": "Managing large files efficiently in Git repositories",
+          "wrongAnswer1": "Improving Git commit speed for small files",
+          "wrongAnswer2": "Encrypting Git repositories",
+          "wrongAnswer3": "Automating Git merges",
+          "explanation": "Git LFS helps manage large files by replacing large files with text pointers inside Git, while storing the file contents on a remote server, making repository management more efficient.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does Git LFS store large files differently than standard Git?",
+          "correctAnswer": "It stores pointers in the repository and large file contents on a separate remote server",
+          "wrongAnswer1": "It compresses large files and stores them directly in the Git repository",
+          "wrongAnswer2": "It splits large files into multiple small files stored in Git",
+          "wrongAnswer3": "It does not track changes in large files at all",
+          "explanation": "Git LFS replaces large files with small pointer files in the Git repository and stores the actual large file content on a separate server to avoid bloating the repository.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git GUI",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Git GUI?",
+          "correctAnswer": "To provide a graphical interface to interact with Git repositories",
+          "wrongAnswer1": "To replace the Git command line entirely",
+          "wrongAnswer2": "To host Git repositories on the internet",
+          "wrongAnswer3": "To compile source code automatically",
+          "explanation": "A Git GUI provides a graphical interface to make it easier for users to interact with Git repositories, especially for those less comfortable with the command line.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a popular Git GUI client?",
+          "correctAnswer": "GitHub Desktop",
+          "wrongAnswer1": "Node.js",
+          "wrongAnswer2": "Visual Studio Code",
+          "wrongAnswer3": "Slack",
+          "explanation": "GitHub Desktop is a well-known Git GUI client that allows users to manage their Git repositories with a graphical interface.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What advantage does using a Git GUI offer over the command line?",
+          "correctAnswer": "Visualization of branches and commits",
+          "wrongAnswer1": "Faster execution of Git commands",
+          "wrongAnswer2": "Ability to write code automatically",
+          "wrongAnswer3": "Better code compilation",
+          "explanation": "Git GUIs often provide visual representations of branches, commits, and merges, making it easier to understand the repository's history.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git bisect",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Git bisect command?",
+          "correctAnswer": "To find the commit that introduced a bug by binary search",
+          "wrongAnswer1": "To merge two branches together",
+          "wrongAnswer2": "To create a new branch from a specific commit",
+          "wrongAnswer3": "To list all commits in a repository",
+          "explanation": "Git bisect is used to identify the exact commit that introduced a bug by performing a binary search through the commit history, allowing developers to pinpoint where the issue started.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which sequence correctly describes the Git bisect workflow?",
+          "correctAnswer": "Start bisect, mark known bad commit, mark known good commit, test, repeat until found",
+          "wrongAnswer1": "Start bisect, commit changes, merge branches, push to remote",
+          "wrongAnswer2": "Clone repository, create branch, commit code, start bisect",
+          "wrongAnswer3": "Start bisect, reset repository, rebase commits, end bisect",
+          "explanation": "The typical workflow for Git bisect involves starting bisect, marking a known bad commit, marking a known good commit, then testing between these commits repeatedly until the exact commit causing the problem is found.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What command would end the Git bisect session and return you to the state before bisecting?",
+          "correctAnswer": "git bisect reset",
+          "wrongAnswer1": "git bisect stop",
+          "wrongAnswer2": "git bisect finish",
+          "wrongAnswer3": "git bisect revert",
+          "explanation": "The git bisect reset command ends the bisect session and returns the repository to the state it was in before the bisect started, cleaning up the temporary bisect state.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git attributes",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Git attributes?",
+          "correctAnswer": "To customize the behavior of Git for specific files or paths in a repository",
+          "wrongAnswer1": "To manage user permissions in a Git repository",
+          "wrongAnswer2": "To define branch merging strategies globally",
+          "wrongAnswer3": "To store commit messages for history tracking",
+          "explanation": "Git attributes allow you to specify how Git handles certain files or patterns, such as setting text encoding, merge strategies, or diff options on a per-path basis.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which file is typically used to specify Git attributes in a repository?",
+          "correctAnswer": ".gitattributes",
+          "wrongAnswer1": "gitconfig",
+          "wrongAnswer2": "gitignore",
+          "wrongAnswer3": "README.md",
+          "explanation": "The .gitattributes file defines attributes for paths and files in the repository, controlling Git's behavior for those files.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can Git attributes affect the way line endings are handled?",
+          "correctAnswer": "By setting the text attribute to control automatic line ending conversions",
+          "wrongAnswer1": "By changing the file permissions in the repository",
+          "wrongAnswer2": "By modifying the commit timestamps",
+          "wrongAnswer3": "By specifying branch merge conflicts",
+          "explanation": "The text attribute in Git attributes can be used to tell Git to automatically normalize line endings when committing and checking out files, helping with cross-platform compatibility.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Git",
+      "concept": "Git pull request",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Git pull request?",
+          "correctAnswer": "To request merging changes from one branch to another after review",
+          "wrongAnswer1": "To download the latest changes from a remote repository",
+          "wrongAnswer2": "To create a new branch in the repository",
+          "wrongAnswer3": "To delete a branch after merging",
+          "explanation": "A pull request is used to propose changes from one branch to be merged into another branch after review and approval.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Who typically reviews a Git pull request before it is merged?",
+          "correctAnswer": "Maintainers or team members responsible for the project",
+          "wrongAnswer1": "Anyone unrelated to the project",
+          "wrongAnswer2": "Someone from a different repository",
+          "wrongAnswer3": "Automated bots only without human intervention",
+          "explanation": "Pull requests are reviewed by maintainers or team members who ensure the changes meet quality and project standards before merging.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens if conflicts are detected during a Git pull request merge?",
+          "correctAnswer": "The conflicts must be resolved before the pull request can be merged",
+          "wrongAnswer1": "The pull request is automatically rejected",
+          "wrongAnswer2": "The pull request merge proceeds, ignoring conflicts",
+          "wrongAnswer3": "The conflicts are resolved by deleting the conflicting files",
+          "explanation": "Merge conflicts need to be manually resolved to ensure that the code integrates correctly before merging a pull request.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

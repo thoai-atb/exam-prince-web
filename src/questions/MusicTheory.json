@@ -1,0 +1,1655 @@
+{
+  "topic": "Music Theory",
+  "concepts": [
+    {
+      "topic": "Music Theory",
+      "concept": "Scales",
+      "questions": [
+        {
+          "question": "What is the sequence of whole and half steps in a major scale?",
+          "correctAnswer": "Whole, whole, half, whole, whole, whole, half",
+          "wrongAnswer1": "Whole, half, whole, whole, half, whole, whole",
+          "wrongAnswer2": "Half, whole, whole, half, whole, whole, whole",
+          "wrongAnswer3": "Whole, whole, whole, half, half, whole, whole",
+          "explanation": "The major scale follows the pattern: whole step, whole step, half step, whole step, whole step, whole step, half step.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How many notes are there typically in a diatonic scale?",
+          "correctAnswer": "Seven",
+          "wrongAnswer1": "Five",
+          "wrongAnswer2": "Eight",
+          "wrongAnswer3": "Six",
+          "explanation": "A diatonic scale consists of seven distinct pitches per octave.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which scale is characterized by having a flattened third, sixth, and seventh degree?",
+          "correctAnswer": "Natural minor scale",
+          "wrongAnswer1": "Major scale",
+          "wrongAnswer2": "Harmonic minor scale",
+          "wrongAnswer3": "Melodic minor scale",
+          "explanation": "The natural minor scale includes a flattened third, sixth, and seventh compared to the major scale.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Chords",
+      "questions": [
+        {
+          "question": "What defines a chord in music theory?",
+          "correctAnswer": "A combination of three or more notes played together",
+          "wrongAnswer1": "A sequence of single notes played one after another",
+          "wrongAnswer2": "A single note played with vibrato",
+          "wrongAnswer3": "A rest between two notes",
+          "explanation": "A chord is defined as a group of three or more notes sounded together, creating harmony.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common type of chord?",
+          "correctAnswer": "Major chord",
+          "wrongAnswer1": "Linear chord",
+          "wrongAnswer2": "Circular chord",
+          "wrongAnswer3": "Vertical chord",
+          "explanation": "Major chords are one of the most common types of chords in music, identified by their bright and happy sound.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What notes typically make up a major triad chord?",
+          "correctAnswer": "Root, major third, perfect fifth",
+          "wrongAnswer1": "Root, minor third, perfect fifth",
+          "wrongAnswer2": "Root, major second, perfect fifth",
+          "wrongAnswer3": "Root, perfect fourth, diminished fifth",
+          "explanation": "A major triad consists of the root note, a major third interval above the root, and a perfect fifth interval above the root.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Intervals",
+      "questions": [
+        {
+          "question": "What is an interval in music theory?",
+          "correctAnswer": "The distance between two pitches",
+          "wrongAnswer1": "The speed of a musical piece",
+          "wrongAnswer2": "The loudness of a sound",
+          "wrongAnswer3": "The rhythm pattern in a melody",
+          "explanation": "An interval is defined as the distance in pitch between two notes. It is fundamental in understanding harmony and melody.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which interval is considered a perfect fifth?",
+          "correctAnswer": "Seven semitones",
+          "wrongAnswer1": "Five semitones",
+          "wrongAnswer2": "Twelve semitones",
+          "wrongAnswer3": "Four semitones",
+          "explanation": "A perfect fifth spans seven semitones (half steps) and is one of the most consonant intervals in music theory.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How many semitones are in a major third interval?",
+          "correctAnswer": "Four semitones",
+          "wrongAnswer1": "Three semitones",
+          "wrongAnswer2": "Five semitones",
+          "wrongAnswer3": "Six semitones",
+          "explanation": "A major third consists of four semitones and is important in forming major chords.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Harmony",
+      "questions": [
+        {
+          "question": "What is harmony in music theory?",
+          "correctAnswer": "The combination of different musical notes played or sung simultaneously to produce a pleasing sound",
+          "wrongAnswer1": "The rhythm or beat of a piece of music",
+          "wrongAnswer2": "The speed at which a piece of music is played",
+          "wrongAnswer3": "The main melody or tune of a composition",
+          "explanation": "Harmony refers to the way different notes are played or sung together to complement each other and create a fuller sound.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of harmony?",
+          "correctAnswer": "A choir singing different notes that sound good together",
+          "wrongAnswer1": "A single guitar playing a melody",
+          "wrongAnswer2": "Drums keeping a steady beat",
+          "wrongAnswer3": "A solo singer performing an unaccompanied song",
+          "explanation": "Harmony involves multiple notes occurring at the same time, such as in a choir singing different notes that blend well.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In harmony, what is a chord?",
+          "correctAnswer": "A group of three or more notes played together",
+          "wrongAnswer1": "A single note played loudly",
+          "wrongAnswer2": "A repeating rhythm pattern",
+          "wrongAnswer3": "A change in tempo",
+          "explanation": "A chord is a fundamental component of harmony, made when several notes are played simultaneously.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Melody",
+      "questions": [
+        {
+          "question": "What is a melody in music theory?",
+          "correctAnswer": "A sequence of musical notes that are perceived as a single entity",
+          "wrongAnswer1": "The harmony created by multiple notes played simultaneously",
+          "wrongAnswer2": "The rhythm or beat of a piece of music",
+          "wrongAnswer3": "The dynamic level or loudness of a piece",
+          "explanation": "A melody is a series of musical notes that the listener perceives as a single, coherent line, often the tune of a song.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes the role of melody in a musical composition?",
+          "correctAnswer": "It is the main theme that the listener often remembers",
+          "wrongAnswer1": "It provides the background harmony",
+          "wrongAnswer2": "It sets the tempo or speed of the piece",
+          "wrongAnswer3": "It controls the volume changes throughout the piece",
+          "explanation": "Melody serves as the main thematic element that guides the listener's emotional response and is usually what is most memorable in a piece of music.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How is melody typically constructed in Western music theory?",
+          "correctAnswer": "By arranging pitches in a particular rhythmic pattern to create a tune",
+          "wrongAnswer1": "By layering multiple notes played at the same time to create chords",
+          "wrongAnswer2": "By repeating the same pitch continuously without variation",
+          "wrongAnswer3": "By changing the tempo abruptly throughout the piece",
+          "explanation": "In Western music, melodies are built from pitches organized in rhythmical order to form a recognizable tune or theme.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Rhythm",
+      "questions": [
+        {
+          "question": "What is rhythm in music?",
+          "correctAnswer": "The pattern of sounds and silences in time",
+          "wrongAnswer1": "The pitch of the notes being played",
+          "wrongAnswer2": "The speed at which music is played",
+          "wrongAnswer3": "The style or genre of the music",
+          "explanation": "Rhythm refers to the timing of sounds and silences in music, creating patterns over time.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a component of rhythm?",
+          "correctAnswer": "Harmony",
+          "wrongAnswer1": "Beat",
+          "wrongAnswer2": "Tempo",
+          "wrongAnswer3": "Meter",
+          "explanation": "Rhythm consists of beat, tempo, and meter but does not include harmony, which relates to chords and pitch.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the term 'tempo' refer to in rhythm?",
+          "correctAnswer": "The speed or pace of the music",
+          "wrongAnswer1": "The volume of the music",
+          "wrongAnswer2": "The pitch of the notes",
+          "wrongAnswer3": "The duration of individual notes",
+          "explanation": "Tempo is the speed or pace at which music is played and is a fundamental aspect of rhythm.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Tempo",
+      "questions": [
+        {
+          "question": "What does tempo indicate in music?",
+          "correctAnswer": "The speed at which a piece of music is played",
+          "wrongAnswer1": "The volume of the music",
+          "wrongAnswer2": "The pitch of the notes",
+          "wrongAnswer3": "The genre of the music",
+          "explanation": "Tempo refers to how fast or slow a piece of music is performed, usually measured in beats per minute.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following terms indicates a very slow tempo?",
+          "correctAnswer": "Largo",
+          "wrongAnswer1": "Allegro",
+          "wrongAnswer2": "Presto",
+          "wrongAnswer3": "Vivace",
+          "explanation": "Largo is a tempo marking that means play very slowly, while Allegro, Presto, and Vivace all suggest faster tempos.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How is tempo commonly measured in music?",
+          "correctAnswer": "Beats per minute (BPM)",
+          "wrongAnswer1": "Measures per second",
+          "wrongAnswer2": "Notes per beat",
+          "wrongAnswer3": "Seconds per measure",
+          "explanation": "Tempo is usually measured in beats per minute, indicating how many beats occur in one minute.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Dynamics",
+      "questions": [
+        {
+          "question": "What does the term 'forte' indicate in music dynamics?",
+          "correctAnswer": "Play loudly",
+          "wrongAnswer1": "Play softly",
+          "wrongAnswer2": "Play slowly",
+          "wrongAnswer3": "Play quickly",
+          "explanation": "'Forte' is an Italian term used in music to instruct musicians to play loudly.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which dynamic marking means to gradually get softer?",
+          "correctAnswer": "Decrescendo",
+          "wrongAnswer1": "Crescendo",
+          "wrongAnswer2": "Staccato",
+          "wrongAnswer3": "Legato",
+          "explanation": "Decrescendo means to gradually decrease in volume or get softer, while crescendo means to get louder.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In a piece of music, what does 'piano' usually instruct the musician to do?",
+          "correctAnswer": "Play softly",
+          "wrongAnswer1": "Play loudly",
+          "wrongAnswer2": "Play with heavy accent",
+          "wrongAnswer3": "Play very fast",
+          "explanation": "The term 'piano' comes from Italian and instructs musicians to play the passage softly or quietly.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Notation",
+      "questions": [
+        {
+          "question": "What does the treble clef symbol indicate in music notation",
+          "correctAnswer": "It indicates notes are to be read in the higher pitch range",
+          "wrongAnswer1": "It indicates notes are only played on string instruments",
+          "wrongAnswer2": "It indicates rhythm only with no pitch",
+          "wrongAnswer3": "It shows the composer of the piece",
+          "explanation": "The treble clef symbol, also known as the G clef, shows that the notes on the staff are to be interpreted in a higher pitch range, typically for instruments like the violin or flute.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In music notation, what does a sharp symbol do to a note",
+          "correctAnswer": "It raises the pitch of the note by a half step",
+          "wrongAnswer1": "It lowers the pitch of the note by a whole step",
+          "wrongAnswer2": "It indicates the note should be played louder",
+          "wrongAnswer3": "It cancels any previous accidentals",
+          "explanation": "A sharp symbol raises the pitch of a note by one semitone or half step, making the note sound higher.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the purpose of a time signature in music notation",
+          "correctAnswer": "To show how many beats are in each measure and which note value gets the beat",
+          "wrongAnswer1": "To indicate the key of the piece",
+          "wrongAnswer2": "To prescribe the tempo of the music",
+          "wrongAnswer3": "To show which instruments should play",
+          "explanation": "The time signature appears at the beginning of the staff and tells performers how many beats are in each measure and which note value is equivalent to one beat, defining the rhythm structure.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Time Signature",
+      "questions": [
+        {
+          "question": "What does the top number in a time signature represent?",
+          "correctAnswer": "The number of beats in each measure",
+          "wrongAnswer1": "The type of note that gets the beat",
+          "wrongAnswer2": "The tempo of the music",
+          "wrongAnswer3": "The key of the music",
+          "explanation": "The top number in a time signature indicates how many beats are in each measure of the music.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In a 4/4 time signature, what note value is given one beat?",
+          "correctAnswer": "Quarter note",
+          "wrongAnswer1": "Half note",
+          "wrongAnswer2": "Eighth note",
+          "wrongAnswer3": "Whole note",
+          "explanation": "The bottom number in a time signature shows which note value gets one beat. In 4/4 time, the 4 on the bottom means a quarter note gets one beat.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which time signature is commonly called 'common time'?",
+          "correctAnswer": "4/4",
+          "wrongAnswer1": "3/4",
+          "wrongAnswer2": "6/8",
+          "wrongAnswer3": "2/2",
+          "explanation": "The time signature 4/4 is known as common time and is one of the most frequently used in music.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Key Signature",
+      "questions": [
+        {
+          "question": "What does a key signature in music indicate?",
+          "correctAnswer": "The sharps or flats that apply to a piece of music",
+          "wrongAnswer1": "The tempo of the piece",
+          "wrongAnswer2": "The volume at which to play",
+          "wrongAnswer3": "The style of music",
+          "explanation": "A key signature shows which notes are to be played sharp or flat throughout the piece, defining the key of the music.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How many sharps are in the key signature of E major?",
+          "correctAnswer": "Four",
+          "wrongAnswer1": "Three",
+          "wrongAnswer2": "Five",
+          "wrongAnswer3": "Two",
+          "explanation": "The key of E major has four sharps in its key signature: F#, C#, G#, and D#.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which key has a key signature with one flat?",
+          "correctAnswer": "F major",
+          "wrongAnswer1": "C major",
+          "wrongAnswer2": "G major",
+          "wrongAnswer3": "D major",
+          "explanation": "F major has one flat (Bb) in its key signature.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Modes",
+      "questions": [
+        {
+          "question": "What is a mode in music theory?",
+          "correctAnswer": "A type of scale derived from the major scale starting on different scale degrees",
+          "wrongAnswer1": "A chord progression pattern",
+          "wrongAnswer2": "A rhythm pattern",
+          "wrongAnswer3": "A type of musical instrument",
+          "explanation": "Modes are scales derived from the major scale but starting on different scale degrees, resulting in different interval patterns and tonalities.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT one of the seven traditional modes?",
+          "correctAnswer": "Harmonic",
+          "wrongAnswer1": "Dorian",
+          "wrongAnswer2": "Lydian",
+          "wrongAnswer3": "Phrygian",
+          "explanation": "The seven traditional modes are Ionian, Dorian, Phrygian, Lydian, Mixolydian, Aeolian, and Locrian. Harmonic is not a mode; it usually refers to the harmonic minor scale.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which mode is characterized by a raised fourth scale degree compared to the major scale?",
+          "correctAnswer": "Lydian",
+          "wrongAnswer1": "Dorian",
+          "wrongAnswer2": "Phrygian",
+          "wrongAnswer3": "Mixolydian",
+          "explanation": "The Lydian mode is similar to the major scale but with a raised fourth, giving it a distinctive bright sound.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Cadence",
+      "questions": [
+        {
+          "question": "What is the primary function of a cadence in music?",
+          "correctAnswer": "To signal the end of a phrase or section",
+          "wrongAnswer1": "To increase the volume of the music",
+          "wrongAnswer2": "To change the key signature",
+          "wrongAnswer3": "To create a repetitive melody",
+          "explanation": "A cadence in music is a sequence of chords that brings a phrase, section, or piece to a close, signaling its end or pause.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of cadence creates a sense of finality and resolution?",
+          "correctAnswer": "Authentic cadence",
+          "wrongAnswer1": "Half cadence",
+          "wrongAnswer2": "Deceptive cadence",
+          "wrongAnswer3": "Phrygian cadence",
+          "explanation": "An authentic cadence, typically V to I, gives a strong sense of resolution and conclusiveness, often marking the end of a piece or section.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What characterizes a deceptive cadence?",
+          "correctAnswer": "The V chord resolves to a chord other than I, often vi",
+          "wrongAnswer1": "The chord progression ends abruptly without resolution",
+          "wrongAnswer2": "The I chord repeats twice in succession",
+          "wrongAnswer3": "The V chord is followed by the IV chord",
+          "explanation": "In a deceptive cadence, the dominant chord (V) resolves unexpectedly to a chord other than the tonic (I), typically the vi chord, creating surprise and continuation rather than closure.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Counterpoint",
+      "questions": [
+        {
+          "question": "What is the primary characteristic of counterpoint in music theory?",
+          "correctAnswer": "The combination of two or more independent melodic lines",
+          "wrongAnswer1": "The repetition of a single melodic line",
+          "wrongAnswer2": "The use of only harmonic chords without melodies",
+          "wrongAnswer3": "The emphasis on rhythm over melody",
+          "explanation": "Counterpoint involves the interplay of independent melodies, each with its own contour and rhythm, creating harmonious texture.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In counterpoint, what is a 'voice'?",
+          "correctAnswer": "An individual melodic line",
+          "wrongAnswer1": "A harmony chord",
+          "wrongAnswer2": "A repeated rhythmic pattern",
+          "wrongAnswer3": "A type of percussion instrument",
+          "explanation": "In counterpoint, 'voice' refers to each separate melodic line that contributes to the overall texture, not necessarily a literal singing voice.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is contrary motion in counterpoint?",
+          "correctAnswer": "When two melodic lines move in opposite directions",
+          "wrongAnswer1": "When two lines move in the same direction at the same interval",
+          "wrongAnswer2": "When a melody is played repeatedly",
+          "wrongAnswer3": "When two lines have the same rhythm but different pitches",
+          "explanation": "Contrary motion occurs when one melodic line ascends while the other descends, creating a balanced and interesting texture in counterpoint.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Chord Progression",
+      "questions": [
+        {
+          "question": "What is a chord progression in music theory?",
+          "correctAnswer": "A sequence of chords played in a specific order",
+          "wrongAnswer1": "A melody played with a single instrument",
+          "wrongAnswer2": "A rhythm pattern repeated throughout a song",
+          "wrongAnswer3": "The tempo changes within a piece",
+          "explanation": "A chord progression is a series of chords played in a particular order that forms the harmony of a piece of music.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is the most common chord progression in Western music?",
+          "correctAnswer": "I-IV-V-I",
+          "wrongAnswer1": "ii-v-vi-iii",
+          "wrongAnswer2": "vi-iii-ii-V",
+          "wrongAnswer3": "V-I-vi-IV",
+          "explanation": "The I-IV-V-I progression is extremely common and forms the harmonic basis for many songs in Western music.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why are chord progressions important in songwriting?",
+          "correctAnswer": "They provide the harmonic foundation and emotional context for a song",
+          "wrongAnswer1": "They determine the exact melody notes for the song",
+          "wrongAnswer2": "They dictate the lyrics structure",
+          "wrongAnswer3": "They control the tempo of the music",
+          "explanation": "Chord progressions shape the song's harmony and can evoke various emotions, guiding the overall feel of the music.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Timbre",
+      "questions": [
+        {
+          "question": "What does timbre primarily refer to in music theory?",
+          "correctAnswer": "The quality or color of a musical sound that distinguishes different instruments or voices",
+          "wrongAnswer1": "The speed or pace of the music",
+          "wrongAnswer2": "The pitch or frequency of a note",
+          "wrongAnswer3": "The volume or loudness of a sound",
+          "explanation": "Timbre is the characteristic quality of sound that allows us to differentiate between different instruments or voices, even if they play the same pitch at the same loudness.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following factors most influences the timbre of an instrument?",
+          "correctAnswer": "The unique combination of harmonics and overtones produced",
+          "wrongAnswer1": "The tempo at which the piece is played",
+          "wrongAnswer2": "The notation used to write the music",
+          "wrongAnswer3": "The music genre being played",
+          "explanation": "Timbre is shaped by the harmonics and overtones produced by an instrument, giving each instrument its distinctive sound quality.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is timbre important in an orchestral composition?",
+          "correctAnswer": "It helps create contrast and texture by combining different instruments with unique sounds",
+          "wrongAnswer1": "It determines the key signature of the piece",
+          "wrongAnswer2": "It dictates the rhythm pattern used in the composition",
+          "wrongAnswer3": "It controls the dynamic markings like forte or piano",
+          "explanation": "Timbre allows composers to blend and contrast instruments in orchestral music, enriching the overall sound and adding emotional and textural depth.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Form",
+      "questions": [
+        {
+          "question": "What does the term 'form' in music theory refer to?",
+          "correctAnswer": "The structure or layout of a musical composition",
+          "wrongAnswer1": "The melody of a song",
+          "wrongAnswer2": "The tempo of a piece",
+          "wrongAnswer3": "The volume or dynamics of the music",
+          "explanation": "Form in music theory describes the overall structure or plan of a piece, how it is organized into sections.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of a musical form?",
+          "correctAnswer": "Sonata form",
+          "wrongAnswer1": "Allegro",
+          "wrongAnswer2": "Forte",
+          "wrongAnswer3": "Crescendo",
+          "explanation": "Sonata form is a well-known musical structure often used in the first movements of sonatas and symphonies.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In music, what does 'binary form' typically mean?",
+          "correctAnswer": "A piece structured in two related sections, usually labeled A and B",
+          "wrongAnswer1": "Music with two different melodies playing simultaneously",
+          "wrongAnswer2": "A musical work that has two different keys",
+          "wrongAnswer3": "Two performers playing one composition",
+          "explanation": "Binary form consists of two sections, often with contrasting material, labeled A and B.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Syncopation",
+      "questions": [
+        {
+          "question": "What is syncopation in music theory?",
+          "correctAnswer": "A rhythmic effect where expected beats are accented, creating a surprise or off-beat rhythm",
+          "wrongAnswer1": "A melodic pattern following a strict scale",
+          "wrongAnswer2": "A technique of playing notes evenly spaced in time",
+          "wrongAnswer3": "A method of tuning instruments to a standard pitch",
+          "explanation": "Syncopation occurs when rhythms emphasize beats or parts of beats that are usually not accented, producing an off-beat or unexpected rhythmic pattern.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In which type of music is syncopation most commonly found?",
+          "correctAnswer": "Jazz and Latin music",
+          "wrongAnswer1": "Classical symphonies",
+          "wrongAnswer2": "Gregorian chants",
+          "wrongAnswer3": "Baroque period music",
+          "explanation": "Syncopation is a hallmark of jazz and Latin music styles where it adds complexity and rhythmic interest.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following best describes the effect of syncopation on the listener?",
+          "correctAnswer": "It creates a sense of surprise or displacement in the rhythm",
+          "wrongAnswer1": "It produces a predictable rhythmic pattern",
+          "wrongAnswer2": "It slows down the tempo of the music",
+          "wrongAnswer3": "It emphasizes the melody over rhythm",
+          "explanation": "Syncopation disrupts the expected rhythmic flow, giving a feeling of surprise or off-beat emphasis, which engages the listener.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Pitch",
+      "questions": [
+        {
+          "question": "What does the term pitch refer to in music?",
+          "correctAnswer": "The perceived highness or lowness of a sound",
+          "wrongAnswer1": "The loudness of a sound",
+          "wrongAnswer2": "The duration of a note",
+          "wrongAnswer3": "The type of instrument playing the note",
+          "explanation": "Pitch is the musical term used to describe how high or low a sound is perceived by the listener. It is determined by the frequency of the sound wave.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following factors primarily determines the pitch of a musical note?",
+          "correctAnswer": "Frequency of the sound wave",
+          "wrongAnswer1": "Amplitude of the sound wave",
+          "wrongAnswer2": "Timbre of the instrument",
+          "wrongAnswer3": "Rhythm of the music",
+          "explanation": "Pitch is determined by the frequency of a sound wave: higher frequency results in higher pitch and lower frequency results in lower pitch.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How is pitch typically notated in written music?",
+          "correctAnswer": "By placing notes on different lines and spaces of a staff",
+          "wrongAnswer1": "Using numbers to indicate volume",
+          "wrongAnswer2": "By different colors of musical notes",
+          "wrongAnswer3": "By the length of the notes",
+          "explanation": "Pitch is indicated in written music by the vertical placement of notes on a staff, where higher notes on the staff represent higher pitches and lower notes represent lower pitches.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Tonality",
+      "questions": [
+        {
+          "question": "What does tonality in music theory primarily refer to?",
+          "correctAnswer": "The organization of music around a central pitch or key",
+          "wrongAnswer1": "The speed or tempo of a musical piece",
+          "wrongAnswer2": "The volume levels used in a composition",
+          "wrongAnswer3": "The stylistic elements of a musical genre",
+          "explanation": "Tonality is the system of organizing pitches and harmonies based around a central pitch called the tonic, which creates a sense of key in music.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In tonal music, what is the role of the tonic?",
+          "correctAnswer": "It serves as the home pitch or central note around which other pitches are organized",
+          "wrongAnswer1": "It is the loudest note in a piece",
+          "wrongAnswer2": "It defines the tempo of the composition",
+          "wrongAnswer3": "It determines the instrumentation used",
+          "explanation": "The tonic is the central pitch in tonal music and is considered the 'home' note that provides a sense of resolution and stability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes a modulation in the context of tonality?",
+          "correctAnswer": "A change from one key to another within a piece",
+          "wrongAnswer1": "An increase in tempo throughout a section",
+          "wrongAnswer2": "A shift in rhythm patterns",
+          "wrongAnswer3": "A variation in dynamic levels",
+          "explanation": "Modulation refers to the process of changing from one tonal center or key to another within a composition, affecting the sense of tonality.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Modulation",
+      "questions": [
+        {
+          "question": "What does modulation in music theory primarily refer to?",
+          "correctAnswer": "Changing from one key to another within a piece",
+          "wrongAnswer1": "Repeating the same key throughout a piece",
+          "wrongAnswer2": "Changing the tempo abruptly",
+          "wrongAnswer3": "Changing the volume dynamically",
+          "explanation": "Modulation is the process of changing from one key to another in the course of a composition, often to create contrast or development.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common type of modulation?",
+          "correctAnswer": "Pivot chord modulation",
+          "wrongAnswer1": "Harmonic distortion modulation",
+          "wrongAnswer2": "Dynamic modulation",
+          "wrongAnswer3": "Phrase modulation",
+          "explanation": "Pivot chord modulation involves using a chord common to both the old and new keys to smoothly transition between keys.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What role does the pivot chord play during modulation?",
+          "correctAnswer": "It serves as a common chord between the original and the new key to facilitate a smooth transition",
+          "wrongAnswer1": "It is the final chord of the piece",
+          "wrongAnswer2": "It increases the volume during modulation",
+          "wrongAnswer3": "It signals the end of modulation",
+          "explanation": "The pivot chord functions as a harmonic bridge that exists in both the initial key and the target key, allowing an effective modulation.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Transposition",
+      "questions": [
+        {
+          "question": "What does transposition in music theory involve?",
+          "correctAnswer": "Shifting all notes of a piece by the same interval",
+          "wrongAnswer1": "Changing the rhythm of a piece",
+          "wrongAnswer2": "Adding harmony to a melody",
+          "wrongAnswer3": "Altering the tempo of a piece",
+          "explanation": "Transposition involves moving every note in a piece of music up or down by the same interval, preserving the relative distances between notes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If you transpose a melody up by a perfect fifth, what happens to the notes?",
+          "correctAnswer": "Each note is raised by seven semitones",
+          "wrongAnswer1": "Each note is raised by two semitones",
+          "wrongAnswer2": "Each note is lowered by seven semitones",
+          "wrongAnswer3": "Each note remains the same",
+          "explanation": "Transposing up by a perfect fifth means raising every note by seven semitones, which maintains the melody's structure but changes its pitch range.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why do musicians transpose music?",
+          "correctAnswer": "To adapt a piece to a different vocal range or instrument",
+          "wrongAnswer1": "To make the music more complex",
+          "wrongAnswer2": "To change the style of music",
+          "wrongAnswer3": "To create a new rhythm pattern",
+          "explanation": "Transposition allows musicians to adjust music to suit different instruments or singers by changing the pitch while maintaining the musical relationships between notes.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Arpeggio",
+      "questions": [
+        {
+          "question": "What is an arpeggio in music theory?",
+          "correctAnswer": "A sequence of notes in a chord played one after another",
+          "wrongAnswer1": "A series of chords played simultaneously",
+          "wrongAnswer2": "A rhythm pattern used in percussion",
+          "wrongAnswer3": "A type of musical scale",
+          "explanation": "An arpeggio is a musical technique where the notes of a chord are played in sequence rather than all at once, creating a flowing effect.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes how an arpeggio is played?",
+          "correctAnswer": "Notes of a chord played individually and in order",
+          "wrongAnswer1": "Notes of a chord played randomly",
+          "wrongAnswer2": "All notes of a chord played at the same time",
+          "wrongAnswer3": "Two notes from different chords played simultaneously",
+          "explanation": "In an arpeggio, the individual notes of a chord are played one after another, usually in ascending or descending order.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does an arpeggio differ from a broken chord?",
+          "correctAnswer": "They are essentially the same, with notes played sequentially",
+          "wrongAnswer1": "Arpeggios are played slowly, broken chords quickly",
+          "wrongAnswer2": "Broken chords are played simultaneously, arpeggios one by one",
+          "wrongAnswer3": "Arpeggios only use major chords, broken chords use minor chords",
+          "explanation": "An arpeggio is a type of broken chord where the chord tones are played one at a time, so the terms are often used interchangeably.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Octave",
+      "questions": [
+        {
+          "question": "What does an octave represent in music theory?",
+          "correctAnswer": "The interval between one musical pitch and another with double its frequency",
+          "wrongAnswer1": "The interval between two notes played simultaneously",
+          "wrongAnswer2": "A chord consisting of three notes",
+          "wrongAnswer3": "The duration of a musical note",
+          "explanation": "An octave is the interval between one musical pitch and another with double its frequency, perceived as the 'same' note at a higher or lower pitch.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How many semitones are there in a standard octave in Western music?",
+          "correctAnswer": "12",
+          "wrongAnswer1": "8",
+          "wrongAnswer2": "7",
+          "wrongAnswer3": "10",
+          "explanation": "A standard octave in Western music consists of 12 semitones, which are the smallest intervals used in the chromatic scale.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why are octaves considered important in musical scales and harmony?",
+          "correctAnswer": "Because notes an octave apart sound very similar and provide a sense of tonal unity",
+          "wrongAnswer1": "Because octaves determine the rhythm of a piece",
+          "wrongAnswer2": "Because octaves define the loudness of musical notes",
+          "wrongAnswer3": "Because octaves are only used in electronic music",
+          "explanation": "Octaves are important because notes that are an octave apart share a similar sonic quality and reinforce the perception of the same pitch class, contributing to tonal unity in music.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Melisma",
+      "questions": [
+        {
+          "question": "What is melisma in music?",
+          "correctAnswer": "A group of notes sung to one syllable of text",
+          "wrongAnswer1": "A type of musical instrument",
+          "wrongAnswer2": "A musical scale with seven notes",
+          "wrongAnswer3": "A rhythmic pattern in percussion",
+          "explanation": "Melisma refers to the singing of a single syllable of text while moving between several different notes in succession, often used to add expressiveness to vocal music.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In which genre is melisma most commonly used?",
+          "correctAnswer": "Gospel and R&B music",
+          "wrongAnswer1": "Techno music",
+          "wrongAnswer2": "Baroque instrumental music",
+          "wrongAnswer3": "Classical piano sonatas",
+          "explanation": "Melisma is especially common in vocal styles like gospel and R&B where expressive vocal runs and embellishments showcasing vocal skill are valued.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does melisma differ from syllabic singing?",
+          "correctAnswer": "Melisma stretches one syllable over several notes, syllabic singing uses one note per syllable",
+          "wrongAnswer1": "Melisma uses one note per syllable, syllabic singing stretches one syllable over many notes",
+          "wrongAnswer2": "Melisma is used only for instrumental music, syllabic singing is vocal",
+          "wrongAnswer3": "Both are the same and used interchangeably",
+          "explanation": "Melisma involves singing multiple notes for a single syllable, while syllabic singing assigns one note per syllable, making them distinct styles of vocal delivery.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Diatonic",
+      "questions": [
+        {
+          "question": "What does the term diatonic refer to in music theory?",
+          "correctAnswer": "A scale consisting of seven distinct pitch classes within an octave",
+          "wrongAnswer1": "A scale consisting of five notes per octave",
+          "wrongAnswer2": "A type of chord that contains only perfect intervals",
+          "wrongAnswer3": "A scale made up of chromatic notes",
+          "explanation": "Diatonic refers to scales that consist of seven distinct pitch classes within an octave, typically including five whole steps and two half steps in a specific pattern. Examples include the major scale and natural minor scale.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of a diatonic scale?",
+          "correctAnswer": "C major scale",
+          "wrongAnswer1": "Chromatic scale",
+          "wrongAnswer2": "Whole tone scale",
+          "wrongAnswer3": "Pentatonic scale",
+          "explanation": "The C major scale is a diatonic scale because it contains seven distinct pitches without alterations, following the whole and half step pattern characteristic of diatonic scales.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In a diatonic scale, how many unique pitch classes are there?",
+          "correctAnswer": "Seven",
+          "wrongAnswer1": "Twelve",
+          "wrongAnswer2": "Five",
+          "wrongAnswer3": "Eight",
+          "explanation": "A diatonic scale has seven unique pitch classes before the octave repeats. This differs from chromatic scales that include all twelve pitch classes.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Chromatic",
+      "questions": [
+        {
+          "question": "What does the term chromatic refer to in music theory?",
+          "correctAnswer": "A scale or passage that includes all twelve pitches, each a half step apart",
+          "wrongAnswer1": "A scale consisting of five notes per octave",
+          "wrongAnswer2": "A scale made up of whole steps only",
+          "wrongAnswer3": "A rhythm pattern with irregular accents",
+          "explanation": "Chromatic refers to music that uses all twelve pitches within the octave, each spaced a half step apart, unlike diatonic scales which use seven notes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which interval is characteristic of the chromatic scale?",
+          "correctAnswer": "Half step (semitone)",
+          "wrongAnswer1": "Whole step (tone)",
+          "wrongAnswer2": "Third interval",
+          "wrongAnswer3": "Perfect fifth",
+          "explanation": "The chromatic scale is made up entirely of semitones or half steps, moving from one note to the very next in pitch.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How is a chromatic note typically used in musical compositions?",
+          "correctAnswer": "To add color and tension by using notes outside the diatonic scale",
+          "wrongAnswer1": "To establish the main key signature",
+          "wrongAnswer2": "To indicate a time signature change",
+          "wrongAnswer3": "To mark the end of a song",
+          "explanation": "Chromatic notes are notes that do not belong to the key's diatonic scale and are often used to add tension, color, and expressiveness to music.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Pentatonic",
+      "questions": [
+        {
+          "question": "What does the term pentatonic refer to in music theory?",
+          "correctAnswer": "A scale consisting of five notes per octave",
+          "wrongAnswer1": "A rhythm pattern with five beats",
+          "wrongAnswer2": "A chord with five notes",
+          "wrongAnswer3": "A musical interval spanning five semitones",
+          "explanation": "Pentatonic refers to a musical scale that has five distinct notes within each octave, commonly used in various musical traditions worldwide.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about the major pentatonic scale?",
+          "correctAnswer": "It omits the fourth and seventh degrees of the major scale",
+          "wrongAnswer1": "It includes all seven notes of the major scale",
+          "wrongAnswer2": "It has six notes instead of five",
+          "wrongAnswer3": "It is identical to the natural minor scale",
+          "explanation": "The major pentatonic scale is derived by taking the major scale and removing the fourth and seventh notes, resulting in a five-note scale.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In which musical context is the pentatonic scale most commonly used?",
+          "correctAnswer": "Folk and traditional music across many cultures",
+          "wrongAnswer1": "Only in classical European music",
+          "wrongAnswer2": "Exclusively in electronic dance music",
+          "wrongAnswer3": "Only in 12-tone serialism compositions",
+          "explanation": "The pentatonic scale is found extensively in folk and traditional music around the world, from African and Asian music to Native American and Celtic traditions.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Blues Scale",
+      "questions": [
+        {
+          "question": "What is the characteristic note that differentiates a blues scale from a minor pentatonic scale?",
+          "correctAnswer": "The flat fifth (also known as the blue note)",
+          "wrongAnswer1": "The major third",
+          "wrongAnswer2": "The perfect fourth",
+          "wrongAnswer3": "The major seventh",
+          "explanation": "The blues scale includes a flat fifth note, often referred to as the blue note, which is not present in the minor pentatonic scale. This note gives the blues scale its distinctive sound.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How many notes are there in a traditional blues scale?",
+          "correctAnswer": "Six notes",
+          "wrongAnswer1": "Five notes",
+          "wrongAnswer2": "Seven notes",
+          "wrongAnswer3": "Eight notes",
+          "explanation": "A traditional blues scale consists of six notes: the root, minor third, perfect fourth, flat fifth, perfect fifth, and minor seventh.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In the key of A, what are the notes of the A blues scale?",
+          "correctAnswer": "A, C, D, D sharp, E, G",
+          "wrongAnswer1": "A, B, C sharp, D, E, F sharp",
+          "wrongAnswer2": "A, C sharp, D, E, F sharp, G sharp",
+          "wrongAnswer3": "A, B, D, E, G, A sharp",
+          "explanation": "The A blues scale consists of A (root), C (minor third), D (perfect fourth), D sharp (flat fifth), E (perfect fifth), and G (minor seventh).",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Voice Leading",
+      "questions": [
+        {
+          "question": "What is the main goal of voice leading in music theory?",
+          "correctAnswer": "To create smooth, stepwise melodic movement between chords",
+          "wrongAnswer1": "To increase the volume of all the voices simultaneously",
+          "wrongAnswer2": "To play all notes in a chord as loudly as possible",
+          "wrongAnswer3": "To avoid repeating the melody in different parts",
+          "explanation": "Voice leading aims to connect chords with smooth, stepwise motions in each voice to achieve cohesion and smooth transitions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is generally avoided in good voice leading practice?",
+          "correctAnswer": "Parallel fifths between two voices",
+          "wrongAnswer1": "Stepwise motion in a single voice",
+          "wrongAnswer2": "Contrary motion between two voices",
+          "wrongAnswer3": "Common tones held between chords",
+          "explanation": "Parallel fifths are avoided because they weaken the independence of individual voices and reduce harmonic richness.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the context of voice leading, what is a common tone?",
+          "correctAnswer": "A note that remains the same between two successive chords",
+          "wrongAnswer1": "A note that moves by a large leap between chords",
+          "wrongAnswer2": "A dissonant note introduced in a chord",
+          "wrongAnswer3": "A note played loudly to emphasize rhythm",
+          "explanation": "A common tone is the same note held or repeated in consecutive chords, which helps smooth the transition between harmonies.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Tonic",
+      "questions": [
+        {
+          "question": "What is the tonic in a musical scale?",
+          "correctAnswer": "The first and central note of a scale that defines the key",
+          "wrongAnswer1": "The last note of a scale",
+          "wrongAnswer2": "A random note chosen from the scale",
+          "wrongAnswer3": "The note with the highest pitch in a scale",
+          "explanation": "The tonic is the first note of a scale and serves as the home or central pitch around which the scale and music are based.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In the key of C major, which note is the tonic?",
+          "correctAnswer": "C",
+          "wrongAnswer1": "G",
+          "wrongAnswer2": "F",
+          "wrongAnswer3": "A",
+          "explanation": "In the key of C major, the tonic is the note C, as it is the first note of the C major scale and defines the key.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is the tonic important in music theory?",
+          "correctAnswer": "It serves as the tonal center and point of resolution in a piece of music",
+          "wrongAnswer1": "It determines the tempo of the music",
+          "wrongAnswer2": "It is always the loudest note played",
+          "wrongAnswer3": "It indicates the rhythm pattern of a piece",
+          "explanation": "The tonic is the tonal center and provides a sense of resolution, giving a piece of music its key and harmonic foundation.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Dominant",
+      "questions": [
+        {
+          "question": "In music theory, what is the dominant?",
+          "correctAnswer": "The fifth scale degree",
+          "wrongAnswer1": "The first scale degree",
+          "wrongAnswer2": "The third scale degree",
+          "wrongAnswer3": "The seventh scale degree",
+          "explanation": "The dominant is the fifth scale degree of the diatonic scale, and it typically leads back to the tonic.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which chord built on the dominant scale degree typically creates a strong resolution to the tonic?",
+          "correctAnswer": "Dominant seventh chord",
+          "wrongAnswer1": "Subdominant chord",
+          "wrongAnswer2": "Tonic chord",
+          "wrongAnswer3": "Mediant chord",
+          "explanation": "The dominant seventh chord built on the fifth scale degree has a strong tendency to resolve to the tonic chord due to its tension and dissonance.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the key of C major, which note is the dominant?",
+          "correctAnswer": "G",
+          "wrongAnswer1": "C",
+          "wrongAnswer2": "E",
+          "wrongAnswer3": "F",
+          "explanation": "G is the fifth scale degree in the key of C major, making it the dominant note.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Subdominant",
+      "questions": [
+        {
+          "question": "What is the subdominant chord in the key of C major?",
+          "correctAnswer": "F major",
+          "wrongAnswer1": "G major",
+          "wrongAnswer2": "A minor",
+          "wrongAnswer3": "D minor",
+          "explanation": "In the key of C major, the subdominant chord is built on the fourth scale degree, which is F. Therefore, the F major chord is the subdominant.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In a typical major scale, what scale degree does the subdominant correspond to?",
+          "correctAnswer": "Fourth degree",
+          "wrongAnswer1": "First degree",
+          "wrongAnswer2": "Second degree",
+          "wrongAnswer3": "Fifth degree",
+          "explanation": "The subdominant chord is built on the fourth scale degree of the major scale, which is one step below the dominant (fifth degree) and above the tonic (first degree).",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does the function of the subdominant chord generally affect chord progressions in Western music?",
+          "correctAnswer": "It often leads to the dominant, creating tension and resolution.",
+          "wrongAnswer1": "It functions as the final resolution chord.",
+          "wrongAnswer2": "It usually replaces the tonic chord in progressions.",
+          "wrongAnswer3": "It is used primarily for modulation to unrelated keys.",
+          "explanation": "The subdominant chord typically serves as a pre-dominant chord, leading to the dominant chord. This movement builds musical tension that is resolved when the dominant resolves to the tonic.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Pedal Point",
+      "questions": [
+        {
+          "question": "What is a pedal point in music theory?",
+          "correctAnswer": "A sustained note, usually in the bass, over which harmonies change.",
+          "wrongAnswer1": "A quick series of notes played in ascending order.",
+          "wrongAnswer2": "A chord played repeatedly without change.",
+          "wrongAnswer3": "A sudden change in tempo during a piece.",
+          "explanation": "A pedal point is a sustained or repeated note, typically in the bass, over which the harmony changes, creating tension and resolution.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In which voice is a pedal point most commonly found?",
+          "correctAnswer": "Bass voice",
+          "wrongAnswer1": "Soprano voice",
+          "wrongAnswer2": "Alto voice",
+          "wrongAnswer3": "Tenor voice",
+          "explanation": "Pedal points are most often found in the bass voice, providing a tonal foundation while other harmonies shift above it.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the harmonic effect of a pedal point?",
+          "correctAnswer": "It creates tension and resolution by sustaining a note while harmonies change around it.",
+          "wrongAnswer1": "It eliminates harmonic movement by keeping a constant chord.",
+          "wrongAnswer2": "It speeds up the harmonic rhythm of the piece.",
+          "wrongAnswer3": "It changes the key signature temporarily.",
+          "explanation": "A pedal point creates harmonic tension by sustaining a single note as other chords move, often resolving this tension when the harmonies align again.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Appoggiatura",
+      "questions": [
+        {
+          "question": "What is an appoggiatura in music theory?",
+          "correctAnswer": "A non-chord tone that leans on a main note, usually taking some of its time and resolving to it",
+          "wrongAnswer1": "A chord tone played in succession with other chord tones",
+          "wrongAnswer2": "A repeated rhythmic pattern in a composition",
+          "wrongAnswer3": "A type of scale used in classical music",
+          "explanation": "An appoggiatura is a type of non-chord tone that typically takes some time from the main note it leans on and then resolves to that note, creating a dissonance that resolves into consonance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does an appoggiatura typically affect the timing of the main note it resolves to?",
+          "correctAnswer": "It takes some time from the main note, delaying its full duration",
+          "wrongAnswer1": "It adds extra time after the main note",
+          "wrongAnswer2": "It does not affect the timing at all",
+          "wrongAnswer3": "It shortens the distance between notes in the scale",
+          "explanation": "The appoggiatura borrows time from the main note it resolves to, meaning the main note is delayed and shortened accordingly.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following best describes the sound effect of an appoggiatura?",
+          "correctAnswer": "A momentary dissonance that resolves into a consonant note",
+          "wrongAnswer1": "A steady chord progression without tension",
+          "wrongAnswer2": "A rapid series of repeated notes",
+          "wrongAnswer3": "A sudden change in tempo",
+          "explanation": "The appoggiatura causes a temporary dissonance because it is a non-chord tone that resolves into a consonant chord tone, creating expressive tension and release.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Acciaccatura",
+      "questions": [
+        {
+          "question": "What is the main characteristic of an acciaccatura in music notation?",
+          "correctAnswer": "It is a very short, crushed grace note played quickly before the main note",
+          "wrongAnswer1": "It is a long ornamental note held after the main note",
+          "wrongAnswer2": "It is a repeated note played loudly after the main note",
+          "wrongAnswer3": "It is a note played softly simultaneously with the main note",
+          "explanation": "An acciaccatura is a type of grace note that is played very quickly before the main note, often notated with a small note with a slash through its stem, giving the effect of a crushed note.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How is an acciaccatura typically notated in sheet music?",
+          "correctAnswer": "As a small note with a slash through the stem placed before the main note",
+          "wrongAnswer1": "As a small note without a slash after the main note",
+          "wrongAnswer2": "As a dotted note before the main note",
+          "wrongAnswer3": "As a large note with a fermata above it",
+          "explanation": "The acciaccatura is usually written as a small-sized note with a slash through the stem, immediately preceding the principal note it ornates.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What effect does an acciaccatura have on the rhythm of a musical phrase?",
+          "correctAnswer": "It is played quickly and does not alter the overall rhythm duration of the principal note",
+          "wrongAnswer1": "It delays the next note making the phrase slower",
+          "wrongAnswer2": "It extends the length of the principal note",
+          "wrongAnswer3": "It replaces the principal note completely",
+          "explanation": "The acciaccatura is played swiftly before the main note and does not take up rhythmic time from it; it is more decorative than rhythmically altering.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Motif",
+      "questions": [
+        {
+          "question": "What is a motif in music theory?",
+          "correctAnswer": "A short musical idea or pattern that is repeated and developed throughout a piece",
+          "wrongAnswer1": "A long musical composition with multiple movements",
+          "wrongAnswer2": "The tempo or speed at which a piece of music is played",
+          "wrongAnswer3": "The dynamic level or volume of a musical performance",
+          "explanation": "A motif is a short, recurring musical idea or pattern that serves as a foundational element in a composition and is often repeated and developed throughout the piece.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes the role of a motif in a musical composition?",
+          "correctAnswer": "It provides thematic material that can be varied and developed",
+          "wrongAnswer1": "It determines the key signature of the piece",
+          "wrongAnswer2": "It sets the volume and intensity for the entire piece",
+          "wrongAnswer3": "It functions as the tempo marking in the score",
+          "explanation": "A motif provides thematic material which composers can vary and develop to create cohesion and interest in a piece of music.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does a motif differ from a phrase in music theory?",
+          "correctAnswer": "A motif is a shorter, more basic musical idea while a phrase is a longer, complete musical thought",
+          "wrongAnswer1": "A motif is typically the entire section of music, whereas a phrase is the shortest idea",
+          "wrongAnswer2": "A motif is always played louder than a phrase",
+          "wrongAnswer3": "A phrase is repeated exactly like a motif, without any variation",
+          "explanation": "Motifs are short and basic musical ideas, often just a few notes, while phrases are longer and form a complete musical thought. Motifs can be developed and varied, whereas phrases are generally larger units within a composition.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Theme",
+      "questions": [
+        {
+          "question": "What is a theme in music theory?",
+          "correctAnswer": "A recurring melodic idea that forms the basis of a composition",
+          "wrongAnswer1": "A type of musical instrument",
+          "wrongAnswer2": "The tempo of a piece",
+          "wrongAnswer3": "The key signature of a song",
+          "explanation": "In music theory, a theme is a recurring melody or musical idea that serves as the foundation for a piece or movement.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How is a theme typically used in a musical composition?",
+          "correctAnswer": "It serves as the main melodic material that is developed and varied",
+          "wrongAnswer1": "It determines the number of instruments used",
+          "wrongAnswer2": "It is always played only once without repetition",
+          "wrongAnswer3": "It never changes throughout the piece",
+          "explanation": "Themes are used as the main melodic material that composers develop, vary, and repeat to create structure and interest in a composition.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following best describes how a theme differs from a motif?",
+          "correctAnswer": "A theme is usually longer and more complete, while a motif is a short, distinctive musical idea",
+          "wrongAnswer1": "A theme is always played loudly, a motif softly",
+          "wrongAnswer2": "A motif is an entire song, a theme is just a small part",
+          "wrongAnswer3": "A theme is sung, a motif is played on instruments only",
+          "explanation": "A theme is typically a longer musical idea forming the basis of a piece, whereas a motif is a shorter, recognizable musical fragment.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Ostinato",
+      "questions": [
+        {
+          "question": "What is an ostinato in music theory?",
+          "correctAnswer": "A repeated musical pattern",
+          "wrongAnswer1": "A sudden change in tempo",
+          "wrongAnswer2": "A type of chord progression",
+          "wrongAnswer3": "A style of vocal singing",
+          "explanation": "An ostinato is a musical phrase or rhythm that is persistently repeated throughout a piece or a section of music.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes an ostinato?",
+          "correctAnswer": "A short motif or phrase that repeats continuously",
+          "wrongAnswer1": "A long improvisational solo",
+          "wrongAnswer2": "A choice of instruments in an orchestra",
+          "wrongAnswer3": "A musical rest pattern",
+          "explanation": "An ostinato is characterized by the continuous repetition of a short melodic, rhythmic, or harmonic pattern.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In which musical setting is an ostinato commonly found?",
+          "correctAnswer": "Classical and popular music to provide a rhythmic or harmonic foundation",
+          "wrongAnswer1": "Only in vocal jazz music",
+          "wrongAnswer2": "Exclusively in electronic dance music",
+          "wrongAnswer3": "Only in atonal compositions",
+          "explanation": "Ostinatos are widely used across many genres including classical, popular, and electronic music to create a foundation over which other musical elements can be layered.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Dissonance",
+      "questions": [
+        {
+          "question": "What is dissonance in music theory?",
+          "correctAnswer": "A combination of tones that sounds unstable or tense",
+          "wrongAnswer1": "A harmonious blend of notes that sounds pleasant",
+          "wrongAnswer2": "The speed at which a piece of music is played",
+          "wrongAnswer3": "A type of musical scale",
+          "explanation": "Dissonance refers to a combination of tones that creates a sense of tension or instability, often requiring resolution.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which interval is typically considered dissonant in Western music?",
+          "correctAnswer": "The tritone",
+          "wrongAnswer1": "The perfect fifth",
+          "wrongAnswer2": "The octave",
+          "wrongAnswer3": "The major third",
+          "explanation": "The tritone is an interval known for its dissonant quality, often creating tension that seeks resolution in music.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In music composition, how is dissonance usually treated?",
+          "correctAnswer": "It is resolved to a consonant interval to create a sense of release",
+          "wrongAnswer1": "It is sustained without change to maintain tension",
+          "wrongAnswer2": "It is ignored and considered unimportant",
+          "wrongAnswer3": "It is only used at the beginning of a piece",
+          "explanation": "Dissonance is often followed by resolution to consonance to provide emotional or harmonic release in compositions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Consonance",
+      "questions": [
+        {
+          "question": "What is the definition of consonance in music theory?",
+          "correctAnswer": "Consonance refers to a combination of notes that sound harmonious and stable together.",
+          "wrongAnswer1": "Consonance is the feeling of dissonance and tension between notes.",
+          "wrongAnswer2": "Consonance describes a rapid change in dynamics within a musical phrase.",
+          "wrongAnswer3": "Consonance means playing notes in a strict rhythmic pattern without harmony.",
+          "explanation": "Consonance in music theory describes intervals or chords that sound stable and pleasant when played together, as opposed to dissonance which creates tension.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following intervals is generally considered consonant?",
+          "correctAnswer": "Perfect fifth",
+          "wrongAnswer1": "Minor second",
+          "wrongAnswer2": "Tritone",
+          "wrongAnswer3": "Major seventh",
+          "explanation": "The perfect fifth is one of the most consonant intervals, known for its stable and harmonious sound, whereas minor seconds, tritones, and major sevenths are generally seen as dissonant.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does consonance typically affect the feeling of a musical piece?",
+          "correctAnswer": "It creates a sense of resolution and calmness.",
+          "wrongAnswer1": "It increases tension and suspense.",
+          "wrongAnswer2": "It forces irregular rhythmic patterns.",
+          "wrongAnswer3": "It causes the listener to feel disoriented.",
+          "explanation": "Consonant harmonies often give listeners a sense of stability, resolution, and calmness, contrasting with dissonance that builds tension.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Phrase",
+      "questions": [
+        {
+          "question": "What is a musical phrase?",
+          "correctAnswer": "A unit of musical meter that expresses a complete musical thought",
+          "wrongAnswer1": "A type of musical instrument",
+          "wrongAnswer2": "A section of lyrics in a song",
+          "wrongAnswer3": "A style of musical notation",
+          "explanation": "A musical phrase is a unit of musical meter that expresses a complete musical thought, similar to a sentence in language.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes how a phrase functions in music?",
+          "correctAnswer": "It forms a coherent musical idea often ending with a cadence",
+          "wrongAnswer1": "It serves as the rhythm section's beat",
+          "wrongAnswer2": "It determines the key signature",
+          "wrongAnswer3": "It acts as a dynamic marking",
+          "explanation": "A phrase is a coherent musical idea, typically ending with a cadence that gives a sense of resolution.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In music theory, how is a phrase related to a period?",
+          "correctAnswer": "A period consists of two or more phrases often contrasting or complementing each other",
+          "wrongAnswer1": "A phrase is longer than a period",
+          "wrongAnswer2": "They are unrelated concepts",
+          "wrongAnswer3": "A phrase is the same as a period",
+          "explanation": "A musical period is made up of two or more phrases that work together, often with contrasting or complementary endings.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Sequence",
+      "questions": [
+        {
+          "question": "What does a musical sequence typically involve?",
+          "correctAnswer": "Repeating a motif at different pitch levels",
+          "wrongAnswer1": "Playing notes randomly",
+          "wrongAnswer2": "Suddenly changing the tempo",
+          "wrongAnswer3": "Using only one note repeatedly",
+          "explanation": "A musical sequence involves repeating a particular motif or phrase at different pitch levels, usually ascending or descending.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes a sequence in music?",
+          "correctAnswer": "A melodic pattern repeated at a higher or lower pitch",
+          "wrongAnswer1": "A rhythm played without variation",
+          "wrongAnswer2": "A chord played once",
+          "wrongAnswer3": "A random assortment of notes",
+          "explanation": "A sequence in music is a melodic or harmonic pattern that is repeated at a different pitch level, creating a sense of continuation and development.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In which musical context is a sequence most commonly used?",
+          "correctAnswer": "To develop a theme or motif by repetition at different pitches",
+          "wrongAnswer1": "To abruptly end a piece of music",
+          "wrongAnswer2": "To play a solo without accompaniment",
+          "wrongAnswer3": "To indicate the start of a new time signature",
+          "explanation": "Sequences are often used to develop themes or motifs by repeating them at different pitches, adding interest and complexity to music compositions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Improvisation",
+      "questions": [
+        {
+          "question": "What is the primary characteristic of musical improvisation?",
+          "correctAnswer": "Creating music spontaneously without pre-planning",
+          "wrongAnswer1": "Strictly following written sheet music",
+          "wrongAnswer2": "Rehearsing a composed piece repeatedly",
+          "wrongAnswer3": "Listening to music quietly",
+          "explanation": "Improvisation involves making music spontaneously, often in real-time, without relying on written compositions or prior rehearsals.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which musical genre is most commonly associated with improvisation?",
+          "correctAnswer": "Jazz",
+          "wrongAnswer1": "Classical",
+          "wrongAnswer2": "Baroque",
+          "wrongAnswer3": "Gregorian Chant",
+          "explanation": "Jazz music is renowned for its extensive use of improvisation where musicians create spontaneous variations and solos.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In improvisation, what role does chord progressions play?",
+          "correctAnswer": "They provide a harmonic framework for musicians to create melodies spontaneously",
+          "wrongAnswer1": "They dictate exact melodies to be played",
+          "wrongAnswer2": "They are ignored during improvisation",
+          "wrongAnswer3": "They prevent musicians from varying their music",
+          "explanation": "Chord progressions offer the underlying structure that guides the melodic development during improvisation, helping musicians create coherent and harmonious music.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Ornamentation",
+      "questions": [
+        {
+          "question": "What is ornamentation in music theory?",
+          "correctAnswer": "Decorative notes added to the main melody",
+          "wrongAnswer1": "The main theme of a piece",
+          "wrongAnswer2": "The rhythm section of a composition",
+          "wrongAnswer3": "The harmonic progression",
+          "explanation": "Ornamentation refers to decorative notes or embellishments that are added to the main melody to enhance its expressiveness and complexity.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of musical ornamentation?",
+          "correctAnswer": "Trill",
+          "wrongAnswer1": "Allegro",
+          "wrongAnswer2": "Crescendo",
+          "wrongAnswer3": "Forte",
+          "explanation": "A trill is a type of ornamentation involving the rapid alternation between two adjacent notes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does ornamentation typically affect the performance of a musical piece?",
+          "correctAnswer": "It adds expressiveness and complexity",
+          "wrongAnswer1": "It simplifies the melody",
+          "wrongAnswer2": "It changes the key signature",
+          "wrongAnswer3": "It alters the song's tempo",
+          "explanation": "Ornamentation enhances a piece by adding decorative notes that increase expressiveness and complexity without altering fundamental aspects such as melody or tempo.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Countermelody",
+      "questions": [
+        {
+          "question": "What is a countermelody in music theory?",
+          "correctAnswer": "A secondary melody played in counterpoint to the main melody",
+          "wrongAnswer1": "The main melody of a piece",
+          "wrongAnswer2": "A rhythm pattern played by percussion instruments",
+          "wrongAnswer3": "A harmonizing chord progression",
+          "explanation": "A countermelody is an additional melody that complements and contrasts with the main melody, often played simultaneously to enrich the music.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does a countermelody typically relate to the main melody?",
+          "correctAnswer": "It contrasts and complements the main melody, creating polyphony",
+          "wrongAnswer1": "It copies the main melody exactly",
+          "wrongAnswer2": "It replaces the main melody",
+          "wrongAnswer3": "It plays only rhythmic patterns without pitch variation",
+          "explanation": "Countermelodies add harmonic and melodic interest by interacting with the main melody rather than replicating or replacing it.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In which musical texture is a countermelody most commonly found?",
+          "correctAnswer": "Polyphonic",
+          "wrongAnswer1": "Monophonic",
+          "wrongAnswer2": "Homophonic",
+          "wrongAnswer3": "Heterophonic",
+          "explanation": "Countermelodies are characteristic of polyphonic texture where multiple independent melodies occur simultaneously.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Enharmonic",
+      "questions": [
+        {
+          "question": "What does the term enharmonic mean in music theory?",
+          "correctAnswer": "Notes that sound the same but are written differently",
+          "wrongAnswer1": "Notes that have different sounds and names",
+          "wrongAnswer2": "Notes that are played twice as fast",
+          "wrongAnswer3": "Notes that belong to different scales",
+          "explanation": "Enharmonic refers to two notes that sound identical in pitch but are notated differently, like F sharp and G flat.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following pairs are enharmonic equivalents?",
+          "correctAnswer": "C sharp and D flat",
+          "wrongAnswer1": "C sharp and D natural",
+          "wrongAnswer2": "G and G sharp",
+          "wrongAnswer3": "A and B flat",
+          "explanation": "C sharp and D flat are enharmonic equivalents because they sound the same but have different names.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is the concept of enharmonic important in music theory?",
+          "correctAnswer": "It helps in understanding key signatures and transpositions",
+          "wrongAnswer1": "It determines the tempo of a piece",
+          "wrongAnswer2": "It decides the duration of notes",
+          "wrongAnswer3": "It tells the loudness of notes",
+          "explanation": "Enharmonic equivalence is crucial for understanding how notes function in different keys and for simplifying transpositions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Breaking Cadence",
+      "questions": [
+        {
+          "question": "What does 'breaking a cadence' typically mean in music theory?",
+          "correctAnswer": "Interrupting the expected resolution of the harmony",
+          "wrongAnswer1": "Playing two cadences in a row",
+          "wrongAnswer2": "Changing key in the middle of a phrase",
+          "wrongAnswer3": "Ending a piece on a dominant chord",
+          "explanation": "Breaking a cadence involves interrupting or delaying the expected harmonic resolution, creating tension or surprise in the music.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which effect is often achieved by breaking a cadence in a musical phrase?",
+          "correctAnswer": "Creating tension or suspense",
+          "wrongAnswer1": "Resolving all harmonic tension immediately",
+          "wrongAnswer2": "Establishing the tonic key clearly",
+          "wrongAnswer3": "Ending the phrase abruptly",
+          "explanation": "By breaking a cadence, composers often create tension or suspense by delaying the harmonic resolution, engaging the listener further.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In which of the following scenarios would a composer be said to have broken a cadence?",
+          "correctAnswer": "Stopping the harmony before the expected tonic chord and continuing the phrase",
+          "wrongAnswer1": "Ending a phrase with a perfect authentic cadence",
+          "wrongAnswer2": "Finishing a piece on the tonic chord as anticipated",
+          "wrongAnswer3": "Using a simple I-IV-V progression without variation",
+          "explanation": "Breaking a cadence happens when the expected resolving chord, usually the tonic, is withheld or delayed, causing a feeling of anticipation that pushes the music forward.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Suspension",
+      "questions": [
+        {
+          "question": "What is a suspension in music theory?",
+          "correctAnswer": "A suspension is a note that is held over from a previous chord and resolves down by step to a chord tone.",
+          "wrongAnswer1": "A suspension is a rapid alternation between two notes of different pitch.",
+          "wrongAnswer2": "A suspension is a type of scale with seven distinct notes.",
+          "wrongAnswer3": "A suspension is a pause or break in the music for dramatic effect.",
+          "explanation": "A suspension occurs when a note from one chord is carried into the next chord, creating a temporary dissonance that resolves down by step to a chord tone, adding tension and release in the harmony.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which intervals are most commonly used in suspensions?",
+          "correctAnswer": "The most common suspension intervals are 4-3 and 7-6.",
+          "wrongAnswer1": "The most common suspension intervals are 2-1 and 5-4.",
+          "wrongAnswer2": "Suspensions typically involve intervals of 9-8 and 6-5.",
+          "wrongAnswer3": "Suspensions involve intervals of 3-2 and 8-7.",
+          "explanation": "In traditional harmony, suspensions often involve the interval above the bass moving from a dissonant interval like the fourth down to a consonant interval like the third, as in 4-3 suspension or from 7 to 6.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the role of suspension in creating musical tension and resolution?",
+          "correctAnswer": "Suspension creates tension by holding a dissonant note that resolves downward to a consonant note, providing a sense of release.",
+          "wrongAnswer1": "Suspension eliminates tension by maintaining consonant notes throughout the chords.",
+          "wrongAnswer2": "Suspension creates tension by rapidly changing chords without resolving.",
+          "wrongAnswer3": "Suspension has no effect on tension or resolution in music.",
+          "explanation": "Suspension techniques are used to introduce dissonance that temporarily unsettles the harmony, which then resolves into consonance, creating an expressive effect of tension and release.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Music Theory",
+      "concept": "Blue Note",
+      "questions": [
+        {
+          "question": "What is a blue note in music theory?",
+          "correctAnswer": "A note that is played at a slightly lower pitch than those of the major scale for expressive purposes",
+          "wrongAnswer1": "A note that is played exactly on the pitch of the major scale",
+          "wrongAnswer2": "A note that is played higher than the highest note of the scale",
+          "wrongAnswer3": "A note that represents the root note of a chord",
+          "explanation": "A blue note is typically a flattened third, fifth, or seventh note of the scale that is sung or played at a slightly lower pitch for expressive, soulful, or emotional effect in blues and jazz music.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In which genre of music are blue notes most commonly used?",
+          "correctAnswer": "Blues",
+          "wrongAnswer1": "Classical",
+          "wrongAnswer2": "Electronic",
+          "wrongAnswer3": "Country",
+          "explanation": "Blue notes are characteristic of blues music but are also frequently used in jazz and other related genres to add expressiveness.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which scale alteration typically creates a blue note?",
+          "correctAnswer": "Flattening the third, fifth, or seventh degrees of the scale",
+          "wrongAnswer1": "Sharpening the second and fourth degrees of the scale",
+          "wrongAnswer2": "Using only the major scale degrees without alteration",
+          "wrongAnswer3": "Removing the first and fourth degrees from the scale",
+          "explanation": "Blue notes are created by flattening certain scale degrees, mainly the third, fifth, or seventh degrees, giving a unique expressive sound.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

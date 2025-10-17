@@ -1,0 +1,1655 @@
+{
+  "topic": "JavaScript",
+  "concepts": [
+    {
+      "topic": "JavaScript",
+      "concept": "Variables",
+      "questions": [
+        {
+          "question": "What keyword is used in JavaScript to declare a variable that can be reassigned?",
+          "correctAnswer": "let",
+          "wrongAnswer1": "const",
+          "wrongAnswer2": "varible",
+          "wrongAnswer3": "variable",
+          "explanation": "In JavaScript, the keyword let is used to declare variables that can be reassigned. The const keyword is used for variables that cannot be reassigned after declaration.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is the correct way to declare a variable in JavaScript?",
+          "correctAnswer": "let score = 10;",
+          "wrongAnswer1": "variable score = 10;",
+          "wrongAnswer2": "int score = 10;",
+          "wrongAnswer3": "const score 10;",
+          "explanation": "The correct syntax to declare a variable in JavaScript is by using let, var, or const followed by the variable name and optionally an assignment. For example, let score = 10; is correct.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the default value of an uninitialized variable declared with let in JavaScript?",
+          "correctAnswer": "undefined",
+          "wrongAnswer1": "null",
+          "wrongAnswer2": "0",
+          "wrongAnswer3": "Empty string",
+          "explanation": "In JavaScript, when a variable is declared with let but not initialized, its default value is undefined.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Functions",
+      "questions": [
+        {
+          "question": "What is the correct syntax to declare a function in JavaScript?",
+          "correctAnswer": "function myFunction() { }",
+          "wrongAnswer1": "function:myFunction() { }",
+          "wrongAnswer2": "def myFunction() { }",
+          "wrongAnswer3": "function = myFunction() { }",
+          "explanation": "In JavaScript, a function is declared using the keyword function followed by the function name and parentheses (). The code block is defined within curly braces {}.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can you call a function named calculateSum in JavaScript?",
+          "correctAnswer": "calculateSum();",
+          "wrongAnswer1": "call calculateSum();",
+          "wrongAnswer2": "execute calculateSum;",
+          "wrongAnswer3": "run calculateSum;",
+          "explanation": "To invoke or call a function in JavaScript, use the function name followed by parentheses ().",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What will the function return if it does not have an explicit return statement?",
+          "correctAnswer": "undefined",
+          "wrongAnswer1": "null",
+          "wrongAnswer2": "0",
+          "wrongAnswer3": "an empty string",
+          "explanation": "In JavaScript, if a function does not explicitly return a value, it returns undefined by default.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Objects",
+      "questions": [
+        {
+          "question": "What is the primary purpose of an object in JavaScript?",
+          "correctAnswer": "To store collections of data and more complex entities",
+          "wrongAnswer1": "To perform arithmetic operations",
+          "wrongAnswer2": "To create loops and conditional statements",
+          "wrongAnswer3": "To directly manipulate HTML elements",
+          "explanation": "In JavaScript, objects are used to store collections of data and more complex entities by grouping properties and methods together.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you access the property 'name' of an object called 'person'?",
+          "correctAnswer": "person.name",
+          "wrongAnswer1": "person->name",
+          "wrongAnswer2": "person['name']",
+          "wrongAnswer3": "person:name",
+          "explanation": "In JavaScript, object properties can be accessed using dot notation like person.name or bracket notation like person['name'], but the latter should be considered correct as an alternate syntax and only person.name fits best as correct answer here given the choices.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is the correct way to create a new object in JavaScript?",
+          "correctAnswer": "const obj = { key: 'value' };",
+          "wrongAnswer1": "const obj = [ key: 'value' ];",
+          "wrongAnswer2": "const obj = ( key: 'value' );",
+          "wrongAnswer3": "const obj = < key: 'value' >;",
+          "explanation": "JavaScript objects are created using curly braces with key-value pairs inside, like const obj = { key: 'value' };.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Arrays",
+      "questions": [
+        {
+          "question": "What is the correct way to create an array in JavaScript?",
+          "correctAnswer": "var colors = ['red', 'green', 'blue'];",
+          "wrongAnswer1": "var colors = 'red', 'green', 'blue';",
+          "wrongAnswer2": "var colors = (red, green, blue);",
+          "wrongAnswer3": "var colors = {red, green, blue};",
+          "explanation": "In JavaScript, arrays are created using square brackets with elements separated by commas.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can you add a new element to the end of an existing array?",
+          "correctAnswer": "By using the push() method",
+          "wrongAnswer1": "By using the pop() method",
+          "wrongAnswer2": "By using the shift() method",
+          "wrongAnswer3": "By using the unshift() method",
+          "explanation": "The push() method adds a new element to the end of an array, while pop() removes the last element.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method removes the first element from an array and returns that element?",
+          "correctAnswer": "shift()",
+          "wrongAnswer1": "pop()",
+          "wrongAnswer2": "unshift()",
+          "wrongAnswer3": "slice()",
+          "explanation": "The shift() method removes the first element from an array and returns it, whereas pop() removes the last element.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Loops",
+      "questions": [
+        {
+          "question": "What is the main purpose of loops in JavaScript?",
+          "correctAnswer": "To execute a block of code repeatedly as long as a specified condition is true",
+          "wrongAnswer1": "To define variables and constants",
+          "wrongAnswer2": "To handle errors in the code",
+          "wrongAnswer3": "To create functions",
+          "explanation": "Loops in JavaScript are used to repeat a block of code multiple times until a specified condition is no longer true.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following loop types will always execute the code block at least once?",
+          "correctAnswer": "do...while loop",
+          "wrongAnswer1": "for loop",
+          "wrongAnswer2": "while loop",
+          "wrongAnswer3": "for...in loop",
+          "explanation": "The do...while loop executes the code block first and then checks the condition, ensuring the block runs at least once.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How would you stop an infinite loop in JavaScript?",
+          "correctAnswer": "Use a break statement inside the loop",
+          "wrongAnswer1": "Use the continue statement",
+          "wrongAnswer2": "Call the loop's name to pause it",
+          "wrongAnswer3": "Nothing can stop an infinite loop",
+          "explanation": "The break statement immediately terminates the loop, preventing an infinite loop from running indefinitely.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Events",
+      "questions": [
+        {
+          "question": "What is the main purpose of an event in JavaScript?",
+          "correctAnswer": "To execute code in response to user interactions or other actions",
+          "wrongAnswer1": "To create a new JavaScript function",
+          "wrongAnswer2": "To style HTML elements dynamically",
+          "wrongAnswer3": "To store data in the browser",
+          "explanation": "Events in JavaScript are actions or occurrences that happen in the system you are programming, which the system tells you about so your code can respond to them. Common examples include user interactions like clicks or keyboard input.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method is used to attach an event handler to an element in JavaScript?",
+          "correctAnswer": "addEventListener",
+          "wrongAnswer1": "attachEvent",
+          "wrongAnswer2": "listenEvent",
+          "wrongAnswer3": "bindEvent",
+          "explanation": "The addEventListener method is the standard way to attach an event handler to an element, allowing you to specify the event type and the function to run when that event occurs.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the event object provide in a JavaScript event handler?",
+          "correctAnswer": "Information about the event, like the type of event and the target element",
+          "wrongAnswer1": "The browser's history log",
+          "wrongAnswer2": "The total number of events triggered on the page",
+          "wrongAnswer3": "Default styles for the event's target element",
+          "explanation": "The event object is passed to the event handler function and contains detailed information about the event, such as the target element, the type of event, and other relevant data.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Promises",
+      "questions": [
+        {
+          "question": "What is a Promise in JavaScript?",
+          "correctAnswer": "An object representing the eventual completion or failure of an asynchronous operation",
+          "wrongAnswer1": "A method for synchronous code execution",
+          "wrongAnswer2": "A way to declare variables",
+          "wrongAnswer3": "A function to handle events",
+          "explanation": "A Promise in JavaScript is used for handling asynchronous operations by representing an eventual result, either success or failure.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method is used to handle a fulfilled Promise in JavaScript?",
+          "correctAnswer": "then",
+          "wrongAnswer1": "catch",
+          "wrongAnswer2": "finally",
+          "wrongAnswer3": "resolve",
+          "explanation": "The then method is used to specify what to do when a Promise is successfully resolved.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the catch method do in a Promise?",
+          "correctAnswer": "Handles errors or rejections from the Promise",
+          "wrongAnswer1": "Completes the Promise successfully",
+          "wrongAnswer2": "Starts the Promise execution",
+          "wrongAnswer3": "Returns the resolved value",
+          "explanation": "The catch method is used to handle any error or rejection that occurs during the Promise execution.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Async Await",
+      "questions": [
+        {
+          "question": "What is the primary purpose of async and await in JavaScript?",
+          "correctAnswer": "To write asynchronous code in a more synchronous and readable manner",
+          "wrongAnswer1": "To make synchronous code run faster",
+          "wrongAnswer2": "To define a loop in JavaScript",
+          "wrongAnswer3": "To handle events in the DOM",
+          "explanation": "Async and await are used to simplify the behavior of promises, allowing asynchronous code to be written in a manner that looks synchronous, making it easier to read and maintain.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What keyword must be used to declare a function that uses await inside it?",
+          "correctAnswer": "async",
+          "wrongAnswer1": "await",
+          "wrongAnswer2": "promise",
+          "wrongAnswer3": "defer",
+          "explanation": "The async keyword is used to declare a function as asynchronous, allowing the use of await inside it to pause execution until a promise is resolved.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the await keyword do when used in an async function?",
+          "correctAnswer": "It pauses the execution of the async function until the awaited Promise resolves",
+          "wrongAnswer1": "It makes the function run synchronously without any delays",
+          "wrongAnswer2": "It catches errors without using try-catch blocks",
+          "wrongAnswer3": "It immediately returns a resolved promise",
+          "explanation": "The await keyword pauses the execution of the async function until the Promise it is awaiting is resolved or rejected, thus making asynchronous code easier to handle.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Closures",
+      "questions": [
+        {
+          "question": "What is a closure in JavaScript?",
+          "correctAnswer": "A function having access to its own scope, the outer function's scope, and the global scope",
+          "wrongAnswer1": "A function that returns another function without any variables",
+          "wrongAnswer2": "An object that stores functions and variables together",
+          "wrongAnswer3": "A variable declared inside a function",
+          "explanation": "A closure is formed when a function retains access to its lexical scope, even when the function is executed outside that scope. This means it can access variables from its own scope and the outer function's scope.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common use case for closures in JavaScript?",
+          "correctAnswer": "To create private variables or methods",
+          "wrongAnswer1": "To overload functions with the same name",
+          "wrongAnswer2": "To define global variables only",
+          "wrongAnswer3": "To prevent function execution",
+          "explanation": "Closures allow functions to access variables defined in an outer function, which helps in creating private variables or methods that cannot be accessed from outside the closure.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens when a closure is created inside a loop using var to declare the loop variable?",
+          "correctAnswer": "All closures share the same variable, resulting in the last value after the loop ends",
+          "wrongAnswer1": "Each closure has its own copy of the variable with different values",
+          "wrongAnswer2": "The loop variable is not accessible inside the closure",
+          "wrongAnswer3": "The closure throws an error when accessed after the loop",
+          "explanation": "Because var is function-scoped, each closure shares the same variable reference, so they all see the loop variable's final value after the loop finishes. This is a common pitfall in JavaScript closures when used with var in loops.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Callbacks",
+      "questions": [
+        {
+          "question": "What is a callback function in JavaScript?",
+          "correctAnswer": "A function passed as an argument to another function to be executed later",
+          "wrongAnswer1": "A function that returns another function",
+          "wrongAnswer2": "A function that throws an error",
+          "wrongAnswer3": "A function that executes immediately",
+          "explanation": "A callback function is passed as an argument to another function and is called inside that function after some operation is completed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common use case for callbacks in JavaScript?",
+          "correctAnswer": "Handling asynchronous operations like API calls or timers",
+          "wrongAnswer1": "Declaring variables",
+          "wrongAnswer2": "Defining CSS styles",
+          "wrongAnswer3": "Creating HTML elements",
+          "explanation": "Callbacks are commonly used for asynchronous operations such as API responses, event handling, or timers to execute code after an operation completes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What problem can arise from using multiple nested callbacks in JavaScript?",
+          "correctAnswer": "Callback hell, making code difficult to read and maintain",
+          "wrongAnswer1": "Improved performance in execution",
+          "wrongAnswer2": "Automatic error handling",
+          "wrongAnswer3": "Synchronous execution of code",
+          "explanation": "Multiple nested callbacks can lead to deeply indented code often called callback hell, which is difficult to manage and debug.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "DOM Manipulation",
+      "questions": [
+        {
+          "question": "What does DOM stand for in web development?",
+          "correctAnswer": "Document Object Model",
+          "wrongAnswer1": "Data Object Model",
+          "wrongAnswer2": "Document Oriented Markup",
+          "wrongAnswer3": "Data Oriented Model",
+          "explanation": "DOM stands for Document Object Model, which is a programming interface for HTML and XML documents.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which JavaScript method is used to select an element by its ID for manipulation?",
+          "correctAnswer": "getElementById",
+          "wrongAnswer1": "querySelectorAll",
+          "wrongAnswer2": "getElementsByClassName",
+          "wrongAnswer3": "selectElementById",
+          "explanation": "getElementById is the JavaScript method used to select a single element with a specific ID for manipulation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which property of a DOM element allows you to change the text inside an HTML element?",
+          "correctAnswer": "textContent",
+          "wrongAnswer1": "innerHTML",
+          "wrongAnswer2": "outerHTML",
+          "wrongAnswer3": "nodeValue",
+          "explanation": "The textContent property sets or returns the text content of the specified node and its descendants, allowing text manipulation.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "JSON",
+      "questions": [
+        {
+          "question": "What does JSON stand for in JavaScript?",
+          "correctAnswer": "JavaScript Object Notation",
+          "wrongAnswer1": "Java Standard Output Network",
+          "wrongAnswer2": "JavaScript Online Namespace",
+          "wrongAnswer3": "Java Serialized Object Notation",
+          "explanation": "JSON stands for JavaScript Object Notation and is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method is used to convert a JavaScript object into a JSON string?",
+          "correctAnswer": "JSON.stringify()",
+          "wrongAnswer1": "JSON.parse()",
+          "wrongAnswer2": "JSON.convert()",
+          "wrongAnswer3": "JSON.toString()",
+          "explanation": "The JSON.stringify() method converts a JavaScript object or value to a JSON string.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the purpose of JSON.parse() in JavaScript?",
+          "correctAnswer": "To convert a JSON string into a JavaScript object",
+          "wrongAnswer1": "To convert a JavaScript object into a JSON string",
+          "wrongAnswer2": "To validate a JSON string",
+          "wrongAnswer3": "To compress JSON data",
+          "explanation": "JSON.parse() takes a JSON-formatted string and converts it into a JavaScript object, enabling you to work with the data in your scripts.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Prototype",
+      "questions": [
+        {
+          "question": "What is the purpose of a prototype in JavaScript?",
+          "correctAnswer": "To allow objects to inherit properties and methods from other objects",
+          "wrongAnswer1": "To define the structure of HTML elements",
+          "wrongAnswer2": "To create new variables",
+          "wrongAnswer3": "To perform arithmetic operations",
+          "explanation": "In JavaScript, a prototype is an object from which other objects inherit properties and methods, enabling inheritance and reuse of code.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can you add a method to all instances of a constructor function using prototypes?",
+          "correctAnswer": "By adding the method to the constructor's prototype object",
+          "wrongAnswer1": "By adding the method to each instance separately",
+          "wrongAnswer2": "By defining the method inside the constructor function only",
+          "wrongAnswer3": "By calling the method on the constructor function directly",
+          "explanation": "Adding a method to the constructor's prototype allows all instances created by that constructor to share the method, promoting efficiency and inheritance.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following best describes the prototype chain in JavaScript?",
+          "correctAnswer": "A series of linked objects where each object inherits from its prototype",
+          "wrongAnswer1": "A group of unrelated objects stored in an array",
+          "wrongAnswer2": "A chain of functions executed sequentially",
+          "wrongAnswer3": "A list of variables declared in global scope",
+          "explanation": "The prototype chain is a linked chain of objects where each object inherits properties and methods from its prototype, enabling property lookup and inheritance.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Inheritance",
+      "questions": [
+        {
+          "question": "In JavaScript, how can one object inherit properties and methods from another?",
+          "correctAnswer": "By setting the prototype of the child object to the parent object",
+          "wrongAnswer1": "By copying all properties manually from one object to another",
+          "wrongAnswer2": "By using the extends keyword alone without a class",
+          "wrongAnswer3": "Inheritance is not supported in JavaScript",
+          "explanation": "Inheritance in JavaScript is primarily implemented by linking prototypes. Setting the prototype of one object to another allows the child to access the parent's properties and methods.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is the correct syntax to make class B inherit from class A in JavaScript?",
+          "correctAnswer": "class B extends A {}",
+          "wrongAnswer1": "class B inherits A {}",
+          "wrongAnswer2": "class B inherits from A {}",
+          "wrongAnswer3": "class B.prototype = A.prototype",
+          "explanation": "The correct way to create a subclass in JavaScript using ES6 syntax is by using the extends keyword, as in class B extends A {}.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What keyword is used within a subclass constructor to call the constructor of its parent class?",
+          "correctAnswer": "super",
+          "wrongAnswer1": "parent",
+          "wrongAnswer2": "this",
+          "wrongAnswer3": "base",
+          "explanation": "In JavaScript ES6 classes, the super keyword is used inside a subclass constructor to call and initialize the parent class's constructor.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Scope",
+      "questions": [
+        {
+          "question": "What does 'scope' refer to in JavaScript?",
+          "correctAnswer": "The accessibility of variables and functions in different parts of the code",
+          "wrongAnswer1": "The size of the JavaScript file",
+          "wrongAnswer2": "The speed at which JavaScript code runs",
+          "wrongAnswer3": "The way JavaScript interacts with HTML elements",
+          "explanation": "Scope in JavaScript determines where variables and functions are accessible within the code, such as global or local scope.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of scope does a variable declared inside a function have in JavaScript?",
+          "correctAnswer": "Local scope",
+          "wrongAnswer1": "Global scope",
+          "wrongAnswer2": "Block scope",
+          "wrongAnswer3": "Functional scope",
+          "explanation": "Variables declared inside a function are only accessible within that function, which is known as local scope.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the difference between 'var' and 'let' in terms of scope in JavaScript?",
+          "correctAnswer": "'var' is function scoped, while 'let' is block scoped",
+          "wrongAnswer1": "'var' is block scoped, while 'let' is function scoped",
+          "wrongAnswer2": "Both are global scoped",
+          "wrongAnswer3": "'let' is scoped globally, 'var' is scoped locally",
+          "explanation": "Variables declared with 'var' are scoped to the function they are declared in, whereas 'let' variables are scoped to the block they are declared in.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Hoisting",
+      "questions": [
+        {
+          "question": "What is hoisting in JavaScript?",
+          "correctAnswer": "Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope before code execution.",
+          "wrongAnswer1": "Hoisting is a process of delaying the execution of JavaScript code until the entire page is loaded.",
+          "wrongAnswer2": "Hoisting means that JavaScript automatically converts variables to global scope.",
+          "wrongAnswer3": "Hoisting refers to a JavaScript feature that disables variable declarations inside functions.",
+          "explanation": "Hoisting is a JavaScript mechanism where variable and function declarations are moved to the top of their containing scope during the compile phase before the code executes. This allows variables and functions to be referred to before they are declared in the source code.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about variable hoisting with var keyword?",
+          "correctAnswer": "Variables declared with var are hoisted and initialized with undefined.",
+          "wrongAnswer1": "Variables declared with var are hoisted and initialized with their assigned values.",
+          "wrongAnswer2": "Variables declared with var are not hoisted at all.",
+          "wrongAnswer3": "Variables declared with var are hoisted and initialized only inside functions.",
+          "explanation": "Variables declared with var are hoisted to the top of their scope and initialized with undefined until their assignment is encountered during execution. This means they exist before their declaration line but hold undefined until assigned.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does hoisting behave with let and const declarations?",
+          "correctAnswer": "let and const declarations are hoisted but are not initialized, causing a temporal dead zone until the declaration is evaluated.",
+          "wrongAnswer1": "let and const declarations are fully hoisted and initialized with undefined like var.",
+          "wrongAnswer2": "let and const declarations are not hoisted at all and cause a reference error if accessed before declaration.",
+          "wrongAnswer3": "let and const declarations hoist only within the block and are initialized immediately.",
+          "explanation": "let and const declarations are hoisted to the top of their block scope but are not initialized. Accessing them before the actual declaration results in a ReferenceError due to the temporal dead zone, which differs from var behavior.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Strict Mode",
+      "questions": [
+        {
+          "question": "What is the purpose of using strict mode in JavaScript?",
+          "correctAnswer": "To enforce stricter parsing and error handling in your code",
+          "wrongAnswer1": "To automatically fix errors in the code",
+          "wrongAnswer2": "To enable the use of newer syntax only",
+          "wrongAnswer3": "To speed up execution of all JavaScript code",
+          "explanation": "Strict mode in JavaScript is used to enforce stricter parsing and error handling, which helps to catch common coding mistakes and unsafe actions, making the code more secure and easier to debug.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you enable strict mode in a JavaScript file or function?",
+          "correctAnswer": "By adding the directive 'use strict' at the beginning",
+          "wrongAnswer1": "By setting a configuration in the browser",
+          "wrongAnswer2": "By importing a strict module",
+          "wrongAnswer3": "By using the strict keyword before variable declarations",
+          "explanation": "Strict mode is enabled by placing the exact string 'use strict' at the beginning of a script or a function, which activates stricter parsing rules for that scope.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a behavior caused by strict mode in JavaScript?",
+          "correctAnswer": "It throws an error when assigning a value to an undeclared variable",
+          "wrongAnswer1": "It permits usage of undeclared variables",
+          "wrongAnswer2": "It ignores all syntax errors",
+          "wrongAnswer3": "It automatically converts variables to strings",
+          "explanation": "In strict mode, JavaScript throws an error if you try to assign a value to a variable that has not been declared, which helps prevent accidental global variables.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Modules",
+      "questions": [
+        {
+          "question": "What is the primary purpose of modules in JavaScript?",
+          "correctAnswer": "To organize and encapsulate code into reusable pieces",
+          "wrongAnswer1": "To make the code run faster",
+          "wrongAnswer2": "To connect JavaScript with HTML",
+          "wrongAnswer3": "To ensure the code is always executed asynchronously",
+          "explanation": "Modules allow developers to break down code into smaller, manageable, and reusable parts, helping with code organization and maintenance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is the correct syntax to export a function from a JavaScript module?",
+          "correctAnswer": "export function myFunction() {}",
+          "wrongAnswer1": "function export myFunction() {}",
+          "wrongAnswer2": "exported function myFunction() {}",
+          "wrongAnswer3": "module.export myFunction() {}",
+          "explanation": "The correct export syntax in ES6 modules is using the export keyword before the function declaration.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you import a default export from a module in JavaScript?",
+          "correctAnswer": "import myFunction from './myModule.js';",
+          "wrongAnswer1": "import {myFunction} from './myModule.js';",
+          "wrongAnswer2": "require('myFunction') from './myModule.js';",
+          "wrongAnswer3": "import default myFunction from './myModule.js';",
+          "explanation": "A default export is imported without curly braces using the import name from syntax.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Arrow Functions",
+      "questions": [
+        {
+          "question": "What is a key characteristic of arrow functions in JavaScript compared to regular functions?",
+          "correctAnswer": "Arrow functions do not have their own this context.",
+          "wrongAnswer1": "Arrow functions cannot take any parameters.",
+          "wrongAnswer2": "Arrow functions always require the function keyword.",
+          "wrongAnswer3": "Arrow functions cannot return values.",
+          "explanation": "Arrow functions do not have their own this context; they inherit it from the surrounding lexical context.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you write a simple arrow function that adds two numbers a and b?",
+          "correctAnswer": "const add = (a, b) => a + b;",
+          "wrongAnswer1": "const add = function(a, b) { return a + b; };",
+          "wrongAnswer2": "const add = a, b => { return a + b; };",
+          "wrongAnswer3": "function add(a, b) => a + b;",
+          "explanation": "Arrow functions use the syntax (parameters) => expression for concise function definitions, and can omit curly braces for single expressions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about the use of the 'arguments' object inside arrow functions?",
+          "correctAnswer": "Arrow functions do not have their own 'arguments' object.",
+          "wrongAnswer1": "Arrow functions require you to explicitly define the 'arguments' object.",
+          "wrongAnswer2": "Arrow functions use the global 'arguments' object.",
+          "wrongAnswer3": "Arrow functions cannot be called with arguments.",
+          "explanation": "Arrow functions do not have their own 'arguments' object; they inherit it from the enclosing scope.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Classes",
+      "questions": [
+        {
+          "question": "What keyword is used to define a class in JavaScript?",
+          "correctAnswer": "class",
+          "wrongAnswer1": "function",
+          "wrongAnswer2": "object",
+          "wrongAnswer3": "define",
+          "explanation": "In JavaScript, the 'class' keyword is used to define a class, which is a blueprint for creating objects with specific properties and methods.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method inside a JavaScript class is called automatically when a new object is created?",
+          "correctAnswer": "constructor",
+          "wrongAnswer1": "init",
+          "wrongAnswer2": "create",
+          "wrongAnswer3": "start",
+          "explanation": "The 'constructor' method is a special method for creating and initializing objects created with a class.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you create an instance of a class in JavaScript?",
+          "correctAnswer": "Using the new keyword followed by the class name",
+          "wrongAnswer1": "Calling the class name as a function without new",
+          "wrongAnswer2": "Using the createInstance method",
+          "wrongAnswer3": "Directly assigning the class to a variable",
+          "explanation": "Instances of a class are created by using the 'new' keyword followed by the class name and parentheses.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Destructuring",
+      "questions": [
+        {
+          "question": "What is the primary purpose of destructuring in JavaScript?",
+          "correctAnswer": "To extract values from arrays or properties from objects into distinct variables",
+          "wrongAnswer1": "To concatenate two arrays or objects",
+          "wrongAnswer2": "To convert objects into strings",
+          "wrongAnswer3": "To create new arrays or objects",
+          "explanation": "Destructuring allows us to unpack values from arrays or properties from objects into separate variables for easier use and more readable code.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which syntax correctly demonstrates array destructuring?",
+          "correctAnswer": "const [a, b] = [1, 2];",
+          "wrongAnswer1": "const {a, b} = [1, 2];",
+          "wrongAnswer2": "const (a, b) = [1, 2];",
+          "wrongAnswer3": "const a, b = [1, 2];",
+          "explanation": "Array destructuring uses square brackets to match the elements of the array to variables, such as const [a, b] = [1, 2]. Object destructuring uses curly braces instead.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In object destructuring, how do you assign a property value to a variable with a different name?",
+          "correctAnswer": "const {propName: varName} = object;",
+          "wrongAnswer1": "const {varName = propName} = object;",
+          "wrongAnswer2": "const {varName} = object.propName;",
+          "wrongAnswer3": "const (propName as varName) = object;",
+          "explanation": "To rename a property during object destructuring, you use the syntax const {propName: varName} = object, where propName is the property key and varName is the new variable name.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Spread Operator",
+      "questions": [
+        {
+          "question": "What does the spread operator do in JavaScript?",
+          "correctAnswer": "It expands elements of an iterable into individual elements.",
+          "wrongAnswer1": "It merges two objects into one.",
+          "wrongAnswer2": "It converts an object into a string.",
+          "wrongAnswer3": "It creates a copy of an object without any properties.",
+          "explanation": "The spread operator in JavaScript expands elements of an iterable such as an array into individual elements, which is useful in various contexts like function calls and array literals.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which syntax represents the spread operator in JavaScript?",
+          "correctAnswer": "Three consecutive dots before an iterable (e.g., ...array).",
+          "wrongAnswer1": "Double dots after an iterable (e.g., array..).",
+          "wrongAnswer2": "Exclamation mark before an iterable (e.g., !array).",
+          "wrongAnswer3": "Colon followed by dots (e.g., :...).",
+          "explanation": "The spread operator is represented by three consecutive dots before an iterable object to expand its elements.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can the spread operator be used with objects in JavaScript?",
+          "correctAnswer": "To create a shallow copy of an object or merge properties from multiple objects.",
+          "wrongAnswer1": "To deeply clone an object including nested objects.",
+          "wrongAnswer2": "To delete properties from an object.",
+          "wrongAnswer3": "To convert objects into arrays.",
+          "explanation": "The spread operator can create shallow copies of objects or merge multiple objects into one by copying properties at the first level only.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Rest Parameters",
+      "questions": [
+        {
+          "question": "What is the purpose of rest parameters in JavaScript functions?",
+          "correctAnswer": "To represent an indefinite number of arguments as an array",
+          "wrongAnswer1": "To restrict the number of arguments to one",
+          "wrongAnswer2": "To convert all arguments to strings",
+          "wrongAnswer3": "To define default values for arguments",
+          "explanation": "Rest parameters allow functions to accept an indefinite number of arguments as an array, making it easier to work with multiple inputs without knowing the exact number upfront.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you declare a rest parameter in a JavaScript function?",
+          "correctAnswer": "By prefixing the last parameter with three dots (...)",
+          "wrongAnswer1": "By using the keyword rest before the parameter",
+          "wrongAnswer2": "By enclosing the parameter in square brackets",
+          "wrongAnswer3": "By using the function keyword inside the parameter list",
+          "explanation": "Rest parameters are declared by prefixing the last named parameter in the function definition with three dots (ellipsis), for example, function f(...args).",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about rest parameters?",
+          "correctAnswer": "They are always stored as an array inside the function",
+          "wrongAnswer1": "They can only hold the first argument passed to a function",
+          "wrongAnswer2": "They must be the first parameter in the function definition",
+          "wrongAnswer3": "They automatically convert all arguments to numbers",
+          "explanation": "Rest parameters gather all remaining arguments into an array and must be the last parameter in the function definition. This provides flexibility in handling multiple arguments.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Template Literals",
+      "questions": [
+        {
+          "question": "What is the main advantage of using template literals in JavaScript?",
+          "correctAnswer": "They allow embedding expressions and multi-line strings easily.",
+          "wrongAnswer1": "They make JavaScript run faster.",
+          "wrongAnswer2": "They are used to declare variables.",
+          "wrongAnswer3": "They replace functions completely.",
+          "explanation": "Template literals enable easier string interpolation and multi-line strings, improving code readability and convenience.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which syntax correctly denotes a template literal in JavaScript?",
+          "correctAnswer": "Using backticks around the string, like `Hello`.",
+          "wrongAnswer1": "Using single quotes around the string, like 'Hello'.",
+          "wrongAnswer2": "Using double quotes around the string, like \"Hello\".",
+          "wrongAnswer3": "Using parentheses around the string, like (Hello).",
+          "explanation": "Template literals are defined using backticks, which allow for embedding expressions and preserving multi-line formatting.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can expressions be embedded within a template literal?",
+          "correctAnswer": "By wrapping the expression in ${} inside the backticks.",
+          "wrongAnswer1": "By using + signs inside the string.",
+          "wrongAnswer2": "By escaping the expression with a backslash.",
+          "wrongAnswer3": "By placing expressions outside the template literal.",
+          "explanation": "Expressions can be embedded within template literals using the syntax ${expression}, allowing dynamic string generation.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Set",
+      "questions": [
+        {
+          "question": "What is a primary characteristic of a Set in JavaScript?",
+          "correctAnswer": "It stores unique values only.",
+          "wrongAnswer1": "It stores key-value pairs.",
+          "wrongAnswer2": "It allows duplicate values.",
+          "wrongAnswer3": "It orders elements by key.",
+          "explanation": "A Set in JavaScript stores unique values of any type, ensuring no duplicates exist in the collection.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method is used to add a new element to a Set in JavaScript?",
+          "correctAnswer": "add()",
+          "wrongAnswer1": "push()",
+          "wrongAnswer2": "append()",
+          "wrongAnswer3": "insert()",
+          "explanation": "The add() method is used to add a new element to a Set in JavaScript.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can you check if a value exists in a JavaScript Set?",
+          "correctAnswer": "Using the has() method.",
+          "wrongAnswer1": "Using the contains() method.",
+          "wrongAnswer2": "Using the includes() method.",
+          "wrongAnswer3": "Using the find() method.",
+          "explanation": "The has() method returns a boolean indicating whether a value exists in the Set.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Map",
+      "questions": [
+        {
+          "question": "What is a Map in JavaScript?",
+          "correctAnswer": "A collection of key-value pairs where keys can be of any type",
+          "wrongAnswer1": "An array of values indexed by numbers",
+          "wrongAnswer2": "A function that maps inputs to outputs",
+          "wrongAnswer3": "A string representation of objects",
+          "explanation": "In JavaScript, a Map is a collection of key-value pairs where keys can be of any type, unlike objects where keys are typically strings or symbols.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following methods is used to add a new key-value pair to a Map?",
+          "correctAnswer": "set",
+          "wrongAnswer1": "add",
+          "wrongAnswer2": "push",
+          "wrongAnswer3": "insert",
+          "explanation": "The set method is used to add or update a key-value pair in a Map in JavaScript.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can you get the number of key-value pairs stored in a Map?",
+          "correctAnswer": "Using the size property",
+          "wrongAnswer1": "Using the length property",
+          "wrongAnswer2": "Using the count method",
+          "wrongAnswer3": "Using the size() method",
+          "explanation": "The size property returns the number of elements in a Map. Unlike arrays, Maps do not have a length property or a count method.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "WeakMap",
+      "questions": [
+        {
+          "question": "What is a key feature of a WeakMap in JavaScript that differentiates it from a regular Map?",
+          "correctAnswer": "Keys in a WeakMap must be objects and are weakly referenced",
+          "wrongAnswer1": "Keys in a WeakMap can be any primitive values",
+          "wrongAnswer2": "Values in a WeakMap must be objects",
+          "wrongAnswer3": "WeakMap stores keys and values statically without garbage collection",
+          "explanation": "A WeakMap only accepts objects as keys, and these keys are held weakly. This means if there are no other references to the key object, it can be garbage collected, which is not the case with regular Maps that hold strong references to keys.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why might a developer choose to use a WeakMap instead of a Map for storing data about objects?",
+          "correctAnswer": "To allow automatic garbage collection of entries when there are no other references to the key objects",
+          "wrongAnswer1": "To ensure keys remain in memory regardless of references",
+          "wrongAnswer2": "Because WeakMap can store primitive keys as well",
+          "wrongAnswer3": "Because WeakMap provides better insertion performance",
+          "explanation": "WeakMaps allow the garbage collector to clean up entries when there are no other references to the key objects, which helps prevent memory leaks in cases where object lifecycles are uncertain.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following operations is NOT supported by a WeakMap in JavaScript?",
+          "correctAnswer": "Iterating over all key-value pairs",
+          "wrongAnswer1": "Setting a key-value pair",
+          "wrongAnswer2": "Checking if a key exists",
+          "wrongAnswer3": "Deleting a key-value pair",
+          "explanation": "WeakMaps do not support iteration methods such as forEach or keys because their keys are weakly held and may be garbage collected at any time, making iteration unreliable.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "WeakSet",
+      "questions": [
+        {
+          "question": "What is a key characteristic of a WeakSet in JavaScript?",
+          "correctAnswer": "It holds weakly referenced objects, allowing garbage collection if there are no other references.",
+          "wrongAnswer1": "It holds primitive values like strings and numbers.",
+          "wrongAnswer2": "It can store both objects and primitive values.",
+          "wrongAnswer3": "It prevents garbage collection of its elements.",
+          "explanation": "A WeakSet in JavaScript only holds objects weakly, meaning the presence of an object in the WeakSet does not prevent that object from being garbage collected if there are no other references to it.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following can be an element in a WeakSet?",
+          "correctAnswer": "An object instance",
+          "wrongAnswer1": "A string value",
+          "wrongAnswer2": "A number value",
+          "wrongAnswer3": "A boolean value",
+          "explanation": "WeakSets can only contain objects as elements. Primitive types like strings, numbers, and booleans are not allowed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens when the only reference to an object is in a WeakSet?",
+          "correctAnswer": "The object can be garbage collected.",
+          "wrongAnswer1": "The object remains in memory forever.",
+          "wrongAnswer2": "The object is converted to a primitive.",
+          "wrongAnswer3": "The object is copied to a regular Set.",
+          "explanation": "Since WeakSet holds objects weakly, if the only references to an object are in a WeakSet, the object is eligible for garbage collection to free memory.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Event Loop",
+      "questions": [
+        {
+          "question": "What is the primary role of the event loop in JavaScript?",
+          "correctAnswer": "To manage the execution of asynchronous callbacks by checking the call stack and the task queue",
+          "wrongAnswer1": "To execute all synchronous code before any asynchronous code",
+          "wrongAnswer2": "To optimize performance by compiling JavaScript code",
+          "wrongAnswer3": "To handle variable declarations and hoisting",
+          "explanation": "The event loop continuously monitors the call stack and the task queue to execute asynchronous callbacks when the stack is empty, enabling non-blocking I/O operations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which JavaScript environment component does the event loop interact with to process asynchronous events?",
+          "correctAnswer": "The task queue (or callback queue)",
+          "wrongAnswer1": "The call stack only",
+          "wrongAnswer2": "The memory heap",
+          "wrongAnswer3": "The execution context stack",
+          "explanation": "The event loop moves callbacks from the task queue to the call stack when the stack is empty, allowing asynchronous events to be processed.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens if the call stack is not empty in the context of the event loop?",
+          "correctAnswer": "The event loop waits until the call stack is empty before pushing tasks from the queue",
+          "wrongAnswer1": "The event loop immediately pushes tasks from the task queue to the call stack",
+          "wrongAnswer2": "The event loop clears the call stack forcibly",
+          "wrongAnswer3": "The event loop stops executing scripts",
+          "explanation": "The event loop only pushes new tasks to the call stack when it is empty to maintain order and avoid blocking the execution flow.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Generators",
+      "questions": [
+        {
+          "question": "What keyword is used to define a generator function in JavaScript?",
+          "correctAnswer": "function*",
+          "wrongAnswer1": "generator",
+          "wrongAnswer2": "function",
+          "wrongAnswer3": "gen",
+          "explanation": "Generator functions in JavaScript are declared using the function* syntax, which allows the function to yield multiple values over time.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the yield keyword do inside a JavaScript generator function?",
+          "correctAnswer": "Pauses the function and returns a value",
+          "wrongAnswer1": "Ends the function immediately",
+          "wrongAnswer2": "Starts a new function",
+          "wrongAnswer3": "Throws an error",
+          "explanation": "The yield keyword pauses the generator function's execution and returns a value to the caller, allowing resumption later.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you resume the execution of a paused generator function?",
+          "correctAnswer": "By calling the next() method on the generator object",
+          "wrongAnswer1": "By calling yield() again inside the function",
+          "wrongAnswer2": "By calling the return() method on the generator object",
+          "wrongAnswer3": "By restarting the generator function from the beginning",
+          "explanation": "The generator's next() method resumes its execution from where it was paused by yield and moves to the next yield or end of function.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Iterators",
+      "questions": [
+        {
+          "question": "What is the primary purpose of an iterator in JavaScript?",
+          "correctAnswer": "To provide a way to access elements in a collection one at a time",
+          "wrongAnswer1": "To modify elements in a collection all at once",
+          "wrongAnswer2": "To sort elements in a collection",
+          "wrongAnswer3": "To duplicate elements in a collection",
+          "explanation": "An iterator provides a standard way to access elements sequentially without exposing the underlying structure of the collection.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method is used to get an iterator from an iterable object in JavaScript?",
+          "correctAnswer": "Symbol.iterator",
+          "wrongAnswer1": "getIterator",
+          "wrongAnswer2": "iterator",
+          "wrongAnswer3": "next",
+          "explanation": "The method with the key Symbol.iterator is called by the JavaScript engine to get the default iterator for an iterable.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the next() method of an iterator object return?",
+          "correctAnswer": "An object with value and done properties",
+          "wrongAnswer1": "Only the next value in the collection",
+          "wrongAnswer2": "A boolean indicating if iteration is complete",
+          "wrongAnswer3": "The entire collection from the current position",
+          "explanation": "The next() method returns an object containing the next value and a boolean done indicating if the iterator has completed.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Try Catch",
+      "questions": [
+        {
+          "question": "What is the purpose of a try catch block in JavaScript?",
+          "correctAnswer": "To handle exceptions and prevent code from crashing",
+          "wrongAnswer1": "To execute code asynchronously",
+          "wrongAnswer2": "To define a function",
+          "wrongAnswer3": "To declare variables",
+          "explanation": "A try catch block is used to catch exceptions that may occur in the try block and handle them in the catch block, preventing the program from terminating abruptly.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used to define the block of code that will run if an error occurs in the try block?",
+          "correctAnswer": "catch",
+          "wrongAnswer1": "finally",
+          "wrongAnswer2": "throw",
+          "wrongAnswer3": "error",
+          "explanation": "The catch keyword defines a block of code to handle any exceptions thrown in the try block.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What keyword can be optionally used after a try catch block to execute code regardless of whether an error was caught or not?",
+          "correctAnswer": "finally",
+          "wrongAnswer1": "then",
+          "wrongAnswer2": "else",
+          "wrongAnswer3": "throw",
+          "explanation": "The finally block contains code that runs after the try and catch blocks, regardless of whether an exception occurred.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Type Coercion",
+      "questions": [
+        {
+          "question": "What is type coercion in JavaScript?",
+          "correctAnswer": "Automatic or implicit conversion of values from one data type to another",
+          "wrongAnswer1": "Manual conversion of data types using functions",
+          "wrongAnswer2": "The process of declaring variable types explicitly",
+          "wrongAnswer3": "A debugging technique to handle errors",
+          "explanation": "Type coercion in JavaScript refers to the automatic or implicit conversion of values from one data type to another during evaluation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following results demonstrate type coercion in JavaScript?",
+          "correctAnswer": "'5' + 3 results in '53'",
+          "wrongAnswer1": "5 + '3' results in 8",
+          "wrongAnswer2": "'5' - '3' results in '53'",
+          "wrongAnswer3": "3 - '5' results in '35'",
+          "explanation": "When using the + operator with a string and a number, JavaScript coerces the number to a string and concatenates them resulting in '53'.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What will be the result of the expression true + 1 in JavaScript due to type coercion?",
+          "correctAnswer": "2",
+          "wrongAnswer1": "'true1'",
+          "wrongAnswer2": "true1",
+          "wrongAnswer3": "NaN",
+          "explanation": "In JavaScript, true is coerced to the number 1, so true + 1 evaluates to 2.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "NaN",
+      "questions": [
+        {
+          "question": "What does NaN represent in JavaScript?",
+          "correctAnswer": "A value that is Not a Number",
+          "wrongAnswer1": "A variable that is Not Assigned",
+          "wrongAnswer2": "A special keyword for null values",
+          "wrongAnswer3": "An object representing a number",
+          "explanation": "In JavaScript, NaN stands for Not a Number, and it represents a value that is not a legal number.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following expressions evaluates to NaN in JavaScript?",
+          "correctAnswer": "parseInt('abc')",
+          "wrongAnswer1": "parseInt('123')",
+          "wrongAnswer2": "Number('456')",
+          "wrongAnswer3": "0 / 1",
+          "explanation": "parseInt('abc') evaluates to NaN because the string does not start with a digit and cannot be converted to a number.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can you reliably check if a value is NaN in JavaScript?",
+          "correctAnswer": "Using the isNaN function or Number.isNaN for a stricter check",
+          "wrongAnswer1": "Using equality operator (value === NaN)",
+          "wrongAnswer2": "Comparing with null",
+          "wrongAnswer3": "Using typeof operator to check for NaN",
+          "explanation": "NaN is the only JavaScript value that is not equal to itself, so equality checks do not work. The correct way to check for NaN is using isNaN() or Number.isNaN().",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Undefined",
+      "questions": [
+        {
+          "question": "What does the value undefined represent in JavaScript?",
+          "correctAnswer": "A variable that has been declared but not assigned a value",
+          "wrongAnswer1": "A variable that holds the number zero",
+          "wrongAnswer2": "A variable containing a null value",
+          "wrongAnswer3": "An error in the code",
+          "explanation": "In JavaScript, undefined is the default value of variables that have been declared but have not yet been assigned any value.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following expressions evaluates to true in JavaScript?",
+          "correctAnswer": "typeof someVariable === 'undefined' when someVariable is not declared",
+          "wrongAnswer1": "someVariable === null when someVariable is undefined",
+          "wrongAnswer2": "typeof undefined === 'null'",
+          "wrongAnswer3": "undefined === null",
+          "explanation": "The typeof operator returns 'undefined' for variables that are undefined or not declared. Also, undefined is different from null, so undefined strictly equals null is false.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What will be the result of accessing a property that does not exist in an object?",
+          "correctAnswer": "undefined",
+          "wrongAnswer1": "null",
+          "wrongAnswer2": "An error is thrown",
+          "wrongAnswer3": "An empty string",
+          "explanation": "Accessing a non-existent property in an object returns undefined, indicating that the property does not have a value or does not exist.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Null",
+      "questions": [
+        {
+          "question": "What does the null value represent in JavaScript?",
+          "correctAnswer": "An intentional absence of any object value",
+          "wrongAnswer1": "A variable that has not been declared",
+          "wrongAnswer2": "An undefined variable",
+          "wrongAnswer3": "A numeric zero value",
+          "explanation": "In JavaScript, null is used to represent an intentional absence of any object value, different from undefined which means a variable has been declared but not yet assigned a value.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the type of null in JavaScript when checked using typeof operator?",
+          "correctAnswer": "Object",
+          "wrongAnswer1": "Null",
+          "wrongAnswer2": "Undefined",
+          "wrongAnswer3": "Boolean",
+          "explanation": "The typeof null returns 'object' which is considered a historical bug in JavaScript, but it has been maintained for backward compatibility.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following statements best describes the difference between null and undefined in JavaScript?",
+          "correctAnswer": "Null is an assigned value representing no value, undefined means a variable has been declared but not assigned a value",
+          "wrongAnswer1": "Null means a variable is declared without a value, undefined is the absence of any object",
+          "wrongAnswer2": "Null and undefined are exactly the same",
+          "wrongAnswer3": "Undefined is used for empty strings, null is for empty arrays",
+          "explanation": "Null is explicitly assigned to indicate that a variable has no value, whereas undefined means a variable has been declared but has not yet been assigned any value.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Symbols",
+      "questions": [
+        {
+          "question": "What is a unique feature of Symbols in JavaScript?",
+          "correctAnswer": "Symbols are guaranteed to be unique and immutable.",
+          "wrongAnswer1": "Symbols can be converted to strings automatically.",
+          "wrongAnswer2": "Symbols are used to store numeric values.",
+          "wrongAnswer3": "Symbols can be multiplied and added like numbers.",
+          "explanation": "Symbols in JavaScript are unique and immutable identifiers used to create unique property keys, which avoid naming conflicts.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you create a new Symbol in JavaScript?",
+          "correctAnswer": "Using the Symbol() function.",
+          "wrongAnswer1": "Using the new Symbol() constructor.",
+          "wrongAnswer2": "By declaring a variable with the keyword symbol.",
+          "wrongAnswer3": "By calling Symbol.create().",
+          "explanation": "Symbols are created by calling the Symbol() function; unlike some other types, Symbol is not a constructor and should not be called with new.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a typical use case for Symbols in JavaScript?",
+          "correctAnswer": "Creating unique keys for object properties to avoid collisions.",
+          "wrongAnswer1": "Performing arithmetic operations on property names.",
+          "wrongAnswer2": "Converting symbols to JSON format directly.",
+          "wrongAnswer3": "Iterating properties in a for loop without symbol keys.",
+          "explanation": "Symbols are often used as unique keys to add properties to objects without those keys clashing with other keys, especially in large or extended libraries.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Bitwise Operators",
+      "questions": [
+        {
+          "question": "What does the bitwise AND operator do in JavaScript?",
+          "correctAnswer": "Performs a logical AND operation on each pair of corresponding bits of two numbers",
+          "wrongAnswer1": "Converts numbers to strings and concatenates them",
+          "wrongAnswer2": "Shifts the bits of the first operand to the left by the number of bits specified by the second operand",
+          "wrongAnswer3": "Tests if either of two bits is set to 1",
+          "explanation": "The bitwise AND operator takes two numbers and performs a logical AND operation on each pair of corresponding bits. The result is a new number where each bit is set to 1 only if both compared bits are 1.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which operator is used for bitwise OR in JavaScript?",
+          "correctAnswer": "Vertical bar symbol (|)",
+          "wrongAnswer1": "Ampersand symbol (&)",
+          "wrongAnswer2": "Caret symbol (^)",
+          "wrongAnswer3": "Double vertical bars (||)",
+          "explanation": "The bitwise OR operator in JavaScript is represented by a single vertical bar (|). It sets each bit to 1 if at least one of the corresponding bits of the two operands is 1.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the result of the expression 5 << 1 in JavaScript?",
+          "correctAnswer": "10",
+          "wrongAnswer1": "2",
+          "wrongAnswer2": "6",
+          "wrongAnswer3": "1",
+          "explanation": "The left shift operator (<<) shifts the bits of the number 5 (which is 0101 in binary) one position to the left, resulting in 1010 in binary, which is 10 in decimal.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "JSON.stringify",
+      "questions": [
+        {
+          "question": "What does the JSON.stringify method do in JavaScript?",
+          "correctAnswer": "Converts a JavaScript object into a JSON string",
+          "wrongAnswer1": "Parses a JSON string into a JavaScript object",
+          "wrongAnswer2": "Executes a JSON string as JavaScript code",
+          "wrongAnswer3": "Formats a JSON string with indentation automatically",
+          "explanation": "JSON.stringify converts a JavaScript object or value into a JSON-formatted string, which is useful for sending data over the network or storing it.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a valid use of JSON.stringify?",
+          "correctAnswer": "JSON.stringify({name: 'Alice', age: 25})",
+          "wrongAnswer1": "JSON.stringify('name: Alice, age: 25')",
+          "wrongAnswer2": "JSON.stringify([name='Alice', age=25])",
+          "wrongAnswer3": "JSON.stringify(name: 'Alice', age: 25)",
+          "explanation": "JSON.stringify takes a JavaScript value such as an object or array and returns its JSON representation as a string. The input must be a valid JavaScript value, not a plain string or wrong syntax.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What will JSON.stringify ignore when converting an object?",
+          "correctAnswer": "Functions and undefined properties",
+          "wrongAnswer1": "String properties",
+          "wrongAnswer2": "Number properties",
+          "wrongAnswer3": "Boolean properties",
+          "explanation": "When using JSON.stringify, functions and properties with undefined values are omitted from the resulting JSON string because JSON cannot represent these types.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "JSON.parse",
+      "questions": [
+        {
+          "question": "What is the purpose of the JSON.parse method in JavaScript?",
+          "correctAnswer": "To convert a JSON string into a JavaScript object",
+          "wrongAnswer1": "To convert a JavaScript object into a JSON string",
+          "wrongAnswer2": "To parse HTML code into JSON format",
+          "wrongAnswer3": "To validate a JSON string's syntax",
+          "explanation": "JSON.parse is used to take a string in JSON format and convert it into the corresponding JavaScript object, allowing you to work with the data in code.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is the correct usage of JSON.parse?",
+          "correctAnswer": "JSON.parse('{\"name\":\"John\",\"age\":30}')",
+          "wrongAnswer1": "JSON.parse({name:\"John\",age:30})",
+          "wrongAnswer2": "JSON.parse('[name:\"John\", age:30]')",
+          "wrongAnswer3": "parse.JSON('{name:\"John\",age:30}')",
+          "explanation": "JSON.parse requires a string in valid JSON format. The input must be a properly quoted JSON string, not a JavaScript object literal or other format.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What error will JSON.parse throw if the provided string is not valid JSON?",
+          "correctAnswer": "SyntaxError",
+          "wrongAnswer1": "TypeError",
+          "wrongAnswer2": "ReferenceError",
+          "wrongAnswer3": "RangeError",
+          "explanation": "If JSON.parse encounters invalid JSON text, it throws a SyntaxError indicating that the input could not be parsed correctly.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Fetch API",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Fetch API in JavaScript?",
+          "correctAnswer": "To make asynchronous HTTP requests to servers",
+          "wrongAnswer1": "To manipulate the DOM elements",
+          "wrongAnswer2": "To handle browser events",
+          "wrongAnswer3": "To style webpages dynamically",
+          "explanation": "The Fetch API is used to make asynchronous HTTP requests to fetch resources like data or files from servers, allowing web applications to update content dynamically without reloading the page.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method does the Fetch API return?",
+          "correctAnswer": "A Promise that resolves to a Response object",
+          "wrongAnswer1": "An XMLHttpRequest object",
+          "wrongAnswer2": "A callback function",
+          "wrongAnswer3": "A JSON object",
+          "explanation": "The Fetch API returns a Promise that resolves to a Response object representing the response to the request. This allows asynchronous handling using .then() or async/await.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you convert the response from a Fetch request to JSON format?",
+          "correctAnswer": "By calling the .json() method on the Response object",
+          "wrongAnswer1": "By using JSON.parse() on the Response object directly",
+          "wrongAnswer2": "By calling the .text() method on the Response object",
+          "wrongAnswer3": "By passing the response to a callback function",
+          "explanation": "The Response object from fetch has a .json() method that returns a Promise resolving to the parsed JSON data. You cannot directly call JSON.parse on the Response object itself.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Local Storage",
+      "questions": [
+        {
+          "question": "What is the primary purpose of local storage in JavaScript?",
+          "correctAnswer": "To store data locally in the user's browser for later use",
+          "wrongAnswer1": "To communicate with the server directly",
+          "wrongAnswer2": "To execute background scripts",
+          "wrongAnswer3": "To style web pages",
+          "explanation": "Local storage allows web applications to store data locally within the user's browser, enabling data persistence across sessions without server communication.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following methods is used to store data in local storage?",
+          "correctAnswer": "setItem()",
+          "wrongAnswer1": "getItem()",
+          "wrongAnswer2": "removeItem()",
+          "wrongAnswer3": "clear()",
+          "explanation": "The setItem() method is used to store data in local storage, associating a key with a value.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How long does data stored in local storage persist?",
+          "correctAnswer": "Until it is explicitly deleted by the user or script",
+          "wrongAnswer1": "Until the browser is closed",
+          "wrongAnswer2": "Only during the current session",
+          "wrongAnswer3": "For 24 hours only",
+          "explanation": "Data stored in local storage persists indefinitely until deleted by the application or user; it is not cleared when the browser closes.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Session Storage",
+      "questions": [
+        {
+          "question": "What is session storage in JavaScript?",
+          "correctAnswer": "A web storage object that stores data for the duration of the page session",
+          "wrongAnswer1": "A type of cookie that persists after browser is closed",
+          "wrongAnswer2": "A server-side storage system",
+          "wrongAnswer3": "A method to store data permanently on the user's device",
+          "explanation": "Session storage is a type of web storage that stores data for the duration of the page session and is cleared when the page session ends, typically when the browser or tab is closed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method is used to add data to session storage?",
+          "correctAnswer": "setItem()",
+          "wrongAnswer1": "add()",
+          "wrongAnswer2": "push()",
+          "wrongAnswer3": "store()",
+          "explanation": "The setItem() method is used to add key-value pairs to the session storage in JavaScript.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When is session storage data cleared?",
+          "correctAnswer": "When the browser tab or window is closed",
+          "wrongAnswer1": "When the user logs out",
+          "wrongAnswer2": "After 24 hours automatically",
+          "wrongAnswer3": "When the system restarts",
+          "explanation": "Session storage data is cleared when the browser tab or window is closed, unlike local storage which persists beyond the browser session.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "RegExp",
+      "questions": [
+        {
+          "question": "What does RegExp stand for in JavaScript?",
+          "correctAnswer": "Regular Expression",
+          "wrongAnswer1": "Regular Export",
+          "wrongAnswer2": "Regular Example",
+          "wrongAnswer3": "Regular Extension",
+          "explanation": "RegExp stands for Regular Expression, which is a sequence of characters that forms a search pattern, mainly for pattern matching with strings.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which constructor is used to create a RegExp object in JavaScript?",
+          "correctAnswer": "new RegExp(pattern, flags)",
+          "wrongAnswer1": "new Expression(pattern)",
+          "wrongAnswer2": "RegExp.create(pattern, flags)",
+          "wrongAnswer3": "new Regex(pattern)",
+          "explanation": "The RegExp object is created in JavaScript using the constructor new RegExp(pattern, flags), where pattern is the regex pattern and flags are optional modifiers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which RegExp flag in JavaScript makes the expression case-insensitive?",
+          "correctAnswer": "i",
+          "wrongAnswer1": "g",
+          "wrongAnswer2": "m",
+          "wrongAnswer3": "s",
+          "explanation": "The 'i' flag in a regular expression makes the pattern case-insensitive, meaning it matches letters regardless of case.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Web Workers",
+      "questions": [
+        {
+          "question": "What is the primary purpose of using Web Workers in JavaScript?",
+          "correctAnswer": "To run scripts in background threads without blocking the main UI thread",
+          "wrongAnswer1": "To style web pages dynamically",
+          "wrongAnswer2": "To handle HTTP requests",
+          "wrongAnswer3": "To manipulate the DOM directly",
+          "explanation": "Web Workers allow JavaScript code to execute in background threads independent of the main UI thread, enabling better performance and responsiveness.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method is used to start a Web Worker in JavaScript?",
+          "correctAnswer": "new Worker()",
+          "wrongAnswer1": "startWorker()",
+          "wrongAnswer2": "createWorker()",
+          "wrongAnswer3": "beginWorker()",
+          "explanation": "You create a new Web Worker instance by calling new Worker() with the URL of the worker script as an argument.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can communication between the main script and a Web Worker be achieved?",
+          "correctAnswer": "Using the postMessage method and message event listener",
+          "wrongAnswer1": "Directly accessing variables of the worker script",
+          "wrongAnswer2": "Using synchronous function calls",
+          "wrongAnswer3": "Sharing the same global variables",
+          "explanation": "The main script and Web Worker communicate by sending messages using postMessage and receiving messages through 'message' event listeners.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Service Workers",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Service Worker in JavaScript?",
+          "correctAnswer": "To enable background scripts that can handle network requests, cache resources, and provide offline experiences",
+          "wrongAnswer1": "To manipulate the DOM directly",
+          "wrongAnswer2": "To handle user input events like clicks and keypresses",
+          "wrongAnswer3": "To provide server-side scripting capabilities",
+          "explanation": "Service Workers are scripts that run in the background, separate from the web page, enabling features like offline caching, background sync, and intercepting network requests.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about the lifecycle of a Service Worker?",
+          "correctAnswer": "It has states such as installing, installed, activating, activated, and redundant",
+          "wrongAnswer1": "It immediately controls pages as soon as registered without any activation steps",
+          "wrongAnswer2": "It runs only when the browser window is open and in focus",
+          "wrongAnswer3": "It automatically reloads the page when updated",
+          "explanation": "Service Workers have a lifecycle with distinct states that manage installation, activation, and redundancy ensuring controlled updates without affecting the user's experience abruptly.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do Service Workers improve the performance of web applications?",
+          "correctAnswer": "By caching assets and serving them directly without needing a network request",
+          "wrongAnswer1": "By speeding up JavaScript execution on the main thread",
+          "wrongAnswer2": "By increasing the CPU priority for web pages",
+          "wrongAnswer3": "By preloading images into the DOM before they are needed",
+          "explanation": "Service Workers can cache resources during installation and serve cached content on subsequent requests, reducing network latency and improving load times, especially offline or on slow connections.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Promises Chaining",
+      "questions": [
+        {
+          "question": "What is the main advantage of chaining promises in JavaScript?",
+          "correctAnswer": "It allows sequential execution of asynchronous operations and better handling of their results",
+          "wrongAnswer1": "It makes the code run faster by executing all operations simultaneously",
+          "wrongAnswer2": "It converts asynchronous code into synchronous code",
+          "wrongAnswer3": "It eliminates the need for .catch to handle errors",
+          "explanation": "Chaining promises allows you to perform asynchronous operations one after another where the output of one operation can be fed into the next, improving code readability and error handling.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What method is commonly used to chain promises together in JavaScript?",
+          "correctAnswer": ".then()",
+          "wrongAnswer1": ".catch()",
+          "wrongAnswer2": ".finally()",
+          "wrongAnswer3": "setTimeout()",
+          "explanation": ".then() is the method used to attach callbacks for the resolution of a promise and allows chaining by returning a new promise.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If a promise in a chain is rejected and there is no .catch() after it, what happens to the subsequent .then() handlers?",
+          "correctAnswer": "They are skipped until a .catch() handler is encountered",
+          "wrongAnswer1": "They still execute normally",
+          "wrongAnswer2": "The chain stops and no further handlers run, including .catch()",
+          "wrongAnswer3": "The error is ignored and the promise resolves successfully",
+          "explanation": "When a promise is rejected, the chain skips directly to the nearest .catch() handler. If there is none, the rejection remains unhandled and subsequent .then() handlers are not executed.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Debouncing",
+      "questions": [
+        {
+          "question": "What is the purpose of debouncing in JavaScript?",
+          "correctAnswer": "To limit the rate at which a function is executed",
+          "wrongAnswer1": "To speed up the execution of a function",
+          "wrongAnswer2": "To execute a function immediately after an event occurs",
+          "wrongAnswer3": "To create multiple instances of a function",
+          "explanation": "Debouncing is used to limit the rate at which a function can fire. It ensures the function is called only once after a certain period of inactivity, preventing excessive execution especially in events like resize or keypress.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In debouncing, when is the debounced function typically executed?",
+          "correctAnswer": "After a specified delay when no new event is triggered",
+          "wrongAnswer1": "Immediately when the event is triggered",
+          "wrongAnswer2": "Before the event is triggered",
+          "wrongAnswer3": "Every time the event is triggered regardless of delay",
+          "explanation": "Debouncing delays the function execution until the event stops firing for a certain amount of time, thus avoiding multiple rapid calls to the function.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which scenario is most suitable for implementing debouncing?",
+          "correctAnswer": "Handling input search suggestions as the user types",
+          "wrongAnswer1": "Updating UI on every second in a clock",
+          "wrongAnswer2": "Animating frames continuously in a game",
+          "wrongAnswer3": "Playing background music on webpage load",
+          "explanation": "Debouncing is ideal for scenarios like user input where the function should run only after the user finishes typing, to avoid excessive processing or API calls.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Throttling",
+      "questions": [
+        {
+          "question": "What is the main purpose of throttling in JavaScript?",
+          "correctAnswer": "To limit the number of times a function is called over a period of time",
+          "wrongAnswer1": "To stop a function from ever being called",
+          "wrongAnswer2": "To make a function run as fast as possible",
+          "wrongAnswer3": "To run multiple functions at the same time",
+          "explanation": "Throttling limits the frequency at which a function can be executed, ensuring it runs at most once in a specified time interval, which is helpful for performance optimization especially during events like scrolling or resizing.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which scenario is an ideal use case for throttling in JavaScript?",
+          "correctAnswer": "Limiting how often a scroll event handler runs",
+          "wrongAnswer1": "Executing a function only once after a delay",
+          "wrongAnswer2": "Running multiple animations concurrently",
+          "wrongAnswer3": "Handling a button click immediately without delay",
+          "explanation": "Throttling is often used in scenarios like scroll events where the event can fire very frequently, and limiting how often the handler runs improves performance and responsiveness.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does throttling differ from debouncing in JavaScript?",
+          "correctAnswer": "Throttling ensures a function is called at regular intervals, debouncing delays the function call until event stops",
+          "wrongAnswer1": "Throttling calls a function only once, debouncing calls it multiple times",
+          "wrongAnswer2": "Throttling delays a function call until no events occur, debouncing limits the rate of calls",
+          "wrongAnswer3": "Throttling and debouncing are identical and interchangeable techniques",
+          "explanation": "Throttling and debouncing are both rate-limiting techniques but serve different purposes: throttling triggers function execution at regular intervals, while debouncing waits until the events have stopped firing to trigger the function once.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "JavaScript",
+      "concept": "Event Delegation",
+      "questions": [
+        {
+          "question": "What is the main advantage of using event delegation in JavaScript?",
+          "correctAnswer": "It allows a single event listener to handle events for multiple child elements efficiently.",
+          "wrongAnswer1": "It automatically prevents all events from bubbling up.",
+          "wrongAnswer2": "It eliminates the need for event listeners entirely.",
+          "wrongAnswer3": "It only works with form elements.",
+          "explanation": "Event delegation leverages event bubbling to manage events for multiple child elements through a single event handler attached to their common ancestor, improving performance and simplifying management.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which DOM event property is commonly checked in event delegation to identify the specific child element that triggered the event?",
+          "correctAnswer": "event.target",
+          "wrongAnswer1": "event.currentTarget",
+          "wrongAnswer2": "event.delegateTarget",
+          "wrongAnswer3": "event.sourceElement",
+          "explanation": "In event delegation, event.target refers to the actual element that initiated the event, allowing the handler on a parent element to distinguish which child triggered it.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is event delegation particularly useful when elements are dynamically added to the DOM?",
+          "correctAnswer": "Because the parent element's event listener can handle events from elements added later without needing new listeners.",
+          "wrongAnswer1": "Because it blocks events from reaching dynamically added elements.",
+          "wrongAnswer2": "Because it copies event listeners to new elements automatically.",
+          "wrongAnswer3": "Because dynamically added elements cannot have event listeners.",
+          "explanation": "Event delegation works by attaching a single listener to a parent element which can handle events from any children, even those added after the listener was set up, avoiding the need to add listeners to each new element.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

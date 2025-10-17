@@ -6,9 +6,9 @@ export default function DraftPanel({ houseManagerRef }) {
 
   useEffect(() => {
     const update = () => {
-      const req = houseManagerRef.current.openRoomRequest;
-      if (req?.floorplans?.length) {
-        setFloorplans([...req.floorplans]);
+      const req = houseManagerRef.current.roomOpenSession;
+      if (req?.floorPlans?.length) {
+        setFloorplans([...req.floorPlans]);
       } else {
         setFloorplans([]);
       }
@@ -19,17 +19,16 @@ export default function DraftPanel({ houseManagerRef }) {
   }, [houseManagerRef]);
 
   const handleSelect = (fpName) => {
-    houseManagerRef.current.endOpenRoom(fpName);
+    houseManagerRef.current.selectFloorPlan(fpName);
   };
 
-  const isVisible = floorplans.length > 0;
+  const isVisible = floorplans.length > 0 && !houseManagerRef.current.roomOpenSession.selectedFloorPlan;
 
   return (
     <div
       className={`
-        bg-gray-800 text-white shadow-md overflow-hidden
-        transition-all duration-300 ease-in-out
-        ${isVisible ? "w-64 p-4 opacity-100" : "w-0 p-0 opacity-0"}
+        bg-gray-800 text-white shadow-md overflow-hidden duration-300 ease-out
+        ${isVisible ? "w-64 p-4 opacity-100 " : "w-2 h-full p-2 opacity-0"}
       `}
     >
       {isVisible && (
@@ -40,7 +39,7 @@ export default function DraftPanel({ houseManagerRef }) {
             {floorplans.map((fp) => (
               <div
                 key={fp.name}
-                className="flex items-center gap-2 cursor-pointer rounded-md p-2 hover:bg-gray-700 transition-all"
+                className="flex items-center gap-2 cursor-pointer rounded-md p-2 hover:bg-gray-700"
                 onClick={() => handleSelect(fp.name)}
               >
                 <FloorPlan

@@ -54,6 +54,7 @@ export default function House({ manager }) {
           <Room
             key={`${r}-${c}`}
             room={room}
+            isDrafting={manager.roomOpenSession.active}
             onClick={() => {
               manager.moveTo(r, c);
             }}

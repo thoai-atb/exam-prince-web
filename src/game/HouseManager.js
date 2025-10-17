@@ -1,7 +1,8 @@
 import HouseGenerator from "./HouseGenerator.js";
 import FloorPlan from "./FloorPlan.js";
 import Room from "./Room.js";
-import LogicData from "../assets/Logic.json"; // import the JSON file
+import Topic from "../questions/MusicTheory.json"; // import the JSON file
+import RoomOpenSession from "./RoomOpenSession.js";
 
 export default class HouseManager {
   constructor(rows = 9, cols = 5, start = [8, 2]) {
@@ -10,7 +11,7 @@ export default class HouseManager {
     this.currentPosition = start;
 
     // Pass the JSON data to HouseGenerator
-    this.generator = new HouseGenerator(rows, cols, 100, LogicData);
+    this.generator = new HouseGenerator(rows, cols, 100, Topic);
 
     // Initialize empty rooms
     this.rooms = Array.from({ length: rows }, (_, r) =>
@@ -21,7 +22,7 @@ export default class HouseManager {
     this.listeners = new Set();
 
     // Object to hold currently "drafted" floorplans during selection
-    this.openRoomRequest = null;
+    this.roomOpenSession = new RoomOpenSession();
 
     // Open starting room immediately
     this.createEntrance();
@@ -44,7 +45,8 @@ export default class HouseManager {
 
     // Use the topic name from Logic.json as the entrance floorplan name
     const entranceFloorPlan = new FloorPlan({
-      name: LogicData.topic || "Start",
+      id: "FP-0",
+      name: Topic.topic.toUpperCase() || "Start",
       color: "#444444",
       doors: { north: true, south: true, west: true, east: true },
       question: null,
@@ -52,15 +54,15 @@ export default class HouseManager {
 
     const room = this.rooms[row][col];
     room.open(entranceFloorPlan); // mark it opened with the floorplan
-    this.currentPosition = [row, col];
-    this.markCurrent([row, col]);
-    this.updateEnterableRooms();
+
+    this.setCurrentLocation(row, col);
   }
 
-  startOpenRoom(row, col) {
-    if (this.openRoomRequest) {
+  // Step 1: Open room and draft floorplans
+  openRoom(row, col) {
+    if (this.roomOpenSession.floorPlans.length > 0) {
       throw new Error(
-        "Finish the previous openRoom request before opening a new room"
+        "Finish the previous openRoomSession before opening a new room"
       );
     }
 
@@ -84,20 +86,23 @@ export default class HouseManager {
       );
     }
 
-    this.openRoomRequest = { row, col, floorplans };
+    this.roomOpenSession.setLocation(row, col);
+    this.roomOpenSession.setFloorPlans(floorplans);
+    this.updateRooms();
     this.notify();
 
     return floorplans.map((fp) => fp.clone());
   }
 
-  endOpenRoom(selectedFloorPlanName) {
-    if (!this.openRoomRequest) {
-      throw new Error("No openRoomRequest in progress");
+  // Step 2: Select the floorplan and quiz time!
+  selectFloorPlan(selectedFloorPlanName) {
+    if (!this.roomOpenSession.floorPlans.length) {
+      throw new Error("No floor plans in the session");
     }
 
-    const { row, col, floorplans } = this.openRoomRequest;
+    const { floorPlans } = this.roomOpenSession;
 
-    const selectedFP = floorplans.find(
+    const selectedFP = floorPlans.find(
       (fp) => fp.name === selectedFloorPlanName
     );
     if (!selectedFP) {
@@ -106,18 +111,45 @@ export default class HouseManager {
       );
     }
 
-    const floorplan = this.generator.useFloorPlan(selectedFP.name);
-    this.rooms[row][col].open(floorplan);
-
-    this.markCurrent([row, col]);
-    this.currentPosition = [row, col];
-    this.updateEnterableRooms();
-
-    this.openRoomRequest = null;
+    this.roomOpenSession.setSelectedFloorPlan(selectedFP);
     this.notify();
   }
 
-  markCurrent([r, c]) {
+  // Step 3: User selects an answer
+  setUserAnswer(index) {
+    if (this.roomOpenSession.userAnswer !== null)
+      return;
+    this.roomOpenSession.setUserAnswer(index);
+    this.notify();
+  }
+
+  // Step 4: Use the selected floorplan to open the room
+  useFloorPlan() {
+    const floorplan = this.generator.useFloorPlan(this.roomOpenSession.selectedFloorPlan.name);
+    const [row, col] = [this.roomOpenSession.row, this.roomOpenSession.col]
+    this.rooms[row][col].open(floorplan);
+    const failed = this.roomOpenSession.failed;
+    this.roomOpenSession.reset();
+    if (failed) {
+      this.rooms[row][col].failed = true;
+      this.refresh();
+    } else
+      this.setCurrentLocation(row, col);
+  }
+
+  // Set location, update rooms, and notify listeners
+  setCurrentLocation(row, col) {
+    this.currentPosition = [row, col];
+    this.refresh();
+  }
+
+  refresh() {
+    this.updateRooms();
+    this.updateEnterableRooms();
+    this.notify();
+  }
+
+  updateRooms() {
     this.rooms = this.rooms.map((row) =>
       row.map((room) => {
         const clone = room.clone();
@@ -125,7 +157,12 @@ export default class HouseManager {
         return clone;
       })
     );
+    const [r, c] = this.currentPosition;
     this.rooms[r][c].setCurrent(true);
+    if (this.roomOpenSession.active) {
+      const [sr, sc] = [this.roomOpenSession.row, this.roomOpenSession.col];
+      this.rooms[sr][sc].setBeingDrafted(true);
+    }
   }
 
   updateEnterableRooms() {
@@ -181,17 +218,19 @@ export default class HouseManager {
   }
 
   moveTo(newRow, newCol) {
+    if (this.roomOpenSession.active) {
+      return false;
+    }
+
     const target = this.rooms[newRow]?.[newCol];
     if (!target) return false;
+    if (target.failed) return false;
     if (!target.openable && !target.walkable) return false;
 
     if (!target.opened) {
-      this.startOpenRoom(newRow, newCol);
+      this.openRoom(newRow, newCol);
     } else {
-      this.markCurrent([newRow, newCol]);
-      this.currentPosition = [newRow, newCol];
-      this.updateEnterableRooms();
-      this.notify();
+      this.setCurrentLocation(newRow, newCol);
     }
 
     return true;

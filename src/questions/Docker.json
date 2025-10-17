@@ -1,0 +1,1655 @@
+{
+  "topic": "Docker",
+  "concepts": [
+    {
+      "topic": "Docker",
+      "concept": "Containerization",
+      "questions": [
+        {
+          "question": "What is the main purpose of containerization in Docker?",
+          "correctAnswer": "To package applications and their dependencies into a standardized unit for consistent environments",
+          "wrongAnswer1": "To create virtual machines for running multiple operating systems",
+          "wrongAnswer2": "To define network policies for container communication",
+          "wrongAnswer3": "To compile source code into machine code",
+          "explanation": "Containerization allows applications and their dependencies to be packaged together in a container, ensuring they run consistently across different environments.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes a container in Docker?",
+          "correctAnswer": "A lightweight, standalone, executable package of software including everything needed to run it",
+          "wrongAnswer1": "A full virtual machine with a separate kernel",
+          "wrongAnswer2": "A cloud service for hosting applications",
+          "wrongAnswer3": "A script for automating container deployments",
+          "explanation": "Docker containers are lightweight and include the application and all its dependencies, but share the host operating system's kernel.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does containerization improve application deployment?",
+          "correctAnswer": "By ensuring that applications run the same way regardless of the deployment environment",
+          "wrongAnswer1": "By increasing the size of the software package",
+          "wrongAnswer2": "By requiring separate kernels for each application",
+          "wrongAnswer3": "By limiting applications to specific hardware architectures",
+          "explanation": "Containerization abstracts applications from the underlying environment, which reduces conflicts and increases portability and consistency.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Dockerfile",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Dockerfile?",
+          "correctAnswer": "To automate the creation of Docker images",
+          "wrongAnswer1": "To run Docker containers manually",
+          "wrongAnswer2": "To write Docker commands interactively",
+          "wrongAnswer3": "To monitor running Docker containers",
+          "explanation": "A Dockerfile is a script containing instructions to automate the building of Docker images, specifying the base image and steps to customize it.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which instruction in a Dockerfile specifies the base image to use?",
+          "correctAnswer": "FROM",
+          "wrongAnswer1": "RUN",
+          "wrongAnswer2": "CMD",
+          "wrongAnswer3": "COPY",
+          "explanation": "The FROM instruction sets the base image for subsequent instructions in the Dockerfile.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In a Dockerfile, what does the RUN instruction do?",
+          "correctAnswer": "Executes commands in a new layer and commits the results to the image",
+          "wrongAnswer1": "Copies files from local system to the image",
+          "wrongAnswer2": "Specifies the default command to run in the container",
+          "wrongAnswer3": "Sets environment variables for the container",
+          "explanation": "The RUN instruction runs commands during the image build process, creating new image layers with the resulting changes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Compose",
+      "questions": [
+        {
+          "question": "What is Docker Compose used for?",
+          "correctAnswer": "To define and run multi-container Docker applications",
+          "wrongAnswer1": "To build individual Docker images",
+          "wrongAnswer2": "To manage Docker containers on multiple servers",
+          "wrongAnswer3": "To monitor Docker container performance",
+          "explanation": "Docker Compose is a tool that allows you to define and run multi-container Docker applications using a YAML file to configure the application services.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which file format does Docker Compose use to configure the services?",
+          "correctAnswer": "YAML",
+          "wrongAnswer1": "JSON",
+          "wrongAnswer2": "XML",
+          "wrongAnswer3": "INI",
+          "explanation": "Docker Compose uses a YAML file typically named docker-compose.yml to define the services, networks, and volumes for the application.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you start the services defined in a Docker Compose file?",
+          "correctAnswer": "docker-compose up",
+          "wrongAnswer1": "docker start",
+          "wrongAnswer2": "docker run",
+          "wrongAnswer3": "docker-compose start",
+          "explanation": "The command docker-compose up builds, creates, and starts all the services defined in the Docker Compose file.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Swarm",
+      "questions": [
+        {
+          "question": "What is Docker Swarm used for in Docker?",
+          "correctAnswer": "Orchestrating and managing a cluster of Docker nodes",
+          "wrongAnswer1": "Building Docker images",
+          "wrongAnswer2": "Monitoring container logs",
+          "wrongAnswer3": "Securing Docker containers locally",
+          "explanation": "Docker Swarm is a native clustering and orchestration tool for Docker that helps manage multiple Docker hosts as a single virtual system.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key feature of Docker Swarm?",
+          "correctAnswer": "Service discovery and load balancing",
+          "wrongAnswer1": "Image version control",
+          "wrongAnswer2": "Continuous integration pipeline",
+          "wrongAnswer3": "Container debugging tools",
+          "explanation": "Docker Swarm provides service discovery and can automatically distribute load among containers, making it easier to manage scalable deployments.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Docker Swarm ensure high availability of services?",
+          "correctAnswer": "By replicating services across multiple nodes",
+          "wrongAnswer1": "By storing service logs remotely",
+          "wrongAnswer2": "By increasing container resource limits",
+          "wrongAnswer3": "By using a single master node only",
+          "explanation": "Docker Swarm can maintain multiple replicas of a service running on different nodes, so if one node fails, others continue to serve the requests, ensuring high availability.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Hub",
+      "questions": [
+        {
+          "question": "What is Docker Hub primarily used for?",
+          "correctAnswer": "A registry service for storing and sharing Docker images",
+          "wrongAnswer1": "A tool for managing Docker containers",
+          "wrongAnswer2": "A Docker container orchestration platform",
+          "wrongAnswer3": "A monitoring tool for Docker environments",
+          "explanation": "Docker Hub is a cloud-based registry service where users can create, test, store and distribute Docker container images.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes a feature of Docker Hub?",
+          "correctAnswer": "It allows users to find and use container images created by the community",
+          "wrongAnswer1": "It only supports private image repositories",
+          "wrongAnswer2": "It is used exclusively for running containers on cloud infrastructure",
+          "wrongAnswer3": "It replaces Docker Engine for container execution",
+          "explanation": "Docker Hub provides a public repository where users can access a wide range of pre-built container images shared by the community, as well as private repositories for individual use.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Docker Hub facilitate collaboration in Docker environments?",
+          "correctAnswer": "By enabling teams to share and manage Docker images easily through repositories",
+          "wrongAnswer1": "By providing built-in container orchestration features",
+          "wrongAnswer2": "By automatically scaling containers deployed from images",
+          "wrongAnswer3": "By integrating directly with Kubernetes for cluster management",
+          "explanation": "Docker Hub acts as a centralized platform where teams can collaborate by storing and sharing Docker images, making it easier to manage and deploy consistent container environments.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Image",
+      "questions": [
+        {
+          "question": "What is a Docker image?",
+          "correctAnswer": "A lightweight, standalone, and executable software package that includes everything needed to run a piece of software",
+          "wrongAnswer1": "A running instance of a Docker container",
+          "wrongAnswer2": "A cloud service for deploying containers",
+          "wrongAnswer3": "A virtual machine used for running Docker",
+          "explanation": "A Docker image is a lightweight, standalone package which contains the software code along with all dependencies, libraries, tools, and other files needed to run the software. It is used to create Docker containers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to create a Docker image from a Dockerfile?",
+          "correctAnswer": "docker build",
+          "wrongAnswer1": "docker run",
+          "wrongAnswer2": "docker pull",
+          "wrongAnswer3": "docker create",
+          "explanation": "The 'docker build' command reads the Dockerfile in the current directory and assembles a Docker image based on the instructions in the Dockerfile.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What differentiates a Docker image from a Docker container?",
+          "correctAnswer": "An image is a static package used to create containers, while a container is a running instance of an image",
+          "wrongAnswer1": "An image stores runtime data, while a container is the base template",
+          "wrongAnswer2": "A container is used to build images",
+          "wrongAnswer3": "There is no difference, they are interchangeable terms",
+          "explanation": "Docker images are immutable templates used to create containers. Containers are runtime instances of these images that include the state and processes of the application.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Container",
+      "questions": [
+        {
+          "question": "What is a Docker container?",
+          "correctAnswer": "A lightweight, standalone, and executable package that includes everything needed to run a piece of software",
+          "wrongAnswer1": "A virtual machine that runs a separate operating system",
+          "wrongAnswer2": "A physical server where Docker is installed",
+          "wrongAnswer3": "A tool used to build Docker images",
+          "explanation": "A Docker container is a lightweight, standalone package that includes everything needed to run a software application, including code, runtime, system tools, libraries, and settings. It is not a virtual machine; it shares the host OS kernel.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do Docker containers differ from virtual machines?",
+          "correctAnswer": "Containers share the host operating system kernel, while virtual machines run a full guest OS",
+          "wrongAnswer1": "Containers do not use resources from the host machine",
+          "wrongAnswer2": "Virtual machines are faster to start than containers",
+          "wrongAnswer3": "Containers require more disk space than virtual machines",
+          "explanation": "Docker containers share the host OS kernel making them lightweight and faster to start compared to virtual machines, which require booting an entire guest OS.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What command is used to start a Docker container?",
+          "correctAnswer": "docker run",
+          "wrongAnswer1": "docker build",
+          "wrongAnswer2": "docker stop",
+          "wrongAnswer3": "docker push",
+          "explanation": "The 'docker run' command is used to start a Docker container from an image, possibly creating a new container if one does not exist.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Volume",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Docker Volume?",
+          "correctAnswer": "To persist and share data between containers",
+          "wrongAnswer1": "To create a new Docker image",
+          "wrongAnswer2": "To manage container networking",
+          "wrongAnswer3": "To monitor container performance",
+          "explanation": "Docker Volumes are used to persist data generated by and used by Docker containers. This allows data to exist beyond the life of a container and to be shared among multiple containers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to create a new Docker Volume?",
+          "correctAnswer": "docker volume create",
+          "wrongAnswer1": "docker volume start",
+          "wrongAnswer2": "docker volume run",
+          "wrongAnswer3": "docker create volume",
+          "explanation": "The command docker volume create is used to create a new volume that can be attached to containers for persistent or shared storage.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does a Docker Volume differ from a bind mount?",
+          "correctAnswer": "Volumes are managed by Docker and are stored in Docker’s storage area, while bind mounts map directly to files or directories on the host machine.",
+          "wrongAnswer1": "Volumes are stored on remote servers, bind mounts are local.",
+          "wrongAnswer2": "Volumes cannot be shared between containers, bind mounts can.",
+          "wrongAnswer3": "Volumes are read-only, bind mounts are read-write.",
+          "explanation": "Volumes are managed by Docker, making them easier to back up or migrate and they are stored in a specific Docker location. Bind mounts directly map to a path on the host filesystem, offering more control but less portability.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Network",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Docker network?",
+          "correctAnswer": "To enable communication between Docker containers and with the outside world",
+          "wrongAnswer1": "To build Docker images",
+          "wrongAnswer2": "To execute Docker containers",
+          "wrongAnswer3": "To store Docker volumes",
+          "explanation": "Docker network allows containers to communicate with each other and with external networks, which is essential for distributed applications and microservices.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Docker network driver allows containers to communicate only within the same host?",
+          "correctAnswer": "Bridge network",
+          "wrongAnswer1": "Overlay network",
+          "wrongAnswer2": "Host network",
+          "wrongAnswer3": "Macvlan network",
+          "explanation": "The bridge network driver creates a private internal network on the host where containers can communicate with each other but are isolated from external networks unless explicitly connected.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the function of the Docker overlay network?",
+          "correctAnswer": "It enables communication between containers running on different Docker hosts",
+          "wrongAnswer1": "It isolates containers from the host network",
+          "wrongAnswer2": "It allows containers to share the host's network stack",
+          "wrongAnswer3": "It is used for storing container data persistently",
+          "explanation": "Overlay networks span multiple Docker hosts and enable containers to communicate securely as if they were on the same local network, which is useful in swarm mode and multi-host setups.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker CLI",
+      "questions": [
+        {
+          "question": "What command is used to list all running Docker containers?",
+          "correctAnswer": "docker ps",
+          "wrongAnswer1": "docker ls",
+          "wrongAnswer2": "docker containers",
+          "wrongAnswer3": "docker list",
+          "explanation": "The command 'docker ps' lists all currently running containers in Docker. Other commands like 'docker ls' or 'docker list' are not valid for listing containers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Docker CLI command is used to create and start a container from an image?",
+          "correctAnswer": "docker run",
+          "wrongAnswer1": "docker start",
+          "wrongAnswer2": "docker create",
+          "wrongAnswer3": "docker init",
+          "explanation": "The 'docker run' command both creates and starts a container from a specified image. 'docker create' only creates a container without starting it, and 'docker start' is used to start an already created container.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you stop a running Docker container using the CLI?",
+          "correctAnswer": "docker stop [container_id]",
+          "wrongAnswer1": "docker kill [container_id]",
+          "wrongAnswer2": "docker pause [container_id]",
+          "wrongAnswer3": "docker remove [container_id]",
+          "explanation": "The 'docker stop' command stops a running container gracefully. 'docker kill' forces the container to stop immediately, 'docker pause' suspends the container, and 'docker remove' deletes the container.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Registry",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Docker Registry?",
+          "correctAnswer": "To store and distribute Docker images",
+          "wrongAnswer1": "To compile Dockerfiles",
+          "wrongAnswer2": "To monitor running containers",
+          "wrongAnswer3": "To manage Docker volumes",
+          "explanation": "A Docker Registry is used to store and distribute Docker images so that they can be pulled and run on different systems.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a popular public Docker Registry?",
+          "correctAnswer": "Docker Hub",
+          "wrongAnswer1": "Docker Compose",
+          "wrongAnswer2": "Docker Swarm",
+          "wrongAnswer3": "Docker Machine",
+          "explanation": "Docker Hub is the most widely used public Docker Registry where users can find and share Docker images.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What command is used to push a Docker image to a Docker Registry?",
+          "correctAnswer": "docker push",
+          "wrongAnswer1": "docker pull",
+          "wrongAnswer2": "docker run",
+          "wrongAnswer3": "docker build",
+          "explanation": "The docker push command uploads your Docker image to a Docker Registry so it can be accessed by others.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Engine",
+      "questions": [
+        {
+          "question": "What is the primary function of Docker Engine?",
+          "correctAnswer": "To enable containerization by creating and managing containers",
+          "wrongAnswer1": "To serve as a virtual machine hypervisor",
+          "wrongAnswer2": "To manage Kubernetes clusters",
+          "wrongAnswer3": "To compile Dockerfiles into executable binaries",
+          "explanation": "Docker Engine is the core software that enables containerization by creating, running, and managing containers on a host system.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which components are part of the Docker Engine architecture?",
+          "correctAnswer": "Docker daemon, REST API, Docker CLI",
+          "wrongAnswer1": "Docker Hub, Docker Compose, Dockerfile",
+          "wrongAnswer2": "Kubernetes, Docker Swarm, Docker Registry",
+          "wrongAnswer3": "Docker Desktop, Docker Toolbox, Docker Hub",
+          "explanation": "Docker Engine consists of the Docker daemon that runs containers, the REST API for communication, and the Docker CLI to interact with the daemon.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Docker Engine differ from a traditional virtual machine hypervisor?",
+          "correctAnswer": "Docker Engine shares the host OS kernel and runs containers in isolated processes.",
+          "wrongAnswer1": "Docker Engine requires a separate OS for each container.",
+          "wrongAnswer2": "Docker Engine uses hardware virtualization to run containers.",
+          "wrongAnswer3": "Docker Engine creates full guest operating systems for each container.",
+          "explanation": "Unlike virtual machines that run full guest OS instances, Docker Engine uses containerization that shares the host OS kernel and isolates applications in separate containers, making it lightweight and efficient.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Overlay Network",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Docker Overlay Network?",
+          "correctAnswer": "To enable communication between containers running on different Docker hosts",
+          "wrongAnswer1": "To isolate containers within the same host",
+          "wrongAnswer2": "To connect Docker containers directly to the internet",
+          "wrongAnswer3": "To monitor container resource usage",
+          "explanation": "Docker Overlay Network allows containers running on different Docker hosts to communicate securely as if they were on the same network, facilitating multi-host container clustering.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which technology does Docker Overlay Network use to create a distributed network among Docker hosts?",
+          "correctAnswer": "VXLAN",
+          "wrongAnswer1": "IPsec",
+          "wrongAnswer2": "GRE tunneling",
+          "wrongAnswer3": "MPLS",
+          "explanation": "Docker Overlay Network commonly uses VXLAN (Virtual Extensible LAN) to encapsulate container traffic across different Docker hosts, enabling seamless container communication over an underlying network.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In which scenario is using a Docker Overlay Network most beneficial?",
+          "correctAnswer": "When deploying a multi-host Docker Swarm cluster requiring container communication across nodes",
+          "wrongAnswer1": "Running a single container on a standalone Docker host",
+          "wrongAnswer2": "Connecting a container to a local bridge network",
+          "wrongAnswer3": "Improving container startup speed on a single host",
+          "explanation": "Docker Overlay Network is especially useful in Docker Swarm or Kubernetes environments where services need to communicate across containers on multiple hosts, supporting scalability and service discovery.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Build",
+      "questions": [
+        {
+          "question": "What is the purpose of the Docker Build command?",
+          "correctAnswer": "To create an image from a Dockerfile",
+          "wrongAnswer1": "To run a container from an image",
+          "wrongAnswer2": "To delete unused Docker images",
+          "wrongAnswer3": "To push an image to a Docker registry",
+          "explanation": "The Docker Build command is used to create a Docker image from the instructions specified in a Dockerfile.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which file is essential for the Docker Build command to create an image?",
+          "correctAnswer": "Dockerfile",
+          "wrongAnswer1": "docker-compose.yml",
+          "wrongAnswer2": "README.md",
+          "wrongAnswer3": "config.json",
+          "explanation": "The Docker Build command reads instructions from a Dockerfile to build the image.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the tag option in Docker Build do?",
+          "correctAnswer": "Assigns a name and optionally a tag to the image",
+          "wrongAnswer1": "Specifies the base image to use",
+          "wrongAnswer2": "Sets environment variables in the image",
+          "wrongAnswer3": "Defines the entry point for the container",
+          "explanation": "Using the tag option allows you to name your built image and assign a tag for versioning or identification.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Pull",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Docker pull command?",
+          "correctAnswer": "To download an image from a Docker registry to the local machine",
+          "wrongAnswer1": "To upload a local image to a Docker registry",
+          "wrongAnswer2": "To remove an image from the local Docker host",
+          "wrongAnswer3": "To run a container from an image",
+          "explanation": "The docker pull command is used to fetch/download an image from a Docker registry such as Docker Hub to your local Docker environment, so it can be used to run containers or for other purposes locally.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a correct usage of the Docker pull command?",
+          "correctAnswer": "docker pull ubuntu",
+          "wrongAnswer1": "docker pull run ubuntu",
+          "wrongAnswer2": "docker pull --start ubuntu",
+          "wrongAnswer3": "docker pull -rm ubuntu",
+          "explanation": "The correct usage is docker pull followed by the image name, such as 'ubuntu'. Other options listed are not valid with the pull command.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens if you use docker pull with an image tag that does not exist?",
+          "correctAnswer": "Docker returns an error indicating the image could not be found.",
+          "wrongAnswer1": "Docker automatically pulls the latest image despite the incorrect tag.",
+          "wrongAnswer2": "Docker pulls a default fallback image from the registry.",
+          "wrongAnswer3": "Docker ignores the tag and pulls no image.",
+          "explanation": "If the tag or image name specified does not exist in the registry, Docker will return an error indicating that the image could not be found. It does not default to other images.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Push",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the docker push command?",
+          "correctAnswer": "To upload a local Docker image to a remote registry",
+          "wrongAnswer1": "To download a Docker image from a remote registry",
+          "wrongAnswer2": "To create a new Docker image from a Dockerfile",
+          "wrongAnswer3": "To remove an image from the local system",
+          "explanation": "The docker push command is used to upload or push a local Docker image to a remote registry such as Docker Hub, making it available for others to download and use.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Before using docker push, what must be done to the image?",
+          "correctAnswer": "The image must be tagged with the remote registry name",
+          "wrongAnswer1": "The image must be deleted",
+          "wrongAnswer2": "The image must be converted to a container",
+          "wrongAnswer3": "The image must be built using docker pull",
+          "explanation": "Docker images must be tagged with the repository name and optionally the tag that matches the remote registry before pushing, so docker knows where to send the image.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is necessary to successfully execute a docker push?",
+          "correctAnswer": "You must be logged in to the remote Docker registry",
+          "wrongAnswer1": "You must have running containers based on the image",
+          "wrongAnswer2": "You must have a Dockerfile present in the current directory",
+          "wrongAnswer3": "You must have root access on the Docker host machine",
+          "explanation": "To push images to a private or public remote registry, you need to authenticate with docker login, ensuring you have permissions to upload images.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Tag",
+      "questions": [
+        {
+          "question": "What is the purpose of a Docker tag?",
+          "correctAnswer": "To specify a version or variant of a Docker image",
+          "wrongAnswer1": "To create a new Docker image",
+          "wrongAnswer2": "To run a Docker container",
+          "wrongAnswer3": "To delete an existing Docker image",
+          "explanation": "A Docker tag is used to specify a particular version or variant of a Docker image, allowing users to manage different image releases.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is the correct format for a Docker tag?",
+          "correctAnswer": "repository:tag",
+          "wrongAnswer1": "repository/tag",
+          "wrongAnswer2": "tag:repository",
+          "wrongAnswer3": "tag/repository",
+          "explanation": "The correct format for Docker tags is repository name followed by a colon and then the tag name, for example, ubuntu:20.04.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens if you do not specify a tag when pulling a Docker image?",
+          "correctAnswer": "Docker pulls the image with the tag latest by default",
+          "wrongAnswer1": "Docker throws an error and does not pull the image",
+          "wrongAnswer2": "Docker pulls a random tagged image from the repository",
+          "wrongAnswer3": "Docker pulls all images from the repository",
+          "explanation": "If a tag is not specified, Docker defaults to pulling the image tagged as latest from the repository.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Logs",
+      "questions": [
+        {
+          "question": "What command is used to view the logs of a running Docker container?",
+          "correctAnswer": "docker logs container_name",
+          "wrongAnswer1": "docker view container_logs",
+          "wrongAnswer2": "docker show logs container_name",
+          "wrongAnswer3": "docker container logs view",
+          "explanation": "The correct command to view the logs of a running Docker container is docker logs followed by the container name or ID.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which option with docker logs allows you to follow the log output in real-time?",
+          "correctAnswer": "-f",
+          "wrongAnswer1": "-a",
+          "wrongAnswer2": "-t",
+          "wrongAnswer3": "-n",
+          "explanation": "The -f option stands for follow and shows the log output in real time as new entries are written to the container's logs.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can you limit the number of log lines shown from a Docker container?",
+          "correctAnswer": "Using the -n option with docker logs",
+          "wrongAnswer1": "Using the -l option with docker logs",
+          "wrongAnswer2": "Using the -c option with docker logs",
+          "wrongAnswer3": "Using the -r option with docker logs",
+          "explanation": "The -n option followed by a number limits the output to that many lines from the container's logs.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Run",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Docker Run command?",
+          "correctAnswer": "To create and start a new container from a specified image",
+          "wrongAnswer1": "To build a new Docker image from a Dockerfile",
+          "wrongAnswer2": "To stop a running container",
+          "wrongAnswer3": "To list all running containers",
+          "explanation": "The Docker Run command is used to create and start a new container from a specified Docker image. It sets up the container with the given configuration and begins executing its process.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following options is used with Docker Run to map a container port to a host port?",
+          "correctAnswer": "-p",
+          "wrongAnswer1": "-v",
+          "wrongAnswer2": "-d",
+          "wrongAnswer3": "--rm",
+          "explanation": "The -p option in Docker Run maps a port from the container to a port on the host machine, allowing network access through the specified ports.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the -d flag do when used with the Docker Run command?",
+          "correctAnswer": "Runs the container in detached mode, in the background",
+          "wrongAnswer1": "Deletes the container after it stops",
+          "wrongAnswer2": "Displays detailed logs during container start",
+          "wrongAnswer3": "Limits the container's CPU usage",
+          "explanation": "The -d flag tells Docker to run the container in detached mode, which means the container runs in the background and does not block the terminal.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Exec",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Docker exec command?",
+          "correctAnswer": "To run a new command in a running container",
+          "wrongAnswer1": "To create a new container",
+          "wrongAnswer2": "To build a Docker image",
+          "wrongAnswer3": "To stop a running container",
+          "explanation": "The Docker exec command is used to run a new command or process inside an already running container without starting a new container from scratch.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following commands correctly demonstrates how to use Docker exec to start an interactive bash shell inside a running container named mycontainer?",
+          "correctAnswer": "docker exec -it mycontainer bash",
+          "wrongAnswer1": "docker exec mycontainer -it bash",
+          "wrongAnswer2": "docker container run -it mycontainer bash",
+          "wrongAnswer3": "docker start -it mycontainer bash",
+          "explanation": "The correct syntax for running an interactive bash shell inside a container is docker exec with the -it flags followed by the container name and the command bash.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What do the -i and -t options signify in the command docker exec -it container_name bash?",
+          "correctAnswer": "-i keeps STDIN open, -t allocates a pseudo-TTY",
+          "wrongAnswer1": "-i stops the container, -t removes the container",
+          "wrongAnswer2": "-i builds the image, -t tags the image",
+          "wrongAnswer3": "-i lists containers, -t restarts the container",
+          "explanation": "The -i option keeps the container's standard input open, and -t allocates a pseudo-terminal, allowing interactive processes like bash to run properly.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Stop",
+      "questions": [
+        {
+          "question": "What does the docker stop command do?",
+          "correctAnswer": "It stops a running container gracefully by sending a SIGTERM signal.",
+          "wrongAnswer1": "It removes a stopped container from the system.",
+          "wrongAnswer2": "It forcefully kills a container immediately without cleanup.",
+          "wrongAnswer3": "It pauses the container process temporarily.",
+          "explanation": "The docker stop command sends a SIGTERM to the main process inside the container, allowing it to terminate gracefully before the container is stopped entirely.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does docker stop differ from docker kill?",
+          "correctAnswer": "Docker stop sends SIGTERM allowing graceful shutdown, docker kill sends SIGKILL immediately stopping the container.",
+          "wrongAnswer1": "Docker stop removes the container, docker kill only pauses it.",
+          "wrongAnswer2": "Docker stop is for creating containers, docker kill is for deleting images.",
+          "wrongAnswer3": "Docker stop runs the container, docker kill rebuilds it.",
+          "explanation": "docker stop tries to shut down the container's main process cleanly by sending SIGTERM, while docker kill sends SIGKILL to terminate the process immediately without cleanup.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens if a container does not stop after docker stop is issued?",
+          "correctAnswer": "Docker waits for a timeout period then sends SIGKILL to force stop the container.",
+          "wrongAnswer1": "Docker immediately deletes the container without stopping it.",
+          "wrongAnswer2": "Docker restarts the container automatically after the stop attempt.",
+          "wrongAnswer3": "Docker converts the running container to a paused state.",
+          "explanation": "If the container does not stop within the default timeout after receiving SIGTERM, docker stop sends SIGKILL to force termination of the container process.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Start",
+      "questions": [
+        {
+          "question": "What does the Docker Start command do?",
+          "correctAnswer": "It starts a stopped container",
+          "wrongAnswer1": "It builds a new container image",
+          "wrongAnswer2": "It stops a running container",
+          "wrongAnswer3": "It removes an existing container",
+          "explanation": "The Docker Start command is used to start a container that has been stopped. It does not build or remove containers, nor does it stop them.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these commands would you use to start an existing container named my_container?",
+          "correctAnswer": "docker start my_container",
+          "wrongAnswer1": "docker run my_container",
+          "wrongAnswer2": "docker build my_container",
+          "wrongAnswer3": "docker stop my_container",
+          "explanation": "The correct command to start an existing stopped container named my_container is docker start my_container. docker run is for running a new container, docker build builds images, and docker stop stops running containers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If a container is already running, what happens when you run docker start on it?",
+          "correctAnswer": "Docker returns an error saying the container is already running",
+          "wrongAnswer1": "Docker restarts the container",
+          "wrongAnswer2": "Docker stops the container then starts it again",
+          "wrongAnswer3": "Docker does nothing silently",
+          "explanation": "Attempting to start a container that is already running will result in Docker returning an error indicating the container is already running. It does not silently do nothing or restart the container automatically.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Inspect",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Docker Inspect command?",
+          "correctAnswer": "To display detailed information about Docker objects such as containers and images",
+          "wrongAnswer1": "To remove Docker containers",
+          "wrongAnswer2": "To start a Docker container",
+          "wrongAnswer3": "To download Docker images",
+          "explanation": "Docker Inspect is used to retrieve detailed low-level information about Docker objects including containers, images, networks, and volumes, providing metadata in JSON format.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which format does Docker Inspect use to present the details of the inspected object?",
+          "correctAnswer": "JSON",
+          "wrongAnswer1": "XML",
+          "wrongAnswer2": "YAML",
+          "wrongAnswer3": "Plain text",
+          "explanation": "Docker Inspect returns information in JSON format, which includes configuration details and state information of Docker objects.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "You ran Docker Inspect on a container and want to find out its IP address. Where in the JSON output would you most likely find this information?",
+          "correctAnswer": "Under NetworkSettings",
+          "wrongAnswer1": "Under Config",
+          "wrongAnswer2": "Under Mounts",
+          "wrongAnswer3": "Under State",
+          "explanation": "Network-related information such as IP addresses can be found under the NetworkSettings section in the Docker Inspect JSON output.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker API",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Docker API?",
+          "correctAnswer": "To allow programmatic interaction with the Docker daemon",
+          "wrongAnswer1": "To provide a graphical interface for managing Docker containers",
+          "wrongAnswer2": "To replace the Docker CLI for manual container management",
+          "wrongAnswer3": "To monitor server hardware performance",
+          "explanation": "The Docker API is designed to allow programs to interact with the Docker daemon, enabling automation and integration with other software.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which protocol does the Docker API primarily use to communicate?",
+          "correctAnswer": "HTTP over a RESTful interface",
+          "wrongAnswer1": "FTP for file transfers",
+          "wrongAnswer2": "SSH for secure command execution",
+          "wrongAnswer3": "SMTP for message sending",
+          "explanation": "Docker API uses a RESTful HTTP interface allowing clients to control Docker daemon remotely.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can the Docker API be accessed securely?",
+          "correctAnswer": "By using TLS encryption and client certificates",
+          "wrongAnswer1": "By using only username and password authentication",
+          "wrongAnswer2": "By disabling authentication for easier access",
+          "wrongAnswer3": "By using FTP over SSH tunneling",
+          "explanation": "Securing the Docker API involves using TLS certificates to encrypt communication and authenticate clients to the Docker daemon.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Secret",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Docker Secrets?",
+          "correctAnswer": "To securely store and manage sensitive data such as passwords and keys",
+          "wrongAnswer1": "To manage container networking configurations",
+          "wrongAnswer2": "To monitor container resource usage",
+          "wrongAnswer3": "To automate container deployment",
+          "explanation": "Docker Secrets are designed to securely store sensitive information like passwords, tokens, or keys and provide controlled access to containers without exposing the data in the image or environment variables.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Docker feature must be enabled to use Docker Secrets?",
+          "correctAnswer": "Docker Swarm mode",
+          "wrongAnswer1": "Docker Compose",
+          "wrongAnswer2": "Docker Hub",
+          "wrongAnswer3": "Docker Volumes",
+          "explanation": "Docker Secrets are a feature that requires Docker Swarm mode, which is used to orchestrate multiple containers and securely manage secrets for services.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How are Docker Secrets typically accessed inside a container?",
+          "correctAnswer": "As files mounted in a secure in-memory filesystem",
+          "wrongAnswer1": "As environment variables visible to all containers",
+          "wrongAnswer2": "Through network API calls",
+          "wrongAnswer3": "By exposing secrets in container logs",
+          "explanation": "Docker injects secrets into containers as files mounted in a tmpfs (in-memory) filesystem, ensuring the secret data is not stored on disk and is only available for the container that requires it.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Stack",
+      "questions": [
+        {
+          "question": "What is Docker Stack primarily used for?",
+          "correctAnswer": "Deploying and managing a group of related services in Docker Swarm",
+          "wrongAnswer1": "Building individual Docker images",
+          "wrongAnswer2": "Monitoring container resource usage",
+          "wrongAnswer3": "Running containers on a single host without orchestration",
+          "explanation": "Docker Stack is used to deploy and manage multi-service applications on a Docker Swarm cluster using a stack file that defines the services.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which file format is typically used to define a Docker Stack?",
+          "correctAnswer": "Docker Compose YAML file",
+          "wrongAnswer1": "JSON file",
+          "wrongAnswer2": "Dockerfile",
+          "wrongAnswer3": "XML file",
+          "explanation": "Docker Stack uses Docker Compose YAML files to define the services, networks, and volumes that make up the stack.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which command is used to deploy a Docker Stack to a swarm?",
+          "correctAnswer": "docker stack deploy",
+          "wrongAnswer1": "docker stack launch",
+          "wrongAnswer2": "docker-compose up",
+          "wrongAnswer3": "docker run",
+          "explanation": "The docker stack deploy command is used to deploy a stack to the Docker Swarm cluster based on the specified Compose file.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Service",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Docker Service?",
+          "correctAnswer": "To manage and maintain a set of containers as a single scalable application",
+          "wrongAnswer1": "To install Docker on multiple machines automatically",
+          "wrongAnswer2": "To provide a graphical interface for Docker container management",
+          "wrongAnswer3": "To build Docker images from a Dockerfile",
+          "explanation": "A Docker Service is used to deploy and manage a group of containers as a single scalable application, allowing for load balancing and easy updates.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Docker component is responsible for orchestrating Docker Services?",
+          "correctAnswer": "Docker Swarm",
+          "wrongAnswer1": "Docker Compose",
+          "wrongAnswer2": "Docker Hub",
+          "wrongAnswer3": "Docker Machine",
+          "explanation": "Docker Swarm is the native clustering and orchestration tool for Docker Services, managing service deployment, scaling, and maintenance.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In Docker Service, what does a task represent?",
+          "correctAnswer": "An instance of a container running as part of a service",
+          "wrongAnswer1": "A single command to build a Docker image",
+          "wrongAnswer2": "A user request to upload images to Docker Hub",
+          "wrongAnswer3": "A configuration file for service networking",
+          "explanation": "A task in Docker Service represents a container instance running on a node as part of the service's desired state.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Healthcheck",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Docker HEALTHCHECK instruction?",
+          "correctAnswer": "To specify a command that tests if the container is healthy",
+          "wrongAnswer1": "To set the maximum memory usage of a container",
+          "wrongAnswer2": "To configure network settings for the container",
+          "wrongAnswer3": "To define the container restart policy",
+          "explanation": "The HEALTHCHECK instruction in a Dockerfile defines a command that Docker uses to determine if the container is still working correctly or healthy.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about Docker HEALTHCHECK intervals?",
+          "correctAnswer": "You can configure how often the healthcheck command runs",
+          "wrongAnswer1": "Healthcheck commands only run once when the container starts",
+          "wrongAnswer2": "Healthchecks run only manually when triggered by the user",
+          "wrongAnswer3": "Docker automatically runs healthchecks every second without configuration",
+          "explanation": "The HEALTHCHECK instruction allows configuration of parameters like interval, timeout, and retries to control how often and under what conditions the healthcheck command runs.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Docker indicate a container is unhealthy based on healthcheck status?",
+          "correctAnswer": "Container status changes to unhealthy if the healthcheck command fails repeatedly",
+          "wrongAnswer1": "Docker immediately stops the container",
+          "wrongAnswer2": "Container is restarted automatically once a healthcheck fails once",
+          "wrongAnswer3": "The container becomes read-only when unhealthy",
+          "explanation": "If the healthcheck command fails repeatedly as configured, Docker marks the container as unhealthy but does not automatically stop or restart it unless configured via orchestration tools.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Dockerfile COPY",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the COPY instruction in a Dockerfile?",
+          "correctAnswer": "To copy files or directories from the host system into the Docker image",
+          "wrongAnswer1": "To copy files from one Docker image to another",
+          "wrongAnswer2": "To copy files from a running container back to the host",
+          "wrongAnswer3": "To copy commands from one Dockerfile to another",
+          "explanation": "The COPY instruction in a Dockerfile is used to copy files or directories from the build context (host system) into the Docker image during the image build process.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a correct syntax for the COPY instruction in a Dockerfile?",
+          "correctAnswer": "COPY source destination",
+          "wrongAnswer1": "COPY destination source",
+          "wrongAnswer2": "COPY -source destination",
+          "wrongAnswer3": "COPY @source -> destination",
+          "explanation": "The proper syntax for the COPY instruction is COPY followed by the source path and the destination path inside the image.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What will happen if you use COPY to copy a directory but the destination directory does not exist in the Docker image?",
+          "correctAnswer": "Docker will create the destination directory and copy the contents",
+          "wrongAnswer1": "The build will fail with an error",
+          "wrongAnswer2": "Docker will copy the contents to the root directory instead",
+          "wrongAnswer3": "The copied files will be ignored",
+          "explanation": "COPY will create the destination directory if it doesn't exist and then copy all files and subdirectories from the source directory.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Dockerfile RUN",
+      "questions": [
+        {
+          "question": "What is the purpose of the RUN instruction in a Dockerfile?",
+          "correctAnswer": "To execute commands and install software during the image build process",
+          "wrongAnswer1": "To specify the base image for the Dockerfile",
+          "wrongAnswer2": "To define environment variables used in the container",
+          "wrongAnswer3": "To expose network ports for container communication",
+          "explanation": "The RUN instruction allows you to execute commands, such as installing packages or setting up the environment, while building the Docker image.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a valid use of the RUN instruction in a Dockerfile?",
+          "correctAnswer": "RUN apt-get update && apt-get install -y nginx",
+          "wrongAnswer1": "RUN EXPOSE 80",
+          "wrongAnswer2": "RUN FROM ubuntu",
+          "wrongAnswer3": "RUN CMD [\"nginx\", \"-g\", \"daemon off;\"]",
+          "explanation": "RUN is used to run commands like package installation; EXPOSE, FROM, and CMD are separate Dockerfile instructions and cannot be used with RUN.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does using multiple RUN instructions in a Dockerfile affect the image?",
+          "correctAnswer": "Each RUN creates a new layer, potentially increasing image size",
+          "wrongAnswer1": "All RUN commands are combined into a single layer automatically",
+          "wrongAnswer2": "RUN instructions only execute when the container starts",
+          "wrongAnswer3": "RUN commands are ignored and do not affect the image layers",
+          "explanation": "Each RUN instruction creates a new image layer; combining commands in a single RUN reduces the total number of layers and can make the image smaller.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Dockerfile CMD",
+      "questions": [
+        {
+          "question": "What is the purpose of the CMD instruction in a Dockerfile?",
+          "correctAnswer": "It specifies the default command to run when a container starts",
+          "wrongAnswer1": "It copies files from the host to the container",
+          "wrongAnswer2": "It sets environment variables inside the container",
+          "wrongAnswer3": "It defines network settings for the container",
+          "explanation": "The CMD instruction in a Dockerfile provides the default command that executes when a container is run from the image. It can be overridden at runtime.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a valid usage of the CMD instruction in a Dockerfile?",
+          "correctAnswer": "CMD [\"nginx\", \"-g\", \"daemon off;\"]",
+          "wrongAnswer1": "CMD RUN apt-get update",
+          "wrongAnswer2": "CMD ENV PATH /usr/local/bin",
+          "wrongAnswer3": "CMD COPY . /app",
+          "explanation": "CMD supports exec form (as a JSON array) or shell form (a simple string). The example uses the exec form which is preferred for clarity and signal handling.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "If a Dockerfile contains multiple CMD instructions, which one takes effect?",
+          "correctAnswer": "Only the last CMD instruction is used",
+          "wrongAnswer1": "The first CMD instruction is used",
+          "wrongAnswer2": "All CMD instructions are combined and executed",
+          "wrongAnswer3": "None of the CMD instructions are used",
+          "explanation": "Dockerfile processes only the last CMD instruction. All previous CMDs are ignored as they get overwritten by the next CMD.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Dockerfile ENTRYPOINT",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the ENTRYPOINT instruction in a Dockerfile?",
+          "correctAnswer": "To define the executable that will run when a container starts from the image",
+          "wrongAnswer1": "To copy files into the Docker image",
+          "wrongAnswer2": "To set environment variables for the container",
+          "wrongAnswer3": "To expose network ports from the container",
+          "explanation": "The ENTRYPOINT instruction specifies the command that will always be executed when the container starts. It sets the container's main process.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does ENTRYPOINT differ from the CMD instruction in a Dockerfile?",
+          "correctAnswer": "ENTRYPOINT defines the executable, CMD provides default arguments to it",
+          "wrongAnswer1": "CMD sets the executable, ENTRYPOINT provides default arguments",
+          "wrongAnswer2": "Both do the same thing and are interchangeable",
+          "wrongAnswer3": "ENTRYPOINT is used for environment variables and CMD for startup commands",
+          "explanation": "ENTRYPOINT specifies the command to execute, while CMD specifies default arguments that can be overridden at runtime.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a correct way to write an ENTRYPOINT instruction in exec form in a Dockerfile?",
+          "correctAnswer": "ENTRYPOINT [\"/usr/bin/myapp\", \"--flag\"]",
+          "wrongAnswer1": "ENTRYPOINT /usr/bin/myapp --flag",
+          "wrongAnswer2": "ENTRYPOINT /usr/bin/myapp, --flag",
+          "wrongAnswer3": "ENTRYPOINT \"/usr/bin/myapp --flag\"",
+          "explanation": "The exec form uses JSON array syntax, specifying the executable and arguments as elements. This prevents shell interpretation.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Dockerfile ENV",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the ENV instruction in a Dockerfile?",
+          "correctAnswer": "To set environment variables in the container",
+          "wrongAnswer1": "To create a network bridge for container communication",
+          "wrongAnswer2": "To specify the base image for the container",
+          "wrongAnswer3": "To launch the container in detached mode",
+          "explanation": "The ENV instruction in a Dockerfile is used to set environment variables that will be available to the applications running inside the container.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Where are environment variables set by the ENV instruction available?",
+          "correctAnswer": "Inside the container at runtime",
+          "wrongAnswer1": "Only during the image build process",
+          "wrongAnswer2": "Only on the host system",
+          "wrongAnswer3": "In the Docker daemon configuration",
+          "explanation": "Environment variables set using ENV are available inside the container whenever it runs, making it possible to configure the containerized application.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which syntax correctly sets an environment variable named APP_ENV to production in a Dockerfile?",
+          "correctAnswer": "ENV APP_ENV production",
+          "wrongAnswer1": "ENV APP_ENV=production",
+          "wrongAnswer2": "SET APP_ENV=production",
+          "wrongAnswer3": "RUN ENV APP_ENV production",
+          "explanation": "The correct syntax for the ENV instruction is 'ENV key value' without equals sign. Therefore, 'ENV APP_ENV production' is the correct way to set the environment variable APP_ENV to production inside a Dockerfile.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Dockerfile EXPOSE",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the EXPOSE instruction in a Dockerfile?",
+          "correctAnswer": "To document which ports the container listens on at runtime",
+          "wrongAnswer1": "To publish the container's ports to the host machine automatically",
+          "wrongAnswer2": "To open firewall ports on the Docker host",
+          "wrongAnswer3": "To assign a fixed IP address to the container",
+          "explanation": "The EXPOSE instruction in a Dockerfile is used to indicate which ports the container will listen on during runtime. It serves as documentation and does not automatically publish or map the ports.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Does the EXPOSE instruction in a Dockerfile make the port accessible from the host machine by default?",
+          "correctAnswer": "No, EXPOSE only serves as documentation and does not publish the port",
+          "wrongAnswer1": "Yes, it automatically opens the port to the host",
+          "wrongAnswer2": "Yes, it configures the firewall to allow traffic through",
+          "wrongAnswer3": "No, EXPOSE disables port access from outside the container",
+          "explanation": "EXPOSE in a Dockerfile does not publish ports or make them accessible from the host machine by default. To access container ports, you need to explicitly map them using the -p option when running the container.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can you make a port exposed by EXPOSE accessible on the host machine?",
+          "correctAnswer": "By using the -p or --publish option when running the container",
+          "wrongAnswer1": "By adding another EXPOSE instruction with the same port",
+          "wrongAnswer2": "By restarting the Docker daemon",
+          "wrongAnswer3": "By adding the port number to the container's environment variables",
+          "explanation": "The EXPOSE instruction only documents ports within the Dockerfile. To make them accessible from the host, you must use the -p or --publish option in the docker run command to map container ports to host ports.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Dockerfile VOLUME",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the VOLUME instruction in a Dockerfile?",
+          "correctAnswer": "To create a mount point with a specified path and mark it as a volume for persistent data storage",
+          "wrongAnswer1": "To install software packages inside the container",
+          "wrongAnswer2": "To set environment variables inside the container",
+          "wrongAnswer3": "To specify the working directory for any RUN, CMD, ENTRYPOINT commands",
+          "explanation": "The VOLUME instruction in a Dockerfile defines a mount point and marks it as a volume, which allows data to persist outside the container's writable layer, enabling data sharing and persistence.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command in a Dockerfile would you use to declare a directory as a volume?",
+          "correctAnswer": "VOLUME [\"/data\"]",
+          "wrongAnswer1": "VOLUME /data",
+          "wrongAnswer2": "EXPOSE /data",
+          "wrongAnswer3": "RUN VOLUME /data",
+          "explanation": "The VOLUME instruction can take JSON array format to specify one or more directories as volumes. For example, VOLUME [\"/data\"] declares /data as a volume.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens to the data stored in a Docker volume when the container is deleted?",
+          "correctAnswer": "The data persists outside of the container and is not deleted automatically",
+          "wrongAnswer1": "The data is deleted immediately",
+          "wrongAnswer2": "The data is moved to the container's image",
+          "wrongAnswer3": "The data is encrypted and saved in the container logs",
+          "explanation": "Volumes are designed to persist data independently from container lifecycle, so deleting the container does not remove the data stored in volumes unless explicitly deleted.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Dockerfile WORKDIR",
+      "questions": [
+        {
+          "question": "What is the purpose of the WORKDIR instruction in a Dockerfile",
+          "correctAnswer": "It sets the working directory for instructions that follow in the Dockerfile",
+          "wrongAnswer1": "It defines the base image for the Docker build process",
+          "wrongAnswer2": "It installs necessary packages inside the container",
+          "wrongAnswer3": "It specifies the network configuration for the container",
+          "explanation": "The WORKDIR instruction in a Dockerfile sets the working directory for any RUN, CMD, ENTRYPOINT, COPY, and ADD instructions that follow it. If the directory does not exist, it will be created.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If a Dockerfile contains multiple WORKDIR instructions, what happens",
+          "correctAnswer": "Each WORKDIR overrides the previous one and sets a new working directory",
+          "wrongAnswer1": "The first WORKDIR instruction is the only one that takes effect",
+          "wrongAnswer2": "All WORKDIR instructions are concatenated to form the final directory path",
+          "wrongAnswer3": "Docker build fails with an error because multiple WORKDIRs are not allowed",
+          "explanation": "Multiple WORKDIR instructions in a Dockerfile are allowed, and each one sets the working directory relative to the previous one, effectively overriding the current directory for subsequent instructions.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does the WORKDIR instruction handle relative paths in a Dockerfile",
+          "correctAnswer": "It treats the relative path as relative to the current WORKDIR or root if none is set",
+          "wrongAnswer1": "It treats the relative path as relative to the root of the host machine",
+          "wrongAnswer2": "It ignores relative paths and only accepts absolute paths",
+          "wrongAnswer3": "It treats the relative path as the path inside the source directory on the build machine",
+          "explanation": "When the WORKDIR instruction uses a relative path, it is interpreted relative to the path set by the previous WORKDIR instruction. If no WORKDIR has been set, it is relative to the root directory in the container.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Dockerfile ARG",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the ARG instruction in a Dockerfile?",
+          "correctAnswer": "To define a variable that users can pass at build-time to the Docker image",
+          "wrongAnswer1": "To define environment variables available in the container at runtime",
+          "wrongAnswer2": "To specify the base image of the Dockerfile",
+          "wrongAnswer3": "To add files to the Docker image",
+          "explanation": "The ARG instruction lets you define variables that can be passed during the image build process. These variables are not available after the image is built as environment variables are. ARG is used to customize builds.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When can the value of an ARG variable be overridden?",
+          "correctAnswer": "Only at build-time using the --build-arg flag with docker build",
+          "wrongAnswer1": "At runtime when starting a Docker container",
+          "wrongAnswer2": "By editing the Dockerfile after the image is built",
+          "wrongAnswer3": "By configuring the Docker daemon settings",
+          "explanation": "ARG variables can be overridden only during the image build process by passing --build-arg arguments to docker build. They cannot be changed at runtime or after the image is created.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following statements about ARG in Dockerfiles is true?",
+          "correctAnswer": "ARG variables are not persisted in the final image as environment variables",
+          "wrongAnswer1": "ARG variables are available inside the container at runtime",
+          "wrongAnswer2": "ARG is used to run commands inside the container",
+          "wrongAnswer3": "ARG variables must be declared after the CMD instruction",
+          "explanation": "ARG variables are used for build-time parameters only and do not persist as environment variables in the final image. They are not accessible during container runtime, unlike ENV variables.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Bind Mount",
+      "questions": [
+        {
+          "question": "What is a Docker Bind Mount used for?",
+          "correctAnswer": "To mount a directory or file from the host machine into a Docker container",
+          "wrongAnswer1": "To create a new Docker image from a container",
+          "wrongAnswer2": "To isolate containers from the host file system",
+          "wrongAnswer3": "To automatically update the Docker container when the image changes",
+          "explanation": "A Docker Bind Mount allows you to mount a directory or file from the host machine into a container at runtime, enabling the container to access and modify files on the host.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes how to specify a bind mount in a docker run command?",
+          "correctAnswer": "Using the -v or --volume flag followed by host_path:container_path",
+          "wrongAnswer1": "Using the --bind flag followed by container_path:host_path",
+          "wrongAnswer2": "Using the -m flag followed by container_path:host_path",
+          "wrongAnswer3": "Using the --mount flag with image name and version",
+          "explanation": "The -v or --volume flag in docker run command is used to create a bind mount by specifying the path on the host and the path inside the container separated by a colon.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a key difference between Docker bind mounts and Docker volumes?",
+          "correctAnswer": "Bind mounts directly link host files or directories to containers, volumes are managed by Docker and stored in a Docker-specific location",
+          "wrongAnswer1": "Bind mounts cannot be used with Docker Compose, volumes can",
+          "wrongAnswer2": "Volumes mount files from the host directory, bind mounts mount files from a Docker volume",
+          "wrongAnswer3": "Bind mounts provide network isolation, volumes do not",
+          "explanation": "Bind mounts use the actual file or directory from the host machine, giving direct access to host filesystem paths. Volumes are stored in a Docker-managed location and offer better portability and management features.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Stats",
+      "questions": [
+        {
+          "question": "What does the docker stats command display?",
+          "correctAnswer": "Real-time resource usage statistics for running containers",
+          "wrongAnswer1": "A list of all Docker images on the system",
+          "wrongAnswer2": "The history of a specific Docker container",
+          "wrongAnswer3": "The Docker daemon logs",
+          "explanation": "The docker stats command provides live data on CPU, memory, network, and disk usage for active containers, allowing monitoring of resource consumption.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT typically displayed by the docker stats command?",
+          "correctAnswer": "Container build time",
+          "wrongAnswer1": "CPU usage",
+          "wrongAnswer2": "Memory usage",
+          "wrongAnswer3": "Network I/O",
+          "explanation": "Docker stats shows metrics related to container performance such as CPU usage, memory usage, and network I/O, but does not show metadata like container build time.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can you use docker stats to monitor specific containers?",
+          "correctAnswer": "By providing one or more container IDs or names as arguments",
+          "wrongAnswer1": "By filtering metrics in the Docker dashboard",
+          "wrongAnswer2": "By setting a configuration file with container names",
+          "wrongAnswer3": "By using the docker inspect command in conjunction",
+          "explanation": "To monitor specific containers with docker stats, you can specify their IDs or names after the command to limit the output to those containers only.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Prune",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Docker prune command?",
+          "correctAnswer": "To remove unused Docker objects such as containers, networks, images, and volumes",
+          "wrongAnswer1": "To create new Docker containers quickly",
+          "wrongAnswer2": "To optimize Docker container performance",
+          "wrongAnswer3": "To build Docker images from a Dockerfile",
+          "explanation": "The Docker prune command is used to clean up your Docker environment by removing unused and dangling objects, freeing up disk space.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Docker command would you use to remove all stopped containers, unused networks, dangling images, and build cache at once?",
+          "correctAnswer": "docker system prune",
+          "wrongAnswer1": "docker container prune",
+          "wrongAnswer2": "docker image prune",
+          "wrongAnswer3": "docker network prune",
+          "explanation": "The command docker system prune removes all unused data including stopped containers, unused networks, dangling images, and build caches in a single operation.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "If you want to remove only unused Docker images that are not referenced by any container, which command would be most appropriate?",
+          "correctAnswer": "docker image prune",
+          "wrongAnswer1": "docker system prune",
+          "wrongAnswer2": "docker container prune",
+          "wrongAnswer3": "docker volume prune",
+          "explanation": "The docker image prune command specifically targets unused Docker images, removing only those images that are not associated with any container.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Context",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Docker Context?",
+          "correctAnswer": "To manage different Docker environments and endpoints",
+          "wrongAnswer1": "To create Docker images from Dockerfiles",
+          "wrongAnswer2": "To monitor the resource usage of Docker containers",
+          "wrongAnswer3": "To optimize Docker container networking performance",
+          "explanation": "Docker Context allows users to switch between multiple Docker endpoints or environments, such as local or remote Docker hosts, making management easier.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to create a new Docker Context?",
+          "correctAnswer": "docker context create",
+          "wrongAnswer1": "docker context new",
+          "wrongAnswer2": "docker create context",
+          "wrongAnswer3": "docker context add",
+          "explanation": "The command docker context create is used to create a new Docker Context with specified settings.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can you list all available Docker Contexts on your machine?",
+          "correctAnswer": "docker context ls",
+          "wrongAnswer1": "docker context list all",
+          "wrongAnswer2": "docker contexts show",
+          "wrongAnswer3": "docker ls contexts",
+          "explanation": "The command docker context ls lists all the Docker Contexts available on your system, showing their names and endpoints.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Secrets Management",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Docker Secrets Management?",
+          "correctAnswer": "To securely store and manage sensitive data such as passwords and API keys",
+          "wrongAnswer1": "To speed up Docker container builds",
+          "wrongAnswer2": "To monitor container performance",
+          "wrongAnswer3": "To manage Docker network settings",
+          "explanation": "Docker Secrets Management is designed to securely store and manage sensitive information like passwords, API keys, and certificates, preventing exposure in Docker containers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How are Docker secrets typically accessed by containers?",
+          "correctAnswer": "They are mounted as files inside the container at runtime",
+          "wrongAnswer1": "They are embedded in the container environment variables",
+          "wrongAnswer2": "They are stored in a public Docker registry",
+          "wrongAnswer3": "They are downloaded from the internet by the container",
+          "explanation": "Docker secrets are mounted as files inside the container at runtime, providing secure access without exposing the secrets in environment variables or image layers.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which Docker command is used to create a secret?",
+          "correctAnswer": "docker secret create",
+          "wrongAnswer1": "docker secret init",
+          "wrongAnswer2": "docker service create",
+          "wrongAnswer3": "docker volume create",
+          "explanation": "The command docker secret create is used to create a new secret in Docker that can then be used by Docker services.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Compose Override",
+      "questions": [
+        {
+          "question": "What is the main purpose of a Docker Compose override file?",
+          "correctAnswer": "To override or add configurations to the base Docker Compose file",
+          "wrongAnswer1": "To replace Dockerfiles entirely",
+          "wrongAnswer2": "To configure the Docker daemon settings",
+          "wrongAnswer3": "To manage container runtime logs",
+          "explanation": "A Docker Compose override file is used to override or add to the settings defined in the base Docker Compose file, allowing customization without modifying the original file directly.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When using Docker Compose, which file is automatically used alongside docker-compose.yml?",
+          "correctAnswer": "docker-compose.override.yml",
+          "wrongAnswer1": "docker-compose.prod.yml",
+          "wrongAnswer2": "docker-compose.config.yml",
+          "wrongAnswer3": "dockerfile.override.yml",
+          "explanation": "Docker Compose automatically uses docker-compose.override.yml as an override file to extend or modify the base configuration in docker-compose.yml.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can you apply multiple Docker Compose override files when starting your services?",
+          "correctAnswer": "By using the -f flag multiple times in the docker-compose command",
+          "wrongAnswer1": "By placing all overrides inside a single docker-compose.override.yml file",
+          "wrongAnswer2": "By renaming files and running docker-compose again",
+          "wrongAnswer3": "By setting environment variables in the docker-compose.yml",
+          "explanation": "You can specify multiple override files using the -f option multiple times in your docker-compose command to combine or override different configurations.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker In Docker",
+      "questions": [
+        {
+          "question": "What does Docker in Docker (DinD) mean?",
+          "correctAnswer": "Running Docker inside a Docker container",
+          "wrongAnswer1": "Using Docker to run only one container",
+          "wrongAnswer2": "Running multiple Docker containers without Docker",
+          "wrongAnswer3": "Running Docker without a container",
+          "explanation": "Docker in Docker refers to running Docker inside a Docker container, allowing for nested containerization.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common use case for Docker in Docker?",
+          "correctAnswer": "CI/CD pipelines to build Docker images inside containers",
+          "wrongAnswer1": "Running Docker containers on bare metal servers without any virtualization",
+          "wrongAnswer2": "Using Docker containers only for persistent storage",
+          "wrongAnswer3": "Replacing virtual machines with Docker containers",
+          "explanation": "Docker in Docker is often used in CI/CD environments where Docker containers themselves need to run Docker commands to build and manage other containers.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a major challenge when using Docker in Docker?",
+          "correctAnswer": "Managing Docker daemon access and security inside containers",
+          "wrongAnswer1": "Docker containers cannot be started inside other containers",
+          "wrongAnswer2": "Docker images cannot be shared between containers",
+          "wrongAnswer3": "Docker containers run slower on Linux hosts",
+          "explanation": "A common challenge with Docker in Docker is securely managing access to the Docker daemon and avoiding permission or isolation issues.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Machine",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Docker Machine?",
+          "correctAnswer": "To provision and manage Docker hosts on local and remote platforms",
+          "wrongAnswer1": "To build Docker images",
+          "wrongAnswer2": "To monitor Docker container performance",
+          "wrongAnswer3": "To deploy Docker containers on Kubernetes",
+          "explanation": "Docker Machine is used to provision and manage Docker hosts on various platforms, including local machines and cloud providers, enabling easier Docker environment setup.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following commands is used to create a Docker host with Docker Machine?",
+          "correctAnswer": "docker-machine create",
+          "wrongAnswer1": "docker-machine start",
+          "wrongAnswer2": "docker-machine build",
+          "wrongAnswer3": "docker-machine run",
+          "explanation": "The docker-machine create command is used to create a new Docker host on a specified platform.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which cloud providers are commonly supported by Docker Machine for provisioning hosts?",
+          "correctAnswer": "Amazon EC2, Microsoft Azure, Google Cloud Platform",
+          "wrongAnswer1": "Salesforce, SAP, Oracle Cloud",
+          "wrongAnswer2": "DigitalOcean, GitHub, Heroku",
+          "wrongAnswer3": "IBM Watson, Dropbox, Slack",
+          "explanation": "Docker Machine supports provisioning hosts on popular cloud providers like Amazon EC2, Microsoft Azure, and Google Cloud Platform among others.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Trusted Registry",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Docker Trusted Registry?",
+          "correctAnswer": "To provide a secure and private Docker image storage solution",
+          "wrongAnswer1": "To replace Docker Engine on the host system",
+          "wrongAnswer2": "To manage network configurations for Docker containers",
+          "wrongAnswer3": "To automate container orchestration like Kubernetes",
+          "explanation": "Docker Trusted Registry is designed to offer secure, private storage for Docker container images, enabling enterprises to manage and control image distribution within their environments.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following features is a key benefit of using Docker Trusted Registry?",
+          "correctAnswer": "Role-based access control for image repositories",
+          "wrongAnswer1": "Automatic container scaling based on resource usage",
+          "wrongAnswer2": "Built-in container runtime environment",
+          "wrongAnswer3": "Direct integration with Docker Compose files",
+          "explanation": "Docker Trusted Registry provides role-based access control which allows administrators to control who can view, push, or pull images from repositories, enhancing security.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Docker Trusted Registry enhance security compared to public Docker registries?",
+          "correctAnswer": "By allowing organizations to host images internally with access controls",
+          "wrongAnswer1": "By providing free image hosting to all users",
+          "wrongAnswer2": "By automatically scanning containers for vulnerabilities at runtime",
+          "wrongAnswer3": "By replacing the need for container image signing",
+          "explanation": "With Docker Trusted Registry, organizations can keep container images on-premise or in private clouds, enforce access policies, and control distribution to ensure security compliance unlike public registries.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Cloud",
+      "questions": [
+        {
+          "question": "What is Docker Cloud primarily used for?",
+          "correctAnswer": "Managing and deploying Docker containers in a cloud environment",
+          "wrongAnswer1": "Creating virtual machines",
+          "wrongAnswer2": "Writing Dockerfile scripts",
+          "wrongAnswer3": "Managing databases",
+          "explanation": "Docker Cloud is a service that allows users to deploy, manage, and scale Dockerized applications in cloud environments, integrating container orchestration and deployment workflows.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature is a key benefit of using Docker Cloud?",
+          "correctAnswer": "Automated deployment and scaling of containers",
+          "wrongAnswer1": "Manual server provisioning",
+          "wrongAnswer2": "Static website hosting",
+          "wrongAnswer3": "Local container debugging",
+          "explanation": "Docker Cloud provides automation for deploying and scaling containerized applications, allowing easier management of clusters and services in the cloud.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Docker Cloud integrate with version control systems?",
+          "correctAnswer": "It connects to repositories to trigger automated builds and deployments",
+          "wrongAnswer1": "It replaces version control systems",
+          "wrongAnswer2": "It stores code backups",
+          "wrongAnswer3": "It provides code review tools",
+          "explanation": "Docker Cloud can link to GitHub, Bitbucket, or other repositories to automate building, testing, and deploying container images based on source code changes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Desktop",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Docker Desktop?",
+          "correctAnswer": "To provide a user-friendly environment for building and sharing containerized applications on a desktop",
+          "wrongAnswer1": "To serve as a server for running multiple virtual machines",
+          "wrongAnswer2": "To replace the operating system on a computer",
+          "wrongAnswer3": "To manage cloud resources directly",
+          "explanation": "Docker Desktop is designed to offer an easy-to-use interface and environment for developers to build, run, and share containerized applications directly on their desktop computers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which operating systems support Docker Desktop?",
+          "correctAnswer": "Windows and macOS",
+          "wrongAnswer1": "Only Linux",
+          "wrongAnswer2": "Windows and Linux only",
+          "wrongAnswer3": "All operating systems including mobile",
+          "explanation": "Docker Desktop is officially supported on Windows and macOS platforms to provide a seamless Docker experience on desktop computers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these features is included in Docker Desktop?",
+          "correctAnswer": "Kubernetes integration for container orchestration",
+          "wrongAnswer1": "Built-in code editor for software development",
+          "wrongAnswer2": "Database management system",
+          "wrongAnswer3": "Cloud hosting service",
+          "explanation": "Docker Desktop includes Kubernetes integration, allowing developers to run and manage Kubernetes clusters locally for container orchestration.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Data Volume Container",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Docker Data Volume Container?",
+          "correctAnswer": "To persist and share data between multiple Docker containers",
+          "wrongAnswer1": "To isolate the network configuration of containers",
+          "wrongAnswer2": "To build Docker images from Dockerfiles",
+          "wrongAnswer3": "To manage container orchestration and scaling",
+          "explanation": "A Docker Data Volume Container is used to persist data independent of the container's lifecycle and to share this data with other containers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does a Docker Data Volume Container help when containers are removed or recreated?",
+          "correctAnswer": "It keeps the data intact and available for new containers",
+          "wrongAnswer1": "It deletes all associated data along with the container",
+          "wrongAnswer2": "It automatically backs up data to the host machine",
+          "wrongAnswer3": "It merges data from all active containers",
+          "explanation": "Data stored in volume containers is preserved even if the container itself is deleted, making data persistent beyond container life.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which Docker command is used to create a Data Volume Container?",
+          "correctAnswer": "docker create -v /data --name datavolume busybox",
+          "wrongAnswer1": "docker run --network datavolume busybox",
+          "wrongAnswer2": "docker volume create datavolume",
+          "wrongAnswer3": "docker build -t datavolume .",
+          "explanation": "To create a Docker Data Volume Container, you typically use docker create with the -v option to specify the volume and assign the container a name.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Docker",
+      "concept": "Docker Image Layers",
+      "questions": [
+        {
+          "question": "What is a Docker image layer?",
+          "correctAnswer": "A layer is a read-only file representing a part of the Docker image's filesystem.",
+          "wrongAnswer1": "A layer is a running instance of a Docker container.",
+          "wrongAnswer2": "A layer is a network configuration of a Docker container.",
+          "wrongAnswer3": "A layer is the Dockerfile used to build an image.",
+          "explanation": "Docker image layers are read-only files that represent intermediate file changes in a Docker image's filesystem. They are stacked to form the final image.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do Docker image layers benefit the image building process?",
+          "correctAnswer": "They enable caching and reuse of unchanged layers to speed up builds.",
+          "wrongAnswer1": "They prevent images from being shared between hosts.",
+          "wrongAnswer2": "They increase the overall size of a Docker image drastically.",
+          "wrongAnswer3": "They automatically delete unused images from the system.",
+          "explanation": "By caching image layers, Docker can reuse layers that have not changed, making image builds faster and more efficient.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following statements about Docker image layers is true?",
+          "correctAnswer": "Each layer in a Docker image is stacked on top of previous layers to form a single unified filesystem.",
+          "wrongAnswer1": "Each layer acts as an independent and isolated container environment.",
+          "wrongAnswer2": "Layers are mutable and can be changed after the image is created.",
+          "wrongAnswer3": "Docker image layers do not share any filesystem data with each other.",
+          "explanation": "Docker image layers are stacked read-only filesystems that combine to form the image's filesystem, enabling efficient storage and sharing of layers.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

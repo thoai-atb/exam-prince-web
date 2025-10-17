@@ -1,10 +1,12 @@
 export default class FloorPlan {
   constructor({
+    id = null,
     name = "",
     color = null,
     doors = { north: false, south: false, east: false, west: false },
     question = null, // can hold a Question object or null
   } = {}) {
+    this.id = id ? id : Math.floor(Math.random() * 1e9);
     this.name = name;
     this.color = color;
     this.doors = { ...doors };
@@ -14,6 +16,7 @@ export default class FloorPlan {
   // Clone for immutability
   clone() {
     return new FloorPlan({
+      id: this.id,
       name: this.name,
       color: this.color,
       doors: { ...this.doors },
