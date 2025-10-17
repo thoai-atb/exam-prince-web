@@ -17,13 +17,16 @@ export default function Room({
 
   const debugClass = `loc-${row}-${col}`;
 
+  const widthClass = "w-16 aspect-square";
+
   // If not opened and not enterable, render empty space
-  if (!opened && !isEnterable) return <div className={`w-12 aspect-square ${debugClass}`} />;
-  if (!opened && isEnterable) return <div className={`w-12 aspect-square ${debugClass} ${borderClass} ${hoverEffect}`} onClick={() => onClick()} />;
+  if (!opened && !isEnterable) return <div className={`${widthClass} ${debugClass}`} />;
+  if (!opened && isEnterable) return <div className={`${widthClass} ${debugClass} ${borderClass} ${hoverEffect}`} onClick={() => onClick()} />;
 
   return (
     <FloorPlan
       floorplan={floorplan}
+      widthClass={widthClass}
       borderClass={borderClass}
       hoverEffect={hoverEffect}
       debugClass={debugClass}

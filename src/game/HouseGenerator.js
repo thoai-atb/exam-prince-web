@@ -1,59 +1,83 @@
 import FloorPlan from "./FloorPlan.js";
 
 export default class HouseGenerator {
-  constructor(rows, cols, poolSize = 100) {
+  constructor(rows, cols, poolSize = 100, questionsFile = null) {
     this.rows = rows;
     this.cols = cols;
+    this.pool = [];
 
-    // Pre-generate a pool of floorplans
-    this.pool = Array.from({ length: poolSize }, (_, i) =>
-      this.generateRandomFloorPlan(i)
-    );
+    if (questionsFile) {
+      // If a file path or data is provided, generate floorplans from it
+      this.loadFromQuestions(questionsFile);
+    } else {
+      // Default random pool
+      this.pool = Array.from({ length: poolSize }, (_, i) =>
+        this.generateRandomFloorPlan(i)
+      );
+    }
   }
 
-  static randomColor() {
-    const colors = [
-      "#0D9488", "#2563EB", "#DC2626", "#CA8A04",
-      "#7C3AED", "#BE185D", "#EA580C", "#4B5563",
-      "#49e01f", "#D9D5CA", "#30302f", "#B45309",
-    ];
-    return colors[Math.floor(Math.random() * colors.length)];
+  static randomColorFromString(str) {
+    // Simple hash to generate consistent color
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+      hash = str.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    const color = `hsl(${hash % 360}, 60%, 40%)`;
+    return color;
   }
 
-  static randomDoors() {
+  static randomDoorsFromString(str) {
+    const hash = str.split("").reduce((acc, c) => acc + c.charCodeAt(0), 0);
     return {
-      north: Math.random() < 0.5,
-      south: Math.random() < 0.5,
-      west: Math.random() < 0.5,
-      east: Math.random() < 0.5,
+      north: hash % 2 === 0,
+      south: (hash >> 1) % 2 === 0,
+      west: (hash >> 2) % 2 === 0,
+      east: (hash >> 3) % 2 === 0,
     };
   }
 
   generateRandomFloorPlan(index) {
     return new FloorPlan({
       name: `FP-${index}`,
-      color: HouseGenerator.randomColor(),
-      doors: HouseGenerator.randomDoors(),
+      color: HouseGenerator.randomColorFromString(`FP-${index}`),
+      doors: HouseGenerator.randomDoorsFromString(`FP-${index}`),
     });
   }
 
-  /**
-   * Return up to `count` valid floorplans without removing them
-   * @param {Object} mustConnect - {north, south, west, east} booleans
-   * @param {Number} row
-   * @param {Number} col
-   * @param {Number} count
-   * @returns Array of FloorPlans
-   */
+  loadFromQuestions(questionsFile) {
+    let data;
+    if (typeof questionsFile === "string") {
+      // If it's a path, require or fetch
+      data = require(questionsFile); // for local files in Node/webpack
+    } else {
+      data = questionsFile; // already parsed JSON
+    }
+
+    const concepts = data.concepts || [];
+    this.pool = concepts.map((concept, i) => {
+      const name = concept.concept;
+      const color = HouseGenerator.randomColorFromString(name);
+      const doors = HouseGenerator.randomDoorsFromString(name);
+
+      // Attach a question (pick one randomly from the concept)
+      const questions = concept.questions || [];
+      const question =
+        questions.length > 0
+          ? questions[Math.floor(Math.random() * questions.length)]
+          : null;
+
+      return new FloorPlan({ name, color, doors, question });
+    });
+  }
+
   draftValidFloorPlans(mustConnect = {}, row = 0, col = 0, count = 1) {
-    const validPool = this.pool.filter(fp => {
-      // Must have at least one required door
+    const validPool = this.pool.filter((fp) => {
       const hasConnection = Object.keys(mustConnect).some(
-        dir => mustConnect[dir] && fp.hasDoor(dir)
+        (dir) => mustConnect[dir] && fp.hasDoor(dir)
       );
       if (!hasConnection) return false;
 
-      // Must not have doors pointing outside the house
       if (row === 0 && fp.doors.north) return false;
       if (row === this.rows - 1 && fp.doors.south) return false;
       if (col === 0 && fp.doors.west) return false;
@@ -62,18 +86,12 @@ export default class HouseGenerator {
       return true;
     });
 
-    // Return up to `count` floorplans randomly
     const shuffled = validPool.sort(() => Math.random() - 0.5);
     return shuffled.slice(0, count);
   }
 
-  /**
-   * Removes the floorplan from the pool and returns it
-   * @param {String} floorplanName
-   * @returns FloorPlan
-   */
   useFloorPlan(floorplanName) {
-    const index = this.pool.findIndex(fp => fp.name === floorplanName);
+    const index = this.pool.findIndex((fp) => fp.name === floorplanName);
     if (index === -1) return null;
     const fp = this.pool[index];
     this.pool.splice(index, 1);

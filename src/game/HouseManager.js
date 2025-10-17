@@ -1,6 +1,7 @@
 import HouseGenerator from "./HouseGenerator.js";
 import FloorPlan from "./FloorPlan.js";
 import Room from "./Room.js";
+import LogicData from "../assets/Logic.json"; // import the JSON file
 
 export default class HouseManager {
   constructor(rows = 9, cols = 5, start = [8, 2]) {
@@ -8,7 +9,8 @@ export default class HouseManager {
     this.cols = cols;
     this.currentPosition = start;
 
-    this.generator = new HouseGenerator(rows, cols, 100);
+    // Pass the JSON data to HouseGenerator
+    this.generator = new HouseGenerator(rows, cols, 100, LogicData);
 
     // Initialize empty rooms
     this.rooms = Array.from({ length: rows }, (_, r) =>
@@ -32,7 +34,6 @@ export default class HouseManager {
     return () => this.listeners.delete(listener);
   }
 
-  // Notify all listeners of state change
   notify() {
     for (const fn of this.listeners) fn(this.getState());
   }
@@ -41,11 +42,12 @@ export default class HouseManager {
     const row = 8;
     const col = 2;
 
-    // Create a special FloorPlan for the entrance
+    // Use the topic name from Logic.json as the entrance floorplan name
     const entranceFloorPlan = new FloorPlan({
-      name: "Start",
-      color: "white",
+      name: LogicData.topic || "Start",
+      color: "#444444",
       doors: { north: true, south: true, west: true, east: true },
+      question: null,
     });
 
     const room = this.rooms[row][col];
@@ -57,7 +59,9 @@ export default class HouseManager {
 
   startOpenRoom(row, col) {
     if (this.openRoomRequest) {
-      throw new Error("Finish the previous openRoom request before opening a new room");
+      throw new Error(
+        "Finish the previous openRoom request before opening a new room"
+      );
     }
 
     const [cr, cc] = this.currentPosition;
@@ -68,17 +72,22 @@ export default class HouseManager {
       east: row === cr && col === cc - 1,
     };
 
-    const floorplans = this.generator.draftValidFloorPlans(mustConnect, row, col, 3);
+    const floorplans = this.generator.draftValidFloorPlans(
+      mustConnect,
+      row,
+      col,
+      3
+    );
     if (floorplans.length === 0) {
-      throw new Error(`No valid floorplans available for room at row ${row}, col ${col}`);
+      throw new Error(
+        `No valid floorplans available for room at row ${row}, col ${col}`
+      );
     }
 
-    // Store the full floorplan objects
     this.openRoomRequest = { row, col, floorplans };
-
     this.notify();
 
-    return floorplans.map(fp => fp.clone()); // Return copies for UI
+    return floorplans.map((fp) => fp.clone());
   }
 
   endOpenRoom(selectedFloorPlanName) {
@@ -88,30 +97,29 @@ export default class HouseManager {
 
     const { row, col, floorplans } = this.openRoomRequest;
 
-    // Find the selected floorplan object
-    const selectedFP = floorplans.find(fp => fp.name === selectedFloorPlanName);
+    const selectedFP = floorplans.find(
+      (fp) => fp.name === selectedFloorPlanName
+    );
     if (!selectedFP) {
-      throw new Error(`Selected floorplan ${selectedFloorPlanName} is not in the drafted options`);
+      throw new Error(
+        `Selected floorplan ${selectedFloorPlanName} is not in the drafted options`
+      );
     }
 
-    // Remove from generator pool and apply to the room
     const floorplan = this.generator.useFloorPlan(selectedFP.name);
     this.rooms[row][col].open(floorplan);
 
-    // Update position and enterable rooms
     this.markCurrent([row, col]);
     this.currentPosition = [row, col];
     this.updateEnterableRooms();
 
-    // Clear request
     this.openRoomRequest = null;
-
     this.notify();
   }
 
   markCurrent([r, c]) {
-    this.rooms = this.rooms.map(row =>
-      row.map(room => {
+    this.rooms = this.rooms.map((row) =>
+      row.map((room) => {
         const clone = room.clone();
         clone.setCurrent(false);
         return clone;
@@ -140,28 +148,29 @@ export default class HouseManager {
         let directionFromCurrent;
         let oppositeDirection;
         if (rowIndex === cr - 1 && colIndex === cc) {
-          directionFromCurrent = 'north';
-          oppositeDirection = 'south';
+          directionFromCurrent = "north";
+          oppositeDirection = "south";
         } else if (rowIndex === cr + 1 && colIndex === cc) {
-          directionFromCurrent = 'south';
-          oppositeDirection = 'north';
+          directionFromCurrent = "south";
+          oppositeDirection = "north";
         } else if (rowIndex === cr && colIndex === cc - 1) {
-          directionFromCurrent = 'west';
-          oppositeDirection = 'east';
+          directionFromCurrent = "west";
+          oppositeDirection = "east";
         } else if (rowIndex === cr && colIndex === cc + 1) {
-          directionFromCurrent = 'east';
-          oppositeDirection = 'west';
+          directionFromCurrent = "east";
+          oppositeDirection = "west";
         }
 
         const currentRoom = this.rooms[cr][cc];
 
-        const canEnter =
-          clone.opened
-            ? !clone.current
-            : currentRoom.hasDoor(directionFromCurrent);
+        const canEnter = clone.opened
+          ? !clone.current
+          : currentRoom.hasDoor(directionFromCurrent);
 
         const canWalk =
-          clone.opened && clone.hasDoor(oppositeDirection) && currentRoom.hasDoor(directionFromCurrent);
+          clone.opened &&
+          clone.hasDoor(oppositeDirection) &&
+          currentRoom.hasDoor(directionFromCurrent);
 
         clone.openable = !clone.opened && canEnter;
         clone.walkable = canWalk;
@@ -177,7 +186,7 @@ export default class HouseManager {
     if (!target.openable && !target.walkable) return false;
 
     if (!target.opened) {
-      this.startOpenRoom(newRow, newCol); // user should select floorplan next
+      this.startOpenRoom(newRow, newCol);
     } else {
       this.markCurrent([newRow, newCol]);
       this.currentPosition = [newRow, newCol];

@@ -1,0 +1,1655 @@
+{
+  "topic": "Terraform",
+  "concepts": [
+    {
+      "topic": "Terraform",
+      "concept": "Infrastructure as Code",
+      "questions": [
+        {
+          "question": "What does Infrastructure as Code (IaC) primarily help automate in Terraform?",
+          "correctAnswer": "Creation and management of cloud resources through code",
+          "wrongAnswer1": "Manual configuration of physical servers",
+          "wrongAnswer2": "Developing application software",
+          "wrongAnswer3": "Designing website layouts",
+          "explanation": "IaC uses code to define and manage infrastructure, enabling automation and consistency in resource provisioning with tools like Terraform.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an advantage of using Terraform for Infrastructure as Code?",
+          "correctAnswer": "Consistent and repeatable deployment of resources",
+          "wrongAnswer1": "Automatic code debugging",
+          "wrongAnswer2": "Real-time application performance monitoring",
+          "wrongAnswer3": "Editing source code of applications",
+          "explanation": "Terraform enables consistent, repeatable creation and management of infrastructure resources, which reduces manual errors and improves efficiency.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Terraform's Infrastructure as Code approach, what is the main purpose of a 'Terraform configuration file'?",
+          "correctAnswer": "To describe the desired state of infrastructure resources",
+          "wrongAnswer1": "To store the application executable files",
+          "wrongAnswer2": "To keep logs of user access",
+          "wrongAnswer3": "To record network traffic data",
+          "explanation": "The configuration file describes the desired state and properties of infrastructure which Terraform uses to provision resources accordingly.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Providers",
+      "questions": [
+        {
+          "question": "What is the primary role of a Terraform Provider?",
+          "correctAnswer": "To manage interaction with the APIs of external services and platforms.",
+          "wrongAnswer1": "To create user interfaces for Terraform configurations.",
+          "wrongAnswer2": "To store Terraform state files remotely.",
+          "wrongAnswer3": "To validate the syntax of Terraform configuration files.",
+          "explanation": "Terraform Providers are responsible for understanding API interactions with external services and managing resources by translating Terraform configurations into API calls.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is TRUE about Terraform Providers?",
+          "correctAnswer": "They are plugins that define resources and data sources for specific platforms or services.",
+          "wrongAnswer1": "They are used to execute Terraform commands.",
+          "wrongAnswer2": "They store the output of Terraform apply operations.",
+          "wrongAnswer3": "They automatically generate Terraform configuration files.",
+          "explanation": "Terraform Providers are plugins that define resources and data sources for specific platforms or services such as AWS, Azure, Google Cloud, etc. They do not execute commands or store outputs directly.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you specify a provider in a Terraform configuration file?",
+          "correctAnswer": "By using the 'provider' block inside the configuration file.",
+          "wrongAnswer1": "By running the 'terraform provider' CLI command.",
+          "wrongAnswer2": "By modifying the terraform.tfstate file directly.",
+          "wrongAnswer3": "By placing the provider binary in the working directory without configuration.",
+          "explanation": "In Terraform configurations, providers are specified using the 'provider' block to configure settings related to that provider, such as credentials and region.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Modules",
+      "questions": [
+        {
+          "question": "What is the primary purpose of using modules in Terraform?",
+          "correctAnswer": "To encapsulate and reuse configuration code",
+          "wrongAnswer1": "To speed up the deployment process by parallel execution",
+          "wrongAnswer2": "To create isolated environments automatically",
+          "wrongAnswer3": "To monitor resources during deployment",
+          "explanation": "Terraform modules are used to encapsulate and reuse configuration code, making it easier to manage and organize infrastructure as code.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you call a module in a Terraform configuration?",
+          "correctAnswer": "By using the 'module' block with the source attribute",
+          "wrongAnswer1": "By importing with 'import module' statement",
+          "wrongAnswer2": "By defining it inline using 'module {}' without any source",
+          "wrongAnswer3": "By referencing it directly like a variable",
+          "explanation": "Modules in Terraform are called using the 'module' block along with a 'source' attribute that points to the module's location.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is NOT a valid source for a Terraform module?",
+          "correctAnswer": "Ansible Playbooks",
+          "wrongAnswer1": "Local directory",
+          "wrongAnswer2": "GitHub repository",
+          "wrongAnswer3": "Terraform Registry",
+          "explanation": "Terraform modules can be sourced from local directories, Git repositories, or the Terraform Registry, but Ansible Playbooks are unrelated to Terraform modules.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform State",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Terraform state file?",
+          "correctAnswer": "To keep track of the infrastructure resources managed by Terraform",
+          "wrongAnswer1": "To store Terraform configuration files",
+          "wrongAnswer2": "To execute Terraform commands",
+          "wrongAnswer3": "To backup cloud resources",
+          "explanation": "The Terraform state file records information about the infrastructure resources it manages, enabling Terraform to track resource changes and dependencies for future operations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Where is the Terraform state file typically stored by default?",
+          "correctAnswer": "Locally on the user's machine",
+          "wrongAnswer1": "In the cloud provider's console",
+          "wrongAnswer2": "On GitHub",
+          "wrongAnswer3": "In a Kubernetes cluster",
+          "explanation": "By default, Terraform stores the state file locally on the user's machine, but it is often recommended to store it remotely for team environments.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why might a team choose to use a remote backend for Terraform state storage?",
+          "correctAnswer": "To enable state sharing and collaboration among team members",
+          "wrongAnswer1": "To reduce Terraform configuration size",
+          "wrongAnswer2": "To speed up Terraform apply operations",
+          "wrongAnswer3": "To avoid using Terraform CLI",
+          "explanation": "Using a remote backend allows multiple team members to access and modify the state safely, preventing conflicts and improving collaboration.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "HashiCorp Configuration Language",
+      "questions": [
+        {
+          "question": "What is the primary purpose of HashiCorp Configuration Language (HCL) in Terraform?",
+          "correctAnswer": "To define infrastructure as code in a human-readable format",
+          "wrongAnswer1": "To execute Terraform commands",
+          "wrongAnswer2": "To monitor cloud resources",
+          "wrongAnswer3": "To compile application code",
+          "explanation": "HCL is designed to define infrastructure in a simple and readable way, making it easier for users to write and maintain Terraform configurations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes the syntax style of HashiCorp Configuration Language (HCL)?",
+          "correctAnswer": "A JSON-like syntax that is designed to be both machine and human-friendly",
+          "wrongAnswer1": "A purely XML-based markup language",
+          "wrongAnswer2": "A programming language with complex control structures",
+          "wrongAnswer3": "A binary encoded language for faster parsing",
+          "explanation": "HCL is designed with a syntax resembling JSON but optimized for readability and ease of writing, striking a balance between human-friendly and machine-readable formats.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In Terraform configurations written in HCL, what is the purpose of a 'resource' block?",
+          "correctAnswer": "To define infrastructure components like servers, databases, and networks",
+          "wrongAnswer1": "To install Terraform plugins",
+          "wrongAnswer2": "To configure user permissions",
+          "wrongAnswer3": "To manage Terraform state files",
+          "explanation": "A 'resource' block in HCL specifies a piece of infrastructure, detailing its type and properties in the Terraform configuration.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Plan",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the 'terraform plan' command?",
+          "correctAnswer": "To create an execution plan showing what actions Terraform will take to achieve the desired state.",
+          "wrongAnswer1": "To apply the changes directly to the infrastructure without preview.",
+          "wrongAnswer2": "To destroy the existing infrastructure immediately.",
+          "wrongAnswer3": "To configure the Terraform backend settings.",
+          "explanation": "The 'terraform plan' command generates an execution plan that previews changes Terraform will make to the infrastructure based on the current configuration and state, without making any actual changes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following outcomes is NOT a result of running 'terraform plan'?",
+          "correctAnswer": "It modifies live infrastructure immediately.",
+          "wrongAnswer1": "It shows a summary of proposed infrastructure changes.",
+          "wrongAnswer2": "It helps detect configuration errors before applying changes.",
+          "wrongAnswer3": "It creates a plan file that can be used later by 'terraform apply'.",
+          "explanation": "'terraform plan' only generates and shows the proposed changes without modifying any real infrastructure resources until 'terraform apply' is run.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can you save the output of 'terraform plan' for later application?",
+          "correctAnswer": "By using the '-out' option to save the plan to a file.",
+          "wrongAnswer1": "By redirecting the output to a .txt file using shell redirection.",
+          "wrongAnswer2": "By running 'terraform apply' immediately after 'terraform plan'.",
+          "wrongAnswer3": "By exporting the plan to JSON format using '-json' and applying from that directly.",
+          "explanation": "Using the '-out' option lets you save the generated plan to a binary file, which can then be applied exactly as planned using 'terraform apply <filename>'. Redirecting output text does not preserve the plan for future application.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Apply",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the 'terraform apply' command?",
+          "correctAnswer": "To apply changes required to reach the desired state of the configuration",
+          "wrongAnswer1": "To only generate an execution plan without making changes",
+          "wrongAnswer2": "To destroy all existing infrastructure",
+          "wrongAnswer3": "To initialize a Terraform working directory",
+          "explanation": "The 'terraform apply' command is used to apply the changes defined in the Terraform configuration to the target infrastructure, effectively bringing it to the desired state.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Before running 'terraform apply', which command is commonly run to preview changes?",
+          "correctAnswer": "terraform plan",
+          "wrongAnswer1": "terraform init",
+          "wrongAnswer2": "terraform destroy",
+          "wrongAnswer3": "terraform validate",
+          "explanation": "The 'terraform plan' command shows what changes Terraform intends to make, allowing users to review them before applying with 'terraform apply'.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens if you use 'terraform apply' without specifying a plan file?",
+          "correctAnswer": "Terraform will create and apply a new execution plan directly",
+          "wrongAnswer1": "Terraform will fail and prompt you to specify a plan file",
+          "wrongAnswer2": "Terraform will destroy all resources immediately",
+          "wrongAnswer3": "Terraform will only validate the configuration without making changes",
+          "explanation": "When no plan file is specified, 'terraform apply' automatically generates a plan and then applies it in one step.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Destroy",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the 'terraform destroy' command?",
+          "correctAnswer": "To delete all resources defined in the Terraform configuration",
+          "wrongAnswer1": "To create all resources defined in the Terraform configuration",
+          "wrongAnswer2": "To update resources to match the configuration",
+          "wrongAnswer3": "To plan changes without applying them",
+          "explanation": "'terraform destroy' is used to delete all the infrastructure resources managed by your Terraform configuration, effectively tearing down the deployment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a true effect of running 'terraform destroy' on your infrastructure?",
+          "correctAnswer": "It removes all the resources that Terraform manages",
+          "wrongAnswer1": "It archives the current state without making changes",
+          "wrongAnswer2": "It only removes resources that were manually added outside Terraform",
+          "wrongAnswer3": "It backs up your resources to a remote location",
+          "explanation": "Running 'terraform destroy' removes the resources that Terraform is managing according to the state file and configuration. It does not archive, back up, or selectively remove resources.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Before running 'terraform destroy', which best practice should be followed?",
+          "correctAnswer": "Review the plan output using 'terraform plan -destroy'",
+          "wrongAnswer1": "Directly execute 'terraform destroy' without checks",
+          "wrongAnswer2": "Manually delete resources in the cloud provider console first",
+          "wrongAnswer3": "Ignore the state file to avoid errors",
+          "explanation": "It is recommended to review the destruction plan using 'terraform plan -destroy' before executing 'terraform destroy' to understand what resources will be deleted.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Workspace",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Terraform workspace?",
+          "correctAnswer": "To manage multiple state files for different environments within the same configuration",
+          "wrongAnswer1": "To increase the speed of Terraform apply operations",
+          "wrongAnswer2": "To store Terraform provider plugins",
+          "wrongAnswer3": "To automatically generate Terraform modules",
+          "explanation": "Terraform workspaces allow you to maintain multiple state files, enabling you to manage different environments (e.g., development, staging, production) using the same Terraform configuration code.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do Terraform workspaces affect state management?",
+          "correctAnswer": "Each workspace has its own separate state file, isolating environment states.",
+          "wrongAnswer1": "All workspaces share a single state file.",
+          "wrongAnswer2": "Workspaces only affect variables, not state files.",
+          "wrongAnswer3": "Workspaces synchronize state files across all environments.",
+          "explanation": "Terraform workspaces allow you to have isolated state files for each workspace. This way, you can manage resources separately across different environments without interference.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What command is used to create a new Terraform workspace?",
+          "correctAnswer": "terraform workspace new <workspace-name>",
+          "wrongAnswer1": "terraform create workspace <workspace-name>",
+          "wrongAnswer2": "terraform new workspace <workspace-name>",
+          "wrongAnswer3": "terraform workspace create <workspace-name>",
+          "explanation": "The correct command to create a new workspace in Terraform is `terraform workspace new <workspace-name>`. This command initializes a new workspace with its own state file.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Backend",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Terraform backend?",
+          "correctAnswer": "To store state files remotely and enable collaboration",
+          "wrongAnswer1": "To execute Terraform plans automatically",
+          "wrongAnswer2": "To create and manage Terraform modules",
+          "wrongAnswer3": "To define provider configurations",
+          "explanation": "Terraform backends allow storing state files remotely so multiple users can collaborate and maintain the state consistently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a type of Terraform backend?",
+          "correctAnswer": "Terraform Module Backend",
+          "wrongAnswer1": "S3 Backend",
+          "wrongAnswer2": "Azure Blob Storage Backend",
+          "wrongAnswer3": "Consul Backend",
+          "explanation": "There is no Terraform Module Backend type. Common backends include S3, Azure Blob Storage, Consul, and others for storing state files.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why would you configure a remote backend in Terraform?",
+          "correctAnswer": "To enable team collaboration and maintain a single source of truth for state files",
+          "wrongAnswer1": "To speed up Terraform plan execution",
+          "wrongAnswer2": "To reduce the size of Terraform configuration files",
+          "wrongAnswer3": "To automate resource provisioning",
+          "explanation": "Remote backends allow multiple users to share the state file securely and prevent state conflicts, facilitating team collaboration.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Variables",
+      "questions": [
+        {
+          "question": "What is the primary purpose of variables in Terraform?",
+          "correctAnswer": "To make configurations more flexible and reusable",
+          "wrongAnswer1": "To execute Terraform commands",
+          "wrongAnswer2": "To store Terraform binary files",
+          "wrongAnswer3": "To provide a user interface for Terraform",
+          "explanation": "Terraform variables allow you to parameterize configurations, making them adaptable and reusable for different environments or scenarios.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you define a variable in a Terraform configuration file?",
+          "correctAnswer": "Using the 'variable' block with a name and optional configuration",
+          "wrongAnswer1": "Using the 'resource' block with a variable type",
+          "wrongAnswer2": "Using the 'provider' block with variable attributes",
+          "wrongAnswer3": "By setting environment variables only",
+          "explanation": "Variables in Terraform are defined with the 'variable' block, specifying a name and optionally a type, default value, and description.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method can be used to assign a value to a Terraform variable during execution?",
+          "correctAnswer": "Passing a value with the '-var' command line option",
+          "wrongAnswer1": "Modifying the variable block inside the Terraform binary",
+          "wrongAnswer2": "Editing environment variables only with specific Terraform commands",
+          "wrongAnswer3": "Directly changing the Terraform state file",
+          "explanation": "Terraform variables can be assigned values at runtime using the '-var' option followed by the variable name and value. This lets users override defaults without changing code files.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Outputs",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Terraform outputs?",
+          "correctAnswer": "To display or export values from your Terraform configurations.",
+          "wrongAnswer1": "To define the infrastructure resources.",
+          "wrongAnswer2": "To initialize the Terraform working directory.",
+          "wrongAnswer3": "To manage Terraform state files.",
+          "explanation": "Terraform outputs are used to display or export useful information from Terraform configurations, such as IP addresses, resource IDs, or other computed values after resources are created.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you define an output value in a Terraform configuration?",
+          "correctAnswer": "Using an output block with a value attribute, e.g., output \"example\" { value = resource.attribute }",
+          "wrongAnswer1": "Using a variable block with default attribute.",
+          "wrongAnswer2": "Within the resource block under attribute.",
+          "wrongAnswer3": "Using a provider block with outputs defined.",
+          "explanation": "Terraform output values are defined with an output block that contains a value attribute specifying the value to be exported or displayed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command would you use to view all the outputs after applying your Terraform configuration?",
+          "correctAnswer": "terraform output",
+          "wrongAnswer1": "terraform show",
+          "wrongAnswer2": "terraform apply",
+          "wrongAnswer3": "terraform init",
+          "explanation": "The command `terraform output` is used to display the outputs defined in the Terraform state after resources have been applied.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Resources",
+      "questions": [
+        {
+          "question": "What is a Terraform resource?",
+          "correctAnswer": "A component managed by Terraform which corresponds to an object in an infrastructure provider",
+          "wrongAnswer1": "A variable storing user input values",
+          "wrongAnswer2": "A module grouping multiple configurations",
+          "wrongAnswer3": "A state file storing resource information",
+          "explanation": "A Terraform resource defines infrastructure objects that Terraform manages, such as computing instances or DNS records.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you define a resource in a Terraform configuration?",
+          "correctAnswer": "Using the `resource` block with a type and name, specifying its arguments",
+          "wrongAnswer1": "Using a `variable` block with type and value",
+          "wrongAnswer2": "Using a `provider` block with resource type",
+          "wrongAnswer3": "Using an `output` block",
+          "explanation": "Resources are declared using the `resource` keyword followed by the resource type and a name identifier, along with configuration attributes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command will Terraform use to create or update resources defined in the configuration?",
+          "correctAnswer": "terraform apply",
+          "wrongAnswer1": "terraform init",
+          "wrongAnswer2": "terraform destroy",
+          "wrongAnswer3": "terraform validate",
+          "explanation": "The `terraform apply` command is used to apply changes, creating or updating resources according to the configuration.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Data Sources",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Terraform Data Sources?",
+          "correctAnswer": "To fetch information defined outside of Terraform or in another Terraform configuration",
+          "wrongAnswer1": "To create new infrastructure resources",
+          "wrongAnswer2": "To define variables in Terraform modules",
+          "wrongAnswer3": "To manage state files",
+          "explanation": "Terraform Data Sources allow you to fetch or compute data from external sources or from resources managed outside of your current configuration, which can then be used to configure your infrastructure.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of a Terraform Data Source?",
+          "correctAnswer": "aws_ami",
+          "wrongAnswer1": "aws_instance",
+          "wrongAnswer2": "module",
+          "wrongAnswer3": "terraform_backend",
+          "explanation": "The aws_ami data source is used to fetch information about an Amazon Machine Image. It is a classic example of a Terraform Data Source, whereas aws_instance is a resource, module is a container for resources, and terraform_backend manages state storage.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do Terraform Data Sources affect the lifecycle of your Terraform-managed infrastructure?",
+          "correctAnswer": "They do not create or manage infrastructure but provide data used for configuration.",
+          "wrongAnswer1": "They create infrastructure resources that must be destroyed manually.",
+          "wrongAnswer2": "They automatically update state files when the external data changes.",
+          "wrongAnswer3": "They deploy resources in parallel with resource creation.",
+          "explanation": "Terraform Data Sources only retrieve data for use within configurations; they do not manage the lifecycle of infrastructure resources themselves.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Interpolation",
+      "questions": [
+        {
+          "question": "What is the primary purpose of interpolation in Terraform configuration files?",
+          "correctAnswer": "To insert the value of variables, resources, or expressions within strings.",
+          "wrongAnswer1": "To execute shell commands directly in the configuration file.",
+          "wrongAnswer2": "To format the output of Terraform commands.",
+          "wrongAnswer3": "To compile Terraform configurations into binaries.",
+          "explanation": "Interpolation in Terraform is used to insert dynamic values like variables, attributes of resources, or expressions directly within strings to generate configuration values dynamically.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which syntax is used to perform interpolation in Terraform?",
+          "correctAnswer": "${expression}",
+          "wrongAnswer1": "{{ expression }}",
+          "wrongAnswer2": "$(expression)",
+          "wrongAnswer3": "#expression#",
+          "explanation": "Terraform uses ${...} syntax for interpolation to evaluate expressions and insert their values into strings.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Terraform, what will the expression \"${var.instance_count}\" typically return?",
+          "correctAnswer": "The value of the variable named instance_count.",
+          "wrongAnswer1": "The string literal \"var.instance_count\".",
+          "wrongAnswer2": "An error because var.instance_count is invalid syntax.",
+          "wrongAnswer3": "The name of the variable instance_count without its value.",
+          "explanation": "Using ${var.instance_count} references the value assigned to the variable instance_count and interpolates it into the string or configuration.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Remote State",
+      "questions": [
+        {
+          "question": "What is the primary purpose of using remote state in Terraform?",
+          "correctAnswer": "To store the Terraform state file in a shared, remote location for collaboration and state management",
+          "wrongAnswer1": "To speed up Terraform plan and apply operations",
+          "wrongAnswer2": "To store Terraform configurations",
+          "wrongAnswer3": "To automatically version control Terraform modules",
+          "explanation": "Remote state in Terraform is mainly used to store the state file remotely so multiple team members can collaborate and Terraform can maintain state consistency.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following backends is commonly used to store Terraform remote state?",
+          "correctAnswer": "Amazon S3",
+          "wrongAnswer1": "GitHub",
+          "wrongAnswer2": "Docker Hub",
+          "wrongAnswer3": "Jenkins",
+          "explanation": "Amazon S3 is a common backend used for storing Terraform remote state due to its durability and accessibility, enabling collaboration and locking features with additional tools like DynamoDB.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a critical feature provided when using remote state with locking enabled?",
+          "correctAnswer": "Prevents concurrent Terraform operations that could corrupt state",
+          "wrongAnswer1": "Encrypts Terraform state file for security",
+          "wrongAnswer2": "Automatically converts state to JSON",
+          "wrongAnswer3": "Allows Terraform to run without credentials",
+          "explanation": "State locking prevents concurrent modifications to the remote state, avoiding conflicts and state corruption during parallel Terraform runs.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Locking",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Terraform state locking?",
+          "correctAnswer": "To prevent concurrent modifications to the state file",
+          "wrongAnswer1": "To speed up the deployment process",
+          "wrongAnswer2": "To backup the state file automatically",
+          "wrongAnswer3": "To encrypt the state file contents",
+          "explanation": "Terraform state locking is mainly used to prevent multiple users or processes from making concurrent changes to the Terraform state file, which can cause corruption or inconsistent infrastructure.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which backend type in Terraform inherently supports state locking when storing state remotely?",
+          "correctAnswer": "Amazon S3 backend with DynamoDB for locking",
+          "wrongAnswer1": "Local backend",
+          "wrongAnswer2": "HTTP backend without locking support",
+          "wrongAnswer3": "Terraform Cloud backend without locking",
+          "explanation": "The Amazon S3 backend can be configured with DynamoDB to provide state locking to avoid concurrent state modifications. Local backend does not support locking, and HTTP backend needs additional setup for locking. Terraform Cloud supports locking by default.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens if Terraform detects that the state is locked when you run a command?",
+          "correctAnswer": "Terraform will wait for the lock to be released or fail after a timeout",
+          "wrongAnswer1": "Terraform ignores the lock and proceeds",
+          "wrongAnswer2": "Terraform deletes the lock and continues",
+          "wrongAnswer3": "Terraform automatically unlocks the state and proceeds",
+          "explanation": "If Terraform detects a locked state, it will wait until the lock is released or timeout occurs, preventing concurrent operations that could corrupt the state.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Provisioners",
+      "questions": [
+        {
+          "question": "What is the primary purpose of provisioners in Terraform?",
+          "correctAnswer": "To execute scripts or commands on a local or remote machine as part of resource creation or destruction",
+          "wrongAnswer1": "To manage infrastructure state files",
+          "wrongAnswer2": "To define cloud resources and their configurations",
+          "wrongAnswer3": "To plan infrastructure changes without applying them",
+          "explanation": "Terraform provisioners are used to execute scripts or commands on local or remote machines during the creation or destruction of resources, helping with bootstrapping or configuration tasks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which provisioner in Terraform would you use to execute a script on a remote machine via SSH?",
+          "correctAnswer": "remote-exec",
+          "wrongAnswer1": "local-exec",
+          "wrongAnswer2": "file",
+          "wrongAnswer3": "null_resource",
+          "explanation": "The remote-exec provisioner runs commands on a remote resource via SSH or WinRM, making it suitable for remote script execution.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why are Terraform provisioners generally recommended to be used as a last resort?",
+          "correctAnswer": "Because they can introduce complexity and reliability issues, and do not guarantee idempotency",
+          "wrongAnswer1": "Because they are required for all resource types to work",
+          "wrongAnswer2": "Because they replace Terraform resource definitions",
+          "wrongAnswer3": "Because they automatically handle all errors during deployment",
+          "explanation": "Provisioners can cause complications because their execution depends on resource creation success and may fail or produce inconsistent states, so Terraform recommends avoiding them when possible.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Lifecycle",
+      "questions": [
+        {
+          "question": "What is the main purpose of the 'create_before_destroy' lifecycle meta-argument in Terraform?",
+          "correctAnswer": "To create the new resource before destroying the old one to avoid downtime",
+          "wrongAnswer1": "To destroy the resource before creating a new one",
+          "wrongAnswer2": "To ensure the resource is never destroyed",
+          "wrongAnswer3": "To skip creation if the resource already exists",
+          "explanation": "The 'create_before_destroy' lifecycle meta-argument tells Terraform to create a replacement resource before destroying the existing one, which helps in avoiding downtime during resource replacement.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which lifecycle meta-argument would you use if you want Terraform to ignore changes to a specific attribute after the initial resource creation?",
+          "correctAnswer": "ignore_changes",
+          "wrongAnswer1": "prevent_destroy",
+          "wrongAnswer2": "create_before_destroy",
+          "wrongAnswer3": "replace_triggered_by",
+          "explanation": "The 'ignore_changes' meta-argument instructs Terraform to ignore changes to specified resource attributes in future runs, preventing Terraform from updating the resource based on those attributes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "If you want to prevent a resource from being accidentally destroyed in Terraform, which lifecycle attribute should you use?",
+          "correctAnswer": "prevent_destroy",
+          "wrongAnswer1": "create_before_destroy",
+          "wrongAnswer2": "ignore_changes",
+          "wrongAnswer3": "replace_triggered_by",
+          "explanation": "The 'prevent_destroy' lifecycle meta-argument prevents Terraform from destroying a resource, helping to avoid accidental deletion of important infrastructure.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Expressions",
+      "questions": [
+        {
+          "question": "What is the primary use of expressions in Terraform?",
+          "correctAnswer": "To compute values dynamically during configuration processing",
+          "wrongAnswer1": "To define resource dependencies explicitly",
+          "wrongAnswer2": "To store static configuration data",
+          "wrongAnswer3": "To manage provider versions",
+          "explanation": "Terraform expressions allow users to compute values dynamically based on variables, resource attributes, and functions during the configuration evaluation phase.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a valid Terraform expression?",
+          "correctAnswer": "${var.instance_count * 2}",
+          "wrongAnswer1": "${instance_count +}",
+          "wrongAnswer2": "instance_count *",
+          "wrongAnswer3": "var[\"instance_count\"] *",
+          "explanation": "In Terraform, expressions use '${}' syntax to interpolate variables and compute values. '${var.instance_count * 2}' is a valid expression multiplying the variable 'instance_count' by 2.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Terraform expressions, which operator would you use to concatenate two strings?",
+          "correctAnswer": "${\"Hello, \"  ~ \"World!\"}",
+          "wrongAnswer1": "${\"Hello, \" + \"World!\"}",
+          "wrongAnswer2": "${concat(\"Hello, \", \"World!\")}",
+          "wrongAnswer3": "${\"Hello, \" & \"World!\"}",
+          "explanation": "Terraform uses the tilde (~) operator for string concatenation, so '${\"Hello, \"  ~ \"World!\"}' is correct syntax.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform State Management",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Terraform state files?",
+          "correctAnswer": "To keep track of resources managed by Terraform and their current state",
+          "wrongAnswer1": "To store Terraform configuration files",
+          "wrongAnswer2": "To backup the entire infrastructure setup",
+          "wrongAnswer3": "To list available Terraform providers",
+          "explanation": "Terraform state files are used to map real-world resources to your configuration and keep track of metadata needed for efficient resource management.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which backend type is commonly used to store Terraform state files remotely for team collaboration?",
+          "correctAnswer": "Terraform Cloud or remote storage like AWS S3",
+          "wrongAnswer1": "Local file system only",
+          "wrongAnswer2": "Docker containers",
+          "wrongAnswer3": "Terraform configuration files",
+          "explanation": "Remote backends, such as Terraform Cloud or AWS S3, are used to store state files remotely to enable collaboration and locking to prevent conflicts.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Terraform handle state locking and why is it important?",
+          "correctAnswer": "It locks the state during operations to prevent concurrent changes that might cause state corruption",
+          "wrongAnswer1": "It encrypts the state file to enhance security",
+          "wrongAnswer2": "It automatically deletes old state files after each apply",
+          "wrongAnswer3": "It backs up state files to multiple locations",
+          "explanation": "State locking is crucial for preventing race conditions when multiple users run Terraform simultaneously, ensuring state consistency.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform CLI",
+      "questions": [
+        {
+          "question": "What command is used to initialize a new or existing Terraform configuration?",
+          "correctAnswer": "terraform init",
+          "wrongAnswer1": "terraform start",
+          "wrongAnswer2": "terraform apply",
+          "wrongAnswer3": "terraform configure",
+          "explanation": "The command 'terraform init' initializes a working directory containing Terraform configuration files. It sets up the backend and installs necessary provider plugins.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Terraform CLI command is used to create or update infrastructure managed by Terraform?",
+          "correctAnswer": "terraform apply",
+          "wrongAnswer1": "terraform plan",
+          "wrongAnswer2": "terraform destroy",
+          "wrongAnswer3": "terraform validate",
+          "explanation": "'terraform apply' executes the actions proposed in the Terraform configuration to create or modify infrastructure resources.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the 'terraform plan' command do?",
+          "correctAnswer": "It creates an execution plan showing what actions Terraform will take to reach the desired state.",
+          "wrongAnswer1": "It applies the configuration changes to the infrastructure.",
+          "wrongAnswer2": "It initializes the configuration directory.",
+          "wrongAnswer3": "It deletes all the resources managed by Terraform.",
+          "explanation": "The 'terraform plan' command generates and shows an execution plan that explains what actions Terraform will perform to achieve the desired state defined in the configuration before making any changes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Graph",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the 'terraform graph' command?",
+          "correctAnswer": "To generate a visual representation of resource dependencies in a Terraform configuration",
+          "wrongAnswer1": "To list all available Terraform providers",
+          "wrongAnswer2": "To initialize the Terraform working directory",
+          "wrongAnswer3": "To apply changes to infrastructure",
+          "explanation": "'terraform graph' generates a visual graph of the dependency relationships between resources defined in your Terraform configuration, helping to understand resource dependencies and build order.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which format does 'terraform graph' output by default?",
+          "correctAnswer": "DOT format",
+          "wrongAnswer1": "JSON format",
+          "wrongAnswer2": "YAML format",
+          "wrongAnswer3": "XML format",
+          "explanation": "The 'terraform graph' command outputs the resource dependency graph in DOT format, which can be processed by graph visualization tools like Graphviz.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can the output of 'terraform graph' be used effectively?",
+          "correctAnswer": "By piping it into graph visualization software like Graphviz to visualize resource dependencies",
+          "wrongAnswer1": "By using it directly as a Terraform configuration file",
+          "wrongAnswer2": "By importing it into a database for resource state analysis",
+          "wrongAnswer3": "By using it as a command to deploy infrastructure",
+          "explanation": "The DOT format output of 'terraform graph' can be visualized by tools like Graphviz, which helps in understanding complex resource dependencies and planning changes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Import",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the 'terraform import' command?",
+          "correctAnswer": "To bring existing infrastructure resources under Terraform management",
+          "wrongAnswer1": "To create new infrastructure resources using Terraform",
+          "wrongAnswer2": "To update existing Terraform configurations",
+          "wrongAnswer3": "To destroy infrastructure resources with Terraform",
+          "explanation": "The 'terraform import' command is used to import existing external infrastructure resources into Terraform's state, allowing Terraform to manage resources that were created outside of Terraform.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which file does 'terraform import' primarily affect when you import a resource?",
+          "correctAnswer": "Terraform state file",
+          "wrongAnswer1": "Terraform configuration file (.tf)",
+          "wrongAnswer2": "Terraform variable definition file (.tfvars)",
+          "wrongAnswer3": "Terraform output file",
+          "explanation": "'terraform import' adds the existing resource to the Terraform state file. It does not modify the .tf files; you must manually update configuration files if necessary.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "After using 'terraform import' to import a resource, what must a user do to avoid configuration drift?",
+          "correctAnswer": "Manually add the corresponding resource block to the Terraform configuration files",
+          "wrongAnswer1": "Run 'terraform apply' without modifying configuration",
+          "wrongAnswer2": "Run 'terraform destroy' to remove the imported resource",
+          "wrongAnswer3": "Execute 'terraform refresh' only",
+          "explanation": "Importing a resource updates the Terraform state but does not automatically update configuration files. To avoid configuration drift, you need to manually add the resource block in the Terraform configuration that matches the imported resource.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Validation",
+      "questions": [
+        {
+          "question": "What is the purpose of validation rules in Terraform?",
+          "correctAnswer": "To ensure input variables meet specific criteria before provisioning resources.",
+          "wrongAnswer1": "To automatically fix configuration errors during deployment.",
+          "wrongAnswer2": "To optimize the performance of Terraform state files.",
+          "wrongAnswer3": "To encrypt sensitive output variables for security.",
+          "explanation": "Validation rules in Terraform are used to validate input variables against specified conditions to prevent invalid data from causing deployment issues.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Terraform feature allows you to specify custom validation logic for variables?",
+          "correctAnswer": "The variable validation block using 'validation' with 'condition' and 'error_message'.",
+          "wrongAnswer1": "Provisioners attached to resources.",
+          "wrongAnswer2": "Backend configuration settings.",
+          "wrongAnswer3": "Terraform workspaces.",
+          "explanation": "Terraform enables custom validation logic within the variable block using the 'validation' nested block, which contains a 'condition' expression and an 'error_message' to display if the condition is not met.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "When does Terraform validate the variable values based on the validation rules you define?",
+          "correctAnswer": "During the plan and apply phases, before resource provisioning.",
+          "wrongAnswer1": "Only after resources have been created.",
+          "wrongAnswer2": "Only when you run 'terraform validate'.",
+          "wrongAnswer3": "During the terraform init phase.",
+          "explanation": "Terraform checks the variable validation rules during the plan and apply phases to ensure all inputs comply before creating or modifying resources, preventing runtime errors.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Cloud",
+      "questions": [
+        {
+          "question": "What is Terraform Cloud primarily used for?",
+          "correctAnswer": "To manage infrastructure as code with collaboration and automation features",
+          "wrongAnswer1": "For hosting websites and web applications",
+          "wrongAnswer2": "To replace Terraform CLI for local infrastructure management",
+          "wrongAnswer3": "As a cloud service provider like AWS or Azure",
+          "explanation": "Terraform Cloud is a SaaS offering that focuses on infrastructure as code management allowing teams to collaborate, run Terraform runs remotely, and manage state and variables securely.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature does Terraform Cloud provide to help teams collaborate on infrastructure deployments?",
+          "correctAnswer": "Remote state management and version control integration",
+          "wrongAnswer1": "Direct access to cloud provider dashboards",
+          "wrongAnswer2": "Automated application deployment to Kubernetes clusters",
+          "wrongAnswer3": "Built-in machine learning models for resource optimization",
+          "explanation": "Terraform Cloud allows teams to store Terraform state files remotely, integrates with version control systems, and supports collaboration on Terraform configurations to avoid state conflicts.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is NOT a feature of Terraform Cloud?",
+          "correctAnswer": "Hosting virtual machines for workloads",
+          "wrongAnswer1": "Policy as Code with Sentinel integration",
+          "wrongAnswer2": "Terraform runs triggered by VCS changes",
+          "wrongAnswer3": "Secure variable storage and management",
+          "explanation": "Terraform Cloud manages infrastructure deployment workflows and policy enforcement but does not provide computing resources like hosting virtual machines.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Enterprise",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Terraform Enterprise?",
+          "correctAnswer": "To provide a collaborative and secure environment for managing Terraform workflows at scale.",
+          "wrongAnswer1": "To replace Terraform CLI for local development.",
+          "wrongAnswer2": "To act as a cloud service for hosting Terraform configurations only.",
+          "wrongAnswer3": "To provide an alternative language to write infrastructure as code.",
+          "explanation": "Terraform Enterprise is designed to enable teams to collaborate on Terraform projects with enhanced security, governance, and automation features, unlike the CLI which is for local use.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature is unique to Terraform Enterprise compared to the open-source Terraform CLI?",
+          "correctAnswer": "Policy as Code enforcement with Sentinel integration.",
+          "wrongAnswer1": "Ability to create infrastructure resources.",
+          "wrongAnswer2": "Executing Terraform plan and apply commands.",
+          "wrongAnswer3": "Writing Terraform configuration files.",
+          "explanation": "Terraform Enterprise provides advanced governance by integrating Sentinel policies, allowing organizations to enforce rules on infrastructure changes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Terraform Enterprise help with state management?",
+          "correctAnswer": "By securely storing and controlling access to Terraform state files with versioning.",
+          "wrongAnswer1": "It removes the need for state files altogether.",
+          "wrongAnswer2": "It stores state files only on local machines.",
+          "wrongAnswer3": "It converts state files into JSON format for easier editing.",
+          "explanation": "Terraform Enterprise centralizes state storage with access control and history, preventing conflicts and improving collaboration among teams.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Configuration",
+      "questions": [
+        {
+          "question": "What is the primary language used to write Terraform configuration files?",
+          "correctAnswer": "HashiCorp Configuration Language (HCL)",
+          "wrongAnswer1": "YAML",
+          "wrongAnswer2": "JSON",
+          "wrongAnswer3": "XML",
+          "explanation": "Terraform configuration files are written using HashiCorp Configuration Language (HCL), which is designed to be both human-readable and machine-friendly, making it easy to declare infrastructure resources.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In a Terraform configuration, what does the 'provider' block specify?",
+          "correctAnswer": "The infrastructure platform (like AWS, Azure) Terraform will manage resources for",
+          "wrongAnswer1": "The version of Terraform to use",
+          "wrongAnswer2": "The local machine settings for Terraform",
+          "wrongAnswer3": "The syntax rules for the configuration files",
+          "explanation": "The 'provider' block in Terraform configuration specifies which infrastructure provider (such as AWS, Azure, Google Cloud) Terraform should use to manage resources and where to send API requests.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which file extension is commonly used for Terraform configuration files?",
+          "correctAnswer": ".tf",
+          "wrongAnswer1": ".json",
+          "wrongAnswer2": ".yaml",
+          "wrongAnswer3": ".conf",
+          "explanation": "Terraform configuration files commonly use the '.tf' extension. While JSON can be used in Terraform configurations, the preferred and more readable format is HCL with '.tf' files.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Debugging",
+      "questions": [
+        {
+          "question": "What is the purpose of the 'terraform plan' command in debugging Terraform configurations?",
+          "correctAnswer": "It shows the changes Terraform will make without applying them, helping identify errors before execution.",
+          "wrongAnswer1": "It applies the changes immediately to the infrastructure.",
+          "wrongAnswer2": "It destroys the existing infrastructure.",
+          "wrongAnswer3": "It initializes the Terraform working directory.",
+          "explanation": "The 'terraform plan' command allows users to preview changes that will be applied, making it easier to detect potential errors or unexpected modifications before actually making any changes to the infrastructure.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Terraform command can you use to enable detailed logging to help debug issues?",
+          "correctAnswer": "Set the environment variable TF_LOG to DEBUG before running Terraform commands.",
+          "wrongAnswer1": "Run 'terraform debug' command directly.",
+          "wrongAnswer2": "Add 'debug=true' in the Terraform configuration files.",
+          "wrongAnswer3": "Use the 'terraform status' command to view logs.",
+          "explanation": "Terraform supports detailed logging by setting the TF_LOG environment variable to levels such as DEBUG, INFO, or TRACE. This helps diagnose issues by providing verbose output during execution.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "If a Terraform apply fails because of a provider error, what is a recommended first step for debugging?",
+          "correctAnswer": "Check the provider version and update it if necessary.",
+          "wrongAnswer1": "Delete the Terraform state file and re-initialize the project.",
+          "wrongAnswer2": "Remove all resource blocks from the configuration.",
+          "wrongAnswer3": "Ignore the error and run 'terraform apply' again.",
+          "explanation": "Provider errors are often related to compatibility issues; verifying and updating the provider version can resolve these problems. Removing state files or other drastic measures can cause further issues and should be avoided initially.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Template",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Terraform template?",
+          "correctAnswer": "To define infrastructure as code using a declarative configuration language",
+          "wrongAnswer1": "To write imperative scripts for server automation",
+          "wrongAnswer2": "To monitor cloud resources in real-time",
+          "wrongAnswer3": "To compile and execute binary code for cloud services",
+          "explanation": "Terraform templates use a declarative configuration language to define infrastructure components and their relationships, enabling infrastructure as code.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which file extension is typically associated with Terraform templates?",
+          "correctAnswer": ".tf",
+          "wrongAnswer1": ".json",
+          "wrongAnswer2": ".yaml",
+          "wrongAnswer3": ".sh",
+          "explanation": "Terraform configuration files typically use the .tf file extension to define resources and providers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Terraform templates, how are variables defined and used?",
+          "correctAnswer": "Variables are defined using the 'variable' block and referenced with '${var.variable_name}' syntax",
+          "wrongAnswer1": "Variables are only declared in environment files, not in templates",
+          "wrongAnswer2": "Variables are defined using the 'var' block and accessed directly by name",
+          "wrongAnswer3": "Variables are hardcoded and cannot be parameterized",
+          "explanation": "Terraform allows variables to be declared using the 'variable' block and then referenced in the template using the '${var.variable_name}' syntax to make configurations flexible.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Resource Graph",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Terraform Resource Graph?",
+          "correctAnswer": "To represent the dependencies between resources in a Terraform configuration.",
+          "wrongAnswer1": "To store the logs of Terraform command executions.",
+          "wrongAnswer2": "To manage the versioning of Terraform state files.",
+          "wrongAnswer3": "To compile Terraform code into executable binaries.",
+          "explanation": "The Terraform Resource Graph models the relationships and dependencies between resources, allowing Terraform to determine the correct order of creation, update, or deletion.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does Terraform utilize the Resource Graph during the apply phase?",
+          "correctAnswer": "It uses the graph to parallelize resource operations where possible while respecting dependencies.",
+          "wrongAnswer1": "It converts the graph into a flat list and processes resources sequentially regardless of dependencies.",
+          "wrongAnswer2": "It ignores the graph and applies resources in the order they appear in the configuration file.",
+          "wrongAnswer3": "It applies only one resource at a time to avoid race conditions.",
+          "explanation": "Terraform leverages the dependency graph to perform operations concurrently on resources that are independent, optimizing apply time while ensuring dependencies are honored.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following statements about Terraform’s Resource Graph is correct?",
+          "correctAnswer": "The Resource Graph enables detection of cyclic dependencies and prevents infinite loops.",
+          "wrongAnswer1": "The Resource Graph stores the actual resource data and secrets.",
+          "wrongAnswer2": "The Resource Graph is user-editable to manually set resource creation order.",
+          "wrongAnswer3": "The Resource Graph only works with cloud resources and not local or data sources.",
+          "explanation": "Terraform’s Resource Graph is built automatically to identify dependencies and cycles, helping to prevent errors related to circular references in configurations.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform State File",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Terraform state file?",
+          "correctAnswer": "To track the current state of infrastructure managed by Terraform",
+          "wrongAnswer1": "To store Terraform configuration code",
+          "wrongAnswer2": "To log user actions on Terraform Cloud",
+          "wrongAnswer3": "To backup resource data separately from Terraform",
+          "explanation": "The Terraform state file keeps track of the current state of resources Terraform manages, allowing it to map real-world resources to configuration, track metadata, and improve performance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Where is the Terraform state file typically stored by default?",
+          "correctAnswer": "Locally on the user's machine where Terraform runs",
+          "wrongAnswer1": "In a remote database automatically",
+          "wrongAnswer2": "On the cloud provider's storage service by default",
+          "wrongAnswer3": "Embedded within the Terraform configuration files",
+          "explanation": "By default, Terraform stores the state file locally, but it can be configured to use remote backends for collaboration and reliability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a common practice to manage Terraform state files for collaboration?",
+          "correctAnswer": "Using a remote backend such as Terraform Cloud, S3, or Azure Blob Storage",
+          "wrongAnswer1": "Committing the state file to version control systems like Git",
+          "wrongAnswer2": "Deleting the state file after every Terraform run",
+          "wrongAnswer3": "Renaming the state file to match environment names",
+          "explanation": "Remote backends allow multiple users to work on the same infrastructure state safely, enabling locking and versioning support, which is critical for team collaboration.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Plan File",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Terraform plan file?",
+          "correctAnswer": "To preview the changes Terraform will make to the infrastructure before applying them.",
+          "wrongAnswer1": "To store the state of current infrastructure resources.",
+          "wrongAnswer2": "To configure backend settings for Terraform.",
+          "wrongAnswer3": "To define provider credentials and authentication.",
+          "explanation": "A Terraform plan file is used to preview the actions Terraform will take to change your infrastructure, allowing you to review changes before applying them.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to generate a Terraform plan file?",
+          "correctAnswer": "terraform plan -out=planfile",
+          "wrongAnswer1": "terraform apply -plan=planfile",
+          "wrongAnswer2": "terraform init -plan",
+          "wrongAnswer3": "terraform fmt -out=planfile",
+          "explanation": "The command `terraform plan -out=planfile` generates a plan file that can be saved and used later with the `apply` command.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a key benefit of using a saved Terraform plan file in a deployment workflow?",
+          "correctAnswer": "It ensures that the exact changes reviewed in the plan are applied to the infrastructure.",
+          "wrongAnswer1": "It automatically locks the state file for concurrency control.",
+          "wrongAnswer2": "It allows you to edit the infrastructure as code directly in the plan file.",
+          "wrongAnswer3": "It backs up your Terraform configuration files.",
+          "explanation": "Using a saved plan file preserves the exact intended changes, ensuring what you reviewed in the plan is what actually gets applied, reducing the risk of unexpected modifications.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform JSON",
+      "questions": [
+        {
+          "question": "What is Terraform JSON primarily used for?",
+          "correctAnswer": "Defining infrastructure using JSON syntax instead of HCL",
+          "wrongAnswer1": "Writing Terraform provider plugins",
+          "wrongAnswer2": "Storing Terraform state files",
+          "wrongAnswer3": "Executing Terraform commands via API",
+          "explanation": "Terraform JSON is an alternative way to define infrastructure as code using JSON syntax, which Terraform can interpret the same way as HCL configurations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is TRUE about Terraform JSON files?",
+          "correctAnswer": "They can be used interchangeably with HCL files in Terraform.",
+          "wrongAnswer1": "They must be compiled into HCL before use.",
+          "wrongAnswer2": "Terraform JSON files cannot include variables.",
+          "wrongAnswer3": "Terraform JSON files are only for output configuration.",
+          "explanation": "Terraform JSON files (.tf.json) can be used just like .tf files and can include variables, resources, and all Terraform configuration elements directly in JSON format.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you name Terraform JSON files so that Terraform recognizes them as configuration files?",
+          "correctAnswer": "Files must have the extension .tf.json",
+          "wrongAnswer1": "Files must have the extension .json",
+          "wrongAnswer2": "Files must have the extension .tfjson",
+          "wrongAnswer3": "Files must be named main.json only",
+          "explanation": "Terraform recognizes configuration files ending with .tf.json extension as valid configuration.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Registry",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Terraform Registry?",
+          "correctAnswer": "To provide a centralized repository of Terraform modules and providers for reuse.",
+          "wrongAnswer1": "To store Terraform state files securely.",
+          "wrongAnswer2": "To execute Terraform plans automatically.",
+          "wrongAnswer3": "To monitor infrastructure health directly.",
+          "explanation": "The Terraform Registry is a centralized repository where users can find, share, and reuse Terraform modules and providers, simplifying infrastructure as code management.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following can you typically find in the Terraform Registry?",
+          "correctAnswer": "Terraform modules and providers",
+          "wrongAnswer1": "Virtual machine images",
+          "wrongAnswer2": "Cloud service account credentials",
+          "wrongAnswer3": "Network traffic logs",
+          "explanation": "The Terraform Registry hosts Terraform modules and providers that are reusable configurations and plugins for extending Terraform functionality.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does the Terraform Registry improve infrastructure as code workflows?",
+          "correctAnswer": "By enabling users to discover and reuse standardized modules, reducing duplication and errors.",
+          "wrongAnswer1": "By automatically fixing syntax errors in Terraform code.",
+          "wrongAnswer2": "By providing a platform to write Terraform code collaboratively in real-time.",
+          "wrongAnswer3": "By storing backups of the entire infrastructure including configurations and data.",
+          "explanation": "The Terraform Registry helps users find and reuse pre-built modules which standardizes and speeds up infrastructure development while minimizing configuration errors.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Versioning",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Terraform versioning?",
+          "correctAnswer": "To ensure consistent Terraform CLI versions across teams and environments",
+          "wrongAnswer1": "To manage different versions of cloud provider APIs",
+          "wrongAnswer2": "To upgrade Terraform automatically",
+          "wrongAnswer3": "To version control the Terraform state file",
+          "explanation": "Terraform versioning allows teams to specify and use precise versions of the Terraform CLI to maintain consistency, avoiding version mismatch issues.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can you specify a required Terraform version in your configuration?",
+          "correctAnswer": "By using the 'required_version' setting in the terraform block",
+          "wrongAnswer1": "By specifying it in the provider block",
+          "wrongAnswer2": "By setting environment variables only",
+          "wrongAnswer3": "By editing the Terraform binary manually",
+          "explanation": "Terraform configuration files support a 'required_version' setting within the terraform block which enforces a specific version or version constraints for Terraform CLI.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "If a Terraform configuration specifies 'required_version = \">= 1.0, < 2.0\"', which versions are valid to use?",
+          "correctAnswer": "Any Terraform version from 1.0 up to but not including 2.0",
+          "wrongAnswer1": "Only version 1.0 exactly",
+          "wrongAnswer2": "Any version including 2.0 and above",
+          "wrongAnswer3": "Versions below 1.0",
+          "explanation": "The version constraint means Terraform versions 1.0 and above but less than 2.0 satisfy the requirement.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Execution",
+      "questions": [
+        {
+          "question": "What is the first step Terraform takes when executing a plan?",
+          "correctAnswer": "Terraform performs a 'terraform init' to initialize the working directory.",
+          "wrongAnswer1": "Terraform directly applies changes to the cloud infrastructure.",
+          "wrongAnswer2": "Terraform immediately destroys the existing infrastructure.",
+          "wrongAnswer3": "Terraform generates a report without making changes.",
+          "explanation": "The first step in Terraform execution is to run 'terraform init' which initializes the working directory containing Terraform configuration files and downloads any required providers and modules.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What command does Terraform use to show a preview of changes it will make before applying them?",
+          "correctAnswer": "terraform plan",
+          "wrongAnswer1": "terraform apply",
+          "wrongAnswer2": "terraform destroy",
+          "wrongAnswer3": "terraform validate",
+          "explanation": "The 'terraform plan' command generates an execution plan, showing what actions Terraform will take without making any actual changes to infrastructure.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes what happens during 'terraform apply'?",
+          "correctAnswer": "Terraform executes the planned changes to create, update, or destroy infrastructure.",
+          "wrongAnswer1": "Terraform only validates the configuration files for syntax errors.",
+          "wrongAnswer2": "Terraform destroys all infrastructure configurations.",
+          "wrongAnswer3": "Terraform initializes the working directory.",
+          "explanation": "'terraform apply' carries out the actions proposed in the plan to achieve the desired infrastructure state as defined in the configuration files.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Automation",
+      "questions": [
+        {
+          "question": "What is the main benefit of using Terraform automation?",
+          "correctAnswer": "It reduces manual intervention and errors during infrastructure deployment.",
+          "wrongAnswer1": "It eliminates the need for infrastructure configuration.",
+          "wrongAnswer2": "It replaces the need for writing any code.",
+          "wrongAnswer3": "It allows manual updates to infrastructure only.",
+          "explanation": "Terraform automation focuses on automating the deployment and management of infrastructure to minimize human error and improve efficiency.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which tool can be integrated with Terraform for continuous integration and delivery (CI/CD) automation?",
+          "correctAnswer": "Jenkins",
+          "wrongAnswer1": "Photoshop",
+          "wrongAnswer2": "Excel",
+          "wrongAnswer3": "WordPress",
+          "explanation": "Jenkins is commonly used in DevOps pipelines to automate Terraform workflows as part of CI/CD pipelines.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In Terraform automation, what is the purpose of 'terraform plan'?",
+          "correctAnswer": "To preview the changes Terraform will apply to the infrastructure.",
+          "wrongAnswer1": "To immediately apply changes to the infrastructure.",
+          "wrongAnswer2": "To destroy the infrastructure.",
+          "wrongAnswer3": "To backup the current infrastructure state.",
+          "explanation": "The 'terraform plan' command shows what changes will be made, helping avoid surprises before applying them with 'terraform apply'.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Integration",
+      "questions": [
+        {
+          "question": "What is Terraform integration primarily used for?",
+          "correctAnswer": "Automating infrastructure management across multiple cloud providers",
+          "wrongAnswer1": "Developing mobile applications",
+          "wrongAnswer2": "Monitoring network traffic",
+          "wrongAnswer3": "Managing database backups",
+          "explanation": "Terraform integration allows users to automate and manage infrastructure resources across multiple cloud platforms efficiently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does Terraform integrate with cloud service providers?",
+          "correctAnswer": "Through provider plugins that enable resource management",
+          "wrongAnswer1": "By downloading virtual machine images",
+          "wrongAnswer2": "Using webhooks to connect APIs",
+          "wrongAnswer3": "Directly modifying cloud provider source code",
+          "explanation": "Terraform uses provider plugins to communicate with different cloud platforms, enabling it to create, update, and delete resources.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following best describes the purpose of Terraform modules in integration?",
+          "correctAnswer": "Reusable configurations that simplify complex infrastructure setups",
+          "wrongAnswer1": "Programming languages for cloud automation",
+          "wrongAnswer2": "Monitoring tools for infrastructure health",
+          "wrongAnswer3": "Cloud provider billing systems",
+          "explanation": "Terraform modules are reusable blocks of configuration that help manage and reuse code for complex infrastructure deployments.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform State Lock",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Terraform state locking?",
+          "correctAnswer": "To prevent concurrent modifications to the state file",
+          "wrongAnswer1": "To increase the speed of Terraform apply",
+          "wrongAnswer2": "To enable multiple users to edit the state simultaneously",
+          "wrongAnswer3": "To back up the state file automatically",
+          "explanation": "Terraform state locking is used to prevent multiple users or processes from making concurrent changes to the Terraform state, which could lead to corruption or inconsistent infrastructure configuration.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following backends supports automatic state locking in Terraform?",
+          "correctAnswer": "Amazon S3 with DynamoDB",
+          "wrongAnswer1": "Local backend",
+          "wrongAnswer2": "Git backend",
+          "wrongAnswer3": "HTTP backend",
+          "explanation": "Amazon S3 backend combined with DynamoDB provides support for automatic state locking and consistency checking in Terraform. Local backend does not support locking, and Git or HTTP backends don't provide native state locking.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens if Terraform detects an active state lock when you run a plan or apply?",
+          "correctAnswer": "It will wait or error out to prevent concurrent modifications",
+          "wrongAnswer1": "It will ignore the lock and proceed",
+          "wrongAnswer2": "It will remove the lock automatically and continue",
+          "wrongAnswer3": "It will create a new state file to avoid conflict",
+          "explanation": "When Terraform detects that the state is locked by another operation, it prevents concurrent changes by either waiting for the lock to be released or failing with an error, ensuring state integrity.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Workspace Management",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Terraform workspaces?",
+          "correctAnswer": "To allow managing multiple environments using the same configuration",
+          "wrongAnswer1": "To create isolated virtual machines",
+          "wrongAnswer2": "To store Terraform state files in a database",
+          "wrongAnswer3": "To manage user access permissions",
+          "explanation": "Terraform workspaces allow users to manage multiple distinct states, typically used for managing different environments like development, staging, and production from the same configuration files.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you create a new workspace in Terraform?",
+          "correctAnswer": "terraform workspace new <workspace-name>",
+          "wrongAnswer1": "terraform create workspace <workspace-name>",
+          "wrongAnswer2": "terraform workspace create <workspace-name>",
+          "wrongAnswer3": "terraform workspace add <workspace-name>",
+          "explanation": "The correct command to create a new workspace in Terraform is 'terraform workspace new <workspace-name>'. It initializes a new workspace and its associated state.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Changing the current workspace in Terraform is done using which command?",
+          "correctAnswer": "terraform workspace select <workspace-name>",
+          "wrongAnswer1": "terraform workspace switch <workspace-name>",
+          "wrongAnswer2": "terraform workspace change <workspace-name>",
+          "wrongAnswer3": "terraform use workspace <workspace-name>",
+          "explanation": "To switch between workspaces, the correct command is 'terraform workspace select <workspace-name>'. This changes the current workspace so subsequent operations affect that workspace's state.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Compression",
+      "questions": [
+        {
+          "question": "What does Terraform Compression primarily refer to?",
+          "correctAnswer": "Reducing the size of Terraform plan or state files to save storage or improve performance",
+          "wrongAnswer1": "Compressing Terraform resources to use less CPU",
+          "wrongAnswer2": "Encrypting Terraform files for security",
+          "wrongAnswer3": "Automating Terraform code deployment",
+          "explanation": "Terraform Compression typically involves reducing the size of files such as plan or state files, which helps in better storage optimization and faster processing.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following tools or formats might be used together with Terraform to achieve compression?",
+          "correctAnswer": "JSON or gzip compression for state files",
+          "wrongAnswer1": "Direct compression of HCL code in source files",
+          "wrongAnswer2": "Compression of Terraform binary executable",
+          "wrongAnswer3": "Compression of provider plugins",
+          "explanation": "Terraform state files are often stored or transmitted in JSON format, which can be compressed using tools such as gzip. Direct compression of HCL source code or binaries is not the standard practice.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is it important to compress Terraform state files in some cases?",
+          "correctAnswer": "To reduce storage costs and improve speed when sharing or storing state files",
+          "wrongAnswer1": "To increase the number of resources managed by Terraform",
+          "wrongAnswer2": "To enable offline use of Terraform",
+          "wrongAnswer3": "To improve the visual appearance of Terraform configuration files",
+          "explanation": "Compressing state files can significantly reduce storage space and speed up transfer times when state files are stored remotely or shared among team members.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Environment Variables",
+      "questions": [
+        {
+          "question": "What is the purpose of the \"TF_VAR_\" prefix in Terraform environment variables?",
+          "correctAnswer": "To set variable values that Terraform can automatically recognize and use.",
+          "wrongAnswer1": "To define backend configuration for Terraform state storage.",
+          "wrongAnswer2": "To specify the Terraform provider version.",
+          "wrongAnswer3": "To set environment variables for the operating system only.",
+          "explanation": "In Terraform, environment variables prefixed with \"TF_VAR_\" are used to set the values of input variables automatically. Terraform recognizes these and assigns the corresponding value to the variable of the same name after the prefix.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which environment variable should you set to specify the path to the Terraform configuration directory?",
+          "correctAnswer": "There is no specific environment variable; you run Terraform commands inside the configuration directory.",
+          "wrongAnswer1": "TF_CONFIG_PATH",
+          "wrongAnswer2": "TF_DIR",
+          "wrongAnswer3": "TF_HOME",
+          "explanation": "Terraform does not use an environment variable to specify configuration directory location. You simply run Terraform commands within the directory containing your configuration files.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can you securely provide sensitive values, like API keys, to Terraform without hardcoding them in configuration files?",
+          "correctAnswer": "By setting them as environment variables, often prefixed with \"TF_VAR_\", and not committing them to code repositories.",
+          "wrongAnswer1": "Embedding them directly in Terraform configuration files in plain text.",
+          "wrongAnswer2": "Storing them in the Terraform state file manually.",
+          "wrongAnswer3": "Passing them via command line parameters in plaintext.",
+          "explanation": "Sensitive information should be provided through environment variables or other secure secret management solutions to avoid exposing them in version control. Using environment variables with the \"TF_VAR_\" prefix is a common secure practice.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Drift Detection",
+      "questions": [
+        {
+          "question": "What does Terraform Drift Detection primarily help identify?",
+          "correctAnswer": "Changes in infrastructure that differ from Terraform configuration",
+          "wrongAnswer1": "Syntax errors in Terraform configuration files",
+          "wrongAnswer2": "Cost discrepancies in cloud resource usage",
+          "wrongAnswer3": "Version mismatches in Terraform providers",
+          "explanation": "Terraform Drift Detection helps identify when the actual state of infrastructure has diverged from the state defined in Terraform configuration, signaling unauthorized or manual changes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Terraform command is typically used to detect drift in infrastructure?",
+          "correctAnswer": "terraform plan",
+          "wrongAnswer1": "terraform apply",
+          "wrongAnswer2": "terraform init",
+          "wrongAnswer3": "terraform destroy",
+          "explanation": "The 'terraform plan' command compares the current state of infrastructure with the Terraform configuration and can highlight differences indicating drift.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is detecting drift important in Terraform-managed infrastructure?",
+          "correctAnswer": "To maintain consistency and prevent configuration deviations that can cause issues",
+          "wrongAnswer1": "To speed up Terraform apply operations",
+          "wrongAnswer2": "To automatically update Terraform to the latest version",
+          "wrongAnswer3": "To enable multi-cloud deployments",
+          "explanation": "Detecting drift ensures the infrastructure remains consistent with the desired configuration, reducing risks of unexpected behavior, security vulnerabilities, or operational problems caused by manual changes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Outputs Management",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Terraform outputs?",
+          "correctAnswer": "To expose information about infrastructure resources for use elsewhere.",
+          "wrongAnswer1": "To store Terraform state files securely.",
+          "wrongAnswer2": "To write logs during Terraform execution.",
+          "wrongAnswer3": "To define the provider configuration.",
+          "explanation": "Terraform outputs are designed to expose specific values from your Terraform state that can be used by other configurations or scripts, making infrastructure data accessible externally.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can Terraform outputs be accessed after running 'terraform apply'?",
+          "correctAnswer": "By using the 'terraform output' command or referencing them in other Terraform configurations.",
+          "wrongAnswer1": "By modifying the main.tf file directly.",
+          "wrongAnswer2": "By accessing the AWS console only.",
+          "wrongAnswer3": "By using the 'terraform destroy' command.",
+          "explanation": "After applying a configuration, outputs can be viewed using 'terraform output' command and can be used in other Terraform configurations via remote state or modules.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is TRUE about sensitive outputs in Terraform?",
+          "correctAnswer": "Marking an output as sensitive hides its value in the CLI output.",
+          "wrongAnswer1": "Sensitive outputs are automatically encrypted in the state file.",
+          "wrongAnswer2": "Sensitive outputs can be displayed by default when running 'terraform output'.",
+          "wrongAnswer3": "Sensitive outputs disable the use of outputs in other modules.",
+          "explanation": "When an output is marked sensitive, its value is not shown in the command line output to protect secrets, though it is still stored in the state file unencrypted.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Policy",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Terraform policies?",
+          "correctAnswer": "To enforce rules and guidelines on Terraform configurations and deployments",
+          "wrongAnswer1": "To automatically provision infrastructure without any human oversight",
+          "wrongAnswer2": "To replace Terraform modules in the infrastructure setup",
+          "wrongAnswer3": "To manage the billing and cost optimization of infrastructure",
+          "explanation": "Terraform policies are used to enforce governance rules and best practices, ensuring that Terraform configurations comply with organizational standards during provisioning.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which tool is commonly used to define and enforce Terraform policies?",
+          "correctAnswer": "Sentinel",
+          "wrongAnswer1": "Kubernetes",
+          "wrongAnswer2": "Docker",
+          "wrongAnswer3": "Ansible",
+          "explanation": "Sentinel is a policy-as-code framework integrated with Terraform Enterprise that allows the definition and enforcement of policies to control infrastructure provisioning.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How are Terraform policies typically applied in the Terraform workflow?",
+          "correctAnswer": "They are evaluated during the plan or apply phases to enforce compliance before changes are made.",
+          "wrongAnswer1": "They replace the Terraform plan command.",
+          "wrongAnswer2": "They are only applied after infrastructure is fully deployed.",
+          "wrongAnswer3": "They automatically rollback any infrastructure changes after deployment.",
+          "explanation": "Terraform policies are evaluated during the plan or apply phases which helps in catching policy violations before actual changes to infrastructure are performed.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Sentinel",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Terraform Sentinel?",
+          "correctAnswer": "To enforce policy as code within Terraform workflows",
+          "wrongAnswer1": "To automate Terraform infrastructure provisioning",
+          "wrongAnswer2": "To monitor cloud infrastructure performance",
+          "wrongAnswer3": "To provide an alternative to Terraform CLI",
+          "explanation": "Terraform Sentinel is a policy as code framework that allows organizations to enforce specific rules and policies during Terraform runs to ensure compliance and governance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes how Sentinel policies are executed?",
+          "correctAnswer": "They run as part of the Terraform workflow to evaluate compliance with defined policies",
+          "wrongAnswer1": "They are executed manually after Terraform apply completes",
+          "wrongAnswer2": "Sentinel policies replace Terraform state files",
+          "wrongAnswer3": "They automatically create Terraform resource configurations",
+          "explanation": "Sentinel policies integrate into the Terraform workflow and automatically evaluate resource changes against organizational policies during plan and apply stages.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What language are Terraform Sentinel policies written in?",
+          "correctAnswer": "Sentinel policy language (a specialized policy as code language)",
+          "wrongAnswer1": "Python",
+          "wrongAnswer2": "HCL",
+          "wrongAnswer3": "JSON",
+          "explanation": "Sentinel policies use a dedicated policy language designed for writing clear and enforceable compliance rules, distinct from HCL used in Terraform configurations.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Provider Plugins",
+      "questions": [
+        {
+          "question": "What is the primary role of Terraform Provider Plugins?",
+          "correctAnswer": "They act as intermediaries between Terraform and cloud or service APIs to manage resources.",
+          "wrongAnswer1": "They are used to write Terraform configuration files.",
+          "wrongAnswer2": "They deploy Terraform state files to remote backends.",
+          "wrongAnswer3": "They generate documentation for Terraform modules.",
+          "explanation": "Terraform Provider Plugins facilitate communication between Terraform and various cloud platforms or services by implementing resource management through respective APIs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does Terraform find and install provider plugins when you run 'terraform init'?",
+          "correctAnswer": "It downloads the required provider plugins from the Terraform Registry or other configured sources.",
+          "wrongAnswer1": "You must manually download and place them in the Terraform installation directory.",
+          "wrongAnswer2": "Providers are compiled into the Terraform binary and do not require installation.",
+          "wrongAnswer3": "Terraform creates provider plugins dynamically during the plan phase.",
+          "explanation": "During 'terraform init', Terraform automatically downloads provider plugins specified in the configuration from the Terraform Registry or other plugin sources, simplifying setup.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which file do you specify the providers required for your Terraform configuration?",
+          "correctAnswer": "In the 'terraform' block or directly in the configuration files under 'provider' blocks.",
+          "wrongAnswer1": "Only in a separate YAML configuration file named providers.yaml.",
+          "wrongAnswer2": "In the backend configuration of Terraform state.",
+          "wrongAnswer3": "In shell environment variables alone.",
+          "explanation": "Provider requirements are defined within the 'terraform' block or declared explicitly using 'provider' blocks within Terraform configuration files, informing Terraform which plugins to install and use.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Backend Config",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a backend in Terraform?",
+          "correctAnswer": "To manage state storage and operations remotely.",
+          "wrongAnswer1": "To install Terraform CLI on local machines.",
+          "wrongAnswer2": "To generate Terraform resource templates automatically.",
+          "wrongAnswer3": "To compile Terraform code into executable binaries.",
+          "explanation": "Backends in Terraform are used to determine how state is loaded and how operations are executed. They allow remote state storage and locking, enabling team collaboration and preventing concurrent modifications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common backend supported by Terraform for remote state management?",
+          "correctAnswer": "Amazon S3",
+          "wrongAnswer1": "GitHub Actions",
+          "wrongAnswer2": "Docker Hub",
+          "wrongAnswer3": "Kubernetes",
+          "explanation": "Amazon S3 is a widely used backend in Terraform for storing the state file remotely. It provides durability and availability alongside optional state locking when combined with DynamoDB.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Terraform backend configuration, what does the 'key' attribute typically specify for an S3 backend?",
+          "correctAnswer": "The path and filename of the state file in the S3 bucket.",
+          "wrongAnswer1": "The encryption key to secure the state file.",
+          "wrongAnswer2": "The API key for accessing the AWS account.",
+          "wrongAnswer3": "The region of the S3 bucket.",
+          "explanation": "The 'key' attribute in an S3 backend config defines the path inside the S3 bucket and the filename for the Terraform state file, enabling Terraform to locate and manage the state remotely.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Terraform",
+      "concept": "Terraform Dynamic Blocks",
+      "questions": [
+        {
+          "question": "What is the primary use of dynamic blocks in Terraform?",
+          "correctAnswer": "To generate multiple nested blocks dynamically based on complex variable configurations.",
+          "wrongAnswer1": "To define static resource blocks that never change.",
+          "wrongAnswer2": "To manually input each resource block without automation.",
+          "wrongAnswer3": "To create inline shell scripts within Terraform configurations.",
+          "explanation": "Dynamic blocks in Terraform allow you to generate nested blocks dynamically, which is especially useful for handling complex or variable-length configurations that require multiple similar nested blocks.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which Terraform construct is used within a dynamic block to iterate over a collection?",
+          "correctAnswer": "for_each",
+          "wrongAnswer1": "count",
+          "wrongAnswer2": "depends_on",
+          "wrongAnswer3": "locals",
+          "explanation": "The 'for_each' argument is used inside a dynamic block to iterate over a collection of items, enabling the creation of multiple nested blocks dynamically based on the elements of the collection.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In a dynamic block, which argument specifies the name of the nested block to create?",
+          "correctAnswer": "content",
+          "wrongAnswer1": "iterator",
+          "wrongAnswer2": "block_name",
+          "wrongAnswer3": "body",
+          "explanation": "Inside a dynamic block, the 'content' argument defines the actual nested block that will be generated dynamically. The name of that nested block is specified by the dynamic block label itself, while the content argument holds the configuration for each instance.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

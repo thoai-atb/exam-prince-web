@@ -1,0 +1,1655 @@
+{
+  "topic": "Python",
+  "concepts": [
+    {
+      "topic": "Python",
+      "concept": "Variables",
+      "questions": [
+        {
+          "question": "What is a variable in Python?",
+          "correctAnswer": "A container to store data values",
+          "wrongAnswer1": "A type of function",
+          "wrongAnswer2": "An operator for arithmetic calculations",
+          "wrongAnswer3": "A Python library",
+          "explanation": "In Python, a variable is used to store information that can be referenced and manipulated in a program.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a valid variable name in Python?",
+          "correctAnswer": "my_variable",
+          "wrongAnswer1": "2variable",
+          "wrongAnswer2": "my-variable",
+          "wrongAnswer3": "variable name",
+          "explanation": "In Python, variable names must start with a letter or an underscore and cannot contain spaces or hyphens.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens if you try to use a variable in Python before assigning it a value?",
+          "correctAnswer": "You will get a NameError indicating the variable is not defined",
+          "wrongAnswer1": "Python will automatically assign it a value of zero",
+          "wrongAnswer2": "The variable will hold a None value by default",
+          "wrongAnswer3": "The variable will store the last used value",
+          "explanation": "Using a variable before it is assigned any value in Python will raise a NameError because the variable is considered undefined.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Data Types",
+      "questions": [
+        {
+          "question": "Which of the following is a mutable data type in Python?",
+          "correctAnswer": "List",
+          "wrongAnswer1": "Tuple",
+          "wrongAnswer2": "String",
+          "wrongAnswer3": "Integer",
+          "explanation": "Lists in Python are mutable, meaning their elements can be changed after the list is created, whereas tuples, strings, and integers are immutable.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What data type would you use to store a sequence of characters in Python?",
+          "correctAnswer": "String",
+          "wrongAnswer1": "Integer",
+          "wrongAnswer2": "List",
+          "wrongAnswer3": "Dictionary",
+          "explanation": "A string is the data type used to store sequences of characters in Python, whereas integers store numbers, lists hold multiple items, and dictionaries store key-value pairs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Python data type is best suited for storing a collection of unique elements?",
+          "correctAnswer": "Set",
+          "wrongAnswer1": "List",
+          "wrongAnswer2": "Tuple",
+          "wrongAnswer3": "Dictionary",
+          "explanation": "Sets store unordered collections of unique elements with no duplicates allowed. Lists and tuples can have duplicates, and dictionaries store key-value pairs rather than just values.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Functions",
+      "questions": [
+        {
+          "question": "What is the main purpose of a function in Python?",
+          "correctAnswer": "To encapsulate a block of code that performs a specific task and can be reused",
+          "wrongAnswer1": "To store multiple values in a single variable",
+          "wrongAnswer2": "To execute code only once in a program",
+          "wrongAnswer3": "To convert data types automatically",
+          "explanation": "Functions in Python are used to group code into blocks that perform specific tasks which can then be reused multiple times throughout a program, improving code organization and readability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following statements about Python functions is true?",
+          "correctAnswer": "A function can have zero or more parameters and can return a value.",
+          "wrongAnswer1": "Functions must always return a value and cannot have parameters.",
+          "wrongAnswer2": "Functions cannot be called from other functions.",
+          "wrongAnswer3": "Functions in Python cannot change the value of variables outside their scope.",
+          "explanation": "In Python, functions can have zero or more parameters and can return a value using the return statement. Also, functions can be called from other functions. Variable scope rules determine whether variables inside a function can affect variables outside.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens if a Python function does not have a return statement?",
+          "correctAnswer": "It returns None by default.",
+          "wrongAnswer1": "The function will cause a syntax error.",
+          "wrongAnswer2": "The function returns the last variable declared inside it.",
+          "wrongAnswer3": "The function returns zero by default.",
+          "explanation": "If no return statement is specified in a Python function, it returns None by default. This is a built-in behavior of Python functions.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Loops",
+      "questions": [
+        {
+          "question": "Which of the following is a correct way to start a for loop in Python?",
+          "correctAnswer": "for i in range(5):",
+          "wrongAnswer1": "for (i = 0; i < 5; i++)",
+          "wrongAnswer2": "foreach i in range(5):",
+          "wrongAnswer3": "loop i from 0 to 5:",
+          "explanation": "In Python, a for loop is initiated using the syntax `for variable in iterable:` followed by a colon.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the purpose of the 'break' statement inside a loop in Python?",
+          "correctAnswer": "To immediately exit the loop",
+          "wrongAnswer1": "To skip the current iteration and continue with the next one",
+          "wrongAnswer2": "To stop the whole program",
+          "wrongAnswer3": "To repeat the current iteration",
+          "explanation": "The 'break' statement causes the loop to terminate immediately, skipping any remaining iterations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the difference between a 'for' loop and a 'while' loop in Python?",
+          "correctAnswer": "'for' loop iterates over a sequence, 'while' loop continues as long as a condition is true",
+          "wrongAnswer1": "'for' loops can only be used with numbers, 'while' loops can only be used with strings",
+          "wrongAnswer2": "'for' loops are faster than 'while' loops",
+          "wrongAnswer3": "'while' loops automatically increment a counter, 'for' loops do not",
+          "explanation": "'for' loops iterate over items of a sequence or iterable, whereas 'while' loops execute as long as a specified condition remains true.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Conditional Statements",
+      "questions": [
+        {
+          "question": "What is the purpose of an 'if' statement in Python?",
+          "correctAnswer": "To execute a block of code only if a specified condition is true.",
+          "wrongAnswer1": "To execute multiple blocks of code regardless of conditions.",
+          "wrongAnswer2": "To create a loop that repeats a block of code.",
+          "wrongAnswer3": "To define a function that can be called later.",
+          "explanation": "'If' statements allow the program to execute certain blocks of code conditionally, based on whether a given expression evaluates to true.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used in Python to specify what should happen if an 'if' statement condition is false?",
+          "correctAnswer": "else",
+          "wrongAnswer1": "elif",
+          "wrongAnswer2": "then",
+          "wrongAnswer3": "when",
+          "explanation": "The 'else' keyword specifies a block of code to execute when the 'if' condition is false.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the difference between 'elif' and 'else' in Python conditional statements?",
+          "correctAnswer": "'elif' provides an additional condition to check, while 'else' handles all other cases if previous conditions fail.",
+          "wrongAnswer1": "'elif' is used to end the conditional block, 'else' starts a new one.",
+          "wrongAnswer2": "'elif' executes when the first condition is true; 'else' executes when false.",
+          "wrongAnswer3": "There is no difference; they are interchangeable.",
+          "explanation": "'Elif' stands for 'else if' and allows checking multiple conditions sequentially. 'Else' is a fallback that runs if none of the preceding conditions are true.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Lists",
+      "questions": [
+        {
+          "question": "What is a characteristic feature of lists in Python?",
+          "correctAnswer": "Lists can hold items of different data types.",
+          "wrongAnswer1": "Lists can only hold integers.",
+          "wrongAnswer2": "Lists must have fixed sizes once created.",
+          "wrongAnswer3": "Lists do not support duplicate elements.",
+          "explanation": "Lists in Python are versatile containers that can store items of different data types, including integers, strings, and even other lists.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How are elements accessed in a Python list?",
+          "correctAnswer": "By their index position, starting at 0.",
+          "wrongAnswer1": "By their value only.",
+          "wrongAnswer2": "Using a key like in a dictionary.",
+          "wrongAnswer3": "By their memory address.",
+          "explanation": "Elements in Python lists are accessed using their index, which starts at 0 for the first element.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method would you use to add an element to the end of a list in Python?",
+          "correctAnswer": "append()",
+          "wrongAnswer1": "insert()",
+          "wrongAnswer2": "extend()",
+          "wrongAnswer3": "add()",
+          "explanation": "The append() method adds a single element to the end of a list. insert() allows adding at a specific index, extend() adds multiple elements, and add() is not a list method.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Tuples",
+      "questions": [
+        {
+          "question": "What is a tuple in Python?",
+          "correctAnswer": "An immutable ordered collection of elements",
+          "wrongAnswer1": "A mutable unordered collection of elements",
+          "wrongAnswer2": "A type of loop structure",
+          "wrongAnswer3": "A function that returns multiple values",
+          "explanation": "A tuple in Python is an ordered sequence of elements that cannot be changed after creation, unlike lists which are mutable.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following statements about tuples is true?",
+          "correctAnswer": "Tuples are immutable, so their contents cannot be modified after creation.",
+          "wrongAnswer1": "Tuples can have their elements added or removed dynamically.",
+          "wrongAnswer2": "Tuples are always sorted by default.",
+          "wrongAnswer3": "Tuples are only allowed to contain elements of the same type.",
+          "explanation": "Tuples are immutable, meaning once they are created, their contents cannot be changed. This differs from lists, which are mutable.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why might you choose a tuple over a list in Python?",
+          "correctAnswer": "Because tuples are immutable and can be used as dictionary keys.",
+          "wrongAnswer1": "Because tuples allow you to add or remove elements easily.",
+          "wrongAnswer2": "Because tuples are mutable and thus more flexible.",
+          "wrongAnswer3": "Because tuples are slower and use more memory than lists.",
+          "explanation": "Tuples are immutable and can be used as keys in dictionaries, unlike lists which are mutable. This immutability also makes tuples faster and more memory-efficient in some cases.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Dictionaries",
+      "questions": [
+        {
+          "question": "What is a dictionary in Python?",
+          "correctAnswer": "A collection of key-value pairs where each key is unique",
+          "wrongAnswer1": "A sequence of values indexed by numbers",
+          "wrongAnswer2": "An immutable ordered collection",
+          "wrongAnswer3": "A function that returns a list",
+          "explanation": "In Python, a dictionary is an unordered collection of items. Each item is a key-value pair where keys must be unique. Dictionaries are mutable.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a valid way to access a value in a Python dictionary?",
+          "correctAnswer": "Using the key inside square brackets like dict[key]",
+          "wrongAnswer1": "Using an index like dict[0]",
+          "wrongAnswer2": "Using a method like dict.getKey()",
+          "wrongAnswer3": "Using parentheses like dict(key)",
+          "explanation": "Values in a dictionary are accessed by their keys using square brackets or the get() method. Unlike lists, dictionaries do not use integer indices.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens if you try to access a key that does not exist in a Python dictionary using square brackets?",
+          "correctAnswer": "A KeyError exception is raised",
+          "wrongAnswer1": "The program returns None",
+          "wrongAnswer2": "The program automatically adds the key with a None value",
+          "wrongAnswer3": "The dictionary returns the last value inserted",
+          "explanation": "Accessing a non-existent key with square brackets raises a KeyError in Python. To avoid this, you can use the get() method which returns None or a default value without raising an error.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Sets",
+      "questions": [
+        {
+          "question": "What is a key characteristic of a set in Python?",
+          "correctAnswer": "It contains only unique elements and is unordered.",
+          "wrongAnswer1": "It allows duplicate elements and is ordered.",
+          "wrongAnswer2": "It is mutable but ordered.",
+          "wrongAnswer3": "It stores elements in a key-value pair format.",
+          "explanation": "A set in Python is an unordered collection that contains only unique elements, meaning it does not allow duplicates. It is mutable but does not maintain any specific order of elements.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following operations is supported by Python sets?",
+          "correctAnswer": "Union of two sets.",
+          "wrongAnswer1": "Index-based element access.",
+          "wrongAnswer2": "Slicing of elements.",
+          "wrongAnswer3": "Storing elements as key-value pairs.",
+          "explanation": "Python sets support operations like union, intersection, difference, and symmetric difference. However, they do not support index-based access or slicing because they are unordered and do not maintain element positions.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why can sets be useful for removing duplicates from a list?",
+          "correctAnswer": "Because sets automatically eliminate duplicate elements.",
+          "wrongAnswer1": "Because sets keep the order of elements in the list.",
+          "wrongAnswer2": "Because sets can store multiple data types in a single element.",
+          "wrongAnswer3": "Because sets are indexed collections allowing easy search.",
+          "explanation": "When a list is converted to a set, duplicates are automatically removed since sets only store unique elements. This makes sets useful for deduplication tasks. However, sets do not preserve order or allow indexing.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Classes",
+      "questions": [
+        {
+          "question": "What is a class in Python?",
+          "correctAnswer": "A blueprint for creating objects that encapsulates data and behavior",
+          "wrongAnswer1": "A data type for storing multiple values",
+          "wrongAnswer2": "A function that performs a specific task",
+          "wrongAnswer3": "An error-handling mechanism",
+          "explanation": "In Python, a class is a blueprint that defines the structure and behavior (attributes and methods) that the objects created from the class will have.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used to define a class in Python?",
+          "correctAnswer": "class",
+          "wrongAnswer1": "def",
+          "wrongAnswer2": "function",
+          "wrongAnswer3": "object",
+          "explanation": "In Python, the 'class' keyword is used to define a new class.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the __init__ method in a Python class do?",
+          "correctAnswer": "It initializes a new object with specific attributes when the object is created.",
+          "wrongAnswer1": "It deletes an object.",
+          "wrongAnswer2": "It is used to access class attributes globally.",
+          "wrongAnswer3": "It is a function outside the class.",
+          "explanation": "The __init__ method is a special constructor method in Python classes used to initialize the attributes of a new object when it is created.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Inheritance",
+      "questions": [
+        {
+          "question": "What is inheritance in Python?",
+          "correctAnswer": "A mechanism to create a new class from an existing class",
+          "wrongAnswer1": "A way to hide data within a class",
+          "wrongAnswer2": "A method to execute code concurrently",
+          "wrongAnswer3": "A technique to convert one data type to another",
+          "explanation": "Inheritance allows a new class (child class) to acquire properties and methods of an existing class (parent class), enabling code reuse and hierarchical classification.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used in Python to inherit from a parent class?",
+          "correctAnswer": "class ChildClass(ParentClass):",
+          "wrongAnswer1": "inherit ChildClass from ParentClass",
+          "wrongAnswer2": "extends ParentClass",
+          "wrongAnswer3": "derive ChildClass from ParentClass",
+          "explanation": "In Python, inheritance is specified by placing the parent class name inside parentheses after the child class name during class definition.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What type of inheritance allows a class to inherit features from multiple classes?",
+          "correctAnswer": "Multiple inheritance",
+          "wrongAnswer1": "Single inheritance",
+          "wrongAnswer2": "Multilevel inheritance",
+          "wrongAnswer3": "Hierarchical inheritance",
+          "explanation": "Multiple inheritance means a class can inherit attributes and methods from more than one parent class in Python.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Modules",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a module in Python?",
+          "correctAnswer": "To organize and reuse code by grouping related functions, classes, and variables.",
+          "wrongAnswer1": "To execute Python scripts as standalone applications.",
+          "wrongAnswer2": "To provide a graphical user interface.",
+          "wrongAnswer3": "To manage memory allocation.",
+          "explanation": "Modules in Python are designed to organize and reuse code by grouping related functions, classes, and variables, making code more modular and easier to maintain.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you import a module named 'math' in a Python script?",
+          "correctAnswer": "By using the statement 'import math'.",
+          "wrongAnswer1": "By using the statement 'include math'.",
+          "wrongAnswer2": "By writing 'using math'.",
+          "wrongAnswer3": "By writing 'require math'.",
+          "explanation": "In Python, the 'import' statement is used to bring in external modules or libraries, such as 'import math'.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword allows you to import specific components from a module instead of the entire module?",
+          "correctAnswer": "from",
+          "wrongAnswer1": "importall",
+          "wrongAnswer2": "include",
+          "wrongAnswer3": "use",
+          "explanation": "The 'from' keyword in Python allows importing specific components from a module, for example 'from math import sqrt' imports only the sqrt function from the math module.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Exceptions",
+      "questions": [
+        {
+          "question": "What is the purpose of exceptions in Python?",
+          "correctAnswer": "To handle errors and exceptional conditions during program execution",
+          "wrongAnswer1": "To improve the performance of loops",
+          "wrongAnswer2": "To store data persistently",
+          "wrongAnswer3": "To define new functions",
+          "explanation": "Exceptions provide a way to catch and handle errors that occur during the execution of a program, allowing the program to continue or terminate gracefully.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used in Python to catch and handle exceptions?",
+          "correctAnswer": "try",
+          "wrongAnswer1": "catch",
+          "wrongAnswer2": "except",
+          "wrongAnswer3": "handle",
+          "explanation": "The 'try' block is used to wrap code that might raise an exception, and the 'except' block is used to handle those exceptions. 'catch' and 'handle' are not Python keywords.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens if an exception is not handled in Python?",
+          "correctAnswer": "The program terminates and displays a traceback error message",
+          "wrongAnswer1": "The program ignores the error and continues execution",
+          "wrongAnswer2": "The exception is automatically fixed by Python",
+          "wrongAnswer3": "The program restarts from the beginning",
+          "explanation": "If an exception is not caught and handled, Python stops execution and prints a traceback message indicating the error and where it occurred.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "File Handling",
+      "questions": [
+        {
+          "question": "What is the primary mode used to open a file for reading in Python?",
+          "correctAnswer": "'r' mode",
+          "wrongAnswer1": "'w' mode",
+          "wrongAnswer2": "'a' mode",
+          "wrongAnswer3": "'x' mode",
+          "explanation": "The 'r' mode in Python is used to open a file for reading. If the file does not exist, it will throw an error.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method is used to close a file after performing operations on it?",
+          "correctAnswer": "close()",
+          "wrongAnswer1": "end()",
+          "wrongAnswer2": "stop()",
+          "wrongAnswer3": "exit()",
+          "explanation": "The close() method is used to close a file in Python to free up system resources and ensure changes are saved properly.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the 'a' mode do when opening a file in Python?",
+          "correctAnswer": "Appends data to the end of the file",
+          "wrongAnswer1": "Deletes the content of the file and starts fresh",
+          "wrongAnswer2": "Opens the file for reading only",
+          "wrongAnswer3": "Creates a new file and opens it for writing",
+          "explanation": "The 'a' mode opens the file to append data. If the file does not exist, it creates a new one. Data written is added to the end of the file without deleting existing content.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Decorators",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a decorator in Python?",
+          "correctAnswer": "To modify or enhance the behavior of a function without changing its code.",
+          "wrongAnswer1": "To create a new function from scratch.",
+          "wrongAnswer2": "To handle exceptions in a function.",
+          "wrongAnswer3": "To increase the execution speed of a function automatically.",
+          "explanation": "Decorators in Python are used to wrap another function and modify or enhance its behavior without altering the original function's code directly.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following statements is true about decorators in Python?",
+          "correctAnswer": "Decorators are higher-order functions that take a function and return a modified function.",
+          "wrongAnswer1": "Decorators can only be applied to classes, not functions.",
+          "wrongAnswer2": "A decorator replaces a function with a completely unrelated function.",
+          "wrongAnswer3": "Decorators cannot accept arguments other than the function to be decorated.",
+          "explanation": "Decorators are higher-order functions meaning they take a function as input and return a modified function, often used to add functionality.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does the '@' syntax work in relation to decorators in Python?",
+          "correctAnswer": "The '@' syntax is syntactic sugar for applying a decorator function to another function.",
+          "wrongAnswer1": "The '@' syntax is used for defining anonymous functions in decorators.",
+          "wrongAnswer2": "The '@' syntax can only be used for class decorators, not function decorators.",
+          "wrongAnswer3": "The '@' syntax automatically documents the decorated function.",
+          "explanation": "The '@' symbol in Python is a convenient syntax to apply a decorator to a function, equivalent to manually passing the function through the decorator.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Generators",
+      "questions": [
+        {
+          "question": "What is the main advantage of using a generator in Python?",
+          "correctAnswer": "Generators produce items lazily and save memory.",
+          "wrongAnswer1": "Generators execute all code at once and store results in memory.",
+          "wrongAnswer2": "Generators cannot be iterated over multiple times.",
+          "wrongAnswer3": "Generators always return lists instead of single values.",
+          "explanation": "Generators produce items one at a time only when requested, which saves memory compared to creating large lists all at once.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used in a function to make it a generator in Python?",
+          "correctAnswer": "yield",
+          "wrongAnswer1": "return",
+          "wrongAnswer2": "generate",
+          "wrongAnswer3": "produce",
+          "explanation": "The yield keyword is used inside a function to make it a generator, which allows the function to yield values one at a time.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do generators differ from regular functions in Python?",
+          "correctAnswer": "Generators suspend their state between yields and resume where they left off.",
+          "wrongAnswer1": "Generators run to completion immediately when called.",
+          "wrongAnswer2": "Generators return all values at once as a list.",
+          "wrongAnswer3": "Generators cannot be iterated over.",
+          "explanation": "Generators maintain their local state and suspend execution at each yield statement, resuming from there when next() is called.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Lambda Functions",
+      "questions": [
+        {
+          "question": "What is a primary characteristic of a lambda function in Python?",
+          "correctAnswer": "It is an anonymous function defined with the lambda keyword.",
+          "wrongAnswer1": "It is a function that can only have one parameter.",
+          "wrongAnswer2": "It is a class method in Python.",
+          "wrongAnswer3": "It is a function that returns multiple values only.",
+          "explanation": "A lambda function in Python is an anonymous function defined using the lambda keyword and can have any number of parameters but only one expression.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a limitation of lambda functions compared to regular functions?",
+          "correctAnswer": "Lambda functions can only contain a single expression.",
+          "wrongAnswer1": "Lambda functions cannot have parameters.",
+          "wrongAnswer2": "Lambda functions must be named functions.",
+          "wrongAnswer3": "Lambda functions can contain multiple statements and expressions.",
+          "explanation": "Lambda functions in Python are limited to a single expression and cannot contain multiple statements or commands like traditional functions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In what scenario are lambda functions typically used in Python programming?",
+          "correctAnswer": "When a small, short-lived function is needed, usually as an argument to higher-order functions.",
+          "wrongAnswer1": "For defining complex functions that require multiple lines.",
+          "wrongAnswer2": "For creating class instances.",
+          "wrongAnswer3": "For writing recursive functions.",
+          "explanation": "Lambda functions are primarily used for short, anonymous functions often passed as arguments to functions like map(), filter(), and sorted().",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "List Comprehensions",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a list comprehension in Python?",
+          "correctAnswer": "To create a new list by applying an expression to each item in an existing iterable",
+          "wrongAnswer1": "To modify an existing list in place without creating a new list",
+          "wrongAnswer2": "To convert a list into a string",
+          "wrongAnswer3": "To perform input/output operations on lists",
+          "explanation": "List comprehensions provide a concise way to create new lists by applying an expression to each element in an existing iterable, often replacing the need for explicit loops.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a characteristic feature of list comprehensions?",
+          "correctAnswer": "They combine looping and conditional logic into a single, readable expression to create lists",
+          "wrongAnswer1": "They can only create lists of integers",
+          "wrongAnswer2": "They always return a tuple instead of a list",
+          "wrongAnswer3": "They require defining a separate function before usage",
+          "explanation": "List comprehensions allow the inclusion of loops and optional conditions inside a single expression, making code more compact and readable when creating lists.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the list comprehension syntax [x for x in iterable if condition], what role does the 'if condition' part play?",
+          "correctAnswer": "It filters elements from the iterable, including only those for which the condition is True",
+          "wrongAnswer1": "It modifies each element before adding it to the list",
+          "wrongAnswer2": "It defines the type of elements that will be in the list",
+          "wrongAnswer3": "It repeats the elements multiple times based on the condition",
+          "explanation": "The 'if condition' in a list comprehension acts as a filter, selecting which elements from the iterable should be included in the resulting list based on whether they satisfy the condition.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "String Methods",
+      "questions": [
+        {
+          "question": "Which string method in Python is used to convert all characters to uppercase?",
+          "correctAnswer": "upper()",
+          "wrongAnswer1": "lower()",
+          "wrongAnswer2": "capitalize()",
+          "wrongAnswer3": "title()",
+          "explanation": "The upper() method returns a copy of the string with all the characters converted to uppercase. The lower() method converts to lowercase, capitalize() capitalizes the first character, and title() capitalizes the first letter of each word.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the string method strip() do in Python?",
+          "correctAnswer": "Removes whitespace from both ends of the string.",
+          "wrongAnswer1": "Removes all spaces within the string.",
+          "wrongAnswer2": "Removes all characters except letters.",
+          "wrongAnswer3": "Removes newline characters only.",
+          "explanation": "The strip() method removes leading and trailing whitespace characters from a string, but does not affect spaces inside the string.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method would you use to check if a string starts with a specific substring in Python?",
+          "correctAnswer": "startswith()",
+          "wrongAnswer1": "startswithwith()",
+          "wrongAnswer2": "start()",
+          "wrongAnswer3": "begin()",
+          "explanation": "The startswith() method returns True if the string starts with the specified substring, otherwise False. There are no methods named startswithwith(), start(), or begin() in this context.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "File I/O",
+      "questions": [
+        {
+          "question": "What does 'I/O' stand for in the context of file operations in Python?",
+          "correctAnswer": "Input/Output",
+          "wrongAnswer1": "Inner/Outer",
+          "wrongAnswer2": "Initial/Output",
+          "wrongAnswer3": "Input/Operate",
+          "explanation": "'I/O' stands for Input/Output and refers to the operations of reading data from and writing data to files or other sources.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following modes is used to open a file for writing in Python, creating the file if it does not exist and truncating it if it does?",
+          "correctAnswer": "'w' mode",
+          "wrongAnswer1": "'r' mode",
+          "wrongAnswer2": "'a' mode",
+          "wrongAnswer3": "'x' mode",
+          "explanation": "The 'w' mode opens a file for writing, truncating the file if it exists or creating a new file if it doesn't.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the correct way to ensure a file is properly closed after completing file I/O operations in Python?",
+          "correctAnswer": "Using the 'with' statement to open the file",
+          "wrongAnswer1": "Manually calling close() without using 'with'",
+          "wrongAnswer2": "Relying on Python's automatic garbage collection",
+          "wrongAnswer3": "Opening the file multiple times",
+          "explanation": "Using the 'with' statement automatically takes care of closing the file, even if errors occur during file operations.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Packages",
+      "questions": [
+        {
+          "question": "What is a package in Python?",
+          "correctAnswer": "A package is a way of structuring Python’s module namespace by using “dotted module names”.",
+          "wrongAnswer1": "A package is a single Python file containing variables and functions.",
+          "wrongAnswer2": "A package is a Python function that installs other modules automatically.",
+          "wrongAnswer3": "A package is a Python environment manager.",
+          "explanation": "In Python, a package is a collection of modules organized in directories that include a special __init__.py file. This structure allows using dotted module names to organize and import code efficiently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What file must be present in a directory for it to be recognized as a Python package?",
+          "correctAnswer": "__init__.py",
+          "wrongAnswer1": "setup.py",
+          "wrongAnswer2": "package.py",
+          "wrongAnswer3": "__main__.py",
+          "explanation": "The __init__.py file is required in a directory to signal to Python that the directory should be treated as a package, enabling the import of modules from that directory.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do packages in Python help in code organization?",
+          "correctAnswer": "They allow grouping related modules under a common namespace, making code easier to manage and reuse.",
+          "wrongAnswer1": "They automatically increase the performance of Python code.",
+          "wrongAnswer2": "They encrypt Python source code to protect intellectual property.",
+          "wrongAnswer3": "They convert Python code into executable files.",
+          "explanation": "Packages group related modules together under a common namespace, which helps developers organize code logically, prevent name collisions, and reuse code effectively.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Recursion",
+      "questions": [
+        {
+          "question": "What is recursion in Python programming?",
+          "correctAnswer": "A function calling itself to solve a smaller instance of the same problem.",
+          "wrongAnswer1": "A function that executes only once without calling any other function.",
+          "wrongAnswer2": "A method to handle errors in Python programs.",
+          "wrongAnswer3": "A loop that iterates over a sequence in reverse order.",
+          "explanation": "Recursion is a technique where a function calls itself in order to break down a problem into smaller, more manageable instances until a base condition is met.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is essential to avoid infinite recursion in a recursive Python function?",
+          "correctAnswer": "A base case that stops the recursive calls.",
+          "wrongAnswer1": "Using a global variable to control recursion.",
+          "wrongAnswer2": "Calling the function multiple times in each recursion step.",
+          "wrongAnswer3": "Recursion is never infinite; it always stops automatically.",
+          "explanation": "To prevent infinite recursion, a recursive function must have a base case that defines when the function should stop calling itself.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Python handle the memory management of recursive calls?",
+          "correctAnswer": "Each recursive call creates a new frame on the call stack that stores local variables and state.",
+          "wrongAnswer1": "Python reuses the same stack frame for all recursive calls to save memory.",
+          "wrongAnswer2": "Python converts recursive calls into loops automatically to optimize memory usage.",
+          "wrongAnswer3": "Recursion does not affect memory usage in Python.",
+          "explanation": "Python manages recursion by creating new stack frames for each function call, which store the function’s execution context; this can lead to a stack overflow if recursion is too deep.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Regular Expressions",
+      "questions": [
+        {
+          "question": "What module in Python is commonly used for working with regular expressions?",
+          "correctAnswer": "re",
+          "wrongAnswer1": "regex",
+          "wrongAnswer2": "expression",
+          "wrongAnswer3": "pattern",
+          "explanation": "The 're' module in Python provides support for regular expressions, allowing pattern matching and text manipulation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following symbols in Python regular expressions is used to match zero or more repetitions of the preceding element?",
+          "correctAnswer": "*",
+          "wrongAnswer1": "+",
+          "wrongAnswer2": "?",
+          "wrongAnswer3": ".",
+          "explanation": "The asterisk '*' matches zero or more occurrences of the preceding element, whereas '+' matches one or more, '?' matches zero or one, and '.' matches any single character.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Python's regular expressions, what does the pattern '^abc' signify?",
+          "correctAnswer": "The string starts with 'abc'",
+          "wrongAnswer1": "The string ends with 'abc'",
+          "wrongAnswer2": "The string contains 'abc' anywhere",
+          "wrongAnswer3": "'abc' appears twice in the string",
+          "explanation": "The caret '^' in a regular expression pattern indicates the start of the string, so '^abc' matches any string that begins with 'abc'.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Multithreading",
+      "questions": [
+        {
+          "question": "What is the primary purpose of multithreading in Python?",
+          "correctAnswer": "To run multiple threads concurrently within a single process.",
+          "wrongAnswer1": "To run multiple Python scripts simultaneously.",
+          "wrongAnswer2": "To increase the number of CPUs used by Python automatically.",
+          "wrongAnswer3": "To compile Python code into machine code.",
+          "explanation": "Multithreading allows multiple threads to run concurrently within the same process, enabling tasks to be performed seemingly at the same time.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a limitation of multithreading in Python?",
+          "correctAnswer": "The Global Interpreter Lock (GIL) prevents true parallel execution of threads.",
+          "wrongAnswer1": "Threads consume more memory than processes.",
+          "wrongAnswer2": "Python does not support threading at all.",
+          "wrongAnswer3": "Threads in Python cannot access shared variables.",
+          "explanation": "The GIL ensures that only one thread executes Python bytecode at a time, limiting true parallelism despite the use of multiple threads.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In Python's threading module, what method is used to start a thread?",
+          "correctAnswer": "start()",
+          "wrongAnswer1": "run()",
+          "wrongAnswer2": "execute()",
+          "wrongAnswer3": "begin()",
+          "explanation": "The start() method is used to begin the thread's activity, which internally calls the run() method.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Asyncio",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the asyncio module in Python?",
+          "correctAnswer": "To write concurrent code using the async/await syntax",
+          "wrongAnswer1": "To perform synchronous file I/O operations",
+          "wrongAnswer2": "To implement multithreading with shared memory",
+          "wrongAnswer3": "To create graphical user interfaces",
+          "explanation": "The asyncio module provides infrastructure for writing single-threaded concurrent code using coroutines, multiplexing I/O access over sockets and other resources, running network clients and servers, and other related primitives using the async/await syntax.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes how asyncio achieves concurrency?",
+          "correctAnswer": "By using cooperative multitasking with coroutines and an event loop",
+          "wrongAnswer1": "By creating multiple threads to run tasks in parallel",
+          "wrongAnswer2": "By using multiple processes to distribute tasks",
+          "wrongAnswer3": "By running code sequentially without interruption",
+          "explanation": "Asyncio provides concurrency through cooperative multitasking, where code using async/await keywords yields control to an event loop which manages task scheduling, rather than preemptive multitasking with threads or processes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the role of the event loop in asyncio?",
+          "correctAnswer": "It schedules and runs asynchronous tasks and callbacks",
+          "wrongAnswer1": "It creates separate threads for each asynchronous task",
+          "wrongAnswer2": "It compiles Python code to bytecode for execution",
+          "wrongAnswer3": "It handles synchronous blocking I/O requests",
+          "explanation": "The event loop is the core of every asyncio application, responsible for scheduling, running asynchronous tasks, handling I/O operations asynchronously, and managing callbacks.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Context Managers",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a context manager in Python?",
+          "correctAnswer": "To manage resources by automatically handling setup and cleanup actions",
+          "wrongAnswer1": "To execute code asynchronously",
+          "wrongAnswer2": "To compile Python code into bytecode",
+          "wrongAnswer3": "To manage multiple threads simultaneously",
+          "explanation": "Context managers in Python are used to properly manage resources, ensuring that setup and cleanup operations are handled automatically, such as opening and closing files.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Python statement is typically used with context managers to ensure proper resource management?",
+          "correctAnswer": "with statement",
+          "wrongAnswer1": "try statement",
+          "wrongAnswer2": "if statement",
+          "wrongAnswer3": "for statement",
+          "explanation": "The 'with' statement is used to wrap the execution of a block with methods defined by a context manager, ensuring resources are managed properly even in case of exceptions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method must a Python object implement to be used as a context manager with the 'with' statement?",
+          "correctAnswer": "Both __enter__() and __exit__() methods",
+          "wrongAnswer1": "__str__() method",
+          "wrongAnswer2": "__init__() method only",
+          "wrongAnswer3": "__call__() method",
+          "explanation": "To be used as a context manager, a class must implement __enter__() for setup and __exit__() for cleanup, which are called at the beginning and end of the 'with' block respectively.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Pythonic Code",
+      "questions": [
+        {
+          "question": "What does the term 'Pythonic code' primarily refer to?",
+          "correctAnswer": "Code that follows Python's idiomatic style and embraces its philosophy",
+          "wrongAnswer1": "Code written in Python regardless of style",
+          "wrongAnswer2": "Code that only uses complex Python libraries",
+          "wrongAnswer3": "Code that is heavily optimized for speed only",
+          "explanation": "Pythonic code refers to writing code that is idiomatic and follows the conventions and philosophy that are considered best practice within the Python community, such as readability and simplicity.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is considered a Pythonic way to iterate over a list with both index and value?",
+          "correctAnswer": "Using the built-in enumerate() function",
+          "wrongAnswer1": "Using a for loop with range and indexing the list manually",
+          "wrongAnswer2": "Using a while loop with a counter variable",
+          "wrongAnswer3": "Using recursion to iterate through the list",
+          "explanation": "The use of 'enumerate()' is considered Pythonic as it is concise, readable and leverages Python's built-in functions efficiently, rather than manually managing indexes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of these principles is NOT typically associated with writing Pythonic code?",
+          "correctAnswer": "Preferring verbose and complex code to show programming skill",
+          "wrongAnswer1": "Using clear and readable code structures",
+          "wrongAnswer2": "Following the Zen of Python principles like simplicity and readability",
+          "wrongAnswer3": "Writing code that is explicit and straightforward",
+          "explanation": "Pythonic code values readability, simplicity, and clarity. Writing verbose and overly complex code contradicts these principles and is not considered Pythonic.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Type Hinting",
+      "questions": [
+        {
+          "question": "What is the main purpose of type hinting in Python?",
+          "correctAnswer": "To indicate the expected data types of variables and functions to improve code readability and tooling support.",
+          "wrongAnswer1": "To enforce strict type checking at runtime.",
+          "wrongAnswer2": "To increase the execution speed of Python programs.",
+          "wrongAnswer3": "To automatically convert variable types during program execution.",
+          "explanation": "Type hinting in Python is primarily used to make the expected data types of variables and function parameters explicit. This helps improve code readability and assists static type checkers, IDEs, and linters, but Python does not enforce types at runtime.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Python module provides tools for checking type hints?",
+          "correctAnswer": "typing",
+          "wrongAnswer1": "typecheck",
+          "wrongAnswer2": "hinting",
+          "wrongAnswer3": "types",
+          "explanation": "The 'typing' module in Python provides support for type hints, including generic types and special constructs that help annotate code more precisely.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does type hinting affect the execution of Python programs?",
+          "correctAnswer": "It does not affect runtime behavior; it's only for static analysis and readability.",
+          "wrongAnswer1": "It causes the Python interpreter to raise errors when types do not match.",
+          "wrongAnswer2": "It optimizes the program to run faster by using static types.",
+          "wrongAnswer3": "It compiles the code into a statically typed language for execution.",
+          "explanation": "Python's type hints are ignored at runtime by default; they are intended solely for tooling and human readers to understand the expected types, without impacting execution.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Debugging",
+      "questions": [
+        {
+          "question": "What is the primary purpose of debugging in Python programming?",
+          "correctAnswer": "To identify and fix errors or bugs in the code",
+          "wrongAnswer1": "To write new features for the program",
+          "wrongAnswer2": "To optimize the program for faster execution",
+          "wrongAnswer3": "To document the code for future reference",
+          "explanation": "Debugging is the process of finding and correcting errors or bugs in a program to ensure it runs correctly.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Python tool is commonly used for interactive debugging?",
+          "correctAnswer": "pdb (Python Debugger)",
+          "wrongAnswer1": "pip (Python Package Installer)",
+          "wrongAnswer2": "IDLE",
+          "wrongAnswer3": "PyPI (Python Package Index)",
+          "explanation": "pdb is the standard interactive debugger in Python that allows step-by-step execution and inspection of code to identify issues.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In Python debugging, what is a breakpoint?",
+          "correctAnswer": "A point in the code where execution pauses to allow inspection",
+          "wrongAnswer1": "A place where the program crashes",
+          "wrongAnswer2": "A type of syntax error",
+          "wrongAnswer3": "A method to compile Python code",
+          "explanation": "A breakpoint is set intentionally in code to pause execution so the programmer can examine variables and program state to diagnose problems.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Unit Testing",
+      "questions": [
+        {
+          "question": "What is the primary purpose of unit testing in Python?",
+          "correctAnswer": "To verify that individual units of code work as expected.",
+          "wrongAnswer1": "To test the entire application as a whole.",
+          "wrongAnswer2": "To check the user interface design.",
+          "wrongAnswer3": "To deploy the application automatically.",
+          "explanation": "Unit testing focuses on testing individual components or units of code to ensure they function correctly in isolation, which helps identify bugs early in development.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Python module is commonly used for writing and running unit tests?",
+          "correctAnswer": "unittest",
+          "wrongAnswer1": "random",
+          "wrongAnswer2": "os",
+          "wrongAnswer3": "math",
+          "explanation": "The 'unittest' module is the standard Python module used to create and run unit tests.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In unit testing with Python's unittest framework, what method is typically used to assert that two values are equal?",
+          "correctAnswer": "assertEqual()",
+          "wrongAnswer1": "assertTrue()",
+          "wrongAnswer2": "assertFalse()",
+          "wrongAnswer3": "assertIn()",
+          "explanation": "The method assertEqual() checks whether two values are equal in a test case, which is fundamental to verifying expected outcomes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Virtual Environments",
+      "questions": [
+        {
+          "question": "What is the primary purpose of using a virtual environment in Python?",
+          "correctAnswer": "To create an isolated environment for project-specific dependencies",
+          "wrongAnswer1": "To speed up the Python interpreter",
+          "wrongAnswer2": "To increase the system-wide Python performance",
+          "wrongAnswer3": "To automatically update all installed packages",
+          "explanation": "A virtual environment allows developers to create an isolated space for Python projects, so that dependencies and packages are managed per project without affecting the global Python installation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following commands is used to create a virtual environment in Python 3?",
+          "correctAnswer": "python3 -m venv env_name",
+          "wrongAnswer1": "python create_venv env_name",
+          "wrongAnswer2": "pip install virtualenv env_name",
+          "wrongAnswer3": "python setup.py venv env_name",
+          "explanation": "The standard way to create a virtual environment in Python 3 is by running 'python3 -m venv env_name', where 'env_name' is the name of the new virtual environment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do virtual environments help in managing package versions?",
+          "correctAnswer": "By allowing each project to maintain its own versions, independent of the global environment",
+          "wrongAnswer1": "By syncing all packages versions across different projects",
+          "wrongAnswer2": "By installing packages globally for all projects to use",
+          "wrongAnswer3": "By automatically upgrading all packages to the latest versions",
+          "explanation": "Virtual environments isolate package installations per project, enabling each project to use specific versions of packages without conflicts with other projects or global installations.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Pip",
+      "questions": [
+        {
+          "question": "What is the primary purpose of pip in Python?",
+          "correctAnswer": "To install and manage Python packages",
+          "wrongAnswer1": "To write Python scripts",
+          "wrongAnswer2": "To compile Python code into executable files",
+          "wrongAnswer3": "To serve as a text editor for Python code",
+          "explanation": "Pip is the package installer for Python. It allows users to install and manage additional libraries and dependencies that are not distributed as part of the standard library.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following commands would you use to install a new Python package using pip?",
+          "correctAnswer": "'pip install package_name'",
+          "wrongAnswer1": "'pip download package_name'",
+          "wrongAnswer2": "'pip remove package_name'",
+          "wrongAnswer3": "'pip start package_name'",
+          "explanation": "The command 'pip install package_name' is used to install a new package via pip. Other commands have different purposes such as downloading or uninstalling packages.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does pip determine which version of a package to install when you run the install command without specifying a version?",
+          "correctAnswer": "It installs the latest stable version available on the Python Package Index (PyPI).",
+          "wrongAnswer1": "It installs the oldest version of the package available.",
+          "wrongAnswer2": "It installs the version that is most frequently downloaded.",
+          "wrongAnswer3": "It installs the version that is compatible only with Python 2.x.",
+          "explanation": "By default, pip installs the latest stable version of the package available from PyPI unless a specific version is specified by the user.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "JSON Parsing",
+      "questions": [
+        {
+          "question": "What is the primary purpose of JSON parsing in Python?",
+          "correctAnswer": "To convert JSON formatted data into Python objects",
+          "wrongAnswer1": "To convert Python code into JSON format",
+          "wrongAnswer2": "To compile Python scripts",
+          "wrongAnswer3": "To encrypt JSON data",
+          "explanation": "JSON parsing in Python is mainly used to read JSON data and convert it into Python objects like dictionaries and lists for manipulation within the Python program.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Python module is commonly used to parse JSON data?",
+          "correctAnswer": "json",
+          "wrongAnswer1": "xml",
+          "wrongAnswer2": "csv",
+          "wrongAnswer3": "os",
+          "explanation": "The 'json' module in Python provides functions to work with JSON data, including parsing JSON strings into Python objects.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What Python function is used to parse a JSON string into a Python dictionary?",
+          "correctAnswer": "json.loads()",
+          "wrongAnswer1": "json.dumps()",
+          "wrongAnswer2": "json.load()",
+          "wrongAnswer3": "json.parse()",
+          "explanation": "The json.loads() function parses a JSON-formatted string and converts it into the corresponding Python object, such as a dictionary. json.load() is for parsing JSON data from a file, whereas json.dumps() converts Python objects to JSON strings.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Web Scraping",
+      "questions": [
+        {
+          "question": "What is the primary purpose of web scraping in Python?",
+          "correctAnswer": "To extract data from websites for analysis or use",
+          "wrongAnswer1": "To create dynamic web pages",
+          "wrongAnswer2": "To enhance web security",
+          "wrongAnswer3": "To design user interfaces",
+          "explanation": "Web scraping is used to programmatically extract data from websites, which can then be analyzed or used for various purposes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Python library is commonly used for parsing HTML content during web scraping?",
+          "correctAnswer": "BeautifulSoup",
+          "wrongAnswer1": "NumPy",
+          "wrongAnswer2": "Pandas",
+          "wrongAnswer3": "Matplotlib",
+          "explanation": "BeautifulSoup is widely used for parsing HTML and XML documents, facilitating web scraping by making it easier to navigate and search the page content.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a common ethical consideration when performing web scraping?",
+          "correctAnswer": "Respecting the website's robots.txt rules and terms of service",
+          "wrongAnswer1": "Increasing server load by rapid requests",
+          "wrongAnswer2": "Ignoring website data usage policies",
+          "wrongAnswer3": "Collecting data without limitation",
+          "explanation": "Ethical web scraping involves respecting website rules such as robots.txt and terms of service to avoid legal and ethical issues.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Data Analysis",
+      "questions": [
+        {
+          "question": "Which Python library is most commonly used for data analysis?",
+          "correctAnswer": "Pandas",
+          "wrongAnswer1": "Matplotlib",
+          "wrongAnswer2": "Flask",
+          "wrongAnswer3": "Django",
+          "explanation": "Pandas is a powerful Python library specifically designed for data analysis and manipulation, providing data structures like DataFrames which simplify working with structured data.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the primary data structure used in pandas for handling tabular data?",
+          "correctAnswer": "DataFrame",
+          "wrongAnswer1": "Series",
+          "wrongAnswer2": "List",
+          "wrongAnswer3": "Dictionary",
+          "explanation": "In pandas, the DataFrame is the primary data structure used to represent tabular data with labeled axes (rows and columns), making it ideal for data analysis.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following operations is NOT typically associated with data analysis using pandas?",
+          "correctAnswer": "Building user interfaces",
+          "wrongAnswer1": "Data cleaning",
+          "wrongAnswer2": "Data aggregation",
+          "wrongAnswer3": "Data filtering",
+          "explanation": "Building user interfaces is not related to data analysis in pandas. Pandas is mainly used for data manipulation tasks such as cleaning, filtering, and aggregation.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Machine Learning",
+      "questions": [
+        {
+          "question": "What is the primary purpose of using Python in machine learning?",
+          "correctAnswer": "To build and implement machine learning models efficiently.",
+          "wrongAnswer1": "To design user interfaces exclusively.",
+          "wrongAnswer2": "To perform database management only.",
+          "wrongAnswer3": "To write system-level code only.",
+          "explanation": "Python provides powerful libraries and frameworks like scikit-learn, TensorFlow, and PyTorch to efficiently build, train, and deploy machine learning models.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Python library is most commonly used for data manipulation in machine learning preprocessing?",
+          "correctAnswer": "Pandas",
+          "wrongAnswer1": "Matplotlib",
+          "wrongAnswer2": "Flask",
+          "wrongAnswer3": "Django",
+          "explanation": "Pandas is widely used for handling and preprocessing data, such as cleaning, transforming, and preparing datasets for machine learning tasks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In machine learning using Python, what is the role of the train-test split?",
+          "correctAnswer": "To separate data into training and testing sets to evaluate model performance.",
+          "wrongAnswer1": "To combine all data into one dataset for training.",
+          "wrongAnswer2": "To clean data by removing missing values.",
+          "wrongAnswer3": "To visualize the dataset features.",
+          "explanation": "The train-test split divides the dataset so the model is trained on one portion and tested on another to assess how well it generalizes to unseen data.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Django Framework",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Django framework in Python?",
+          "correctAnswer": "To simplify the development of complex, database-driven websites by providing a high-level framework",
+          "wrongAnswer1": "To perform data analysis and visualization",
+          "wrongAnswer2": "To create desktop graphical user interfaces",
+          "wrongAnswer3": "To write low-level system programming",
+          "explanation": "Django is a high-level Python web framework designed to encourage rapid development and clean, pragmatic design, primarily for database-driven websites.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which architectural pattern does Django primarily follow?",
+          "correctAnswer": "Model-View-Template (MVT)",
+          "wrongAnswer1": "Model-View-Controller (MVC)",
+          "wrongAnswer2": "Model-View-Presenter (MVP)",
+          "wrongAnswer3": "Model-Template-Controller (MTC)",
+          "explanation": "Django follows the Model-View-Template architectural pattern, which is a variation of MVC adapted for web development with specific separation of concerns.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which component in Django handles the data and business logic?",
+          "correctAnswer": "Model",
+          "wrongAnswer1": "View",
+          "wrongAnswer2": "Template",
+          "wrongAnswer3": "Controller",
+          "explanation": "In Django's MVT architecture, the Model handles the data and business logic, managing data structure and database operations.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Flask Framework",
+      "questions": [
+        {
+          "question": "What is Flask primarily used for in Python programming?",
+          "correctAnswer": "Developing web applications",
+          "wrongAnswer1": "Data analysis",
+          "wrongAnswer2": "Machine learning model training",
+          "wrongAnswer3": "Desktop application development",
+          "explanation": "Flask is a lightweight web framework used primarily for developing web applications in Python.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes Flask?",
+          "correctAnswer": "A micro web framework for Python",
+          "wrongAnswer1": "A full-stack web development platform",
+          "wrongAnswer2": "A Python library for data visualization",
+          "wrongAnswer3": "A database management tool",
+          "explanation": "Flask is known as a micro web framework because it provides the essential components to build web applications without much overhead or dependencies.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Flask, what is the purpose of the route decorator '@app.route'?",
+          "correctAnswer": "To define the URL endpoint for a function",
+          "wrongAnswer1": "To specify the database connection string",
+          "wrongAnswer2": "To import external packages into the project",
+          "wrongAnswer3": "To configure the application's secret key",
+          "explanation": "The '@app.route' decorator in Flask is used to bind URL paths to functions, defining what content to serve at that specific endpoint.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "REST APIs",
+      "questions": [
+        {
+          "question": "What is a REST API primarily used for in Python applications?",
+          "correctAnswer": "To enable communication between client and server over HTTP using standard methods",
+          "wrongAnswer1": "To create graphical user interfaces",
+          "wrongAnswer2": "To manage databases internally without client interaction",
+          "wrongAnswer3": "To perform system-level operations on the operating system",
+          "explanation": "REST APIs in Python allow clients and servers to communicate over HTTP standard methods like GET, POST, PUT, and DELETE, facilitating web services integration.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which HTTP method in a REST API is typically used to update an existing resource?",
+          "correctAnswer": "PUT",
+          "wrongAnswer1": "GET",
+          "wrongAnswer2": "POST",
+          "wrongAnswer3": "DELETE",
+          "explanation": "The PUT method in REST APIs is generally used to update an existing resource, while GET is for retrieval, POST for creation, and DELETE for removal.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the context of REST APIs, what does 'stateless' mean?",
+          "correctAnswer": "Each request from client to server must contain all information needed to understand and process the request",
+          "wrongAnswer1": "The server remembers the state of each client between requests",
+          "wrongAnswer2": "The server stores all client data between requests",
+          "wrongAnswer3": "Each client connection is persistent and does not close",
+          "explanation": "Statelessness means that each request is independent and the server does not store any client context between requests, which simplifies server design and improves scalability.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "ORM",
+      "questions": [
+        {
+          "question": "What does ORM stand for in the context of Python?",
+          "correctAnswer": "Object Relational Mapping",
+          "wrongAnswer1": "Oriented Resource Management",
+          "wrongAnswer2": "Operational Runtime Module",
+          "wrongAnswer3": "Object Resource Mechanism",
+          "explanation": "ORM stands for Object Relational Mapping, a technique that allows programmers to convert data between incompatible type systems in object-oriented programming languages and relational databases.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the primary advantage of using an ORM in Python applications?",
+          "correctAnswer": "It allows developers to interact with the database using Python objects instead of SQL queries.",
+          "wrongAnswer1": "It automatically optimizes database queries for performance.",
+          "wrongAnswer2": "It replaces the need for a database entirely by storing data in memory.",
+          "wrongAnswer3": "It guarantees 100% faster execution of database operations.",
+          "explanation": "ORMs allow developers to write database queries using Python code, which abstracts away the SQL and simplifies database interactions, improving productivity and maintainability.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a popular ORM library in Python?",
+          "correctAnswer": "SQLAlchemy",
+          "wrongAnswer1": "NumPy",
+          "wrongAnswer2": "Pandas",
+          "wrongAnswer3": "Matplotlib",
+          "explanation": "SQLAlchemy is a widely used ORM library in Python that provides a full suite of well known enterprise-level persistence patterns, designed for efficient and high-performing database access.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Logging",
+      "questions": [
+        {
+          "question": "What is the primary purpose of logging in Python applications?",
+          "correctAnswer": "To record events and messages during program execution for debugging and monitoring.",
+          "wrongAnswer1": "To execute code more quickly by skipping error checks.",
+          "wrongAnswer2": "To encrypt data for secure transmission.",
+          "wrongAnswer3": "To format output data for user display.",
+          "explanation": "Logging in Python is used to record events that happen when some software runs, which helps developers to debug and monitor the application's behavior.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Python standard library module is commonly used for logging?",
+          "correctAnswer": "logging",
+          "wrongAnswer1": "log",
+          "wrongAnswer2": "trace",
+          "wrongAnswer3": "debug",
+          "explanation": "The 'logging' module is a built-in Python library used to implement event logging for applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Python logging, what does the logging level 'ERROR' indicate?",
+          "correctAnswer": "A serious problem that prevents part of the program from functioning properly.",
+          "wrongAnswer1": "Informational messages that highlight the progress of the application.",
+          "wrongAnswer2": "Debugging messages meant for diagnosing problems.",
+          "wrongAnswer3": "Warnings about potential issues that do not stop program execution.",
+          "explanation": "The 'ERROR' level signals severe issues that have caused a failure in certain parts of the program and usually require immediate attention.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Command Line",
+      "questions": [
+        {
+          "question": "What is the primary purpose of using the command line interface (CLI) in Python programming?",
+          "correctAnswer": "To execute Python scripts and interact with the Python interpreter",
+          "wrongAnswer1": "To create graphical user interfaces for Python programs",
+          "wrongAnswer2": "To write Python code using a visual editor",
+          "wrongAnswer3": "To debug Python programs using a web browser",
+          "explanation": "The command line interface in Python is mainly used to execute Python scripts and to interact with the Python interpreter directly, allowing users to run commands and scripts without a graphical interface.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following commands is used to run a Python script named 'script.py' from the command line?",
+          "correctAnswer": "python script.py",
+          "wrongAnswer1": "run script.py",
+          "wrongAnswer2": "execute script.py",
+          "wrongAnswer3": "start script.py",
+          "explanation": "The correct command to run a Python script from the command line is 'python script.py'. Other commands like 'run', 'execute', or 'start' are not valid for running Python scripts in the command line environment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can you pass command line arguments to a Python script?",
+          "correctAnswer": "By using the sys.argv list inside the script",
+          "wrongAnswer1": "By using the print() function to read arguments",
+          "wrongAnswer2": "By writing arguments directly into the script without any input",
+          "wrongAnswer3": "By importing arguments automatically without specifying them",
+          "explanation": "Command line arguments are accessed in Python by importing the sys module and using sys.argv, which contains a list of the arguments passed to the script from the command line.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Metaclasses",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a metaclass in Python?",
+          "correctAnswer": "To control the creation and behavior of classes",
+          "wrongAnswer1": "To decorate functions with additional behavior",
+          "wrongAnswer2": "To handle exceptions in classes",
+          "wrongAnswer3": "To create instances of classes",
+          "explanation": "Metaclasses in Python are the 'classes of classes' that define how classes behave. They allow customization of class creation and modification, influencing how classes are constructed and initialized.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which default metaclass do all new-style classes in Python inherit from if no other metaclass is specified?",
+          "correctAnswer": "type",
+          "wrongAnswer1": "object",
+          "wrongAnswer2": "class",
+          "wrongAnswer3": "Meta",
+          "explanation": "In Python, the built-in metaclass for all new-style classes is 'type'. If a class does not specify a metaclass, it will inherit from 'type' by default.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you specify a metaclass for a class in Python 3?",
+          "correctAnswer": "By using the 'metaclass' keyword in the class definition",
+          "wrongAnswer1": "By inheriting explicitly from the metaclass",
+          "wrongAnswer2": "By defining a special '__metaclass__' method inside the class",
+          "wrongAnswer3": "By calling the metaclass's __init__ method inside the class",
+          "explanation": "In Python 3, the preferred way to specify a metaclass is by using the 'metaclass' keyword argument in the class header, for example: class MyClass(metaclass=MyMeta).",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Descriptors",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a descriptor in Python?",
+          "correctAnswer": "To customize attribute access behavior by defining __get__, __set__, and/or __delete__ methods",
+          "wrongAnswer1": "To create a new data type from scratch",
+          "wrongAnswer2": "To manage memory allocation for objects",
+          "wrongAnswer3": "To override the default print behavior of objects",
+          "explanation": "Descriptors are special objects that define methods like __get__, __set__, and __delete__, and are used to manage attribute access in Python objects, allowing more control over how attributes are retrieved, set, or deleted.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following methods is NOT typically implemented in a descriptor?",
+          "correctAnswer": "__init__",
+          "wrongAnswer1": "__get__",
+          "wrongAnswer2": "__set__",
+          "wrongAnswer3": "__delete__",
+          "explanation": "Descriptors typically implement one or more of the __get__, __set__, and __delete__ methods. The __init__ method is a standard initializer but is not specific to descriptor functionality.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does a data descriptor differ from a non-data descriptor in Python?",
+          "correctAnswer": "A data descriptor implements both __get__ and __set__ methods, while a non-data descriptor only implements __get__",
+          "wrongAnswer1": "A data descriptor is only used for class variables, non-data for instance variables",
+          "wrongAnswer2": "A data descriptor controls deletion of attributes, non-data controls access",
+          "wrongAnswer3": "There is no difference; both implement the same methods",
+          "explanation": "Data descriptors implement both __get__ and __set__ methods, providing control for both retrieving and setting attributes, while non-data descriptors only implement __get__, allowing read-only behavior.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Sockets",
+      "questions": [
+        {
+          "question": "What is the primary purpose of using sockets in Python?",
+          "correctAnswer": "To enable communication between different processes over a network",
+          "wrongAnswer1": "To create graphical user interfaces",
+          "wrongAnswer2": "To manage database connections",
+          "wrongAnswer3": "To perform mathematical calculations",
+          "explanation": "Sockets provide a way to send and receive data between different devices or processes over a network, enabling network communication.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Python module is commonly used to work with sockets?",
+          "correctAnswer": "socket",
+          "wrongAnswer1": "network",
+          "wrongAnswer2": "io",
+          "wrongAnswer3": "sys",
+          "explanation": "The socket module in Python provides the necessary tools for using socket programming to create network applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In socket programming, what does the term 'bind' refer to?",
+          "correctAnswer": "Attaching a socket to a specific IP address and port number",
+          "wrongAnswer1": "Connecting to a remote socket",
+          "wrongAnswer2": "Listening for incoming connections",
+          "wrongAnswer3": "Closing the socket connection",
+          "explanation": "Binding a socket means assigning it to a particular IP address and port so it can listen for incoming connections at that address and port.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "CSV Module",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the CSV module in Python?",
+          "correctAnswer": "To read from and write to CSV (Comma Separated Values) files.",
+          "wrongAnswer1": "To execute SQL queries on a CSV database.",
+          "wrongAnswer2": "To create graphical user interfaces.",
+          "wrongAnswer3": "To handle JSON data parsing.",
+          "explanation": "The CSV module in Python is specifically designed for reading and writing CSV files, which are text files that use commas to separate values.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method from the Python CSV module is used to write a list of rows to a CSV file at once?",
+          "correctAnswer": "writerows()",
+          "wrongAnswer1": "writecsv()",
+          "wrongAnswer2": "write()",
+          "wrongAnswer3": "writeline()",
+          "explanation": "The writerows() method writes multiple rows to a CSV file given an iterable of rows, where each row is a list of values.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "When using the csv.reader object, what type of data structure is each row returned as?",
+          "correctAnswer": "A list of strings",
+          "wrongAnswer1": "A dictionary",
+          "wrongAnswer2": "A set",
+          "wrongAnswer3": "A string",
+          "explanation": "Each row read by csv.reader is returned as a list of strings, where each string corresponds to a cell in the CSV row.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "HTTP Requests",
+      "questions": [
+        {
+          "question": "What Python library is commonly used to send HTTP requests?",
+          "correctAnswer": "requests",
+          "wrongAnswer1": "numpy",
+          "wrongAnswer2": "matplotlib",
+          "wrongAnswer3": "pandas",
+          "explanation": "The 'requests' library in Python is widely used for making HTTP requests because it simplifies the process of sending and receiving HTTP requests compared to other libraries.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which HTTP method is typically used to retrieve data from a server?",
+          "correctAnswer": "GET",
+          "wrongAnswer1": "POST",
+          "wrongAnswer2": "PUT",
+          "wrongAnswer3": "DELETE",
+          "explanation": "The GET method requests data from a specified resource and should not change the server state, making it ideal for retrieving information.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Python HTTP requests, what does the status code 404 indicate?",
+          "correctAnswer": "The requested resource was not found on the server",
+          "wrongAnswer1": "The request was successful and returned data",
+          "wrongAnswer2": "The server encountered an internal error",
+          "wrongAnswer3": "The request was unauthorized",
+          "explanation": "Status code 404 means that the server could not find the requested resource. It is a common HTTP response indicating a broken or invalid URL.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "JSON Module",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Python's JSON module?",
+          "correctAnswer": "To parse JSON strings into Python objects and convert Python objects into JSON strings",
+          "wrongAnswer1": "To create graphical user interfaces",
+          "wrongAnswer2": "To manage databases",
+          "wrongAnswer3": "To perform mathematical calculations",
+          "explanation": "The JSON module in Python is specifically designed for encoding and decoding JSON data, allowing you to convert JSON formatted text into Python objects and vice versa.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which function from the JSON module is used to convert a Python dictionary into a JSON string?",
+          "correctAnswer": "json.dumps()",
+          "wrongAnswer1": "json.load()",
+          "wrongAnswer2": "json.parse()",
+          "wrongAnswer3": "json.tojson()",
+          "explanation": "The json.dumps() function takes a Python object and returns a JSON string representation of that object. It is commonly used for serializing Python dictionaries to JSON format.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When working with the JSON module, what type of Python object will json.loads() return after parsing a JSON string?",
+          "correctAnswer": "A Python dictionary (if the JSON string contains an object)",
+          "wrongAnswer1": "A Python list only",
+          "wrongAnswer2": "A JSON string",
+          "wrongAnswer3": "An integer value",
+          "explanation": "The json.loads() function parses a JSON formatted string and converts it into the equivalent Python object. If the JSON string contains a JSON object, it is converted into a Python dictionary. Arrays become Python lists, strings become Python strings, etc.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Memory Management",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Python's memory management system?",
+          "correctAnswer": "To allocate and deallocate memory automatically for Python objects.",
+          "wrongAnswer1": "To manually manage memory allocation for system resources.",
+          "wrongAnswer2": "To optimize the speed of Python's computation.",
+          "wrongAnswer3": "To store Python code and scripts efficiently.",
+          "explanation": "Python's memory management system handles the allocation and deallocation of memory for objects automatically, relieving programmers from manual memory management tasks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which component of Python is responsible for automatic memory management?",
+          "correctAnswer": "Garbage collector",
+          "wrongAnswer1": "Syntax parser",
+          "wrongAnswer2": "Bytecode compiler",
+          "wrongAnswer3": "Interpreter frontend",
+          "explanation": "The garbage collector in Python automatically frees memory by destroying objects that are no longer referenced.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Python typically manage memory for small objects such as integers and short strings?",
+          "correctAnswer": "It uses a private heap space and an internal allocator to manage small objects efficiently.",
+          "wrongAnswer1": "It stores them directly in CPU registers for faster access.",
+          "wrongAnswer2": "It writes them to disk immediately to save RAM.",
+          "wrongAnswer3": "It does not manage memory for small objects, requiring programmer intervention.",
+          "explanation": "Python creates a private heap for memory management where small objects are internally managed through an allocator to improve performance and efficiency.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "concept": "Performance Optimization",
+      "questions": [
+        {
+          "question": "What is a common way to improve Python code performance?",
+          "correctAnswer": "Using built-in functions and libraries optimized for performance",
+          "wrongAnswer1": "Writing all functions from scratch",
+          "wrongAnswer2": "Avoiding the use of loops",
+          "wrongAnswer3": "Using only global variables",
+          "explanation": "Python's built-in functions and standard libraries are highly optimized, so using them can improve performance significantly compared to custom implementations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which technique can help reduce the execution time of Python programs?",
+          "correctAnswer": "Using list comprehensions instead of traditional for-loops",
+          "wrongAnswer1": "Rewriting Python code in Java",
+          "wrongAnswer2": "Increasing the size of data structures",
+          "wrongAnswer3": "Using global variables extensively",
+          "explanation": "List comprehensions are generally faster and more efficient than traditional for-loops because they are optimized internally in Python.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "When optimizing Python code, what is the benefit of using the 'timeit' module?",
+          "correctAnswer": "It allows measuring the execution time of small code snippets accurately",
+          "wrongAnswer1": "It automatically optimizes the code for faster execution",
+          "wrongAnswer2": "It converts Python code into machine language",
+          "wrongAnswer3": "It provides real-time memory usage statistics",
+          "explanation": "The 'timeit' module is used to time small bits of Python code, helping developers understand performance bottlenecks and optimize accordingly.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

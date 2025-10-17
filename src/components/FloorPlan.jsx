@@ -3,27 +3,37 @@ import React from "react";
 
 export default function FloorPlan({
   floorplan,
+  widthClass = "w-16 aspect-square",
   borderClass = "",
   hoverEffect = "",
   debugClass = "",
   onClick = null,
 }) {
-  if (!floorplan) return <div className="w-12 aspect-square" />;
+  if (!floorplan) return <div className={widthClass} />;
 
   const bgColor = floorplan.color || "transparent";
   const name = floorplan.name || "";
   const doors = floorplan.doors || {};
   const doorStyle = "absolute bg-gray-800";
+  const textShadowCss = "0.0625rem 0.0625rem 0.125rem black";
 
   return (
     <div
-      className={`w-12 aspect-square ${debugClass} relative shadow-sm rounded-sx flex
-        items-center justify-center text-xs font-semibold
-        text-shadow-black text-shadow-md ${borderClass} ${hoverEffect}`}
+      className={`${widthClass} ${debugClass} relative shadow-sm rounded-sx flex
+        items-center justify-center font-semibold
+        text-shadow-black ${borderClass} ${hoverEffect}`}
       style={{ backgroundColor: bgColor }}
       onClick={onClick || undefined}
     >
-      {name}
+      <p
+        style={{
+          fontSize: "0.55rem",
+          zIndex: 10,
+          textShadow: `${textShadowCss}`,
+        }}
+      >
+        {name}
+      </p>
 
       {/* Doors */}
       {doors.north && (

@@ -1,0 +1,1655 @@
+{
+    "topic": "Logic",
+    "concepts": [
+      {
+        "topic": "Logic",
+        "concept": "Propositional Logic",
+        "questions": [
+          {
+            "question": "What is the main purpose of propositional logic in formal logic?",
+            "correctAnswer": "To analyze and manipulate propositions based on their truth values",
+            "wrongAnswer1": "To interpret natural language semantics",
+            "wrongAnswer2": "To solve algebraic equations",
+            "wrongAnswer3": "To study the structure of galaxies",
+            "explanation": "Propositional logic focuses on propositions and their logical connectives, analyzing their truth values and logical relationships.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is a well-formed formula in propositional logic?",
+            "correctAnswer": "(P ∧ Q) → R",
+            "wrongAnswer1": "P ∧ → Q",
+            "wrongAnswer2": "(∧ P Q) R",
+            "wrongAnswer3": "PQ → ∧",
+            "explanation": "A well-formed formula (WFF) in propositional logic adheres to syntax rules, including proper placement of connectives and propositions.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "In propositional logic, what does the implication operator (→) represent?",
+            "correctAnswer": "If the first proposition is true, then the second proposition must also be true",
+            "wrongAnswer1": "Both propositions must be true simultaneously",
+            "wrongAnswer2": "The propositions have opposite truth values",
+            "wrongAnswer3": "Neither proposition is true",
+            "explanation": "Implication means that the truth of the first proposition guarantees the truth of the second, but not necessarily vice versa.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Predicate Logic",
+        "questions": [
+          {
+            "question": "What is the main difference between predicate logic and propositional logic?",
+            "correctAnswer": "Predicate logic deals with predicates and quantifiers, while propositional logic deals with propositions as whole units.",
+            "wrongAnswer1": "Predicate logic only deals with true or false values, unlike propositional logic.",
+            "wrongAnswer2": "Predicate logic does not use quantifiers, while propositional logic does.",
+            "wrongAnswer3": "Predicate logic is only concerned with numerical values, unlike propositional logic.",
+            "explanation": "Predicate logic extends propositional logic by including predicates, variables, and quantifiers like 'for all' and 'there exists', allowing more expressive statements.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "In predicate logic, what does the symbol ∃ represent?",
+            "correctAnswer": "There exists at least one element that satisfies the predicate.",
+            "wrongAnswer1": "For all elements, the predicate is true.",
+            "wrongAnswer2": "The predicate is false for all elements.",
+            "wrongAnswer3": "The predicate is true for no elements.",
+            "explanation": "The existential quantifier ∃ signifies that there is at least one element in the domain for which the predicate holds true.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is a correct example of a universally quantified statement in predicate logic?",
+            "correctAnswer": "∀x (P(x) → Q(x))",
+            "wrongAnswer1": "∃x (P(x) ∧ Q(x))",
+            "wrongAnswer2": "P(x) ∨ Q(x)",
+            "wrongAnswer3": "¬∃x P(x)",
+            "explanation": "The symbol ∀ indicates that for all elements x, if P(x) holds then Q(x) holds, making it a universally quantified implication statement.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Boolean Algebra",
+        "questions": [
+          {
+            "question": "What is the result of applying the AND operation to the Boolean values 1 and 0?",
+            "correctAnswer": "0",
+            "wrongAnswer1": "1",
+            "wrongAnswer2": "Undefined",
+            "wrongAnswer3": "2",
+            "explanation": "The AND operation outputs 1 only if both inputs are 1; otherwise, it outputs 0. Since one input is 0, the result is 0.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is a fundamental law of Boolean Algebra?",
+            "correctAnswer": "A + A = A",
+            "wrongAnswer1": "A * A = 0",
+            "wrongAnswer2": "A + 0 = 0",
+            "wrongAnswer3": "A * 1 = 0",
+            "explanation": "One of the fundamental laws of Boolean Algebra is the Idempotent Law which states A + A = A. Other options are incorrect based on Boolean identities.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "In Boolean Algebra, what is the complement of the expression (A + B)?",
+            "correctAnswer": "A' * B'",
+            "wrongAnswer1": "A + B'",
+            "wrongAnswer2": "A' + B",
+            "wrongAnswer3": "A * B",
+            "explanation": "According to De Morgan's Theorems, the complement of (A + B) is A' * B'. This theorem is a key concept in Boolean Algebra for simplifying expressions.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Logical Connectives",
+        "questions": [
+          {
+            "question": "Which logical connective corresponds to the expression 'p AND q'?",
+            "correctAnswer": "Conjunction",
+            "wrongAnswer1": "Disjunction",
+            "wrongAnswer2": "Implication",
+            "wrongAnswer3": "Negation",
+            "explanation": "The connective for 'p AND q' is called conjunction, which is true only when both p and q are true.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "What is the result of the disjunction 'p OR q' if both p and q are false?",
+            "correctAnswer": "False",
+            "wrongAnswer1": "True",
+            "wrongAnswer2": "Undefined",
+            "wrongAnswer3": "Cannot be determined",
+            "explanation": "Disjunction is true if at least one of p or q is true; if both are false, the disjunction is false.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which logical connective is false only when the first statement is true and the second is false?",
+            "correctAnswer": "Implication",
+            "wrongAnswer1": "Conjunction",
+            "wrongAnswer2": "Disjunction",
+            "wrongAnswer3": "Biconditional",
+            "explanation": "The implication p → q is false only when p is true and q is false; otherwise, it is true.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Truth Tables",
+        "questions": [
+          {
+            "question": "What does a truth table represent in logic?",
+            "correctAnswer": "All possible truth values for a logical expression",
+            "wrongAnswer1": "The speed of a logical operation",
+            "wrongAnswer2": "The physical layout of a circuit",
+            "wrongAnswer3": "The order of operations in an expression",
+            "explanation": "A truth table lists all possible combinations of truth values for variables in a logical expression and shows the resulting truth value for the expression as a whole.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "If a logical statement is represented as A AND B, when is the statement true according to the truth table?",
+            "correctAnswer": "Only when both A and B are true",
+            "wrongAnswer1": "When either A or B is true",
+            "wrongAnswer2": "When both A and B are false",
+            "wrongAnswer3": "Always true regardless of A and B",
+            "explanation": "The logical AND operation is true only if both operands are true, as shown in the truth table for AND.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "In a truth table, what does the column for the expression ¬A (NOT A) represent?",
+            "correctAnswer": "The opposite truth value of A",
+            "wrongAnswer1": "The same truth value as A",
+            "wrongAnswer2": "The truth value of both A and B combined",
+            "wrongAnswer3": "The sum of truth values of A",
+            "explanation": "The NOT operation inverts the truth value of A: if A is true, ¬A is false, and vice versa.",
+            "difficulty": "Basic"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Inference Rules",
+        "questions": [
+          {
+            "question": "Which of the following is an example of a valid inference rule in propositional logic?",
+            "correctAnswer": "Modus Ponens",
+            "wrongAnswer1": "Circular Reasoning",
+            "wrongAnswer2": "Ad Hominem",
+            "wrongAnswer3": "Straw Man",
+            "explanation": "Modus Ponens is a valid inference rule that states: if 'P implies Q' and 'P' are both true, then 'Q' must be true. The others are logical fallacies and not valid inference rules.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "In the inference rule Modus Tollens, if we have 'If P then Q' and 'Not Q', what can we conclude?",
+            "correctAnswer": "Not P",
+            "wrongAnswer1": "P",
+            "wrongAnswer2": "Q",
+            "wrongAnswer3": "Not Q",
+            "explanation": "Modus Tollens allows us to infer 'Not P' if we know 'If P then Q' and that 'Q' is false ('Not Q').",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "Which inference rule allows you to infer 'P or Q' from 'P'?",
+            "correctAnswer": "Disjunction Introduction",
+            "wrongAnswer1": "Conjunction Introduction",
+            "wrongAnswer2": "Modus Ponens",
+            "wrongAnswer3": "Hypothetical Syllogism",
+            "explanation": "Disjunction Introduction is the rule that permits inferring 'P or Q' from 'P'. It introduces a disjunction where one of the disjuncts is known to be true.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Logical Equivalence",
+        "questions": [
+          {
+            "question": "What does it mean for two logical statements to be logically equivalent?",
+            "correctAnswer": "They have the same truth value in every possible scenario.",
+            "wrongAnswer1": "They are both always true.",
+            "wrongAnswer2": "They always contain the same number of variables.",
+            "wrongAnswer3": "They differ in truth value in at least one scenario.",
+            "explanation": "Two statements are logically equivalent if they have identical truth values for every possible combination of truth values of their components.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following pairs of statements are logically equivalent?",
+            "correctAnswer": "¬(P ∧ Q) and (¬P) ∨ (¬Q)",
+            "wrongAnswer1": "P ∧ (Q ∨ R) and (P ∧ Q) ∨ R",
+            "wrongAnswer2": "P → Q and Q → P",
+            "wrongAnswer3": "P ∨ Q and P ∧ Q",
+            "explanation": "According to De Morgan's laws, the negation of a conjunction is equivalent to the disjunction of the negations.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "If two statements are logically equivalent, what can be said about their truth tables?",
+            "correctAnswer": "Their truth tables are identical for all possible inputs.",
+            "wrongAnswer1": "Their truth tables have different outcomes for at least one input.",
+            "wrongAnswer2": "Their truth tables will have at least one different column.",
+            "wrongAnswer3": "Their truth tables only match if inputs are true.",
+            "explanation": "Logical equivalence implies that every row in the truth table of one statement matches the corresponding row in the truth table of the other, showing the same truth value.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Quantifiers",
+        "questions": [
+          {
+            "question": "What does the universal quantifier indicate in logic?",
+            "correctAnswer": "That a statement applies to all elements in a domain",
+            "wrongAnswer1": "That a statement applies to some elements in a domain",
+            "wrongAnswer2": "That a statement applies to no elements in a domain",
+            "wrongAnswer3": "That a statement applies to exactly one element in a domain",
+            "explanation": "The universal quantifier (usually denoted by ∀) means that the statement following it is true for every element in the domain of discourse.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which symbol is commonly used to represent the existential quantifier?",
+            "correctAnswer": "∃",
+            "wrongAnswer1": "∀",
+            "wrongAnswer2": "→",
+            "wrongAnswer3": "¬",
+            "explanation": "The existential quantifier, denoted by ∃, expresses that there is at least one element in the domain for which the statement holds true.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "How would you interpret the logical statement: ∀x (P(x) → Q(x))?",
+            "correctAnswer": "For every x, if P(x) is true then Q(x) is true",
+            "wrongAnswer1": "There exists an x such that if P(x) is true then Q(x) is true",
+            "wrongAnswer2": "P(x) is true for some x and Q(x) is false for some x",
+            "wrongAnswer3": "Q(x) is true for only one x where P(x) is true",
+            "explanation": "The statement means that for all elements x in the domain, whenever P(x) holds, Q(x) also holds. This is a classic example of a universal quantified implication.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Modal Logic",
+        "questions": [
+          {
+            "question": "What does the '□' operator commonly represent in modal logic?",
+            "correctAnswer": "Necessity",
+            "wrongAnswer1": "Possibility",
+            "wrongAnswer2": "Negation",
+            "wrongAnswer3": "Implication",
+            "explanation": "In modal logic, the '□' operator is used to indicate that a proposition is necessarily true, meaning it holds in all possible worlds or contexts.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following best describes the difference between modal logic and classical logic?",
+            "correctAnswer": "Modal logic includes operators expressing necessity and possibility, while classical logic does not.",
+            "wrongAnswer1": "Modal logic rejects the law of non-contradiction, while classical logic accepts it.",
+            "wrongAnswer2": "Classical logic can express time-dependent truths, but modal logic cannot.",
+            "wrongAnswer3": "Modal logic deals only with mathematical truths, whereas classical logic is general.",
+            "explanation": "Modal logic extends classical logic by adding modal operators such as 'necessarily' and 'possibly', allowing reasoning about modalities, unlike classical logic which lacks these operators.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "In modal logic, what does the '◇' operator signify?",
+            "correctAnswer": "Possibility",
+            "wrongAnswer1": "Necessity",
+            "wrongAnswer2": "Contradiction",
+            "wrongAnswer3": "Identity",
+            "explanation": "The '◇' operator conveys that a proposition is possibly true, meaning there exists at least one possible world where the proposition holds.",
+            "difficulty": "Basic"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Fuzzy Logic",
+        "questions": [
+          {
+            "question": "What is the primary difference between fuzzy logic and classical (binary) logic?",
+            "correctAnswer": "Fuzzy logic allows for values between true and false, representing degrees of truth.",
+            "wrongAnswer1": "Fuzzy logic only uses true or false values without any in-between.",
+            "wrongAnswer2": "Fuzzy logic rejects the concept of truth values.",
+            "wrongAnswer3": "Fuzzy logic is only applicable to mathematical proofs.",
+            "explanation": "Fuzzy logic extends classical logic by allowing truth values to range between 0 and 1, representing partial truth rather than just true or false (1 or 0).",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "In fuzzy logic, what does a truth value of 0.7 indicate?",
+            "correctAnswer": "It indicates a 70% degree of truth or membership to a fuzzy set.",
+            "wrongAnswer1": "It means the statement is false.",
+            "wrongAnswer2": "It represents a 7% chance the statement is true.",
+            "wrongAnswer3": "It is an error value and not a valid truth value.",
+            "explanation": "A truth value of 0.7 in fuzzy logic means the statement is true to the extent of 70%, reflecting partial membership rather than absolute true or false.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "Which of the following is a common application of fuzzy logic?",
+            "correctAnswer": "Controlling household appliances like washing machines and air conditioners.",
+            "wrongAnswer1": "Only theoretical computer science research without practical applications.",
+            "wrongAnswer2": "Binary-coded digital circuits for exact logical operations.",
+            "wrongAnswer3": "Deterministic classical algorithm design.",
+            "explanation": "Fuzzy logic is widely used in control systems such as household appliances where inputs are imprecise or noisy, allowing more flexible and human-like control responses.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Proof Theory",
+        "questions": [
+          {
+            "question": "What is the main goal of proof theory in logic?",
+            "correctAnswer": "To study the structure and properties of formal proofs",
+            "wrongAnswer1": "To measure the truth values of statements",
+            "wrongAnswer2": "To analyze the computational complexity of algorithms",
+            "wrongAnswer3": "To develop programming languages",
+            "explanation": "Proof theory focuses on understanding the structure, formation, and properties of formal proofs, rather than truth value evaluation or computational aspects.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "In proof theory, a 'sequent' is primarily used to represent which of the following?",
+            "correctAnswer": "A formal expression indicating that from certain premises, a conclusion follows",
+            "wrongAnswer1": "A type of logical operator that negates statements",
+            "wrongAnswer2": "A procedure to compute truth tables",
+            "wrongAnswer3": "A graphical diagram of logical connectives",
+            "explanation": "Sequents are formal constructs used in proof theory to denote that given certain premises, a particular conclusion can be derived.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "Which of the following is a common formal system studied in proof theory?",
+            "correctAnswer": "Natural deduction",
+            "wrongAnswer1": "Predicate calculus without quantifiers",
+            "wrongAnswer2": "Turing machines",
+            "wrongAnswer3": "Finite automata",
+            "explanation": "Natural deduction is a formal system used in proof theory to derive conclusions from premises through inference rules. Other listed items pertain to different areas of logic or computation.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Set Theory",
+        "questions": [
+          {
+            "question": "What is the union of two sets A and B?",
+            "correctAnswer": "The set containing all elements that are in A, or in B, or in both.",
+            "wrongAnswer1": "The set containing only the elements common to both A and B.",
+            "wrongAnswer2": "The set containing elements that are in A but not in B.",
+            "wrongAnswer3": "The number of elements in A plus the number of elements in B.",
+            "explanation": "The union of two sets A and B, denoted A ∪ B, includes every element that is in either A, or B, or in both sets.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "If set A = {1,2,3} and set B = {3,4,5}, what is the intersection A ∩ B?",
+            "correctAnswer": "{3}",
+            "wrongAnswer1": "{1,2,3,4,5}",
+            "wrongAnswer2": "{1,2}",
+            "wrongAnswer3": "{4,5}",
+            "explanation": "The intersection of two sets is the set of all elements that are common to both sets. Here, only '3' is in both A and B.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following describes a subset?",
+            "correctAnswer": "Set A is a subset of set B if every element of A is also an element of B.",
+            "wrongAnswer1": "A subset contains elements not found in the original set.",
+            "wrongAnswer2": "A subset has more elements than the original set.",
+            "wrongAnswer3": "A subset is unrelated to the elements of the original set.",
+            "explanation": "By definition, a subset means all elements of set A are contained within set B. If any element of A is not in B, A is not a subset of B.",
+            "difficulty": "Basic"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Logical Fallacies",
+        "questions": [
+          {
+            "question": "What is a logical fallacy?",
+            "correctAnswer": "An error in reasoning that weakens an argument",
+            "wrongAnswer1": "A proven fact that supports an argument",
+            "wrongAnswer2": "An argument based on strong evidence",
+            "wrongAnswer3": "A rhetorical strategy to strengthen a debate",
+            "explanation": "A logical fallacy is a flaw or error in reasoning that undermines the validity of an argument, making it less convincing or invalid.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is an example of a logical fallacy?",
+            "correctAnswer": "Ad Hominem",
+            "wrongAnswer1": "Empirical Evidence",
+            "wrongAnswer2": "Valid Deduction",
+            "wrongAnswer3": "Strong Premise",
+            "explanation": "Ad Hominem is a logical fallacy where the argument attacks the person rather than addressing the argument itself.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "What is the 'Straw Man' fallacy?",
+            "correctAnswer": "Misrepresenting someone's argument to make it easier to attack",
+            "wrongAnswer1": "Supporting an argument with relevant facts",
+            "wrongAnswer2": "Ignoring the opposing argument completely",
+            "wrongAnswer3": "Agreeing with the opponent's point to confuse them",
+            "explanation": "The Straw Man fallacy involves distorting or oversimplifying an opponent's argument to make it easier to criticize or refute.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Deductive Reasoning",
+        "questions": [
+          {
+            "question": "What is deductive reasoning?",
+            "correctAnswer": "A process of reasoning from general principles to specific cases.",
+            "wrongAnswer1": "A process of reasoning based on observation and experience.",
+            "wrongAnswer2": "A form of reasoning that uses analogies to reach conclusions.",
+            "wrongAnswer3": "A method of guessing based on incomplete information.",
+            "explanation": "Deductive reasoning starts with general premises or principles and applies them to specific cases to arrive at a logical conclusion that must be true if the premises are true.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is an example of deductive reasoning?",
+            "correctAnswer": "All mammals have lungs; a dog is a mammal; therefore, a dog has lungs.",
+            "wrongAnswer1": "The sun has risen every day so far; therefore, it will rise tomorrow.",
+            "wrongAnswer2": "She is wearing a raincoat, so it must be raining outside.",
+            "wrongAnswer3": "Birds can fly, so this animal must be a bird.",
+            "explanation": "The example demonstrates deductive reasoning by applying a general rule about mammals to a specific case (a dog).",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "What distinguishes deductive reasoning from inductive reasoning?",
+            "correctAnswer": "Deductive reasoning guarantees the truth of the conclusion if the premises are true.",
+            "wrongAnswer1": "Deductive reasoning relies on probabilities rather than certainties.",
+            "wrongAnswer2": "Deductive reasoning uses specific observations to create general rules.",
+            "wrongAnswer3": "Deductive reasoning is only used in scientific experiments.",
+            "explanation": "Deductive reasoning ensures that if the initial premises are true, the conclusion necessarily follows, unlike inductive reasoning which generalizes from specific instances and has degrees of probability.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Inductive Reasoning",
+        "questions": [
+          {
+            "question": "What is the primary characteristic of inductive reasoning?",
+            "correctAnswer": "Deriving general principles from specific observations",
+            "wrongAnswer1": "Deriving specific conclusions from general principles",
+            "wrongAnswer2": "Using formal logic to prove mathematical theorems",
+            "wrongAnswer3": "Evaluating arguments solely based on emotional appeal",
+            "explanation": "Inductive reasoning involves making generalizations based on specific examples or evidence, moving from particular instances to broader generalizations.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is an example of inductive reasoning?",
+            "correctAnswer": "Noticing several swans are white and concluding all swans might be white",
+            "wrongAnswer1": "Knowing all mammals have lungs and concluding that a dolphin is a mammal",
+            "wrongAnswer2": "If all humans are mortal and Socrates is human, then Socrates is mortal",
+            "wrongAnswer3": "Using the law of excluded middle in a logical proof",
+            "explanation": "Inductive reasoning involves forming a general conclusion based on a pattern observed in specific cases, like observing several white swans and concluding that all swans might be white.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Why is inductive reasoning considered less certain than deductive reasoning?",
+            "correctAnswer": "Because conclusions are probabilistic and may be false despite true premises",
+            "wrongAnswer1": "Because it always uses false premises",
+            "wrongAnswer2": "Because it follows a strict logical form that guarantees truth",
+            "wrongAnswer3": "Because it relies solely on mathematical formulas",
+            "explanation": "Inductive reasoning leads to probable conclusions, not guaranteed ones, meaning even if the premises are true, the conclusion might still be false; this contrasts with deductive reasoning which provides absolute certainty when correctly applied.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Syllogism",
+        "questions": [
+          {
+            "question": "Which of the following is an example of a valid syllogism?",
+            "correctAnswer": "All humans are mortal. Socrates is a human. Therefore, Socrates is mortal.",
+            "wrongAnswer1": "All cats are animals. Some dogs are animals. Therefore, all cats are dogs.",
+            "wrongAnswer2": "If it rains, the ground gets wet. The ground is wet. Therefore, it rained.",
+            "wrongAnswer3": "All birds can fly. Penguins are birds. Therefore, penguins can fly.",
+            "explanation": "A syllogism is a form of deductive reasoning consisting of a major premise, a minor premise, and a conclusion. The first example correctly applies this structure, leading to a valid conclusion.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "What is the correct structure of a syllogism?",
+            "correctAnswer": "Major premise, minor premise, conclusion.",
+            "wrongAnswer1": "Hypothesis, experiment, conclusion.",
+            "wrongAnswer2": "Observation, hypothesis, verification.",
+            "wrongAnswer3": "Question, research, analysis.",
+            "explanation": "A syllogism is structured with two premises (major and minor) and a conclusion drawn from them.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "If the major premise is 'All fruits have seeds' and the minor premise is 'An apple is a fruit,' what is the conclusion?",
+            "correctAnswer": "An apple has seeds.",
+            "wrongAnswer1": "An apple is a seed.",
+            "wrongAnswer2": "Some apples have seeds.",
+            "wrongAnswer3": "An apple is not a fruit.",
+            "explanation": "Using a syllogism, the conclusion follows logically from the premises: since all fruits have seeds and an apple is a fruit, the apple must have seeds.",
+            "difficulty": "Basic"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Logical Operators",
+        "questions": [
+          {
+            "question": "What is the result of the logical AND operation when both operands are true?",
+            "correctAnswer": "True",
+            "wrongAnswer1": "False",
+            "wrongAnswer2": "Null",
+            "wrongAnswer3": "Undefined",
+            "explanation": "The logical AND (&&) operator returns true only if both operands are true. If either or both operands are false, the result is false.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which logical operator returns true if at least one of its operands is true?",
+            "correctAnswer": "OR (||)",
+            "wrongAnswer1": "AND (&&)",
+            "wrongAnswer2": "NOT (!)",
+            "wrongAnswer3": "XOR",
+            "explanation": "The logical OR (||) operator returns true if at least one operand is true. It only returns false if both operands are false.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "What does the NOT (!) operator do to the truth value of a statement?",
+            "correctAnswer": "It negates the truth value, turning true to false and vice versa.",
+            "wrongAnswer1": "It leaves the truth value unchanged.",
+            "wrongAnswer2": "It makes the statement always true.",
+            "wrongAnswer3": "It makes the statement always false.",
+            "explanation": "The logical NOT (!) operator inverts the truth value of the operand—if the operand is true, NOT returns false and if the operand is false, NOT returns true.",
+            "difficulty": "Basic"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Contradiction",
+        "questions": [
+          {
+            "question": "What is a contradiction in logic?",
+            "correctAnswer": "A statement that is always false regardless of the truth values of its components.",
+            "wrongAnswer1": "A statement that is always true regardless of the truth values of its components.",
+            "wrongAnswer2": "A statement that is true in some cases and false in others.",
+            "wrongAnswer3": "A statement that has no truth value.",
+            "explanation": "A contradiction is a compound statement that is false regardless of the truth values of its constituent statements. It cannot be true under any interpretation.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is an example of a contradiction?",
+            "correctAnswer": "\"It is raining and it is not raining at the same time.\"",
+            "wrongAnswer1": "\"It is raining or it is not raining.\"",
+            "wrongAnswer2": "\"If it is raining, then the ground is wet.\"",
+            "wrongAnswer3": "\"Either it is raining or it is sunny.\"",
+            "explanation": "A contradiction arises when a statement and its negation are both asserted simultaneously, making it impossible for the statement to be true.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "Why is discovering a contradiction in a logical system important?",
+            "correctAnswer": "Because it implies the system is inconsistent and any statement can be proven true.",
+            "wrongAnswer1": "Because it means the system is definitely true in all cases.",
+            "wrongAnswer2": "Because it shows that all statements in the system are false.",
+            "wrongAnswer3": "Because contradictions have no impact on the validity of the system.",
+            "explanation": "In classical logic, a contradiction within a system implies that the system is inconsistent, meaning that any statement can be derived from it, which undermines the system's reliability.",
+            "difficulty": "Advanced"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Tautology",
+        "questions": [
+          {
+            "question": "What is a tautology in logic?",
+            "correctAnswer": "A statement that is true in every possible interpretation.",
+            "wrongAnswer1": "A statement that is always false.",
+            "wrongAnswer2": "A statement that is true only sometimes.",
+            "wrongAnswer3": "A statement that is undecidable.",
+            "explanation": "A tautology is a logical statement that is always true regardless of the truth values of its components.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is an example of a tautology?",
+            "correctAnswer": "P ∨ ¬P (Law of excluded middle)",
+            "wrongAnswer1": "P ∧ ¬P (Contradiction)",
+            "wrongAnswer2": "P → Q (Implication, not necessarily always true)",
+            "wrongAnswer3": "P ∧ Q (Conjunction, depends on truth values)",
+            "explanation": "The law of excluded middle states that either a statement or its negation is true, which is a classic example of a tautology.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "Why are tautologies important in logical proofs?",
+            "correctAnswer": "Because they provide universally true statements that can be used as axioms or to derive other truths.",
+            "wrongAnswer1": "Because they show contradictions that invalidate proofs.",
+            "wrongAnswer2": "Because they are true only in some models, helping to test hypotheses.",
+            "wrongAnswer3": "Because they are undecidable statements that halt proofs.",
+            "explanation": "Tautologies serve as foundational truths in logic, enabling the derivation of other statements in proofs.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Logical Implication",
+        "questions": [
+          {
+            "question": "What does the logical implication statement 'If P then Q' signify?",
+            "correctAnswer": "Whenever P is true, Q must also be true.",
+            "wrongAnswer1": "P and Q are always both true or both false.",
+            "wrongAnswer2": "P is true only when Q is false.",
+            "wrongAnswer3": "Q must be true regardless of P's truth value.",
+            "explanation": "Logical implication 'If P then Q' means that in every case where P is true, Q is also true. It does not say anything about when P is false.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following truth tables correctly represents logical implication P → Q?",
+            "correctAnswer": "True except when P is true and Q is false.",
+            "wrongAnswer1": "True only when both P and Q are true.",
+            "wrongAnswer2": "False only when both P and Q are false.",
+            "wrongAnswer3": "True only when P is false.",
+            "explanation": "Logical implication P → Q is false only when P is true and Q is false; otherwise, it is true.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "In logical implication, what is the value of P → Q when P is false?",
+            "correctAnswer": "True",
+            "wrongAnswer1": "False",
+            "wrongAnswer2": "Depends on Q",
+            "wrongAnswer3": "Undefined",
+            "explanation": "By definition of logical implication, when the antecedent (P) is false, P → Q is always true regardless of Q's truth value.",
+            "difficulty": "Basic"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Logical Argument",
+        "questions": [
+          {
+            "question": "What is a logical argument?",
+            "correctAnswer": "A series of statements where the conclusion is supported by premises",
+            "wrongAnswer1": "A list of unrelated facts",
+            "wrongAnswer2": "A random opinion stated loudly",
+            "wrongAnswer3": "A story without any conclusion",
+            "explanation": "A logical argument consists of premises that support a conclusion, demonstrating reasoning and validity.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "In a logical argument, what are premises?",
+            "correctAnswer": "Statements that provide support for the conclusion",
+            "wrongAnswer1": "The final point of the argument",
+            "wrongAnswer2": "An unrelated statement",
+            "wrongAnswer3": "A question posed in the argument",
+            "explanation": "Premises are the statements that give reasons or evidence to support the conclusion in a logical argument.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "What makes a logical argument valid?",
+            "correctAnswer": "If the conclusion logically follows from the premises",
+            "wrongAnswer1": "If the conclusion is true regardless of the premises",
+            "wrongAnswer2": "If it contains many premises",
+            "wrongAnswer3": "If it is agreed upon by many people",
+            "explanation": "Validity in logical arguments means that if the premises are true, the conclusion must be true as well, showing a proper logical connection.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Resolution Principle",
+        "questions": [
+          {
+            "question": "What is the main use of the Resolution Principle in logic?",
+            "correctAnswer": "To infer new clauses from existing ones and check the satisfiability of formulas",
+            "wrongAnswer1": "To simplify arithmetic expressions",
+            "wrongAnswer2": "To translate natural language to symbolic logic",
+            "wrongAnswer3": "To prove the completeness of a logical system",
+            "explanation": "The resolution principle is a rule of inference leading to a refutation proof procedure, primarily used to derive contradictions and check satisfiability in propositional and first-order logic by combining clauses.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "In propositional logic, the resolution rule is typically applied to which form of sentences?",
+            "correctAnswer": "Clauses in Conjunctive Normal Form (CNF)",
+            "wrongAnswer1": "Disjunctions only",
+            "wrongAnswer2": "Implications only",
+            "wrongAnswer3": "Equivalences only",
+            "explanation": "Resolution works on formulas expressed as clauses, usually after converting the formula into Conjunctive Normal Form to facilitate inference through resolvents.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "Which of the following best describes a resolvent in the resolution principle?",
+            "correctAnswer": "A new clause derived by resolving two clauses that contain complementary literals",
+            "wrongAnswer1": "A clause that contradicts the original formula",
+            "wrongAnswer2": "A literal that appears in every clause of the formula",
+            "wrongAnswer3": "A clause that contains no literals",
+            "explanation": "A resolvent is the clause produced when two clauses that share complementary literals (e.g., P and ¬P) are combined by removing these literals and merging the remaining literals into a new clause.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Proof by Contradiction",
+        "questions": [
+          {
+            "question": "What is the first step in a proof by contradiction?",
+            "correctAnswer": "Assume the negation of the statement to be proved.",
+            "wrongAnswer1": "Assume the statement is true.",
+            "wrongAnswer2": "Directly prove the statement.",
+            "wrongAnswer3": "Disprove the contrapositive.",
+            "explanation": "Proof by contradiction starts by assuming that the statement you want to prove is false, then showing this assumption leads to a contradiction.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "In a proof by contradiction, finding a contradiction means:",
+            "correctAnswer": "The original statement must be true.",
+            "wrongAnswer1": "The original statement must be false.",
+            "wrongAnswer2": "Both the statement and its negation are true.",
+            "wrongAnswer3": "There is no conclusion to be drawn.",
+            "explanation": "If assuming the negation leads to a contradiction, then the original statement is true.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following best describes the logic behind proof by contradiction?",
+            "correctAnswer": "If assuming not-P leads to a contradiction, then P is true.",
+            "wrongAnswer1": "If assuming P leads to a contradiction, then P is true.",
+            "wrongAnswer2": "Assuming P and not-P at the same time is valid.",
+            "wrongAnswer3": "Contradictions prove nothing about P.",
+            "explanation": "Proof by contradiction relies on the principle that a statement is true if assuming its negation leads to a contradiction.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Logical Constants",
+        "questions": [
+          {
+            "question": "What is a logical constant in propositional logic?",
+            "correctAnswer": "A symbol that always has the same meaning, such as ¬, ∧, ∨, →, and ↔.",
+            "wrongAnswer1": "A variable that can change its value.",
+            "wrongAnswer2": "An operator that changes meaning depending on context.",
+            "wrongAnswer3": "A random value assigned to a proposition.",
+            "explanation": "Logical constants are symbols whose meaning does not change; they include connectives like ¬ (not), ∧ (and), ∨ (or), → (implies), and ↔ (if and only if).",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is NOT considered a logical constant?",
+            "correctAnswer": "Variable p",
+            "wrongAnswer1": "Negation (¬)",
+            "wrongAnswer2": "Conjunction (∧)",
+            "wrongAnswer3": "Disjunction (∨)",
+            "explanation": "Logical constants include connectives such as negation, conjunction, and disjunction. Variables like p, q, or r are not logical constants because they can represent different propositions.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Why are logical constants important in formal logic systems?",
+            "correctAnswer": "They provide fixed operations to build and interpret logical formulas consistently.",
+            "wrongAnswer1": "They allow arbitrary meanings to symbols in a formula.",
+            "wrongAnswer2": "They restrict how variables are used in logic.",
+            "wrongAnswer3": "They define the truth value of any statement automatically.",
+            "explanation": "Logical constants serve as fixed, well-defined operators that ensure the formulas have a consistent interpretation and meaning across logical systems.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Soundness",
+        "questions": [
+          {
+            "question": "What does it mean for a logical argument to be sound?",
+            "correctAnswer": "The argument is valid and its premises are true.",
+            "wrongAnswer1": "The argument is valid, but its premises can be false.",
+            "wrongAnswer2": "The argument has true premises but the conclusion is false.",
+            "wrongAnswer3": "The argument is invalid but has a true conclusion.",
+            "explanation": "A sound argument is one that is both valid (the conclusion logically follows from the premises) and has all true premises, ensuring the truth of the conclusion.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following statements correctly describes the relationship between soundness and validity?",
+            "correctAnswer": "All sound arguments are valid, but not all valid arguments are sound.",
+            "wrongAnswer1": "All valid arguments are sound.",
+            "wrongAnswer2": "Soundness and validity are the same concept.",
+            "wrongAnswer3": "A sound argument cannot be valid.",
+            "explanation": "Soundness requires validity plus true premises, so all sound arguments are valid; however, some valid arguments have false premises and thus are not sound.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "If an argument has a false premise but a true conclusion, can it be sound?",
+            "correctAnswer": "No, because soundness requires all true premises.",
+            "wrongAnswer1": "Yes, because the conclusion is true.",
+            "wrongAnswer2": "Yes, if the argument is valid.",
+            "wrongAnswer3": "No, because validity depends on the conclusion.",
+            "explanation": "Soundness requires both validity and truth of all premises; having a false premise disqualifies an argument from being sound regardless of the conclusion's truth.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Completeness",
+        "questions": [
+          {
+            "question": "What does the completeness property in logic signify?",
+            "correctAnswer": "Every semantically true statement can be proven syntactically within the system.",
+            "wrongAnswer1": "Every provable statement is also true in all models.",
+            "wrongAnswer2": "The logic system can express all mathematical truths.",
+            "wrongAnswer3": "All axioms are independent of each other.",
+            "explanation": "Completeness means that if a statement is true in every model (semantically valid), then there is a formal proof for it within the system (syntactically provable).",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which logician is most famously associated with the completeness theorem for first-order logic?",
+            "correctAnswer": "Kurt Gödel",
+            "wrongAnswer1": "Alan Turing",
+            "wrongAnswer2": "Bertrand Russell",
+            "wrongAnswer3": "Alfred Tarski",
+            "explanation": "Kurt Gödel proved the completeness theorem for first-order logic, establishing that all logically valid formulas are provable.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "How does completeness relate to soundness in a logical system?",
+            "correctAnswer": "Completeness ensures all true statements can be proven, while soundness ensures all provable statements are true.",
+            "wrongAnswer1": "Completeness ensures all axioms are independent, soundness deals with proof length.",
+            "wrongAnswer2": "Completeness and soundness both guarantee all formulas are provable.",
+            "wrongAnswer3": "Soundness ensures completeness but not vice versa.",
+            "explanation": "A logical system is sound if every provable statement is true in all models, and complete if every statement true in all models can be proven. Both properties together mean the system perfectly captures truth.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Decidability",
+        "questions": [
+          {
+            "question": "What does it mean for a problem to be decidable in computational theory?",
+            "correctAnswer": "There exists an algorithm that can determine the answer for any input instance in finite time.",
+            "wrongAnswer1": "The problem can be solved instantly for all inputs.",
+            "wrongAnswer2": "The problem requires infinite time to solve.",
+            "wrongAnswer3": "The problem has no algorithmic solution.",
+            "explanation": "A problem is decidable if there exists a computational procedure (algorithm) that can provide a yes or no answer for every input instance in a finite amount of time.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is an example of a decidable problem?",
+            "correctAnswer": "Determining whether a given integer is even or odd.",
+            "wrongAnswer1": "The Halting Problem for arbitrary computer programs.",
+            "wrongAnswer2": "The problem of predicting the exact weather a year from now.",
+            "wrongAnswer3": "The problem of proving all mathematical conjectures.",
+            "explanation": "Determining if an integer is even or odd is straightforward and has a simple algorithm, thus it is decidable. The Halting Problem is a canonical example of an undecidable problem.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "What is the significance of Turing machines in studying decidability?",
+            "correctAnswer": "They provide a formal model to define and analyze what problems can be decided by algorithms.",
+            "wrongAnswer1": "They are physical machines used to solve real-world problems instantly.",
+            "wrongAnswer2": "They always halt regardless of the input provided.",
+            "wrongAnswer3": "They are used primarily for sorting data more efficiently.",
+            "explanation": "Turing machines are an abstract computational model used to rigorously define computability and decidability, helping to classify problems into decidable or undecidable.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Undecidability",
+        "questions": [
+          {
+            "question": "What does it mean for a problem to be undecidable in logic?",
+            "correctAnswer": "There is no algorithm that can determine the answer for all inputs.",
+            "wrongAnswer1": "It can be solved efficiently by an algorithm.",
+            "wrongAnswer2": "It has multiple possible solutions.",
+            "wrongAnswer3": "It can be solved by trial and error.",
+            "explanation": "An undecidable problem means no algorithm can exist that will correctly decide the problem's solution for every possible input within finite time.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which famous problem is a classic example of undecidability?",
+            "correctAnswer": "The Halting Problem",
+            "wrongAnswer1": "Sorting integers",
+            "wrongAnswer2": "Finding the greatest common divisor",
+            "wrongAnswer3": "Calculating the factorial of a number",
+            "explanation": "The Halting Problem, which asks whether a program will halt or run forever, is a well-known example of an undecidable problem.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Why is undecidability important in theoretical computer science?",
+            "correctAnswer": "It identifies limits of what computers can solve algorithmically.",
+            "wrongAnswer1": "It proves all problems have solutions.",
+            "wrongAnswer2": "It shows that computers can solve infinite problems.",
+            "wrongAnswer3": "It enables faster algorithms for difficult problems.",
+            "explanation": "Undecidability highlights the limitations of computation by showing there are problems that no algorithm can solve, which is crucial in theoretical computer science.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Formal Systems",
+        "questions": [
+          {
+            "question": "What is a formal system in logic?",
+            "correctAnswer": "A set of axioms and inference rules used to derive theorems",
+            "wrongAnswer1": "A collection of informal arguments",
+            "wrongAnswer2": "A computer program for computation",
+            "wrongAnswer3": "A natural language description of concepts",
+            "explanation": "A formal system consists of a well-defined set of symbols, axioms, and inference rules that allow the derivation of theorems in a rigorous and systematic way.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following components is NOT part of a formal system?",
+            "correctAnswer": "Empirical data",
+            "wrongAnswer1": "Axioms",
+            "wrongAnswer2": "Inference rules",
+            "wrongAnswer3": "Symbols",
+            "explanation": "A formal system is purely syntactical and consists of symbols, axioms, and inference rules; it does not include empirical data, which is outside the formal system.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "In a formal system, what role do axioms play?",
+            "correctAnswer": "They are the starting statements assumed to be true without proof",
+            "wrongAnswer1": "They are the conclusions derived from proofs",
+            "wrongAnswer2": "They are arbitrary statements added for convenience",
+            "wrongAnswer3": "They are only used in informal reasoning",
+            "explanation": "Axioms are the foundational statements in a formal system considered true without proof, from which theorems are logically derived.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Automated Reasoning",
+        "questions": [
+          {
+            "question": "What is the primary goal of automated reasoning in logic?",
+            "correctAnswer": "To enable computers to prove theorems and solve logical problems automatically",
+            "wrongAnswer1": "To replace human reasoning in all contexts",
+            "wrongAnswer2": "To perform arithmetic calculations faster",
+            "wrongAnswer3": "To generate random logical statements",
+            "explanation": "Automated reasoning aims to develop computer programs that can perform logical reasoning tasks such as proving theorems or checking the correctness of statements without human intervention.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is a common method used in automated reasoning?",
+            "correctAnswer": "Resolution method",
+            "wrongAnswer1": "Bubble sort",
+            "wrongAnswer2": "Linear regression",
+            "wrongAnswer3": "Genetic algorithms",
+            "explanation": "The resolution method is a fundamental technique used in automated theorem proving to derive conclusions by refuting the negation of a statement.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "In automated reasoning, what role do logical inference rules play?",
+            "correctAnswer": "They allow deriving new truths from existing premises automatically",
+            "wrongAnswer1": "They store data in databases",
+            "wrongAnswer2": "They encrypt the reasoning process",
+            "wrongAnswer3": "They generate random numbers for computations",
+            "explanation": "Logical inference rules are the basis for deriving new conclusions from given facts or axioms in automated reasoning systems, enabling the system to simulate logical deduction steps.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Nonmonotonic Logic",
+        "questions": [
+          {
+            "question": "What distinguishes nonmonotonic logic from classical monotonic logic?",
+            "correctAnswer": "In nonmonotonic logic, adding new premises can invalidate previous conclusions.",
+            "wrongAnswer1": "Nonmonotonic logic conclusions always remain true when new premises are added.",
+            "wrongAnswer2": "Nonmonotonic logic does not allow drawing any conclusions from premises.",
+            "wrongAnswer3": "Nonmonotonic logic only deals with numeric values and not propositions.",
+            "explanation": "Nonmonotonic logic allows for the possibility that conclusions drawn may be withdrawn in light of new information, unlike classical logic where conclusions are monotonic and cannot be invalidated by adding new premises.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "Which of the following is an example of a system that uses nonmonotonic reasoning?",
+            "correctAnswer": "Default logic, where assumptions can be retracted if contradicted by new evidence.",
+            "wrongAnswer1": "Classical propositional logic, where the set of conclusions monotonically grows.",
+            "wrongAnswer2": "Modal logic, which deals with necessity and possibility without revising conclusions.",
+            "wrongAnswer3": "Fuzzy logic, which models degrees of truth but does not inherently retract conclusions.",
+            "explanation": "Default logic is a common form of nonmonotonic logic because it allows conclusions to be retracted when new evidence contradicts default assumptions.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "Why is nonmonotonic logic important in artificial intelligence?",
+            "correctAnswer": "It models reasoning under uncertainty where conclusions may change with new information.",
+            "wrongAnswer1": "It makes logical inference faster by ignoring new information.",
+            "wrongAnswer2": "It ensures all conclusions remain true regardless of changing data.",
+            "wrongAnswer3": "It eliminates the need for knowledge representation in AI systems.",
+            "explanation": "Nonmonotonic logic is important in AI because it reflects real-world reasoning where agents must revise their conclusions upon receiving new, possibly conflicting information.",
+            "difficulty": "Basic"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Paraconsistent Logic",
+        "questions": [
+          {
+            "question": "What is the main characteristic of paraconsistent logic?",
+            "correctAnswer": "It allows for handling contradictory information without leading to explosion (where everything becomes provable).",
+            "wrongAnswer1": "It asserts that any contradiction makes the system invalid.",
+            "wrongAnswer2": "It only deals with true or false values without contradictions.",
+            "wrongAnswer3": "It rejects any statements that contradict each other outright.",
+            "explanation": "Paraconsistent logic is designed to manage contradictions in a controlled way so that not everything becomes provable (avoiding the principle of explosion).",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "Which principle is avoided by paraconsistent logic that is present in classical logic?",
+            "correctAnswer": "Principle of explosion (ex contradictione sequitur quodlibet).",
+            "wrongAnswer1": "Principle of excluded middle.",
+            "wrongAnswer2": "Principle of non-contradiction.",
+            "wrongAnswer3": "Principle of bivalence.",
+            "explanation": "Paraconsistent logic specifically avoids the principle of explosion, which in classical logic states that from a contradiction, anything can be derived.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "In what areas is paraconsistent logic particularly useful?",
+            "correctAnswer": "In situations involving inconsistent or contradictory information, such as knowledge bases and reasoning in AI.",
+            "wrongAnswer1": "In purely mathematical proofs without contradictions.",
+            "wrongAnswer2": "In classical propositional logic where contradictions are not allowed.",
+            "wrongAnswer3": "Only in philosophical debates without formal frameworks.",
+            "explanation": "Paraconsistent logic helps manage inconsistencies in practical reasoning, such as in AI and knowledge representation, where conflicting information may arise without invalidating the whole system.",
+            "difficulty": "Basic"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Higher Order Logic",
+        "questions": [
+          {
+            "question": "What distinguishes Higher Order Logic (HOL) from First Order Logic (FOL)?",
+            "correctAnswer": "HOL allows quantification over predicates and functions, while FOL quantifies only over individual variables.",
+            "wrongAnswer1": "HOL restricts quantification to individual variables only.",
+            "wrongAnswer2": "FOL allows quantification over predicates and functions, but HOL does not.",
+            "wrongAnswer3": "HOL and FOL have no difference in terms of quantification.",
+            "explanation": "Higher Order Logic extends First Order Logic by allowing quantifiers to apply to predicates and functions, not just individuals, enabling more expressive statements.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is a primary application area of Higher Order Logic?",
+            "correctAnswer": "Formal verification of software and hardware systems.",
+            "wrongAnswer1": "Simple propositional logic problem solving.",
+            "wrongAnswer2": "Basic algebraic equation solving.",
+            "wrongAnswer3": "Statistical data analysis.",
+            "explanation": "Higher Order Logic's expressiveness makes it well suited for formal verification where complex properties of systems including functions must be reasoned about rigorously.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "Why is Higher Order Logic considered more expressive than First Order Logic?",
+            "correctAnswer": "Because it can represent properties of properties, allowing reasoning about statements involving functions and predicates themselves.",
+            "wrongAnswer1": "Because it only deals with propositional variables.",
+            "wrongAnswer2": "Because it denies the use of quantifiers altogether.",
+            "wrongAnswer3": "Because it restricts the domain of discourse to individuals only.",
+            "explanation": "HOL’s ability to quantify over predicates and functions means it can express meta-level properties and complex mathematical concepts that FOL cannot.",
+            "difficulty": "Advanced"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Logic Programming",
+        "questions": [
+          {
+            "question": "What is the primary characteristic of logic programming?",
+            "correctAnswer": "It uses formal logic to express computations.",
+            "wrongAnswer1": "It relies on object-oriented paradigms.",
+            "wrongAnswer2": "It primarily uses machine-level instructions.",
+            "wrongAnswer3": "It is based on procedural step-by-step instructions.",
+            "explanation": "Logic programming is a programming paradigm that uses formal logic to express computations, unlike procedural or object-oriented programming styles.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is a popular logic programming language?",
+            "correctAnswer": "Prolog",
+            "wrongAnswer1": "Java",
+            "wrongAnswer2": "Python",
+            "wrongAnswer3": "C++",
+            "explanation": "Prolog is a well-known logic programming language, particularly used in artificial intelligence and theorem proving.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "In logic programming, what is a \"fact\"?",
+            "correctAnswer": "A basic assertion about some information considered to be true.",
+            "wrongAnswer1": "A function that modifies variables.",
+            "wrongAnswer2": "An erroneous statement that needs correction.",
+            "wrongAnswer3": "A step in an imperative algorithm.",
+            "explanation": "A fact in logic programming is a basic assertion that states something is unconditionally true in the program's knowledge base.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Temporal Logic",
+        "questions": [
+          {
+            "question": "What is the primary purpose of temporal logic in computer science?",
+            "correctAnswer": "To reason about propositions qualified in terms of time",
+            "wrongAnswer1": "To optimize logical circuits for faster computation",
+            "wrongAnswer2": "To convert temporal data into spatial data",
+            "wrongAnswer3": "To analyze non-sequential algorithms",
+            "explanation": "Temporal logic is used to reason about sequences of events or states within a timeline, making it especially useful for verifying and specifying behaviors of systems over time.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is a common temporal operator used in temporal logic?",
+            "correctAnswer": "Eventually (◇)",
+            "wrongAnswer1": "Negation (¬)",
+            "wrongAnswer2": "Conjunction (∧)",
+            "wrongAnswer3": "Disjunction (∨)",
+            "explanation": "Temporal operators like Eventually (◇), Always (□), and Until (U) specifically relate to conditions over time. Negation, conjunction, and disjunction are standard logical operators but not temporal in nature.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "In Linear Temporal Logic (LTL), what does the 'Always' operator (□) signify?",
+            "correctAnswer": "A condition that holds at every point in the future",
+            "wrongAnswer1": "A condition that holds at some time in the future",
+            "wrongAnswer2": "A condition that held in the past",
+            "wrongAnswer3": "A condition that never holds",
+            "explanation": "The 'Always' operator (□) in LTL means that a specified property must hold at all points in the future along the timeline, ensuring ongoing truth of that property.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Default Logic",
+        "questions": [
+          {
+            "question": "What is the primary purpose of default logic in artificial intelligence?",
+            "correctAnswer": "To reason with incomplete or uncertain information by using default assumptions",
+            "wrongAnswer1": "To solve mathematical equations faster",
+            "wrongAnswer2": "To find exact solutions in all cases",
+            "wrongAnswer3": "To optimize computer hardware performance",
+            "explanation": "Default logic allows reasoning systems to make plausible assumptions in the absence of complete information, enabling reasoning under uncertainty.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "In default logic, what is a 'default rule'?",
+            "correctAnswer": "A rule that can be applied when there is no evidence to the contrary",
+            "wrongAnswer1": "A rule that always applies regardless of conditions",
+            "wrongAnswer2": "A rule that prohibits further reasoning",
+            "wrongAnswer3": "A rule that only applies to numerical data",
+            "explanation": "A default rule is a conditional statement that can be used to infer conclusions unless contradicted by other information.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "Which of the following best describes the extension in default logic?",
+            "correctAnswer": "A set of beliefs that includes all conclusions drawn using default rules consistently",
+            "wrongAnswer1": "A single fact asserted in the knowledge base",
+            "wrongAnswer2": "A rule that contradicts all other rules",
+            "wrongAnswer3": "A method for simplifying logical formulas",
+            "explanation": "An extension in default logic represents a consistent set of beliefs obtained by applying default rules to the knowledge base.",
+            "difficulty": "Advanced"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Abductive Reasoning",
+        "questions": [
+          {
+            "question": "What best describes abductive reasoning?",
+            "correctAnswer": "Forming the most likely explanation based on limited evidence.",
+            "wrongAnswer1": "Deriving a conclusion guaranteed by the premises.",
+            "wrongAnswer2": "Drawing conclusions by moving from general principles to specific cases.",
+            "wrongAnswer3": "Using random guessing without evidence.",
+            "explanation": "Abductive reasoning is about forming the best possible explanation from an incomplete set of observations, unlike deductive reasoning which guarantees conclusions or inductive reasoning which generalizes from specific cases.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is an example of abductive reasoning?",
+            "correctAnswer": "You hear barking and assume there is a dog nearby.",
+            "wrongAnswer1": "You know all dogs bark, so the animal barking must be a dog.",
+            "wrongAnswer2": "You count dogs in the park and conclude there might be more dogs tomorrow.",
+            "wrongAnswer3": "You decide randomly that barking is caused by birds.",
+            "explanation": "Abductive reasoning involves forming a plausible explanation given the evidence (barking), here assuming the presence of a dog, which is likely but not guaranteed.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "How does abductive reasoning differ from deductive reasoning?",
+            "correctAnswer": "Abductive reasoning suggests the most likely explanation, while deductive reasoning guarantees a conclusion if premises are true.",
+            "wrongAnswer1": "Abductive reasoning always produces true conclusions, deductive reasoning does not.",
+            "wrongAnswer2": "Abductive reasoning starts from general truths, deductive reasoning starts from specific observations.",
+            "wrongAnswer3": "Abductive reasoning ignores evidence, deductive reasoning relies on speculation.",
+            "explanation": "Deductive reasoning yields logically certain conclusions if the premises are true; abductive reasoning offers the best guess based on the available evidence but is not necessarily certain.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Proof Assistants",
+        "questions": [
+          {
+            "question": "What is the primary purpose of a proof assistant in logic?",
+            "correctAnswer": "To help users construct and verify formal proofs",
+            "wrongAnswer1": "To solve mathematical equations automatically",
+            "wrongAnswer2": "To generate random logical statements",
+            "wrongAnswer3": "To translate proofs into natural language",
+            "explanation": "Proof assistants are software tools designed to help users construct formal proofs and verify their correctness within a logical system.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is an example of a popular proof assistant?",
+            "correctAnswer": "Coq",
+            "wrongAnswer1": "Photoshop",
+            "wrongAnswer2": "Excel",
+            "wrongAnswer3": "AutoCAD",
+            "explanation": "Coq is a widely used proof assistant for formal verification and theorem proving in various areas of logic and computer science.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "How do proof assistants typically ensure the correctness of proofs?",
+            "correctAnswer": "By checking each logical inference step against formal rules",
+            "wrongAnswer1": "By comparing proofs to a database of known results",
+            "wrongAnswer2": "By using artificial intelligence to guess validity",
+            "wrongAnswer3": "By peer review from other users",
+            "explanation": "Proof assistants verify correctness by rigorously checking each step of a proof against the formal logical rules defined in their system.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Model Theory",
+        "questions": [
+          {
+            "question": "What is the primary focus of Model Theory in logic?",
+            "correctAnswer": "Studying the relationships between formal languages and their interpretations or models",
+            "wrongAnswer1": "Developing algorithms for automated theorem proving",
+            "wrongAnswer2": "Analyzing the syntactic structure of sentences",
+            "wrongAnswer3": "Creating proof systems for propositional logic",
+            "explanation": "Model Theory is concerned with the study of how formal languages are interpreted using mathematical structures called models, focusing on the truth of statements within these models.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "In Model Theory, a 'model' of a theory is best described as:",
+            "correctAnswer": "A mathematical structure in which all statements of the theory are true",
+            "wrongAnswer1": "A syntactic proof of a statement within the theory",
+            "wrongAnswer2": "A set of axioms intended to generate the theory",
+            "wrongAnswer3": "An algorithm that verifies the consistency of the theory",
+            "explanation": "A model of a theory is a structure that satisfies every sentence or proposition in that theory, meaning all axioms and derived statements hold true in that model.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "Which of the following is a key concept in Model Theory that describes sentences true in some model but not others?",
+            "correctAnswer": "Satisfiability",
+            "wrongAnswer1": "Completeness",
+            "wrongAnswer2": "Soundness",
+            "wrongAnswer3": "Consistency",
+            "explanation": "Satisfiability refers to the property that a sentence or set of sentences is true in at least one model, distinguishing it from concepts like completeness or soundness which relate to proof systems.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Semantic Tableaux",
+        "questions": [
+          {
+            "question": "What is the primary purpose of the semantic tableaux method in logic?",
+            "correctAnswer": "To determine the satisfiability of logical formulas",
+            "wrongAnswer1": "To convert formulas into conjunctive normal form",
+            "wrongAnswer2": "To enumerate all possible models of a formula",
+            "wrongAnswer3": "To prove the completeness of a logical system",
+            "explanation": "Semantic tableaux systematically check the satisfiability of formulas by attempting to build a tree that represents possible interpretations. If the tree closes (all branches lead to a contradiction), the formula is unsatisfiable.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "In a semantic tableau, what does it mean if every branch closes?",
+            "correctAnswer": "The original formula is unsatisfiable (contradictory)",
+            "wrongAnswer1": "The formula is tautologically true",
+            "wrongAnswer2": "There exists a model where the formula holds",
+            "wrongAnswer3": "The formula is logically equivalent to another formula",
+            "explanation": "If every branch of a semantic tableau closes, it means that all possible interpretations lead to a contradiction, so the formula cannot be true under any interpretation, i.e., it is unsatisfiable.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which rule is correctly applied in semantic tableaux when decomposing a conjunction formula (A ∧ B)?",
+            "correctAnswer": "Both A and B are added to the same branch",
+            "wrongAnswer1": "Create two branches, one with A and the other with B",
+            "wrongAnswer2": "Negate both A and B and add to the branch",
+            "wrongAnswer3": "Only add A or B randomly to a branch",
+            "explanation": "For a conjunction, both components must be true simultaneously, so both are added to the same branch in the tableau to check satisfiability consistently.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Logical Semantics",
+        "questions": [
+          {
+            "question": "What does the term 'logical semantics' primarily refer to in logic?",
+            "correctAnswer": "The study of meaning in logical expressions and how truth values are assigned",
+            "wrongAnswer1": "The syntax and grammatical rules of logical languages",
+            "wrongAnswer2": "The practical applications of logic in computer programming",
+            "wrongAnswer3": "The historical development of logical systems",
+            "explanation": "Logical semantics focuses on the meanings of logical expressions and how these relate to truth values within formal systems, distinguishing it from syntax or practical applications.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "In logical semantics, what is a 'model'?",
+            "correctAnswer": "An interpretation that assigns truth values to propositions in a logical system",
+            "wrongAnswer1": "A formal proof of a logical theorem",
+            "wrongAnswer2": "A set of syntax rules in logic",
+            "wrongAnswer3": "A type of logical fallacy",
+            "explanation": "A model in logical semantics is an interpretation providing meanings to symbols and determining the truth values of propositions, essential for evaluating logical validity.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "Which of the following best describes the purpose of logical semantics in reasoning?",
+            "correctAnswer": "To determine the truth conditions of statements to assess logical consequence",
+            "wrongAnswer1": "To outline procedural steps for logical deduction",
+            "wrongAnswer2": "To collect empirical data for logical analysis",
+            "wrongAnswer3": "To focus solely on natural language understanding",
+            "explanation": "Logical semantics aims to provide a framework for understanding how statements can be true or false, which is key for establishing logical consequences, not just procedural deduction or empirical data handling.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Critical Thinking",
+        "questions": [
+          {
+            "question": "What is the primary goal of critical thinking?",
+            "correctAnswer": "To analyze and evaluate information objectively before making a decision",
+            "wrongAnswer1": "To accept information based on authority alone",
+            "wrongAnswer2": "To make decisions based on intuition without evidence",
+            "wrongAnswer3": "To avoid questioning ideas or assumptions",
+            "explanation": "Critical thinking involves objectively analyzing and evaluating information to make reasoned decisions, rather than accepting information at face value or based on authority alone.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is a key characteristic of critical thinking?",
+            "correctAnswer": "Questioning assumptions and seeking evidence",
+            "wrongAnswer1": "Ignoring alternative viewpoints",
+            "wrongAnswer2": "Accepting information immediately regardless of source",
+            "wrongAnswer3": "Making quick decisions without reflection",
+            "explanation": "Critical thinking requires questioning assumptions, examining evidence, and considering multiple perspectives rather than making snap judgments or ignoring differing opinions.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "How does critical thinking improve problem-solving skills?",
+            "correctAnswer": "By encouraging evaluation of all possible solutions and their consequences before choosing one",
+            "wrongAnswer1": "By focusing only on the most obvious solution",
+            "wrongAnswer2": "By relying solely on previous experiences without analysis",
+            "wrongAnswer3": "By avoiding the assessment of risks associated with solutions",
+            "explanation": "Critical thinking improves problem-solving by promoting careful evaluation of all potential solutions and understanding their impacts, instead of jumping to quick or poorly examined conclusions.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Truth Values",
+        "questions": [
+          {
+            "question": "What are the only two truth values in classical logic?",
+            "correctAnswer": "True and False",
+            "wrongAnswer1": "True and Unknown",
+            "wrongAnswer2": "Yes and No",
+            "wrongAnswer3": "1 and 0",
+            "explanation": "In classical logic, every proposition is assigned a truth value of either True or False, representing its truth status.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "In a logical statement, if a proposition is not true, what is its truth value?",
+            "correctAnswer": "False",
+            "wrongAnswer1": "True",
+            "wrongAnswer2": "Unknown",
+            "wrongAnswer3": "Indeterminate",
+            "explanation": "In classical two-valued logic, if a proposition is not true, it must be false since these are the only two truth values available.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which logic system uses more than two truth values?",
+            "correctAnswer": "Multi-valued logic",
+            "wrongAnswer1": "Classical logic",
+            "wrongAnswer2": "Propositional logic",
+            "wrongAnswer3": "Predicate logic",
+            "explanation": "Multi-valued logic extends classical logic by allowing more than two truth values, such as 'unknown' or 'indeterminate', whereas classical logic strictly uses true and false.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Logical Paradoxes",
+        "questions": [
+          {
+            "question": "What is a logical paradox?",
+            "correctAnswer": "A statement or group of statements that leads to a contradiction or a situation defying intuition.",
+            "wrongAnswer1": "A mathematical equation that always results in zero.",
+            "wrongAnswer2": "A true statement that can be easily proven.",
+            "wrongAnswer3": "An argument that is accepted by all logical reasoning systems.",
+            "explanation": "Logical paradoxes are statements or sets of statements that contradict themselves or lead to conclusions that defy intuition or standard logic, highlighting inconsistencies or limits of reasoning.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is an example of a well-known logical paradox?",
+            "correctAnswer": "The Liar Paradox: 'This statement is false.'",
+            "wrongAnswer1": "The Pythagorean theorem: a² + b² = c²",
+            "wrongAnswer2": "De Morgan's laws in Boolean algebra",
+            "wrongAnswer3": "The law of excluded middle",
+            "explanation": "The Liar Paradox is a classic example of a logical paradox because the statement 'This statement is false' cannot be consistently declared true or false without contradiction.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "What does the Barber paradox illustrate about self-reference in logical systems?",
+            "correctAnswer": "It shows that self-reference can lead to contradictions when a rule cannot consistently determine its own application.",
+            "wrongAnswer1": "It proves that all logical systems are complete and consistent.",
+            "wrongAnswer2": "It demonstrates that paradoxes only appear in mathematical contexts.",
+            "wrongAnswer3": "It shows how to resolve contradictions by ignoring self-referential statements.",
+            "explanation": "The Barber paradox involves a barber who shaves all and only those men who do not shave themselves. This self-referential scenario creates a contradiction, illustrating how self-reference can generate paradoxes.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Cognitive Logic",
+        "questions": [
+          {
+            "question": "What best defines cognitive logic?",
+            "correctAnswer": "The study of reasoning processes in human cognition.",
+            "wrongAnswer1": "A formal system of symbolic logic used in mathematics.",
+            "wrongAnswer2": "A set of fixed rules for machine learning algorithms.",
+            "wrongAnswer3": "A programming language for neural networks.",
+            "explanation": "Cognitive logic focuses on understanding how human beings reason and make decisions, rather than purely formal or computational logic systems.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is a key aspect of cognitive logic?",
+            "correctAnswer": "Modeling human thought patterns.",
+            "wrongAnswer1": "Creating purely abstract mathematical proofs.",
+            "wrongAnswer2": "Developing database query languages.",
+            "wrongAnswer3": "Programming hardware circuits.",
+            "explanation": "Cognitive logic involves modeling and interpreting human thought and reasoning processes, unlike purely formal logic or engineering tasks.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "How does cognitive logic differ from classical logic?",
+            "correctAnswer": "It incorporates psychological principles to explain human reasoning flaws.",
+            "wrongAnswer1": "It strictly follows Boolean algebra without exceptions.",
+            "wrongAnswer2": "It only uses symbolic expressions without interpretation.",
+            "wrongAnswer3": "It ignores any form of reasoning errors or biases.",
+            "explanation": "Cognitive logic recognizes that human reasoning is not always perfectly rational and includes biases and heuristics, unlike classical logic which assumes ideal reasoning.",
+            "difficulty": "Advanced"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Computability Theory",
+        "questions": [
+          {
+            "question": "What does the Church-Turing thesis propose?",
+            "correctAnswer": "Any function that can be effectively computed can be computed by a Turing machine.",
+            "wrongAnswer1": "All functions are computable by modern computers.",
+            "wrongAnswer2": "Computers can solve all mathematical problems.",
+            "wrongAnswer3": "Only recursive functions can be computed by humans.",
+            "explanation": "The Church-Turing thesis states that any function which would naturally be regarded as computable can be computed by a Turing machine, providing a foundational concept in computability theory.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is an example of an undecidable problem?",
+            "correctAnswer": "The Halting Problem",
+            "wrongAnswer1": "Sorting an array",
+            "wrongAnswer2": "Finding the greatest common divisor",
+            "wrongAnswer3": "Checking if a number is even",
+            "explanation": "The Halting Problem, which asks whether a given program will halt or run forever, is a classic example of an undecidable problem in computability theory, meaning there is no algorithm that can solve it for all inputs.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "What does it mean for a language to be recursively enumerable?",
+            "correctAnswer": "There exists a Turing machine that will enumerate all strings in the language, possibly without halting.",
+            "wrongAnswer1": "The language can be decided by a finite automaton.",
+            "wrongAnswer2": "The language contains all possible strings.",
+            "wrongAnswer3": "The language can be recognized instantly.",
+            "explanation": "A recursively enumerable language is one for which a Turing machine exists that will list all strings in the language, but it might not halt if the string is not in the language. This distinguishes it from recursive languages which are decidable.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Logical Syntax",
+        "questions": [
+          {
+            "question": "What does logical syntax primarily study in formal logic?",
+            "correctAnswer": "The formal structure and rules of well-formed formulas in a language.",
+            "wrongAnswer1": "The meaning and interpretation of symbols.",
+            "wrongAnswer2": "The psychological effects of logic on human thinking.",
+            "wrongAnswer3": "The historical development of logical theories.",
+            "explanation": "Logical syntax focuses on the formal structure and rules for constructing well-formed formulas within a formal language, rather than their semantics or meaning.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is an example of a rule of logical syntax?",
+            "correctAnswer": "Using parentheses properly to denote the scope of operators.",
+            "wrongAnswer1": "The truth value of a statement under an interpretation.",
+            "wrongAnswer2": "The meaning assigned to symbols in a model.",
+            "wrongAnswer3": "The semantic truth conditions of a formula.",
+            "explanation": "Rules of logical syntax include how to correctly write formulas, such as proper placement of parentheses to clarify operator scope, ensuring well-formedness.",
+            "difficulty": "Intermediate"
+          },
+          {
+            "question": "In the context of logical syntax, what does it mean for a formula to be 'well-formed'?",
+            "correctAnswer": "It conforms to the prescribed rules of formation and is syntactically correct.",
+            "wrongAnswer1": "It is true under all interpretations.",
+            "wrongAnswer2": "It has a definable meaning in a model.",
+            "wrongAnswer3": "It is recognized by a human as meaningful.",
+            "explanation": "A well-formed formula meets all syntactic rules defined by the formal language's grammar, independent of its truth or semantic content.",
+            "difficulty": "Basic"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Computer Logic",
+        "questions": [
+          {
+            "question": "What does a logic gate in a computer do?",
+            "correctAnswer": "It performs a basic logical function on one or more binary inputs",
+            "wrongAnswer1": "It stores large amounts of data permanently",
+            "wrongAnswer2": "It increases the speed of the processor",
+            "wrongAnswer3": "It converts analog signals to digital",
+            "explanation": "A logic gate processes one or more binary inputs to produce a single binary output based on a logical operation like AND, OR, or NOT.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which of the following is NOT a basic type of logic gate?",
+            "correctAnswer": "ADD",
+            "wrongAnswer1": "AND",
+            "wrongAnswer2": "OR",
+            "wrongAnswer3": "NOT",
+            "explanation": "AND, OR, and NOT are basic logic gates. ADD is an arithmetic operation, not a logic gate.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "In computer logic, what does the output of an AND gate equal when both inputs are 1?",
+            "correctAnswer": "1",
+            "wrongAnswer1": "0",
+            "wrongAnswer2": "It depends on the circuit",
+            "wrongAnswer3": "-1",
+            "explanation": "An AND gate outputs 1 only if all its inputs are 1; otherwise, the output is 0.",
+            "difficulty": "Basic"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Mathematical Logic",
+        "questions": [
+          {
+            "question": "Which of the following best represents a tautology in mathematical logic?",
+            "correctAnswer": "A statement that is always true regardless of the truth values of its components.",
+            "wrongAnswer1": "A statement that is always false regardless of the truth values of its components.",
+            "wrongAnswer2": "A statement that is true only under specific conditions.",
+            "wrongAnswer3": "A statement that cannot be proven true or false.",
+            "explanation": "A tautology is a formula or assertion that is true in every possible interpretation, meaning it is always true regardless of the truth values of its components.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "In mathematical logic, what does the logical connective '∧' represent?",
+            "correctAnswer": "Logical AND, true only if both operands are true.",
+            "wrongAnswer1": "Logical OR, true if at least one operand is true.",
+            "wrongAnswer2": "Logical NOT, which negates the truth value of a statement.",
+            "wrongAnswer3": "Logical implication, which is false only if the first operand is true and the second is false.",
+            "explanation": "'∧' is the symbol for logical AND, a connective that results in true only if both statements it connects are true.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "What is the main purpose of formal proof systems in mathematical logic?",
+            "correctAnswer": "To provide a rigorous method to derive conclusions from premises using rules of inference.",
+            "wrongAnswer1": "To experimentally verify the truth of mathematical statements.",
+            "wrongAnswer2": "To measure the probability of a statement being true.",
+            "wrongAnswer3": "To automatically generate mathematical conjectures without human input.",
+            "explanation": "Formal proof systems use axioms and inference rules to derive conclusions logically from given premises, ensuring rigor and validity in proofs.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      },
+      {
+        "topic": "Logic",
+        "concept": "Logic Gates",
+        "questions": [
+          {
+            "question": "Which logic gate outputs true only when all inputs are true?",
+            "correctAnswer": "AND gate",
+            "wrongAnswer1": "OR gate",
+            "wrongAnswer2": "NOT gate",
+            "wrongAnswer3": "XOR gate",
+            "explanation": "An AND gate outputs true only when all its inputs are true, otherwise it outputs false.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "What is the output of a NOT gate when the input is true?",
+            "correctAnswer": "False",
+            "wrongAnswer1": "True",
+            "wrongAnswer2": "Cannot be determined",
+            "wrongAnswer3": "Same as input",
+            "explanation": "A NOT gate outputs the inverse of the input: if the input is true, the output is false.",
+            "difficulty": "Basic"
+          },
+          {
+            "question": "Which logic gate outputs true if exactly one of the inputs is true?",
+            "correctAnswer": "XOR gate",
+            "wrongAnswer1": "AND gate",
+            "wrongAnswer2": "OR gate",
+            "wrongAnswer3": "NAND gate",
+            "explanation": "An XOR (exclusive OR) gate outputs true only when exactly one input is true, and false otherwise.",
+            "difficulty": "Intermediate"
+          }
+        ]
+      }
+    ]
+  }
