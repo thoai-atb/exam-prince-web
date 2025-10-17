@@ -1,32 +1,65 @@
-import { forwardRef, useImperativeHandle, useState } from "react";
+import { useState, useEffect } from "react";
 import Room from "./Room";
+import { subscribeKeyboard } from "../input/controls";
 
-const House = forwardRef(({ manager }, ref) => {
-  const [rooms, setRooms] = useState(manager.rooms);
+export default function House({ manager }) {
+  // Keep track of state from manager
+  const [state, setState] = useState(manager.getState());
 
-  // Expose method to update rooms externally
-  useImperativeHandle(ref, () => ({
-    updateRooms: (newRooms) => setRooms(newRooms),
-  }));
+  useEffect(() => {
+    // --- Reactively update when manager notifies ---
+    const unsubscribeManager = manager.subscribe((newState) => {
+      setState({ ...newState });
+    });
 
-  const handleMove = (row, col) => {
-    const moved = manager.moveTo(row, col);
-    if (moved) setRooms([...manager.rooms]);
-  };
+    // --- Keyboard control subscription ---
+    const unsubscribeKeyboard = subscribeKeyboard((key) => {
+      const [cr, cc] = manager.currentPosition;
+      let targetRow = cr;
+      let targetCol = cc;
+
+      switch (key) {
+        case "w":
+          targetRow = cr - 1;
+          break;
+        case "s":
+          targetRow = cr + 1;
+          break;
+        case "a":
+          targetCol = cc - 1;
+          break;
+        case "d":
+          targetCol = cc + 1;
+          break;
+        default:
+          return;
+      }
+
+      manager.moveTo(targetRow, targetCol);
+    });
+
+    // Cleanup both subscriptions
+    return () => {
+      unsubscribeManager();
+      unsubscribeKeyboard();
+    };
+  }, [manager]);
+
+  const { rooms } = state;
 
   return (
-    <div className={`grid grid-cols-5 gap-1`}>
-      {rooms.map((row, rowIndex) =>
-        row.map((room, colIndex) => (
+    <div className="grid grid-cols-5 gap-1">
+      {rooms.map((row, r) =>
+        row.map((room, c) => (
           <Room
-            key={`${rowIndex}-${colIndex}`}
+            key={`${r}-${c}`}
             room={room}
-            onClick={() => handleMove(rowIndex, colIndex)}
+            onClick={() => {
+              manager.moveTo(r, c);
+            }}
           />
         ))
       )}
     </div>
   );
-});
-
-export default House;
+}

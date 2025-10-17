@@ -38,13 +38,14 @@ export default class HouseGenerator {
   }
 
   /**
-   * Pull a floorplan that satisfies connection directions
-   * @param {Object} mustConnect - object with {north, south, west, east} boolean
-   * @param {Number} row - room row
-   * @param {Number} col - room col
-   * @returns FloorPlan or null
+   * Return up to `count` valid floorplans without removing them
+   * @param {Object} mustConnect - {north, south, west, east} booleans
+   * @param {Number} row
+   * @param {Number} col
+   * @param {Number} count
+   * @returns Array of FloorPlans
    */
-  drawValidFloorPlan(mustConnect = {}, row = 0, col = 0) {
+  draftValidFloorPlans(mustConnect = {}, row = 0, col = 0, count = 1) {
     const validPool = this.pool.filter(fp => {
       // Must have at least one required door
       const hasConnection = Object.keys(mustConnect).some(
@@ -61,11 +62,21 @@ export default class HouseGenerator {
       return true;
     });
 
-    if (validPool.length === 0) return null;
+    // Return up to `count` floorplans randomly
+    const shuffled = validPool.sort(() => Math.random() - 0.5);
+    return shuffled.slice(0, count);
+  }
 
-    const idx = Math.floor(Math.random() * validPool.length);
-    const fp = validPool[idx];
-    this.pool.splice(this.pool.indexOf(fp), 1); // remove from pool
+  /**
+   * Removes the floorplan from the pool and returns it
+   * @param {String} floorplanName
+   * @returns FloorPlan
+   */
+  useFloorPlan(floorplanName) {
+    const index = this.pool.findIndex(fp => fp.name === floorplanName);
+    if (index === -1) return null;
+    const fp = this.pool[index];
+    this.pool.splice(index, 1);
     return fp;
   }
 }
