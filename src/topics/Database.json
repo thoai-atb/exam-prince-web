@@ -1,0 +1,1655 @@
+{
+  "topic": "Database",
+  "concepts": [
+    {
+      "topic": "Database",
+      "concept": "Data Model",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a data model in database design?",
+          "correctAnswer": "To define the structure and organization of data",
+          "wrongAnswer1": "To store data in a physical device",
+          "wrongAnswer2": "To write application code",
+          "wrongAnswer3": "To manage network connections",
+          "explanation": "A data model provides a conceptual framework for how data is structured, organized, and related in a database, which is essential for designing databases effectively.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a common type of data model?",
+          "correctAnswer": "Thermal model",
+          "wrongAnswer1": "Relational model",
+          "wrongAnswer2": "Hierarchical model",
+          "wrongAnswer3": "Network model",
+          "explanation": "Thermal model is unrelated to databases; common data models include relational, hierarchical, and network models.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In the context of data models, what does the relational model primarily use to represent data?",
+          "correctAnswer": "Tables with rows and columns",
+          "wrongAnswer1": "Tree structures",
+          "wrongAnswer2": "Graphs",
+          "wrongAnswer3": "Key-value pairs",
+          "explanation": "The relational model organizes data into tables, making it straightforward to query and maintain relationships using rows and columns.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "SQL Query",
+      "questions": [
+        {
+          "question": "What is the primary purpose of an SQL SELECT statement?",
+          "correctAnswer": "To retrieve data from a database",
+          "wrongAnswer1": "To delete data from a database",
+          "wrongAnswer2": "To insert new records into a database",
+          "wrongAnswer3": "To create a new database table",
+          "explanation": "The SELECT statement in SQL is used to query and retrieve data from one or more tables in a database. It is the most common SQL command for reading data.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which SQL keyword is used to filter records returned by a query?",
+          "correctAnswer": "WHERE",
+          "wrongAnswer1": "ORDER BY",
+          "wrongAnswer2": "GROUP BY",
+          "wrongAnswer3": "HAVING",
+          "explanation": "The WHERE clause is used in SQL to specify conditions that filter which records are returned by the SELECT query. ORDER BY sorts results, GROUP BY aggregates, and HAVING filters groups.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you sort the results of an SQL query in descending order?",
+          "correctAnswer": "Using ORDER BY with DESC",
+          "wrongAnswer1": "Using WHERE with DESC",
+          "wrongAnswer2": "Using GROUP BY with DESC",
+          "wrongAnswer3": "Using HAVING with DESC",
+          "explanation": "The ORDER BY clause controls the sort order of the query results. Adding DESC after the column name sorts the results in descending order.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Normalization",
+      "questions": [
+        {
+          "question": "What is the primary goal of database normalization?",
+          "correctAnswer": "To reduce data redundancy and improve data integrity",
+          "wrongAnswer1": "To increase data duplication for faster access",
+          "wrongAnswer2": "To create as many tables as possible in a database",
+          "wrongAnswer3": "To simplify complex queries by combining tables",
+          "explanation": "Normalization organizes data to minimize redundancy and ensure data integrity by dividing a database into well-structured tables.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which normal form removes partial dependency in a relational database?",
+          "correctAnswer": "Second Normal Form (2NF)",
+          "wrongAnswer1": "First Normal Form (1NF)",
+          "wrongAnswer2": "Third Normal Form (3NF)",
+          "wrongAnswer3": "Boyce-Codd Normal Form (BCNF)",
+          "explanation": "Second Normal Form (2NF) eliminates partial dependencies by ensuring that non-key attributes depend on the whole primary key, not just part of it.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does Third Normal Form (3NF) primarily address in normalization?",
+          "correctAnswer": "Eliminates transitive dependencies to ensure that non-key attributes depend only on primary keys",
+          "wrongAnswer1": "Ensures all attributes are atomic and indivisible",
+          "wrongAnswer2": "Removes duplicate rows from tables",
+          "wrongAnswer3": "Groups related data to reduce the number of tables",
+          "explanation": "Third Normal Form (3NF) removes transitive dependencies so that non-key fields depend only on the primary key, which further reduces redundancy.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Primary Key",
+      "questions": [
+        {
+          "question": "What is the purpose of a primary key in a database table?",
+          "correctAnswer": "To uniquely identify each record in the table",
+          "wrongAnswer1": "To store large amounts of textual data",
+          "wrongAnswer2": "To allow duplicate entries in the table",
+          "wrongAnswer3": "To enforce referential integrity automatically",
+          "explanation": "A primary key uniquely identifies each record in a table, ensuring that no two rows have the same key value. This is essential for distinguishing records.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a characteristic of a primary key?",
+          "correctAnswer": "It must contain unique values and cannot be null",
+          "wrongAnswer1": "It can have duplicate values across records",
+          "wrongAnswer2": "It is optional to define in a table",
+          "wrongAnswer3": "It usually contains large binary data",
+          "explanation": "A primary key must have unique values for every record and cannot be null, which ensures data integrity in the table.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Can a primary key be made up of more than one column?",
+          "correctAnswer": "Yes, this is called a composite primary key",
+          "wrongAnswer1": "No, a primary key must always consist of a single column",
+          "wrongAnswer2": "Yes, but it is only supported by specific database systems",
+          "wrongAnswer3": "No, primary keys cannot include columns with text data",
+          "explanation": "A composite primary key uses multiple columns combined to uniquely identify a record, commonly used when a single column is not sufficient.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Foreign Key",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a foreign key in a database?",
+          "correctAnswer": "To establish a link between two tables and enforce referential integrity",
+          "wrongAnswer1": "To uniquely identify each record within a single table",
+          "wrongAnswer2": "To speed up the query processing by indexing columns",
+          "wrongAnswer3": "To store large amounts of unstructured data",
+          "explanation": "A foreign key is a column or set of columns in one table that references the primary key of another table, ensuring that the relationship between the tables is valid and maintaining referential integrity.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes the relationship imposed by a foreign key constraint?",
+          "correctAnswer": "It creates a parent-child relationship between two tables",
+          "wrongAnswer1": "It merges two tables into one",
+          "wrongAnswer2": "It duplicates data across tables for redundancy",
+          "wrongAnswer3": "It defines the calculations performed on data",
+          "explanation": "A foreign key defines a parent-child relationship where the child table references the parent table's primary key, ensuring linked data stays consistent.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens if you try to insert a value in a foreign key column that does not exist in the referenced primary key column?",
+          "correctAnswer": "The database rejects the insert operation due to referential integrity violation",
+          "wrongAnswer1": "The database automatically adds the missing value to the primary key column",
+          "wrongAnswer2": "The foreign key column accepts the unmatched value without error",
+          "wrongAnswer3": "The database deletes the row from the referenced table",
+          "explanation": "Foreign key constraints ensure that only existing referenced primary key values can be inserted in the foreign key column, maintaining data integrity by rejecting invalid references.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Indexing",
+      "questions": [
+        {
+          "question": "What is the primary purpose of indexing in a database?",
+          "correctAnswer": "To speed up data retrieval operations",
+          "wrongAnswer1": "To increase the size of the database",
+          "wrongAnswer2": "To encrypt the stored data",
+          "wrongAnswer3": "To delete duplicate records automatically",
+          "explanation": "Indexing in databases is used to speed up the retrieval of records by creating a data structure that allows faster searches.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common type of database index?",
+          "correctAnswer": "B-tree index",
+          "wrongAnswer1": "Hash table index",
+          "wrongAnswer2": "Linked list index",
+          "wrongAnswer3": "Binary search index",
+          "explanation": "B-tree indexes are widely used in databases for their efficient data retrieval and balanced tree structure.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a potential downside of using too many indexes in a database?",
+          "correctAnswer": "It can slow down data insertion and updates",
+          "wrongAnswer1": "It reduces the storage space dramatically",
+          "wrongAnswer2": "It prevents users from accessing data concurrently",
+          "wrongAnswer3": "It automatically deletes older records",
+          "explanation": "While indexes speed up queries, having many indexes slows down insert, update, and delete operations because the indexes also need to be updated.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Transactions",
+      "questions": [
+        {
+          "question": "What is a database transaction?",
+          "correctAnswer": "A unit of work performed within a database management system that is treated in a coherent way",
+          "wrongAnswer1": "A process of backing up databases periodically",
+          "wrongAnswer2": "An operation that permanently deletes data without any recovery",
+          "wrongAnswer3": "A technique to create multiple databases user interfaces",
+          "explanation": "A transaction in databases is a sequence of operations performed as a single logical unit of work, ensuring consistency and integrity.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a property of database transactions as per ACID principles?",
+          "correctAnswer": "SQL Compliance",
+          "wrongAnswer1": "Atomicity",
+          "wrongAnswer2": "Consistency",
+          "wrongAnswer3": "Durability",
+          "explanation": "ACID represents Atomicity, Consistency, Isolation, and Durability, which are the key properties ensuring reliable transactions. SQL Compliance is unrelated to these properties.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the Isolation property guarantee in a database transaction?",
+          "correctAnswer": "That concurrent transactions execute independently without interference",
+          "wrongAnswer1": "That all changes are immediately visible to all transactions",
+          "wrongAnswer2": "That only one transaction can be processed at a time globally",
+          "wrongAnswer3": "That transactions are permanently saved to disk immediately",
+          "explanation": "Isolation ensures transactions operate independently so intermediate states are invisible to other concurrent transactions, preventing conflicts.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "ACID Properties",
+      "questions": [
+        {
+          "question": "What does the A in ACID properties stand for in database transactions?",
+          "correctAnswer": "Atomicity",
+          "wrongAnswer1": "Asynchrony",
+          "wrongAnswer2": "Accessibility",
+          "wrongAnswer3": "Accuracy",
+          "explanation": "In the context of ACID properties, A stands for Atomicity, which means transactions are all-or-nothing.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which ACID property ensures that a completed transaction's results are permanently recorded in the database?",
+          "correctAnswer": "Durability",
+          "wrongAnswer1": "Isolation",
+          "wrongAnswer2": "Consistency",
+          "wrongAnswer3": "Atomicity",
+          "explanation": "Durability guarantees that once a transaction has been committed, it will remain so, even in the event of a system failure.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does the Isolation property in ACID affect concurrent database transactions?",
+          "correctAnswer": "It ensures transactions do not interfere with each other's intermediate states.",
+          "wrongAnswer1": "It allows transactions to share partial updates.",
+          "wrongAnswer2": "It automatically rolls back conflicting transactions.",
+          "wrongAnswer3": "It duplicates data between transactions.",
+          "explanation": "Isolation ensures that transactions are processed independently without interference, preserving transaction integrity during concurrent operations.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "NoSQL Database",
+      "questions": [
+        {
+          "question": "What is a primary characteristic of NoSQL databases compared to traditional SQL databases?",
+          "correctAnswer": "They are designed to handle unstructured or semi-structured data with flexible schemas.",
+          "wrongAnswer1": "They only support fixed schema tables with strongly typed columns.",
+          "wrongAnswer2": "They require complex joins to connect different data tables.",
+          "wrongAnswer3": "They use SQL language exclusively for all data queries.",
+          "explanation": "NoSQL databases are designed to support flexible schema models and handle unstructured or semi-structured data, unlike traditional SQL databases which typically require fixed schemas.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common type of NoSQL database?",
+          "correctAnswer": "Document store databases that store data in JSON-like formats.",
+          "wrongAnswer1": "Relational databases that enforce ACID transactions.",
+          "wrongAnswer2": "Flat file databases storing plain text data sequentially.",
+          "wrongAnswer3": "Hierarchical databases using rigid tree structures.",
+          "explanation": "Document store databases are a popular type of NoSQL database which store data as documents often using JSON format, supporting flexible data models.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why might an application choose a NoSQL database over a traditional SQL database?",
+          "correctAnswer": "To achieve high scalability and handle large volumes of diverse, rapidly changing data.",
+          "wrongAnswer1": "Because NoSQL databases offer more complex relational integrity constraints.",
+          "wrongAnswer2": "To ensure all operations are always strongly consistent across distributed systems.",
+          "wrongAnswer3": "Because NoSQL databases are simpler to query using standard SQL.",
+          "explanation": "NoSQL databases are often chosen for applications that require high scalability and handling of diverse data types, especially when the data schema evolves frequently or is unstructured.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Relational Database",
+      "questions": [
+        {
+          "question": "What is a primary characteristic of a relational database?",
+          "correctAnswer": "Data is organized in tables with rows and columns",
+          "wrongAnswer1": "Data is stored as a single continuous file",
+          "wrongAnswer2": "Data is stored in a hierarchical tree format",
+          "wrongAnswer3": "Data is only stored in key-value pairs",
+          "explanation": "A relational database organizes data into tables consisting of rows and columns, making it easy to manage and query data.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is used to uniquely identify a record in a relational database table?",
+          "correctAnswer": "Primary key",
+          "wrongAnswer1": "Foreign key",
+          "wrongAnswer2": "Index key",
+          "wrongAnswer3": "Composite key",
+          "explanation": "A primary key is used to uniquely identify each record in a relational database table, ensuring each entry is distinct.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do foreign keys function in a relational database?",
+          "correctAnswer": "They link rows in one table to rows in another table",
+          "wrongAnswer1": "They encrypt the data stored in a table",
+          "wrongAnswer2": "They serve as primary keys for multiple tables",
+          "wrongAnswer3": "They are only used for sorting data",
+          "explanation": "Foreign keys create relationships between tables by linking a column in one table to the primary key column of another table, establishing referential integrity.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Data Integrity",
+      "questions": [
+        {
+          "question": "What does data integrity in a database ensure?",
+          "correctAnswer": "The accuracy and consistency of data over its entire lifecycle",
+          "wrongAnswer1": "The speed of data retrieval from the database",
+          "wrongAnswer2": "The visual representation of data in reports",
+          "wrongAnswer3": "The amount of data storage capacity available",
+          "explanation": "Data integrity ensures that data is accurate, consistent, and reliable throughout its lifecycle, preventing data corruption or unauthorized changes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common method to maintain data integrity in databases?",
+          "correctAnswer": "Using constraints and validation rules",
+          "wrongAnswer1": "Increasing disk storage size",
+          "wrongAnswer2": "Using colorful charts and graphs",
+          "wrongAnswer3": "Adding more indexes for query optimization",
+          "explanation": "Constraints like primary keys, foreign keys, and validation rules help maintain data integrity by enforcing rules on data entry and relationships.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is enforcing referential integrity important in relational databases?",
+          "correctAnswer": "To ensure relationships between tables remain consistent",
+          "wrongAnswer1": "To allow faster query processing",
+          "wrongAnswer2": "To reduce the size of the database",
+          "wrongAnswer3": "To enable users to access the database remotely",
+          "explanation": "Referential integrity guarantees that foreign keys correctly reference primary keys in related tables, maintaining consistency and preventing orphan records.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Schema Design",
+      "questions": [
+        {
+          "question": "What is the main purpose of schema design in databases?",
+          "correctAnswer": "To define the structure and organization of data in the database",
+          "wrongAnswer1": "To write queries for data retrieval",
+          "wrongAnswer2": "To manage user permissions",
+          "wrongAnswer3": "To backup the database regularly",
+          "explanation": "Schema design involves defining tables, fields, relationships, and constraints to organize data efficiently in the database.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key component of schema design?",
+          "correctAnswer": "Defining tables and their relationships",
+          "wrongAnswer1": "Creating report views for users",
+          "wrongAnswer2": "Setting up network connections",
+          "wrongAnswer3": "Establishing physical storage hardware",
+          "explanation": "Schema design focuses on defining how data is stored and related, such as tables, columns, keys, and relationships between tables.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is normalization in schema design?",
+          "correctAnswer": "A process to minimize redundancy and dependency by organizing fields and tables",
+          "wrongAnswer1": "A method for creating backups of the database",
+          "wrongAnswer2": "The process of indexing tables for faster queries",
+          "wrongAnswer3": "A technique for encrypting sensitive data",
+          "explanation": "Normalization organizes database tables and fields to reduce redundancy and improve data integrity by dividing large tables into smaller related ones.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Backup Recovery",
+      "questions": [
+        {
+          "question": "What is the main purpose of database backup?",
+          "correctAnswer": "To create a copy of data for restoration in case of loss",
+          "wrongAnswer1": "To improve database query performance",
+          "wrongAnswer2": "To secure data from unauthorized access",
+          "wrongAnswer3": "To permanently delete outdated data",
+          "explanation": "The main purpose of a database backup is to create a copy of the database data which can be used to restore the original after data loss events such as hardware failure or human error.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which recovery method involves restoring the backup and then applying logs to bring the database to a specific point in time?",
+          "correctAnswer": "Point-in-time recovery",
+          "wrongAnswer1": "Cold backup recovery",
+          "wrongAnswer2": "Snapshot recovery",
+          "wrongAnswer3": "Full recovery without logs",
+          "explanation": "Point-in-time recovery restores the backup and then applies transaction logs to recover the database to a specific moment, enabling recovery from recent failures.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the difference between full backup and incremental backup?",
+          "correctAnswer": "Full backup copies all data, incremental backup copies data changed since last backup",
+          "wrongAnswer1": "Incremental backup copies all data, full backup copies only recent changes",
+          "wrongAnswer2": "Full backup only copies system files, incremental backup copies all data",
+          "wrongAnswer3": "Incremental backup deletes old data after backup, full backup does not",
+          "explanation": "A full backup copies the entire data set while an incremental backup copies only the data that has changed since the last backup, saving time and storage space.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Data Warehousing",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a data warehouse in a database system?",
+          "correctAnswer": "To consolidate and store large volumes of data for analysis",
+          "wrongAnswer1": "To manage real-time transactional processes",
+          "wrongAnswer2": "To serve as a primary data entry system",
+          "wrongAnswer3": "To replace operational databases entirely",
+          "explanation": "A data warehouse is designed to consolidate data from multiple sources and store it to support analysis and decision making, rather than managing real-time transactions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes a characteristic of data warehousing?",
+          "correctAnswer": "It integrates data from various sources into a single repository",
+          "wrongAnswer1": "It handles only current transaction data without historical data",
+          "wrongAnswer2": "It is optimized for transaction processing speed",
+          "wrongAnswer3": "It stores data with minimal preprocessing",
+          "explanation": "Data warehouses aggregate data from different systems and typically organize it for complex queries and historical analysis, unlike transaction systems optimized for quick updates.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In data warehousing, which process involves cleaning and transforming data before loading it into the warehouse?",
+          "correctAnswer": "ETL, which stands for Extract, Transform, Load",
+          "wrongAnswer1": "DDL, which stands for Data Definition Language",
+          "wrongAnswer2": "OLTP, which stands for Online Transaction Processing",
+          "wrongAnswer3": "SQL, which stands for Structured Query Language",
+          "explanation": "ETL refers to the Extract, Transform, Load process that prepares data by extracting from sources, transforming it into a consistent format, and then loading it into the warehouse.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Query Optimization",
+      "questions": [
+        {
+          "question": "What is the main goal of query optimization in databases?",
+          "correctAnswer": "To improve the efficiency of query execution",
+          "wrongAnswer1": "To increase the size of the database",
+          "wrongAnswer2": "To decrease the number of tables in the database",
+          "wrongAnswer3": "To back up the database more frequently",
+          "explanation": "Query optimization aims to reduce the time and resources needed for a query by finding the most efficient way to execute it.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following techniques is commonly used in query optimization?",
+          "correctAnswer": "Using indexes to speed up data retrieval",
+          "wrongAnswer1": "Duplicating data across multiple databases",
+          "wrongAnswer2": "Encrypting the database for security",
+          "wrongAnswer3": "Increasing the hardware capacity without changing queries",
+          "explanation": "Indexes help the database engine quickly find the data without scanning entire tables, which speeds up query execution.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What role does the query optimizer play in a database management system?",
+          "correctAnswer": "It selects the most efficient query execution plan from multiple alternatives",
+          "wrongAnswer1": "It encrypts the query results for security purposes",
+          "wrongAnswer2": "It compiles queries into executable code",
+          "wrongAnswer3": "It creates new database tables automatically",
+          "explanation": "The query optimizer analyzes different ways to run a query and chooses the plan that requires the least resources and time.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Replication",
+      "questions": [
+        {
+          "question": "What is the primary purpose of database replication?",
+          "correctAnswer": "To create copies of data across multiple servers for availability",
+          "wrongAnswer1": "To encrypt data within the database",
+          "wrongAnswer2": "To compress database files to save space",
+          "wrongAnswer3": "To delete outdated records from the database",
+          "explanation": "Database replication involves copying data between servers to ensure data availability and fault tolerance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of replication involves copying only the changes made since the last replication?",
+          "correctAnswer": "Incremental replication",
+          "wrongAnswer1": "Full replication",
+          "wrongAnswer2": "Synchronous replication",
+          "wrongAnswer3": "Asynchronous replication",
+          "explanation": "Incremental replication transfers only the data changes since the last synchronization to optimize performance.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In asynchronous replication, when are the changes from the primary database reflected in the replica?",
+          "correctAnswer": "After a delay, not immediately after the change",
+          "wrongAnswer1": "Instantly at the moment the change is made",
+          "wrongAnswer2": "Only during scheduled maintenance windows",
+          "wrongAnswer3": "After manual approval by a database administrator",
+          "explanation": "Asynchronous replication means updates are sent to the replica after the primary has committed the transaction, resulting in a delay.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Sharding",
+      "questions": [
+        {
+          "question": "What is the primary purpose of sharding in databases?",
+          "correctAnswer": "To distribute data across multiple machines to improve performance and scalability",
+          "wrongAnswer1": "To backup data by duplicating it on a single server",
+          "wrongAnswer2": "To compress data to save storage space",
+          "wrongAnswer3": "To encrypt data for security purposes",
+          "explanation": "Sharding involves breaking a database into smaller pieces called shards and distributing them across multiple machines. This improves performance by parallelizing queries and enhances scalability by adding more servers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes a shard in database sharding?",
+          "correctAnswer": "A horizontal partition of data stored on a separate database server",
+          "wrongAnswer1": "A vertical column in a single database table",
+          "wrongAnswer2": "A backup copy of the entire database",
+          "wrongAnswer3": "A file used for logging database transactions",
+          "explanation": "In sharding, a shard refers to a horizontal slice of the database's data that is stored separately, often on different servers, to improve load distribution and performance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which challenge is commonly associated with implementing sharding in a database system?",
+          "correctAnswer": "Managing distributed transactions across multiple shards",
+          "wrongAnswer1": "Ensuring all data fits into a single server’s memory",
+          "wrongAnswer2": "Preventing single points of failure in a monolithic database",
+          "wrongAnswer3": "Reducing the size of indexes on a single table",
+          "explanation": "One common challenge in sharded databases is managing transactions that span multiple shards because the data is distributed, which complicates consistency and coordination across servers.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Data Migration",
+      "questions": [
+        {
+          "question": "What is data migration in the context of databases?",
+          "correctAnswer": "The process of transferring data between storage types or formats",
+          "wrongAnswer1": "The process of backing up data to prevent loss",
+          "wrongAnswer2": "The procedure of encrypting data for security",
+          "wrongAnswer3": "The technique used to optimize database queries",
+          "explanation": "Data migration involves moving data from one storage system or format to another, often during upgrades or consolidation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common challenge during data migration?",
+          "correctAnswer": "Data loss or corruption during transfer",
+          "wrongAnswer1": "Lack of appropriate hardware for storage",
+          "wrongAnswer2": "Data replication for backup purposes",
+          "wrongAnswer3": "Implementing user authentication",
+          "explanation": "Data migration can risk data loss or corruption, which requires careful planning and validation to avoid.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which approach is typically used to minimize downtime during database migration?",
+          "correctAnswer": "Performing migration using incremental data transfer",
+          "wrongAnswer1": "Deleting all old data before migration",
+          "wrongAnswer2": "Running migration during peak business hours",
+          "wrongAnswer3": "Avoiding database backups",
+          "explanation": "Incremental data transfer moves data in stages and helps reduce downtime by keeping system operational.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Cloud Database",
+      "questions": [
+        {
+          "question": "What is a cloud database?",
+          "correctAnswer": "A database service provided and accessed through the internet",
+          "wrongAnswer1": "A database stored only on personal computers",
+          "wrongAnswer2": "A database that only supports local area networks",
+          "wrongAnswer3": "A physical database server in an office",
+          "explanation": "A cloud database is hosted on cloud computing platforms and accessed via the internet, rather than being confined to local hardware.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which is a key advantage of using a cloud database?",
+          "correctAnswer": "Scalability and easy access from anywhere",
+          "wrongAnswer1": "Needs manual hardware upgrades",
+          "wrongAnswer2": "Requires physical installation on user devices",
+          "wrongAnswer3": "Only works within a single local network",
+          "explanation": "Cloud databases provide scalability and accessibility from any location with internet access, unlike traditional databases that require physical hardware management.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does a cloud database differ from a traditional database?",
+          "correctAnswer": "It is hosted on remote servers and accessed over the internet",
+          "wrongAnswer1": "It must be installed on end-user desktops",
+          "wrongAnswer2": "It does not support data backup",
+          "wrongAnswer3": "It only handles non-relational data",
+          "explanation": "Cloud databases run on remote servers maintained by cloud providers, enabling access via the internet and offering features like automatic backups and varied data models.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Big Data",
+      "questions": [
+        {
+          "question": "What is the primary characteristic of Big Data?",
+          "correctAnswer": "It involves a large volume of data that is difficult to process with traditional methods",
+          "wrongAnswer1": "It refers to small and manageable data sets",
+          "wrongAnswer2": "It is only about database size",
+          "wrongAnswer3": "It only applies to structured data formats",
+          "explanation": "Big Data refers to extremely large data sets that cannot be handled effectively using traditional data processing techniques due to their volume, variety, and velocity.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT typically considered a characteristic of Big Data?",
+          "correctAnswer": "Limited variety of data",
+          "wrongAnswer1": "High velocity of data generation",
+          "wrongAnswer2": "Huge volume of data",
+          "wrongAnswer3": "Data complexity and variety",
+          "explanation": "Big Data is characterized by volume, velocity, and variety. Limited variety is not a typical trait since Big Data usually includes diverse data types.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which technology is commonly used for storing and processing Big Data?",
+          "correctAnswer": "Hadoop",
+          "wrongAnswer1": "Microsoft Excel",
+          "wrongAnswer2": "MySQL",
+          "wrongAnswer3": "Oracle Database",
+          "explanation": "Hadoop is an open-source framework widely used for distributed storage and processing of Big Data, unlike traditional relational databases or spreadsheet software which are not designed for Big Data scale.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Data Consistency",
+      "questions": [
+        {
+          "question": "What does data consistency ensure in a database?",
+          "correctAnswer": "Data remains accurate and reliable after any transaction.",
+          "wrongAnswer1": "Data is always encrypted during storage.",
+          "wrongAnswer2": "Data is duplicated across multiple servers.",
+          "wrongAnswer3": "Data can be accessed only by administrators.",
+          "explanation": "Data consistency means that data remains accurate and reliable after any transaction or operation is performed, maintaining integrity.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which database property is primarily responsible for ensuring data consistency?",
+          "correctAnswer": "Atomicity and isolation in transactions.",
+          "wrongAnswer1": "Normalization of data tables.",
+          "wrongAnswer2": "Indexing of database columns.",
+          "wrongAnswer3": "Replication of database copies.",
+          "explanation": "Atomicity ensures transactions are fully completed or not at all, and isolation prevents concurrent transactions from interfering, both maintaining consistency.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "When data consistency is violated in a distributed database system, what is a likely consequence?",
+          "correctAnswer": "Conflicting or incorrect information may be read by users.",
+          "wrongAnswer1": "The database will automatically delete corrupted data.",
+          "wrongAnswer2": "The system will encrypt all data to secure it.",
+          "wrongAnswer3": "Users will lose all access to the database.",
+          "explanation": "If consistency is not maintained, different nodes may show conflicting data, leading to incorrect information being presented.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Database Locking",
+      "questions": [
+        {
+          "question": "What is the primary purpose of database locking?",
+          "correctAnswer": "To prevent concurrent access issues and ensure data consistency",
+          "wrongAnswer1": "To speed up query execution by skipping checks",
+          "wrongAnswer2": "To create backups of the database automatically",
+          "wrongAnswer3": "To organize data into different tables for faster access",
+          "explanation": "Database locking is used to manage concurrent access to data to prevent conflicts and ensure consistency during transactions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of database lock allows multiple transactions to read a resource but prevents writes?",
+          "correctAnswer": "Shared lock",
+          "wrongAnswer1": "Exclusive lock",
+          "wrongAnswer2": "Update lock",
+          "wrongAnswer3": "Deadlock",
+          "explanation": "A shared lock permits multiple transactions to read a resource but blocks any transaction from modifying it until the lock is released.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a deadlock in database locking?",
+          "correctAnswer": "A situation where two or more transactions are waiting indefinitely for each other to release locks",
+          "wrongAnswer1": "A type of lock that speeds up database performance",
+          "wrongAnswer2": "A lock on a database table that prevents all access",
+          "wrongAnswer3": "A method for automatically resolving conflicts between transactions",
+          "explanation": "A deadlock occurs when transactions block each other in a cycle, each waiting for the other to release locks, causing indefinite waiting.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Data Partitioning",
+      "questions": [
+        {
+          "question": "What is the primary purpose of data partitioning in databases?",
+          "correctAnswer": "To divide data into smaller, manageable pieces to improve performance",
+          "wrongAnswer1": "To encrypt data for security purposes",
+          "wrongAnswer2": "To create redundant copies of data for backup",
+          "wrongAnswer3": "To convert data into a different format for compatibility",
+          "explanation": "Data partitioning involves splitting a database into smaller segments to enhance performance and manageability by allowing parallel processing and easier maintenance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of data partitioning involves splitting data based on ranges of values?",
+          "correctAnswer": "Range partitioning",
+          "wrongAnswer1": "Hash partitioning",
+          "wrongAnswer2": "List partitioning",
+          "wrongAnswer3": "Round-robin partitioning",
+          "explanation": "Range partitioning divides data into partitions based on value ranges, such as dates or numerical ranges, facilitating efficient query processing for specific intervals.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In database systems, what is a common advantage of hash partitioning over range partitioning?",
+          "correctAnswer": "It evenly distributes data across partitions to balance load",
+          "wrongAnswer1": "It groups related data in contiguous partitions for fast range queries",
+          "wrongAnswer2": "It requires less storage space to maintain partition metadata",
+          "wrongAnswer3": "It improves data encryption and security across partitions",
+          "explanation": "Hash partitioning uses a hash function to evenly distribute data, preventing hotspots and balancing workload, unlike range partitioning which can have uneven data distribution.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Join Operation",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a join operation in a database?",
+          "correctAnswer": "To combine rows from two or more tables based on related columns",
+          "wrongAnswer1": "To delete duplicate rows from a single table",
+          "wrongAnswer2": "To create a new database schema",
+          "wrongAnswer3": "To insert new rows into a table",
+          "explanation": "A join operation is used to combine rows from two or more tables by matching column values that are related, allowing for the retrieval of combined information.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of join returns all records from the left table and matched records from the right table, filling unmatched areas with nulls?",
+          "correctAnswer": "Left join",
+          "wrongAnswer1": "Inner join",
+          "wrongAnswer2": "Right join",
+          "wrongAnswer3": "Full join",
+          "explanation": "A left join returns all records from the left table, and the matched records from the right table. If there is no match, the result is null on the right side.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In a join operation between two tables, what is typically used to match rows?",
+          "correctAnswer": "Common column with related data",
+          "wrongAnswer1": "Randomly selected rows",
+          "wrongAnswer2": "Primary keys only, ignoring foreign keys",
+          "wrongAnswer3": "Columns with different data types",
+          "explanation": "Join operations typically use a common column that contains related data to match rows from two tables. This is often facilitated by primary and foreign key relationships.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Stored Procedures",
+      "questions": [
+        {
+          "question": "What is a stored procedure in a database?",
+          "correctAnswer": "A set of SQL statements that are stored in the database and executed as a single unit",
+          "wrongAnswer1": "A temporary table used for intermediate results",
+          "wrongAnswer2": "A graphical representation of database schema",
+          "wrongAnswer3": "A tool for database backup and recovery",
+          "explanation": "A stored procedure is a compiled set of SQL statements stored in the database that can be executed as a single call to perform a specific task.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key advantage of using stored procedures?",
+          "correctAnswer": "They improve performance by reducing the amount of information sent between client and server",
+          "wrongAnswer1": "They increase the size of the database significantly",
+          "wrongAnswer2": "They automatically create database indexes",
+          "wrongAnswer3": "They are only used for database security purposes",
+          "explanation": "Stored procedures can improve performance because the SQL runs on the server side, reducing client-server communication and allowing execution plans to be reused.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In which language are stored procedures typically written in a relational database?",
+          "correctAnswer": "SQL with procedural extensions",
+          "wrongAnswer1": "HTML",
+          "wrongAnswer2": "Python",
+          "wrongAnswer3": "JavaScript",
+          "explanation": "Stored procedures are commonly written in SQL with procedural extensions provided by the database system, enabling control flow, variables, and more.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Database Security",
+      "questions": [
+        {
+          "question": "What is a common method to protect database access?",
+          "correctAnswer": "Implementing strong user authentication protocols",
+          "wrongAnswer1": "Allowing anonymous access without restrictions",
+          "wrongAnswer2": "Disabling all network connections to the database",
+          "wrongAnswer3": "Using default administrator passwords",
+          "explanation": "Strong user authentication protocols help ensure that only authorized users can access the database, protecting data from unauthorized access.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes encryption in database security?",
+          "correctAnswer": "Converting data into a coded format to prevent unauthorized access",
+          "wrongAnswer1": "Deleting data after it is no longer needed",
+          "wrongAnswer2": "Backing up data regularly to avoid loss",
+          "wrongAnswer3": "Organizing data into tables for efficient retrieval",
+          "explanation": "Encryption transforms data into a coded form that can only be read with a decryption key, enhancing database security by preventing unauthorized access.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the purpose of access control in databases?",
+          "correctAnswer": "To restrict users to only the data and operations they are permitted to use",
+          "wrongAnswer1": "To make all data accessible to every user by default",
+          "wrongAnswer2": "To increase database storage capacity",
+          "wrongAnswer3": "To speed up data retrieval operations",
+          "explanation": "Access control ensures users can only perform actions and view data they are authorized for, preventing security breaches.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Data Encryption",
+      "questions": [
+        {
+          "question": "What is the main purpose of data encryption in a database?",
+          "correctAnswer": "To protect data by converting it into an unreadable format",
+          "wrongAnswer1": "To increase the speed of data retrieval",
+          "wrongAnswer2": "To compress the data for storage efficiency",
+          "wrongAnswer3": "To backup the data automatically",
+          "explanation": "Data encryption transforms data into an unreadable format to prevent unauthorized access and protect sensitive information.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of encryption uses the same key to encrypt and decrypt data?",
+          "correctAnswer": "Symmetric encryption",
+          "wrongAnswer1": "Asymmetric encryption",
+          "wrongAnswer2": "Hashing",
+          "wrongAnswer3": "Steganography",
+          "explanation": "Symmetric encryption uses a single key for both encrypting and decrypting data, making it efficient but requiring secure key management.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is encryption important when transmitting database data over a network?",
+          "correctAnswer": "It ensures that data intercepted by attackers is unreadable",
+          "wrongAnswer1": "It speeds up the transmission process",
+          "wrongAnswer2": "It reduces the size of the data being sent",
+          "wrongAnswer3": "It eliminates the need for data backups",
+          "explanation": "Encryption of data during transmission prevents attackers from reading sensitive information even if they intercept the data packets.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Access Control",
+      "questions": [
+        {
+          "question": "What is the primary purpose of access control in a database?",
+          "correctAnswer": "To restrict unauthorized users from accessing data",
+          "wrongAnswer1": "To increase the speed of data retrieval",
+          "wrongAnswer2": "To enhance the graphic interface of the database",
+          "wrongAnswer3": "To backup the database automatically",
+          "explanation": "Access control is designed to limit database access to authorized users only, ensuring data security and integrity.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of access control mechanism in databases?",
+          "correctAnswer": "User authentication",
+          "wrongAnswer1": "Data indexing",
+          "wrongAnswer2": "Database normalization",
+          "wrongAnswer3": "Query optimization",
+          "explanation": "User authentication is a key access control mechanism to verify the identity of users before granting database access.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In role-based access control (RBAC), how are permissions assigned?",
+          "correctAnswer": "Permissions are assigned to roles, and users are assigned roles",
+          "wrongAnswer1": "Permissions are assigned directly to each user",
+          "wrongAnswer2": "Permissions are assigned based on location of the user",
+          "wrongAnswer3": "Permissions are assigned to database tables only",
+          "explanation": "RBAC assigns permissions to roles to simplify management, and users gain permissions by being assigned roles.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Database Caching",
+      "questions": [
+        {
+          "question": "What is the primary purpose of database caching?",
+          "correctAnswer": "To improve data retrieval speed by storing frequently accessed data in memory",
+          "wrongAnswer1": "To increase the size of the database storage",
+          "wrongAnswer2": "To backup the entire database periodically",
+          "wrongAnswer3": "To encrypt data for better security",
+          "explanation": "Database caching stores frequently accessed data in memory to reduce access time and improve retrieval speed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of data is typically stored in a database cache?",
+          "correctAnswer": "Frequently accessed or recently used data",
+          "wrongAnswer1": "Data that is rarely accessed",
+          "wrongAnswer2": "Archived data from old backups",
+          "wrongAnswer3": "Encrypted sensitive information",
+          "explanation": "Caching focuses on storing data that is frequently accessed or has been recently used to optimize performance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a potential drawback of database caching?",
+          "correctAnswer": "Cached data may become stale if underlying data changes without updating the cache",
+          "wrongAnswer1": "It always increases database storage costs",
+          "wrongAnswer2": "It prevents users from accessing real-time data",
+          "wrongAnswer3": "It makes querying the database slower",
+          "explanation": "If the database changes but the cache is not updated accordingly, stale data can be served, leading to inconsistencies.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Data Redundancy",
+      "questions": [
+        {
+          "question": "What does data redundancy in a database refer to?",
+          "correctAnswer": "The unnecessary repetition of data in multiple places",
+          "wrongAnswer1": "The encryption of data to prevent unauthorized access",
+          "wrongAnswer2": "A backup copy of data stored in a different location",
+          "wrongAnswer3": "The process of normalizing data to reduce dependencies",
+          "explanation": "Data redundancy means the same piece of data is stored unnecessarily in multiple locations, which can lead to inconsistencies and increased storage costs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which database concept helps to reduce data redundancy?",
+          "correctAnswer": "Normalization",
+          "wrongAnswer1": "Indexing",
+          "wrongAnswer2": "Data warehousing",
+          "wrongAnswer3": "Transaction processing",
+          "explanation": "Normalization organizes the data to minimize duplication and dependency, which effectively reduces data redundancy.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a potential issue caused by data redundancy in databases?",
+          "correctAnswer": "Data inconsistency across different data copies",
+          "wrongAnswer1": "Slower data retrieval from indexed tables",
+          "wrongAnswer2": "Loss of data due to hardware failure",
+          "wrongAnswer3": "Increased security risks from unauthorized access",
+          "explanation": "When the same data is duplicated unnecessarily, updates may be applied to one copy but not others, causing inconsistencies in the data stored.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Object Database",
+      "questions": [
+        {
+          "question": "What is the primary feature of an Object Database?",
+          "correctAnswer": "It stores data in the form of objects, similar to object-oriented programming.",
+          "wrongAnswer1": "It organizes data only in tables and rows like a traditional relational database.",
+          "wrongAnswer2": "It stores data as simple key-value pairs without any structure.",
+          "wrongAnswer3": "It stores data as plain text files that are easy to read.",
+          "explanation": "An object database stores data as objects, which keeps data and its associated behavior together, aligning with object-oriented programming principles.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does an Object Database differ from a Relational Database?",
+          "correctAnswer": "Object Databases store data as objects, while Relational Databases store data in tables with rows and columns.",
+          "wrongAnswer1": "Object Databases always use SQL, while Relational Databases do not.",
+          "wrongAnswer2": "Object Databases cannot store complex data types, unlike Relational Databases.",
+          "wrongAnswer3": "Relational Databases store data as objects, while Object Databases use tables.",
+          "explanation": "Object Databases store entire objects including methods and properties, whereas Relational Databases use a tabular format to store data.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a benefit of using an Object Database?",
+          "correctAnswer": "It allows seamless integration with object-oriented programming languages.",
+          "wrongAnswer1": "It requires converting objects into tables before storing data.",
+          "wrongAnswer2": "It is best suited for simple data and not complex applications.",
+          "wrongAnswer3": "It enforces rigid schema changes that are difficult to modify.",
+          "explanation": "Object Databases align well with object-oriented programming, avoiding the need to convert objects into another format, thus simplifying development.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Graph Database",
+      "questions": [
+        {
+          "question": "What is a primary feature of a graph database?",
+          "correctAnswer": "It stores data as nodes and edges representing relationships",
+          "wrongAnswer1": "It stores data in tables with rows and columns",
+          "wrongAnswer2": "It stores data as documents with JSON format",
+          "wrongAnswer3": "It stores data as key-value pairs with no relationships",
+          "explanation": "Graph databases are designed to store data in the form of nodes and edges, which represent entities and their relationships, respectively, making it easy to model and query complex connected data.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which query language is commonly used to interact with graph databases?",
+          "correctAnswer": "Cypher",
+          "wrongAnswer1": "SQL",
+          "wrongAnswer2": "XQuery",
+          "wrongAnswer3": "MDX",
+          "explanation": "Cypher is a popular declarative query language specifically developed for querying graph databases, allowing expressive and efficient pattern matching on graph structures.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is an advantage of using graph databases over relational databases?",
+          "correctAnswer": "Efficiently managing highly connected data and complex relationships",
+          "wrongAnswer1": "Faster numeric calculations and aggregation",
+          "wrongAnswer2": "Better handling of large unstructured text data",
+          "wrongAnswer3": "Simpler schema design for flat data",
+          "explanation": "Graph databases excel at handling data with many interconnections, enabling efficient traversal and analysis of relationships which can be cumbersome in relational databases.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Column Store",
+      "questions": [
+        {
+          "question": "What is the main characteristic of a column store database?",
+          "correctAnswer": "It stores data tables by columns rather than by rows",
+          "wrongAnswer1": "It stores images instead of text data",
+          "wrongAnswer2": "It encrypts all data automatically",
+          "wrongAnswer3": "It distributes data across multiple servers randomly",
+          "explanation": "A column store database organizes data storage by columns which can speed up queries that access only specific columns in large datasets.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why are column stores often preferred for analytics workloads?",
+          "correctAnswer": "Because they allow faster reading of specific columns needed for queries",
+          "wrongAnswer1": "Because they automatically create visual reports",
+          "wrongAnswer2": "Because they store more data than row stores",
+          "wrongAnswer3": "Because they support transactions better than row stores",
+          "explanation": "Column stores optimize for reading data in columns which is common in analytics, thus speeding up query performance over row-oriented databases.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which scenario benefits most from using a column store database?",
+          "correctAnswer": "A data warehouse performing complex queries on large datasets with many columns",
+          "wrongAnswer1": "A simple application storing user login information",
+          "wrongAnswer2": "A messaging app requiring rapid insert and delete of individual messages",
+          "wrongAnswer3": "An application that requires real-time processing of streaming data",
+          "explanation": "Column stores are well-suited for analytic workloads in data warehouses where queries often scan large volumes of data across many columns.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Row Store",
+      "questions": [
+        {
+          "question": "What is a primary characteristic of a row store database?",
+          "correctAnswer": "Data is stored row-wise, with all columns of a row stored together",
+          "wrongAnswer1": "Data is stored column-wise, with all values of a column stored together",
+          "wrongAnswer2": "Data is stored as key-value pairs without rows or columns",
+          "wrongAnswer3": "Data is stored as nested JSON objects",
+          "explanation": "A row store database stores data row-wise, meaning all columns of a particular row are stored together, which optimizes retrieval of complete records.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In which scenario is a row store database typically more efficient than a column store?",
+          "correctAnswer": "When queries retrieve many columns for a small number of rows",
+          "wrongAnswer1": "When performing large-scale analytical queries that process few columns",
+          "wrongAnswer2": "When storing unstructured data like text documents",
+          "wrongAnswer3": "When working with NoSQL graph databases",
+          "explanation": "Row stores are efficient for transactional queries that need many columns of few rows, such as operational databases, because they can quickly retrieve complete records.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following best explains why row stores can be less efficient for analytics compared to column stores?",
+          "correctAnswer": "Because row stores read entire rows even if the query requires only a few columns",
+          "wrongAnswer1": "Because row stores use compression methods that slow down query processing",
+          "wrongAnswer2": "Because row stores do not support indexing",
+          "wrongAnswer3": "Because row stores split data into multiple files causing latency",
+          "explanation": "Row stores read data row-wise, so queries that retrieve only some columns still read the entire row, making them less efficient for analytic workloads that focus on specific columns.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Metadata Management",
+      "questions": [
+        {
+          "question": "What is the primary purpose of metadata management in databases?",
+          "correctAnswer": "To organize and maintain data about the data stored in a database",
+          "wrongAnswer1": "To store large volumes of user data efficiently",
+          "wrongAnswer2": "To manage database user permissions and roles",
+          "wrongAnswer3": "To optimize query execution plans automatically",
+          "explanation": "Metadata management focuses on organizing and controlling metadata, which is data about the data, such as structure, definitions, and context, aiding in data understanding and usage.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of metadata in a database?",
+          "correctAnswer": "Column names and data types in a table",
+          "wrongAnswer1": "The actual customer information stored in the table",
+          "wrongAnswer2": "The hardware specifications of the database server",
+          "wrongAnswer3": "The connection strings used by applications to access the database",
+          "explanation": "Metadata includes descriptive information about the data such as column names, data types, and table structures, not the data itself or external system details.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does effective metadata management benefit data governance?",
+          "correctAnswer": "By providing clear data definitions and lineage, ensuring data quality and compliance",
+          "wrongAnswer1": "By automatically generating user analytics reports without manual input",
+          "wrongAnswer2": "By encrypting data at rest to protect against unauthorized access",
+          "wrongAnswer3": "By increasing the database storage capacity through compression",
+          "explanation": "Good metadata management supports data governance by giving detailed information about data origin, transformation, and definitions, which is essential for quality control and regulatory compliance.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Database Trigger",
+      "questions": [
+        {
+          "question": "What is a database trigger primarily used for?",
+          "correctAnswer": "To automatically execute a specified action in response to certain events on a table",
+          "wrongAnswer1": "To manually update data in the database",
+          "wrongAnswer2": "To design the database schema",
+          "wrongAnswer3": "To backup the database periodically",
+          "explanation": "A database trigger is a procedural code that is automatically executed in response to certain events on a particular table or view, such as insertions, updates, or deletions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which event commonly activates a database trigger?",
+          "correctAnswer": "Insertion of a new record into a table",
+          "wrongAnswer1": "Running a manual query to select data",
+          "wrongAnswer2": "Starting the database server",
+          "wrongAnswer3": "Creating a new user account for the database",
+          "explanation": "A database trigger fires automatically when an associated event like an insertion, deletion, or update occurs on the respective table, without user intervention.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a key advantage of using database triggers?",
+          "correctAnswer": "They ensure automatic enforcement of rules and consistency without additional application code",
+          "wrongAnswer1": "They increase the speed of manual data entry",
+          "wrongAnswer2": "They allow users to change database schema easily",
+          "wrongAnswer3": "They replace the need for database backups",
+          "explanation": "Database triggers help maintain data integrity and enforce business rules automatically by reacting to changes in the database, reducing the need for complex application logic to enforce these rules.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Data Mining",
+      "questions": [
+        {
+          "question": "What is the primary goal of data mining in databases?",
+          "correctAnswer": "To extract patterns and useful information from large datasets",
+          "wrongAnswer1": "To store data securely in databases",
+          "wrongAnswer2": "To design database schemas for efficient data entry",
+          "wrongAnswer3": "To backup databases regularly",
+          "explanation": "Data mining involves analyzing large datasets to discover patterns, trends, and useful information that can help in decision-making.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common technique used in data mining?",
+          "correctAnswer": "Clustering similar data points together",
+          "wrongAnswer1": "Indexing tables for faster queries",
+          "wrongAnswer2": "Writing SQL queries for data retrieval",
+          "wrongAnswer3": "Designing primary keys for tables",
+          "explanation": "Clustering is a common data mining technique that groups similar data points, helping to identify natural groupings within the data.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does data mining improve decision making?",
+          "correctAnswer": "By uncovering hidden patterns and trends in data",
+          "wrongAnswer1": "By encrypting data for security purposes",
+          "wrongAnswer2": "By normalizing data to reduce redundancy",
+          "wrongAnswer3": "By increasing the speed of database transactions",
+          "explanation": "Data mining uncovers hidden patterns and relationships in data which can be used to make more informed and accurate decisions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Data Modeling",
+      "questions": [
+        {
+          "question": "What is the primary purpose of data modeling in a database?",
+          "correctAnswer": "To structure and organize data for efficient storage and retrieval",
+          "wrongAnswer1": "To design user interfaces for database applications",
+          "wrongAnswer2": "To perform data encryption and security",
+          "wrongAnswer3": "To backup and restore database data",
+          "explanation": "Data modeling is the process of defining the structure, relationships, and constraints of data in a database to enable efficient storage, retrieval, and management.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common type of data model used in databases?",
+          "correctAnswer": "Entity-Relationship model",
+          "wrongAnswer1": "Waterfall model",
+          "wrongAnswer2": "Object-Oriented Programming model",
+          "wrongAnswer3": "Layered network model",
+          "explanation": "The Entity-Relationship model is widely used to visually represent data structures and relationships in database design.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In data modeling, what does normalization primarily aim to achieve?",
+          "correctAnswer": "Eliminate data redundancy and ensure data integrity",
+          "wrongAnswer1": "Increase the complexity of database queries",
+          "wrongAnswer2": "Enhance the visual appearance of the database schema",
+          "wrongAnswer3": "Create backup copies of data",
+          "explanation": "Normalization organizes data to reduce redundancy and dependency, improving data integrity and efficiency in relational databases.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Distributed Database",
+      "questions": [
+        {
+          "question": "What is a primary characteristic of a distributed database?",
+          "correctAnswer": "Data is stored across multiple physical locations.",
+          "wrongAnswer1": "Data is stored in a single centralized server.",
+          "wrongAnswer2": "Data is not stored on any physical device but only in cache.",
+          "wrongAnswer3": "Data is stored only on local machines without network access.",
+          "explanation": "A distributed database stores data across multiple physical locations, often connected through a network, enhancing availability and reliability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which advantage does a distributed database have over a centralized database?",
+          "correctAnswer": "Increased fault tolerance due to data replication.",
+          "wrongAnswer1": "Simpler database schema design.",
+          "wrongAnswer2": "Lower network communication overhead.",
+          "wrongAnswer3": "Data is easier to secure because it is stored in one place.",
+          "explanation": "Distributed databases often replicate data across sites which allows the system to be fault tolerant, as failure in one site does not lead to data unavailability.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a key challenge when managing a distributed database?",
+          "correctAnswer": "Maintaining data consistency among distributed nodes.",
+          "wrongAnswer1": "Designing user interfaces for database access.",
+          "wrongAnswer2": "Managing data solely on a single machine.",
+          "wrongAnswer3": "Storing data without any backup.",
+          "explanation": "One of the main challenges in distributed databases is to keep data consistent across all nodes especially during updates, due to the network delays and partial failures.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Database Backup",
+      "questions": [
+        {
+          "question": "What is the main purpose of a database backup?",
+          "correctAnswer": "To create a copy of data to restore it in case of data loss",
+          "wrongAnswer1": "To increase the database query speed",
+          "wrongAnswer2": "To delete old records automatically",
+          "wrongAnswer3": "To encrypt data for security purposes",
+          "explanation": "A database backup is primarily used to create a copy of the data so that it can be restored in case of accidental loss, corruption, or system failure.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common type of database backup?",
+          "correctAnswer": "Full backup",
+          "wrongAnswer1": "Incremental query",
+          "wrongAnswer2": "Partial deletion",
+          "wrongAnswer3": "Data normalization",
+          "explanation": "A full backup copies the entire database, which is a common method to ensure all data is saved at a particular point in time.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is it important to verify database backups regularly?",
+          "correctAnswer": "To ensure backups are usable and data can be restored successfully",
+          "wrongAnswer1": "To improve database performance",
+          "wrongAnswer2": "To reduce storage space used by the database",
+          "wrongAnswer3": "To speed up daily transactions",
+          "explanation": "Regular verification of backups ensures that the backup files are intact and can be used to restore the database when needed, preventing data loss.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Database Restore",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a database restore operation?",
+          "correctAnswer": "To recover data from a backup to its original state",
+          "wrongAnswer1": "To create a new database from scratch",
+          "wrongAnswer2": "To optimize the performance of the database",
+          "wrongAnswer3": "To delete obsolete data from the database",
+          "explanation": "Database restore is the process of recovering data from a backup to bring the database back to its original or a specific state in case of data loss or corruption.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is typically required before performing a database restore?",
+          "correctAnswer": "A valid backup of the database",
+          "wrongAnswer1": "An empty database server",
+          "wrongAnswer2": "A current active database connection",
+          "wrongAnswer3": "A database schema export",
+          "explanation": "To perform a restore, you need a valid backup file from which data can be recovered. Without a backup, you cannot restore the database.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In the context of database restore, what does a point-in-time restore allow you to do?",
+          "correctAnswer": "Restore the database to a specific time before a failure occurred",
+          "wrongAnswer1": "Restore the database only to the most recent backup",
+          "wrongAnswer2": "Restore only the structure without data",
+          "wrongAnswer3": "Restore the database while it is still online",
+          "explanation": "Point-in-time restore enables recovery of the database to a specific moment in time, which is useful to undo unwanted changes or recover from failures that occurred after the backup.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Query Execution",
+      "questions": [
+        {
+          "question": "What is the primary purpose of query execution in a database system?",
+          "correctAnswer": "To process and retrieve data based on a query request",
+          "wrongAnswer1": "To design the database schema",
+          "wrongAnswer2": "To back up the database",
+          "wrongAnswer3": "To create user accounts",
+          "explanation": "Query execution involves processing a user's query to retrieve the requested data from the database efficiently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which component of a database system is responsible for translating a SQL query into an executable plan?",
+          "correctAnswer": "Query optimizer",
+          "wrongAnswer1": "Storage manager",
+          "wrongAnswer2": "Buffer manager",
+          "wrongAnswer3": "Transaction manager",
+          "explanation": "The query optimizer translates a SQL query into an efficient execution plan that the database can execute to retrieve data.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "During query execution, what is the role of the query execution plan?",
+          "correctAnswer": "To define the sequence of operations to access data",
+          "wrongAnswer1": "To store the final query results",
+          "wrongAnswer2": "To manage transaction locks",
+          "wrongAnswer3": "To control user access privileges",
+          "explanation": "The query execution plan outlines the specific steps and the order in which the database engine will access and manipulate data to fulfill the query.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "OLAP Cube",
+      "questions": [
+        {
+          "question": "What is the primary purpose of an OLAP cube in database systems?",
+          "correctAnswer": "To enable fast analysis of multidimensional data",
+          "wrongAnswer1": "To store large amounts of unstructured data",
+          "wrongAnswer2": "To manage transactions in real time",
+          "wrongAnswer3": "To perform detailed data entry and editing",
+          "explanation": "An OLAP cube is designed to facilitate quick and efficient analysis of data across multiple dimensions, commonly used in business intelligence for complex queries.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes the structure of an OLAP cube?",
+          "correctAnswer": "A multidimensional array of data allowing data to be modeled and viewed in multiple dimensions",
+          "wrongAnswer1": "A flat table with rows and columns representing data records",
+          "wrongAnswer2": "A simple list of data values stored sequentially",
+          "wrongAnswer3": "A hierarchical data structure for document storage",
+          "explanation": "OLAP cubes organize data in multiple dimensions, enabling users to analyze data by different aspects such as time, geography, or product categories.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which operation is typically NOT performed on an OLAP cube?",
+          "correctAnswer": "Transactional updates at the record level",
+          "wrongAnswer1": "Slicing data by specific dimension values",
+          "wrongAnswer2": "Dicing to create sub-cubes from the original cube",
+          "wrongAnswer3": "Drilling down to view detailed data within a dimension",
+          "explanation": "OLAP cubes are optimized for data analysis operations like slicing, dicing, and drilling down, but not for frequent transactional updates, which databases handle differently.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Database Monitoring",
+      "questions": [
+        {
+          "question": "What is the main purpose of database monitoring?",
+          "correctAnswer": "To track database performance and ensure its availability and reliability",
+          "wrongAnswer1": "To design the database schema",
+          "wrongAnswer2": "To write database queries",
+          "wrongAnswer3": "To store data permanently",
+          "explanation": "Database monitoring focuses on tracking the performance, availability, and reliability of a database system to detect and resolve issues promptly.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following metrics is commonly monitored in database monitoring?",
+          "correctAnswer": "Query response time",
+          "wrongAnswer1": "Number of users registered",
+          "wrongAnswer2": "Software installation date",
+          "wrongAnswer3": "Type of database management system",
+          "explanation": "Query response time is a key performance metric monitored to assess how quickly the database processes requests.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which tool feature is essential in database monitoring solutions?",
+          "correctAnswer": "Alerting when thresholds of key metrics are exceeded",
+          "wrongAnswer1": "Automatic database schema migration",
+          "wrongAnswer2": "Generating business intelligence reports",
+          "wrongAnswer3": "Encrypting data at rest",
+          "explanation": "An essential feature of database monitoring tools is to send alerts when key performance or health metrics exceed predefined thresholds, allowing timely intervention.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Deadlock Handling",
+      "questions": [
+        {
+          "question": "What is a deadlock in the context of database systems?",
+          "correctAnswer": "A situation where two or more transactions are waiting indefinitely for each other to release resources",
+          "wrongAnswer1": "A situation where a database crashes and loses data",
+          "wrongAnswer2": "A type of error where queries return incorrect results",
+          "wrongAnswer3": "A scheduled maintenance period where the database is offline",
+          "explanation": "A deadlock occurs when two or more transactions hold locks on resources and each waits for the other to release them, causing an indefinite waiting state.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which approach is commonly used to handle deadlocks in databases?",
+          "correctAnswer": "Deadlock detection and resolution by aborting one of the transactions",
+          "wrongAnswer1": "Allowing deadlocks to persist and hoping they resolve over time",
+          "wrongAnswer2": "Forcing all transactions to complete in a fixed order regardless of resources",
+          "wrongAnswer3": "Ignoring locks to let transactions access resources freely",
+          "explanation": "Deadlock handling often involves detecting deadlocks and resolving them by aborting one or more involved transactions to break the cycle.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is deadlock prevention in database systems?",
+          "correctAnswer": "A technique to ensure at least one of the necessary conditions for deadlock cannot occur",
+          "wrongAnswer1": "Allowing transactions to compete freely for resources without any restrictions",
+          "wrongAnswer2": "Detecting deadlocks after they happen and then restarting transactions",
+          "wrongAnswer3": "Using backup copies of data to avoid conflicts",
+          "explanation": "Deadlock prevention involves designing the system so that one or more conditions needed for deadlock do not occur, such as by ordering resource requests.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Data Auditing",
+      "questions": [
+        {
+          "question": "What is the primary purpose of data auditing in databases?",
+          "correctAnswer": "To ensure data integrity and compliance with policies",
+          "wrongAnswer1": "To increase database storage capacity",
+          "wrongAnswer2": "To speed up query execution times",
+          "wrongAnswer3": "To design the database schema",
+          "explanation": "Data auditing in databases is primarily done to ensure data integrity and compliance with policies by tracking access and changes to the data.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes a typical activity involved in data auditing?",
+          "correctAnswer": "Tracking changes made to database records over time",
+          "wrongAnswer1": "Creating new tables to store data",
+          "wrongAnswer2": "Optimizing database index usage",
+          "wrongAnswer3": "Backing up the database regularly",
+          "explanation": "Data auditing typically involves tracking changes made to database records over time to maintain an audit trail for security and compliance.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which database feature is most critical for effective data auditing?",
+          "correctAnswer": "Audit logs that record user actions and data changes",
+          "wrongAnswer1": "Triggers that automate backups",
+          "wrongAnswer2": "Stored procedures for business logic",
+          "wrongAnswer3": "Views that simplify query writing",
+          "explanation": "Audit logs are crucial in data auditing as they record user actions and data changes, providing accountability and traceability.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Data Replication",
+      "questions": [
+        {
+          "question": "What is the primary purpose of data replication in databases?",
+          "correctAnswer": "To create copies of data across multiple servers for redundancy and availability",
+          "wrongAnswer1": "To increase the speed of data deletion operations",
+          "wrongAnswer2": "To compress database files for storage efficiency",
+          "wrongAnswer3": "To encrypt data for security purposes",
+          "explanation": "Data replication involves copying data to multiple servers or locations to ensure high availability, fault tolerance, and disaster recovery.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of data replication involves the immediate update of copies after a transaction is committed?",
+          "correctAnswer": "Synchronous replication",
+          "wrongAnswer1": "Asynchronous replication",
+          "wrongAnswer2": "Transactional replication",
+          "wrongAnswer3": "Snapshot replication",
+          "explanation": "Synchronous replication ensures that data is updated on all replicas immediately after a transaction commits, providing strong consistency.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In data replication, what is a potential drawback of asynchronous replication compared to synchronous replication?",
+          "correctAnswer": "Data on replicas may be temporarily out of sync leading to potential data loss in case of failure",
+          "wrongAnswer1": "It always requires more bandwidth than synchronous replication",
+          "wrongAnswer2": "It does not support multiple replica locations",
+          "wrongAnswer3": "It cannot be used for disaster recovery",
+          "explanation": "Asynchronous replication can introduce a delay in data updates across replicas, so in case of a failure, recent transactions might be lost.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Database Migration",
+      "questions": [
+        {
+          "question": "What is the primary purpose of database migration?",
+          "correctAnswer": "To move data from one database system to another",
+          "wrongAnswer1": "To create a backup of the database",
+          "wrongAnswer2": "To optimize database queries",
+          "wrongAnswer3": "To update the database schema without data transfer",
+          "explanation": "Database migration involves transferring data between different database systems or environments, often for reasons such as upgrading or changing database platforms.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common challenge during database migration?",
+          "correctAnswer": "Data loss or corruption during transfer",
+          "wrongAnswer1": "Increased query execution speed",
+          "wrongAnswer2": "Decreased storage requirements",
+          "wrongAnswer3": "Improved data indexing automatically",
+          "explanation": "Data loss or corruption can occur during migration if the process is not handled carefully, making it one of the main challenges in database migration.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "When planning a database migration, what is an important step to ensure success?",
+          "correctAnswer": "Performing thorough testing in the target environment",
+          "wrongAnswer1": "Skipping backup to save time",
+          "wrongAnswer2": "Ignoring version compatibility between old and new databases",
+          "wrongAnswer3": "Only migrating the schema without data",
+          "explanation": "Testing in the target environment helps identify issues before full deployment, reducing the risk of failures during migration.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Database Scaling",
+      "questions": [
+        {
+          "question": "What is the primary difference between vertical scaling and horizontal scaling in databases?",
+          "correctAnswer": "Vertical scaling adds more resources to a single server, while horizontal scaling adds more servers.",
+          "wrongAnswer1": "Vertical scaling increases the number of servers, while horizontal scaling upgrades a single server.",
+          "wrongAnswer2": "Vertical scaling is about improving software, horizontal scaling is about hardware only.",
+          "wrongAnswer3": "Vertical scaling decreases database size, horizontal scaling increases the database size.",
+          "explanation": "Vertical scaling involves enhancing the capacity of a single machine by adding more CPU, RAM, or storage. Horizontal scaling involves adding more machines to distribute the load.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common challenge associated with horizontal scaling of databases?",
+          "correctAnswer": "Ensuring data consistency across multiple nodes.",
+          "wrongAnswer1": "Increasing CPU power in a single machine.",
+          "wrongAnswer2": "Reducing the physical size of the database server.",
+          "wrongAnswer3": "Limiting the number of database connections to one.",
+          "explanation": "When scaling horizontally, databases must handle data replication and synchronization to maintain consistency, which can be complex.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which scaling strategy is usually preferred for cloud-native applications requiring high availability and fault tolerance?",
+          "correctAnswer": "Horizontal scaling with distributed databases.",
+          "wrongAnswer1": "Vertical scaling with a single powerful server.",
+          "wrongAnswer2": "Manual scaling by adding hardware on demand.",
+          "wrongAnswer3": "Scaling by reducing database usage.",
+          "explanation": "Cloud-native applications benefit from horizontal scaling because it allows adding and removing instances dynamically and enhances fault tolerance.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Database",
+      "concept": "Cloud Storage",
+      "questions": [
+        {
+          "question": "What is the primary benefit of using cloud storage for databases?",
+          "correctAnswer": "It allows scalable and flexible storage over the internet.",
+          "wrongAnswer1": "It only works with physical hard drives.",
+          "wrongAnswer2": "It requires manual backup every hour.",
+          "wrongAnswer3": "It does not support remote access.",
+          "explanation": "Cloud storage enables databases to store and access data over the internet with scalability and flexibility, unlike physical drives or manual backup systems.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common feature of cloud storage in database systems?",
+          "correctAnswer": "Automatic data replication and backup.",
+          "wrongAnswer1": "Mandatory offline access only.",
+          "wrongAnswer2": "Fixed storage capacity with no upgrades.",
+          "wrongAnswer3": "Exclusive use with desktop applications only.",
+          "explanation": "Cloud storage typically includes features like automatic replication and backups to ensure data availability and durability, unlike fixed capacity or offline-only storage.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does cloud storage enhance data availability in databases?",
+          "correctAnswer": "By storing data across multiple remote servers to avoid single points of failure.",
+          "wrongAnswer1": "By restricting access to data during peak hours.",
+          "wrongAnswer2": "By limiting data to local physical storage devices.",
+          "wrongAnswer3": "By requiring users to manually synchronize data.",
+          "explanation": "Cloud storage enhances availability by distributing data across many servers, preventing data loss if one server fails, unlike local storage or manual synchronization.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

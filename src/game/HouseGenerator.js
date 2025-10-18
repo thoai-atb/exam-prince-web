@@ -69,8 +69,8 @@ export default class HouseGenerator {
           : null;
 
       const questionObject = new Question({
-        topic: question.topic,
-        concept: question.concept,
+        topic: concept.topic,
+        concept: concept.concept,
         question: question.question,
         explanation: question.explanation,
         difficulty: question.difficulty,
@@ -84,19 +84,32 @@ export default class HouseGenerator {
   }
 
   draftValidFloorPlans(mustConnect = {}, row = 0, col = 0, count = 1) {
-    const validPool = this.pool.filter((fp) => {
-      const hasConnection = Object.keys(mustConnect).some(
-        (dir) => mustConnect[dir] && fp.hasDoor(dir)
-      );
-      if (!hasConnection) return false;
+    const validPool = [];
 
-      if (row === 0 && fp.doors.north) return false;
-      if (row === this.rows - 1 && fp.doors.south) return false;
-      if (col === 0 && fp.doors.west) return false;
-      if (col === this.cols - 1 && fp.doors.east) return false;
+    for (const fp of this.pool) {
+      let isValid = false;
 
-      return true;
-    });
+      for (let i = 0; i < 4; i++) { // try 0°, 90°, 180°, 270°
+        const hasConnection = Object.keys(mustConnect).some(
+          (dir) => mustConnect[dir] && fp.hasDoor(dir)
+        );
+
+        const invalidEdge =
+          (row === 0 && fp.doors.north) ||
+          (row === this.rows - 1 && fp.doors.south) ||
+          (col === 0 && fp.doors.west) ||
+          (col === this.cols - 1 && fp.doors.east);
+
+        if (hasConnection && !invalidEdge) {
+          isValid = true;
+          break;
+        }
+
+        fp.rotate(); // 🔁 mutate directly
+      }
+
+      if (isValid) validPool.push(fp);
+    }
 
     const shuffled = validPool.sort(() => Math.random() - 0.5);
     return shuffled.slice(0, count);

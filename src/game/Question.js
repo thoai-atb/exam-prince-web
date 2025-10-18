@@ -34,17 +34,4 @@ export default class Question {
   get correctAnswer() {
     return this.answers[this.correctIdx];
   }
-
-  // ✅ Serialize to JSON
-  toJSON() {
-    return {
-      topic: this.topic,
-      concept: this.concept,
-      question: this.question,
-      answers: this.answers,
-      correctIdx: this.correctIdx,
-      explanation: this.explanation,
-      difficulty: this.difficulty,
-    };
-  }
 }

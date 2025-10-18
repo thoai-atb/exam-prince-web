@@ -21,7 +21,10 @@ export default class RoomOpenSession {
   setUserAnswer(answerIndex) {
     if (this.userAnswer !== null) return;
     this.userAnswer = answerIndex;
+    if (!this.selectedFloorPlan)
+      return false;
     this.failed = answerIndex !== this.selectedFloorPlan.question.correctIdx;
+    return !this.failed;
   }
 
   // Reset the session

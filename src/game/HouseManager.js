@@ -1,17 +1,21 @@
 import HouseGenerator from "./HouseGenerator.js";
 import FloorPlan from "./FloorPlan.js";
 import Room from "./Room.js";
-import Topic from "../questions/MusicTheory.json"; // import the JSON file
 import RoomOpenSession from "./RoomOpenSession.js";
 
 export default class HouseManager {
-  constructor(rows = 9, cols = 5, start = [8, 2]) {
+  constructor(topic, rows = 9, cols = 5, start = [8, 2]) {
     this.rows = rows;
     this.cols = cols;
     this.currentPosition = start;
+    this.entrancePosition = start;
+    this.exited = false;
 
-    // Pass the JSON data to HouseGenerator
-    this.generator = new HouseGenerator(rows, cols, 100, Topic);
+    // ✅ Use the passed topicData (no more hard import)
+    this.topic = topic.data;
+
+    // Pass the topic data to HouseGenerator
+    this.generator = new HouseGenerator(rows, cols, 100, this.topic);
 
     // Initialize empty rooms
     this.rooms = Array.from({ length: rows }, (_, r) =>
@@ -39,26 +43,42 @@ export default class HouseManager {
     for (const fn of this.listeners) fn(this.getState());
   }
 
-  createEntrance() {
-    const row = 8;
-    const col = 2;
+  getState() {
+    return {
+      rooms: this.rooms,
+      currentPosition: this.currentPosition,
+      exited: this.exited
+    };
+  }
 
-    // Use the topic name from Logic.json as the entrance floorplan name
+  getCurrentFloorPlan() {
+    const [r, c] = this.currentPosition;
+    return this.rooms[r][c].floorplan;
+  }
+
+  isDrafting() {
+    return this.roomOpenSession?.active;
+  }
+
+  createEntrance() {
+    const [row, col] = this.entrancePosition; 
+
+    // ✅ Use the topic name dynamically
     const entranceFloorPlan = new FloorPlan({
       id: "FP-0",
-      name: Topic.topic.toUpperCase() || "Start",
+      name: this.topic?.topic?.toUpperCase() || "START",
       color: "#444444",
       doors: { north: true, south: true, west: true, east: true },
       question: null,
+      special: true,
     });
 
     const room = this.rooms[row][col];
-    room.open(entranceFloorPlan); // mark it opened with the floorplan
+    room.open(entranceFloorPlan);
 
     this.setCurrentLocation(row, col);
   }
 
-  // Step 1: Open room and draft floorplans
   openRoom(row, col) {
     if (this.roomOpenSession.floorPlans.length > 0) {
       throw new Error(
@@ -90,11 +110,8 @@ export default class HouseManager {
     this.roomOpenSession.setFloorPlans(floorplans);
     this.updateRooms();
     this.notify();
-
-    return floorplans.map((fp) => fp.clone());
   }
 
-  // Step 2: Select the floorplan and quiz time!
   selectFloorPlan(selectedFloorPlanName) {
     if (!this.roomOpenSession.floorPlans.length) {
       throw new Error("No floor plans in the session");
@@ -115,29 +132,28 @@ export default class HouseManager {
     this.notify();
   }
 
-  // Step 3: User selects an answer
   setUserAnswer(index) {
-    if (this.roomOpenSession.userAnswer !== null)
-      return;
-    this.roomOpenSession.setUserAnswer(index);
+    if (this.roomOpenSession.userAnswer !== null) return;
+    this.roomOpenSession.setUserAnswer(index)
     this.notify();
   }
 
-  // Step 4: Use the selected floorplan to open the room
   useFloorPlan() {
-    const floorplan = this.generator.useFloorPlan(this.roomOpenSession.selectedFloorPlan.name);
-    const [row, col] = [this.roomOpenSession.row, this.roomOpenSession.col]
+    if (!this.roomOpenSession?.selectedFloorPlan)
+      return;
+    const floorplan = this.generator.useFloorPlan(
+      this.roomOpenSession.selectedFloorPlan.name
+    );
+    const [row, col] = [this.roomOpenSession.row, this.roomOpenSession.col];
     this.rooms[row][col].open(floorplan);
     const failed = this.roomOpenSession.failed;
     this.roomOpenSession.reset();
     if (failed) {
       this.rooms[row][col].failed = true;
       this.refresh();
-    } else
-      this.setCurrentLocation(row, col);
+    } else this.setCurrentLocation(row, col);
   }
 
-  // Set location, update rooms, and notify listeners
   setCurrentLocation(row, col) {
     this.currentPosition = [row, col];
     this.refresh();
@@ -222,6 +238,12 @@ export default class HouseManager {
       return false;
     }
 
+    const [er, ec] = this.entrancePosition;
+    if (newRow === er + 1 && newCol === ec) {
+      this.exitHouse();
+      return false;
+    }
+
     const target = this.rooms[newRow]?.[newCol];
     if (!target) return false;
     if (target.failed) return false;
@@ -236,10 +258,8 @@ export default class HouseManager {
     return true;
   }
 
-  getState() {
-    return {
-      rooms: this.rooms,
-      currentPosition: this.currentPosition,
-    };
+  exitHouse() {
+    this.exited = true;
+    this.notify();
   }
 }

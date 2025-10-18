@@ -1,0 +1,1655 @@
+{
+  "topic": "Java",
+  "concepts": [
+    {
+      "topic": "Java",
+      "concept": "JVM Architecture",
+      "questions": [
+        {
+          "question": "Which component of the JVM is responsible for executing Java bytecode?",
+          "correctAnswer": "The Execution Engine",
+          "wrongAnswer1": "The Class Loader Subsystem",
+          "wrongAnswer2": "The Runtime Data Areas",
+          "wrongAnswer3": "The Native Interface",
+          "explanation": "The Execution Engine is the part of the JVM that executes the compiled bytecode instructions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the role of the Class Loader Subsystem in JVM architecture?",
+          "correctAnswer": "Loading, linking, and initializing classes",
+          "wrongAnswer1": "Executing program code",
+          "wrongAnswer2": "Garbage collection",
+          "wrongAnswer3": "Managing native method calls",
+          "explanation": "The Class Loader Subsystem loads class files into the JVM, links them, and initializes the classes before execution.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which JVM memory area is used for storing objects and class instances at runtime?",
+          "correctAnswer": "Heap",
+          "wrongAnswer1": "Method Area",
+          "wrongAnswer2": "Stack",
+          "wrongAnswer3": "Program Counter Register",
+          "explanation": "The Heap is the runtime data area where Java objects and class instances are stored during execution.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "JRE Components",
+      "questions": [
+        {
+          "question": "Which component of the JRE is responsible for running Java bytecode?",
+          "correctAnswer": "Java Virtual Machine",
+          "wrongAnswer1": "Java Compiler",
+          "wrongAnswer2": "Java Debugger",
+          "wrongAnswer3": "Java Runtime Environment",
+          "explanation": "The Java Virtual Machine (JVM) is the component of the JRE that runs Java bytecode by interpreting or compiling it at runtime.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the Java Runtime Environment (JRE) include besides the JVM?",
+          "correctAnswer": "Class libraries and other supporting files",
+          "wrongAnswer1": "Only the Java source code files",
+          "wrongAnswer2": "Operating system drivers",
+          "wrongAnswer3": "Web server software",
+          "explanation": "The JRE includes the JVM, standard class libraries, and other files needed to run Java applications. It does not include source code or unrelated software.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is NOT a component of the Java Runtime Environment?",
+          "correctAnswer": "Java Development Kit (JDK)",
+          "wrongAnswer1": "Java Virtual Machine (JVM)",
+          "wrongAnswer2": "Class libraries",
+          "wrongAnswer3": "Supporting files",
+          "explanation": "The Java Development Kit (JDK) is a separate package that includes development tools. The JRE contains JVM, class libraries, and supporting files to run Java applications.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java Syntax",
+      "questions": [
+        {
+          "question": "Which of the following is the correct way to declare a variable in Java?",
+          "correctAnswer": "int number = 10;",
+          "wrongAnswer1": "int number := 10;",
+          "wrongAnswer2": "number int = 10;",
+          "wrongAnswer3": "int number == 10;",
+          "explanation": "In Java, variables are declared by specifying the type followed by the variable name and optionally assigning a value using =. Other options use syntax not valid in Java.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used in Java to create a new object?",
+          "correctAnswer": "new",
+          "wrongAnswer1": "create",
+          "wrongAnswer2": "object",
+          "wrongAnswer3": "init",
+          "explanation": "In Java, the 'new' keyword is used to instantiate a new object from a class. Other options do not exist in Java syntax for this purpose.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is the correct way to define the main method in a Java program?",
+          "correctAnswer": "public static void main(String[] args)",
+          "wrongAnswer1": "public void main(String args)",
+          "wrongAnswer2": "static public main(String[] args) void",
+          "wrongAnswer3": "main public static void String[] args",
+          "explanation": "The main method must be declared as public static void with a String array parameter named args as per Java syntax rules.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Data Types",
+      "questions": [
+        {
+          "question": "Which of the following is a primitive data type in Java?",
+          "correctAnswer": "int",
+          "wrongAnswer1": "String",
+          "wrongAnswer2": "ArrayList",
+          "wrongAnswer3": "Scanner",
+          "explanation": "In Java, int is a primitive data type used to store integer values. String, ArrayList, and Scanner are not primitive types.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the default value of a boolean data type in Java?",
+          "correctAnswer": "false",
+          "wrongAnswer1": "true",
+          "wrongAnswer2": "0",
+          "wrongAnswer3": "null",
+          "explanation": "The default value of a boolean variable in Java is false, which represents the logical false condition.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which data type would you use to store a single character in Java?",
+          "correctAnswer": "char",
+          "wrongAnswer1": "String",
+          "wrongAnswer2": "int",
+          "wrongAnswer3": "boolean",
+          "explanation": "The char data type in Java is used to store a single 16-bit Unicode character. String is for sequences of characters, int is for integers, and boolean is for true/false values.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Control Structures",
+      "questions": [
+        {
+          "question": "Which control structure is best used to execute a block of code multiple times based on a condition?",
+          "correctAnswer": "While loop",
+          "wrongAnswer1": "If statement",
+          "wrongAnswer2": "Switch case",
+          "wrongAnswer3": "Try-catch block",
+          "explanation": "A While loop repeatedly executes a block of code as long as the specified condition is true, making it ideal for iteration based on a condition.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What control structure allows selection among multiple possible paths based on the value of a variable?",
+          "correctAnswer": "Switch statement",
+          "wrongAnswer1": "For loop",
+          "wrongAnswer2": "If-else statement",
+          "wrongAnswer3": "Do-while loop",
+          "explanation": "The Switch statement allows branching to different code blocks depending on the value of a variable, making it suitable for multi-way branching scenarios.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of these control structures ensures that a block of code runs at least once regardless of the condition?",
+          "correctAnswer": "Do-while loop",
+          "wrongAnswer1": "While loop",
+          "wrongAnswer2": "If statement",
+          "wrongAnswer3": "For loop",
+          "explanation": "The Do-while loop executes its body once before checking the condition, guaranteeing the block runs at least one time.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Exception Handling",
+      "questions": [
+        {
+          "question": "What is the primary purpose of exception handling in Java?",
+          "correctAnswer": "To manage runtime errors and maintain normal program flow",
+          "wrongAnswer1": "To increase program execution speed",
+          "wrongAnswer2": "To create user interfaces",
+          "wrongAnswer3": "To handle syntax errors during compilation",
+          "explanation": "Exception handling in Java is used to manage runtime errors so that the program can continue to run or terminate gracefully.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used to catch exceptions in Java?",
+          "correctAnswer": "catch",
+          "wrongAnswer1": "throw",
+          "wrongAnswer2": "try",
+          "wrongAnswer3": "finally",
+          "explanation": "The catch keyword is used to catch and handle exceptions that are thrown in the try block.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the difference between checked and unchecked exceptions in Java?",
+          "correctAnswer": "Checked exceptions must be declared or handled, unchecked exceptions do not",
+          "wrongAnswer1": "Unchecked exceptions must be declared or handled, checked exceptions do not",
+          "wrongAnswer2": "Checked exceptions are runtime exceptions, unchecked are compile-time",
+          "wrongAnswer3": "There is no difference, both are handled the same way",
+          "explanation": "Checked exceptions are checked at compile time and must be declared or caught, while unchecked exceptions happen at runtime and are not required to be declared.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Multithreading",
+      "questions": [
+        {
+          "question": "What is the main advantage of using multithreading in Java?",
+          "correctAnswer": "It allows concurrent execution of two or more parts of a program to maximize CPU utilization",
+          "wrongAnswer1": "It guarantees the order of thread execution",
+          "wrongAnswer2": "It simplifies the programming logic for single-threaded applications",
+          "wrongAnswer3": "It eliminates the need for synchronization in shared resources",
+          "explanation": "Multithreading in Java allows multiple threads to run concurrently, which helps in better CPU utilization and improved performance by executing parallel tasks. It does not guarantee execution order and still requires synchronization when accessing shared resources.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Java class is used to create a thread by extending it?",
+          "correctAnswer": "Thread class",
+          "wrongAnswer1": "Runnable interface",
+          "wrongAnswer2": "ExecutorService class",
+          "wrongAnswer3": "Callable interface",
+          "explanation": "To create a thread in Java by inheritance, you extend the Thread class and override its run method. Alternatively, you can implement the Runnable interface for thread creation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Java multithreading, what does the synchronized keyword do?",
+          "correctAnswer": "It ensures that only one thread accesses the synchronized block or method at a time",
+          "wrongAnswer1": "It forces all threads to run sequentially",
+          "wrongAnswer2": "It makes a method run asynchronously",
+          "wrongAnswer3": "It creates a new thread",
+          "explanation": "The synchronized keyword in Java is used to control access to critical sections of code by allowing only one thread to execute that section at a time, preventing race conditions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Generics Usage",
+      "questions": [
+        {
+          "question": "What is the main advantage of using generics in Java?",
+          "correctAnswer": "They provide stronger type checks at compile time and eliminate the need for type casting.",
+          "wrongAnswer1": "They improve the performance of the Java program significantly.",
+          "wrongAnswer2": "They allow the program to run on different operating systems without modification.",
+          "wrongAnswer3": "They enable the use of multiple inheritance in Java classes.",
+          "explanation": "Generics in Java enable stronger type checking at compile time and eliminate the need for explicit type casting, which improves code safety and readability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a correct way to declare a generic class in Java?",
+          "correctAnswer": "class Box<T> { private T t; }",
+          "wrongAnswer1": "class Box[T] { private T t; }",
+          "wrongAnswer2": "class Box<T> { private int t; }",
+          "wrongAnswer3": "class Box<T> { T t; void getT(T t) {} }",
+          "explanation": "A generic class declaration in Java requires angle brackets with a type parameter, for example, class Box<T>. The type parameter T can then be used as a type within the class.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What will happen if you try to cast an object returned from a generic collection without using generics?",
+          "correctAnswer": "A ClassCastException might occur at runtime if the object type is incompatible.",
+          "wrongAnswer1": "The compiler will give a compile-time error.",
+          "wrongAnswer2": "The program will run without any errors even if the cast is wrong.",
+          "wrongAnswer3": "The object will automatically convert to the required type at runtime.",
+          "explanation": "Without generics, collections return Objects that must be explicitly cast. If the object isn't of the cast type, a ClassCastException occurs at runtime.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Collections Framework",
+      "questions": [
+        {
+          "question": "What is the main purpose of the Java Collections Framework?",
+          "correctAnswer": "To provide a set of interfaces and classes for storing and manipulating groups of objects",
+          "wrongAnswer1": "To compile Java programs efficiently",
+          "wrongAnswer2": "To establish a connection between Java applications and databases",
+          "wrongAnswer3": "To create graphical user interfaces in Java",
+          "explanation": "The Java Collections Framework provides a set of interfaces and classes to store and manipulate groups of objects, facilitating data structures like lists, sets, and maps.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which interface in the Java Collections Framework represents an ordered collection that can contain duplicate elements?",
+          "correctAnswer": "List",
+          "wrongAnswer1": "Set",
+          "wrongAnswer2": "Map",
+          "wrongAnswer3": "Queue",
+          "explanation": "The List interface represents an ordered collection and allows duplicate elements, whereas Set does not allow duplicates and Map stores key-value pairs.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following classes is NOT part of the Java Collections Framework?",
+          "correctAnswer": "StringBuilder",
+          "wrongAnswer1": "ArrayList",
+          "wrongAnswer2": "HashMap",
+          "wrongAnswer3": "LinkedList",
+          "explanation": "ArrayList, HashMap, and LinkedList are classes within the Java Collections Framework, while StringBuilder is used for creating mutable sequences of characters and not part of the Collections Framework.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java Streams",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Java Streams in programming?",
+          "correctAnswer": "To process sequences of elements in a functional style",
+          "wrongAnswer1": "To manage Java class inheritance",
+          "wrongAnswer2": "To handle network connections",
+          "wrongAnswer3": "To create graphical user interfaces",
+          "explanation": "Java Streams are designed to process sequences of elements, such as collections, in a functional manner, allowing operations like filtering and mapping.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method in Java Streams is used to apply a function to each element and produce a new Stream?",
+          "correctAnswer": "map",
+          "wrongAnswer1": "filter",
+          "wrongAnswer2": "reduce",
+          "wrongAnswer3": "collect",
+          "explanation": "The map method applies the given function to each element of the Stream, producing a new Stream with the results.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the characteristic of a terminal operation in Java Streams?",
+          "correctAnswer": "It produces a result or a side-effect and ends the Stream pipeline",
+          "wrongAnswer1": "It creates a new Stream without processing elements",
+          "wrongAnswer2": "It delays processing until a condition is met",
+          "wrongAnswer3": "It modifies the source collection directly",
+          "explanation": "Terminal operations on Streams produce a final result or effect and mark the end of the Stream processing pipeline.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Lambda Expressions",
+      "questions": [
+        {
+          "question": "What is a Lambda Expression in Java primarily used for?",
+          "correctAnswer": "To provide an anonymous implementation of a functional interface",
+          "wrongAnswer1": "To declare a new class with a specific name",
+          "wrongAnswer2": "To create a new thread in Java",
+          "wrongAnswer3": "To handle exceptions more efficiently",
+          "explanation": "Lambda Expressions in Java are used mainly to provide implementations of functional interfaces without needing to define a separate class, enabling more concise and readable code when dealing with functional programming constructs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which functional interface can be used to represent a lambda expression that takes two parameters and returns a result?",
+          "correctAnswer": "BiFunction",
+          "wrongAnswer1": "Consumer",
+          "wrongAnswer2": "Predicate",
+          "wrongAnswer3": "Runnable",
+          "explanation": "The BiFunction functional interface represents a function that accepts two arguments and produces a result. Consumers accept one argument and return nothing, Predicates return boolean values, and Runnable has no arguments and returns nothing.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do lambda expressions improve code readability compared to anonymous inner classes?",
+          "correctAnswer": "By reducing boilerplate code and focusing on the functional behavior",
+          "wrongAnswer1": "By adding more explicit type declarations",
+          "wrongAnswer2": "By requiring separate method definitions for each behavior",
+          "wrongAnswer3": "By increasing the number of lines of code to make logic clearer",
+          "explanation": "Lambda expressions reduce the amount of boilerplate code, making the code more concise and centered around the functional behavior instead of the surrounding class structure, which enhances readability.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Functional Interfaces",
+      "questions": [
+        {
+          "question": "What is the main characteristic of a functional interface in Java?",
+          "correctAnswer": "It has exactly one abstract method.",
+          "wrongAnswer1": "It has multiple abstract methods.",
+          "wrongAnswer2": "It cannot contain any method.",
+          "wrongAnswer3": "It must be implemented by a class called Function.",
+          "explanation": "A functional interface in Java is an interface that contains exactly one abstract method, making it suitable for use with lambda expressions and method references.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which annotation is commonly used to indicate that an interface is intended to be a functional interface?",
+          "correctAnswer": "@FunctionalInterface",
+          "wrongAnswer1": "@InterfaceFunctional",
+          "wrongAnswer2": "@SingleMethod",
+          "wrongAnswer3": "@LambdaInterface",
+          "explanation": "The @FunctionalInterface annotation is used in Java to explicitly declare that an interface is intended to be a functional interface, helping the compiler enforce this rule.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is true regarding default methods in a functional interface?",
+          "correctAnswer": "They do not count as abstract methods and do not violate the single abstract method rule.",
+          "wrongAnswer1": "Default methods count as abstract methods and break the functional interface contract.",
+          "wrongAnswer2": "A functional interface cannot have any methods besides the single abstract method.",
+          "wrongAnswer3": "Default methods must be implemented by a class implementing the interface.",
+          "explanation": "In Java, default methods in interfaces provide a method body and do not count as abstract methods, so a functional interface can have any number of default methods without violating the requirement of having exactly one abstract method.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java I/O",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Java I O streams?",
+          "correctAnswer": "To read data from and write data to different sources",
+          "wrongAnswer1": "To compile Java programs",
+          "wrongAnswer2": "To create graphical user interfaces",
+          "wrongAnswer3": "To manage memory allocation",
+          "explanation": "Java I O streams provide a way to handle input and output of data, allowing reading from sources like files and writing to outputs like files or the console.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which class in Java I O is commonly used for reading text from a file?",
+          "correctAnswer": "BufferedReader",
+          "wrongAnswer1": "FileOutputStream",
+          "wrongAnswer2": "PrintWriter",
+          "wrongAnswer3": "ObjectOutputStream",
+          "explanation": "BufferedReader reads text efficiently from an input stream like a file, making it suitable for reading text line by line.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In Java I O, what is the difference between byte streams and character streams?",
+          "correctAnswer": "Byte streams handle raw binary data while character streams handle character data with encoding",
+          "wrongAnswer1": "Byte streams read only characters while character streams read only bytes",
+          "wrongAnswer2": "Byte streams are faster for text files and character streams are for images",
+          "wrongAnswer3": "There is no difference, they are interchangeable",
+          "explanation": "Byte streams work with raw binary data (bytes) such as image or audio files, whereas character streams handle text data and manage encoding automatically.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java Networking",
+      "questions": [
+        {
+          "question": "What class in Java is primarily used to create a client socket for network communication?",
+          "correctAnswer": "Socket",
+          "wrongAnswer1": "ServerSocket",
+          "wrongAnswer2": "DatagramSocket",
+          "wrongAnswer3": "HttpURLConnection",
+          "explanation": "The Socket class in Java is used to create client sockets to initiate network connections to a server.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which protocol does the DatagramSocket class use in Java networking?",
+          "correctAnswer": "UDP",
+          "wrongAnswer1": "TCP",
+          "wrongAnswer2": "HTTP",
+          "wrongAnswer3": "FTP",
+          "explanation": "DatagramSocket in Java is used for connectionless communication using the UDP protocol.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What method in the ServerSocket class is used to accept incoming client connections?",
+          "correctAnswer": "accept",
+          "wrongAnswer1": "connect",
+          "wrongAnswer2": "open",
+          "wrongAnswer3": "listen",
+          "explanation": "The accept method waits for an incoming client connection and returns a new Socket to communicate with the client.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java FX",
+      "questions": [
+        {
+          "question": "What is JavaFX primarily used for in Java programming?",
+          "correctAnswer": "Creating rich graphical user interfaces",
+          "wrongAnswer1": "Managing database connections",
+          "wrongAnswer2": "Performing mathematical calculations",
+          "wrongAnswer3": "Developing server-side web applications",
+          "explanation": "JavaFX is a set of graphics and media packages that enable developers to design, create, test, and deploy rich client applications with immersive user interfaces.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which component in JavaFX represents the visual elements of the user interface?",
+          "correctAnswer": "Nodes",
+          "wrongAnswer1": "Threads",
+          "wrongAnswer2": "Packages",
+          "wrongAnswer3": "Classes",
+          "explanation": "In JavaFX, every visual element in the user interface is a Node, such as controls, shapes, and images.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which layout is used in JavaFX to arrange nodes in a vertical column?",
+          "correctAnswer": "VBox",
+          "wrongAnswer1": "HBox",
+          "wrongAnswer2": "GridPane",
+          "wrongAnswer3": "FlowPane",
+          "explanation": "VBox is a JavaFX layout pane that arranges its child nodes in a vertical column, stacking them from top to bottom.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java Swing",
+      "questions": [
+        {
+          "question": "What is Java Swing used for in Java programming?",
+          "correctAnswer": "Creating graphical user interfaces",
+          "wrongAnswer1": "Managing database connections",
+          "wrongAnswer2": "Performing network operations",
+          "wrongAnswer3": "Running background threads",
+          "explanation": "Java Swing is a part of Java Foundation Classes used primarily for building graphical user interfaces (GUIs) in Java applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Swing component is used to create a window in a Java application?",
+          "correctAnswer": "JFrame",
+          "wrongAnswer1": "JPanel",
+          "wrongAnswer2": "JLabel",
+          "wrongAnswer3": "JButton",
+          "explanation": "JFrame is a top-level container used to create a window in Java Swing applications, while JPanel, JLabel, and JButton are components used within such windows.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which layout manager in Java Swing arranges components in a row, one after another?",
+          "correctAnswer": "FlowLayout",
+          "wrongAnswer1": "GridLayout",
+          "wrongAnswer2": "BorderLayout",
+          "wrongAnswer3": "BoxLayout",
+          "explanation": "FlowLayout arranges components sequentially in a row, whereas GridLayout arranges components in a grid, BorderLayout arranges components in five regions, and BoxLayout arranges components either vertically or horizontally.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java Applets",
+      "questions": [
+        {
+          "question": "What is the primary use of a Java applet?",
+          "correctAnswer": "To run small programs within a web browser",
+          "wrongAnswer1": "To develop operating systems",
+          "wrongAnswer2": "To create mobile applications",
+          "wrongAnswer3": "To write standalone desktop applications",
+          "explanation": "Java applets were designed to run small programs embedded in web pages, executable inside web browsers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method must be overridden to perform actions when a Java applet is first loaded?",
+          "correctAnswer": "init",
+          "wrongAnswer1": "start",
+          "wrongAnswer2": "run",
+          "wrongAnswer3": "main",
+          "explanation": "The init() method is called when the applet is first loaded and should be overridden to initialize applet resources.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why have Java applets become largely obsolete in modern web development?",
+          "correctAnswer": "Because most browsers have dropped support for the Java plugin",
+          "wrongAnswer1": "Because Java no longer supports applets",
+          "wrongAnswer2": "Because applets never worked with HTML",
+          "wrongAnswer3": "Because applets required too much manual coding",
+          "explanation": "Java applets relied on browser plugins which are no longer supported by modern browsers, leading to their obsolescence.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Annotations Usage",
+      "questions": [
+        {
+          "question": "What is the primary purpose of annotations in Java?",
+          "correctAnswer": "To provide metadata information to the compiler and runtime",
+          "wrongAnswer1": "To execute methods automatically",
+          "wrongAnswer2": "To replace interfaces and classes",
+          "wrongAnswer3": "To handle exceptions more effectively",
+          "explanation": "Annotations in Java are primarily used to provide metadata to the compiler and runtime environment, which can influence how code is processed without changing the actual code logic.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which annotation is used to indicate that a method overrides a method from a superclass?",
+          "correctAnswer": "Override",
+          "wrongAnswer1": "Deprecated",
+          "wrongAnswer2": "SuppressWarnings",
+          "wrongAnswer3": "FunctionalInterface",
+          "explanation": "The Override annotation signals to the compiler that the method is intended to override a method in the superclass, helping to catch errors if the method does not actually override anything.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can annotations be accessed during runtime in Java?",
+          "correctAnswer": "Using reflection APIs such as getAnnotation()",
+          "wrongAnswer1": "Annotations are not accessible at runtime",
+          "wrongAnswer2": "Only through subclassing the annotated class",
+          "wrongAnswer3": "By parsing source code files dynamically",
+          "explanation": "Annotations can be accessed at runtime using Java reflection APIs like getAnnotation(), allowing programs to inspect metadata and act accordingly.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Inner Classes",
+      "questions": [
+        {
+          "question": "What is an inner class in Java?",
+          "correctAnswer": "A class defined within another class",
+          "wrongAnswer1": "A class that inherits from another class",
+          "wrongAnswer2": "A class defined in a separate file",
+          "wrongAnswer3": "A class that cannot access its outer class members",
+          "explanation": "An inner class is a class defined within another class, allowing it to access the members of the outer class directly.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of inner class can access only the final variables of the enclosing method?",
+          "correctAnswer": "Local inner class",
+          "wrongAnswer1": "Static nested class",
+          "wrongAnswer2": "Anonymous inner class",
+          "wrongAnswer3": "Member inner class",
+          "explanation": "A local inner class defined inside a method can only access final or effectively final variables of the method.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a key characteristic of a static nested class in Java?",
+          "correctAnswer": "It cannot access instance variables of the outer class directly",
+          "wrongAnswer1": "It can access all variables of the outer class",
+          "wrongAnswer2": "It must be declared inside a method",
+          "wrongAnswer3": "It cannot have its own methods",
+          "explanation": "A static nested class is a nested class declared static, so it cannot directly access instance variables of the outer class without an object reference.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Abstract Classes",
+      "questions": [
+        {
+          "question": "What is a primary characteristic of an abstract class in Java?",
+          "correctAnswer": "It cannot be instantiated directly.",
+          "wrongAnswer1": "It can be instantiated like any other class.",
+          "wrongAnswer2": "It always contains only abstract methods.",
+          "wrongAnswer3": "It cannot have constructors.",
+          "explanation": "An abstract class in Java cannot be instantiated directly, meaning you cannot create objects of an abstract class. It may contain both abstract and non-abstract methods and can have constructors.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used to declare an abstract class in Java?",
+          "correctAnswer": "abstract",
+          "wrongAnswer1": "interface",
+          "wrongAnswer2": "final",
+          "wrongAnswer3": "static",
+          "explanation": "The keyword 'abstract' is used to declare an abstract class in Java. This keyword indicates that the class may have abstract methods and cannot be instantiated directly.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Can an abstract class contain non-abstract methods in Java?",
+          "correctAnswer": "Yes, it can contain both abstract and non-abstract methods.",
+          "wrongAnswer1": "No, it can only contain abstract methods.",
+          "wrongAnswer2": "Yes, but only if it is declared final.",
+          "wrongAnswer3": "No, it can only contain constructors.",
+          "explanation": "In Java, an abstract class can have both abstract methods (without implementation) and non-abstract methods (with implementation). This allows shared code among subclasses.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Interfaces Implementation",
+      "questions": [
+        {
+          "question": "What must a Java class do when it implements an interface?",
+          "correctAnswer": "It must provide implementations for all methods declared in the interface.",
+          "wrongAnswer1": "It must inherit all fields from the interface.",
+          "wrongAnswer2": "It must override only the default methods in the interface.",
+          "wrongAnswer3": "It must declare new methods beyond those in the interface only.",
+          "explanation": "A class implementing an interface must provide concrete implementations of all abstract methods declared in the interface to fulfill the contract.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Can a Java interface contain method implementations?",
+          "correctAnswer": "Yes, interfaces can have default methods with implementations.",
+          "wrongAnswer1": "No, interfaces can only have method declarations without bodies.",
+          "wrongAnswer2": "Yes, but only private methods can have implementations.",
+          "wrongAnswer3": "No, method implementations are only allowed in abstract classes.",
+          "explanation": "Since Java 8, interfaces can include default methods that provide method implementations, allowing classes to inherit these behaviors.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does a Java class specify that it implements an interface?",
+          "correctAnswer": "By using the 'implements' keyword followed by the interface name.",
+          "wrongAnswer1": "By extending the interface using the 'extends' keyword.",
+          "wrongAnswer2": "By importing the interface into the class.",
+          "wrongAnswer3": "By annotating the class with '@Interface' annotation.",
+          "explanation": "In Java, a class implements an interface by declaring 'implements InterfaceName' after the class name.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Polymorphism Concepts",
+      "questions": [
+        {
+          "question": "What is polymorphism in Java?",
+          "correctAnswer": "The ability of a single interface to represent different underlying forms or data types",
+          "wrongAnswer1": "A process of hiding data from outside access",
+          "wrongAnswer2": "The technique of wrapping data and methods into a single unit",
+          "wrongAnswer3": "A way to declare multiple variables of the same type",
+          "explanation": "Polymorphism in Java allows methods to do different things based on the object it is acting upon, enabling one interface to be used for a general class of actions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of polymorphism is achieved by method overriding in Java?",
+          "correctAnswer": "Runtime polymorphism",
+          "wrongAnswer1": "Compile-time polymorphism",
+          "wrongAnswer2": "Static polymorphism",
+          "wrongAnswer3": "Object polymorphism",
+          "explanation": "Method overriding happens at runtime, and it allows a subclass to provide a specific implementation of a method already defined in its superclass, demonstrating runtime polymorphism.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is an example of compile-time polymorphism in Java?",
+          "correctAnswer": "Method overloading",
+          "wrongAnswer1": "Method overriding",
+          "wrongAnswer2": "Using abstract classes",
+          "wrongAnswer3": "Implementing interfaces",
+          "explanation": "Compile-time polymorphism refers to the ability to resolve method calls at compile time, and method overloading is a common example where multiple methods have the same name but different parameters.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Inheritance Concepts",
+      "questions": [
+        {
+          "question": "What is inheritance in Java?",
+          "correctAnswer": "A mechanism where one class acquires the properties of another class",
+          "wrongAnswer1": "A process to create multiple instances of a class",
+          "wrongAnswer2": "A method to encapsulate data",
+          "wrongAnswer3": "A way to define unique methods for each class",
+          "explanation": "Inheritance in Java allows a class to inherit fields and methods from another class, facilitating code reuse and method overriding.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used in Java to inherit a class?",
+          "correctAnswer": "extends",
+          "wrongAnswer1": "implements",
+          "wrongAnswer2": "inherits",
+          "wrongAnswer3": "super",
+          "explanation": "In Java, the extends keyword is used to inherit the properties and methods of a superclass into a subclass.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the super keyword do in Java inheritance?",
+          "correctAnswer": "It refers to the immediate parent class object",
+          "wrongAnswer1": "It defines a new class that inherits all properties",
+          "wrongAnswer2": "It creates a copy of the subclass",
+          "wrongAnswer3": "It restricts access to parent methods",
+          "explanation": "The super keyword in Java refers to the parent class and is used to access its methods or constructors.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Encapsulation Principles",
+      "questions": [
+        {
+          "question": "What is the primary purpose of encapsulation in Java?",
+          "correctAnswer": "To restrict direct access to some of an object's components",
+          "wrongAnswer1": "To inherit properties from a parent class",
+          "wrongAnswer2": "To enable code reuse through interfaces",
+          "wrongAnswer3": "To improve program speed by using inline code",
+          "explanation": "Encapsulation in Java is used to hide the internal state of an object and only allow access through public methods, thus restricting direct access to its components.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature of Java is used to achieve encapsulation?",
+          "correctAnswer": "Using private variables with public getter and setter methods",
+          "wrongAnswer1": "Using abstract classes",
+          "wrongAnswer2": "Using static methods",
+          "wrongAnswer3": "Using multiple inheritance",
+          "explanation": "Encapsulation is commonly implemented by declaring class variables as private and providing public getter and setter methods to access and update these variables.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why should class variables often be declared private in encapsulation?",
+          "correctAnswer": "To prevent unauthorized external modification and maintain control over the data",
+          "wrongAnswer1": "To allow other classes to modify data directly",
+          "wrongAnswer2": "To enable faster execution of the program",
+          "wrongAnswer3": "To simplify inheritance hierarchy",
+          "explanation": "Declaring variables private limits their visibility to the class itself, ensuring that any changes to the data happen in a controlled way through methods, maintaining integrity and security.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java Memory Model",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Java Memory Model?",
+          "correctAnswer": "To define the interaction between threads and memory in Java programs",
+          "wrongAnswer1": "To specify how Java code is compiled into bytecode",
+          "wrongAnswer2": "To manage Java Virtual Machine garbage collection",
+          "wrongAnswer3": "To outline Java syntax and language features",
+          "explanation": "The Java Memory Model defines how threads in a Java program interact through memory, ensuring correct synchronization and visibility of shared variables.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In the Java Memory Model, what does it mean if a variable is declared volatile?",
+          "correctAnswer": "Changes to the variable are immediately visible to all threads",
+          "wrongAnswer1": "The variable cannot be changed after initialization",
+          "wrongAnswer2": "The variable is stored in CPU cache exclusively",
+          "wrongAnswer3": "The variable is thread-local and not shared",
+          "explanation": "Declaring a variable as volatile ensures that reads and writes to that variable go directly to main memory, making changes visible to all threads immediately.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following guarantees does the Java Memory Model provide for synchronized blocks?",
+          "correctAnswer": "Synchronized blocks establish a happens-before relationship ensuring visibility of changes",
+          "wrongAnswer1": "Synchronized blocks eliminate the need for volatile variables",
+          "wrongAnswer2": "Synchronized blocks prevent all deadlocks in concurrent programs",
+          "wrongAnswer3": "Synchronized blocks automatically optimize thread scheduling",
+          "explanation": "Within the Java Memory Model, synchronized blocks enforce a happens-before relationship that ensures that changes made within the block are visible to other threads that synchronize on the same monitor.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Garbage Collection",
+      "questions": [
+        {
+          "question": "What is the primary purpose of garbage collection in Java?",
+          "correctAnswer": "To automatically free memory by removing objects that are no longer accessible",
+          "wrongAnswer1": "To manually allocate memory to new objects",
+          "wrongAnswer2": "To optimize CPU performance during program execution",
+          "wrongAnswer3": "To encrypt data stored in memory",
+          "explanation": "Garbage collection in Java is designed to automatically reclaim memory by removing objects that are no longer in use, thus preventing memory leaks and optimizing memory usage.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about Java's garbage collector?",
+          "correctAnswer": "It runs in the background and identifies objects that are no longer referenced",
+          "wrongAnswer1": "It requires programmers to explicitly call it to free memory",
+          "wrongAnswer2": "It only collects memory from objects marked as final",
+          "wrongAnswer3": "It deletes objects immediately after they are created",
+          "explanation": "Java's garbage collector runs automatically in the background, detecting and freeing memory from objects that are no longer referenced by the program.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens when an object becomes eligible for garbage collection in Java?",
+          "correctAnswer": "It can be removed from memory by the garbage collector since no references to it remain",
+          "wrongAnswer1": "It is immediately deleted from memory and cannot be recovered",
+          "wrongAnswer2": "It is passed on to other parts of the program for reuse",
+          "wrongAnswer3": "It is converted to a string representation for logging purposes",
+          "explanation": "An object eligible for garbage collection is one that has no active references and may be removed from memory by the garbage collector to free up space. This deletion is not necessarily immediate but happens eventually during garbage collection cycles.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java Reflection",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Java Reflection?",
+          "correctAnswer": "To inspect and manipulate classes, methods, and fields at runtime",
+          "wrongAnswer1": "To compile Java code into bytecode",
+          "wrongAnswer2": "To enhance the speed of Java applications",
+          "wrongAnswer3": "To manage memory allocation automatically",
+          "explanation": "Java Reflection allows programs to analyze and modify the runtime behavior of applications by inspecting and manipulating classes, methods, and fields dynamically.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which class in Java is mainly used to obtain information about class methods and fields at runtime?",
+          "correctAnswer": "java.lang.Class",
+          "wrongAnswer1": "java.util.Method",
+          "wrongAnswer2": "java.lang.Reflection",
+          "wrongAnswer3": "java.lang.Runtime",
+          "explanation": "The java.lang.Class class provides methods to access metadata about classes, including methods and fields, supporting the functionality of Java Reflection.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a common use case for Java Reflection in frameworks?",
+          "correctAnswer": "To dynamically create instances and invoke methods without knowing class details at compile time",
+          "wrongAnswer1": "To increase the execution speed by skipping method calls",
+          "wrongAnswer2": "To restrict access to private methods and fields",
+          "wrongAnswer3": "To convert Java code into other programming languages automatically",
+          "explanation": "Reflection is often used in frameworks to access and manipulate classes dynamically, allowing flexible object creation and method invocation based on runtime information.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java Serialization",
+      "questions": [
+        {
+          "question": "What is the primary purpose of serialization in Java?",
+          "correctAnswer": "To convert an object into a byte stream for storage or transmission",
+          "wrongAnswer1": "To compile Java source code into bytecode",
+          "wrongAnswer2": "To execute Java bytecode on the JVM",
+          "wrongAnswer3": "To convert a byte stream back into an object",
+          "explanation": "Serialization in Java is used to convert an object into a byte stream so it can be easily saved to a file or sent over a network.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which interface must a Java class implement to be serializable?",
+          "correctAnswer": "java.io.Serializable",
+          "wrongAnswer1": "java.lang.Cloneable",
+          "wrongAnswer2": "java.io.Externalizable",
+          "wrongAnswer3": "java.lang.Comparable",
+          "explanation": "The java.io.Serializable interface is a marker interface that enables an object to be serialized by the Java runtime.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens if a class does not implement Serializable but an attempt is made to serialize its instance?",
+          "correctAnswer": "A NotSerializableException is thrown at runtime",
+          "wrongAnswer1": "The object is serialized without any error",
+          "wrongAnswer2": "The serialization process converts the object into null",
+          "wrongAnswer3": "A ClassNotFoundException is thrown",
+          "explanation": "If the object is not serializable, the Java runtime throws a NotSerializableException when serialization is attempted.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java Concurrency",
+      "questions": [
+        {
+          "question": "What interface must a class implement to define a task that can be executed by a thread in Java?",
+          "correctAnswer": "Runnable",
+          "wrongAnswer1": "Serializable",
+          "wrongAnswer2": "Cloneable",
+          "wrongAnswer3": "Comparable",
+          "explanation": "The Runnable interface should be implemented by any class whose instances are intended to be executed by a thread. The Runnable interface has a single method run() which is called when the thread is started.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method is used to start a thread in Java so that it executes concurrently?",
+          "correctAnswer": "start()",
+          "wrongAnswer1": "run()",
+          "wrongAnswer2": "execute()",
+          "wrongAnswer3": "init()",
+          "explanation": "The start() method is used to start a new thread and call its run() method in a new thread of execution. Calling run() directly will not start a new thread but rather execute run method in the current thread.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What Java class can be used to achieve thread synchronization by allowing one or more threads to wait until a set of operations being performed in other threads completes?",
+          "correctAnswer": "CountDownLatch",
+          "wrongAnswer1": "ThreadPoolExecutor",
+          "wrongAnswer2": "FutureTask",
+          "wrongAnswer3": "AtomicBoolean",
+          "explanation": "CountDownLatch allows one or more threads to wait until a count reaches zero, which typically means that some set of operations in other threads has completed, enabling coordinated execution.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Thread Synchronization",
+      "questions": [
+        {
+          "question": "What is the primary purpose of thread synchronization in Java?",
+          "correctAnswer": "To control the access of multiple threads to shared resources",
+          "wrongAnswer1": "To create as many threads as possible for better performance",
+          "wrongAnswer2": "To allow threads to execute independently without any restrictions",
+          "wrongAnswer3": "To stop all threads in a program from running simultaneously",
+          "explanation": "Thread synchronization is used to manage the access of multiple threads to shared resources to prevent data inconsistency and race conditions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Java keyword is used to define a synchronized method?",
+          "correctAnswer": "synchronized",
+          "wrongAnswer1": "volatile",
+          "wrongAnswer2": "final",
+          "wrongAnswer3": "static",
+          "explanation": "The synchronized keyword is used in Java to mark methods or blocks of code that should be synchronized to control thread access.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens if a thread tries to enter a synchronized block while another thread is already executing it?",
+          "correctAnswer": "The thread is blocked until the monitor lock is released",
+          "wrongAnswer1": "The thread will execute the block simultaneously",
+          "wrongAnswer2": "The thread skips the block and continues",
+          "wrongAnswer3": "The program throws an exception",
+          "explanation": "If a thread attempts to enter a synchronized block already locked by another thread, it will be blocked until the lock is released to ensure exclusive access.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java Executors",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Executors framework in Java?",
+          "correctAnswer": "To manage and control thread execution and simplify concurrent programming",
+          "wrongAnswer1": "To handle file input and output operations",
+          "wrongAnswer2": "To manage database connections efficiently",
+          "wrongAnswer3": "To perform graphical user interface rendering",
+          "explanation": "The Executors framework in Java is designed to manage and control thread execution, making concurrent programming easier by providing thread pools and task scheduling.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method in the Executors class creates a thread pool that reuses a fixed number of threads operating off a shared unbounded queue?",
+          "correctAnswer": "newFixedThreadPool",
+          "wrongAnswer1": "newSingleThreadExecutor",
+          "wrongAnswer2": "newCachedThreadPool",
+          "wrongAnswer3": "newScheduledThreadPool",
+          "explanation": "newFixedThreadPool creates a fixed-size thread pool that reuses a set number of threads to execute tasks, using an unbounded queue for holding runnable tasks.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which ExecutorService method is used to submit a Runnable task for execution and returns a Future representing that task?",
+          "correctAnswer": "submit",
+          "wrongAnswer1": "execute",
+          "wrongAnswer2": "invokeAll",
+          "wrongAnswer3": "schedule",
+          "explanation": "The submit method submits a Runnable or Callable task for execution and returns a Future which can be used to check the status or result of the task, whereas execute returns void.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java NIO",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Java NIO?",
+          "correctAnswer": "To provide non-blocking I/O operations in Java",
+          "wrongAnswer1": "To manage graphical user interfaces in Java",
+          "wrongAnswer2": "To handle database connections in Java",
+          "wrongAnswer3": "To perform mathematical calculations",
+          "explanation": "Java NIO (New Input/Output) provides an alternative to the standard Java IO API with features like non-blocking I/O, buffers, and channels, allowing for more scalable and efficient data handling.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Java NIO component handles data buffers?",
+          "correctAnswer": "Buffer",
+          "wrongAnswer1": "Channel",
+          "wrongAnswer2": "Selector",
+          "wrongAnswer3": "Stream",
+          "explanation": "In Java NIO, Buffer classes are used to hold data during read/write operations, enabling efficient transfer of data.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does a Selector in Java NIO do?",
+          "correctAnswer": "It monitors multiple channels for events such as readiness for reading or writing",
+          "wrongAnswer1": "It directs data flow between buffers and files",
+          "wrongAnswer2": "It provides thread synchronization in NIO operations",
+          "wrongAnswer3": "It encrypts data during transmission",
+          "explanation": "A Selector allows a single thread to manage multiple channels, improving scalability by detecting when channels are ready for I/O operations.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java JDBC",
+      "questions": [
+        {
+          "question": "What is the primary purpose of JDBC in Java?",
+          "correctAnswer": "To connect and execute queries with databases",
+          "wrongAnswer1": "To create graphical user interfaces",
+          "wrongAnswer2": "To manage Java memory allocation",
+          "wrongAnswer3": "To compile Java source code",
+          "explanation": "JDBC (Java Database Connectivity) is used to connect Java applications to databases, enabling execution of SQL queries and retrieval of data.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT part of the main steps to use JDBC?",
+          "correctAnswer": "Compiling the database server",
+          "wrongAnswer1": "Loading the JDBC driver",
+          "wrongAnswer2": "Establishing connection to the database",
+          "wrongAnswer3": "Executing SQL statements",
+          "explanation": "The JDBC process involves loading the driver, connecting to the database, executing SQL commands, and handling results. Compiling the database server is unrelated.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which JDBC method is used to execute a SQL SELECT query and retrieve data?",
+          "correctAnswer": "executeQuery",
+          "wrongAnswer1": "executeUpdate",
+          "wrongAnswer2": "executeBatch",
+          "wrongAnswer3": "getConnection",
+          "explanation": "The executeQuery method runs SQL SELECT statements and returns a ResultSet for data retrieval. executeUpdate is for INSERT, UPDATE, or DELETE operations.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Design Patterns",
+      "questions": [
+        {
+          "question": "Which design pattern is primarily used to create a single instance of a class in Java?",
+          "correctAnswer": "Singleton pattern",
+          "wrongAnswer1": "Factory pattern",
+          "wrongAnswer2": "Observer pattern",
+          "wrongAnswer3": "Decorator pattern",
+          "explanation": "The Singleton pattern ensures that a class has only one instance and provides a global point of access to it.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Java design patterns, which pattern allows an object to alter its behavior when its internal state changes?",
+          "correctAnswer": "State pattern",
+          "wrongAnswer1": "Strategy pattern",
+          "wrongAnswer2": "Adapter pattern",
+          "wrongAnswer3": "Composite pattern",
+          "explanation": "The State pattern allows an object to change its behavior dynamically when its internal state changes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which design pattern is used to separate the construction of a complex object from its representation so that the same construction process can create different representations?",
+          "correctAnswer": "Builder pattern",
+          "wrongAnswer1": "Prototype pattern",
+          "wrongAnswer2": "Facade pattern",
+          "wrongAnswer3": "Mediator pattern",
+          "explanation": "The Builder pattern separates the construction of a complex object from its representation, enabling different representations to be created from the same construction process.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java Modules",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Java modules?",
+          "correctAnswer": "To organize code into well-defined, reusable components",
+          "wrongAnswer1": "To replace Java classes and objects",
+          "wrongAnswer2": "To handle exceptions more effectively",
+          "wrongAnswer3": "To increase the speed of Java compilation",
+          "explanation": "Java modules allow developers to group packages and resources into a single unit to manage dependencies and visibility, enhancing the organization and maintainability of large codebases.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which file is essential for defining a Java module and specifying its dependencies?",
+          "correctAnswer": "module-info.java",
+          "wrongAnswer1": "package-info.java",
+          "wrongAnswer2": "MANIFEST.MF",
+          "wrongAnswer3": "build.gradle",
+          "explanation": "The module-info.java file declares the module name, its dependencies with requires directives, and the packages it exports, serving as the descriptor of the module.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens if a Java module does not explicitly export a package?",
+          "correctAnswer": "The package is inaccessible to other modules outside the module",
+          "wrongAnswer1": "The package can be accessed by all modules by default",
+          "wrongAnswer2": "The package causes a compile-time error",
+          "wrongAnswer3": "The package becomes public and accessible everywhere",
+          "explanation": "By default, packages in a module are encapsulated and not accessible to other modules unless explicitly exported using the exports keyword in module-info.java.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java Security",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Java Security Manager?",
+          "correctAnswer": "To control access to system resources by Java applications",
+          "wrongAnswer1": "To manage user authentication in Java programs",
+          "wrongAnswer2": "To handle network connections in Java applications",
+          "wrongAnswer3": "To optimize memory usage in Java programs",
+          "explanation": "The Java Security Manager is responsible for controlling access to system resources like file systems, network connections, and other critical resources by Java code to prevent unauthorized operations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a feature of Java Cryptography Architecture (JCA)?",
+          "correctAnswer": "Provides a framework for encryption and key management",
+          "wrongAnswer1": "Manages user sessions in web applications",
+          "wrongAnswer2": "Compiles Java source code into bytecode",
+          "wrongAnswer3": "Schedules tasks in Java applications",
+          "explanation": "The Java Cryptography Architecture provides APIs for cryptographic operations like encryption, decryption, and key management, enabling secure data handling.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What role do digital signatures play in Java security?",
+          "correctAnswer": "They verify the authenticity and integrity of data",
+          "wrongAnswer1": "They encrypt data for transmission",
+          "wrongAnswer2": "They manage user credentials in applications",
+          "wrongAnswer3": "They monitor network traffic for threats",
+          "explanation": "Digital signatures in Java ensure that data has not been altered and confirm the identity of the sender, thus enhancing security.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java Debugging",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Java debugger?",
+          "correctAnswer": "To find and fix errors in Java programs",
+          "wrongAnswer1": "To compile Java code into bytecode",
+          "wrongAnswer2": "To execute Java programs faster",
+          "wrongAnswer3": "To write Java source code automatically",
+          "explanation": "The Java debugger is used mainly to locate and correct bugs or errors in Java programs during development.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which tool is commonly used for debugging Java applications in an IDE?",
+          "correctAnswer": "The built-in debugger in IDEs like Eclipse or IntelliJ",
+          "wrongAnswer1": "The Java compiler",
+          "wrongAnswer2": "The Java Virtual Machine alone",
+          "wrongAnswer3": "The Java documentation tool",
+          "explanation": "IDEs such as Eclipse and IntelliJ provide integrated debuggers that allow developers to set breakpoints, step through code, and inspect variable values.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens when you set a breakpoint in a Java debugger?",
+          "correctAnswer": "The program execution pauses at that line to allow inspection",
+          "wrongAnswer1": "The program skips that line automatically",
+          "wrongAnswer2": "The program runs twice as fast on that line",
+          "wrongAnswer3": "The program is automatically fixed at that line",
+          "explanation": "Setting a breakpoint causes the program to pause execution when it reaches that line, so the developer can examine the program state at that moment.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java Testing",
+      "questions": [
+        {
+          "question": "What is the primary purpose of JUnit in Java testing",
+          "correctAnswer": "To write and run repeatable automated tests",
+          "wrongAnswer1": "To manage Java project dependencies",
+          "wrongAnswer2": "To create Java user interfaces",
+          "wrongAnswer3": "To compile Java source code",
+          "explanation": "JUnit is a popular testing framework used in Java to write and run automated tests to ensure code correctness.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which annotation is used in JUnit to indicate that a method is a test case",
+          "correctAnswer": "@Test",
+          "wrongAnswer1": "@RunWith",
+          "wrongAnswer2": "@Before",
+          "wrongAnswer3": "@Override",
+          "explanation": "In JUnit, the @Test annotation marks a method as a test case that should be executed by the test runner.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does a mocking framework like Mockito help with in Java testing",
+          "correctAnswer": "Simulating behavior of complex dependencies",
+          "wrongAnswer1": "Automatically generating Java documentation",
+          "wrongAnswer2": "Encrypting Java application data",
+          "wrongAnswer3": "Compiling Java source into bytecode",
+          "explanation": "Mockito is a mocking framework used in Java testing to simulate the behavior of complex objects or dependencies, allowing isolated unit testing.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java Build Tools",
+      "questions": [
+        {
+          "question": "What is the main purpose of Java build tools?",
+          "correctAnswer": "To automate the process of compiling, testing, and packaging Java applications",
+          "wrongAnswer1": "To write Java code",
+          "wrongAnswer2": "To deploy applications directly to servers",
+          "wrongAnswer3": "To manage database connections in Java applications",
+          "explanation": "Java build tools are used to automate repetitive tasks such as compiling source code, running tests, and creating executable packages, making development more efficient.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a popular Java build tool?",
+          "correctAnswer": "Apache Maven",
+          "wrongAnswer1": "Eclipse IDE",
+          "wrongAnswer2": "NetBeans",
+          "wrongAnswer3": "JDK",
+          "explanation": "Apache Maven is a widely used build tool in Java that manages project builds, dependencies, and documentation. Eclipse and NetBeans are IDEs, and JDK is the Java Development Kit.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What feature of Maven allows it to manage project dependencies automatically?",
+          "correctAnswer": "Dependency management using a project Object Model file",
+          "wrongAnswer1": "Manual downloading of libraries",
+          "wrongAnswer2": "Automatic code generation",
+          "wrongAnswer3": "Using Ant scripts",
+          "explanation": "Maven uses a Project Object Model file, typically pom.xml, to declare dependencies, which it then automatically downloads and manages.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Maven Usage",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Apache Maven in Java development?",
+          "correctAnswer": "It manages project builds and dependencies using a standardized lifecycle.",
+          "wrongAnswer1": "It is a library used for creating graphical user interfaces.",
+          "wrongAnswer2": "It serves as a database management tool for Java applications.",
+          "wrongAnswer3": "It is a software for debugging Java bytecode.",
+          "explanation": "Apache Maven automates the build process and manages dependencies by following a standard lifecycle, which simplifies project management.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Maven, which file is responsible for defining project configuration including dependencies and plugins?",
+          "correctAnswer": "The pom.xml file",
+          "wrongAnswer1": "The build.gradle file",
+          "wrongAnswer2": "The settings.xml file",
+          "wrongAnswer3": "The manifest.mf file",
+          "explanation": "The pom.xml file (Project Object Model) is the fundamental unit of configuration in Maven containing information about the project and configuration details.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Maven command is used to compile the source code of a project?",
+          "correctAnswer": "mvn compile",
+          "wrongAnswer1": "mvn build",
+          "wrongAnswer2": "mvn start",
+          "wrongAnswer3": "mvn test",
+          "explanation": "The mvn compile command compiles the source code of the project into the target directory. Other commands perform different tasks such as testing or building the package.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Gradle Usage",
+      "questions": [
+        {
+          "question": "What is the main purpose of using Gradle in a Java project?",
+          "correctAnswer": "To automate building, testing, and deployment processes",
+          "wrongAnswer1": "To write Java application code",
+          "wrongAnswer2": "To serve Java applications on the web",
+          "wrongAnswer3": "To manage database connections",
+          "explanation": "Gradle is a build automation tool used primarily to handle tasks like compiling code, running tests, and packaging applications in Java projects.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which file is commonly used to define build configurations in a Gradle-based Java project?",
+          "correctAnswer": "build.gradle",
+          "wrongAnswer1": "pom.xml",
+          "wrongAnswer2": "settings.xml",
+          "wrongAnswer3": "manifest.mf",
+          "explanation": "The build.gradle file is used to configure project settings, dependencies, and tasks in a Gradle project, whereas pom.xml is used by Maven.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does Gradle help manage dependencies in a Java project?",
+          "correctAnswer": "By automatically downloading and including required libraries based on configurations",
+          "wrongAnswer1": "By manually copying all library files into the project",
+          "wrongAnswer2": "By excluding all external libraries to reduce build size",
+          "wrongAnswer3": "By converting Java code into dependencies",
+          "explanation": "Gradle resolves and downloads libraries declared in the build script, ensuring that all necessary dependencies are included during the build.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java Annotations",
+      "questions": [
+        {
+          "question": "What is the primary purpose of annotations in Java?",
+          "correctAnswer": "To provide metadata to Java code for use by the compiler and runtime",
+          "wrongAnswer1": "To replace comments in Java code entirely",
+          "wrongAnswer2": "To execute code blocks conditionally",
+          "wrongAnswer3": "To handle exceptions automatically",
+          "explanation": "Annotations in Java are used to provide metadata that can be processed by the compiler, tools, or runtime to influence program behavior or verification.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which annotation is used to indicate that a method should override a method from its superclass?",
+          "correctAnswer": "Override",
+          "wrongAnswer1": "Deprecated",
+          "wrongAnswer2": "SuppressWarnings",
+          "wrongAnswer3": "FunctionalInterface",
+          "explanation": "The Override annotation explicitly indicates that a method is intended to override a method in the superclass, helping the compiler catch errors if the method does not actually override anything.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can custom annotations be retained at runtime for reflection?",
+          "correctAnswer": "By using Retention policy RUNTIME in the annotation definition",
+          "wrongAnswer1": "By default all annotations are retained at runtime",
+          "wrongAnswer2": "By using Target policy METHOD in the annotation definition",
+          "wrongAnswer3": "By annotating classes with Deprecated",
+          "explanation": "To make a custom annotation accessible at runtime via reflection, it must be defined with @Retention(RetentionPolicy.RUNTIME). Otherwise, it is not available at runtime.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java Beans",
+      "questions": [
+        {
+          "question": "What is a JavaBean in Java programming?",
+          "correctAnswer": "A reusable software component that follows certain conventions",
+          "wrongAnswer1": "A JavaBean is a type of database",
+          "wrongAnswer2": "A JavaBean is a Java application server",
+          "wrongAnswer3": "A JavaBean is a graphical user interface",
+          "explanation": "A JavaBean is a reusable software component in Java that follows specific conventions such as having a no-argument constructor, being serializable, and providing getter and setter methods for accessing properties.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a required property of a JavaBean?",
+          "correctAnswer": "It must have a no-argument constructor",
+          "wrongAnswer1": "It must extend the JFrame class",
+          "wrongAnswer2": "It must implement the Runnable interface",
+          "wrongAnswer3": "It must be defined as an abstract class",
+          "explanation": "One of the requirements for JavaBeans is to have a public no-argument constructor to allow easy instantiation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method naming convention is used to access properties in JavaBeans?",
+          "correctAnswer": "Getters and setters using getPropertyName and setPropertyName",
+          "wrongAnswer1": "Methods named startPropertyName and stopPropertyName",
+          "wrongAnswer2": "Methods named fetchPropertyName and updatePropertyName",
+          "wrongAnswer3": "Methods named readPropertyName and writePropertyName",
+          "explanation": "JavaBeans use getter and setter methods following the pattern getPropertyName and setPropertyName to access and modify property values.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java Servlets",
+      "questions": [
+        {
+          "question": "What is the primary role of a Java Servlet in web applications?",
+          "correctAnswer": "To handle client requests and generate dynamic web content",
+          "wrongAnswer1": "To store client-side data permanently",
+          "wrongAnswer2": "To compile Java code into bytecode",
+          "wrongAnswer3": "To manage database connectivity directly",
+          "explanation": "Java Servlets are server-side programs designed to handle client requests and generate dynamic responses, often in HTML, which are sent back to the client.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which interface or class must a Java Servlet extend or implement to be functional?",
+          "correctAnswer": "HttpServlet class or Servlet interface",
+          "wrongAnswer1": "JavaBean class",
+          "wrongAnswer2": "Runnable interface",
+          "wrongAnswer3": "ServletConfig class",
+          "explanation": "A Java Servlet typically extends the HttpServlet class or implements the Servlet interface to handle HTTP requests and responses effectively.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does a servlet differ from a JSP (JavaServer Page)?",
+          "correctAnswer": "Servlets are Java classes handling logic, while JSPs are HTML pages with embedded Java code",
+          "wrongAnswer1": "Servlets are only for database operations, JSPs are for session management",
+          "wrongAnswer2": "Servlets run on clients, JSPs run on servers",
+          "wrongAnswer3": "Servlets are written in XML, JSPs in Java",
+          "explanation": "Servlets are Java programs that manage the web application's control and response generation, whereas JSPs are used to create dynamic web content by embedding Java code in HTML pages.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java JSP",
+      "questions": [
+        {
+          "question": "What does JSP stand for in Java?",
+          "correctAnswer": "JavaServer Pages",
+          "wrongAnswer1": "Java Standard Protocol",
+          "wrongAnswer2": "Java Simple Programming",
+          "wrongAnswer3": "Java Servlet Pages",
+          "explanation": "JSP stands for JavaServer Pages, which is a technology used for developing dynamic web pages in Java.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about JavaServer Pages?",
+          "correctAnswer": "They allow embedding Java code in HTML pages.",
+          "wrongAnswer1": "They are compiled into Python scripts.",
+          "wrongAnswer2": "They replace HTML entirely in web pages.",
+          "wrongAnswer3": "They cannot use JavaBeans components.",
+          "explanation": "JavaServer Pages allow embedding Java code directly in HTML pages to generate dynamic content, unlike other scripting languages.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How are JavaServer Pages processed by the server?",
+          "correctAnswer": "They are compiled into servlets before execution.",
+          "wrongAnswer1": "They are interpreted directly as HTML files.",
+          "wrongAnswer2": "They run as standalone Java applications.",
+          "wrongAnswer3": "They are converted into Java applets.",
+          "explanation": "When a JSP is requested, the server compiles it into a Java servlet which is then executed to generate the response.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Servlet Filters",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Servlet Filter in Java web applications?",
+          "correctAnswer": "To intercept and process requests and responses before they reach a servlet",
+          "wrongAnswer1": "To directly handle database connections within a servlet",
+          "wrongAnswer2": "To generate the final HTML response sent to clients",
+          "wrongAnswer3": "To compile Java code during runtime",
+          "explanation": "Servlet Filters are used to intercept requests and responses, allowing for preprocessing and postprocessing without changing the servlet itself.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method must be implemented by a Servlet Filter to perform its filtering tasks?",
+          "correctAnswer": "doFilter",
+          "wrongAnswer1": "service",
+          "wrongAnswer2": "initFilter",
+          "wrongAnswer3": "processRequest",
+          "explanation": "The doFilter method is called by the container each time a request/response pair is passed through the filter chain.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How are multiple Servlet Filters executed when mapped to the same URL pattern?",
+          "correctAnswer": "They execute in the order declared in the deployment descriptor or annotations",
+          "wrongAnswer1": "They execute in a random order determined at runtime",
+          "wrongAnswer2": "Only the first declared filter executes, the rest are ignored",
+          "wrongAnswer3": "They execute simultaneously in parallel threads",
+          "explanation": "The container executes filters in the order they are declared either in web.xml or via annotations to ensure predictable processing.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java Web Services",
+      "questions": [
+        {
+          "question": "What is the main purpose of Java Web Services?",
+          "correctAnswer": "To enable communication between different applications over the web",
+          "wrongAnswer1": "To design user interfaces for web applications",
+          "wrongAnswer2": "To manage database connections in Java",
+          "wrongAnswer3": "To compile Java programs faster",
+          "explanation": "Java Web Services allow different applications to communicate and share data over the web, facilitating interoperability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which protocol is commonly used by Java Web Services for communication?",
+          "correctAnswer": "SOAP",
+          "wrongAnswer1": "FTP",
+          "wrongAnswer2": "SMTP",
+          "wrongAnswer3": "SSH",
+          "explanation": "SOAP is a protocol widely used in Java Web Services to enable exchange of structured information in a decentralized environment.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a key difference between SOAP and RESTful Java Web Services?",
+          "correctAnswer": "SOAP uses XML exclusively while REST can use multiple data formats",
+          "wrongAnswer1": "REST only supports XML while SOAP supports JSON",
+          "wrongAnswer2": "SOAP is faster than REST in all cases",
+          "wrongAnswer3": "REST requires more bandwidth than SOAP",
+          "explanation": "SOAP web services rely exclusively on XML messaging, whereas RESTful services support various formats like JSON, XML, or plain text, offering more flexibility.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Java EE Components",
+      "questions": [
+        {
+          "question": "Which of the following is a primary component of Java EE used for handling business logic?",
+          "correctAnswer": "Enterprise JavaBeans",
+          "wrongAnswer1": "Servlets",
+          "wrongAnswer2": "JavaServer Pages",
+          "wrongAnswer3": "Java Database Connectivity",
+          "explanation": "Enterprise JavaBeans (EJB) is the component in Java EE designed to encapsulate business logic, handling transactions and security among others.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Java EE, which component is responsible for managing user requests and responses on the server?",
+          "correctAnswer": "Servlets",
+          "wrongAnswer1": "Java Message Service",
+          "wrongAnswer2": "Enterprise JavaBeans",
+          "wrongAnswer3": "Java Persistence API",
+          "explanation": "Servlets are Java EE components that handle client requests and generate responses, typically used for web applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What Java EE component allows developers to create dynamic web pages using templates?",
+          "correctAnswer": "JavaServer Pages",
+          "wrongAnswer1": "Java Naming and Directory Interface",
+          "wrongAnswer2": "Java Message Service",
+          "wrongAnswer3": "Enterprise JavaBeans",
+          "explanation": "JavaServer Pages (JSP) enable the creation of dynamic web content by embedding Java code in HTML pages, which are compiled into servlets.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Spring Framework",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Spring Framework in Java development?",
+          "correctAnswer": "To simplify Java enterprise application development using dependency injection and aspect-oriented programming",
+          "wrongAnswer1": "To provide a graphical user interface for Java applications",
+          "wrongAnswer2": "To compile Java code into machine language",
+          "wrongAnswer3": "To manage databases in Java applications",
+          "explanation": "Spring Framework helps developers build Java enterprise applications more easily by managing dependencies and providing support for various programming paradigms like aspect-oriented programming.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature of the Spring Framework allows for loose coupling by managing object creation and dependencies?",
+          "correctAnswer": "Dependency Injection",
+          "wrongAnswer1": "Inheritance",
+          "wrongAnswer2": "Encapsulation",
+          "wrongAnswer3": "Polymorphism",
+          "explanation": "Dependency Injection (DI) is a key feature of Spring that promotes loose coupling by injecting dependencies into objects rather than having objects construct their own dependencies.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Spring module is primarily responsible for integrating with other frameworks and technologies such as JPA, JMS, and Web Services?",
+          "correctAnswer": "Spring Integration",
+          "wrongAnswer1": "Spring Core",
+          "wrongAnswer2": "Spring AOP",
+          "wrongAnswer3": "Spring MVC",
+          "explanation": "Spring Integration provides support for integrating Spring applications with external systems and technologies, facilitating messaging and communication between different services and frameworks.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "concept": "Hibernate ORM",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Hibernate ORM in Java development?",
+          "correctAnswer": "To map Java objects to database tables and simplify database operations",
+          "wrongAnswer1": "To compile Java code into bytecode",
+          "wrongAnswer2": "To design user interface components",
+          "wrongAnswer3": "To handle network communication protocols",
+          "explanation": "Hibernate ORM is a framework that maps Java classes to database tables, making database operations easier and more efficient without writing SQL queries manually.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which annotation is commonly used in Hibernate to denote the primary key of an entity class?",
+          "correctAnswer": "@Id",
+          "wrongAnswer1": "@PrimaryKey",
+          "wrongAnswer2": "@ColumnKey",
+          "wrongAnswer3": "@EntityId",
+          "explanation": "The @Id annotation is used in Hibernate to specify the primary key of an entity, which uniquely identifies each record in the database table.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Hibernate handle lazy loading for associated entities?",
+          "correctAnswer": "It loads associated entities only when they are accessed for the first time",
+          "wrongAnswer1": "It loads all associated entities immediately when the parent entity is loaded",
+          "wrongAnswer2": "It does not support lazy loading",
+          "wrongAnswer3": "It loads associated entities only when the session is closed",
+          "explanation": "Hibernate supports lazy loading by default, where related entities are loaded from the database only when their properties are accessed, improving performance by avoiding unnecessary data fetching.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

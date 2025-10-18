@@ -1,0 +1,1655 @@
+{
+  "topic": "C/C++",
+  "concepts": [
+    {
+      "topic": "C/C++",
+      "concept": "Pointers",
+      "questions": [
+        {
+          "question": "What does a pointer in C/C++ primarily store?",
+          "correctAnswer": "The memory address of another variable",
+          "wrongAnswer1": "The value of another variable",
+          "wrongAnswer2": "A variable type",
+          "wrongAnswer3": "The size of a variable",
+          "explanation": "A pointer in C/C++ stores the memory address of another variable, allowing indirect access to that variable's value.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you declare a pointer to an integer in C/C++?",
+          "correctAnswer": "int *ptr;",
+          "wrongAnswer1": "int ptr;",
+          "wrongAnswer2": "int &ptr;",
+          "wrongAnswer3": "pointer int ptr;",
+          "explanation": "The correct syntax to declare a pointer to an integer is int *ptr;, where the asterisk indicates it is a pointer type.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the purpose of the dereference operator in C/C++ pointers?",
+          "correctAnswer": "To access or modify the value stored at the memory address the pointer points to",
+          "wrongAnswer1": "To declare a pointer variable",
+          "wrongAnswer2": "To get the memory address of a variable",
+          "wrongAnswer3": "To allocate memory for a pointer",
+          "explanation": "The dereference operator (*) is used to access or modify the actual value stored at the address held by the pointer.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Memory Allocation",
+      "questions": [
+        {
+          "question": "Which function is used in C to allocate memory dynamically?",
+          "correctAnswer": "malloc",
+          "wrongAnswer1": "alloc",
+          "wrongAnswer2": "getmem",
+          "wrongAnswer3": "new",
+          "explanation": "In C, malloc is used to allocate memory dynamically. The new operator is used in C++.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the realloc function do in C?",
+          "correctAnswer": "Resizes previously allocated memory block",
+          "wrongAnswer1": "Frees memory allocated by malloc",
+          "wrongAnswer2": "Allocates memory for a new variable",
+          "wrongAnswer3": "Copies memory from one location to another",
+          "explanation": "realloc is used to resize the size of a previously allocated memory block without losing the existing data.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In C++, which operator is used for dynamic memory allocation?",
+          "correctAnswer": "new",
+          "wrongAnswer1": "malloc",
+          "wrongAnswer2": "alloc",
+          "wrongAnswer3": "calloc",
+          "explanation": "C++ uses new operator for dynamic memory allocation, while C uses malloc and calloc functions.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Data Types",
+      "questions": [
+        {
+          "question": "Which data type is used to store a single character in C/C++?",
+          "correctAnswer": "char",
+          "wrongAnswer1": "int",
+          "wrongAnswer2": "float",
+          "wrongAnswer3": "double",
+          "explanation": "The char data type is specifically used to store a single character in C and C++ programming languages.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the size of an int data type typically in C/C++ on a 32-bit system?",
+          "correctAnswer": "4 bytes",
+          "wrongAnswer1": "2 bytes",
+          "wrongAnswer2": "8 bytes",
+          "wrongAnswer3": "1 byte",
+          "explanation": "On most 32-bit systems, the int data type typically occupies 4 bytes of memory in C and C++.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following data types allows you to store decimal numbers in C/C++?",
+          "correctAnswer": "float",
+          "wrongAnswer1": "int",
+          "wrongAnswer2": "char",
+          "wrongAnswer3": "bool",
+          "explanation": "The float data type is used for storing decimal (floating-point) numbers in C and C++.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Loops",
+      "questions": [
+        {
+          "question": "What is the purpose of a loop in C or C++ programming?",
+          "correctAnswer": "To repeat a block of code multiple times based on a condition",
+          "wrongAnswer1": "To store multiple values in a single variable",
+          "wrongAnswer2": "To divide the program into multiple functions",
+          "wrongAnswer3": "To handle errors during program execution",
+          "explanation": "A loop allows a program to execute a block of code repeatedly while a specified condition is true, facilitating repetitive tasks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following loops is guaranteed to run the loop body at least once?",
+          "correctAnswer": "do-while loop",
+          "wrongAnswer1": "while loop",
+          "wrongAnswer2": "for loop",
+          "wrongAnswer3": "if statement",
+          "explanation": "The do-while loop checks its condition after executing the loop body, ensuring it runs at least once.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the key difference between a for loop and a while loop in C/C++?",
+          "correctAnswer": "A for loop includes initialization, condition, and increment/decrement in one line, while a while loop separates them",
+          "wrongAnswer1": "A while loop can only run a fixed number of times but a for loop can run indefinitely",
+          "wrongAnswer2": "A for loop cannot be nested but a while loop can",
+          "wrongAnswer3": "A for loop is used only for arrays and a while loop for other data types",
+          "explanation": "For loops are compact structures that combine initialization, condition checking, and iteration step in one statement. While loops require these steps to be separately handled in code, giving more flexibility.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Functions",
+      "questions": [
+        {
+          "question": "What is the purpose of a function in C or C++?",
+          "correctAnswer": "To group a set of statements that perform a specific task",
+          "wrongAnswer1": "To store data permanently",
+          "wrongAnswer2": "To create variables globally",
+          "wrongAnswer3": "To compile the program faster",
+          "explanation": "Functions are designed to encapsulate a set of instructions that perform a specific task, making code modular and reusable.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following correctly declares a function that returns an integer and takes no parameters in C or C++?",
+          "correctAnswer": "int functionName();",
+          "wrongAnswer1": "void functionName(int);",
+          "wrongAnswer2": "functionName int();",
+          "wrongAnswer3": "int; functionName()",
+          "explanation": "The correct syntax specifies the return type, function name, and parameter list in parentheses. Here, int functionName() declares a function returning an integer with no parameters.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In C++, what feature allows a function to have the same name but operate differently based on parameter types or number?",
+          "correctAnswer": "Function overloading",
+          "wrongAnswer1": "Function overriding",
+          "wrongAnswer2": "Function hiding",
+          "wrongAnswer3": "Function pointer",
+          "explanation": "Function overloading allows multiple functions with the same name to exist as long as they have different parameter lists, enabling different behaviors.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Classes",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a class in C++?",
+          "correctAnswer": "To define a blueprint for creating objects with data and functions",
+          "wrongAnswer1": "To perform low-level memory manipulation",
+          "wrongAnswer2": "To serve as an entry point for the program execution",
+          "wrongAnswer3": "To organize code into namespaces for avoiding conflicts",
+          "explanation": "In C++, a class defines a blueprint for objects. It encapsulates data members (attributes) and member functions (methods) that operate on the data. Classes support concepts like encapsulation and object-oriented programming.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a feature provided by classes in C++?",
+          "correctAnswer": "Automatic memory management like garbage collection",
+          "wrongAnswer1": "Encapsulation of data and functions",
+          "wrongAnswer2": "Support for constructors and destructors",
+          "wrongAnswer3": "Ability to implement inheritance and polymorphism",
+          "explanation": "C++ classes provide encapsulation, constructors and destructors, inheritance, and polymorphism, but they do not have automatic garbage collection. Memory management is manual or assisted through smart pointers.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens when a class object goes out of scope?",
+          "correctAnswer": "Its destructor is called to release resources",
+          "wrongAnswer1": "Its constructor is called again",
+          "wrongAnswer2": "The program crashes",
+          "wrongAnswer3": "Memory is automatically copied to the heap",
+          "explanation": "When a class object goes out of scope, its destructor is called automatically to clean up resources. This includes releasing memory or other resources owned by the object to avoid memory leaks.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Inheritance",
+      "questions": [
+        {
+          "question": "What is inheritance in C++?",
+          "correctAnswer": "A mechanism where a class derives properties and behavior from another class",
+          "wrongAnswer1": "A way to hide data within a class",
+          "wrongAnswer2": "A process of executing multiple functions simultaneously",
+          "wrongAnswer3": "Defining unrelated classes in a single program",
+          "explanation": "Inheritance allows a new class to acquire the properties and methods of an existing class to promote code reuse and establish a relationship between classes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used to declare inheritance in C++?",
+          "correctAnswer": "class DerivedClass : accessSpecifier BaseClass",
+          "wrongAnswer1": "inherit DerivedClass from BaseClass",
+          "wrongAnswer2": "new DerivedClass inherits BaseClass",
+          "wrongAnswer3": "derive DerivedClass BaseClass",
+          "explanation": "In C++, the syntax for inheritance uses a colon after the derived class name followed by an access specifier and the base class name.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What type of inheritance is shown by class D inheriting from classes B and C, which both inherit from class A?",
+          "correctAnswer": "Multiple inheritance",
+          "wrongAnswer1": "Single inheritance",
+          "wrongAnswer2": "Hierarchical inheritance",
+          "wrongAnswer3": "Multilevel inheritance",
+          "explanation": "When a class inherits from more than one class, it is called multiple inheritance. In this example, D inherits from B and C, demonstrating multiple inheritance.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Polymorphism",
+      "questions": [
+        {
+          "question": "What is polymorphism in C++?",
+          "correctAnswer": "The ability of a function or object to take multiple forms",
+          "wrongAnswer1": "The process of allocating memory dynamically",
+          "wrongAnswer2": "A method to protect data from unauthorized access",
+          "wrongAnswer3": "A type of data structure used for storing elements",
+          "explanation": "Polymorphism in C++ allows functions or objects to behave differently based on the context, enabling multiple forms of a single interface.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes compile-time polymorphism in C++?",
+          "correctAnswer": "Function overloading and operator overloading",
+          "wrongAnswer1": "Inheritance and virtual functions",
+          "wrongAnswer2": "Runtime type identification",
+          "wrongAnswer3": "Pointer arithmetic",
+          "explanation": "Compile-time polymorphism in C++ is achieved through function overloading and operator overloading, which is resolved during compilation.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does runtime polymorphism work in C++?",
+          "correctAnswer": "Using virtual functions with base class pointers or references",
+          "wrongAnswer1": "Through function templates",
+          "wrongAnswer2": "Using static member functions",
+          "wrongAnswer3": "By using macros",
+          "explanation": "Runtime polymorphism in C++ is achieved by using virtual functions, which allow the program to decide which function to invoke at runtime through base class pointers or references.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Encapsulation",
+      "questions": [
+        {
+          "question": "What is the main purpose of encapsulation in C++?",
+          "correctAnswer": "To bundle data and methods that operate on that data within a single unit",
+          "wrongAnswer1": "To separate code into different files",
+          "wrongAnswer2": "To improve execution speed of the program",
+          "wrongAnswer3": "To allow functions to be called without parameters",
+          "explanation": "Encapsulation in C++ is used to bundle the data and functions that manipulate the data into a single unit, typically a class, to hide the internal state of the object and only expose a controlled interface.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which C++ feature directly supports encapsulation?",
+          "correctAnswer": "Classes and access specifiers like private and public",
+          "wrongAnswer1": "Pointers and references",
+          "wrongAnswer2": "Preprocessor directives",
+          "wrongAnswer3": "Functions without return type",
+          "explanation": "Encapsulation is achieved in C++ through classes which use access specifiers such as private, protected, and public to control access to the data members and member functions.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why should data members of a class be declared private in C++?",
+          "correctAnswer": "To prevent direct access and modification from outside the class, ensuring controlled access through member functions",
+          "wrongAnswer1": "To allow other classes to inherit these data members easily",
+          "wrongAnswer2": "To increase the speed of the program execution",
+          "wrongAnswer3": "To enable the data members to be accessed globally",
+          "explanation": "Declaring data members private is a common encapsulation practice to protect the integrity of the data by controlling how it is accessed and modified, typically through public getter and setter functions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Templates",
+      "questions": [
+        {
+          "question": "What is the primary purpose of templates in C++?",
+          "correctAnswer": "To enable generic programming by allowing functions and classes to operate with any data type",
+          "wrongAnswer1": "To manage memory allocation and deallocation automatically",
+          "wrongAnswer2": "To provide built-in support for multithreading",
+          "wrongAnswer3": "To simplify syntax for input and output operations",
+          "explanation": "Templates in C++ allow you to write generic functions and classes that can work with any data type, promoting code reusability and type safety.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used to define a template in C++?",
+          "correctAnswer": "template",
+          "wrongAnswer1": "generic",
+          "wrongAnswer2": "typedef",
+          "wrongAnswer3": "class",
+          "explanation": "The keyword template is used to declare a function or class template in C++, indicating that the following definition is a blueprint for generic programming.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you specify a template parameter for a function template?",
+          "correctAnswer": "template <typename T>",
+          "wrongAnswer1": "template (class T)",
+          "wrongAnswer2": "template <class T>",
+          "wrongAnswer3": "template [typename T]",
+          "explanation": "The correct syntax to specify a template parameter in a function template is template <typename T> or equivalently template <class T>. Both are valid but the standard uses typename most often.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "STL",
+      "questions": [
+        {
+          "question": "What does STL stand for in C++ programming?",
+          "correctAnswer": "Standard Template Library",
+          "wrongAnswer1": "Standard Type Library",
+          "wrongAnswer2": "Static Template Library",
+          "wrongAnswer3": "Simple Template Language",
+          "explanation": "STL stands for Standard Template Library, which is a collection of C++ template classes to provide common data structures and functions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a component of the STL?",
+          "correctAnswer": "Network module",
+          "wrongAnswer1": "Containers",
+          "wrongAnswer2": "Algorithms",
+          "wrongAnswer3": "Iterators",
+          "explanation": "The STL consists mainly of containers, algorithms, and iterators. It does not include a network module.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which STL container would be best to use when you need fast access to elements by a key?",
+          "correctAnswer": "map",
+          "wrongAnswer1": "vector",
+          "wrongAnswer2": "list",
+          "wrongAnswer3": "stack",
+          "explanation": "The map container stores key-value pairs and allows fast retrieval of elements by key. Vector and list are sequential containers, and stack is a container adapter.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "References",
+      "questions": [
+        {
+          "question": "What is a reference in C++?",
+          "correctAnswer": "An alias for an existing variable",
+          "wrongAnswer1": "A pointer to a variable",
+          "wrongAnswer2": "A new variable with the same value",
+          "wrongAnswer3": "A memory address holder",
+          "explanation": "In C++, a reference is an alias for another variable. It does not hold its own memory address but refers to the memory location of the original variable.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about references in C++?",
+          "correctAnswer": "A reference must be initialized when declared",
+          "wrongAnswer1": "A reference can be uninitialized",
+          "wrongAnswer2": "A reference can be reassigned to another variable later",
+          "wrongAnswer3": "A reference can hold a null value",
+          "explanation": "References must be initialized when declared and cannot be made to refer to a different variable later. There are no null references unlike pointers.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do references differ from pointers in C++?",
+          "correctAnswer": "References cannot be null and must be initialized at declaration",
+          "wrongAnswer1": "References can be reassigned to different variables",
+          "wrongAnswer2": "References store memory addresses explicitly",
+          "wrongAnswer3": "References require manual dereferencing",
+          "explanation": "References are automatically dereferenced and must be initialized to refer to a valid variable at declaration time. They cannot be null or reassigned unlike pointers.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Structures",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a structure in C/C++?",
+          "correctAnswer": "To group different data types under a single name",
+          "wrongAnswer1": "To perform mathematical operations",
+          "wrongAnswer2": "To create a new data type that has only one data member",
+          "wrongAnswer3": "To allocate memory dynamically",
+          "explanation": "Structures in C/C++ allow grouping variables of different data types into a single unit for easier handling and manipulation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you access a member variable of a structure when you have a pointer to that structure in C/C++?",
+          "correctAnswer": "Use the arrow operator (->) to access the member",
+          "wrongAnswer1": "Use the dot operator (.) to access the member",
+          "wrongAnswer2": "Dereference the pointer and then use the dot operator",
+          "wrongAnswer3": "Use the star operator (*) to access the member",
+          "explanation": "When you have a pointer to a structure, the arrow operator (->) is used to access the structure's members directly through the pointer.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is true about structures in C/C++?",
+          "correctAnswer": "Structures can contain variables of different data types",
+          "wrongAnswer1": "Structures can only contain variables of the same data type",
+          "wrongAnswer2": "Structures automatically support member functions in C",
+          "wrongAnswer3": "Structures cannot be nested inside other structures",
+          "explanation": "Structures in C/C++ can have members of different data types, including basic types, arrays, and even other structures. In C, structures do not have member functions; that is a feature of C++ classes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Unions",
+      "questions": [
+        {
+          "question": "What is a union in C/C++?",
+          "correctAnswer": "A data structure where all members share the same memory location",
+          "wrongAnswer1": "A data structure where each member has its own memory location",
+          "wrongAnswer2": "A function that combines multiple data types",
+          "wrongAnswer3": "A pointer to multiple data elements",
+          "explanation": "A union allows storing different data types in the same memory location; all members share the same memory address.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does the size of a union relate to its members in C/C++?",
+          "correctAnswer": "The size is equal to the size of its largest member",
+          "wrongAnswer1": "The size is the sum of sizes of all members",
+          "wrongAnswer2": "The size is always fixed at 4 bytes",
+          "wrongAnswer3": "The size depends on the number of members multiplied by two",
+          "explanation": "The size of a union is determined by the largest member because all members share the same memory space.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens when you modify one member of a union in C/C++?",
+          "correctAnswer": "It affects all members because they share the same memory",
+          "wrongAnswer1": "Only that member is changed without affecting others",
+          "wrongAnswer2": "It deletes the other members from the union",
+          "wrongAnswer3": "It duplicates the value to all members",
+          "explanation": "Since all members of a union share the same memory, changing one affects the value of others as well.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Exception Handling",
+      "questions": [
+        {
+          "question": "What keyword is used to define an exception handling block in C++?",
+          "correctAnswer": "try",
+          "wrongAnswer1": "catch",
+          "wrongAnswer2": "throw",
+          "wrongAnswer3": "except",
+          "explanation": "In C++, the try block is used to define a block of code that will be tested for exceptions while it is executed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which statement correctly throws an exception in C++?",
+          "correctAnswer": "throw runtime_error(\"Error occurred\")",
+          "wrongAnswer1": "catch runtime_error(\"Error occurred\")",
+          "wrongAnswer2": "try runtime_error(\"Error occurred\")",
+          "wrongAnswer3": "except runtime_error(\"Error occurred\")",
+          "explanation": "The throw keyword is used to throw an exception object when an error occurs in the program.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens if an exception is thrown but not caught in C++?",
+          "correctAnswer": "The program terminates and may call terminate function",
+          "wrongAnswer1": "The program continues without any error",
+          "wrongAnswer2": "The exception is automatically ignored",
+          "wrongAnswer3": "The exception is caught by default handler and message is displayed",
+          "explanation": "If an exception is thrown and not caught, the standard behavior is to call the terminate function, which usually ends the program.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Operator Overloading",
+      "questions": [
+        {
+          "question": "What is the main purpose of operator overloading in C++?",
+          "correctAnswer": "To define custom behavior for operators with user-defined types",
+          "wrongAnswer1": "To increase the execution speed of operators",
+          "wrongAnswer2": "To allow operators to be used in different programming languages",
+          "wrongAnswer3": "To prevent operators from being used with built-in types",
+          "explanation": "Operator overloading allows programmers to redefine the behavior of operators such as +, -, *, etc. for user-defined types like classes, enabling intuitive usage of objects.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which operator can be overloaded in C++?",
+          "correctAnswer": "Arithmetic and comparison operators",
+          "wrongAnswer1": "Only arithmetic operators",
+          "wrongAnswer2": "Only logical operators",
+          "wrongAnswer3": "All operators including dot (.) and scope (::) operators",
+          "explanation": "Most operators including arithmetic, comparison, assignment, and even function call operators can be overloaded, but some like dot (.) and scope (::) cannot be overloaded in C++.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How is an operator overloaded as a member function in C++?",
+          "correctAnswer": "By defining a function named operator followed by the operator symbol inside the class",
+          "wrongAnswer1": "By defining a function named overload followed by the operator symbol",
+          "wrongAnswer2": "By creating a global function with the keyword operator_overload",
+          "wrongAnswer3": "By using a special macro in the class definition",
+          "explanation": "In C++, operator overloading as a member function is done by defining a function inside the class with the syntax operator<symbol>(), for example operator+().",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Namespaces",
+      "questions": [
+        {
+          "question": "What is the main purpose of namespaces in C++?",
+          "correctAnswer": "To organize code and prevent name conflicts",
+          "wrongAnswer1": "To increase the execution speed of the program",
+          "wrongAnswer2": "To handle memory allocation automatically",
+          "wrongAnswer3": "To replace classes and structures",
+          "explanation": "Namespaces are used in C++ to group entities like classes, objects and functions under a name, avoiding name collisions especially in large projects.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you access a function defined inside a namespace in C++?",
+          "correctAnswer": "Using the scope resolution operator with the namespace name",
+          "wrongAnswer1": "By including the namespace in angle brackets",
+          "wrongAnswer2": "By declaring the function as extern",
+          "wrongAnswer3": "By using the pointer to the namespace",
+          "explanation": "To access a function inside a namespace, you use the syntax namespaceName::functionName using the scope resolution operator (::).",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about the 'using namespace' directive?",
+          "correctAnswer": "It allows access to all members of a namespace without prefixing them",
+          "wrongAnswer1": "It limits access to only one function from the namespace",
+          "wrongAnswer2": "It deletes all functions in the namespace",
+          "wrongAnswer3": "It renames the namespace for local use",
+          "explanation": "The 'using namespace' directive allows the programmer to use all members of the namespace without needing to prefix their names with the namespace name.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Preprocessor Directives",
+      "questions": [
+        {
+          "question": "What is the primary purpose of preprocessor directives in C/C++?",
+          "correctAnswer": "To instruct the compiler to process certain instructions before actual compilation",
+          "wrongAnswer1": "To define functions that execute at runtime",
+          "wrongAnswer2": "To perform arithmetic operations during program execution",
+          "wrongAnswer3": "To manage memory allocation dynamically",
+          "explanation": "Preprocessor directives are commands that are executed by the preprocessor before the compilation starts, typically to include files, define macros, and control conditional compilation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which symbol is used to begin a preprocessor directive in C/C++?",
+          "correctAnswer": "The hash symbol",
+          "wrongAnswer1": "The dollar symbol",
+          "wrongAnswer2": "The at symbol",
+          "wrongAnswer3": "The ampersand symbol",
+          "explanation": "In C/C++, preprocessor directives always start with the # symbol, which tells the compiler to treat the line as a preprocessor command.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the #include directive do in a C/C++ program?",
+          "correctAnswer": "It inserts the contents of a specified file into the source code",
+          "wrongAnswer1": "It compiles the source code into an executable",
+          "wrongAnswer2": "It declares a new variable or function",
+          "wrongAnswer3": "It executes a function before the main program runs",
+          "explanation": "The #include directive is used to include the contents of a file, usually a header file, into the source file before compilation.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Multithreading",
+      "questions": [
+        {
+          "question": "What is the primary advantage of using multithreading in C/C++ programs?",
+          "correctAnswer": "To improve program performance by executing multiple threads concurrently",
+          "wrongAnswer1": "To reduce the memory footprint of the program",
+          "wrongAnswer2": "To simplify the code by using fewer functions",
+          "wrongAnswer3": "To ensure the program runs only on a single CPU core",
+          "explanation": "Multithreading allows a program to execute multiple threads at the same time, improving performance especially on multi-core processors.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following C++ features introduced to support multithreading?",
+          "correctAnswer": "The thread class in the Standard Library",
+          "wrongAnswer1": "The vector container for storing threads",
+          "wrongAnswer2": "The auto keyword for thread type inference",
+          "wrongAnswer3": "The extern keyword for managing thread linkage",
+          "explanation": "The C++11 Standard introduced the thread class to directly support multithreading in the language's standard library.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In multithreading, what is a common problem that occurs when two threads attempt to modify the same data simultaneously?",
+          "correctAnswer": "Race condition",
+          "wrongAnswer1": "Deadlock",
+          "wrongAnswer2": "Stack overflow",
+          "wrongAnswer3": "Memory leak",
+          "explanation": "A race condition happens when multiple threads access and modify shared data concurrently without proper synchronization.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "File I/O",
+      "questions": [
+        {
+          "question": "What function is used to open a file in C?",
+          "correctAnswer": "fopen",
+          "wrongAnswer1": "open",
+          "wrongAnswer2": "fileOpen",
+          "wrongAnswer3": "openFile",
+          "explanation": "In C, fopen is used to open a file and associate it with a file pointer for reading, writing, or appending.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which mode in fopen opens a file for both reading and writing, and if the file does not exist, it will be created?",
+          "correctAnswer": "w+",
+          "wrongAnswer1": "r+",
+          "wrongAnswer2": "a+",
+          "wrongAnswer3": "r",
+          "explanation": "The w+ mode opens a file for reading and writing; it creates the file if it does not exist and truncates it if it does.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What function is used to read a string from a file in C?",
+          "correctAnswer": "fgets",
+          "wrongAnswer1": "fread",
+          "wrongAnswer2": "scanf",
+          "wrongAnswer3": "getline",
+          "explanation": "fgets reads a string from a file up to a specified number of characters or until a newline is reached.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Dynamic Memory",
+      "questions": [
+        {
+          "question": "What function in C is used to allocate dynamic memory during runtime?",
+          "correctAnswer": "malloc",
+          "wrongAnswer1": "printf",
+          "wrongAnswer2": "scanf",
+          "wrongAnswer3": "free",
+          "explanation": "The malloc function is used in C to allocate a specified number of bytes in dynamic memory during runtime.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In C++, which operator is used to allocate dynamic memory?",
+          "correctAnswer": "new",
+          "wrongAnswer1": "malloc",
+          "wrongAnswer2": "alloc",
+          "wrongAnswer3": "create",
+          "explanation": "In C++, the new operator allocates memory dynamically and returns a pointer to the allocated memory.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is it important to use delete or free after using new or malloc respectively?",
+          "correctAnswer": "To release allocated memory and prevent memory leaks",
+          "wrongAnswer1": "To speed up program execution",
+          "wrongAnswer2": "To allocate more memory",
+          "wrongAnswer3": "To copy data to another location",
+          "explanation": "Using delete or free releases the allocated memory back to the system, preventing memory leaks which can cause programs to use excessive memory or crash.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Recursion",
+      "questions": [
+        {
+          "question": "What is recursion in C/C++ programming?",
+          "correctAnswer": "A function calling itself to solve smaller instances of the same problem",
+          "wrongAnswer1": "A loop that runs until a condition is false",
+          "wrongAnswer2": "A variable storing multiple values",
+          "wrongAnswer3": "A condition used to exit a loop",
+          "explanation": "Recursion occurs when a function calls itself to break down a problem into smaller instances until it reaches a base case to stop.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is essential for a recursive function to work correctly?",
+          "correctAnswer": "A base case to stop the recursive calls",
+          "wrongAnswer1": "An infinite loop within the function",
+          "wrongAnswer2": "A global variable accessed in the function",
+          "wrongAnswer3": "Multiple return statements",
+          "explanation": "A base case is necessary to terminate the recursion; without it, the function would call itself indefinitely.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a potential risk when using recursion in C/C++?",
+          "correctAnswer": "Stack overflow due to too many recursive calls",
+          "wrongAnswer1": "Memory leak caused by dynamic memory allocation",
+          "wrongAnswer2": "Syntax error because recursion is not allowed",
+          "wrongAnswer3": "Compilation failure due to undefined variables",
+          "explanation": "Recursion can cause a stack overflow if the recursion depth is too large and the base case is not reached in time.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Macros",
+      "questions": [
+        {
+          "question": "What is the primary purpose of macros in C and C++?",
+          "correctAnswer": "To define code snippets that are replaced by the preprocessor before compilation",
+          "wrongAnswer1": "To allocate memory dynamically during runtime",
+          "wrongAnswer2": "To execute functions faster using inline expansion",
+          "wrongAnswer3": "To handle exceptions and errors in programs",
+          "explanation": "Macros are used as preprocessor directives to define code that is inserted into the program before the actual compilation, enabling code reuse and conditional compilation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which directive is used to define a macro in C or C++?",
+          "correctAnswer": "#define",
+          "wrongAnswer1": "#include",
+          "wrongAnswer2": "#ifdef",
+          "wrongAnswer3": "#pragma",
+          "explanation": "The #define directive defines a macro, which replaces occurrences of a token with specified code before compilation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens if a macro is defined with parameters?",
+          "correctAnswer": "The macro acts like a function and parameters are substituted into the macro body during preprocessing",
+          "wrongAnswer1": "The compiler treats it as a variable with automatic type checking",
+          "wrongAnswer2": "It creates a new template function in the program",
+          "wrongAnswer3": "It triggers a runtime error if parameters are not constants",
+          "explanation": "Macros with parameters allow code templates to be defined, where supplied arguments are substituted inline by the preprocessor, simulating function-like behavior.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Type Casting",
+      "questions": [
+        {
+          "question": "What is type casting in C/C++?",
+          "correctAnswer": "Converting a value from one data type to another",
+          "wrongAnswer1": "Declaring a variable without a type",
+          "wrongAnswer2": "Defining a function to return multiple types",
+          "wrongAnswer3": "Creating a new data type from scratch",
+          "explanation": "Type casting in C/C++ is the process of converting a value from one data type to another, either implicitly or explicitly.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is the correct syntax for explicit type casting an integer variable x to a float in C/C++?",
+          "correctAnswer": "(float)x",
+          "wrongAnswer1": "float(x)",
+          "wrongAnswer2": "(int)x",
+          "wrongAnswer3": "cast float x",
+          "explanation": "In C/C++, explicit type casting is done by placing the target type in parentheses before the variable or value, for example, (float)x converts x to a float.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens if you cast a large double value to an int in C/C++?",
+          "correctAnswer": "The fractional part is discarded and the value is truncated to an integer",
+          "wrongAnswer1": "The value is rounded to the nearest integer",
+          "wrongAnswer2": "An error occurs during compilation",
+          "wrongAnswer3": "The value is preserved exactly as a double",
+          "explanation": "When casting a double to an int in C/C++, the fractional part is discarded and only the integer portion remains, effectively truncating the value.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Virtual Functions",
+      "questions": [
+        {
+          "question": "What is the main purpose of declaring a function as virtual in C++?",
+          "correctAnswer": "To allow derived classes to override the function and support runtime polymorphism",
+          "wrongAnswer1": "To increase the execution speed of the function",
+          "wrongAnswer2": "To prevent the function from being overridden in derived classes",
+          "wrongAnswer3": "To make the function private to the class",
+          "explanation": "Declaring a function as virtual in C++ enables runtime polymorphism, allowing derived classes to provide their own implementation of the function, which is called through base class pointers or references.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In C++, what happens if a virtual function is called through a pointer to a base class?",
+          "correctAnswer": "The version of the function in the derived class is called if it is overridden",
+          "wrongAnswer1": "The base class version of the function is always called",
+          "wrongAnswer2": "The program will not compile",
+          "wrongAnswer3": "The function call results in a runtime error",
+          "explanation": "When a virtual function is invoked using a base class pointer, C++ performs dynamic dispatch to call the most derived implementation of the function, supporting polymorphism.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following correctly describes a pure virtual function in C++?",
+          "correctAnswer": "A virtual function with no implementation that makes the class abstract",
+          "wrongAnswer1": "A virtual function that cannot be overridden by derived classes",
+          "wrongAnswer2": "A virtual function that must always call its base class implementation",
+          "wrongAnswer3": "A virtual function that runs faster than normal functions",
+          "explanation": "A pure virtual function is declared by assigning zero to it and has no implementation, which makes the class abstract and forces derived classes to implement that function.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Abstract Classes",
+      "questions": [
+        {
+          "question": "What is a key characteristic of an abstract class in C++?",
+          "correctAnswer": "It cannot be instantiated directly and contains at least one pure virtual function.",
+          "wrongAnswer1": "It can be instantiated but does not contain any virtual functions.",
+          "wrongAnswer2": "It must contain only static member functions.",
+          "wrongAnswer3": "It is a class without any member functions.",
+          "explanation": "An abstract class in C++ is a class that cannot be instantiated directly and must have at least one pure virtual function, which makes it abstract and serves as a base for other classes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you declare a pure virtual function in a C++ abstract class?",
+          "correctAnswer": "By assigning zero to the function declaration, for example, virtual void func() = 0;",
+          "wrongAnswer1": "By using the keyword abstract before the function name.",
+          "wrongAnswer2": "By marking the function as static.",
+          "wrongAnswer3": "By implementing the function directly in the abstract class.",
+          "explanation": "A pure virtual function is declared by assigning it zero in the class definition. This is the syntax that makes the class abstract and forces derived classes to implement the pure virtual function.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens when a derived class does not override all the pure virtual functions of its abstract base class?",
+          "correctAnswer": "The derived class itself becomes an abstract class and cannot be instantiated.",
+          "wrongAnswer1": "The compiler automatically provides default implementations for missing pure virtual functions.",
+          "wrongAnswer2": "The program will compile and run without any issue.",
+          "wrongAnswer3": "The derived class will convert the pure virtual functions into regular functions.",
+          "explanation": "If a derived class does not override all pure virtual functions from its abstract base class, it remains abstract and cannot be instantiated. The pure virtual functions must be implemented to create an instantiable derived class.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Lambda Functions",
+      "questions": [
+        {
+          "question": "What keyword is used to define a lambda function in C++?",
+          "correctAnswer": "[]",
+          "wrongAnswer1": "lambda",
+          "wrongAnswer2": "function",
+          "wrongAnswer3": "def",
+          "explanation": "In C++, lambda functions are defined using the syntax with square brackets []. This captures variables and starts the lambda definition.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you capture variables by value in a C++ lambda function?",
+          "correctAnswer": "By listing variables inside [] without ampersand",
+          "wrongAnswer1": "By listing variables inside [&]",
+          "wrongAnswer2": "By using the keyword capture_equals",
+          "wrongAnswer3": "By declaring variables inside the lambda body explicitly",
+          "explanation": "In C++, variables can be captured by value in a lambda by listing them inside the capture list [] without an ampersand (&). Using [&] captures by reference.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the following lambda expression return in C++? auto f = [] (int x) { return x + 1; }; f(2);",
+          "correctAnswer": "3",
+          "wrongAnswer1": "2",
+          "wrongAnswer2": "1",
+          "wrongAnswer3": "0",
+          "explanation": "The lambda adds 1 to the input parameter x. So calling f(2) returns 3.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Smart Pointers",
+      "questions": [
+        {
+          "question": "What is the primary purpose of smart pointers in C++?",
+          "correctAnswer": "To manage dynamic memory automatically and prevent memory leaks",
+          "wrongAnswer1": "To replace all raw pointers in C++ programs",
+          "wrongAnswer2": "To improve the speed of pointer arithmetic",
+          "wrongAnswer3": "To enable pointers to point to multiple objects simultaneously",
+          "explanation": "Smart pointers in C++ are designed to manage dynamic memory automatically, helping to ensure proper resource deallocation and preventing memory leaks by using ownership semantics.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a standard smart pointer provided by C++?",
+          "correctAnswer": "AutoPointer",
+          "wrongAnswer1": "SharedPointer",
+          "wrongAnswer2": "UniquePointer",
+          "wrongAnswer3": "WeakPointer",
+          "explanation": "AutoPointer was part of an older C++ standard but is deprecated and not part of the current standard smart pointers. The standard smart pointers in modern C++ are UniquePointer, SharedPointer, and WeakPointer.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does a weak pointer differ from a shared pointer in C++?",
+          "correctAnswer": "A weak pointer does not own the object and does not affect its reference count",
+          "wrongAnswer1": "A weak pointer increases the reference count similar to a shared pointer",
+          "wrongAnswer2": "A weak pointer can directly delete the object",
+          "wrongAnswer3": "A weak pointer transfers ownership when copied",
+          "explanation": "Weak pointers provide access to an object managed by shared pointers without increasing the reference count. This prevents cyclic references and allows checking if the object still exists without owning it.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Const Correctness",
+      "questions": [
+        {
+          "question": "What does const correctness ensure in C or C++ programming?",
+          "correctAnswer": "It ensures variables declared as const are not modified after initialization",
+          "wrongAnswer1": "It allows variables to change type during runtime",
+          "wrongAnswer2": "It enables dynamic memory allocation for constant variables",
+          "wrongAnswer3": "It restricts the use of pointers in the program",
+          "explanation": "Const correctness is a programming practice that ensures variables declared with the const qualifier are not modified after they are initialized, helping prevent unintended side effects and making code safer and more predictable.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following declares a pointer to a constant integer in C++?",
+          "correctAnswer": "const int * ptr;",
+          "wrongAnswer1": "int * const ptr;",
+          "wrongAnswer2": "int const ptr;",
+          "wrongAnswer3": "const ptr * int;",
+          "explanation": "In C++, const int * ptr; declares a pointer to a constant integer, meaning the integer value cannot be changed via this pointer, although the pointer itself can point to different addresses.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the effect of declaring a member function as const in a C++ class?",
+          "correctAnswer": "It promises not to modify any member variables of the class.",
+          "wrongAnswer1": "It allows the function to modify only const member variables.",
+          "wrongAnswer2": "It makes the function executable only once.",
+          "wrongAnswer3": "It restricts the function to static variables only.",
+          "explanation": "A const member function guarantees that it will not modify any non-mutable member variables of the class, enabling it to be called on const instances of the class and ensuring const correctness.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Bit Manipulation",
+      "questions": [
+        {
+          "question": "What is the result of the expression 5 & 3 in C?",
+          "correctAnswer": "1",
+          "wrongAnswer1": "2",
+          "wrongAnswer2": "3",
+          "wrongAnswer3": "0",
+          "explanation": "The bitwise AND of 5 (0101) and 3 (0011) results in 0001, which is 1 in decimal.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you check if the 3rd bit of an integer n is set in C?",
+          "correctAnswer": "if (n & (1 << 2))",
+          "wrongAnswer1": "if (n | (1 << 3))",
+          "wrongAnswer2": "if (n & (1 << 3))",
+          "wrongAnswer3": "if (n >> 3)",
+          "explanation": "To check the 3rd bit, shift 1 left by 2 (since bits start from 0), then use bitwise AND. If the result is non-zero, the bit is set.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which operator is used to toggle a specific bit in C?",
+          "correctAnswer": "XOR (^)",
+          "wrongAnswer1": "AND (&)",
+          "wrongAnswer2": "OR (|)",
+          "wrongAnswer3": "Left shift (<<)",
+          "explanation": "The XOR operator is used to toggle bits because applying XOR with 1 inverts the bit, and with 0 leaves it unchanged.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Function Overloading",
+      "questions": [
+        {
+          "question": "What does function overloading in C++ allow you to do?",
+          "correctAnswer": "Define multiple functions with the same name but different parameters",
+          "wrongAnswer1": "Define functions with the same name and identical parameters",
+          "wrongAnswer2": "Use functions without defining them first",
+          "wrongAnswer3": "Overload operators like plus and minus",
+          "explanation": "Function overloading allows multiple functions to have the same name but different parameter lists, enabling different implementations based on argument types or numbers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is required for function overloading to work?",
+          "correctAnswer": "Functions must differ in their parameter type or number",
+          "wrongAnswer1": "Functions must have different return types only",
+          "wrongAnswer2": "Functions must have different names",
+          "wrongAnswer3": "Functions must be defined in different files",
+          "explanation": "Overloaded functions must differ in the type or number of their parameters; return type alone is not sufficient to overload functions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens if two overloaded functions have the same parameter types and number but different return types in C++?",
+          "correctAnswer": "The compiler will give an error due to ambiguity",
+          "wrongAnswer1": "The function with the larger return type is chosen",
+          "wrongAnswer2": "The functions are treated as one and merged",
+          "wrongAnswer3": "The function called depends on the context of the return value",
+          "explanation": "C++ does not allow function overloading based solely on return type; having identical parameters causes a compiler error due to ambiguity.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Function Templates",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a function template in C++?",
+          "correctAnswer": "To create a single function definition that works with any data type",
+          "wrongAnswer1": "To overload functions with different names",
+          "wrongAnswer2": "To declare multiple functions without implementation",
+          "wrongAnswer3": "To optimize the program execution speed",
+          "explanation": "Function templates allow a programmer to write a single function definition that can operate with different data types without rewriting the function for each type.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does the compiler generate specific function versions from a function template?",
+          "correctAnswer": "By substituting the template parameter with actual data types when the function is called",
+          "wrongAnswer1": "By converting template functions into macros during preprocessing",
+          "wrongAnswer2": "By ignoring template functions and using normal functions instead",
+          "wrongAnswer3": "By linking only one version of the function for all data types",
+          "explanation": "The compiler creates specific versions of function templates by replacing template parameters with the actual data types used in the function calls.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which syntax correctly declares a function template for a function named add that sums two parameters of a generic type T?",
+          "correctAnswer": "template<typename T> T add(T a, T b);",
+          "wrongAnswer1": "template class add(T a, T b);",
+          "wrongAnswer2": "function template add(T a, T b) { return a + b; }",
+          "wrongAnswer3": "template add<T> (T a, T b);",
+          "explanation": "The correct syntax uses the keyword template followed by the template parameter declaration in angle brackets before the function signature.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Move Semantics",
+      "questions": [
+        {
+          "question": "What is the main purpose of move semantics in C++?",
+          "correctAnswer": "To optimize resource management by transferring ownership instead of copying",
+          "wrongAnswer1": "To increase the size of objects during copying",
+          "wrongAnswer2": "To prevent objects from being copied or moved",
+          "wrongAnswer3": "To enforce strict type conversion rules",
+          "explanation": "Move semantics is designed to improve performance by allowing the resources of temporary objects to be moved rather than copied, thus avoiding expensive deep copies.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which special member function is primarily associated with move semantics in C++?",
+          "correctAnswer": "Move constructor",
+          "wrongAnswer1": "Copy assignment operator",
+          "wrongAnswer2": "Destructor",
+          "wrongAnswer3": "Default constructor",
+          "explanation": "The move constructor allows the resources from one object to be transferred to another object, enabling move semantics.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In implementing move semantics, what keyword is used to indicate an object should be moved rather than copied?",
+          "correctAnswer": "std::move",
+          "wrongAnswer1": "auto",
+          "wrongAnswer2": "const_cast",
+          "wrongAnswer3": "static_cast",
+          "explanation": "The std::move function is used to cast an object to an rvalue reference to enable move semantics.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Rvalue References",
+      "questions": [
+        {
+          "question": "What is the primary purpose of rvalue references in C++?",
+          "correctAnswer": "To enable move semantics and perfect forwarding",
+          "wrongAnswer1": "To create constant references that cannot be modified",
+          "wrongAnswer2": "To allow multiple references to the same object",
+          "wrongAnswer3": "To enforce strict type checking during compilation",
+          "explanation": "Rvalue references are mainly used to implement move semantics, allowing resources to be moved rather than copied, and for perfect forwarding in templates.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How is an rvalue reference declared in C++?",
+          "correctAnswer": "Using two ampersands after the type, like int&&",
+          "wrongAnswer1": "Using a single ampersand before the type, like &int",
+          "wrongAnswer2": "Using const keyword, like const int&",
+          "wrongAnswer3": "Using a pointer symbol, like int*",
+          "explanation": "Rvalue references are declared using double ampersands (&&), distinguishing them from lvalue references which use a single ampersand (&).",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of an rvalue?",
+          "correctAnswer": "An unnamed temporary object returned from a function",
+          "wrongAnswer1": "A named variable with an assigned value",
+          "wrongAnswer2": "A pointer to an object",
+          "wrongAnswer3": "A constant integer declared with const",
+          "explanation": "Rvalues are typically temporary objects or literals that do not have a persistent address, such as a temporary object returned from a function.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Standard Library",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Standard Library in C++?",
+          "correctAnswer": "To provide a collection of pre-written classes and functions for common tasks",
+          "wrongAnswer1": "To compile the C++ code into machine language",
+          "wrongAnswer2": "To manage memory allocation manually",
+          "wrongAnswer3": "To write low-level hardware code",
+          "explanation": "The Standard Library in C++ contains useful pre-defined classes and functions that help perform common programming tasks efficiently without having to write code from scratch.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which header file is typically used to include input-output stream utilities in C++?",
+          "correctAnswer": "iostream",
+          "wrongAnswer1": "stdio.h",
+          "wrongAnswer2": "fstream",
+          "wrongAnswer3": "stdlib.h",
+          "explanation": "The header iostream is used in C++ to handle input and output streams such as cin and cout, which are essential for console I/O operations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT part of the C Standard Library?",
+          "correctAnswer": "vector",
+          "wrongAnswer1": "printf",
+          "wrongAnswer2": "malloc",
+          "wrongAnswer3": "memcpy",
+          "explanation": "The vector class is part of the C++ Standard Library, not the C Standard Library. Functions like printf, malloc, and memcpy are part of the C Standard Library.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Input Output",
+      "questions": [
+        {
+          "question": "Which function is commonly used in C to read formatted input from the standard input?",
+          "correctAnswer": "scanf",
+          "wrongAnswer1": "printf",
+          "wrongAnswer2": "gets",
+          "wrongAnswer3": "puts",
+          "explanation": "In C, scanf is used to read formatted input from the standard input (keyboard). printf is for output, gets and puts are for string input/output but not formatted input.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In C++, which object is typically used to output data to the console?",
+          "correctAnswer": "cout",
+          "wrongAnswer1": "cin",
+          "wrongAnswer2": "cerr",
+          "wrongAnswer3": "clog",
+          "explanation": "In C++, cout is the standard output stream used to print data to the console. cin is used for input, cerr is used for standard error output, and clog is used for logging.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the proper header file to include for using input/output streams in C++?",
+          "correctAnswer": "iostream",
+          "wrongAnswer1": "stdio.h",
+          "wrongAnswer2": "stdlib.h",
+          "wrongAnswer3": "string.h",
+          "explanation": "The iostream header file includes the definitions for standard input/output stream objects like cout, cin, cerr in C++. stdio.h is used in C for standard input/output functions like printf and scanf.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Memory Leak",
+      "questions": [
+        {
+          "question": "What is a memory leak in C or C++?",
+          "correctAnswer": "A situation where allocated memory is not freed properly, causing a reduction in available memory.",
+          "wrongAnswer1": "When two variables have the same memory address accidentally.",
+          "wrongAnswer2": "An error caused by using uninitialized variables in code.",
+          "wrongAnswer3": "A condition where memory is freed twice causing undefined behavior.",
+          "explanation": "A memory leak occurs when a program allocates memory on the heap but fails to deallocate it, leading to wasted memory that is no longer accessible.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following can help prevent memory leaks in C++?",
+          "correctAnswer": "Using smart pointers like unique_ptr and shared_ptr to manage dynamic memory.",
+          "wrongAnswer1": "Avoiding the use of pointers altogether in all programs.",
+          "wrongAnswer2": "Only using stack memory and never allocating heap memory.",
+          "wrongAnswer3": "Manually freeing memory without using delete or free.",
+          "explanation": "Smart pointers automatically deallocate memory when it is no longer needed, preventing memory leaks by managing ownership of dynamically allocated memory.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What are common symptoms of a memory leak in a long-running C or C++ application?",
+          "correctAnswer": "Increasing memory usage over time leading to degraded performance or crashes.",
+          "wrongAnswer1": "The program failing to compile due to syntax errors.",
+          "wrongAnswer2": "Instant program termination right after launch.",
+          "wrongAnswer3": "Incorrect output values produced by the program.",
+          "explanation": "A memory leak causes the program to consume more memory as it runs, eventually exhausting system resources, which can slow down or crash the application.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Debugging Techniques",
+      "questions": [
+        {
+          "question": "Which debugging technique involves inserting statements into the code to output variable values and program state?",
+          "correctAnswer": "Using print or output statements",
+          "wrongAnswer1": "Static code analysis",
+          "wrongAnswer2": "Profiling the code",
+          "wrongAnswer3": "Code refactoring",
+          "explanation": "Using print or output statements is a basic debugging technique where developers add statements to print variable values or program state to understand the program behavior.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the main advantage of using a debugger over print statements in C/C++ debugging?",
+          "correctAnswer": "It allows step-by-step execution and variable inspection",
+          "wrongAnswer1": "It automatically fixes errors in the code",
+          "wrongAnswer2": "It increases the program execution speed",
+          "wrongAnswer3": "It compiles the code without errors",
+          "explanation": "A debugger allows developers to run the program step-by-step, inspect variables and memory, set breakpoints, and thus provides a more interactive and effective way to identify issues than print statements.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In C/C++ debugging, what is the purpose of setting a breakpoint?",
+          "correctAnswer": "To pause execution at a specific line to examine program state",
+          "wrongAnswer1": "To skip a function call during execution",
+          "wrongAnswer2": "To automatically fix syntax errors",
+          "wrongAnswer3": "To compile only part of the program",
+          "explanation": "Setting a breakpoint in a debugger pauses the execution of the program at a specified line so the programmer can examine variable values, memory, and control flow.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Syntax",
+      "questions": [
+        {
+          "question": "Which of the following is the correct way to declare a variable in C?",
+          "correctAnswer": "int number;",
+          "wrongAnswer1": "number int;",
+          "wrongAnswer2": "int: number;",
+          "wrongAnswer3": "number = int;",
+          "explanation": "In C, variables are declared by specifying the type followed by the variable name, ending with a semicolon.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How is a single line comment written in C++?",
+          "correctAnswer": "// This is a comment",
+          "wrongAnswer1": "-- This is a comment",
+          "wrongAnswer2": "/* This is a comment */",
+          "wrongAnswer3": "# This is a comment",
+          "explanation": "In C++, single line comments start with double slashes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What symbol is used to end a statement in C/C++?",
+          "correctAnswer": "Semicolon",
+          "wrongAnswer1": "Period",
+          "wrongAnswer2": "Colon",
+          "wrongAnswer3": "Comma",
+          "explanation": "Statements in C and C++ end with a semicolon to indicate the end of the instruction.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Control Statements",
+      "questions": [
+        {
+          "question": "What is the primary purpose of control statements in C/C++?",
+          "correctAnswer": "To determine the flow of program execution based on conditions",
+          "wrongAnswer1": "To define variables and data types",
+          "wrongAnswer2": "To handle memory allocation and deallocation",
+          "wrongAnswer3": "To perform mathematical calculations",
+          "explanation": "Control statements manage the order in which instructions are executed by controlling decisions and iterations in a program.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which control statement is used to execute a block of code repeatedly as long as a condition is true?",
+          "correctAnswer": "while loop",
+          "wrongAnswer1": "if statement",
+          "wrongAnswer2": "switch case",
+          "wrongAnswer3": "function call",
+          "explanation": "The while loop continues to execute its body as long as the specified condition remains true, allowing repeated execution.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In a switch statement, what happens if none of the case labels match the expression?",
+          "correctAnswer": "The default case is executed if it is present",
+          "wrongAnswer1": "The program throws an error and stops",
+          "wrongAnswer2": "The first case label is executed by default",
+          "wrongAnswer3": "Program control moves outside the switch without executing any case",
+          "explanation": "If no case matches, the switch statement executes the default case if it exists; otherwise, it skips the switch block.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Immutable Objects",
+      "questions": [
+        {
+          "question": "In C++, how can you declare an object so that it cannot be modified after initialization?",
+          "correctAnswer": "By declaring the object as a constant using the const keyword",
+          "wrongAnswer1": "By using the mutable keyword",
+          "wrongAnswer2": "By declaring the object as a pointer",
+          "wrongAnswer3": "By using the static keyword",
+          "explanation": "Declaring an object with the const keyword means that its value cannot be changed after it has been initialized, thus making it immutable.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes an immutable object in C++?",
+          "correctAnswer": "An object whose state cannot be changed after it is created",
+          "wrongAnswer1": "An object whose memory address never changes",
+          "wrongAnswer2": "An object that can be copied but not moved",
+          "wrongAnswer3": "An object declared with static storage duration",
+          "explanation": "An immutable object is one whose internal state cannot be modified once it has been constructed, ensuring its immutability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why might you want to use immutable objects in a C++ program?",
+          "correctAnswer": "To ensure thread safety and avoid unintended side effects",
+          "wrongAnswer1": "To improve program performance by enabling direct memory access",
+          "wrongAnswer2": "To allow objects to be modified anytime during program execution",
+          "wrongAnswer3": "To support dynamic memory allocation",
+          "explanation": "Immutable objects help ensure thread safety because their state cannot be changed, preventing data races and unintended side effects.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Boolean Logic",
+      "questions": [
+        {
+          "question": "In C/C++, which keyword is used to represent the Boolean true value?",
+          "correctAnswer": "true",
+          "wrongAnswer1": "True",
+          "wrongAnswer2": "TRUE",
+          "wrongAnswer3": "1",
+          "explanation": "In modern C++, the keyword true represents the Boolean true value. It's case-sensitive and must be lowercase. Older C code often uses 1, but true is preferred in C++ for clarity.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What will be the result of the expression (true && false) in C++?",
+          "correctAnswer": "false",
+          "wrongAnswer1": "true",
+          "wrongAnswer2": "1",
+          "wrongAnswer3": "0",
+          "explanation": "The logical AND operator && returns true only if both operands are true. Since one operand is false, the result is false.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which operator in C/C++ is used to represent logical OR?",
+          "correctAnswer": "||",
+          "wrongAnswer1": "|",
+          "wrongAnswer2": "&&",
+          "wrongAnswer3": "!",
+          "explanation": "The logical OR operator in C/C++ is represented by two vertical bars ||. The single | is a bitwise OR, while && is logical AND and ! is logical NOT.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Arrays",
+      "questions": [
+        {
+          "question": "What is the index of the first element in a C/C++ array?",
+          "correctAnswer": "Zero",
+          "wrongAnswer1": "One",
+          "wrongAnswer2": "Minus one",
+          "wrongAnswer3": "Depends on the array size",
+          "explanation": "In C and C++, array indexing starts at zero, meaning the first element is at index zero.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you declare an integer array of size 10 in C?",
+          "correctAnswer": "int arr[10];",
+          "wrongAnswer1": "int arr(10);",
+          "wrongAnswer2": "array int arr[10];",
+          "wrongAnswer3": "int arr = 10;",
+          "explanation": "The correct syntax to declare an integer array of size 10 in C is int arr[10];",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about arrays in C++?",
+          "correctAnswer": "Array size must be known at compile time for static arrays",
+          "wrongAnswer1": "Arrays can automatically resize during runtime",
+          "wrongAnswer2": "Arrays can only store elements of different data types",
+          "wrongAnswer3": "Array indices start from one",
+          "explanation": "In C++, static arrays require the size to be a constant value known at compile time. Dynamic resizing requires different structures like vectors.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Strings",
+      "questions": [
+        {
+          "question": "What data type is typically used to represent strings in C?",
+          "correctAnswer": "An array of characters",
+          "wrongAnswer1": "A single character variable",
+          "wrongAnswer2": "An integer array",
+          "wrongAnswer3": "A floating point array",
+          "explanation": "In C, strings are represented as arrays of characters terminated by a null character.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which function is commonly used to copy one string to another in C?",
+          "correctAnswer": "strcpy",
+          "wrongAnswer1": "strcat",
+          "wrongAnswer2": "strlen",
+          "wrongAnswer3": "strcmp",
+          "explanation": "The strcpy function copies the contents of one string into another.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How are string literals stored in C++?",
+          "correctAnswer": "As constant arrays of characters",
+          "wrongAnswer1": "As integer vectors",
+          "wrongAnswer2": "As character pointers to mutable strings",
+          "wrongAnswer3": "As floating point numbers",
+          "explanation": "String literals in C++ are stored as arrays of constant characters and should not be modified.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Constructors",
+      "questions": [
+        {
+          "question": "What is the purpose of a constructor in C++?",
+          "correctAnswer": "To initialize objects when they are created",
+          "wrongAnswer1": "To destroy objects when they are no longer needed",
+          "wrongAnswer2": "To overload operators for a class",
+          "wrongAnswer3": "To define the return type of a function",
+          "explanation": "A constructor is a special member function used to initialize objects of a class automatically when they are created.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about constructors in C++?",
+          "correctAnswer": "Constructors have the same name as the class and do not have a return type",
+          "wrongAnswer1": "Constructors can have any name and must return an integer",
+          "wrongAnswer2": "Constructors are called manually after the object is created",
+          "wrongAnswer3": "Constructors cannot take parameters",
+          "explanation": "Constructors must have the same name as the class and do not have a return type. They are called automatically when an object is instantiated and can have parameters for initialization.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a default constructor in C++?",
+          "correctAnswer": "A constructor that takes no parameters and is automatically called to initialize an object",
+          "wrongAnswer1": "A constructor that requires parameters to be passed explicitly",
+          "wrongAnswer2": "A function that destroys the object",
+          "wrongAnswer3": "A special operator used for object assignment",
+          "explanation": "A default constructor is a constructor that takes no arguments (or all arguments have default values) and initializes the object automatically when it is created.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Destructors",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a destructor in C++?",
+          "correctAnswer": "To release resources and perform cleanup when an object is destroyed",
+          "wrongAnswer1": "To initialize the object when it is created",
+          "wrongAnswer2": "To overload operators for the class",
+          "wrongAnswer3": "To allocate memory dynamically",
+          "explanation": "Destructors are special member functions that are automatically called when an object goes out of scope or is explicitly deleted, allowing the program to release resources such as memory or file handles.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about destructors in C++?",
+          "correctAnswer": "A class can have only one destructor which cannot take parameters",
+          "wrongAnswer1": "A class can have multiple destructors with different parameters",
+          "wrongAnswer2": "Destructors must always be called explicitly by the programmer",
+          "wrongAnswer3": "Destructors can return values after cleanup",
+          "explanation": "In C++, a class can have only one destructor, which cannot be overloaded and does not accept parameters. It is called automatically when the object is destroyed, and it does not return a value.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "When exactly is a destructor called in a C++ program?",
+          "correctAnswer": "When an object goes out of scope or is explicitly deleted",
+          "wrongAnswer1": "Only when the program terminates",
+          "wrongAnswer2": "Before a constructor is called",
+          "wrongAnswer3": "Only when the object's member functions are called",
+          "explanation": "A destructor is called automatically when the lifetime of an object ends, either when it goes out of scope or if it is explicitly deallocated using delete in the case of dynamically allocated objects.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Default Arguments",
+      "questions": [
+        {
+          "question": "What is the purpose of default arguments in C++?",
+          "correctAnswer": "To allow functions to be called with fewer arguments by providing default values",
+          "wrongAnswer1": "To declare functions that cannot be called directly",
+          "wrongAnswer2": "To prevent functions from being overloaded",
+          "wrongAnswer3": "To make functions run faster during compilation",
+          "explanation": "Default arguments allow a function to be called with fewer parameters than defined by assigning default values to some parameters, which are used if no argument is provided for them.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Where should default arguments be specified in function declarations in C++?",
+          "correctAnswer": "In the function declaration or prototype, but not usually in the function definition",
+          "wrongAnswer1": "Only in the function definition",
+          "wrongAnswer2": "Only in the function implementation file",
+          "wrongAnswer3": "Nowhere, because C++ does not support default arguments",
+          "explanation": "In C++, default arguments are usually provided in the function declaration (prototype) so that all calls to the function can use default values. Specifying default values in the function definition can cause redefinition errors.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a rule for default arguments in C++ functions?",
+          "correctAnswer": "Once a parameter is given a default value, all subsequent parameters must have default values",
+          "wrongAnswer1": "Default arguments can only be used with the first parameter",
+          "wrongAnswer2": "Default arguments can be given randomly to any parameters without order",
+          "wrongAnswer3": "All parameters must have default values if one parameter has a default value",
+          "explanation": "In C++, when default arguments are provided, they must be assigned from right to left, meaning after a parameter has a default value, all parameters to the right must also have default values.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Inline Functions",
+      "questions": [
+        {
+          "question": "What is the primary purpose of an inline function in C or C++?",
+          "correctAnswer": "To reduce function call overhead by expanding the function code at the call site",
+          "wrongAnswer1": "To increase the size of the executable by duplicating the function in memory",
+          "wrongAnswer2": "To prevent the function from being called recursively",
+          "wrongAnswer3": "To force the function to be executed in a separate thread",
+          "explanation": "Inline functions suggest to the compiler to insert the function's code directly at each point of call, which reduces the overhead of function calls especially for small functions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about inline functions?",
+          "correctAnswer": "They are typically used for small, frequently called functions to improve performance",
+          "wrongAnswer1": "They cannot be used with functions that have return values",
+          "wrongAnswer2": "They must always be defined in the source file, not in headers",
+          "wrongAnswer3": "The compiler is required to inline every function marked as inline",
+          "explanation": "Inline functions are commonly used to improve performance for small functions by avoiding function call overhead, but the compiler may choose not to inline them in some cases.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does defining a function as inline affect linkage in C++?",
+          "correctAnswer": "It allows the function to be defined in multiple translation units without violating the One Definition Rule",
+          "wrongAnswer1": "It restricts the function to be defined only in one translation unit",
+          "wrongAnswer2": "It changes the function's linkage from external to internal by default",
+          "wrongAnswer3": "It causes a linker error if the function is declared in a header file",
+          "explanation": "Declaring a function as inline permits multiple definitions of the function in different translation units, provided that the definitions are identical, avoiding linker errors.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Casting Operators",
+      "questions": [
+        {
+          "question": "Which casting operator is used in C++ to perform explicit type conversion while providing compile-time type checking?",
+          "correctAnswer": "static_cast",
+          "wrongAnswer1": "reinterpret_cast",
+          "wrongAnswer2": "const_cast",
+          "wrongAnswer3": "dynamic_cast",
+          "explanation": "static_cast is used for compile-time checked conversions such as converting numeric types or pointer upcasts. Unlike reinterpret_cast, it ensures safer conversions.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the primary purpose of the const_cast operator in C++?",
+          "correctAnswer": "To add or remove the const qualifier from variables",
+          "wrongAnswer1": "To cast between unrelated types without changing bits",
+          "wrongAnswer2": "To safely cast polymorphic types at runtime",
+          "wrongAnswer3": "To convert between numeric types with runtime checks",
+          "explanation": "const_cast is specifically designed to add or remove const or volatile qualifiers from a variable without changing its binary representation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When should you use reinterpret_cast in C++ programming?",
+          "correctAnswer": "To cast one pointer type to a fundamentally different pointer type",
+          "wrongAnswer1": "To safely cast within a class hierarchy",
+          "wrongAnswer2": "To convert numeric types with automatic type checking",
+          "wrongAnswer3": "To modify the const attribute of a variable",
+          "explanation": "reinterpret_cast allows low-level casting between unrelated pointer types or between pointer and integer types and does not guarantee safe or meaningful results.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "C/C++",
+      "concept": "Static Variables",
+      "questions": [
+        {
+          "question": "What is the scope of a static variable in a C function?",
+          "correctAnswer": "It is limited to the function where it is declared.",
+          "wrongAnswer1": "It is accessible from any function in the program.",
+          "wrongAnswer2": "It retains its value only during the function execution.",
+          "wrongAnswer3": "It is global and can be modified anywhere.",
+          "explanation": "A static variable declared inside a function retains its value between function calls but is only accessible within that function, limiting its scope to that function.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens to the value of a static variable inside a function after the function returns?",
+          "correctAnswer": "The value is preserved for the next call to the function.",
+          "wrongAnswer1": "The value is reset to zero.",
+          "wrongAnswer2": "The variable is destroyed and recreated on the next call.",
+          "wrongAnswer3": "The value becomes random and unpredictable.",
+          "explanation": "Static variables maintain their state between function calls, so their values persist even after the function exits, unlike regular local variables.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the difference between a static global variable and a regular global variable in C?",
+          "correctAnswer": "A static global variable is limited to the file it is declared in, unlike a regular global variable which is accessible throughout all files.",
+          "wrongAnswer1": "A static global variable can be accessed from other files without declaration.",
+          "wrongAnswer2": "A static global variable is automatically initialized every time it is accessed.",
+          "wrongAnswer3": "There is no difference; both have the same scope and linkage.",
+          "explanation": "Static global variables have internal linkage, meaning they are accessible only within the file where they are declared, helping avoid naming conflicts. Regular globals have external linkage and can be accessed across multiple files.",
+          "difficulty": "Advanced"
+        }
+      ]
+    }
+  ]
+}

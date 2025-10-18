@@ -1,0 +1,1655 @@
+{
+  "topic": "AWS",
+  "concepts": [
+    {
+      "topic": "AWS",
+      "concept": "Amazon S3",
+      "questions": [
+        {
+          "question": "What is Amazon S3 primarily used for?",
+          "correctAnswer": "Storing and retrieving any amount of data at any time",
+          "wrongAnswer1": "Running virtual machines on the cloud",
+          "wrongAnswer2": "Managing relational databases",
+          "wrongAnswer3": "Building and deploying mobile applications",
+          "explanation": "Amazon S3 is a scalable object storage service that allows users to store and retrieve data from anywhere on the web, making it ideal for backup, archiving, and big data analytics.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature of Amazon S3 allows you to organize data within a bucket?",
+          "correctAnswer": "Using folders or prefixes to simulate a directory structure",
+          "wrongAnswer1": "Using tables and schemas",
+          "wrongAnswer2": "Using virtual private clouds",
+          "wrongAnswer3": "Using security groups",
+          "explanation": "Amazon S3 uses a flat structure but allows the use of prefixes and folders to help organize objects logically within a bucket, mimicking directories.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the purpose of Amazon S3 versioning?",
+          "correctAnswer": "To keep multiple versions of an object to protect against accidental deletion or overwrites",
+          "wrongAnswer1": "To encrypt objects at rest",
+          "wrongAnswer2": "To automatically archive older data to Glacier",
+          "wrongAnswer3": "To replicate data across regions",
+          "explanation": "Versioning in Amazon S3 enables storage of multiple variants of an object in the same bucket, helping to recover from unintended user actions or application failures.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "EC2 Instances",
+      "questions": [
+        {
+          "question": "What is an Amazon EC2 instance primarily used for?",
+          "correctAnswer": "To run virtual servers in the cloud",
+          "wrongAnswer1": "To store large amounts of data permanently",
+          "wrongAnswer2": "To manage user identities and permissions",
+          "wrongAnswer3": "To monitor web traffic analytics",
+          "explanation": "Amazon EC2 instances are virtual servers used to run applications on the AWS cloud, providing scalable computing capacity.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key characteristic of an EC2 instance?",
+          "correctAnswer": "It can be terminated or stopped at any time by the user",
+          "wrongAnswer1": "It is a fixed physical server located in the user's data center",
+          "wrongAnswer2": "It cannot run custom software installed by the user",
+          "wrongAnswer3": "It automatically stores data across multiple regions",
+          "explanation": "EC2 instances are virtual machines that users can control fully, including starting, stopping, or terminating them as needed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does Amazon EC2 help with scalability?",
+          "correctAnswer": "By allowing users to launch or terminate instances on demand",
+          "wrongAnswer1": "By automatically increasing storage capacity without user input",
+          "wrongAnswer2": "By limiting the number of users who can access an application",
+          "wrongAnswer3": "By providing fixed hardware resources regardless of workload",
+          "explanation": "EC2 provides scalability by enabling users to quickly launch or stop instances according to workload demands, allowing applications to handle variable traffic.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Lambda Functions",
+      "questions": [
+        {
+          "question": "What is AWS Lambda primarily used for?",
+          "correctAnswer": "Running code without provisioning or managing servers",
+          "wrongAnswer1": "Storing large amounts of data in the cloud",
+          "wrongAnswer2": "Creating virtual machines for applications",
+          "wrongAnswer3": "Hosting static websites",
+          "explanation": "AWS Lambda allows you to run code in response to events without managing servers, making it a serverless compute service.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following triggers can AWS Lambda functions respond to?",
+          "correctAnswer": "Events from Amazon S3, DynamoDB, or API Gateway",
+          "wrongAnswer1": "Only HTTP requests from web browsers",
+          "wrongAnswer2": "Manual execution through AWS console only",
+          "wrongAnswer3": "Scheduled jobs on local servers",
+          "explanation": "AWS Lambda functions can be triggered by a variety of AWS services such as Amazon S3 events, DynamoDB streams, and HTTP requests via API Gateway.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does AWS Lambda handle scaling when multiple requests occur simultaneously?",
+          "correctAnswer": "Automatically creates new instances of the function as needed",
+          "wrongAnswer1": "Queues requests and processes them one at a time",
+          "wrongAnswer2": "Requires manual intervention to scale up",
+          "wrongAnswer3": "Limits the number of concurrent executions to one",
+          "explanation": "AWS Lambda automatically scales by running multiple instances of your function in response to incoming events, ensuring high availability and responsiveness.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "VPC Networking",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Virtual Private Cloud in AWS?",
+          "correctAnswer": "To create an isolated network within the AWS cloud",
+          "wrongAnswer1": "To provide a global CDN for faster content delivery",
+          "wrongAnswer2": "To monitor AWS resource usage and billing",
+          "wrongAnswer3": "To host serverless applications",
+          "explanation": "A Virtual Private Cloud (VPC) enables users to create a logically isolated network in the AWS cloud where they can launch AWS resources in a virtual network that they define.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which AWS component is used to control inbound and outbound traffic at the subnet level within a VPC?",
+          "correctAnswer": "Network ACL",
+          "wrongAnswer1": "Security Group",
+          "wrongAnswer2": "Route Table",
+          "wrongAnswer3": "Elastic Load Balancer",
+          "explanation": "Network Access Control Lists (ACLs) act as a firewall for controlling traffic in and out of one or more subnets within a VPC.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In AWS VPC, what does an Internet Gateway enable?",
+          "correctAnswer": "Allows communication between instances in the VPC and the internet",
+          "wrongAnswer1": "Provides direct peering connections between two VPCs",
+          "wrongAnswer2": "Encrypts data in transit within the VPC",
+          "wrongAnswer3": "Monitors network traffic for anomalies",
+          "explanation": "An Internet Gateway is a horizontally scaled, redundant, and highly available VPC component that allows communication between instances in the VPC and the internet.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Elastic Load Balancer",
+      "questions": [
+        {
+          "question": "What is the primary function of an Elastic Load Balancer in AWS?",
+          "correctAnswer": "Distributing incoming application traffic across multiple targets",
+          "wrongAnswer1": "Storing data backups securely in the cloud",
+          "wrongAnswer2": "Managing user identities and access control",
+          "wrongAnswer3": "Monitoring application performance automatically",
+          "explanation": "An Elastic Load Balancer (ELB) in AWS helps distribute incoming application traffic to multiple targets such as EC2 instances, which improves fault tolerance and availability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of Elastic Load Balancer is best suited for HTTP/HTTPS traffic at the application layer?",
+          "correctAnswer": "Application Load Balancer",
+          "wrongAnswer1": "Network Load Balancer",
+          "wrongAnswer2": "Classic Load Balancer",
+          "wrongAnswer3": "Gateway Load Balancer",
+          "explanation": "The Application Load Balancer (ALB) operates at the application layer (Layer 7) and supports routing based on HTTP/HTTPS protocols, making it suitable for web applications.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What feature does the Network Load Balancer provide that is beneficial for handling sudden volatile traffic patterns?",
+          "correctAnswer": "High throughput and low latency with TCP traffic handling",
+          "wrongAnswer1": "Automatic scaling of EC2 instances",
+          "wrongAnswer2": "Encryption of data at rest",
+          "wrongAnswer3": "Content-based routing with detailed request inspection",
+          "explanation": "Network Load Balancer (NLB) is designed for high performance at the transport layer (Layer 4), handling TCP traffic with very low latency and can cope with sudden traffic spikes effectively.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "CloudFormation Templates",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS CloudFormation templates?",
+          "correctAnswer": "To define and provision AWS infrastructure as code",
+          "wrongAnswer1": "To monitor the health of AWS services",
+          "wrongAnswer2": "To store application code in the cloud",
+          "wrongAnswer3": "To create virtual private networks manually",
+          "explanation": "AWS CloudFormation templates allow users to define and provision AWS infrastructure resources in a declarative way using code.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which format can AWS CloudFormation templates be written in?",
+          "correctAnswer": "JSON or YAML",
+          "wrongAnswer1": "XML only",
+          "wrongAnswer2": "Plain text only",
+          "wrongAnswer3": "Python scripts",
+          "explanation": "CloudFormation templates can be written in JSON or YAML formats, which are human-readable and supported by AWS.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In CloudFormation templates, what does a 'resource' represent?",
+          "correctAnswer": "An AWS service or component like an EC2 instance or S3 bucket",
+          "wrongAnswer1": "A programming function inside the template",
+          "wrongAnswer2": "A user accessing AWS resources",
+          "wrongAnswer3": "An external database connected to AWS",
+          "explanation": "Resources in CloudFormation templates define the AWS components that will be created or managed, such as EC2 instances or S3 buckets.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "DynamoDB Tables",
+      "questions": [
+        {
+          "question": "What is the primary key structure of a DynamoDB table?",
+          "correctAnswer": "A primary key can be either a simple key or a composite key consisting of a partition key and an optional sort key",
+          "wrongAnswer1": "A primary key must be a combination of three attributes",
+          "wrongAnswer2": "A primary key can be any attribute randomly selected by the user",
+          "wrongAnswer3": "DynamoDB tables do not require a primary key",
+          "explanation": "DynamoDB tables use a primary key for uniquely identifying each item. This key can be simple, using only a partition key, or composite with both a partition key and sort key to allow for more complex queries.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about DynamoDB tables?",
+          "correctAnswer": "They automatically scale throughput capacity to meet demand",
+          "wrongAnswer1": "They require manual sharding to handle large datasets",
+          "wrongAnswer2": "They do not support any secondary indexes",
+          "wrongAnswer3": "They are relational databases with fixed schema",
+          "explanation": "DynamoDB tables are designed to automatically scale throughput capacity based on the workload, unlike relational databases, and support secondary indexes for flexible querying.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "When creating a DynamoDB table, what is required to define its structure?",
+          "correctAnswer": "You must specify the table name and the primary key attributes",
+          "wrongAnswer1": "You must define every attribute and their data types upfront",
+          "wrongAnswer2": "You must specify foreign keys to other tables",
+          "wrongAnswer3": "You need to provide the schema for indexes only",
+          "explanation": "For DynamoDB tables, only the table name and primary key must be defined initially. Other attributes are schema-less and can vary per item.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Route 53",
+      "questions": [
+        {
+          "question": "What is the primary function of AWS Route 53?",
+          "correctAnswer": "It is a scalable domain name system (DNS) web service.",
+          "wrongAnswer1": "It is a service for storing and retrieving any amount of data.",
+          "wrongAnswer2": "It is a service for running virtual servers in the cloud.",
+          "wrongAnswer3": "It is a service for managing databases.",
+          "explanation": "AWS Route 53 is designed as a highly available and scalable DNS web service to route end users to Internet applications by translating domain names into IP addresses.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature of Route 53 helps improve application availability by routing traffic based on geographic location?",
+          "correctAnswer": "Latency-based routing",
+          "wrongAnswer1": "Simple routing",
+          "wrongAnswer2": "Weighted routing",
+          "wrongAnswer3": "Failover routing",
+          "explanation": "Latency-based routing in Route 53 routes user requests to the endpoint that provides the lowest latency, often based on geographic location, improving performance and availability.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Route 53 perform health checks on endpoints?",
+          "correctAnswer": "By sending automated requests to monitor the health of resources and routing traffic away if they fail.",
+          "wrongAnswer1": "By manually checking server logs for errors.",
+          "wrongAnswer2": "By requiring user feedback on service availability.",
+          "wrongAnswer3": "By only routing traffic without checking endpoint health.",
+          "explanation": "Route 53 continuously monitors the health of specified endpoints and can redirect traffic away from unhealthy ones to healthy instances, maintaining application reliability.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Identity Access Management",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS Identity and Access Management IAM?",
+          "correctAnswer": "To securely control access to AWS services and resources",
+          "wrongAnswer1": "To manage billing and cost optimization",
+          "wrongAnswer2": "To configure network settings for AWS resources",
+          "wrongAnswer3": "To monitor application performance metrics",
+          "explanation": "AWS IAM allows you to control who can access your AWS resources and what actions they can perform, ensuring secure access management.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following components is NOT part of AWS IAM?",
+          "correctAnswer": "Amazon VPC",
+          "wrongAnswer1": "IAM Users",
+          "wrongAnswer2": "IAM Roles",
+          "wrongAnswer3": "IAM Policies",
+          "explanation": "Amazon VPC is related to networking, not identity and access management, whereas IAM Users, Roles, and Policies are core components of AWS IAM.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the difference between an IAM role and an IAM user in AWS?",
+          "correctAnswer": "A role can be assumed by entities for temporary access, while a user has long-term credentials",
+          "wrongAnswer1": "A user can only have read access, but a role has full administrative access",
+          "wrongAnswer2": "A role is assigned to a single person, while a user is shared between multiple people",
+          "wrongAnswer3": "A user is used for temporary access, while a role is permanent",
+          "explanation": "IAM users are individuals with long-term credentials, while roles provide temporary access that can be assumed by trusted entities such as users, applications, or services.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Auto Scaling Groups",
+      "questions": [
+        {
+          "question": "What is the primary purpose of an Auto Scaling Group in AWS?",
+          "correctAnswer": "To automatically adjust the number of EC2 instances based on demand",
+          "wrongAnswer1": "To manually launch EC2 instances with fixed scheduling",
+          "wrongAnswer2": "To provide a firewall for EC2 instances",
+          "wrongAnswer3": "To manage AWS billing and cost reports",
+          "explanation": "Auto Scaling Groups automatically adjust the number of EC2 instances in response to demand to maintain application availability and cost efficiency.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which component is required for an Auto Scaling Group to launch instances?",
+          "correctAnswer": "Launch configuration or Launch template",
+          "wrongAnswer1": "Elastic IP address",
+          "wrongAnswer2": "Security group only",
+          "wrongAnswer3": "Elastic Load Balancer alone",
+          "explanation": "An Auto Scaling Group requires a launch configuration or launch template that specifies instance details and settings for launching EC2 instances.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does an Auto Scaling Group decide when to add or remove instances?",
+          "correctAnswer": "Based on metrics and policies like CPU utilization or custom CloudWatch alarms",
+          "wrongAnswer1": "Randomly based on instance uptime",
+          "wrongAnswer2": "By manual intervention only",
+          "wrongAnswer3": "Using a fixed schedule unrelated to demand",
+          "explanation": "Auto Scaling Groups use CloudWatch metrics and scaling policies to dynamically add or remove instances in response to changing demand.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "CloudWatch Metrics",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS CloudWatch Metrics?",
+          "correctAnswer": "To monitor and collect data about AWS resources and applications",
+          "wrongAnswer1": "To store data backups securely in the cloud",
+          "wrongAnswer2": "To manage user access and permissions",
+          "wrongAnswer3": "To deploy and manage virtual servers",
+          "explanation": "AWS CloudWatch Metrics are used to collect and track metrics for AWS resources and applications to monitor their performance and operational health.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following can be monitored using CloudWatch Metrics?",
+          "correctAnswer": "EC2 instance CPU utilization",
+          "wrongAnswer1": "AWS billing invoices",
+          "wrongAnswer2": "IAM user permissions",
+          "wrongAnswer3": "S3 bucket versioning settings",
+          "explanation": "CloudWatch Metrics can monitor various AWS resources, including EC2 instance CPU utilization to help understand performance.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How often does CloudWatch Metrics typically update data points by default?",
+          "correctAnswer": "Every 1 minute",
+          "wrongAnswer1": "Every 5 minutes",
+          "wrongAnswer2": "Every 10 seconds",
+          "wrongAnswer3": "Every 30 minutes",
+          "explanation": "By default, CloudWatch Metrics collects and updates data points every one minute, which is the standard monitoring interval.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Elastic Beanstalk",
+      "questions": [
+        {
+          "question": "What is the main purpose of AWS Elastic Beanstalk?",
+          "correctAnswer": "To deploy and manage applications in the AWS Cloud easily",
+          "wrongAnswer1": "To store large amounts of data securely",
+          "wrongAnswer2": "To create virtual networks within AWS",
+          "wrongAnswer3": "To monitor and analyze AWS resource usage",
+          "explanation": "AWS Elastic Beanstalk is primarily used to simplify the deployment and management of applications on the AWS cloud platform, handling capacity provisioning, load balancing, scaling, and application health monitoring automatically.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a feature provided by AWS Elastic Beanstalk?",
+          "correctAnswer": "Automatic scaling of applications based on demand",
+          "wrongAnswer1": "Manual configuration of server hardware",
+          "wrongAnswer2": "Direct management of individual EC2 instances",
+          "wrongAnswer3": "Creating database schemas",
+          "explanation": "Elastic Beanstalk automatically handles scaling of applications as user demand changes, removing the need for manual intervention in adjusting infrastructure.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In AWS Elastic Beanstalk, what is an environment?",
+          "correctAnswer": "A version of your application running on AWS resources",
+          "wrongAnswer1": "A physical data center where AWS runs your code",
+          "wrongAnswer2": "A storage bucket for application files",
+          "wrongAnswer3": "A virtual private network within AWS",
+          "explanation": "An environment in Elastic Beanstalk is the AWS resources configured to run a specific version of your application, including EC2 instances, load balancers, and databases if attached.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "RDS Databases",
+      "questions": [
+        {
+          "question": "What does RDS stand for in AWS?",
+          "correctAnswer": "Relational Database Service",
+          "wrongAnswer1": "Rapid Database Setup",
+          "wrongAnswer2": "Remote Data Storage",
+          "wrongAnswer3": "Reliable Data System",
+          "explanation": "RDS stands for Relational Database Service, which is AWS's managed database service for relational databases.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following database engines is NOT supported by AWS RDS?",
+          "correctAnswer": "MongoDB",
+          "wrongAnswer1": "MySQL",
+          "wrongAnswer2": "PostgreSQL",
+          "wrongAnswer3": "Oracle Database",
+          "explanation": "AWS RDS supports MySQL, PostgreSQL, Oracle, SQL Server and MariaDB, but does not support MongoDB, which is a NoSQL database.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the primary benefit of using AWS RDS Multi-AZ deployments?",
+          "correctAnswer": "High availability and failover support",
+          "wrongAnswer1": "Lower storage costs",
+          "wrongAnswer2": "Improved query performance",
+          "wrongAnswer3": "Data encryption at rest",
+          "explanation": "Multi-AZ deployments provide automatic failover to a standby replica in case of infrastructure failure, enhancing database availability and reliability.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "ECS Clusters",
+      "questions": [
+        {
+          "question": "What is the primary purpose of an ECS Cluster in AWS?",
+          "correctAnswer": "To manage a group of container instances running Docker containers",
+          "wrongAnswer1": "To store data objects in a scalable environment",
+          "wrongAnswer2": "To balance traffic across multiple EC2 instances",
+          "wrongAnswer3": "To automate the creation of virtual private clouds",
+          "explanation": "An ECS Cluster is used to manage a group of container instances that run Docker containers, providing a resource pool for container orchestration.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which AWS service is primarily used in conjunction with ECS Clusters for running containers?",
+          "correctAnswer": "Amazon EC2",
+          "wrongAnswer1": "Amazon S3",
+          "wrongAnswer2": "AWS Lambda",
+          "wrongAnswer3": "Amazon RDS",
+          "explanation": "Amazon EC2 instances are used to host containers managed by ECS Clusters, providing the computing capacity for running containerized applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In an ECS Cluster, how do you ensure high availability of your containers?",
+          "correctAnswer": "Distribute containers across multiple Availability Zones",
+          "wrongAnswer1": "Run all containers on a single instance for easier management",
+          "wrongAnswer2": "Place all containers in the same subnet",
+          "wrongAnswer3": "Use a single task definition for all containers",
+          "explanation": "Distributing containers across multiple Availability Zones helps ensure that the application remains available even if one zone fails, which is a best practice in ECS clusters.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "EKS Kubernetes",
+      "questions": [
+        {
+          "question": "What is AWS EKS primarily used for?",
+          "correctAnswer": "Running Kubernetes clusters on AWS",
+          "wrongAnswer1": "Managing AWS Lambda functions",
+          "wrongAnswer2": "Hosting static websites on AWS",
+          "wrongAnswer3": "Storing data in AWS S3 buckets",
+          "explanation": "AWS Elastic Kubernetes Service (EKS) is a managed service that makes it easy to run Kubernetes clusters on AWS infrastructure.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes EKS in the context of Kubernetes?",
+          "correctAnswer": "A managed Kubernetes service on AWS",
+          "wrongAnswer1": "A monitoring tool for Kubernetes clusters",
+          "wrongAnswer2": "A container registry service",
+          "wrongAnswer3": "A serverless computing platform",
+          "explanation": "EKS is Amazon's managed Kubernetes service, making it easier to deploy, manage, and scale containerized applications using Kubernetes on AWS.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In EKS, what is the role of worker nodes?",
+          "correctAnswer": "To run containerized applications managed by Kubernetes",
+          "wrongAnswer1": "To provide DNS services for the cluster",
+          "wrongAnswer2": "To manage user authentication and permissions",
+          "wrongAnswer3": "To store container images",
+          "explanation": "Worker nodes in EKS run the applications within containers and are managed by the Kubernetes control plane.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "CloudTrail Logs",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS CloudTrail logs?",
+          "correctAnswer": "To record and track user activity and API calls in an AWS account",
+          "wrongAnswer1": "To store backups of all AWS data resources",
+          "wrongAnswer2": "To monitor the performance of AWS EC2 instances",
+          "wrongAnswer3": "To automatically scale AWS services based on usage",
+          "explanation": "AWS CloudTrail logs provide detailed records of API calls and user activity within an AWS account, enabling security analysis, compliance auditing, and operational troubleshooting.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Where are AWS CloudTrail logs typically stored?",
+          "correctAnswer": "In an Amazon S3 bucket specified by the user",
+          "wrongAnswer1": "Directly on AWS EC2 instance local storage",
+          "wrongAnswer2": "In Amazon RDS databases by default",
+          "wrongAnswer3": "In AWS Lambda ephemeral storage",
+          "explanation": "CloudTrail logs are delivered to an Amazon S3 bucket that the user configures, allowing for flexible storage, management, and analysis of the log files.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can AWS CloudTrail logs be used for security purposes?",
+          "correctAnswer": "By auditing who accessed resources and what actions were taken, helping detect unauthorized activity",
+          "wrongAnswer1": "By encrypting data at rest across AWS services automatically",
+          "wrongAnswer2": "By providing real-time alerts for hardware failures in data centers",
+          "wrongAnswer3": "By enabling automatic patch management on EC2 instances",
+          "explanation": "CloudTrail logs capture details about user and API activity, which can be audited to detect unauthorized or suspicious actions, enhancing security monitoring and compliance.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Elasticache Redis",
+      "questions": [
+        {
+          "question": "What is the primary use of Amazon ElastiCache Redis?",
+          "correctAnswer": "In-memory data store for caching and real-time applications",
+          "wrongAnswer1": "Long-term data archival solution",
+          "wrongAnswer2": "Database migration service",
+          "wrongAnswer3": "Content delivery network",
+          "explanation": "Amazon ElastiCache Redis is primarily used as an in-memory data store for caching and supporting real-time applications by providing low-latency data access.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following features is supported by ElastiCache Redis?",
+          "correctAnswer": "Data persistence and replication for high availability",
+          "wrongAnswer1": "Automatically scaling SQL queries across nodes",
+          "wrongAnswer2": "Storing large binary files like images and videos",
+          "wrongAnswer3": "Processing batch data jobs overnight",
+          "explanation": "ElastiCache Redis supports data persistence and replication to ensure data durability and high availability across multiple nodes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does ElastiCache Redis handle failover in a Multi-AZ deployment?",
+          "correctAnswer": "Automatically promoting a read replica to primary if the primary node fails",
+          "wrongAnswer1": "Stopping all service until manual intervention",
+          "wrongAnswer2": "No failover support in Multi-AZ deployments",
+          "wrongAnswer3": "Switching to a backup database outside AWS",
+          "explanation": "In a Multi-AZ deployment, ElastiCache Redis automatically promotes a read replica to primary if the primary node encounters a failure, minimizing downtime.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "API Gateway",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS API Gateway?",
+          "correctAnswer": "To create, publish, maintain, monitor, and secure APIs at any scale",
+          "wrongAnswer1": "To provide a virtual private cloud for deploying instances",
+          "wrongAnswer2": "To store and retrieve any amount of data at any time",
+          "wrongAnswer3": "To manage user identities and access to AWS resources",
+          "explanation": "AWS API Gateway is a fully managed service that allows developers to create, publish, monitor, and secure APIs for their backend services.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following AWS services integrates directly with API Gateway to implement backend processing?",
+          "correctAnswer": "AWS Lambda",
+          "wrongAnswer1": "Amazon RDS",
+          "wrongAnswer2": "Amazon S3",
+          "wrongAnswer3": "AWS CloudTrail",
+          "explanation": "AWS Lambda is commonly used with API Gateway to execute backend code in response to API requests without managing servers.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which feature of API Gateway helps protect your API from traffic spikes and denial of service attacks?",
+          "correctAnswer": "Throttling and rate limiting",
+          "wrongAnswer1": "Data encryption at rest",
+          "wrongAnswer2": "Auto scaling of instances",
+          "wrongAnswer3": "IAM user policies",
+          "explanation": "API Gateway includes throttling and rate limiting to safeguard APIs by controlling the number of requests per second allowed.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "AWS Glue",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS Glue?",
+          "correctAnswer": "It is a fully managed ETL service to prepare and load data for analytics.",
+          "wrongAnswer1": "It is a service to host virtual servers in the cloud.",
+          "wrongAnswer2": "It provides object storage for backups and archives.",
+          "wrongAnswer3": "It is a monitoring service for AWS resources and applications.",
+          "explanation": "AWS Glue is designed as an Extract, Transform, and Load (ETL) service to make it easier to prepare and load data for analytics. It provides a serverless environment to run ETL jobs without managing infrastructure.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature of AWS Glue helps in automatically discovering and cataloging metadata about your data?",
+          "correctAnswer": "The AWS Glue Data Catalog.",
+          "wrongAnswer1": "AWS Glue ML Transforms.",
+          "wrongAnswer2": "AWS Glue Studio.",
+          "wrongAnswer3": "AWS Glue Crawlers.",
+          "explanation": "The AWS Glue Data Catalog is a persistent metadata repository that stores table definitions, job definitions, and other control information to make data readily searchable, queryable, and available for ETL.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following best describes AWS Glue Crawlers?",
+          "correctAnswer": "They connect to your data store, determine schema, and populate the Glue Data Catalog.",
+          "wrongAnswer1": "They deploy machine learning models for predictive analytics.",
+          "wrongAnswer2": "They provide a graphical interface for ETL job authoring.",
+          "wrongAnswer3": "They send notifications about job status to administrators.",
+          "explanation": "AWS Glue Crawlers can scan various data sources, extract schema information, and then create or update metadata tables in the AWS Glue Data Catalog automatically.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Kinesis Streams",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS Kinesis Streams?",
+          "correctAnswer": "To collect and process large streams of data records in real-time.",
+          "wrongAnswer1": "To provide long-term storage for archived data.",
+          "wrongAnswer2": "To host virtual servers for running applications.",
+          "wrongAnswer3": "To manage identity and access permissions for users.",
+          "explanation": "AWS Kinesis Streams is designed to ingest, buffer, and process large streams of data records in real-time, enabling real-time analytics and data processing.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does AWS Kinesis Streams ensure data durability and availability?",
+          "correctAnswer": "By replicating data records across multiple availability zones.",
+          "wrongAnswer1": "By storing data only on a single server for fast access.",
+          "wrongAnswer2": "By compressing data before storing it in cloud storage.",
+          "wrongAnswer3": "By encrypting data on the client side before sending.",
+          "explanation": "AWS Kinesis Streams replicates data across multiple availability zones to provide high availability and durability.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which component is responsible for reading and processing data from a Kinesis Stream?",
+          "correctAnswer": "Kinesis Consumer",
+          "wrongAnswer1": "Kinesis Producer",
+          "wrongAnswer2": "Kinesis Stream Shard",
+          "wrongAnswer3": "Kinesis Storage Manager",
+          "explanation": "A Kinesis Consumer reads and processes the data records from the stream, whereas a Producer sends data to the stream.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Athena Queries",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS Athena?",
+          "correctAnswer": "To run SQL queries on data stored in Amazon S3",
+          "wrongAnswer1": "To manage AWS EC2 instances",
+          "wrongAnswer2": "To monitor AWS CloudWatch metrics",
+          "wrongAnswer3": "To deploy serverless applications",
+          "explanation": "AWS Athena is a serverless query service that allows you to run standard SQL queries directly against data stored in Amazon S3 without the need for complex ETL processes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which data format can AWS Athena query natively?",
+          "correctAnswer": "Parquet",
+          "wrongAnswer1": "DynamoDB",
+          "wrongAnswer2": "JSON stored only in RDS",
+          "wrongAnswer3": "AWS Lambda functions",
+          "explanation": "Athena natively supports querying data in columnar formats like Parquet, as well as other formats like CSV, JSON, and ORC stored in S3, but not databases or functions directly.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does AWS Athena charge users for queries?",
+          "correctAnswer": "Based on the amount of data scanned by the query",
+          "wrongAnswer1": "By the number of queries executed per month",
+          "wrongAnswer2": "By the runtime duration of the query",
+          "wrongAnswer3": "Based on the number of columns queried",
+          "explanation": "AWS Athena pricing is based on the amount of data scanned by each query, which encourages users to optimize data storage and query design to scan less data and reduce costs.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "CloudFront Distributions",
+      "questions": [
+        {
+          "question": "What is the primary purpose of an AWS CloudFront distribution?",
+          "correctAnswer": "To deliver content with low latency and high transfer speeds",
+          "wrongAnswer1": "To store large amounts of data permanently",
+          "wrongAnswer2": "To monitor AWS resource usage",
+          "wrongAnswer3": "To manage user access credentials",
+          "explanation": "AWS CloudFront distributions are used to deliver content such as web pages, videos, and other files to users with low latency by distributing them through edge locations worldwide.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a type of AWS CloudFront distribution?",
+          "correctAnswer": "Hybrid distribution",
+          "wrongAnswer1": "Web distribution",
+          "wrongAnswer2": "RTMP distribution",
+          "wrongAnswer3": "Streaming distribution",
+          "explanation": "AWS CloudFront primarily offers Web and RTMP distributions for delivering content. There is no official 'Hybrid distribution' type.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In AWS CloudFront, what does an origin represent in a distribution configuration?",
+          "correctAnswer": "The location of the original content that CloudFront will cache and deliver",
+          "wrongAnswer1": "The geographic region where content is cached",
+          "wrongAnswer2": "The user who accesses the content",
+          "wrongAnswer3": "The network latency between CloudFront edge locations",
+          "explanation": "An origin is the source location, such as an S3 bucket or an HTTP server, from which CloudFront retrieves the original version of your content to cache and distribute.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "S3 Glacier",
+      "questions": [
+        {
+          "question": "What is AWS S3 Glacier primarily used for?",
+          "correctAnswer": "Long-term data archiving and backup",
+          "wrongAnswer1": "Real-time data processing",
+          "wrongAnswer2": "Hosting dynamic websites",
+          "wrongAnswer3": "Database management",
+          "explanation": "AWS S3 Glacier is designed for long-term storage of data archives and backups with a focus on durability and low cost rather than fast retrieval.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which retrieval option in S3 Glacier provides the fastest access to archived data?",
+          "correctAnswer": "Expedited retrieval",
+          "wrongAnswer1": "Standard retrieval",
+          "wrongAnswer2": "Bulk retrieval",
+          "wrongAnswer3": "Delayed retrieval",
+          "explanation": "Expedited retrieval allows quick access to data in S3 Glacier, typically within 1 to 5 minutes, compared to standard and bulk retrievals which take longer.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does AWS S3 Glacier ensure the durability of stored data?",
+          "correctAnswer": "By replicating data across multiple facilities",
+          "wrongAnswer1": "By encrypting data with user-managed keys only",
+          "wrongAnswer2": "By storing data on a single server with backups",
+          "wrongAnswer3": "By compressing data to save space",
+          "explanation": "S3 Glacier maintains durability by storing multiple copies of data across different physical locations to prevent data loss from hardware failures or disasters.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Snowball Edge",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS Snowball Edge?",
+          "correctAnswer": "To transfer large amounts of data into and out of AWS securely and efficiently",
+          "wrongAnswer1": "To provide cloud-based computing instances for web hosting",
+          "wrongAnswer2": "To offer real-time database services in the cloud",
+          "wrongAnswer3": "To manage user identities and access permissions",
+          "explanation": "AWS Snowball Edge is designed for secure and efficient transfer of large data volumes between on-premises and AWS cloud, often used in data migration or collection scenarios.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following features is included in AWS Snowball Edge devices?",
+          "correctAnswer": "Local compute capabilities along with data transfer",
+          "wrongAnswer1": "Managed relational database services",
+          "wrongAnswer2": "Dedicated content delivery network",
+          "wrongAnswer3": "Serverless computing platform",
+          "explanation": "Snowball Edge devices provide local compute and storage capabilities that allow processing of data on-premises before transferring it to AWS.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does AWS Snowball Edge ensure data security during transfer?",
+          "correctAnswer": "By using built-in encryption and tamper-resistant devices",
+          "wrongAnswer1": "By transmitting data over unsecured public networks",
+          "wrongAnswer2": "By storing data only in plain text formats",
+          "wrongAnswer3": "By requiring manual intervention for data validation",
+          "explanation": "AWS Snowball Edge devices encrypt data automatically to protect it during transport and employ tamper-resistant hardware to prevent unauthorized access.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Step Functions",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS Step Functions?",
+          "correctAnswer": "To coordinate multiple AWS services into serverless workflows",
+          "wrongAnswer1": "To store and retrieve large amounts of data",
+          "wrongAnswer2": "To host and manage relational databases",
+          "wrongAnswer3": "To provide virtual server instances for computing",
+          "explanation": "AWS Step Functions is designed to coordinate components of distributed applications and microservices using visual workflows, helping to build and orchestrate serverless applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which state machine language is used to define workflows in AWS Step Functions?",
+          "correctAnswer": "Amazon States Language",
+          "wrongAnswer1": "AWS CloudFormation",
+          "wrongAnswer2": "Amazon DynamoDB Query Language",
+          "wrongAnswer3": "AWS Lambda Syntax",
+          "explanation": "AWS Step Functions uses the Amazon States Language, a JSON-based structured language, to define state machines and their workflows.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can AWS Step Functions handle errors during workflow execution?",
+          "correctAnswer": "By specifying retry and catch configurations in the state machine definition",
+          "wrongAnswer1": "By automatically restarting the entire workflow regardless of error type",
+          "wrongAnswer2": "By sending errors directly to Amazon S3 for logging",
+          "wrongAnswer3": "By disabling states that fail during execution",
+          "explanation": "AWS Step Functions supports error handling through retry and catch blocks, allowing workflows to recover from errors or take alternative actions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "CodeDeploy Pipelines",
+      "questions": [
+        {
+          "question": "What is AWS CodeDeploy primarily used for?",
+          "correctAnswer": "Automating application deployments to various compute services",
+          "wrongAnswer1": "Managing data storage in AWS",
+          "wrongAnswer2": "Monitoring network traffic in AWS",
+          "wrongAnswer3": "Configuring AWS user permissions",
+          "explanation": "AWS CodeDeploy is a deployment service that automates application deployments to Amazon EC2 instances, on-premises servers, Lambda functions, and more.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In an AWS CodeDeploy pipeline, what is the purpose of a deployment group?",
+          "correctAnswer": "It defines the set of instances or targets where the application will be deployed",
+          "wrongAnswer1": "It manages user access to AWS resources",
+          "wrongAnswer2": "It stores application source code",
+          "wrongAnswer3": "It monitors application performance after deployment",
+          "explanation": "A deployment group in CodeDeploy specifies the target instances or compute resources for deployment, such as EC2 instances or Lambda functions.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following best describes a deployment strategy supported by AWS CodeDeploy?",
+          "correctAnswer": "Blue-green deployment to reduce downtime and risk",
+          "wrongAnswer1": "Manual script execution for deployment",
+          "wrongAnswer2": "Direct database schema changes during deployment",
+          "wrongAnswer3": "Load balancer configuration only",
+          "explanation": "AWS CodeDeploy supports deployment strategies like blue-green deployments, which help reduce downtime and minimize risk by switching traffic from old to new application versions after successful deployment.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "CodeCommit Repositories",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS CodeCommit repositories?",
+          "correctAnswer": "To securely host and manage private Git repositories in the cloud.",
+          "wrongAnswer1": "To provide automated deployment for AWS services.",
+          "wrongAnswer2": "To monitor AWS resources and applications.",
+          "wrongAnswer3": "To create virtual servers for web hosting.",
+          "explanation": "AWS CodeCommit is a fully-managed source control service that hosts secure and scalable private Git repositories in the AWS cloud, enabling collaboration and version control for code.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key feature of AWS CodeCommit repositories?",
+          "correctAnswer": "Support for standard Git commands for version control.",
+          "wrongAnswer1": "Support for non-Git version control systems like SVN.",
+          "wrongAnswer2": "Automatic translation of code into multiple languages.",
+          "wrongAnswer3": "Built-in container orchestration capabilities.",
+          "explanation": "AWS CodeCommit supports standard Git commands, allowing developers to use their existing Git tools and workflows to interact with repositories.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does AWS CodeCommit ensure the security of repositories?",
+          "correctAnswer": "By integrating with AWS IAM for fine-grained access control and encrypting data at rest and in transit.",
+          "wrongAnswer1": "By requiring users to use only public networks for repository access.",
+          "wrongAnswer2": "By storing repository data on local developer machines only.",
+          "wrongAnswer3": "By automatically deleting repositories after 30 days.",
+          "explanation": "AWS CodeCommit integrates with AWS Identity and Access Management (IAM) to enable detailed permission management, and it encrypts repository data both when stored and during transfers to maintain security.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Secrets Manager",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS Secrets Manager?",
+          "correctAnswer": "To securely store and manage sensitive information and credentials",
+          "wrongAnswer1": "To provide a service for big data analytics",
+          "wrongAnswer2": "To automate the deployment of applications",
+          "wrongAnswer3": "To monitor application performance metrics",
+          "explanation": "AWS Secrets Manager is designed to securely store, manage, and retrieve sensitive information such as database credentials, API keys, and other secrets.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature does AWS Secrets Manager provide to automatically keep secrets updated?",
+          "correctAnswer": "Automatic rotation of secrets",
+          "wrongAnswer1": "Manual backup of secrets",
+          "wrongAnswer2": "Automated data encryption",
+          "wrongAnswer3": "Scheduled performance audits",
+          "explanation": "Secrets Manager can automatically rotate credentials according to a schedule to enhance security and reduce risks associated with credential exposure.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which AWS service integration enhances the use of AWS Secrets Manager for controlling access to secrets?",
+          "correctAnswer": "AWS Identity and Access Management (IAM)",
+          "wrongAnswer1": "Amazon CloudFront",
+          "wrongAnswer2": "AWS Lambda",
+          "wrongAnswer3": "Amazon RDS",
+          "explanation": "AWS IAM manages user permissions and controls access to secrets stored in Secrets Manager, enabling fine-grained access control policies.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "AWS Config",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS Config?",
+          "correctAnswer": "To track and manage configuration changes of AWS resources",
+          "wrongAnswer1": "To store large amounts of data in a distributed manner",
+          "wrongAnswer2": "To create and manage virtual servers in the cloud",
+          "wrongAnswer3": "To monitor application performance and uptime",
+          "explanation": "AWS Config is a service that enables you to assess, audit, and evaluate the configurations of your AWS resources. It continuously monitors and records your AWS resource configurations and allows you to automate the evaluation of recorded configurations against desired configurations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature of AWS Config helps in identifying resource compliance with rules?",
+          "correctAnswer": "Config Rules",
+          "wrongAnswer1": "CloudTrail Logs",
+          "wrongAnswer2": "Resource Groups",
+          "wrongAnswer3": "EC2 Tags",
+          "explanation": "Config Rules is a feature of AWS Config that lets you create rules that automatically check the configurations of AWS resources for compliance. These rules help ensure your resources comply with organizational policies and best practices.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Can AWS Config be used to view configuration history of AWS resources?",
+          "correctAnswer": "Yes, AWS Config records and maintains configuration history for resources.",
+          "wrongAnswer1": "No, AWS Config only provides real-time configuration status without history.",
+          "wrongAnswer2": "Yes, but only for Amazon EC2 instances.",
+          "wrongAnswer3": "No, AWS Config focuses on cost management, not configurations.",
+          "explanation": "One of the key functionalities of AWS Config is to record and maintain historical configurations of supported AWS resources. This enables auditing and troubleshooting by viewing prior states and changes over time.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Firewall Manager",
+      "questions": [
+        {
+          "question": "What is AWS Firewall Manager primarily used for?",
+          "correctAnswer": "Centralized management of firewall rules across multiple accounts and resources",
+          "wrongAnswer1": "Designing custom firewalls for individual servers",
+          "wrongAnswer2": "Monitoring network traffic on a single instance",
+          "wrongAnswer3": "Creating backups of firewall configurations",
+          "explanation": "AWS Firewall Manager allows centralized management of firewall rules across multiple AWS accounts and resources, making it easier to maintain consistent security policies.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does AWS Firewall Manager improve security management in large AWS environments?",
+          "correctAnswer": "By automating the enforcement of security policies across accounts and resources",
+          "wrongAnswer1": "By requiring manual application of firewall rules on each resource",
+          "wrongAnswer2": "By only supporting firewalls within a single AWS account",
+          "wrongAnswer3": "By limiting firewall rules to default AWS settings",
+          "explanation": "AWS Firewall Manager helps automate the application and enforcement of security policies across multiple accounts and resources, streamlining security management in large environments.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following AWS services can be managed using AWS Firewall Manager?",
+          "correctAnswer": "AWS WAF, AWS Shield Advanced, and VPC security groups",
+          "wrongAnswer1": "Amazon S3 buckets and AWS Lambda functions",
+          "wrongAnswer2": "AWS EC2 instance types and Amazon RDS configurations",
+          "wrongAnswer3": "AWS CloudTrail and AWS Config settings",
+          "explanation": "AWS Firewall Manager supports managing AWS WAF rules, AWS Shield Advanced protections, and VPC security groups, enabling centralized rule management for these services.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Systems Manager",
+      "questions": [
+        {
+          "question": "What is the primary function of AWS Systems Manager?",
+          "correctAnswer": "It provides a unified interface to manage and automate operational tasks across AWS resources.",
+          "wrongAnswer1": "It is used to create and manage virtual private clouds.",
+          "wrongAnswer2": "It offers a service to host containerized applications.",
+          "wrongAnswer3": "It is primarily used for monitoring network traffic.",
+          "explanation": "AWS Systems Manager enables you to manage and automate operational tasks, such as patching, configuration management, and run command execution across your AWS resources from a single interface.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which AWS Systems Manager feature allows you to automate common maintenance and deployment tasks?",
+          "correctAnswer": "AWS Systems Manager Automation",
+          "wrongAnswer1": "AWS Systems Manager Inventory",
+          "wrongAnswer2": "AWS Systems Manager Session Manager",
+          "wrongAnswer3": "AWS Systems Manager Explorer",
+          "explanation": "Automation lets you create runbooks that perform common tasks such as patching instances or updating applications without manual intervention.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which AWS Systems Manager capability allows you to securely manage access to your EC2 instances without using SSH keys?",
+          "correctAnswer": "Session Manager",
+          "wrongAnswer1": "Run Command",
+          "wrongAnswer2": "Automation",
+          "wrongAnswer3": "Parameter Store",
+          "explanation": "Session Manager provides secure and auditable instance management without the need to open inbound ports, maintain bastion hosts, or manage SSH keys.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Trusted Advisor",
+      "questions": [
+        {
+          "question": "What is the primary function of AWS Trusted Advisor?",
+          "correctAnswer": "It provides real-time guidance to help provision resources following AWS best practices.",
+          "wrongAnswer1": "It automates the deployment of AWS resources based on user preferences.",
+          "wrongAnswer2": "It serves as a billing and cost management tool for AWS accounts.",
+          "wrongAnswer3": "It primarily manages user access policies for AWS services.",
+          "explanation": "AWS Trusted Advisor inspects your AWS environment and provides real-time recommendations to help you follow AWS best practices regarding cost optimization, security, fault tolerance, and performance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following categories is NOT a focus area of AWS Trusted Advisor checks?",
+          "correctAnswer": "Data migration strategies",
+          "wrongAnswer1": "Security",
+          "wrongAnswer2": "Fault tolerance",
+          "wrongAnswer3": "Cost optimization",
+          "explanation": "AWS Trusted Advisor provides checks in categories such as cost optimization, security, fault tolerance, performance, and service limits. Data migration strategies are not specifically a Trusted Advisor focus area.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can AWS Trusted Advisor help improve security in your AWS environment?",
+          "correctAnswer": "By identifying security vulnerabilities such as exposed access keys and open security groups.",
+          "wrongAnswer1": "By automatically encrypting all data stored in AWS services without configuration.",
+          "wrongAnswer2": "By providing antivirus software for AWS instances.",
+          "wrongAnswer3": "By eliminating the need for IAM roles and policies.",
+          "explanation": "Trusted Advisor scans your AWS resources and identifies potential security risks like exposed access keys and overly permissive security group rules, helping to improve overall security posture.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "AWS Budgets",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS Budgets?",
+          "correctAnswer": "To set custom cost and usage budgets and receive alerts",
+          "wrongAnswer1": "To deploy applications automatically",
+          "wrongAnswer2": "To monitor network traffic",
+          "wrongAnswer3": "To manage user access permissions",
+          "explanation": "AWS Budgets allows users to set custom budgets for cost and usage and receive alerts when thresholds are exceeded.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following can you monitor with AWS Budgets?",
+          "correctAnswer": "Costs, usage, Reserved Instance utilization, and Savings Plans utilization",
+          "wrongAnswer1": "Only total monthly cost",
+          "wrongAnswer2": "Server uptime and availability",
+          "wrongAnswer3": "Data transfer speeds",
+          "explanation": "AWS Budgets can track cost, usage, Reserved Instance utilization, and Savings Plans usage to help manage spending.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does AWS Budgets notify users when a budget threshold is exceeded?",
+          "correctAnswer": "By sending email alerts or SNS notifications",
+          "wrongAnswer1": "By automatically stopping services",
+          "wrongAnswer2": "By increasing the budget limit",
+          "wrongAnswer3": "By disabling user accounts",
+          "explanation": "AWS Budgets can be configured to send alerts via email or Amazon SNS when budget thresholds are crossed.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Migration Hub",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS Migration Hub?",
+          "correctAnswer": "To provide a central place to track the progress of application migrations across multiple AWS and partner solutions",
+          "wrongAnswer1": "To host databases in the cloud",
+          "wrongAnswer2": "To directly migrate data from on-premises to the cloud",
+          "wrongAnswer3": "To manage user access to AWS resources",
+          "explanation": "AWS Migration Hub provides a central location to monitor and track the progress of application migrations using various AWS migration tools and partner solutions, helping to coordinate and simplify the migration process.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes a feature of AWS Migration Hub?",
+          "correctAnswer": "It allows visibility into migration status across multiple tools in one dashboard",
+          "wrongAnswer1": "It automatically migrates applications without any user input",
+          "wrongAnswer2": "It is a tool for designing AWS network architecture",
+          "wrongAnswer3": "It only works with AWS native migration tools and excludes third-party tools",
+          "explanation": "AWS Migration Hub consolidates migration tracking information from different AWS and partner migration tools into a single dashboard, providing unified visibility of migration status.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does AWS Migration Hub assist in coordinating complex migrations?",
+          "correctAnswer": "By aggregating migration progress data from several tools to give unified insights into migration status",
+          "wrongAnswer1": "By creating backup copies of all migrated data automatically",
+          "wrongAnswer2": "By providing compute resources to run migration scripts",
+          "wrongAnswer3": "By encrypting data during migration",
+          "explanation": "AWS Migration Hub does not move or transfer data itself; instead, it aggregates progress information from migration tools to help users manage and coordinate multi-phase migrations effectively.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "QuickSight Dashboards",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS QuickSight Dashboards?",
+          "correctAnswer": "To visualize data and provide insights through interactive reports",
+          "wrongAnswer1": "To host virtual servers in the cloud",
+          "wrongAnswer2": "To store large volumes of unstructured data",
+          "wrongAnswer3": "To manage user permissions for AWS services",
+          "explanation": "AWS QuickSight Dashboards are used to create visual data representations and interactive reports for better data insights.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature in AWS QuickSight Dashboards allows users to filter data dynamically?",
+          "correctAnswer": "Interactive filters",
+          "wrongAnswer1": "Static tables",
+          "wrongAnswer2": "S3 buckets",
+          "wrongAnswer3": "CloudFormation scripts",
+          "explanation": "Interactive filters enable users to dynamically manipulate the data displayed on QuickSight Dashboards for customized views.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which data sources can be directly connected to AWS QuickSight for building dashboards?",
+          "correctAnswer": "Amazon S3, Redshift, RDS, and other supported databases",
+          "wrongAnswer1": "Only Amazon EC2 instances",
+          "wrongAnswer2": "Amazon CloudFront distributions",
+          "wrongAnswer3": "AWS Lambda functions",
+          "explanation": "AWS QuickSight supports direct connections to multiple data sources such as Amazon S3, Redshift, and RDS, enabling data visualization from these sources.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Amazon MQ",
+      "questions": [
+        {
+          "question": "What is Amazon MQ primarily used for?",
+          "correctAnswer": "Managed message broker service for Apache ActiveMQ and RabbitMQ",
+          "wrongAnswer1": "Service for managing databases",
+          "wrongAnswer2": "Tool for serverless computing",
+          "wrongAnswer3": "Storage solution for big data",
+          "explanation": "Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ that makes it easy to set up and operate message brokers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which messaging protocols does Amazon MQ support?",
+          "correctAnswer": "JMS, AMQP, MQTT, OpenWire, and STOMP",
+          "wrongAnswer1": "HTTP, HTTPS, FTP, SMTP",
+          "wrongAnswer2": "TCP, UDP, ICMP, SNMP",
+          "wrongAnswer3": "SOAP, REST, GraphQL, RPC",
+          "explanation": "Amazon MQ supports industry-standard messaging protocols including JMS, AMQP, MQTT, OpenWire, and STOMP.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Amazon MQ handle high availability?",
+          "correctAnswer": "By deploying brokers across multiple Availability Zones",
+          "wrongAnswer1": "By storing messages only in a single data center",
+          "wrongAnswer2": "Through client-side message queuing",
+          "wrongAnswer3": "By replicating data to on-premises servers",
+          "explanation": "Amazon MQ achieves high availability by deploying brokers across multiple AWS Availability Zones to ensure fault tolerance and resilience.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Elastic File System",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS Elastic File System?",
+          "correctAnswer": "To provide scalable file storage for use with AWS cloud services",
+          "wrongAnswer1": "To manage relational databases in the cloud",
+          "wrongAnswer2": "To send notification messages across distributed systems",
+          "wrongAnswer3": "To deploy containerized applications",
+          "explanation": "AWS Elastic File System (EFS) is designed to provide scalable and elastic file storage that can be used with AWS cloud services and on-premises resources. It is not used for database management, messaging, or application deployment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes the scalability feature of AWS Elastic File System?",
+          "correctAnswer": "Automatically scales storage as files are added or removed",
+          "wrongAnswer1": "Requires manual intervention to increase storage capacity",
+          "wrongAnswer2": "Has a fixed storage size set at creation",
+          "wrongAnswer3": "Scales only when triggered by AWS Lambda functions",
+          "explanation": "One of the key features of AWS EFS is its ability to automatically scale storage up or down as files are added or deleted, without user intervention, making it highly flexible for varying workloads.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "AWS Elastic File System supports which type of access protocol?",
+          "correctAnswer": "Network File System version 4 (NFSv4)",
+          "wrongAnswer1": "Server Message Block (SMB) only",
+          "wrongAnswer2": "File Transfer Protocol (FTP)",
+          "wrongAnswer3": "Hypertext Transfer Protocol (HTTP)",
+          "explanation": "AWS EFS supports access via the NFSv4 protocol, allowing multiple instances to access the file system concurrently. It does not use SMB, FTP, or HTTP protocols for file access.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Macie Service",
+      "questions": [
+        {
+          "question": "What is the primary function of AWS Macie?",
+          "correctAnswer": "To discover, classify, and protect sensitive data stored in AWS",
+          "wrongAnswer1": "To manage AWS infrastructure as code",
+          "wrongAnswer2": "To provide scalable virtual servers",
+          "wrongAnswer3": "To monitor application performance metrics",
+          "explanation": "AWS Macie is a security service that uses machine learning to automatically discover, classify, and protect sensitive data such as personally identifiable information in AWS.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of data does AWS Macie mainly help to secure?",
+          "correctAnswer": "Personally identifiable information and sensitive data",
+          "wrongAnswer1": "Virtual server configurations",
+          "wrongAnswer2": "Log files related to application errors",
+          "wrongAnswer3": "EC2 instance metadata",
+          "explanation": "AWS Macie specializes in identifying and protecting sensitive data such as personally identifiable information (PII) and intellectual property in AWS environments.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does AWS Macie identify sensitive data?",
+          "correctAnswer": "By using machine learning and pattern matching techniques",
+          "wrongAnswer1": "By running user-defined scripts on data",
+          "wrongAnswer2": "By manual tagging by administrators",
+          "wrongAnswer3": "By monitoring network traffic logs",
+          "explanation": "AWS Macie uses machine learning and pattern matching to automatically identify and classify sensitive data stored in Amazon S3 buckets.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Lex Bot",
+      "questions": [
+        {
+          "question": "What is an AWS Lex Bot primarily used for?",
+          "correctAnswer": "Building conversational interfaces using voice and text",
+          "wrongAnswer1": "Managing AWS cloud infrastructure",
+          "wrongAnswer2": "Analyzing big data sets",
+          "wrongAnswer3": "Creating virtual private networks",
+          "explanation": "AWS Lex Bot is a service for building conversational interfaces, enabling applications to understand natural language in both voice and text forms.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which AWS service does Lex Bot integrate with to provide automatic speech recognition and natural language understanding?",
+          "correctAnswer": "Amazon Polly and AWS Lambda",
+          "wrongAnswer1": "Amazon S3 and DynamoDB",
+          "wrongAnswer2": "AWS EC2 and RDS",
+          "wrongAnswer3": "AWS CloudFormation and IAM",
+          "explanation": "AWS Lex uses Amazon Polly for text-to-speech, and AWS Lambda for backend logic to provide robust natural language understanding and automatic speech recognition.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In AWS Lex Bot, what is an Intent?",
+          "correctAnswer": "A goal or action that the user wants to perform",
+          "wrongAnswer1": "A storage location for data",
+          "wrongAnswer2": "A type of user authentication",
+          "wrongAnswer3": "An AWS billing model",
+          "explanation": "In AWS Lex, an Intent represents what the user wants to do, such as booking a ticket or placing an order, and it guides the conversation flow accordingly.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Polly Service",
+      "questions": [
+        {
+          "question": "What is the primary function of AWS Polly Service?",
+          "correctAnswer": "Converts text into lifelike speech",
+          "wrongAnswer1": "Manages cloud storage and backups",
+          "wrongAnswer2": "Provides real-time translation of languages",
+          "wrongAnswer3": "Hosts and runs containerized applications",
+          "explanation": "AWS Polly is a text-to-speech service that uses advanced deep learning technologies to synthesize speech that sounds like a human voice.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature best describes AWS Polly's speech synthesis capabilities?",
+          "correctAnswer": "Supports multiple languages and voices for speech output",
+          "wrongAnswer1": "Only converts English text to speech",
+          "wrongAnswer2": "Creates video subtitles automatically",
+          "wrongAnswer3": "Generates speech from pre-recorded audio files",
+          "explanation": "AWS Polly supports dozens of languages and offers a variety of voices to produce natural-sounding speech.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does AWS Polly improve accessibility for applications?",
+          "correctAnswer": "By providing audio versions of text content for users with visual impairments",
+          "wrongAnswer1": "By automatically translating text for international users",
+          "wrongAnswer2": "By compressing text to reduce bandwidth usage",
+          "wrongAnswer3": "By generating static images of text for offline access",
+          "explanation": "AWS Polly can convert written text into spoken audio, helping users who have difficulty reading or who prefer listening to content.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Transcribe Service",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS Transcribe Service?",
+          "correctAnswer": "To convert speech to text",
+          "wrongAnswer1": "To translate text between languages",
+          "wrongAnswer2": "To store large amounts of data",
+          "wrongAnswer3": "To analyze sentiment in text",
+          "explanation": "AWS Transcribe is a speech recognition service that converts spoken language into written text.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key feature of AWS Transcribe Service?",
+          "correctAnswer": "Real-time transcription of audio streams",
+          "wrongAnswer1": "Real-time video rendering",
+          "wrongAnswer2": "Creating virtual servers",
+          "wrongAnswer3": "Automatic image tagging",
+          "explanation": "AWS Transcribe can provide real-time transcription of audio, which is useful for live applications such as customer service calls.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "AWS Transcribe Service supports which type of audio input formats?",
+          "correctAnswer": "Common audio formats like WAV and MP3",
+          "wrongAnswer1": "Only text files",
+          "wrongAnswer2": "Only video files",
+          "wrongAnswer3": "Encrypted files only",
+          "explanation": "AWS Transcribe supports multiple common audio formats including WAV and MP3 for speech-to-text conversion.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Cognito User Pools",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS Cognito User Pools?",
+          "correctAnswer": "To manage user sign-up, sign-in, and authentication",
+          "wrongAnswer1": "To store large amounts of data",
+          "wrongAnswer2": "To manage network traffic",
+          "wrongAnswer3": "To deploy virtual machines",
+          "explanation": "AWS Cognito User Pools provide authentication and user management services, enabling user sign-up and sign-in functionalities for applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature is supported by AWS Cognito User Pools for user authentication?",
+          "correctAnswer": "Multi-factor authentication",
+          "wrongAnswer1": "Data encryption at rest",
+          "wrongAnswer2": "Content delivery network",
+          "wrongAnswer3": "Virtual private cloud creation",
+          "explanation": "AWS Cognito User Pools support multi-factor authentication to enhance security during user sign-in by requiring additional verification.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can developers customize the authentication flow in AWS Cognito User Pools?",
+          "correctAnswer": "By using AWS Lambda triggers to add custom workflows",
+          "wrongAnswer1": "By modifying the backend database schema",
+          "wrongAnswer2": "By changing the Amazon S3 bucket policies",
+          "wrongAnswer3": "By adjusting the Elastic Load Balancer settings",
+          "explanation": "Developers can use AWS Lambda triggers with Cognito User Pools to customize authentication flows, such as adding custom validations or sending notifications.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Amplify Framework",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the AWS Amplify Framework?",
+          "correctAnswer": "To simplify building and deploying mobile and web applications using AWS services",
+          "wrongAnswer1": "To provide a database management system for AWS cloud",
+          "wrongAnswer2": "To monitor AWS resources and generate reports",
+          "wrongAnswer3": "To manage user credentials outside of cloud applications",
+          "explanation": "AWS Amplify Framework is designed to help developers easily build and deploy scalable mobile and web applications leveraging AWS cloud services.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature is NOT provided by AWS Amplify Framework?",
+          "correctAnswer": "Creating virtual machines for hosting applications",
+          "wrongAnswer1": "Authentication and user signup functionalities",
+          "wrongAnswer2": "Hosting and continuous deployment",
+          "wrongAnswer3": "APIs and data storage integration",
+          "explanation": "AWS Amplify does not provide virtual machine creation as it focuses on app backend services like authentication, hosting, and data APIs rather than infrastructure side management.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What programming environment does AWS Amplify primarily support for app development?",
+          "correctAnswer": "JavaScript frameworks such as React, Vue, and Angular",
+          "wrongAnswer1": "Java desktop application development",
+          "wrongAnswer2": "Native C++ development environments",
+          "wrongAnswer3": "Python scripts for server automation only",
+          "explanation": "AWS Amplify offers robust support for JavaScript frameworks, providing libraries and tools optimized for web and mobile front-end development.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "AppSync API",
+      "questions": [
+        {
+          "question": "What is the primary function of AWS AppSync API?",
+          "correctAnswer": "To create flexible GraphQL APIs for real-time data synchronization",
+          "wrongAnswer1": "To provide RESTful API management services",
+          "wrongAnswer2": "To manage content delivery networks",
+          "wrongAnswer3": "To automate infrastructure deployment",
+          "explanation": "AWS AppSync API is designed to simplify development of GraphQL APIs, enabling real-time data synchronization and offline programming features.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which data sources can AWS AppSync API integrate with?",
+          "correctAnswer": "Amazon DynamoDB, AWS Lambda, and HTTP endpoints",
+          "wrongAnswer1": "Amazon S3, AWS Batch, and Amazon SNS",
+          "wrongAnswer2": "Amazon EC2, AWS CloudFormation, and Amazon EBS",
+          "wrongAnswer3": "Amazon RDS, Amazon Redshift, and AWS Glue",
+          "explanation": "AWS AppSync API can integrate with various data sources including DynamoDB, AWS Lambda functions, and HTTP resources to provide flexible data access.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does AWS AppSync API support real-time updates to clients?",
+          "correctAnswer": "By using GraphQL subscriptions to push data updates",
+          "wrongAnswer1": "By polling clients at regular intervals",
+          "wrongAnswer2": "Through scheduled batch data synchronization",
+          "wrongAnswer3": "Using a separate WebSocket management service",
+          "explanation": "AWS AppSync utilizes GraphQL subscriptions that allow clients to receive real-time updates automatically when data changes, without polling.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Cloud9 IDE",
+      "questions": [
+        {
+          "question": "What is AWS Cloud9 primarily used for?",
+          "correctAnswer": "An integrated development environment for coding in the cloud",
+          "wrongAnswer1": "A cloud storage service for backup and archiving",
+          "wrongAnswer2": "A cloud-based database management system",
+          "wrongAnswer3": "A virtual machine hosting service",
+          "explanation": "AWS Cloud9 is a cloud-based integrated development environment (IDE) that allows developers to write, run, and debug code directly in a web browser.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature of AWS Cloud9 allows developers to collaborate in real-time?",
+          "correctAnswer": "Pair programming with shared code editing and chat",
+          "wrongAnswer1": "Automatic code compilation",
+          "wrongAnswer2": "Code deployment automation",
+          "wrongAnswer3": "Cloud storage synchronization",
+          "explanation": "AWS Cloud9 supports real-time collaboration where multiple developers can edit code simultaneously and communicate via an integrated chat feature.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What advantage does AWS Cloud9 offer by being a cloud IDE?",
+          "correctAnswer": "It allows coding from any device without local setup",
+          "wrongAnswer1": "It requires installing software on the local machine",
+          "wrongAnswer2": "It only works with AWS Lambda functions",
+          "wrongAnswer3": "It only supports one programming language",
+          "explanation": "Because AWS Cloud9 is cloud-based, developers can code from anywhere using a browser without installing or configuring development tools locally. It supports multiple programming languages and AWS services.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Inspector Service",
+      "questions": [
+        {
+          "question": "What is the primary purpose of AWS Inspector Service?",
+          "correctAnswer": "To assess the security vulnerabilities and compliance of applications",
+          "wrongAnswer1": "To store large amounts of data securely in the cloud",
+          "wrongAnswer2": "To monitor real-time network traffic for anomalies",
+          "wrongAnswer3": "To analyze customer usage patterns for cost optimization",
+          "explanation": "AWS Inspector Service is designed to automatically assess applications for security vulnerabilities and compliance deviations, helping to improve overall security posture.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes how AWS Inspector Service operates?",
+          "correctAnswer": "It automatically assesses applications by scanning for known security issues",
+          "wrongAnswer1": "It manually requires users to input security rules for scanning",
+          "wrongAnswer2": "It monitors database transactions for malicious queries",
+          "wrongAnswer3": "It encrypts data at rest and in transit",
+          "explanation": "AWS Inspector automatically scans applications and infrastructure to detect vulnerabilities and deviations from security best practices without manual rule input.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which scenario is AWS Inspector Service most suitable for?",
+          "correctAnswer": "Performing security assessments on EC2 instances and the applications deployed on them",
+          "wrongAnswer1": "Automating load balancing across multiple AWS regions",
+          "wrongAnswer2": "Backing up data stored in Amazon S3 buckets",
+          "wrongAnswer3": "Configuring network firewalls and access control lists",
+          "explanation": "AWS Inspector is primarily used for security assessments of EC2 instances and applications, not for infrastructure configuration or data backup.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Resource Groups",
+      "questions": [
+        {
+          "question": "What is the main purpose of AWS Resource Groups?",
+          "correctAnswer": "To organize and manage AWS resources based on criteria such as tags",
+          "wrongAnswer1": "To provide cost forecasts for AWS services",
+          "wrongAnswer2": "To create virtual private clouds automatically",
+          "wrongAnswer3": "To monitor network traffic between AWS resources",
+          "explanation": "AWS Resource Groups allow users to organize and manage resources that share common tags or attributes, simplifying resource management across the AWS environment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key benefit of using AWS Resource Groups?",
+          "correctAnswer": "Enabling grouped operations on multiple resources at once",
+          "wrongAnswer1": "Automatically scaling resources based on traffic",
+          "wrongAnswer2": "Encrypting data within resource groups by default",
+          "wrongAnswer3": "Providing multi-factor authentication for resource access",
+          "explanation": "Resource Groups allow users to perform tasks such as applying changes or querying multiple AWS resources together efficiently.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How are resources typically grouped in AWS Resource Groups?",
+          "correctAnswer": "By using tags assigned to AWS resources",
+          "wrongAnswer1": "By geographic location of data centers only",
+          "wrongAnswer2": "By the time of resource creation",
+          "wrongAnswer3": "By user access permissions exclusively",
+          "explanation": "Tags provide a flexible way to group AWS resources for management purposes regardless of their location or creation time.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "Aurora Serverless",
+      "questions": [
+        {
+          "question": "What is a key feature of Amazon Aurora Serverless?",
+          "correctAnswer": "It automatically scales database capacity based on application needs",
+          "wrongAnswer1": "It requires manual management of server capacity",
+          "wrongAnswer2": "It only supports fixed database instance sizes",
+          "wrongAnswer3": "It does not support MySQL or PostgreSQL",
+          "explanation": "Amazon Aurora Serverless automatically adjusts the database capacity to match application demands, minimizing cost and maintenance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which use case best fits Amazon Aurora Serverless?",
+          "correctAnswer": "Applications with variable or unpredictable workloads",
+          "wrongAnswer1": "Applications requiring constant high database throughput",
+          "wrongAnswer2": "On-premises databases",
+          "wrongAnswer3": "Databases that do not need to scale",
+          "explanation": "Aurora Serverless is ideal for applications where database traffic fluctuates, as it can scale capacity up or down accordingly.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Aurora Serverless handle database availability during scaling?",
+          "correctAnswer": "It seamlessly scales without downtime",
+          "wrongAnswer1": "It requires manual intervention to scale",
+          "wrongAnswer2": "Scaling causes the database to restart, causing downtime",
+          "wrongAnswer3": "It only scales during scheduled maintenance windows",
+          "explanation": "Aurora Serverless can scale capacity without causing downtime, ensuring continuous availability of the database.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "DocumentDB Service",
+      "questions": [
+        {
+          "question": "What is AWS DocumentDB primarily used for?",
+          "correctAnswer": "It is a managed NoSQL document database service.",
+          "wrongAnswer1": "It is used for deploying virtual machines in the cloud.",
+          "wrongAnswer2": "It is a service for managing relational databases only.",
+          "wrongAnswer3": "It provides a caching layer for databases.",
+          "explanation": "AWS DocumentDB is designed as a managed NoSQL document database service, compatible with MongoDB workloads, focusing on storing and querying JSON-like documents.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which database engine is AWS DocumentDB compatible with?",
+          "correctAnswer": "MongoDB",
+          "wrongAnswer1": "MySQL",
+          "wrongAnswer2": "PostgreSQL",
+          "wrongAnswer3": "Oracle",
+          "explanation": "AWS DocumentDB is compatible with MongoDB APIs, allowing users to use existing MongoDB applications and tools with minimal changes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a key benefit of using AWS DocumentDB service?",
+          "correctAnswer": "Automatic scaling and managed backups",
+          "wrongAnswer1": "Manual server configuration and patching required",
+          "wrongAnswer2": "No support for encryption and security features",
+          "wrongAnswer3": "Required to manage hardware and infrastructure manually",
+          "explanation": "AWS DocumentDB provides automatic scaling, backup management, and security features, reducing the operational overhead for users.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "AWS",
+      "concept": "MediaConvert Service",
+      "questions": [
+        {
+          "question": "What is AWS MediaConvert primarily used for?",
+          "correctAnswer": "Transcoding media files into different formats",
+          "wrongAnswer1": "Managing database services",
+          "wrongAnswer2": "Hosting web applications",
+          "wrongAnswer3": "Providing virtual servers",
+          "explanation": "AWS MediaConvert is a service designed for converting media files into formats suitable for various devices and platforms.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes a feature of AWS MediaConvert?",
+          "correctAnswer": "Supports multiple output formats like MP4 and HLS",
+          "wrongAnswer1": "Only supports input from live video streams",
+          "wrongAnswer2": "Requires manual installation on local servers",
+          "wrongAnswer3": "Limited to audio file conversion",
+          "explanation": "AWS MediaConvert supports various output formats including MP4 and HLS, making it versatile for media processing needs.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does AWS MediaConvert integrate with other AWS services?",
+          "correctAnswer": "It can use Amazon S3 for input and output storage",
+          "wrongAnswer1": "It directly replaces Amazon EC2 instances",
+          "wrongAnswer2": "It manages users through AWS IAM only",
+          "wrongAnswer3": "It functions as a database for video metadata",
+          "explanation": "AWS MediaConvert commonly uses Amazon S3 buckets to store input media files and to deliver processed outputs.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

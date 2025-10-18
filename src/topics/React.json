@@ -1,0 +1,1655 @@
+{
+  "topic": "React",
+  "concepts": [
+    {
+      "topic": "React",
+      "concept": "Virtual DOM",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Virtual DOM in React?",
+          "correctAnswer": "To optimize updates by reducing direct manipulation of the actual DOM",
+          "wrongAnswer1": "To replace the actual DOM completely in the browser",
+          "wrongAnswer2": "To serve as a database for storing React components",
+          "wrongAnswer3": "To handle server-side rendering exclusively",
+          "explanation": "The Virtual DOM is a lightweight copy of the actual DOM. React uses it to compute the minimal changes needed and applies only those changes to the real DOM, optimizing performance and responsiveness.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does React use the Virtual DOM to update the user interface?",
+          "correctAnswer": "By comparing the previous and current Virtual DOM and applying changes to the real DOM",
+          "wrongAnswer1": "By directly manipulating the real DOM without any intermediate steps",
+          "wrongAnswer2": "By refreshing the entire browser window each time an update occurs",
+          "wrongAnswer3": "By sending the Virtual DOM to the server for update processing",
+          "explanation": "React creates a new Virtual DOM with every state change, compares it with the previous Virtual DOM (a process known as diffing), and then efficiently updates only the parts of the real DOM that changed.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following best describes the diffing algorithm used by React's Virtual DOM?",
+          "correctAnswer": "An algorithm that compares old and new Virtual DOM trees to find the smallest set of changes",
+          "wrongAnswer1": "An algorithm that converts JSX directly into HTML elements on the server",
+          "wrongAnswer2": "An algorithm that caches entire DOM states for offline use",
+          "wrongAnswer3": "An algorithm that prioritizes server-side rendering over client-side updates",
+          "explanation": "The diffing algorithm efficiently compares the old and new Virtual DOM trees and identifies the minimum number of operations needed to update the real DOM, improving performance.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "JSX Syntax",
+      "questions": [
+        {
+          "question": "What does JSX stand for in React?",
+          "correctAnswer": "JavaScript XML",
+          "wrongAnswer1": "Java Syntax Extension",
+          "wrongAnswer2": "Java Structured XML",
+          "wrongAnswer3": "JavaScript Simple XML",
+          "explanation": "JSX stands for JavaScript XML and allows writing HTML elements in JavaScript and placing them in the DOM without using functions like createElement.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In JSX, how do you insert a JavaScript expression inside HTML tags?",
+          "correctAnswer": "By using curly braces {}",
+          "wrongAnswer1": "By using square brackets []",
+          "wrongAnswer2": "By using parentheses ()",
+          "wrongAnswer3": "By using quotation marks \"\"",
+          "explanation": "JSX allows you to insert JavaScript expressions inside HTML tags by enclosing them within curly braces {}.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about JSX syntax?",
+          "correctAnswer": "JSX elements must have a single parent element.",
+          "wrongAnswer1": "JSX allows multiple sibling elements without wrapping.",
+          "wrongAnswer2": "JSX expressions cannot include JavaScript variables.",
+          "wrongAnswer3": "JSX syntax is the same as regular HTML without any differences.",
+          "explanation": "In JSX, all elements must be wrapped in a single parent element. This is because JSX transpiles into JavaScript function calls that expect a single root element.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Component Lifecycle",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the component lifecycle in React?",
+          "correctAnswer": "To manage the stages from mounting to unmounting of a component",
+          "wrongAnswer1": "To style components with CSS",
+          "wrongAnswer2": "To handle user input in forms",
+          "wrongAnswer3": "To fetch data only once from the server",
+          "explanation": "The component lifecycle in React is designed to manage a component's existence from when it is first added to the DOM (mounting), updated, and eventually removed (unmounting).",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which lifecycle method is called immediately after a component is inserted into the DOM?",
+          "correctAnswer": "componentDidMount",
+          "wrongAnswer1": "componentWillUnmount",
+          "wrongAnswer2": "shouldComponentUpdate",
+          "wrongAnswer3": "render",
+          "explanation": "componentDidMount is executed once the component has been mounted to the DOM, and it is often used for initializing data fetching or subscriptions.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why should the shouldComponentUpdate method be used carefully?",
+          "correctAnswer": "Because it can prevent unnecessary re-rendering and improve performance",
+          "wrongAnswer1": "Because it updates the state directly",
+          "wrongAnswer2": "Because it forces the component to unmount",
+          "wrongAnswer3": "Because it makes the render method asynchronous",
+          "explanation": "shouldComponentUpdate allows React to skip rendering when it returns false, helping to optimize performance by avoiding unnecessary updates.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "State Management",
+      "questions": [
+        {
+          "question": "What is the primary purpose of state management in React applications?",
+          "correctAnswer": "To handle and maintain data that affects the rendering of components",
+          "wrongAnswer1": "To manage the styling of React components",
+          "wrongAnswer2": "To optimize the network requests made by the application",
+          "wrongAnswer3": "To enforce strict typing in JavaScript code",
+          "explanation": "State management in React is focused on handling data that influences what is displayed or how components behave, allowing interactive and dynamic user interfaces.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these is a common method to manage state in a React functional component?",
+          "correctAnswer": "Using the useState hook",
+          "wrongAnswer1": "Using the componentDidMount lifecycle method",
+          "wrongAnswer2": "Using Redux directly in the component without any bindings",
+          "wrongAnswer3": "Writing inline CSS styles",
+          "explanation": "The useState hook allows React functional components to have and manage state, which was not possible with simple functions before hooks were introduced.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a key benefit of using a state management library like Redux in larger React applications?",
+          "correctAnswer": "It centralizes application state allowing predictable state updates and easier debugging",
+          "wrongAnswer1": "It removes the need to write any React components",
+          "wrongAnswer2": "It automatically handles asynchronous network requests for you",
+          "wrongAnswer3": "It converts React applications into static websites",
+          "explanation": "Redux provides a single source of truth for application state, making the flow of data predictable and easier to debug, which is particularly beneficial in complex applications.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Props Usage",
+      "questions": [
+        {
+          "question": "In React, what is the primary purpose of props?",
+          "correctAnswer": "To pass data from a parent component to a child component",
+          "wrongAnswer1": "To manage the component's internal state",
+          "wrongAnswer2": "To handle component lifecycle methods",
+          "wrongAnswer3": "To create styles for components",
+          "explanation": "Props (short for properties) are used in React to pass data and event handlers from a parent component to its children, enabling component reusability and dynamic rendering.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can a React component receive data from its parent component?",
+          "correctAnswer": "Through props passed as attributes when using the child component",
+          "wrongAnswer1": "By accessing global variables inside the child component",
+          "wrongAnswer2": "By using local component state to fetch data",
+          "wrongAnswer3": "By calling the parent's methods directly inside the child",
+          "explanation": "A child component receives data by declaring props in its function or class and then receiving values through attributes in JSX when it is rendered by the parent component.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about modifying props inside a React component?",
+          "correctAnswer": "Props are read-only and should not be modified inside the component",
+          "wrongAnswer1": "Props can be changed directly using this.setState",
+          "wrongAnswer2": "Props should be mutated to update component behavior",
+          "wrongAnswer3": "Props and state are the same and can be used interchangeably",
+          "explanation": "Props are immutable within the component that receives them. To change what a component displays, state or new props from the parent must be used instead.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Event Handling",
+      "questions": [
+        {
+          "question": "In React, how do you correctly specify an event handler for a button click?",
+          "correctAnswer": "Use the onClick attribute with a function reference, like onClick={handleClick}",
+          "wrongAnswer1": "Use onclick attribute with quotes, like onclick=\"handleClick()\"",
+          "wrongAnswer2": "Use the onClick attribute with a string, like onClick=\"handleClick\"",
+          "wrongAnswer3": "Use onClick attribute without curly braces, like onClick=handleClick",
+          "explanation": "In React, event handlers are specified using camelCase attributes like onClick and the handler should be passed as a function reference inside curly braces.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the difference between event handling in React and handling events in plain HTML JavaScript?",
+          "correctAnswer": "React uses synthetic events and camelCase event names; HTML uses native events and lowercase names",
+          "wrongAnswer1": "React uses lowercase event names; HTML uses camelCase event names",
+          "wrongAnswer2": "React automatically binds all event handlers to the component; HTML requires manual binding",
+          "wrongAnswer3": "React events always return a string; HTML events return objects",
+          "explanation": "React uses a synthetic event system that normalizes events across browsers and requires camelCase for event names, unlike native HTML events which are lowercase and have varying implementations.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can you pass additional arguments to an event handler in React?",
+          "correctAnswer": "Wrap the handler call inside an arrow function, for example, onClick={e => handleClick(e, id)}",
+          "wrongAnswer1": "Directly pass the arguments inside onClick like onClick={handleClick(id)}",
+          "wrongAnswer2": "Use onClick={handleClick.bind(id)} to pass arguments",
+          "wrongAnswer3": "Add the arguments in the JSX tag like <button args={id} onClick={handleClick}>",
+          "explanation": "To pass arguments to event handlers in React, you typically wrap the call in an arrow function so that the handler is not invoked immediately.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Hooks API",
+      "questions": [
+        {
+          "question": "What is the primary purpose of React Hooks API?",
+          "correctAnswer": "To use state and other React features without writing a class",
+          "wrongAnswer1": "To create new React classes more efficiently",
+          "wrongAnswer2": "To improve the styling of React components",
+          "wrongAnswer3": "To directly manipulate the DOM elements",
+          "explanation": "The React Hooks API allows developers to use state and other React features like lifecycle methods in functional components without needing to write class components.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Hook would you use to manage state in a functional component?",
+          "correctAnswer": "useState",
+          "wrongAnswer1": "useEffect",
+          "wrongAnswer2": "useContext",
+          "wrongAnswer3": "useReducer",
+          "explanation": "The useState Hook lets you add state to functional components, while useEffect handles side effects, useContext accesses context, and useReducer is an alternative to useState for complex state logic.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which React Hook is used to perform side effects such as fetching data or manually changing the DOM?",
+          "correctAnswer": "useEffect",
+          "wrongAnswer1": "useState",
+          "wrongAnswer2": "useRef",
+          "wrongAnswer3": "useMemo",
+          "explanation": "The useEffect Hook lets you perform side effects in function components, like fetching data, subscriptions, or manually manipulating the DOM after React has updated it.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Context API",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the React Context API?",
+          "correctAnswer": "To share data globally across components without passing props manually",
+          "wrongAnswer1": "To manage local component state",
+          "wrongAnswer2": "To handle side effects in functional components",
+          "wrongAnswer3": "To fetch data from an API automatically",
+          "explanation": "The React Context API allows sharing data like themes or user information across components without manually passing props at every level.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which React method is used to create a context?",
+          "correctAnswer": "React.createContext",
+          "wrongAnswer1": "React.useState",
+          "wrongAnswer2": "React.useEffect",
+          "wrongAnswer3": "React.renderContext",
+          "explanation": "React.createContext is the method used to create a new Context object that can then be provided and consumed in components.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can a component consume the value from a React Context?",
+          "correctAnswer": "By using the useContext hook or Context.Consumer component",
+          "wrongAnswer1": "By using the useState hook",
+          "wrongAnswer2": "By passing props explicitly",
+          "wrongAnswer3": "By calling React.renderContext method",
+          "explanation": "Components can consume data from the Context either by the useContext hook or the render prop pattern with Context.Consumer component.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "React Router",
+      "questions": [
+        {
+          "question": "What is the primary purpose of React Router in React applications?",
+          "correctAnswer": "To enable navigation among different components or pages without refreshing the entire page",
+          "wrongAnswer1": "To style React components with CSS",
+          "wrongAnswer2": "To manage state across multiple components",
+          "wrongAnswer3": "To fetch data from APIs asynchronously",
+          "explanation": "React Router is used to handle routing in React applications, allowing for navigation between views or components without a full page reload, creating a single-page application experience.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following components is commonly used to define routes in React Router?",
+          "correctAnswer": "Route",
+          "wrongAnswer1": "Link",
+          "wrongAnswer2": "Button",
+          "wrongAnswer3": "SwitchCase",
+          "explanation": "In React Router, the Route component is used to declare a route and specify which component should be rendered when the URL matches the path.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does the Link component in React Router differ from a regular anchor tag?",
+          "correctAnswer": "It prevents a full page reload and changes the browser URL to navigate within the app",
+          "wrongAnswer1": "It automatically styles the link with CSS",
+          "wrongAnswer2": "It fetches data from the server when clicked",
+          "wrongAnswer3": "It triggers a state reset in the React component",
+          "explanation": "The Link component provided by React Router changes the URL and updates the UI without causing the browser to reload the page, preserving the single-page application behavior.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Redux State",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Redux state in a React application?",
+          "correctAnswer": "To manage and centralize the application state for predictable state changes",
+          "wrongAnswer1": "To style React components",
+          "wrongAnswer2": "To handle HTTP requests",
+          "wrongAnswer3": "To store component instance variables",
+          "explanation": "Redux state provides a centralized store that holds the entire state of the application, enabling predictable state management and easier debugging.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does Redux ensure that state changes are predictable?",
+          "correctAnswer": "By using pure reducer functions that return new state objects based on actions",
+          "wrongAnswer1": "By allowing components to modify state directly",
+          "wrongAnswer2": "By storing state in local storage",
+          "wrongAnswer3": "By updating state asynchronously without actions",
+          "explanation": "Redux relies on pure reducer functions that take the previous state and an action to return a new state, ensuring immutability and predictability.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which Redux concept describes an object with a type property that describes the state change?",
+          "correctAnswer": "An action",
+          "wrongAnswer1": "A reducer",
+          "wrongAnswer2": "A selector",
+          "wrongAnswer3": "A middleware",
+          "explanation": "In Redux, an action is an object with a type property that specifies what change should happen to the state.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Functional Components",
+      "questions": [
+        {
+          "question": "What is a primary characteristic of a functional component in React?",
+          "correctAnswer": "It is a JavaScript function that returns JSX.",
+          "wrongAnswer1": "It is a class that extends React.Component.",
+          "wrongAnswer2": "It directly manipulates the DOM outside of React.",
+          "wrongAnswer3": "It requires lifecycle methods to be defined.",
+          "explanation": "Functional components in React are simple JavaScript functions that return JSX to describe what the UI should look like. They do not require lifecycle methods or direct DOM manipulation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which React feature allows functional components to use state and lifecycle methods?",
+          "correctAnswer": "Hooks such as useState and useEffect.",
+          "wrongAnswer1": "Class components do this, not functional components.",
+          "wrongAnswer2": "Redux store integration only.",
+          "wrongAnswer3": "Direct DOM manipulation functions.",
+          "explanation": "React Hooks like useState and useEffect enable functional components to manage state and mimic lifecycle behavior without converting them to class components.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "When should you prefer using functional components over class components in React?",
+          "correctAnswer": "When you want simpler components that support Hooks for state and side effects.",
+          "wrongAnswer1": "When you need to use legacy lifecycle methods only available in classes.",
+          "wrongAnswer2": "When your component needs to access refs exclusively.",
+          "wrongAnswer3": "When you want to avoid using JSX in the component.",
+          "explanation": "Functional components are generally preferred for their simplicity and support of Hooks, which easily handle state and side effects. They help write cleaner and more maintainable code.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Class Components",
+      "questions": [
+        {
+          "question": "What is a key feature of React class components?",
+          "correctAnswer": "They can hold and manage their own state internally.",
+          "wrongAnswer1": "They always use hooks for state management.",
+          "wrongAnswer2": "They cannot render JSX elements.",
+          "wrongAnswer3": "They are only used for styling components.",
+          "explanation": "React class components can hold and manage their own state internally, allowing them to track and respond to changes over time. This is one of their defining features compared to functional components without hooks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you define a class component in React?",
+          "correctAnswer": "By creating a class that extends React.Component and defines a render method.",
+          "wrongAnswer1": "By using a function that returns JSX.",
+          "wrongAnswer2": "By creating a plain JavaScript object with a render method.",
+          "wrongAnswer3": "By calling React.createComponent method with props.",
+          "explanation": "A React class component is defined by creating a JavaScript class that extends React.Component and implements a render method which returns JSX to display the UI.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method must be implemented in a React class component?",
+          "correctAnswer": "render",
+          "wrongAnswer1": "componentDidMount",
+          "wrongAnswer2": "useEffect",
+          "wrongAnswer3": "getDerivedStateFromProps",
+          "explanation": "Every React class component must implement the render method, which returns the JSX to be rendered. Other lifecycle methods are optional and used for specific side effects.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Conditional Rendering",
+      "questions": [
+        {
+          "question": "What is conditional rendering in React?",
+          "correctAnswer": "Rendering components or elements based on certain conditions",
+          "wrongAnswer1": "Loading components only once per application",
+          "wrongAnswer2": "Rendering the entire UI regardless of state",
+          "wrongAnswer3": "Automatically updating components without any condition",
+          "explanation": "Conditional rendering in React means showing different components or elements depending on certain conditions, typically involving the component's state or props.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common way to implement conditional rendering in React?",
+          "correctAnswer": "Using JavaScript if statements or ternary operators inside the render method",
+          "wrongAnswer1": "Using CSS to hide or show elements",
+          "wrongAnswer2": "Using inline HTML conditional tags",
+          "wrongAnswer3": "Creating separate components for every possible condition without logic",
+          "explanation": "In React, conditional rendering is most commonly done using JavaScript logic like if statements or ternary operators inside the render method or function component return statement.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What will be the result of this React code? Render {isLoggedIn ? <LogoutButton /> : <LoginButton />} if isLoggedIn is true.",
+          "correctAnswer": "The LogoutButton component will be displayed",
+          "wrongAnswer1": "The LoginButton component will be displayed",
+          "wrongAnswer2": "Nothing will be displayed",
+          "wrongAnswer3": "Both LogoutButton and LoginButton will be displayed",
+          "explanation": "The ternary operator here renders LogoutButton when isLoggedIn is true and LoginButton otherwise, so only LogoutButton will show when isLoggedIn is true.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Error Boundaries",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Error Boundaries in React?",
+          "correctAnswer": "To catch JavaScript errors anywhere in their child component tree",
+          "wrongAnswer1": "To handle form input validation errors",
+          "wrongAnswer2": "To optimize component rendering performance",
+          "wrongAnswer3": "To manage user authentication states",
+          "explanation": "Error Boundaries in React are components that catch JavaScript errors in their child component tree, preventing the entire app from crashing and allowing graceful error handling.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which lifecycle method is used in a class component to create an Error Boundary?",
+          "correctAnswer": "componentDidCatch",
+          "wrongAnswer1": "componentWillCatch",
+          "wrongAnswer2": "getDerivedStateFromError",
+          "wrongAnswer3": "componentDidMount",
+          "explanation": "The componentDidCatch lifecycle method is used in class components to catch errors in their children and perform side effects such as logging errors. getDerivedStateFromError is also used to update state in response to an error but componentDidCatch handles the actual error side effect.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Can functional components act as Error Boundaries in React?",
+          "correctAnswer": "No, only class components can currently be Error Boundaries",
+          "wrongAnswer1": "Yes, with the useErrorBoundary hook",
+          "wrongAnswer2": "Yes, by using the useEffect hook",
+          "wrongAnswer3": "No, Error Boundaries are handled only by higher order components",
+          "explanation": "As of current React versions, only class components can implement Error Boundaries using lifecycle methods. Functional components cannot be Error Boundaries directly without third-party hooks or libraries.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "React Fragments",
+      "questions": [
+        {
+          "question": "What is the primary purpose of React Fragments?",
+          "correctAnswer": "To group a list of children without adding extra nodes to the DOM",
+          "wrongAnswer1": "To create reusable components with state management",
+          "wrongAnswer2": "To style components inline",
+          "wrongAnswer3": "To handle events in React components",
+          "explanation": "React Fragments allow grouping multiple elements without adding extra nodes to the DOM, helping keep the markup clean.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which syntax is NOT a valid way to use React Fragments?",
+          "correctAnswer": "<Fragment></Fragment> and <> </> are valid, but <FragmentGroup></FragmentGroup> is not",
+          "wrongAnswer1": "<> </> syntax is a shorthand for React Fragments",
+          "wrongAnswer2": "<Fragment></Fragment> is the standard way to use React Fragments",
+          "wrongAnswer3": "Fragments do not add extra nodes to the DOM",
+          "explanation": "React Fragments can be used with the standard <Fragment></Fragment> or shorthand <> </>, but <FragmentGroup></FragmentGroup> is not a valid syntax.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why might you choose to use React Fragments instead of a div element?",
+          "correctAnswer": "To avoid unnecessary nodes in the DOM and keep the structure minimal",
+          "wrongAnswer1": "Because div elements cannot contain multiple children",
+          "wrongAnswer2": "Because React Fragments automatically add styling to children",
+          "wrongAnswer3": "Because React Fragments improve component performance by caching",
+          "explanation": "React Fragments help avoid adding extra nodes like divs, which keeps the DOM structure cleaner and can improve rendering performance.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Higher Order Components",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Higher Order Component in React?",
+          "correctAnswer": "To enhance a component by wrapping it and adding additional functionality",
+          "wrongAnswer1": "To create multiple instances of a component in the DOM",
+          "wrongAnswer2": "To replace the render method of a component with a new implementation",
+          "wrongAnswer3": "To convert a functional component into a class component",
+          "explanation": "Higher Order Components are functions that take a component and return a new enhanced component, allowing for reusability of logic.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does a Higher Order Component differ from a regular React Component?",
+          "correctAnswer": "It wraps another component to add additional props or behavior without modifying the original",
+          "wrongAnswer1": "It renders static UI elements without any state or props",
+          "wrongAnswer2": "It is a built-in React method for managing lifecycle events",
+          "wrongAnswer3": "It directly modifies the DOM outside of React's control",
+          "explanation": "Higher Order Components wrap existing components to enhance or modify their behavior while keeping the original component intact.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a common use case for Higher Order Components in React?",
+          "correctAnswer": "Sharing common behavior or logic between multiple components",
+          "wrongAnswer1": "Styling components directly with CSS",
+          "wrongAnswer2": "Managing the state of a single component only",
+          "wrongAnswer3": "Handling user events inside a component without reusability",
+          "explanation": "Higher Order Components allow developers to share logic like logging, theming, or data fetching across multiple components efficiently.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "React Memo",
+      "questions": [
+        {
+          "question": "What is the primary use of React Memo?",
+          "correctAnswer": "To optimize functional components by memoizing their output",
+          "wrongAnswer1": "To manage state in functional components",
+          "wrongAnswer2": "To handle side effects in React components",
+          "wrongAnswer3": "To create class components from functional components",
+          "explanation": "React Memo is used to optimize performance by memoizing the rendered output of a functional component, preventing unnecessary re-renders when props have not changed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does React Memo determine whether to re-render a component?",
+          "correctAnswer": "It shallowly compares the component's props",
+          "wrongAnswer1": "It deeply compares the component's state",
+          "wrongAnswer2": "It tracks changes in the component's lifecycle methods",
+          "wrongAnswer3": "It compares the previous and next context values",
+          "explanation": "React Memo uses a shallow comparison of props to decide if a component should update, avoiding re-rendering if props are unchanged.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a limitation of using React Memo?",
+          "correctAnswer": "It only works with functional components",
+          "wrongAnswer1": "It does not prevent re-rendering caused by state changes within the component",
+          "wrongAnswer2": "It requires the use of class components",
+          "wrongAnswer3": "It automatically optimizes all children components",
+          "explanation": "React Memo is designed for functional components and does not prevent re-renders caused by state changes inside the component itself. It also does not affect class components or children components automatically.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "useEffect Hook",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the useEffect hook in React?",
+          "correctAnswer": "To perform side effects in function components",
+          "wrongAnswer1": "To create new components dynamically",
+          "wrongAnswer2": "To directly modify the DOM elements",
+          "wrongAnswer3": "To handle form validation automatically",
+          "explanation": "The useEffect hook is designed to handle side effects such as data fetching, subscriptions, or manually changing the DOM in function components.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When does the useEffect hook run if no dependency array is provided?",
+          "correctAnswer": "After every completed render",
+          "wrongAnswer1": "Only on the initial render",
+          "wrongAnswer2": "Only when state changes",
+          "wrongAnswer3": "It never runs without dependencies",
+          "explanation": "If the dependency array is omitted, useEffect executes its effect after every render of the component.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens if you pass an empty array as the dependency to useEffect?",
+          "correctAnswer": "The effect runs only once after the initial render",
+          "wrongAnswer1": "The effect runs after every render",
+          "wrongAnswer2": "The effect never runs",
+          "wrongAnswer3": "The effect runs only when state updates",
+          "explanation": "Passing an empty array as the dependency means the effect will execute only once after the component's first render, similar to componentDidMount.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "useState Hook",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the useState Hook in React?",
+          "correctAnswer": "To add state to functional components",
+          "wrongAnswer1": "To fetch data from APIs",
+          "wrongAnswer2": "To manage component side effects",
+          "wrongAnswer3": "To style components dynamically",
+          "explanation": "The useState Hook allows functional components to have state variables, enabling them to hold and manage local state data.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you correctly initialize a state variable using useState Hook in React?",
+          "correctAnswer": "const [count, setCount] = useState(0)",
+          "wrongAnswer1": "const count = useState(0)",
+          "wrongAnswer2": "let [count] = useState(0)",
+          "wrongAnswer3": "useState(count, 0)",
+          "explanation": "The useState Hook returns an array with two elements: the current state and a function to update it, which we typically destructure into variables.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about the setter function returned by the useState Hook?",
+          "correctAnswer": "It schedules an update to the state variable and causes the component to re-render",
+          "wrongAnswer1": "It immediately changes the state variable without re-rendering",
+          "wrongAnswer2": "It resets the state variable to its initial value",
+          "wrongAnswer3": "It deletes the state variable from the component",
+          "explanation": "When the setter function is called, React schedules a state update and re-renders the component with the new state value.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "useContext Hook",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the useContext hook in React?",
+          "correctAnswer": "To share data between components without passing props manually",
+          "wrongAnswer1": "To manage local component state",
+          "wrongAnswer2": "To make API requests within components",
+          "wrongAnswer3": "To handle component side effects",
+          "explanation": "The useContext hook is designed to allow components to access data from a context without the need to pass props down through every level of the component tree.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you use the useContext hook in a functional component?",
+          "correctAnswer": "Call useContext with the Context object as an argument",
+          "wrongAnswer1": "Use useContext without any arguments",
+          "wrongAnswer2": "Use useContext only in class components",
+          "wrongAnswer3": "Call useContext with a string representing the context name",
+          "explanation": "You use the useContext hook by passing the Context object created by React.createContext as an argument, which returns the current context value.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What must be done before using the useContext hook to access data?",
+          "correctAnswer": "The component must be wrapped inside a Context.Provider with a value",
+          "wrongAnswer1": "The component must import React from external library",
+          "wrongAnswer2": "The component must define a state variable with useState",
+          "wrongAnswer3": "The component must have a useEffect hook defined",
+          "explanation": "For useContext to provide a value, the component must be a descendant of a Context.Provider that supplies the context value.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "React Portals",
+      "questions": [
+        {
+          "question": "What is the primary purpose of React Portals?",
+          "correctAnswer": "To render children into a DOM node that exists outside the parent component's DOM hierarchy",
+          "wrongAnswer1": "To create a new React component",
+          "wrongAnswer2": "To route between different pages",
+          "wrongAnswer3": "To manage state within a component",
+          "explanation": "React Portals allow rendering of children components into a different part of the DOM that is outside the usual parent-child DOM hierarchy, which is useful for modals, tooltips, and overlays.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method is used to create a React Portal?",
+          "correctAnswer": "ReactDOM.createPortal",
+          "wrongAnswer1": "React.createPortal",
+          "wrongAnswer2": "ReactDOM.renderPortal",
+          "wrongAnswer3": "React.createElementPortal",
+          "explanation": "The ReactDOM.createPortal method is used to render children into a different DOM node outside the parent hierarchy.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When would you typically use a React Portal?",
+          "correctAnswer": "When you need to render a component outside the main DOM tree, such as modals or tooltips",
+          "wrongAnswer1": "When you want to handle form submissions",
+          "wrongAnswer2": "When you want to update component state",
+          "wrongAnswer3": "When you want to fetch data from an API",
+          "explanation": "React Portals are especially useful for rendering UI elements like modals or tooltips that visually need to appear above other content and outside the main component DOM hierarchy.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "React Suspense",
+      "questions": [
+        {
+          "question": "What is the primary purpose of React Suspense?",
+          "correctAnswer": "To delay rendering until a component is ready",
+          "wrongAnswer1": "To speed up component rendering",
+          "wrongAnswer2": "To prevent user interactions",
+          "wrongAnswer3": "To manage component styles",
+          "explanation": "React Suspense allows you to delay rendering part of your component tree until some condition is met, such as data loading or code splitting, improving user experience.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature commonly works together with React Suspense for data fetching?",
+          "correctAnswer": "Concurrent Mode",
+          "wrongAnswer1": "Redux",
+          "wrongAnswer2": "React Router",
+          "wrongAnswer3": "CSS Modules",
+          "explanation": "React Suspense when used with Concurrent Mode can manage asynchronous rendering effectively, allowing components to wait for data before rendering.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does React Suspense help with code-splitting?",
+          "correctAnswer": "By showing a fallback UI while a lazy-loaded component is being loaded",
+          "wrongAnswer1": "By preloading all components at once",
+          "wrongAnswer2": "By blocking rendering of the entire app",
+          "wrongAnswer3": "By controlling the component's CSS styles dynamically",
+          "explanation": "React Suspense can display a fallback component while the actual component is loaded asynchronously, helping with efficient code-splitting.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Code Splitting",
+      "questions": [
+        {
+          "question": "What is the primary purpose of code splitting in React applications",
+          "correctAnswer": "To load only the necessary code for the current view, improving performance",
+          "wrongAnswer1": "To split the code into smaller files for easier debugging",
+          "wrongAnswer2": "To combine multiple scripts into one file to reduce HTTP requests",
+          "wrongAnswer3": "To convert class components into functional components automatically",
+          "explanation": "Code splitting allows a React app to load only the code required for the current page or view, which speeds up initial load time and improves performance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which React API is commonly used to implement code splitting by dynamically loading components?",
+          "correctAnswer": "React.lazy",
+          "wrongAnswer1": "React.memo",
+          "wrongAnswer2": "React.forwardRef",
+          "wrongAnswer3": "React.Fragment",
+          "explanation": "React.lazy enables dynamic import of components, which is essential for code splitting by loading components only when needed.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What role does Webpack play in code splitting for React projects?",
+          "correctAnswer": "Webpack analyzes imports and splits the code into separate chunks automatically",
+          "wrongAnswer1": "Webpack converts JSX into regular JavaScript code",
+          "wrongAnswer2": "Webpack provides default styling for React components",
+          "wrongAnswer3": "Webpack manages React component state efficiently",
+          "explanation": "Webpack is a module bundler that can split the application code into smaller chunks based on dynamic imports, facilitating code splitting in React apps.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Lazy Loading",
+      "questions": [
+        {
+          "question": "What is the main purpose of lazy loading in React?",
+          "correctAnswer": "To load components only when they are needed to improve performance",
+          "wrongAnswer1": "To preload all components at once to reduce load times",
+          "wrongAnswer2": "To load data from the server before rendering components",
+          "wrongAnswer3": "To cache components on the client side permanently",
+          "explanation": "Lazy loading in React is used to defer loading of components until they are actually needed, which helps improve initial load performance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which React feature is primarily used to implement lazy loading of components?",
+          "correctAnswer": "React.lazy with Suspense",
+          "wrongAnswer1": "useEffect hook",
+          "wrongAnswer2": "Redux middleware",
+          "wrongAnswer3": "Context API",
+          "explanation": "React.lazy and Suspense are the primary features in React used to implement lazy loading of components, enabling dynamic import().",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you handle the loading state when lazy loading a component in React?",
+          "correctAnswer": "By wrapping the lazy component in a Suspense component and providing a fallback UI",
+          "wrongAnswer1": "By using a standard conditional rendering without Suspense",
+          "wrongAnswer2": "By using useState to track load progress manually",
+          "wrongAnswer3": "By preloading the component with preload attribute",
+          "explanation": "Suspense provides a fallback prop that defines what to display while the lazy component is being loaded, allowing handling of the loading state.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "React Fiber",
+      "questions": [
+        {
+          "question": "What is the primary purpose of React Fiber in React?",
+          "correctAnswer": "To enable incremental rendering and improve rendering performance",
+          "wrongAnswer1": "To provide a new syntax for writing React components",
+          "wrongAnswer2": "To manage state more efficiently in React applications",
+          "wrongAnswer3": "To replace the React context API for data sharing",
+          "explanation": "React Fiber is a reimplementation of the React core algorithm designed to enable incremental rendering, allowing React to pause and resume work while maintaining high responsiveness and better user experience.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does React Fiber improve the rendering process compared to the previous algorithm?",
+          "correctAnswer": "By breaking work into units and spreading it over multiple frames for smoother rendering",
+          "wrongAnswer1": "By rendering the entire component tree in one synchronous pass",
+          "wrongAnswer2": "By using more memory to store snapshots of components at each render",
+          "wrongAnswer3": "By compiling JSX directly into native code",
+          "explanation": "React Fiber breaks the rendering work into smaller units that can be spread over multiple frames, which helps in keeping the UI responsive, unlike the previous synchronous algorithm that could block the UI.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which feature is a key advantage introduced by React Fiber?",
+          "correctAnswer": "Ability to prioritize and interrupt rendering tasks",
+          "wrongAnswer1": "Automatic code splitting for all components",
+          "wrongAnswer2": "Built-in internationalization support",
+          "wrongAnswer3": "Direct manipulation of the DOM tree outside React's control",
+          "explanation": "React Fiber allows React to assign priorities to different rendering tasks and interrupt lower priority work to focus on higher priority updates, enhancing responsiveness especially in complex applications.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Pure Components",
+      "questions": [
+        {
+          "question": "What is the primary benefit of using pure components in React?",
+          "correctAnswer": "They help optimize rendering performance by preventing unnecessary updates",
+          "wrongAnswer1": "They allow using state inside functional components",
+          "wrongAnswer2": "They provide built-in routing for navigation",
+          "wrongAnswer3": "They manage the global state of the application",
+          "explanation": "Pure components implement shouldComponentUpdate with a shallow prop and state comparison, which helps avoid unnecessary re-renders and improves performance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does a pure component determine whether to re-render or not?",
+          "correctAnswer": "By performing a shallow comparison of props and state",
+          "wrongAnswer1": "By checking if props have deeply nested changes",
+          "wrongAnswer2": "By always re-rendering when setState is called",
+          "wrongAnswer3": "By using the Context API to detect changes",
+          "explanation": "Pure components use shallow comparison of current and next props and state to decide if a re-render is necessary, skipping updates if nothing changed.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is true about React.PureComponent?",
+          "correctAnswer": "It automatically implements shouldComponentUpdate with shallow comparison",
+          "wrongAnswer1": "It disables lifecycle methods for optimization",
+          "wrongAnswer2": "It is only used for class components without state",
+          "wrongAnswer3": "It replaces the need for React.memo in functional components",
+          "explanation": "React.PureComponent is a base class for class components that implements shouldComponentUpdate with a shallow comparison to optimize rendering.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "React Refs",
+      "questions": [
+        {
+          "question": "What is the primary use of React Refs?",
+          "correctAnswer": "To access and interact with DOM elements directly",
+          "wrongAnswer1": "To manage component state efficiently",
+          "wrongAnswer2": "To handle asynchronous API calls",
+          "wrongAnswer3": "To style components dynamically",
+          "explanation": "React Refs provide a way to access DOM nodes or React elements created in the render method, enabling direct interaction with the DOM.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which React hook is commonly used to create refs in functional components?",
+          "correctAnswer": "useRef",
+          "wrongAnswer1": "useState",
+          "wrongAnswer2": "useEffect",
+          "wrongAnswer3": "useContext",
+          "explanation": "The useRef hook allows you to create a ref object that persists across renders and can be used to reference DOM elements or hold mutable values.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you attach a ref to a DOM element in React?",
+          "correctAnswer": "By passing the ref object to the ref attribute of the element",
+          "wrongAnswer1": "By adding a special data-ref attribute",
+          "wrongAnswer2": "By including it in the props object manually",
+          "wrongAnswer3": "By wrapping the element in a RefContainer component",
+          "explanation": "Refs are attached to React elements using the ref attribute, which accepts a ref object created by React.createRef or useRef.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "React Testing",
+      "questions": [
+        {
+          "question": "What is the primary purpose of React Testing?",
+          "correctAnswer": "To ensure React components behave as expected",
+          "wrongAnswer1": "To style React components",
+          "wrongAnswer2": "To deploy React applications",
+          "wrongAnswer3": "To write React components faster",
+          "explanation": "React Testing is primarily used to verify that React components behave as expected under different conditions and do not produce errors.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which library is commonly used for testing React components?",
+          "correctAnswer": "React Testing Library",
+          "wrongAnswer1": "Express",
+          "wrongAnswer2": "Redux",
+          "wrongAnswer3": "Bootstrap",
+          "explanation": "React Testing Library is widely used to test React components by rendering them and making assertions about their output and behavior.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the React Testing Library encourage developers to do when writing tests?",
+          "correctAnswer": "Write tests that focus on user interactions and component output",
+          "wrongAnswer1": "Test implementation details of components",
+          "wrongAnswer2": "Only test the styling of components",
+          "wrongAnswer3": "Avoid testing components altogether",
+          "explanation": "React Testing Library advocates for writing tests that simulate how users interact with components and focus on what the components render, rather than their internal implementation details.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "React DevTools",
+      "questions": [
+        {
+          "question": "What is the primary purpose of React DevTools?",
+          "correctAnswer": "To inspect and debug React component hierarchies in a web application",
+          "wrongAnswer1": "To deploy React applications to production servers",
+          "wrongAnswer2": "To write React components in a text editor",
+          "wrongAnswer3": "To convert React projects into mobile applications",
+          "explanation": "React DevTools is a browser extension that allows developers to inspect the React component tree, observe props and state, and debug component behavior during development.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature is NOT provided by React DevTools?",
+          "correctAnswer": "Automatically fixing errors in React code",
+          "wrongAnswer1": "Inspecting the component tree",
+          "wrongAnswer2": "Viewing the props and state of components",
+          "wrongAnswer3": "Profiling component rendering performance",
+          "explanation": "React DevTools helps inspect component hierarchies and profile rendering, but it does not automatically fix any errors in the code.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can React DevTools help improve React application performance?",
+          "correctAnswer": "By profiling component render times to identify performance bottlenecks",
+          "wrongAnswer1": "By minifying the application code automatically",
+          "wrongAnswer2": "By generating production build files",
+          "wrongAnswer3": "By automatically rewriting inefficient components",
+          "explanation": "React DevTools includes a profiling tool that records render times for components and helps developers detect which parts of the UI need performance optimizations.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "React Native",
+      "questions": [
+        {
+          "question": "What is React Native primarily used for?",
+          "correctAnswer": "Building mobile applications using JavaScript and React",
+          "wrongAnswer1": "Developing desktop applications only",
+          "wrongAnswer2": "Creating backend services with React",
+          "wrongAnswer3": "Converting React web apps into Python scripts",
+          "explanation": "React Native is a framework for building native mobile apps using JavaScript and React, enabling code reuse across iOS and Android platforms.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which languages are mainly used in React Native development?",
+          "correctAnswer": "JavaScript and JSX",
+          "wrongAnswer1": "Python and Java",
+          "wrongAnswer2": "HTML and CSS only",
+          "wrongAnswer3": "C++ and Swift",
+          "explanation": "React Native primarily uses JavaScript and JSX to create components that run as native apps on mobile devices.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does React Native differ from React for web development?",
+          "correctAnswer": "React Native targets mobile platforms and uses native components instead of web components",
+          "wrongAnswer1": "React Native can only be used for web development",
+          "wrongAnswer2": "React Native does not support component-based architecture",
+          "wrongAnswer3": "React Native uses only Python rather than JavaScript",
+          "explanation": "React Native allows building mobile apps using React's component model but uses native UI components instead of HTML elements, unlike React for web.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "React Concurrent",
+      "questions": [
+        {
+          "question": "What is the main purpose of React Concurrent mode?",
+          "correctAnswer": "To improve user experience by rendering UI updates without blocking the main thread",
+          "wrongAnswer1": "To allow multiple React apps to run simultaneously",
+          "wrongAnswer2": "To enable server-side rendering of React components",
+          "wrongAnswer3": "To replace the React lifecycle methods entirely",
+          "explanation": "React Concurrent mode allows React to interrupt rendering work to prioritize urgent updates, improving responsiveness and user experience.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which React feature is closely associated with React Concurrent mode?",
+          "correctAnswer": "Suspense for data fetching and lazy loading components",
+          "wrongAnswer1": "Context API for state management",
+          "wrongAnswer2": "React Router for navigation",
+          "wrongAnswer3": "Redux for global state management",
+          "explanation": "Suspense works with Concurrent mode to handle asynchronous data fetching and component loading gracefully.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does React Concurrent mode affect component rendering?",
+          "correctAnswer": "It allows rendering to be paused and resumed, enabling smoother updates",
+          "wrongAnswer1": "It forces all components to render synchronously",
+          "wrongAnswer2": "It disables rendering of class components",
+          "wrongAnswer3": "It batch processes render updates only at night",
+          "explanation": "Concurrent mode enables React to interrupt and continue rendering work, which helps in keeping the UI responsive.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Component Keys",
+      "questions": [
+        {
+          "question": "Why are keys important when rendering lists of components in React?",
+          "correctAnswer": "They help React identify which items have changed, been added, or removed",
+          "wrongAnswer1": "They add styling to the list components",
+          "wrongAnswer2": "They prevent components from re-rendering at all",
+          "wrongAnswer3": "They improve network speed when loading components",
+          "explanation": "Keys provide a unique identity to components within lists, enabling React to efficiently update and manage changes in the list without re-rendering everything.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a recommended practice when choosing a key for list items in React?",
+          "correctAnswer": "Use a unique and stable value such as an ID from your data",
+          "wrongAnswer1": "Use the index of the item in the array as the key when the list can change",
+          "wrongAnswer2": "Use a random number as the key to ensure uniqueness",
+          "wrongAnswer3": "Use the same key for all items to keep them consistent",
+          "explanation": "Keys should be unique and stable to avoid issues with component state and rendering. Using array indexes as keys is discouraged when items may be reordered or changed.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What could happen if you do not use keys or use non-unique keys in a React list?",
+          "correctAnswer": "React may incorrectly reuse elements or re-render unnecessarily, causing bugs or performance issues",
+          "wrongAnswer1": "Components will not render at all",
+          "wrongAnswer2": "React will automatically assign unique keys without any problems",
+          "wrongAnswer3": "The UI will appear without any styling",
+          "explanation": "Without unique keys, React cannot reliably distinguish components, leading to errors in rendering or unexpected behavior.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Controlled Components",
+      "questions": [
+        {
+          "question": "What is the main characteristic of a controlled component in React?",
+          "correctAnswer": "Its value is controlled by React state and updates through event handlers",
+          "wrongAnswer1": "It manages its own state internally without React involvement",
+          "wrongAnswer2": "It requires no event handlers for value updates",
+          "wrongAnswer3": "It automatically synchronizes with the server database",
+          "explanation": "A controlled component in React has its value managed by React state and updates through event handlers like onChange, ensuring React is the single source of truth.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why do developers prefer using controlled components in forms within React applications?",
+          "correctAnswer": "Because controlled components help keep form data in React state for easy validation and submission",
+          "wrongAnswer1": "Because they require less code and no state management",
+          "wrongAnswer2": "Because they automatically submit data without user interaction",
+          "wrongAnswer3": "Because they allow forms to use server-side rendering only",
+          "explanation": "Controlled components keep the form data in the React state, allowing easier validation, conditional rendering, and handling of form submission within the React ecosystem.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In React controlled components, what happens when you omit the onChange handler for an input element?",
+          "correctAnswer": "The input becomes read-only because React state does not update on user input",
+          "wrongAnswer1": "The input automatically updates state without needing an event handler",
+          "wrongAnswer2": "The component throws a runtime error due to missing onChange",
+          "wrongAnswer3": "The input resets its value to default after each key press",
+          "explanation": "Without onChange handler, the input cannot update React state, so the input's value remains fixed, making it effectively read-only.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Uncontrolled Components",
+      "questions": [
+        {
+          "question": "What is an uncontrolled component in React?",
+          "correctAnswer": "A component that manages its own state internally without React controlling the form data",
+          "wrongAnswer1": "A component with form data controlled by React state through props",
+          "wrongAnswer2": "A component that cannot update its state dynamically",
+          "wrongAnswer3": "A component that always uses Redux for state management",
+          "explanation": "Uncontrolled components store their own state internally and rely on the DOM to handle form data, unlike controlled components which have their form data managed by React state.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you access the value of an uncontrolled component's input field?",
+          "correctAnswer": "By using a ref to directly access the DOM element's value",
+          "wrongAnswer1": "By passing an onChange event handler to update React state",
+          "wrongAnswer2": "By using Redux selectors to get the input value",
+          "wrongAnswer3": "By setting the value prop on the input element",
+          "explanation": "Uncontrolled components do not update React state on value change; instead, you use refs to access the current value directly from the DOM.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which scenario is best suited for using uncontrolled components in React?",
+          "correctAnswer": "When you need simple form inputs without complex validation or instant state syncing",
+          "wrongAnswer1": "When you need to track every input change immediately for validation",
+          "wrongAnswer2": "When you want centralized form data storage in Redux",
+          "wrongAnswer3": "When you want React to fully control form input values at all times",
+          "explanation": "Uncontrolled components are appropriate for simpler use cases where form data does not need to be synchronized with React state on every change, such as simple forms or third-party integrations.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Event Pooling",
+      "questions": [
+        {
+          "question": "What is event pooling in React?",
+          "correctAnswer": "A system where React reuses synthetic events for performance optimization",
+          "wrongAnswer1": "A method to store events in a queue before processing",
+          "wrongAnswer2": "A way to pool user input events on the server",
+          "wrongAnswer3": "A system for managing component state updates during events",
+          "explanation": "Event pooling in React is a performance feature where React reuses SyntheticEvent objects. This optimization helps reduce the overhead of creating new event objects for every event trigger.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why does React use event pooling?",
+          "correctAnswer": "To improve performance by reusing event objects instead of creating new ones for each event",
+          "wrongAnswer1": "To ensure events are queued and executed sequentially",
+          "wrongAnswer2": "To share events between different components",
+          "wrongAnswer3": "To persist event objects for long-term storage",
+          "explanation": "React uses event pooling to enhance performance by reusing synthetic event objects rather than creating new event objects for every fired event, which helps reduce memory overhead.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What should you do if you want to access a React event asynchronously?",
+          "correctAnswer": "Call event.persist() to remove the event from the pool and keep it around",
+          "wrongAnswer1": "Use setTimeout directly without any changes",
+          "wrongAnswer2": "Clone the event object manually on every usage",
+          "wrongAnswer3": "React events are always accessible asynchronously without extra steps",
+          "explanation": "Because React pools events, accessing event properties asynchronously requires calling event.persist() to remove the event from pooling so it won't be reused or nullified, allowing safe asynchronous access.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Forward Refs",
+      "questions": [
+        {
+          "question": "What is the purpose of using Forward Refs in React?",
+          "correctAnswer": "To pass a ref through a component to one of its children",
+          "wrongAnswer1": "To manage component state more efficiently",
+          "wrongAnswer2": "To create higher-order components",
+          "wrongAnswer3": "To optimize rendering performance of components",
+          "explanation": "Forward Refs allow a parent component to pass a ref directly to one of its child components' DOM nodes or class instances, aiding in direct DOM manipulation or integration with external libraries.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you create a component that supports forwarding refs in React?",
+          "correctAnswer": "By wrapping the component in React.forwardRef function",
+          "wrongAnswer1": "By using useRef hook inside the component",
+          "wrongAnswer2": "By passing ref as a regular prop to the component",
+          "wrongAnswer3": "By defining a class component instead of a functional one",
+          "explanation": "The React.forwardRef function creates a component that can accept refs passed to it, forwarding them to a child component or DOM element.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is the correct signature of a component using forward refs?",
+          "correctAnswer": "React.forwardRef((props, ref) => JSX)",
+          "wrongAnswer1": "React.forwardRef((ref) => JSX)",
+          "wrongAnswer2": "React.forwardRef((props) => JSX)",
+          "wrongAnswer3": "React.forwardRef(() => JSX)",
+          "explanation": "The forwardRef function takes a render function that receives props and ref as arguments, allowing the component to forward the ref to a child component or DOM element.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "React Profiler",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the React Profiler?",
+          "correctAnswer": "To measure the performance of React components during rendering",
+          "wrongAnswer1": "To manage component state effectively",
+          "wrongAnswer2": "To handle routing between different views",
+          "wrongAnswer3": "To style components easily with CSS",
+          "explanation": "The React Profiler is designed to help developers measure the rendering performance of React components and identify performance bottlenecks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When using React Profiler, which type of information can you analyze to optimize your application?",
+          "correctAnswer": "Render durations and interaction times of components",
+          "wrongAnswer1": "The order in which components are mounted",
+          "wrongAnswer2": "The network requests made by components",
+          "wrongAnswer3": "The CSS styles applied to components",
+          "explanation": "React Profiler provides detailed information about how long each component takes to render and how interactions affect rendering, which helps optimize application performance.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you enable the React Profiler in a React application?",
+          "correctAnswer": "Wrap the components inside the Profiler component provided by React",
+          "wrongAnswer1": "Add a profiler flag in the ReactDOM render method",
+          "wrongAnswer2": "Use the profiling option in component state",
+          "wrongAnswer3": "Install a separate React profiling library",
+          "explanation": "To use the React Profiler, you wrap the components you want to analyze inside the Profiler component that React provides.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "useReducer Hook",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the useReducer hook in React?",
+          "correctAnswer": "To manage complex state logic by using a reducer function",
+          "wrongAnswer1": "To fetch data from an API endpoint",
+          "wrongAnswer2": "To handle side effects within a component",
+          "wrongAnswer3": "To directly manipulate the DOM elements",
+          "explanation": "The useReducer hook is used in React to manage complex state logic by using a reducer function, which takes the current state and an action to return a new state.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these arguments does the useReducer hook in React accept?",
+          "correctAnswer": "A reducer function and an initial state value",
+          "wrongAnswer1": "A state updater function and a callback",
+          "wrongAnswer2": "A component and its props",
+          "wrongAnswer3": "An effect function and dependency array",
+          "explanation": "useReducer accepts two arguments: a reducer function that handles action dispatches and an initial state value to begin the state management.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does the useReducer hook differ from the useState hook?",
+          "correctAnswer": "useReducer is better for managing complex state transitions, while useState is simpler for basic state updates",
+          "wrongAnswer1": "useReducer fetches data asynchronously, useState does not",
+          "wrongAnswer2": "useReducer is used only in class components, useState is for functional components",
+          "wrongAnswer3": "useReducer directly modifies the state, useState creates an immutable copy",
+          "explanation": "useReducer is designed for more complex state logic and transitions using a reducer function, whereas useState is simpler and best for basic state updates.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "React StrictMode",
+      "questions": [
+        {
+          "question": "What is the primary purpose of React StrictMode in a React application?",
+          "correctAnswer": "To highlight potential problems and unsafe lifecycle methods during development",
+          "wrongAnswer1": "To improve the performance of React applications in production",
+          "wrongAnswer2": "To automatically fix all runtime errors in the application",
+          "wrongAnswer3": "To add extra styling and animation features to components",
+          "explanation": "React StrictMode is a development tool that helps developers identify potential issues like deprecated lifecycle methods and side effects in components. It does not affect production performance or fix errors automatically.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following behaviors does React StrictMode trigger to help identify issues?",
+          "correctAnswer": "It invokes certain lifecycle methods and effects twice to detect side effects",
+          "wrongAnswer1": "It disables all lifecycle methods except render",
+          "wrongAnswer2": "It rerenders the entire application every second",
+          "wrongAnswer3": "It automatically converts all class components to functional components",
+          "explanation": "React StrictMode intentionally double-invokes certain functions like lifecycle methods and effects in development mode to help detect unsafe side effects and ensure components are resilient.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How is React StrictMode typically enabled in a React application?",
+          "correctAnswer": "By wrapping parts of the component tree with the StrictMode component",
+          "wrongAnswer1": "By setting a configuration flag in the React global settings",
+          "wrongAnswer2": "By importing a special hook called useStrictMode",
+          "wrongAnswer3": "By running the React app in a 'strict' command line mode",
+          "explanation": "React StrictMode is enabled by wrapping JSX elements inside the <StrictMode> component. This does not require global settings or special hooks and applies only to the components inside the wrapper.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Render Props",
+      "questions": [
+        {
+          "question": "What is the main purpose of using render props in React?",
+          "correctAnswer": "To share code between components using a function as a prop",
+          "wrongAnswer1": "To manage global state across the application",
+          "wrongAnswer2": "To style components dynamically with CSS",
+          "wrongAnswer3": "To handle HTTP requests within components",
+          "explanation": "Render props is a technique in React for sharing code between components using a prop whose value is a function that returns React elements. This enables dynamic rendering logic to be shared.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you typically use a render prop in a React component?",
+          "correctAnswer": "Pass a function as a prop that returns JSX to be rendered by the component",
+          "wrongAnswer1": "Use it as a hook to fetch data from an API",
+          "wrongAnswer2": "Use it as a style object to apply inline CSS",
+          "wrongAnswer3": "Import it from an external library as a default export",
+          "explanation": "A render prop is a function passed as a prop to a component, which the component calls to know what to render dynamically.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is an advantage of using render props in React?",
+          "correctAnswer": "They allow components to share behavior without inheritance",
+          "wrongAnswer1": "They automatically optimize component rendering for performance",
+          "wrongAnswer2": "They require less code than using functional components",
+          "wrongAnswer3": "They replace the need for using React hooks",
+          "explanation": "Render props enable sharing of logic between components without the complexities of inheritance, making code more reusable and flexible.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "React Hooks",
+      "questions": [
+        {
+          "question": "What is the primary purpose of React Hooks?",
+          "correctAnswer": "To use state and other React features without writing a class component",
+          "wrongAnswer1": "To create new components without JSX",
+          "wrongAnswer2": "To handle routing between pages",
+          "wrongAnswer3": "To optimize images in React projects",
+          "explanation": "React Hooks allow you to use state and other React features in functional components, eliminating the need to write class components.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which hook is used for managing state in a functional component?",
+          "correctAnswer": "useState",
+          "wrongAnswer1": "useEffect",
+          "wrongAnswer2": "useContext",
+          "wrongAnswer3": "useRef",
+          "explanation": "The useState hook is used to add and manage state in functional components, while others serve different purposes such as side effects or context.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the useEffect hook primarily allow you to do in React?",
+          "correctAnswer": "Perform side effects like data fetching or subscriptions after rendering",
+          "wrongAnswer1": "Directly modify the DOM elements",
+          "wrongAnswer2": "Manage component styling dynamically",
+          "wrongAnswer3": "Create new React components dynamically",
+          "explanation": "useEffect lets you perform side effects such as fetching data or setting up subscriptions after the component renders, replacing lifecycle methods in class components.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Server Side",
+      "questions": [
+        {
+          "question": "What is server-side rendering in React?",
+          "correctAnswer": "Rendering React components on the server before sending them to the client",
+          "wrongAnswer1": "Rendering React components only in the browser after the page loads",
+          "wrongAnswer2": "Using React to manage server-side databases",
+          "wrongAnswer3": "Running React components on a mobile device",
+          "explanation": "Server-side rendering in React means that React components are rendered into HTML on the server, which is then sent to the client for faster loading and better SEO.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which React framework is commonly used for server-side rendering?",
+          "correctAnswer": "Next.js",
+          "wrongAnswer1": "React Native",
+          "wrongAnswer2": "Gatsby",
+          "wrongAnswer3": "Create React App",
+          "explanation": "Next.js is a popular React framework that supports server-side rendering, allowing developers to render pages on the server before sending them to the client.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is one advantage of server-side rendering in React?",
+          "correctAnswer": "Improved initial load time and better SEO",
+          "wrongAnswer1": "Reduced server costs",
+          "wrongAnswer2": "Eliminates the need for JavaScript on the client",
+          "wrongAnswer3": "Simplifies backend database queries",
+          "explanation": "Server-side rendering improves initial load performance and benefits SEO because the fully rendered page is sent from the server rather than relying on client-side JavaScript execution.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Static Generation",
+      "questions": [
+        {
+          "question": "What is Static Generation in React?",
+          "correctAnswer": "A method of pre-rendering pages at build time to improve performance",
+          "wrongAnswer1": "Rendering pages on every request to the server",
+          "wrongAnswer2": "Generating pages only when a user visits them",
+          "wrongAnswer3": "Using client-side rendering exclusively for page content",
+          "explanation": "Static Generation involves building HTML pages at build time, allowing for faster load times and better performance as pages are served statically.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which React framework is known for utilizing Static Generation extensively?",
+          "correctAnswer": "Next.js",
+          "wrongAnswer1": "Create React App",
+          "wrongAnswer2": "Gatsby",
+          "wrongAnswer3": "React Native",
+          "explanation": "Next.js is a React framework that supports Static Generation for pre-rendering pages at build time.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a primary benefit of using Static Generation in React applications?",
+          "correctAnswer": "Improved performance through pre-rendering of pages",
+          "wrongAnswer1": "Lower build times during development",
+          "wrongAnswer2": "Dynamic content updating based on user actions",
+          "wrongAnswer3": "Simplified state management in client-side code",
+          "explanation": "Static Generation improves performance by pre-rendering pages as static files, which load faster compared to server-side or client-side rendering methods.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "Hydration Process",
+      "questions": [
+        {
+          "question": "What is the main purpose of the hydration process in React?",
+          "correctAnswer": "To attach event listeners to server-rendered HTML",
+          "wrongAnswer1": "To generate new HTML from scratch in the browser",
+          "wrongAnswer2": "To convert JSX into JavaScript",
+          "wrongAnswer3": "To optimize CSS styling at runtime",
+          "explanation": "Hydration in React attaches event listeners and makes the static HTML rendered on the server interactive on the client side without re-rendering the entire HTML.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When does the React hydration process typically occur?",
+          "correctAnswer": "When React initializes on the client after server-side rendering",
+          "wrongAnswer1": "During the initial server-side rendering only",
+          "wrongAnswer2": "Whenever React updates a component state",
+          "wrongAnswer3": "When React unmounts a component",
+          "explanation": "Hydration occurs on the client side after the HTML has been rendered on the server, enabling the React app to become interactive without losing the initial content.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a common issue that can occur if the hydration process fails in React?",
+          "correctAnswer": "Mismatch between server-rendered content and client components",
+          "wrongAnswer1": "Improper JavaScript compilation errors",
+          "wrongAnswer2": "Failed CSS loading on the client",
+          "wrongAnswer3": "Infinite rendering loops on the server",
+          "explanation": "If hydration fails, React detects differences between the static server-rendered HTML and its virtual DOM, leading to warnings and potentially broken UI.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "React Bootstrap",
+      "questions": [
+        {
+          "question": "What is the main purpose of React Bootstrap in a React application?",
+          "correctAnswer": "To provide pre-styled Bootstrap components as React components",
+          "wrongAnswer1": "To replace React with Bootstrap completely",
+          "wrongAnswer2": "To convert Bootstrap CSS into JavaScript functions",
+          "wrongAnswer3": "To create custom React components without styles",
+          "explanation": "React Bootstrap offers Bootstrap components built as React components, enabling developers to use Bootstrap styles and features seamlessly in React applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you typically import components from React Bootstrap in a React project?",
+          "correctAnswer": "By importing specific components from react-bootstrap package",
+          "wrongAnswer1": "By using a global Bootstrap CSS link only",
+          "wrongAnswer2": "By directly importing components from Bootstrap CSS files",
+          "wrongAnswer3": "By importing components from the React core library",
+          "explanation": "React Bootstrap components are imported from the react-bootstrap package to use Bootstrap styled components as React components in your application.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which advantage does React Bootstrap offer over using traditional Bootstrap in React projects?",
+          "correctAnswer": "It provides components that manage their own state and behavior in React way",
+          "wrongAnswer1": "It eliminates the need for any CSS styling",
+          "wrongAnswer2": "It automatically updates React version for you",
+          "wrongAnswer3": "It converts React components to vanilla JavaScript",
+          "explanation": "React Bootstrap components are built to integrate with React's state and lifecycle methods, unlike traditional Bootstrap which is just HTML and CSS and requires manual integration.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "React Portability",
+      "questions": [
+        {
+          "question": "What does React portability primarily refer to?",
+          "correctAnswer": "The ability of React components to run across different environments and platforms",
+          "wrongAnswer1": "The speed at which a React application loads in a browser",
+          "wrongAnswer2": "The ease of styling components using CSS in React",
+          "wrongAnswer3": "The capability to use React only on desktop applications",
+          "explanation": "React portability is about the capability of React components to work seamlessly across various environments such as web browsers, mobile devices, and even desktop applications using frameworks like React Native.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which React feature enhances portability between web and mobile platforms?",
+          "correctAnswer": "React Native",
+          "wrongAnswer1": "React Router",
+          "wrongAnswer2": "Redux",
+          "wrongAnswer3": "React Hooks",
+          "explanation": "React Native is designed to enable developers to build portable applications that work on both iOS and Android platforms, increasing React's portability beyond just the web.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is component-based architecture important for React's portability?",
+          "correctAnswer": "It allows components to be reused across different projects and platforms with minimal changes",
+          "wrongAnswer1": "It restricts components to only be used on web browsers",
+          "wrongAnswer2": "It requires components to be rewritten for each platform individually",
+          "wrongAnswer3": "It limits the styling options available for portable components",
+          "explanation": "The component-based architecture makes React highly portable because individual components can be reused and shared across different environments, reducing the need for rewriting code.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "JSX Spread",
+      "questions": [
+        {
+          "question": "What is the purpose of the JSX spread operator in React?",
+          "correctAnswer": "To pass all properties of an object as props to a component",
+          "wrongAnswer1": "To spread elements of an array in JSX rendering",
+          "wrongAnswer2": "To conditionally render components based on props",
+          "wrongAnswer3": "To concatenate strings inside JSX expressions",
+          "explanation": "The JSX spread operator (...) allows you to pass all properties of an object as props to a component, simplifying the syntax when many props are needed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following code snippets correctly uses the JSX spread operator?",
+          "correctAnswer": "<MyComponent {...props} />",
+          "wrongAnswer1": "<MyComponent {...props}></MyComponent>",
+          "wrongAnswer2": "<MyComponent spread={props} />",
+          "wrongAnswer3": "<MyComponent ...props />",
+          "explanation": "The correct syntax for spreading props is using the spread operator inside braces: {...props}, which passes all key-value pairs in props as individual props to the component.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What will happen if you use the JSX spread operator with an object that contains a prop with the same name as a explicitly passed prop?",
+          "correctAnswer": "The explicitly passed prop will override the spread prop with the same name",
+          "wrongAnswer1": "The spread prop will override the explicitly passed prop",
+          "wrongAnswer2": "React will throw an error due to duplicate props",
+          "wrongAnswer3": "Both props will be passed and cause unpredictable behavior",
+          "explanation": "When using the JSX spread operator along with explicitly passed props, the explicit props take precedence if they share the same name, thus overriding the spread values.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "React Context",
+      "questions": [
+        {
+          "question": "What is the primary purpose of React Context?",
+          "correctAnswer": "To share data across components without passing props manually",
+          "wrongAnswer1": "To manage local state inside a single component",
+          "wrongAnswer2": "To optimize component rendering performance automatically",
+          "wrongAnswer3": "To handle HTTP requests in React",
+          "explanation": "React Context allows sharing state or data globally across a component tree without needing to pass props at every level, simplifying state management on a higher level.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which React hook is commonly used to consume context in functional components?",
+          "correctAnswer": "useContext",
+          "wrongAnswer1": "useEffect",
+          "wrongAnswer2": "useReducer",
+          "wrongAnswer3": "useState",
+          "explanation": "useContext hook makes it easy to access the nearest current value for a context object inside a function component.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you provide a value to a React Context for its consumers?",
+          "correctAnswer": "By wrapping components with a Context Provider and setting a value prop",
+          "wrongAnswer1": "By passing the value as a regular prop to each child component",
+          "wrongAnswer2": "By using the useState hook inside each child to set the value",
+          "wrongAnswer3": "By importing the value from an external JSON file",
+          "explanation": "The Context Provider component wraps its children and uses a value prop to pass the current context data to them.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "React Ecosystem",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the React Router in the React ecosystem",
+          "correctAnswer": "To handle navigation and routing in React applications",
+          "wrongAnswer1": "To manage states within React components",
+          "wrongAnswer2": "To style React components with CSS",
+          "wrongAnswer3": "To optimize React's performance during rendering",
+          "explanation": "React Router is used to manage the navigation and URL routing in React applications, enabling single-page application functionality.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following libraries is commonly used for state management within the React ecosystem",
+          "correctAnswer": "Redux",
+          "wrongAnswer1": "Jest",
+          "wrongAnswer2": "React Router",
+          "wrongAnswer3": "Webpack",
+          "explanation": "Redux is a popular state management library used with React to manage and centralize application state.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What role does Webpack play in the React ecosystem",
+          "correctAnswer": "It bundles and optimizes JavaScript code and assets for web applications",
+          "wrongAnswer1": "It provides UI components for React applications",
+          "wrongAnswer2": "It manages application state with a global store",
+          "wrongAnswer3": "It is a testing framework for React components",
+          "explanation": "Webpack is a module bundler that compiles JavaScript code and assets into optimized bundles for efficient loading in the browser.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "React",
+      "concept": "React Performance",
+      "questions": [
+        {
+          "question": "What is a common technique to improve React application performance by avoiding unnecessary re-renders?",
+          "correctAnswer": "Using React.memo to memoize functional components",
+          "wrongAnswer1": "Always using componentDidMount lifecycle method",
+          "wrongAnswer2": "Using class components instead of functional components",
+          "wrongAnswer3": "Avoiding the use of keys in lists",
+          "explanation": "React.memo is a higher order component that memoizes the rendered output of a functional component, preventing unnecessary re-renders if the props have not changed, thus improving performance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which React hook is primarily used to optimize performance by memoizing expensive calculations?",
+          "correctAnswer": "useMemo",
+          "wrongAnswer1": "useState",
+          "wrongAnswer2": "useEffect",
+          "wrongAnswer3": "useContext",
+          "explanation": "The useMemo hook returns a memoized value and recomputes the value only when one of its dependencies change, which helps avoid costly recalculations on every render.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the benefit of using the key prop in lists for React performance?",
+          "correctAnswer": "It helps React identify which items have changed to minimize DOM updates",
+          "wrongAnswer1": "It changes the style of the list items automatically",
+          "wrongAnswer2": "It forces all list items to re-render every time the parent renders",
+          "wrongAnswer3": "It is used to set default values in forms",
+          "explanation": "Keys help React efficiently update and reorder components by giving each element a stable identity, which improves rendering performance, especially for dynamic lists.",
+          "difficulty": "Basic"
+        }
+      ]
+    }
+  ]
+}

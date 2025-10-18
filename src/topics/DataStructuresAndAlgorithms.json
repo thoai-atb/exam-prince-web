@@ -1,0 +1,1655 @@
+{
+  "topic": "DS & Alogrithm",
+  "concepts": [
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Array",
+      "questions": [
+        {
+          "question": "What is a key characteristic of an array?",
+          "correctAnswer": "Elements are stored in contiguous memory locations",
+          "wrongAnswer1": "Elements are linked randomly across the memory",
+          "wrongAnswer2": "Elements are stored in a tree structure",
+          "wrongAnswer3": "Elements can only be stores as strings",
+          "explanation": "Arrays store elements in contiguous memory locations, allowing efficient indexing and access.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the time complexity for accessing an element at a specific index in an array?",
+          "correctAnswer": "Constant time",
+          "wrongAnswer1": "Linear time",
+          "wrongAnswer2": "Logarithmic time",
+          "wrongAnswer3": "Quadratic time",
+          "explanation": "Accessing an element in an array by its index is done in constant time because the memory location is directly computed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following operations is typically more costly in arrays compared to linked lists?",
+          "correctAnswer": "Insertion or deletion at the beginning",
+          "wrongAnswer1": "Random access of elements",
+          "wrongAnswer2": "Accessing the last element",
+          "wrongAnswer3": "Accessing any element by index",
+          "explanation": "Insertion or deletion at the beginning of an array is costly because it requires shifting elements, while linked lists can handle these efficiently.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Linked List",
+      "questions": [
+        {
+          "question": "What is a key characteristic of a linked list compared to an array?",
+          "correctAnswer": "Elements are stored in nodes with pointers connecting them.",
+          "wrongAnswer1": "Elements are stored in contiguous memory locations.",
+          "wrongAnswer2": "Elements are accessed using indices directly.",
+          "wrongAnswer3": "Elements are stored in a sorted order by default.",
+          "explanation": "Unlike arrays, linked list elements are stored in nodes where each node points to the next node, allowing dynamic memory usage and easy insertion or deletion.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which operation is generally more efficient in a linked list than in an array?",
+          "correctAnswer": "Insertion and deletion at the beginning or middle of the list.",
+          "wrongAnswer1": "Random access to any element by index.",
+          "wrongAnswer2": "Accessing the last element instantly.",
+          "wrongAnswer3": "Sorting the elements quickly.",
+          "explanation": "Linked lists allow efficient insertion and deletion because nodes just need to have their pointers adjusted, whereas arrays may require shifting elements.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a disadvantage of using a singly linked list?",
+          "correctAnswer": "It does not allow traversal backward easily.",
+          "wrongAnswer1": "It requires more memory due to storing both previous and next pointers.",
+          "wrongAnswer2": "It stores elements in a fixed size structure.",
+          "wrongAnswer3": "It provides constant time access to any element.",
+          "explanation": "A singly linked list only has pointers to the next node, making backward traversal inefficient or impossible without additional structures.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Stack",
+      "questions": [
+        {
+          "question": "What is the main characteristic of a stack data structure?",
+          "correctAnswer": "It follows Last In First Out order",
+          "wrongAnswer1": "It follows First In First Out order",
+          "wrongAnswer2": "It stores elements in a sorted manner",
+          "wrongAnswer3": "It allows random access to elements",
+          "explanation": "A stack is a data structure that follows the Last In First Out (LIFO) principle, meaning the last element added is the first to be removed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which operation in a stack adds an element to the top?",
+          "correctAnswer": "Push",
+          "wrongAnswer1": "Pop",
+          "wrongAnswer2": "Peek",
+          "wrongAnswer3": "Insert",
+          "explanation": "The push operation adds an element to the top of the stack.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the pop operation do in a stack?",
+          "correctAnswer": "Removes the top element",
+          "wrongAnswer1": "Adds an element to the bottom",
+          "wrongAnswer2": "Checks the number of elements",
+          "wrongAnswer3": "Removes all elements from the stack",
+          "explanation": "The pop operation removes the topmost element from the stack according to the LIFO principle.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Queue",
+      "questions": [
+        {
+          "question": "What is the main characteristic of a Queue data structure?",
+          "correctAnswer": "It follows First In First Out order",
+          "wrongAnswer1": "It follows Last In First Out order",
+          "wrongAnswer2": "Elements are accessed randomly",
+          "wrongAnswer3": "It stores elements in a hierarchical order",
+          "explanation": "A Queue is a linear data structure that follows the First In First Out (FIFO) principle meaning the first element added is the first one to be removed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which operation adds an element to the end of the Queue?",
+          "correctAnswer": "Enqueue",
+          "wrongAnswer1": "Push",
+          "wrongAnswer2": "Pop",
+          "wrongAnswer3": "Dequeue",
+          "explanation": "Enqueue operation is used to add an element to the rear end of the queue.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens if you try to dequeue from an empty Queue?",
+          "correctAnswer": "It results in an underflow error",
+          "wrongAnswer1": "It adds a default element",
+          "wrongAnswer2": "It returns the last element",
+          "wrongAnswer3": "It reverses the queue",
+          "explanation": "Dequeue operation on an empty queue cannot remove any element and thus causes an underflow condition.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Binary Tree",
+      "questions": [
+        {
+          "question": "What is a binary tree in data structures?",
+          "correctAnswer": "A tree data structure where each node has at most two children",
+          "wrongAnswer1": "A tree where each node has any number of children",
+          "wrongAnswer2": "A linear list of nodes connected sequentially",
+          "wrongAnswer3": "A graph with no cycles and multiple parents per node",
+          "explanation": "A binary tree is a hierarchical data structure in which each node has at most two children, commonly referred to as the left child and the right child.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which traversal method visits the root node first in a binary tree?",
+          "correctAnswer": "Preorder traversal",
+          "wrongAnswer1": "Inorder traversal",
+          "wrongAnswer2": "Postorder traversal",
+          "wrongAnswer3": "Level order traversal",
+          "explanation": "Preorder traversal processes the root node first, then recursively traverses the left subtree followed by the right subtree.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the maximum number of nodes at level d (root level is 0) in a binary tree?",
+          "correctAnswer": "2 raised to the power of d",
+          "wrongAnswer1": "d squared",
+          "wrongAnswer2": "d times 2",
+          "wrongAnswer3": "d factorial",
+          "explanation": "At level d of a binary tree, there can be at most 2^d nodes, where the root is level 0.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Binary Search Tree",
+      "questions": [
+        {
+          "question": "What property does each node in a Binary Search Tree maintain?",
+          "correctAnswer": "Left subtree has smaller values and right subtree has larger values",
+          "wrongAnswer1": "Both subtrees have the same values",
+          "wrongAnswer2": "Right subtree has smaller values and left subtree has larger values",
+          "wrongAnswer3": "No specific value ordering is maintained",
+          "explanation": "In a Binary Search Tree, for every node, all nodes in its left subtree have smaller values, and all nodes in its right subtree have larger values, allowing efficient searching.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the average time complexity for searching an element in a balanced Binary Search Tree?",
+          "correctAnswer": "O log n",
+          "wrongAnswer1": "O n",
+          "wrongAnswer2": "O n log n",
+          "wrongAnswer3": "O 1",
+          "explanation": "In a balanced Binary Search Tree, searching takes logarithmic time O log n because the tree height is proportional to log n, enabling efficient divide and conquer.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which traversal method of a Binary Search Tree outputs values in sorted order?",
+          "correctAnswer": "In-order traversal",
+          "wrongAnswer1": "Pre-order traversal",
+          "wrongAnswer2": "Post-order traversal",
+          "wrongAnswer3": "Level-order traversal",
+          "explanation": "In-order traversal visits nodes in ascending order for a Binary Search Tree, producing a sorted sequence of values.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Heap",
+      "questions": [
+        {
+          "question": "What property distinguishes a max heap from a min heap?",
+          "correctAnswer": "Max heap has parent nodes greater than children; min heap has parent nodes smaller than children",
+          "wrongAnswer1": "Max heap has parent nodes smaller than children; min heap has parent nodes greater than children",
+          "wrongAnswer2": "Max heap stores values in ascending order; min heap stores values in descending order",
+          "wrongAnswer3": "Max heap only stores positive numbers; min heap stores negative numbers",
+          "explanation": "In a max heap, each parent node is greater than or equal to its children, ensuring the maximum value is at the root. Conversely, in a min heap, each parent is less than or equal to its children, so the minimum value is at the root.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following operations can be performed efficiently on a heap?",
+          "correctAnswer": "Insertion and extraction of the root element",
+          "wrongAnswer1": "Searching for an arbitrary element",
+          "wrongAnswer2": "Deleting an arbitrary element",
+          "wrongAnswer3": "Sorting elements without rebuilding the heap",
+          "explanation": "Heaps are designed to efficiently support insertion of elements and extraction of the root (max or min). Searching or deleting arbitrary elements is not efficient in heaps.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the time complexity of building a heap from an unsorted array of n elements?",
+          "correctAnswer": "O(n)",
+          "wrongAnswer1": "O(n log n)",
+          "wrongAnswer2": "O(log n)",
+          "wrongAnswer3": "O(n squared)",
+          "explanation": "Building a heap from an unsorted array can be done in linear time O(n) using the heapify process, which is more efficient than inserting elements one by one.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Graph",
+      "questions": [
+        {
+          "question": "What is a graph in data structures?",
+          "correctAnswer": "A collection of nodes connected by edges",
+          "wrongAnswer1": "A linear collection of elements",
+          "wrongAnswer2": "A hierarchical tree structure",
+          "wrongAnswer3": "A data structure that stores key-value pairs",
+          "explanation": "A graph is a data structure consisting of a set of nodes (vertices) and edges that connect pairs of nodes, representing relationships between them.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT true about an undirected graph?",
+          "correctAnswer": "Edges have a direction from one vertex to another",
+          "wrongAnswer1": "Edges connect two vertices without direction",
+          "wrongAnswer2": "The edge between vertex A and vertex B is the same as between B and A",
+          "wrongAnswer3": "Undirected graphs can be used to represent bidirectional relationships",
+          "explanation": "In an undirected graph, edges do not have a direction. The connection between two vertices is bidirectional, so edges do not have direction.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the adjacency matrix of a graph represent?",
+          "correctAnswer": "A 2D array where cell (i, j) indicates the presence of an edge between vertex i and vertex j",
+          "wrongAnswer1": "A list of vertices with no edges",
+          "wrongAnswer2": "A matrix that stores vertex labels only",
+          "wrongAnswer3": "A set of disconnected nodes without connections",
+          "explanation": "The adjacency matrix is a square matrix used to represent a finite graph, where the element at row i and column j indicates whether there is an edge from vertex i to vertex j.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Hash Table",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a hash table in data structures?",
+          "correctAnswer": "To store key-value pairs for efficient lookup",
+          "wrongAnswer1": "To sort elements in ascending order",
+          "wrongAnswer2": "To perform mathematical calculations",
+          "wrongAnswer3": "To store data in a sequential list",
+          "explanation": "A hash table is designed to store data in key-value pairs and allows for efficient data retrieval using the key.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is used in a hash table to determine the index for storing a key-value pair?",
+          "correctAnswer": "A hash function",
+          "wrongAnswer1": "Binary search algorithm",
+          "wrongAnswer2": "Traversal method",
+          "wrongAnswer3": "Sorting algorithm",
+          "explanation": "A hash function is used to compute the index where the key-value pair should be placed in the hash table.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What technique is commonly used to handle collisions in a hash table?",
+          "correctAnswer": "Chaining using linked lists",
+          "wrongAnswer1": "Binary search",
+          "wrongAnswer2": "Depth-first search",
+          "wrongAnswer3": "Quick sort",
+          "explanation": "Chaining resolves collisions by storing collided elements in a linked list at the same index.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Trie",
+      "questions": [
+        {
+          "question": "What is a trie primarily used for in computer science?",
+          "correctAnswer": "Efficient retrieval of a key in a dataset of strings",
+          "wrongAnswer1": "Sorting large numbers of integers efficiently",
+          "wrongAnswer2": "Balancing binary search trees",
+          "wrongAnswer3": "Storing numeric data compactly",
+          "explanation": "A trie is a tree-like data structure used to store a dynamic set or associative array where the keys are usually strings. It is primarily used for efficient retrieval of keys, commonly strings, in datasets such as dictionaries or autocomplete systems.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In a trie, what does each node typically represent?",
+          "correctAnswer": "A single character of a key",
+          "wrongAnswer1": "A complete string key",
+          "wrongAnswer2": "An integer value associated with a key",
+          "wrongAnswer3": "A pointer to another unrelated data structure",
+          "explanation": "Each node in a trie corresponds to a single character of a key, and by traversing from the root to a node, the path represents a prefix or full key stored in the trie.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a major advantage of using a trie over a hash table for storing strings?",
+          "correctAnswer": "Trie supports prefix-based search efficiently",
+          "wrongAnswer1": "Trie requires less memory than hash tables",
+          "wrongAnswer2": "Tries provide constant time average lookup regardless of key length",
+          "wrongAnswer3": "Tries are easier to implement than hash tables",
+          "explanation": "A major advantage of tries is their ability to efficiently perform operations like prefix-based searches and auto-complete suggestions, which hash tables do not inherently support.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Sorting Algorithms",
+      "questions": [
+        {
+          "question": "Which of the following sorting algorithms has the best average-case time complexity?",
+          "correctAnswer": "Merge Sort",
+          "wrongAnswer1": "Bubble Sort",
+          "wrongAnswer2": "Insertion Sort",
+          "wrongAnswer3": "Selection Sort",
+          "explanation": "Merge Sort has an average-case time complexity of O(n log n), which is better than the O(n^2) average-case complexity of Bubble Sort, Insertion Sort, and Selection Sort.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In which sorting algorithm are elements repeatedly swapped if they are in the wrong order, passing multiple times over the array?",
+          "correctAnswer": "Bubble Sort",
+          "wrongAnswer1": "Quick Sort",
+          "wrongAnswer2": "Merge Sort",
+          "wrongAnswer3": "Heap Sort",
+          "explanation": "Bubble Sort repeatedly swaps adjacent elements if they are in the wrong order during multiple passes over the array.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which sorting algorithm uses a divide and conquer approach by partitioning the array around a pivot element?",
+          "correctAnswer": "Quick Sort",
+          "wrongAnswer1": "Merge Sort",
+          "wrongAnswer2": "Bubble Sort",
+          "wrongAnswer3": "Selection Sort",
+          "explanation": "Quick Sort partitions the array around a pivot element and then recursively sorts the partitions in a divide and conquer manner.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Searching Algorithms",
+      "questions": [
+        {
+          "question": "Which searching algorithm divides the array into halves to find the target element?",
+          "correctAnswer": "Binary Search",
+          "wrongAnswer1": "Linear Search",
+          "wrongAnswer2": "Bubble Search",
+          "wrongAnswer3": "Depth First Search",
+          "explanation": "Binary Search works by repeatedly dividing a sorted array in half, eliminating half of the remaining elements each step until the target is found.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the average time complexity of linear search in an unsorted array?",
+          "correctAnswer": "O(n)",
+          "wrongAnswer1": "O(log n)",
+          "wrongAnswer2": "O(1)",
+          "wrongAnswer3": "O(n log n)",
+          "explanation": "Linear search checks each element in the array sequentially, resulting in an average time complexity of O(n) where n is the number of elements.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In which scenario is binary search the most efficient compared to linear search?",
+          "correctAnswer": "When the array is sorted",
+          "wrongAnswer1": "When the array is unsorted",
+          "wrongAnswer2": "When the array has only one element",
+          "wrongAnswer3": "When the array is empty",
+          "explanation": "Binary search requires the array to be sorted to effectively divide and conquer; it cannot be applied efficiently to unsorted arrays.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Divide and Conquer",
+      "questions": [
+        {
+          "question": "What is the main idea behind the divide and conquer algorithmic technique?",
+          "correctAnswer": "Divide the problem into smaller subproblems, solve them independently, and combine their solutions.",
+          "wrongAnswer1": "Solve the problem by examining each element only once without splitting.",
+          "wrongAnswer2": "Use a random approach to guess the solution and verify it.",
+          "wrongAnswer3": "Combine all input elements first before attempting to solve the problem.",
+          "explanation": "Divide and conquer works by breaking the problem into smaller subproblems, solving each subproblem independently, and then combining the results to solve the original problem.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following algorithms is an example of using divide and conquer?",
+          "correctAnswer": "Merge Sort",
+          "wrongAnswer1": "Bubble Sort",
+          "wrongAnswer2": "Linear Search",
+          "wrongAnswer3": "Breadth First Search",
+          "explanation": "Merge Sort divides the array into halves, recursively sorts each half, and then merges the sorted halves, illustrating divide and conquer.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which step is NOT part of the divide and conquer strategy?",
+          "correctAnswer": "Directly combining the final output without processing subproblems.",
+          "wrongAnswer1": "Dividing the problem into smaller subproblems.",
+          "wrongAnswer2": "Conquering by solving the subproblems recursively.",
+          "wrongAnswer3": "Combining the results of subproblems to get the final solution.",
+          "explanation": "Divide and conquer involves dividing the problem, conquering subproblems recursively, and combining results; skipping subproblem processing is not part of the strategy.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Dynamic Programming",
+      "questions": [
+        {
+          "question": "What is the primary characteristic of problems suitable for dynamic programming?",
+          "correctAnswer": "They can be broken down into overlapping subproblems",
+          "wrongAnswer1": "They require exponential time to solve",
+          "wrongAnswer2": "They are always sorting problems",
+          "wrongAnswer3": "They do not have any recursive structure",
+          "explanation": "Dynamic programming solves problems by breaking them down into simpler overlapping subproblems which are solved once and stored for future use, optimizing efficiency.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which technique is commonly used alongside dynamic programming to avoid recalculating results?",
+          "correctAnswer": "Memoization",
+          "wrongAnswer1": "Backtracking",
+          "wrongAnswer2": "Greedy method",
+          "wrongAnswer3": "Brute force",
+          "explanation": "Memoization stores the results of expensive function calls and returns the cached result when the same inputs occur again, which is a common approach used in dynamic programming to improve performance.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the context of dynamic programming, what does the term 'optimal substructure' refer to?",
+          "correctAnswer": "An optimal solution can be constructed from optimal solutions of its subproblems",
+          "wrongAnswer1": "The problem cannot be divided into smaller subproblems",
+          "wrongAnswer2": "Subproblems do not share any common results",
+          "wrongAnswer3": "Solutions must be found through exhaustive search",
+          "explanation": "Optimal substructure means the overall optimal solution can be composed from optimal solutions to its smaller subproblems, which is a key property that enables dynamic programming to work.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Greedy Algorithms",
+      "questions": [
+        {
+          "question": "What is the key characteristic of a greedy algorithm?",
+          "correctAnswer": "It makes the locally optimal choice at each step",
+          "wrongAnswer1": "It explores all possible solutions before making a choice",
+          "wrongAnswer2": "It relies on recursion to solve subproblems",
+          "wrongAnswer3": "It uses backtracking to find the best solution",
+          "explanation": "A greedy algorithm builds up a solution piece by piece, always choosing the next piece that offers the most immediate benefit without reconsidering previous choices.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following problems is a classic example where a greedy algorithm can be applied effectively?",
+          "correctAnswer": "Activity selection problem",
+          "wrongAnswer1": "Longest common subsequence problem",
+          "wrongAnswer2": "Matrix chain multiplication",
+          "wrongAnswer3": "Knapsack problem with fractional items",
+          "explanation": "The activity selection problem is a classic example where a greedy algorithm works by always selecting the next activity that finishes earliest.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why are greedy algorithms not always optimal for all problems?",
+          "correctAnswer": "Because they do not consider the global optimal solution, only local choices",
+          "wrongAnswer1": "Because they always explore all possible solutions",
+          "wrongAnswer2": "Because they require exponential time to execute",
+          "wrongAnswer3": "Because they depend on randomization to choose the next step",
+          "explanation": "Greedy algorithms fail when making a locally optimal choice does not lead to a globally optimal solution. They do not backtrack or revise decisions once made.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Backtracking",
+      "questions": [
+        {
+          "question": "What is the main idea behind the backtracking algorithm?",
+          "correctAnswer": "Exploring all possible solutions by choosing options one by one and backing up when a solution fails",
+          "wrongAnswer1": "Sorting data elements in a specific order to optimize search operations",
+          "wrongAnswer2": "Dividing the problem into smaller subproblems and solving them independently",
+          "wrongAnswer3": "Using a greedy approach to make the best local choice at each step",
+          "explanation": "Backtracking systematically explores all potential solutions by building a solution incrementally and abandoning it if it cannot lead to a valid answer.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which problem is most commonly solved using backtracking?",
+          "correctAnswer": "N-Queens problem",
+          "wrongAnswer1": "Binary search in a sorted array",
+          "wrongAnswer2": "Finding shortest path in a weighted graph using Dijkstra's algorithm",
+          "wrongAnswer3": "Sorting an array using quicksort",
+          "explanation": "The N-Queens problem requires placing queens on a chessboard such that no two queens threaten each other, naturally suited for backtracking exploration.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What characteristic must a problem have for backtracking to be an effective solution approach?",
+          "correctAnswer": "The problem must be divisible into a series of choices where invalid partial solutions can be abandoned early",
+          "wrongAnswer1": "The problem must have a fixed size and no recursive structure",
+          "wrongAnswer2": "The problem must only have a single solution with no intermediate states",
+          "wrongAnswer3": "The problem requires random guesses rather than systematic exploration",
+          "explanation": "Backtracking works best when invalid paths can be pruned early, reducing the search space by abandoning partial solutions that cannot lead to a final valid solution.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Recursion",
+      "questions": [
+        {
+          "question": "What is the base case in a recursive function?",
+          "correctAnswer": "The condition under which the recursion stops",
+          "wrongAnswer1": "The first call of the recursive function",
+          "wrongAnswer2": "The part of the function that makes the recursive call",
+          "wrongAnswer3": "A variable that stores the result of the recursion",
+          "explanation": "The base case is the condition that ends the recursion, preventing infinite calls and allowing the function to start returning values.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of a problem that can be solved using recursion?",
+          "correctAnswer": "Calculating the factorial of a number",
+          "wrongAnswer1": "Finding the maximum element in an array using iteration",
+          "wrongAnswer2": "Sorting an array with a non-recursive algorithm like bubble sort",
+          "wrongAnswer3": "Iterating over a linked list with a loop",
+          "explanation": "Calculating factorial is a classic example of a problem naturally solved with recursion, where the function calls itself with a reduced problem size.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens if a recursive function lacks a proper base case?",
+          "correctAnswer": "It causes infinite recursion and may lead to a stack overflow error",
+          "wrongAnswer1": "It immediately returns without doing any computation",
+          "wrongAnswer2": "It runs normally but slower",
+          "wrongAnswer3": "The function executes only once",
+          "explanation": "Without a base case, recursion never stops calling itself, leading to infinite recursion and typically causing a stack overflow error.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Big O",
+      "questions": [
+        {
+          "question": "What does Big O notation primarily describe?",
+          "correctAnswer": "The upper bound of an algorithm's running time",
+          "wrongAnswer1": "The exact running time of an algorithm",
+          "wrongAnswer2": "The memory usage of an algorithm",
+          "wrongAnswer3": "The programming language efficiency",
+          "explanation": "Big O notation describes the worst-case or upper limit of an algorithm's running time as the input size grows, helping to understand its efficiency.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is the best description of O(1) in Big O notation?",
+          "correctAnswer": "Constant time complexity regardless of input size",
+          "wrongAnswer1": "Linear time complexity proportional to input size",
+          "wrongAnswer2": "Quadratic time complexity involving squared input size",
+          "wrongAnswer3": "Logarithmic time complexity that increases slowly",
+          "explanation": "O(1) means the algorithm executes in constant time, regardless of input size, providing very efficient performance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If an algorithm has a time complexity of O(n log n), what does this imply?",
+          "correctAnswer": "The running time grows faster than linear but slower than quadratic",
+          "wrongAnswer1": "The running time grows exponentially with input size",
+          "wrongAnswer2": "The running time remains constant regardless of input",
+          "wrongAnswer3": "The running time is directly proportional to the square of the input size",
+          "explanation": "O(n log n) indicates the running time increases faster than linear (O(n)) but slower than quadratic (O(n^2)), common in efficient sorting algorithms like mergesort.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Complexity Analysis",
+      "questions": [
+        {
+          "question": "What does time complexity in algorithm analysis measure?",
+          "correctAnswer": "The amount of time an algorithm takes to run as a function of input size",
+          "wrongAnswer1": "The amount of memory an algorithm uses during execution",
+          "wrongAnswer2": "The number of bugs in an algorithm",
+          "wrongAnswer3": "The speed of the computer running the algorithm",
+          "explanation": "Time complexity measures how the runtime of an algorithm increases with respect to the size of the input data.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the best description of Big O notation?",
+          "correctAnswer": "A way to describe the upper bound performance of an algorithm",
+          "wrongAnswer1": "A measure of an algorithm's exact runtime",
+          "wrongAnswer2": "A method to calculate memory usage",
+          "wrongAnswer3": "A way to optimize an algorithm's code",
+          "explanation": "Big O notation expresses the worst-case growth rate of an algorithm's running time or space requirements.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes space complexity?",
+          "correctAnswer": "The amount of memory an algorithm uses as a function of input size",
+          "wrongAnswer1": "The time taken by an algorithm to produce output",
+          "wrongAnswer2": "The number of steps an algorithm takes to execute",
+          "wrongAnswer3": "The number of lines of code in the algorithm",
+          "explanation": "Space complexity measures how much memory an algorithm consumes relative to input size.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Breadth First Search",
+      "questions": [
+        {
+          "question": "What data structure is primarily used to implement Breadth First Search?",
+          "correctAnswer": "Queue",
+          "wrongAnswer1": "Stack",
+          "wrongAnswer2": "Priority Queue",
+          "wrongAnswer3": "Hash Set",
+          "explanation": "Breadth First Search uses a queue to explore nodes level by level, ensuring all neighbors at the present depth are explored before moving to nodes at the next depth level.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the time complexity of Breadth First Search for a graph with vertices V and edges E?",
+          "correctAnswer": "O(V + E)",
+          "wrongAnswer1": "O(V^2)",
+          "wrongAnswer2": "O(E^2)",
+          "wrongAnswer3": "O(log V)",
+          "explanation": "Breadth First Search visits each vertex and edge at most once, resulting in a time complexity of O(V + E) for graphs represented with adjacency lists.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In which scenario is Breadth First Search particularly useful compared to Depth First Search?",
+          "correctAnswer": "Finding the shortest path in an unweighted graph",
+          "wrongAnswer1": "Traversing deep nodes before wide nodes",
+          "wrongAnswer2": "Sorting elements in descending order",
+          "wrongAnswer3": "Finding strongly connected components",
+          "explanation": "Breadth First Search explores nodes in layers, making it ideal for finding the shortest path in unweighted graphs, unlike Depth First Search which can go deep before exploring all neighbors.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Depth First Search",
+      "questions": [
+        {
+          "question": "What is the primary mechanism used by Depth First Search to explore nodes in a graph?",
+          "correctAnswer": "Using a stack to explore nodes deeply before backtracking",
+          "wrongAnswer1": "Using a queue to explore nodes level by level",
+          "wrongAnswer2": "Randomly selecting nodes to visit next",
+          "wrongAnswer3": "Exploring nodes based on their edge weights",
+          "explanation": "Depth First Search uses a stack to dive as deeply as possible into a graph before backtracking to explore other paths. This contrasts with Breadth First Search, which uses a queue to explore nodes level by level.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Depth First Search, what happens when a node has no unvisited adjacent nodes?",
+          "correctAnswer": "The algorithm backtracks to the previous node to explore other paths",
+          "wrongAnswer1": "The algorithm terminates immediately",
+          "wrongAnswer2": "The algorithm skips the node and moves forward",
+          "wrongAnswer3": "The algorithm resets and starts from the beginning",
+          "explanation": "When DFS reaches a node with no unvisited neighbors, it backtracks to the last node that has unvisited neighbors and continues exploration from there.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which data structure is most appropriate to implement Depth First Search iteratively?",
+          "correctAnswer": "A stack to keep track of nodes to visit next",
+          "wrongAnswer1": "A priority queue to prioritize nodes",
+          "wrongAnswer2": "A queue to process nodes in breadth-first order",
+          "wrongAnswer3": "A hash table to store nodes by value",
+          "explanation": "An iterative Depth First Search uses a stack to store nodes yet to be visited, ensuring it explores as deeply as possible first before exploring sibling nodes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Dijkstra Algorithm",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Dijkstra's Algorithm?",
+          "correctAnswer": "To find the shortest path between nodes in a weighted graph",
+          "wrongAnswer1": "To sort elements in a list",
+          "wrongAnswer2": "To balance a binary search tree",
+          "wrongAnswer3": "To find the minimum spanning tree in a graph",
+          "explanation": "Dijkstra's Algorithm is designed to find the shortest path from a source node to all other nodes in a weighted graph with non-negative edge weights.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which data structure is most commonly used to implement Dijkstra's Algorithm efficiently?",
+          "correctAnswer": "Priority queue",
+          "wrongAnswer1": "Stack",
+          "wrongAnswer2": "Queue",
+          "wrongAnswer3": "Hash table",
+          "explanation": "A priority queue is used in Dijkstra's Algorithm to repeatedly select the vertex with the smallest tentative distance for exploration.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Dijkstra's Algorithm does not work correctly if the graph contains what kind of edges?",
+          "correctAnswer": "Edges with negative weights",
+          "wrongAnswer1": "Edges with very high weights",
+          "wrongAnswer2": "Unidirectional edges",
+          "wrongAnswer3": "Edges with zero weight",
+          "explanation": "Dijkstra's Algorithm assumes that all edge weights are non-negative. Negative weight edges can lead to incorrect calculations of shortest paths.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Bellman Ford",
+      "questions": [
+        {
+          "question": "What is the primary use of the Bellman Ford algorithm?",
+          "correctAnswer": "To find the shortest paths from a single source vertex to all other vertices in a graph",
+          "wrongAnswer1": "To find the minimum spanning tree of a graph",
+          "wrongAnswer2": "To check if a graph is bipartite",
+          "wrongAnswer3": "To perform a depth first search on a graph",
+          "explanation": "The Bellman Ford algorithm is primarily used to compute the shortest paths from a single source node to all other nodes in a weighted graph, even if the graph contains edges with negative weights.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following characteristics does the Bellman Ford algorithm uniquely handle compared to Dijkstra's algorithm?",
+          "correctAnswer": "It can handle graphs with negative weight edges",
+          "wrongAnswer1": "It runs in logarithmic time",
+          "wrongAnswer2": "It requires the graph to be unweighted",
+          "wrongAnswer3": "It only works with directed acyclic graphs",
+          "explanation": "Bellman Ford algorithm can handle graphs with negative weight edges, unlike Dijkstra's algorithm which assumes all weights are non-negative.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the time complexity of the Bellman Ford algorithm for a graph with V vertices and E edges?",
+          "correctAnswer": "O(V times E)",
+          "wrongAnswer1": "O(V squared)",
+          "wrongAnswer2": "O(E squared)",
+          "wrongAnswer3": "O(V plus E)",
+          "explanation": "The Bellman Ford algorithm's time complexity is O(V times E), where V is the number of vertices and E is the number of edges, because it relaxes all edges repeatedly for V minus 1 iterations.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Floyd Warshall",
+      "questions": [
+        {
+          "question": "What is the main purpose of the Floyd Warshall algorithm?",
+          "correctAnswer": "To find shortest paths between all pairs of vertices in a graph",
+          "wrongAnswer1": "To find the minimum spanning tree of a graph",
+          "wrongAnswer2": "To perform a breadth first search on a graph",
+          "wrongAnswer3": "To detect cycles in a directed graph",
+          "explanation": "The Floyd Warshall algorithm is used to find shortest paths between every pair of vertices in a weighted graph, whether directed or undirected.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What type of graph does the Floyd Warshall algorithm work on?",
+          "correctAnswer": "Weighted graphs with positive or negative edge weights but no negative cycles",
+          "wrongAnswer1": "Only unweighted graphs",
+          "wrongAnswer2": "Only graphs with positive edge weights",
+          "wrongAnswer3": "Graphs with negative weight cycles",
+          "explanation": "Floyd Warshall can handle graphs with negative edge weights as long as there are no negative weight cycles, since those would cause inconsistencies in shortest paths.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the time complexity of the Floyd Warshall algorithm?",
+          "correctAnswer": "O(n cubed) where n is the number of vertices",
+          "wrongAnswer1": "O(n squared)",
+          "wrongAnswer2": "O(m log n) where m is the number of edges",
+          "wrongAnswer3": "O(n plus m)",
+          "explanation": "The Floyd Warshall algorithm uses three nested loops over all vertices, giving it a cubic time complexity in terms of the number of vertices.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Merge Sort",
+      "questions": [
+        {
+          "question": "What is the key idea behind the merge sort algorithm?",
+          "correctAnswer": "Divide the array into halves, recursively sort them, then merge",
+          "wrongAnswer1": "Sort the array by repeatedly swapping adjacent elements",
+          "wrongAnswer2": "Select a pivot and partition the array around it",
+          "wrongAnswer3": "Build a heap and extract the maximum repeatedly",
+          "explanation": "Merge sort works by dividing the array into two halves, sorting each half recursively, and then merging the sorted halves to produce a sorted array.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the time complexity of the merge sort algorithm in the average case?",
+          "correctAnswer": "O n log n",
+          "wrongAnswer1": "O n squared",
+          "wrongAnswer2": "O log n",
+          "wrongAnswer3": "O n",
+          "explanation": "Merge sort always divides the array and merges in O n time. Since the division occurs log n times, the total time complexity is O n log n.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following properties does merge sort have?",
+          "correctAnswer": "It is a stable sorting algorithm and uses extra space for merging",
+          "wrongAnswer1": "It is unstable and sorts in place without extra space",
+          "wrongAnswer2": "It does not divide the array and sorts by selection",
+          "wrongAnswer3": "It only works on linked lists without arrays",
+          "explanation": "Merge sort preserves the order of equal elements, making it stable, but it requires additional space to merge the sorted halves.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Quick Sort",
+      "questions": [
+        {
+          "question": "What is the average time complexity of the Quick Sort algorithm?",
+          "correctAnswer": "O n log n",
+          "wrongAnswer1": "O n squared",
+          "wrongAnswer2": "O log n",
+          "wrongAnswer3": "O n",
+          "explanation": "Quick Sort has an average time complexity of O n log n because it divides the array into smaller partitions and sorts them recursively.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key step in the Quick Sort algorithm?",
+          "correctAnswer": "Choosing a pivot element to partition the array",
+          "wrongAnswer1": "Merging two sorted arrays",
+          "wrongAnswer2": "Counting the frequency of elements",
+          "wrongAnswer3": "Building a heap structure",
+          "explanation": "Quick Sort involves choosing a pivot element and partitioning the array around the pivot so that smaller elements are on one side and larger elements on the other.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a major disadvantage of Quick Sort in worst case scenarios?",
+          "correctAnswer": "It degrades to O n squared time complexity",
+          "wrongAnswer1": "It uses extra space proportional to n",
+          "wrongAnswer2": "It cannot sort negative numbers",
+          "wrongAnswer3": "It always requires a sorted input",
+          "explanation": "In the worst case, when the pivot choices are poor and result in unbalanced partitions, Quick Sort performs in O n squared time.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Bubble Sort",
+      "questions": [
+        {
+          "question": "What is the main characteristic of the Bubble Sort algorithm?",
+          "correctAnswer": "It repeatedly swaps adjacent elements if they are in the wrong order",
+          "wrongAnswer1": "It divides the list and sorts the sublists recursively",
+          "wrongAnswer2": "It selects the smallest element and moves it to the front",
+          "wrongAnswer3": "It uses a divide and conquer approach to sort elements",
+          "explanation": "Bubble Sort works by repeatedly swapping adjacent elements if they are in the wrong order, effectively 'bubbling' the largest unsorted element to its correct position in each pass.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the worst-case time complexity of the Bubble Sort algorithm?",
+          "correctAnswer": "O(n squared)",
+          "wrongAnswer1": "O(n log n)",
+          "wrongAnswer2": "O(n)",
+          "wrongAnswer3": "O(log n)",
+          "explanation": "In the worst case, Bubble Sort has to compare and swap elements in the entire list repeatedly, resulting in O(n squared) time complexity, where n is the number of elements.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a key disadvantage of the Bubble Sort algorithm?",
+          "correctAnswer": "It is inefficient for large datasets due to its high time complexity",
+          "wrongAnswer1": "It requires a lot of extra memory for sorting",
+          "wrongAnswer2": "It only works with numerical data and not other types",
+          "wrongAnswer3": "It is difficult to implement compared to other sorting algorithms",
+          "explanation": "Despite its simplicity, Bubble Sort is inefficient for large datasets because it has a high time complexity of O(n squared), making it slower than more advanced sorting algorithms.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Insertion Sort",
+      "questions": [
+        {
+          "question": "What is the main idea behind the insertion sort algorithm?",
+          "correctAnswer": "Building the final sorted array one item at a time by inserting elements into their correct position",
+          "wrongAnswer1": "Dividing the array into halves and recursively sorting them",
+          "wrongAnswer2": "Swapping adjacent elements to bubble the largest element to the end",
+          "wrongAnswer3": "Using a heap to repeatedly extract the minimum element",
+          "explanation": "Insertion sort builds the sorted array by repeatedly taking the next element and inserting it into the correct position within the sorted part of the array.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes the time complexity of insertion sort in the average case?",
+          "correctAnswer": "Quadratic time, proportional to the square of the number of elements",
+          "wrongAnswer1": "Linear time, proportional to the number of elements",
+          "wrongAnswer2": "Logarithmic time, proportional to the logarithm of the number of elements",
+          "wrongAnswer3": "Exponential time, proportional to two raised to the number of elements",
+          "explanation": "Insertion sort has an average time complexity of O(n squared), since each insertion may involve shifting elements.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In which scenario does insertion sort perform most efficiently?",
+          "correctAnswer": "When the input list is already mostly sorted",
+          "wrongAnswer1": "When the input list is in reverse order",
+          "wrongAnswer2": "When the input list is randomly ordered",
+          "wrongAnswer3": "When the input list has many duplicate elements",
+          "explanation": "Insertion sort performs best when the list is nearly sorted because few elements need to be shifted.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Selection Sort",
+      "questions": [
+        {
+          "question": "What is the main idea behind the selection sort algorithm?",
+          "correctAnswer": "Repeatedly finding the minimum element and moving it to the beginning",
+          "wrongAnswer1": "Swapping adjacent elements if they are in the wrong order",
+          "wrongAnswer2": "Dividing the list into smaller lists and merging them",
+          "wrongAnswer3": "Using a pivot to partition the array",
+          "explanation": "Selection sort works by repeatedly finding the minimum element in the unsorted portion of the list and moving it to the front until the entire list is sorted.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the time complexity of selection sort in the average case?",
+          "correctAnswer": "O(n squared)",
+          "wrongAnswer1": "O(n log n)",
+          "wrongAnswer2": "O(n)",
+          "wrongAnswer3": "O(log n)",
+          "explanation": "Selection sort has a time complexity of O(n squared) in the average and worst cases because it uses nested loops to select minimum elements in the unsorted part of the list.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a characteristic of selection sort?",
+          "correctAnswer": "It performs a fixed number of swaps equal to the number of elements minus one",
+          "wrongAnswer1": "It is a stable sorting algorithm",
+          "wrongAnswer2": "It has a best case time complexity of O(n)",
+          "wrongAnswer3": "It requires additional memory proportional to the input size",
+          "explanation": "Selection sort always performs exactly n minus one swaps, where n is the number of elements. It is not stable and has no best case improvement, and it sorts in place without extra memory.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Counting Sort",
+      "questions": [
+        {
+          "question": "What is the primary principle behind Counting Sort?",
+          "correctAnswer": "Counting the occurrences of each value and using this count to place elements in order",
+          "wrongAnswer1": "Comparing each element with every other element to find its position",
+          "wrongAnswer2": "Dividing the array recursively until single elements remain",
+          "wrongAnswer3": "Using a pivot to partition elements around it",
+          "explanation": "Counting Sort works by counting the number of occurrences of each distinct element and then calculating positions based on these counts to sort the array efficiently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Counting Sort is most efficient when:",
+          "correctAnswer": "The range of input values is not significantly larger than the number of elements",
+          "wrongAnswer1": "The input elements are strings of varying lengths",
+          "wrongAnswer2": "The elements are floating-point numbers with high precision",
+          "wrongAnswer3": "The array contains mostly duplicate values with no fixed range",
+          "explanation": "Counting Sort performs best when the range of input data (k) is not much larger than the number of elements (n), making it suitable for sorting integers within a small range.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the time complexity of Counting Sort ignoring the output array copying step?",
+          "correctAnswer": "O(n + k) where n is the number of elements and k is the range of input values",
+          "wrongAnswer1": "O(n log n) due to comparison operations",
+          "wrongAnswer2": "O(n squared) because of nested loops",
+          "wrongAnswer3": "O(k log n) due to sorting the counts",
+          "explanation": "Counting Sort has a linear time complexity O(n + k) where n is the number of elements and k is the range of the input values, making it faster than comparison-based algorithms when k is small relative to n.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Radix Sort",
+      "questions": [
+        {
+          "question": "What is the primary basis for sorting in the Radix Sort algorithm?",
+          "correctAnswer": "Sorting is done by processing each digit of the numbers from least significant to most significant",
+          "wrongAnswer1": "Sorting is done by comparing each element directly to all other elements",
+          "wrongAnswer2": "Sorting is done by repeatedly splitting the list into halves",
+          "wrongAnswer3": "Sorting is done by recursively partitioning the array based on a pivot element",
+          "explanation": "Radix Sort works by sorting numbers digit by digit, starting from the least significant digit to the most significant, which allows it to efficiently handle large datasets without direct comparisons between elements.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which data structure is commonly used internally by Radix Sort to distribute elements based on each digit?",
+          "correctAnswer": "Queues or buckets to collect elements for each digit value",
+          "wrongAnswer1": "Stacks to reverse the order after each pass",
+          "wrongAnswer2": "Priority queues to select minimum elements",
+          "wrongAnswer3": "Linked lists to store elements sequentially",
+          "explanation": "Radix Sort uses queues or buckets for each digit to collect and reorder elements during each pass, enabling efficient grouping and sorting by individual digit values.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the time complexity of Radix Sort when sorting n numbers with d digits and base k?",
+          "correctAnswer": "O(d times (n plus k))",
+          "wrongAnswer1": "O(n log n)",
+          "wrongAnswer2": "O(n squared)",
+          "wrongAnswer3": "O(k log d)",
+          "explanation": "The time complexity of Radix Sort depends on the number of digits d and the base k, and is generally O(d times (n plus k)), as it sorts the dataset digit by digit using counting or bucket sort for each digit.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Topological Sort",
+      "questions": [
+        {
+          "question": "What is the primary use of topological sort in graph theory?",
+          "correctAnswer": "To order vertices of a directed acyclic graph such that for every directed edge uv, u comes before v",
+          "wrongAnswer1": "To find the shortest path between two nodes in a weighted graph",
+          "wrongAnswer2": "To detect cycles in an undirected graph",
+          "wrongAnswer3": "To partition a graph into strongly connected components",
+          "explanation": "Topological sort is used to linearly order the vertices in a directed acyclic graph so that for every directed edge uv, vertex u appears before vertex v in the ordering.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which condition must a graph satisfy to have a valid topological ordering?",
+          "correctAnswer": "The graph must be a directed acyclic graph (DAG)",
+          "wrongAnswer1": "The graph must be weighted and undirected",
+          "wrongAnswer2": "The graph must be connected",
+          "wrongAnswer3": "The graph must contain cycles",
+          "explanation": "Topological sort requires the graph to be directed and acyclic, because cycles prevent a linear ordering from existing.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which algorithm is commonly used to perform a topological sort?",
+          "correctAnswer": "Depth-first search (DFS) based algorithm",
+          "wrongAnswer1": "Dijkstra's algorithm",
+          "wrongAnswer2": "Kruskal's algorithm",
+          "wrongAnswer3": "Breadth-first search (BFS) without in-degree tracking",
+          "explanation": "A common method to perform topological sorting uses a DFS based approach to visit nodes and add them to the ordering in reverse postorder. Alternatively, a BFS approach using in-degree counts (Kahn's algorithm) is also used.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Kruskal Algorithm",
+      "questions": [
+        {
+          "question": "What is the primary goal of Kruskal's algorithm?",
+          "correctAnswer": "To find the minimum spanning tree of a graph",
+          "wrongAnswer1": "To find the shortest path between two vertices",
+          "wrongAnswer2": "To detect cycles in a graph",
+          "wrongAnswer3": "To sort the edges of a graph by weight",
+          "explanation": "Kruskal's algorithm is designed to find the minimum spanning tree, which is a subset of edges that connects all vertices with the smallest possible total edge weight.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which data structure is commonly used in Kruskal's algorithm to detect cycles?",
+          "correctAnswer": "Disjoint set (union-find) data structure",
+          "wrongAnswer1": "Stack",
+          "wrongAnswer2": "Queue",
+          "wrongAnswer3": "Binary search tree",
+          "explanation": "Kruskal's algorithm uses the union-find data structure to efficiently check whether adding an edge will form a cycle by determining if two vertices belong to the same set.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the time complexity of Kruskal's algorithm when using a good union-find structure with path compression?",
+          "correctAnswer": "O(E log E), where E is the number of edges",
+          "wrongAnswer1": "O(V^2), where V is the number of vertices",
+          "wrongAnswer2": "O(E + V), where E is edges and V is vertices",
+          "wrongAnswer3": "O(log V), where V is the number of vertices",
+          "explanation": "Sorting all edges takes O(E log E) time and union-find operations are almost constant time with path compression, making the overall complexity O(E log E).",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Prim Algorithm",
+      "questions": [
+        {
+          "question": "What is the primary goal of Prim's algorithm in graph theory?",
+          "correctAnswer": "To find the minimum spanning tree of a connected weighted graph",
+          "wrongAnswer1": "To find the shortest path between two nodes in a graph",
+          "wrongAnswer2": "To detect cycles in a graph",
+          "wrongAnswer3": "To perform a depth-first search on a graph",
+          "explanation": "Prim's algorithm is used to find the minimum spanning tree, which connects all vertices with the minimum total edge weight, in a connected weighted graph.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which data structure is commonly used to efficiently implement Prim's algorithm?",
+          "correctAnswer": "Priority queue to select edges with minimum weight",
+          "wrongAnswer1": "Stack to keep track of visited nodes",
+          "wrongAnswer2": "Queue for breadth-first search ordering",
+          "wrongAnswer3": "Hash table for edge lookups",
+          "explanation": "A priority queue is typically used in Prim's algorithm to always pick the edge with the smallest weight that connects a vertex inside the tree to a vertex outside it.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Prim's algorithm decide which edge to add at each step?",
+          "correctAnswer": "It adds the smallest edge connecting the current tree to a new vertex not yet included",
+          "wrongAnswer1": "It randomly selects an edge from the graph",
+          "wrongAnswer2": "It adds the edge with the largest weight connected to the current tree",
+          "wrongAnswer3": "It adds edges based on the order they appear in the adjacency list",
+          "explanation": "Prim's algorithm grows the minimum spanning tree by repeatedly adding the smallest weighted edge that connects a vertex in the tree with a vertex outside it, ensuring the tree remains minimal.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Union Find",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Union Find data structure in algorithms?",
+          "correctAnswer": "To efficiently manage and find connected components in a set",
+          "wrongAnswer1": "To sort elements in ascending order",
+          "wrongAnswer2": "To store key-value pairs for quick lookup",
+          "wrongAnswer3": "To perform matrix multiplication in graphs",
+          "explanation": "Union Find is primarily used to keep track of which elements are in which disjoint sets, allowing efficient union and find operations to manage connected components.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which two main operations does the Union Find data structure support?",
+          "correctAnswer": "Union and Find",
+          "wrongAnswer1": "Insert and Delete",
+          "wrongAnswer2": "Push and Pop",
+          "wrongAnswer3": "Search and Sort",
+          "explanation": "Union Find supports two key operations: Union (to merge two sets) and Find (to determine which set an element belongs to).",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Union Find, what technique is commonly used to optimize the Find operation?",
+          "correctAnswer": "Path compression",
+          "wrongAnswer1": "Binary search",
+          "wrongAnswer2": "Dynamic programming",
+          "wrongAnswer3": "Depth first search",
+          "explanation": "Path compression flattens the structure of the tree whenever Find is called, which speeds up future operations by making each node directly point to the root.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Segment Tree",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a segment tree in data structures?",
+          "correctAnswer": "To efficiently perform range queries and updates on an array",
+          "wrongAnswer1": "To sort elements in an array quickly",
+          "wrongAnswer2": "To store elements in a hierarchical tree for binary search",
+          "wrongAnswer3": "To perform depth first traversal on graphs",
+          "explanation": "A segment tree is a data structure that allows efficient range queries and updates on an array, such as finding the sum or minimum of a range, in logarithmic time.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the typical time complexity for a single query or update operation in a segment tree of size n?",
+          "correctAnswer": "O(log n)",
+          "wrongAnswer1": "O(n)",
+          "wrongAnswer2": "O(1)",
+          "wrongAnswer3": "O(n log n)",
+          "explanation": "Segment trees enable query and update operations to be performed in O(log n) time, which is much more efficient than a linear scan.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In which situation is a segment tree more advantageous compared to a Fenwick tree (Binary Indexed Tree)?",
+          "correctAnswer": "When the operation is not invertible and requires range updates as well as queries",
+          "wrongAnswer1": "When only prefix sums are needed without updates",
+          "wrongAnswer2": "When the data structure needs to handle only static arrays",
+          "wrongAnswer3": "When memory usage must be minimized at all costs",
+          "explanation": "Segment trees can handle a wider range of operations including non-invertible operations and complex range updates which Fenwick trees cannot efficiently support.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Fenwick Tree",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Fenwick Tree in algorithms?",
+          "correctAnswer": "To efficiently compute prefix sums and update elements",
+          "wrongAnswer1": "To sort elements in logarithmic time",
+          "wrongAnswer2": "To store data in a hierarchical tree structure for quick access",
+          "wrongAnswer3": "To find the shortest path in a graph",
+          "explanation": "A Fenwick Tree, also known as a Binary Indexed Tree, is primarily designed to provide efficient updates and prefix sum queries on an array of numbers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following operations can be performed in O(log n) time using a Fenwick Tree?",
+          "correctAnswer": "Updating an element and calculating prefix sums",
+          "wrongAnswer1": "Binary search on sorted data",
+          "wrongAnswer2": "Merging two sorted arrays",
+          "wrongAnswer3": "Finding the minimum element in a range",
+          "explanation": "Fenwick Trees allow updating values and computing cumulative frequencies or prefix sums in logarithmic time, making them efficient for dynamic data.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How is the Fenwick Tree array typically constructed in relation to the original data array?",
+          "correctAnswer": "It stores partial sums of elements at intervals based on binary index manipulation",
+          "wrongAnswer1": "It stores the sorted elements of the original array",
+          "wrongAnswer2": "It duplicates the original array with additional space",
+          "wrongAnswer3": "It stores reversed elements for easy access",
+          "explanation": "Fenwick Tree utilizes binary representation of indices to store cumulative sums of elements, enabling efficient update and retrieval.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Suffix Array",
+      "questions": [
+        {
+          "question": "What is a suffix array primarily used for in string processing?",
+          "correctAnswer": "To store the starting indices of all suffixes of a string in sorted order.",
+          "wrongAnswer1": "To store the frequency of each character in a string.",
+          "wrongAnswer2": "To represent a tree structure of string prefixes.",
+          "wrongAnswer3": "To compress the string using its repeated substrings.",
+          "explanation": "A suffix array is an array of integers giving the starting positions of suffixes of a string sorted in lexicographical order. It is mainly used for efficient pattern searching and other string processing tasks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key advantage of using suffix arrays over suffix trees?",
+          "correctAnswer": "Suffix arrays use less memory and are simpler to implement compared to suffix trees.",
+          "wrongAnswer1": "Suffix arrays allow faster insertion and deletion of substrings.",
+          "wrongAnswer2": "Suffix arrays can handle non-string data more efficiently.",
+          "wrongAnswer3": "Suffix arrays automatically build balanced search trees.",
+          "explanation": "Suffix arrays are data structures that are more space-efficient than suffix trees and often simpler to implement. Although suffix trees offer fast query times, suffix arrays are preferred when memory usage is a concern.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the time complexity of constructing a suffix array using the most efficient known algorithms?",
+          "correctAnswer": "O(n) or O(n log n) depending on the algorithm used.",
+          "wrongAnswer1": "O(n squared) because each suffix must be compared with all others.",
+          "wrongAnswer2": "O(log n) due to efficient binary searches.",
+          "wrongAnswer3": "O(n factorial) because of permutations of suffixes.",
+          "explanation": "Efficient algorithms exist that can construct suffix arrays in linear time O(n), or O(n log n) depending on the approach. This is much faster than naive methods that may take quadratic time.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Trie Node",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Trie node in data structures?",
+          "correctAnswer": "To represent characters of strings in a tree structure for efficient retrieval",
+          "wrongAnswer1": "To store numerical values for sorting algorithms",
+          "wrongAnswer2": "To represent nodes in a binary search tree",
+          "wrongAnswer3": "To manage memory allocation in heap structures",
+          "explanation": "A Trie node is used to represent each character in strings stored collectively in a tree structure, which allows efficient prefix-based retrieval of strings.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes the children of a Trie node?",
+          "correctAnswer": "An array or map of pointers to child nodes representing subsequent characters",
+          "wrongAnswer1": "A list of sibling nodes at the same tree level",
+          "wrongAnswer2": "A single pointer to the next character node in a linked list",
+          "wrongAnswer3": "Nodes storing integer values sorting strings",
+          "explanation": "A Trie node typically contains pointers to child nodes, each representing the next character in the string sequence, enabling efficient prefix search.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What additional information might a Trie node store besides pointers to children?",
+          "correctAnswer": "A flag indicating whether the node marks the end of a valid string",
+          "wrongAnswer1": "The frequency of the most common character in the alphabet",
+          "wrongAnswer2": "The total number of children nodes in the tree",
+          "wrongAnswer3": "A pointer to the previous node in the tree",
+          "explanation": "Trie nodes usually contain a boolean flag to indicate if the path from the root to that node represents a complete valid string in the Trie.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Graph Traversal",
+      "questions": [
+        {
+          "question": "Which of the following algorithms is used for breadth-first traversal of a graph?",
+          "correctAnswer": "Breadth-First Search",
+          "wrongAnswer1": "Depth-First Search",
+          "wrongAnswer2": "Dijkstra's Algorithm",
+          "wrongAnswer3": "Prim's Algorithm",
+          "explanation": "Breadth-First Search (BFS) explores all neighbors at the current depth before moving to nodes at the next depth level, making it the algorithm used for breadth-first traversal.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Depth-First Search (DFS), what data structure is typically used to keep track of the vertices to visit next?",
+          "correctAnswer": "Stack",
+          "wrongAnswer1": "Queue",
+          "wrongAnswer2": "Priority Queue",
+          "wrongAnswer3": "Hash Map",
+          "explanation": "DFS uses a stack data structure either explicitly or via recursion to explore as far along each branch before backtracking.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the main difference between Breadth-First Search and Depth-First Search in terms of their traversal approach?",
+          "correctAnswer": "BFS explores neighbors level by level, while DFS explores as deep as possible along each path before backtracking.",
+          "wrongAnswer1": "BFS uses recursion, while DFS uses iteration.",
+          "wrongAnswer2": "DFS explores neighbors level by level, while BFS explores as deep as possible along each path before backtracking.",
+          "wrongAnswer3": "BFS and DFS explore the graph in the same way but use different data structures.",
+          "explanation": "BFS traverses the graph level by level using a queue, whereas DFS goes deep into the graph branches using a stack, exploring one path fully before backtracking.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Cycle Detection",
+      "questions": [
+        {
+          "question": "What is the primary purpose of cycle detection in graph algorithms?",
+          "correctAnswer": "To determine if a graph contains a cycle or not",
+          "wrongAnswer1": "To find the shortest path between two nodes",
+          "wrongAnswer2": "To count the total number of nodes in a graph",
+          "wrongAnswer3": "To check if all nodes are connected",
+          "explanation": "Cycle detection algorithms are used to determine whether a graph contains a cycle, which is a path that starts and ends at the same node without repeating any edges.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which data structure is commonly used to detect cycles in a directed graph?",
+          "correctAnswer": "Depth-first search with recursion stack tracking",
+          "wrongAnswer1": "Breadth-first search with queue",
+          "wrongAnswer2": "Union-find data structure only",
+          "wrongAnswer3": "Priority queue for shortest path",
+          "explanation": "Depth-first search (DFS) with a recursion stack or color marking is a common method to detect cycles in directed graphs by checking if a node is revisited while still in the recursion stack.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does the Union-Find algorithm help in detecting cycles in an undirected graph?",
+          "correctAnswer": "By checking if two vertices belong to the same connected component before adding an edge",
+          "wrongAnswer1": "By performing DFS and tracking recursion stacks",
+          "wrongAnswer2": "By sorting all edges before processing",
+          "wrongAnswer3": "By calculating the graph's degree sequence",
+          "explanation": "The Union-Find algorithm detects cycles by ensuring that adding an edge does not connect two vertices that are already in the same set, which would form a cycle.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Shortest Path",
+      "questions": [
+        {
+          "question": "What is the primary goal of shortest path algorithms in a graph?",
+          "correctAnswer": "To find the path between two nodes with the minimum total weight",
+          "wrongAnswer1": "To find all possible paths between two nodes",
+          "wrongAnswer2": "To find the longest path in a graph",
+          "wrongAnswer3": "To count the number of nodes in a graph",
+          "explanation": "Shortest path algorithms aim to find the minimum total weight or cost path between two nodes in a graph, optimizing travel or transmission costs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following algorithms is commonly used to find the shortest path in a graph with non-negative edge weights?",
+          "correctAnswer": "Dijkstra's algorithm",
+          "wrongAnswer1": "Prim's algorithm",
+          "wrongAnswer2": "Depth-first search",
+          "wrongAnswer3": "Kruskal's algorithm",
+          "explanation": "Dijkstra's algorithm efficiently finds the shortest path from a source node to all other nodes in a graph with non-negative edge weights.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the context of shortest path problems, what distinguishes the Bellman-Ford algorithm from Dijkstra's algorithm?",
+          "correctAnswer": "Bellman-Ford can handle graphs with negative edge weights",
+          "wrongAnswer1": "Bellman-Ford is faster for very large graphs",
+          "wrongAnswer2": "Bellman-Ford only works on undirected graphs",
+          "wrongAnswer3": "Bellman-Ford always finds the longest path",
+          "explanation": "Bellman-Ford algorithm is capable of handling graphs with negative edge weights and also can detect negative weight cycles, unlike Dijkstra's algorithm which assumes non-negative weights.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Minimum Spanning",
+      "questions": [
+        {
+          "question": "What is the primary goal of a Minimum Spanning Tree in a graph?",
+          "correctAnswer": "To connect all vertices with the minimum possible total edge weight",
+          "wrongAnswer1": "To find the shortest path between two vertices",
+          "wrongAnswer2": "To maximize the number of edges in the graph",
+          "wrongAnswer3": "To find a cycle with the highest sum of edge weights",
+          "explanation": "A Minimum Spanning Tree (MST) connects all vertices in a graph such that the total edge weight is minimized and there are no cycles.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following algorithms is NOT typically used to find a Minimum Spanning Tree?",
+          "correctAnswer": "Dijkstra's algorithm",
+          "wrongAnswer1": "Kruskal's algorithm",
+          "wrongAnswer2": "Prim's algorithm",
+          "wrongAnswer3": "Boruvka's algorithm",
+          "explanation": "Dijkstra's algorithm is used for shortest path problems, not for finding a Minimum Spanning Tree. Kruskal's, Prim's, and Boruvka's algorithms are common MST algorithms.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In Prim's algorithm for finding a Minimum Spanning Tree, what data structure is typically used to efficiently select the edge with the minimum weight?",
+          "correctAnswer": "Priority queue (min-heap)",
+          "wrongAnswer1": "Stack",
+          "wrongAnswer2": "Queue",
+          "wrongAnswer3": "Hash table",
+          "explanation": "Prim's algorithm uses a priority queue or min-heap to select the next edge with the smallest weight to add to the spanning tree efficiently.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Hash Function",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a hash function in data structures?",
+          "correctAnswer": "To map data of arbitrary size to fixed-size values",
+          "wrongAnswer1": "To sort data in ascending order",
+          "wrongAnswer2": "To encrypt data for security",
+          "wrongAnswer3": "To compress data to save storage space",
+          "explanation": "A hash function takes input data of any size and maps it to a fixed-size value, which is used in hash tables and other data structures for quick data retrieval.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which property is important for a good hash function to minimize collisions?",
+          "correctAnswer": "Uniform distribution of hash values",
+          "wrongAnswer1": "Generating only even numbers",
+          "wrongAnswer2": "Returning the same value for similar inputs",
+          "wrongAnswer3": "Being computationally expensive",
+          "explanation": "A good hash function distributes input data uniformly across the output range to minimize collisions where multiple inputs map to the same hash value.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the context of hash functions, what does a collision mean?",
+          "correctAnswer": "Two different inputs produce the same hash value",
+          "wrongAnswer1": "A hash function produces no output",
+          "wrongAnswer2": "The input data is hashed multiple times",
+          "wrongAnswer3": "The hash value is larger than the input data",
+          "explanation": "A collision occurs when two distinct inputs produce the same hash value, which can affect data retrieval in hash-based structures.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Load Factor",
+      "questions": [
+        {
+          "question": "What does the load factor in a hash table represent?",
+          "correctAnswer": "The ratio of the number of elements to the number of buckets",
+          "wrongAnswer1": "The number of empty buckets in the hash table",
+          "wrongAnswer2": "The time taken to search for an element",
+          "wrongAnswer3": "The size of the largest bucket",
+          "explanation": "The load factor in a hash table is defined as the ratio of the number of elements to the number of buckets, indicating how full the hash table is.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is maintaining a low load factor important in a hash table?",
+          "correctAnswer": "It helps keep operations like insertion and search efficient by reducing collisions",
+          "wrongAnswer1": "It decreases the memory usage by limiting the size of the hash table",
+          "wrongAnswer2": "It increases the hash table size to accommodate more elements",
+          "wrongAnswer3": "It allows faster resizing of the hash table",
+          "explanation": "A low load factor helps minimize collisions, which makes operations like insertion, deletion, and search more efficient in a hash table.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What typically happens when the load factor exceeds a certain threshold in a hash table?",
+          "correctAnswer": "The hash table is resized and all elements are rehashed",
+          "wrongAnswer1": "The hash table is cleared to reduce load",
+          "wrongAnswer2": "The collisions are ignored",
+          "wrongAnswer3": "The hash function is changed without resizing",
+          "explanation": "When the load factor exceeds a threshold, the hash table is resized (usually doubled) and elements are rehashed to maintain efficiency.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Amortized Analysis",
+      "questions": [
+        {
+          "question": "What is the main purpose of amortized analysis in algorithms?",
+          "correctAnswer": "To average the cost of operations over a sequence to find a more accurate performance measure.",
+          "wrongAnswer1": "To measure the worst-case time of a single operation only.",
+          "wrongAnswer2": "To determine the memory used by an algorithm during execution.",
+          "wrongAnswer3": "To optimize the algorithm for the best-case scenario.",
+          "explanation": "Amortized analysis calculates the average running time per operation over a worst-case sequence of operations, providing a more realistic measure than worst-case analysis for individual operations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following data structures commonly uses amortized analysis to describe its operation costs?",
+          "correctAnswer": "Dynamic array resizing during insertions.",
+          "wrongAnswer1": "Linked list node traversal.",
+          "wrongAnswer2": "Binary search tree lookups.",
+          "wrongAnswer3": "Stack push operations.",
+          "explanation": "Dynamic arrays, such as vectors, use amortized analysis to account for the occasional costly resizing operations that occur during insertions, spreading this cost over multiple insertions.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In amortized analysis, which method involves assigning different costs to operations such that the total cost over all operations is accounted for?",
+          "correctAnswer": "The accounting method.",
+          "wrongAnswer1": "The divide-and-conquer method.",
+          "wrongAnswer2": "The recursive method.",
+          "wrongAnswer3": "The greedy method.",
+          "explanation": "The accounting method assigns specific charges to each operation, some operations are given extra cost to 'save' for future expensive operations, ensuring the total cost remains bounded.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Tail Recursion",
+      "questions": [
+        {
+          "question": "What is a key characteristic of a tail recursive function?",
+          "correctAnswer": "The recursive call is the last operation performed in the function.",
+          "wrongAnswer1": "The recursive call is performed before any other operations in the function.",
+          "wrongAnswer2": "The function performs multiple recursive calls.",
+          "wrongAnswer3": "The function uses iteration instead of recursion.",
+          "explanation": "A tail recursive function has its recursive call as the final action, allowing optimization by reusing the current function's stack frame.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is tail recursion beneficial compared to normal recursion?",
+          "correctAnswer": "It allows the compiler or interpreter to optimize and reuse stack frames, preventing stack overflow.",
+          "wrongAnswer1": "It always runs faster because it uses less CPU time.",
+          "wrongAnswer2": "It eliminates the need for base cases in recursion.",
+          "wrongAnswer3": "It converts the recursion into an iterative loop automatically without any compiler support.",
+          "explanation": "Tail recursion can be optimized by reusing the same stack frame which reduces memory usage and avoids stack overflow errors.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is an example of a tail recursive function?",
+          "correctAnswer": "A function where the recursive call occurs as the very last action with no further computation after it.",
+          "wrongAnswer1": "A function where the recursive call is followed by an addition operation.",
+          "wrongAnswer2": "A function that calls itself multiple times before returning a value.",
+          "wrongAnswer3": "A function that uses iteration rather than recursion to solve a problem.",
+          "explanation": "In tail recursion, the recursive call is the last operation of the function, enabling certain optimizations that are not possible otherwise.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Memoization",
+      "questions": [
+        {
+          "question": "What is the main purpose of memoization in algorithms?",
+          "correctAnswer": "To store results of expensive function calls and reuse them when the same inputs occur again",
+          "wrongAnswer1": "To sort data efficiently in ascending order",
+          "wrongAnswer2": "To divide a problem into smaller subproblems using recursion",
+          "wrongAnswer3": "To encrypt the data for security purposes",
+          "explanation": "Memoization involves caching the results of function calls to avoid redundant computations, improving performance especially in recursive algorithms.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key feature that distinguishes memoization from simple recursion?",
+          "correctAnswer": "Storing previously computed results to avoid repeated calculations",
+          "wrongAnswer1": "Using divide and conquer to split problems into independent parts",
+          "wrongAnswer2": "Executing function calls in parallel for speed gains",
+          "wrongAnswer3": "Modifying the input data directly within the function",
+          "explanation": "Memoization specifically uses a cache or table to store computed results, which avoids recomputing values in recursive calls, unlike plain recursion which does not store results.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In which scenario would memoization be most beneficial?",
+          "correctAnswer": "When a function has overlapping subproblems that are repeatedly solved",
+          "wrongAnswer1": "When a problem requires iterating over data only once without reuse",
+          "wrongAnswer2": "When the problem size is too large to store intermediate results",
+          "wrongAnswer3": "When the algorithm involves random guessing without pattern",
+          "explanation": "Memoization is highly effective for problems with overlapping subproblems because it saves intermediate results to avoid redundant work, boosting efficiency.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Tabulation",
+      "questions": [
+        {
+          "question": "What is tabulation in dynamic programming?",
+          "correctAnswer": "A bottom-up approach that solves subproblems iteratively",
+          "wrongAnswer1": "A top-down approach using recursion with memoization",
+          "wrongAnswer2": "A method to sort elements in an array",
+          "wrongAnswer3": "A technique to graph data structures",
+          "explanation": "Tabulation is a bottom-up dynamic programming technique where smaller subproblems are solved first and their solutions are used to build up solutions to larger problems iteratively.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes the way tabulation stores solutions?",
+          "correctAnswer": "By filling up a table iteratively from the simplest to the complex cases",
+          "wrongAnswer1": "By storing solutions for subproblems only when needed",
+          "wrongAnswer2": "By dividing the data into equal halves recursively",
+          "wrongAnswer3": "By using pointers to represent data relationships",
+          "explanation": "In tabulation, a table (often an array) is filled out iteratively, starting from the smallest subproblem and moving towards the original problem, ensuring all subproblems are solved.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is an advantage of using tabulation over memoization?",
+          "correctAnswer": "It avoids the overhead of recursive calls and can be more space efficient",
+          "wrongAnswer1": "It is easier to implement because it requires no data structures",
+          "wrongAnswer2": "It computes only necessary subproblems dynamically during recursion",
+          "wrongAnswer3": "It uses less memory by not storing any intermediate results",
+          "explanation": "Tabulation avoids the overhead of recursive calls because it uses an iterative approach, which can be more space efficient and faster than memoization that uses recursion and stores intermediate results when called.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Data Structures and Algorithms",
+      "concept": "Bit Manipulation",
+      "questions": [
+        {
+          "question": "What is the result of a bitwise AND operation between two bits?",
+          "correctAnswer": "It produces 1 only if both bits are 1",
+          "wrongAnswer1": "It produces 1 if at least one bit is 1",
+          "wrongAnswer2": "It produces 0 only if both bits are 1",
+          "wrongAnswer3": "It produces 1 only if both bits are 0",
+          "explanation": "The bitwise AND operation outputs 1 only when both corresponding bits are 1; otherwise, it outputs 0.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which bit manipulation operation is used to invert all the bits of a number?",
+          "correctAnswer": "Bitwise NOT",
+          "wrongAnswer1": "Bitwise OR",
+          "wrongAnswer2": "Bitwise XOR",
+          "wrongAnswer3": "Bitwise AND",
+          "explanation": "The bitwise NOT operation inverts all the bits of a number, turning 1s into 0s and 0s into 1s.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can you check if a particular bit is set in a number using bit manipulation?",
+          "correctAnswer": "Use bitwise AND with a mask where the bit to check is 1 and others are 0",
+          "wrongAnswer1": "Use bitwise OR with a mask",
+          "wrongAnswer2": "Use bitwise XOR with a mask",
+          "wrongAnswer3": "Use bitwise NOT on the whole number",
+          "explanation": "To check if a specific bit is set, you perform bitwise AND with a mask that has only that bit set. The result will be non-zero if that bit is set.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

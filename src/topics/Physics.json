@@ -1,0 +1,1655 @@
+{
+  "topic": "Physics",
+  "concepts": [
+    {
+      "topic": "Physics",
+      "concept": "Classical Mechanics",
+      "questions": [
+        {
+          "question": "What does Newton's first law of motion state?",
+          "correctAnswer": "An object at rest stays at rest unless acted upon by a force.",
+          "wrongAnswer1": "Objects always move in a straight line regardless of forces.",
+          "wrongAnswer2": "For every action, there is an opposite reaction.",
+          "wrongAnswer3": "Force equals mass times acceleration.",
+          "explanation": "Newton's first law, also known as the law of inertia, states that an object will remain at rest or in uniform motion unless acted upon by an external force.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In classical mechanics, what does the term 'momentum' refer to?",
+          "correctAnswer": "The product of an object's mass and velocity.",
+          "wrongAnswer1": "The force applied to an object over time.",
+          "wrongAnswer2": "The energy stored in an object due to its position.",
+          "wrongAnswer3": "The acceleration of an object times its velocity.",
+          "explanation": "Momentum is defined as the product of the mass and velocity of an object, representing the quantity of motion it has.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which principle explains why a child moves backward when pushing a large box forward?",
+          "correctAnswer": "Newton's third law of motion, stating every action has an equal and opposite reaction.",
+          "wrongAnswer1": "Newton's first law stating objects remain at rest unless moved.",
+          "wrongAnswer2": "The conservation of energy principle.",
+          "wrongAnswer3": "The principle of inertia.",
+          "explanation": "Newton's third law explains that when the child applies a force to the box, the box applies an equal and opposite force back on the child, causing the child to move backward.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Quantum Mechanics",
+      "questions": [
+        {
+          "question": "What principle states that certain pairs of physical properties cannot be simultaneously known to arbitrary precision?",
+          "correctAnswer": "Heisenberg Uncertainty Principle",
+          "wrongAnswer1": "Pauli Exclusion Principle",
+          "wrongAnswer2": "Archimedes Principle",
+          "wrongAnswer3": "Newton's Third Law",
+          "explanation": "The Heisenberg Uncertainty Principle states that it is impossible to simultaneously determine the exact position and momentum of a particle.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which equation is fundamental in describing how the quantum state of a physical system changes over time?",
+          "correctAnswer": "Schrödinger Equation",
+          "wrongAnswer1": "Maxwell's Equations",
+          "wrongAnswer2": "Einstein Field Equations",
+          "wrongAnswer3": "Navier-Stokes Equation",
+          "explanation": "The Schrödinger Equation is central to quantum mechanics, describing the evolution of the quantum state over time.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What phenomenon demonstrates the wave-particle duality of matter by showing an interference pattern with electrons?",
+          "correctAnswer": "Double-slit Experiment",
+          "wrongAnswer1": "Photoelectric Effect",
+          "wrongAnswer2": "Compton Scattering",
+          "wrongAnswer3": "Stern-Gerlach Experiment",
+          "explanation": "The double-slit experiment reveals that electrons can behave like waves, creating an interference pattern characteristic of wave behavior.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Thermodynamics",
+      "questions": [
+        {
+          "question": "What is the first law of thermodynamics primarily concerned with?",
+          "correctAnswer": "Conservation of energy in a system",
+          "wrongAnswer1": "Increase of entropy over time",
+          "wrongAnswer2": "Absolute zero temperature",
+          "wrongAnswer3": "Heat transfer by conduction",
+          "explanation": "The first law of thermodynamics states that energy can neither be created nor destroyed, only transformed or transferred, which is essentially conservation of energy in a system.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which thermodynamic process occurs at constant volume?",
+          "correctAnswer": "Isochoric process",
+          "wrongAnswer1": "Isobaric process",
+          "wrongAnswer2": "Isothermal process",
+          "wrongAnswer3": "Adiabatic process",
+          "explanation": "An isochoric process is a thermodynamic process that occurs at constant volume, meaning the system's volume does not change during the process.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the second law of thermodynamics state about the entropy of an isolated system?",
+          "correctAnswer": "It tends to increase over time",
+          "wrongAnswer1": "It remains constant",
+          "wrongAnswer2": "It tends to decrease over time",
+          "wrongAnswer3": "It is always zero",
+          "explanation": "The second law of thermodynamics states that the entropy of an isolated system will tend to increase over time, leading to increased disorder or randomness.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Electromagnetism",
+      "questions": [
+        {
+          "question": "What is the primary cause of electromagnetic force?",
+          "correctAnswer": "The interaction between electric charges and magnetic fields",
+          "wrongAnswer1": "Gravitational attraction between masses",
+          "wrongAnswer2": "Nuclear forces inside the atom",
+          "wrongAnswer3": "Friction between moving objects",
+          "explanation": "Electromagnetic force arises from the interaction between electric charges and magnetic fields, which is fundamental in electromagnetism.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common application of electromagnetism?",
+          "correctAnswer": "Electric motors converting electrical energy to mechanical energy",
+          "wrongAnswer1": "Combustion engines converting fuel to mechanical energy",
+          "wrongAnswer2": "Solar panels converting sunlight to electrical energy",
+          "wrongAnswer3": "Hydraulic systems using fluid pressure to create movement",
+          "explanation": "Electric motors rely on electromagnetism to convert electrical energy into mechanical movement by using magnetic fields and electric currents.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does changing magnetic flux through a coil induce an electric current?",
+          "correctAnswer": "By Faraday's law of electromagnetic induction which states that a change in magnetic flux induces an electromotive force",
+          "wrongAnswer1": "By the conservation of mass in the coil",
+          "wrongAnswer2": "Through the friction between the coil and magnetic field",
+          "wrongAnswer3": "By increasing the electric charge without any movement",
+          "explanation": "Faraday's law explains that a varying magnetic flux in a coil induces an electromotive force, generating an electric current; this is the principle behind many electrical generators.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Relativity Theory",
+      "questions": [
+        {
+          "question": "What is one of the key postulates of Einstein's theory of special relativity?",
+          "correctAnswer": "The speed of light in a vacuum is constant for all observers regardless of motion",
+          "wrongAnswer1": "Time moves at the same rate for all observers regardless of motion",
+          "wrongAnswer2": "Mass is independent of velocity",
+          "wrongAnswer3": "Gravity acts instantaneously across any distance",
+          "explanation": "A key postulate of Einstein's special relativity is that the speed of light in a vacuum is constant and does not change regardless of the motion of the source or the observer.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "According to general relativity, how is gravity described?",
+          "correctAnswer": "As the curvature of spacetime caused by mass and energy",
+          "wrongAnswer1": "As a force acting at a distance between masses",
+          "wrongAnswer2": "As a electromagnetic force",
+          "wrongAnswer3": "As a property of light bending in a vacuum",
+          "explanation": "General relativity describes gravity not as a force but as the effect of curvature of spacetime caused by the presence of mass and energy.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What phenomenon predicted by general relativity has been confirmed by observations?",
+          "correctAnswer": "The bending of light by massive objects such as stars",
+          "wrongAnswer1": "The instantaneous effect of gravity over large distances",
+          "wrongAnswer2": "That mass does not affect time dilation",
+          "wrongAnswer3": "That the speed of light varies with gravitational field strength",
+          "explanation": "One of the key predictions of general relativity confirmed by observation is gravitational lensing, where light bends around massive objects like stars or galaxies.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Particle Physics",
+      "questions": [
+        {
+          "question": "What are the fundamental particles in the Standard Model of particle physics?",
+          "correctAnswer": "Quarks, leptons, gauge bosons, and the Higgs boson",
+          "wrongAnswer1": "Protons, neutrons, electrons, and photons",
+          "wrongAnswer2": "Atoms, molecules, ions, and nuclei",
+          "wrongAnswer3": "Neutrinos, mesons, baryons, and gluons",
+          "explanation": "The Standard Model includes quarks, leptons, gauge bosons, and the Higgs boson as the fundamental particles that make up matter and mediate forces.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which force is responsible for keeping quarks together inside protons and neutrons?",
+          "correctAnswer": "The strong nuclear force",
+          "wrongAnswer1": "The electromagnetic force",
+          "wrongAnswer2": "The gravitational force",
+          "wrongAnswer3": "The weak nuclear force",
+          "explanation": "The strong nuclear force binds quarks together to form protons and neutrons and also holds the nucleus together.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What particle is exchanged in the weak interaction responsible for radioactive decay?",
+          "correctAnswer": "W and Z bosons",
+          "wrongAnswer1": "Photons",
+          "wrongAnswer2": "Gluons",
+          "wrongAnswer3": "Gravitons",
+          "explanation": "The W and Z bosons mediate the weak interaction which governs processes like beta decay in radioactive elements.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Nuclear Physics",
+      "questions": [
+        {
+          "question": "What particle is commonly emitted during alpha decay?",
+          "correctAnswer": "A helium nucleus",
+          "wrongAnswer1": "A neutron",
+          "wrongAnswer2": "An electron",
+          "wrongAnswer3": "A proton",
+          "explanation": "Alpha decay involves the emission of an alpha particle, which is essentially a helium nucleus consisting of two protons and two neutrons.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which force is primarily responsible for holding the nucleus together despite the repulsion between protons?",
+          "correctAnswer": "The strong nuclear force",
+          "wrongAnswer1": "Electromagnetic force",
+          "wrongAnswer2": "Gravitational force",
+          "wrongAnswer3": "Weak nuclear force",
+          "explanation": "The strong nuclear force acts between nucleons to hold the nucleus together, overcoming the electromagnetic repulsion between positively charged protons.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the process called in which a heavy nucleus splits into two smaller nuclei releasing energy?",
+          "correctAnswer": "Nuclear fission",
+          "wrongAnswer1": "Nuclear fusion",
+          "wrongAnswer2": "Radioactive decay",
+          "wrongAnswer3": "Alpha decay",
+          "explanation": "Nuclear fission is the splitting of a heavy nucleus into smaller nuclei with the release of energy, which is the principle behind nuclear reactors and atomic bombs.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Optics Principles",
+      "questions": [
+        {
+          "question": "What principle explains the bending of light as it passes from one medium to another?",
+          "correctAnswer": "Refraction",
+          "wrongAnswer1": "Reflection",
+          "wrongAnswer2": "Diffraction",
+          "wrongAnswer3": "Polarization",
+          "explanation": "Refraction is the change in direction of light when it passes from one medium to another due to a change in its speed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which phenomenon occurs when light waves spread out after passing through a narrow opening?",
+          "correctAnswer": "Diffraction",
+          "wrongAnswer1": "Reflection",
+          "wrongAnswer2": "Refraction",
+          "wrongAnswer3": "Interference",
+          "explanation": "Diffraction occurs when waves, including light waves, spread out after passing through a small aperture or around an obstacle.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "The principle stating that light rays follow the path that takes the least time is known as:",
+          "correctAnswer": "Fermat's Principle",
+          "wrongAnswer1": "Huygens' Principle",
+          "wrongAnswer2": "Snell's Law",
+          "wrongAnswer3": "Law of Reflection",
+          "explanation": "Fermat's Principle states that the path taken by light between two points is the one that can be traversed in the least time.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Fluid Dynamics",
+      "questions": [
+        {
+          "question": "What principle explains why an object submerged in a fluid experiences an upward buoyant force?",
+          "correctAnswer": "Archimedes' principle",
+          "wrongAnswer1": "Bernoulli's principle",
+          "wrongAnswer2": "Pascal's principle",
+          "wrongAnswer3": "Boyle's law",
+          "explanation": "Archimedes' principle states that the buoyant force on an object submerged in a fluid is equal to the weight of the fluid displaced by the object.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which equation relates the pressure, velocity, and height in a flowing fluid assuming steady, incompressible flow?",
+          "correctAnswer": "Bernoulli's equation",
+          "wrongAnswer1": "Navier-Stokes equation",
+          "wrongAnswer2": "Continuity equation",
+          "wrongAnswer3": "Ideal gas law",
+          "explanation": "Bernoulli's equation relates pressure, velocity, and height in a fluid flow under steady and incompressible conditions, showing energy conservation in the fluid.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In fluid dynamics, what does the Reynolds number help predict?",
+          "correctAnswer": "Whether a flow is laminar or turbulent",
+          "wrongAnswer1": "The density of the fluid",
+          "wrongAnswer2": "The pressure exerted by the fluid",
+          "wrongAnswer3": "The temperature change of the fluid",
+          "explanation": "The Reynolds number is used to predict flow patterns in different fluid flow situations, indicating whether the flow is laminar or turbulent based on velocity, characteristic length, and viscosity.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Statistical Mechanics",
+      "questions": [
+        {
+          "question": "What does statistical mechanics primarily study?",
+          "correctAnswer": "The behavior of systems with many particles based on probability",
+          "wrongAnswer1": "The motion of individual planets in the solar system",
+          "wrongAnswer2": "The properties of single isolated atoms",
+          "wrongAnswer3": "The interaction of light with matter",
+          "explanation": "Statistical mechanics deals with the collective behavior of large numbers of particles using probability theory.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which concept is fundamental in statistical mechanics for describing the state of a system?",
+          "correctAnswer": "The ensemble of microstates representing possible configurations",
+          "wrongAnswer1": "The classical trajectory of each particle",
+          "wrongAnswer2": "The electric charge of particles",
+          "wrongAnswer3": "The gravitational force between particles",
+          "explanation": "Ensembles are key in statistical mechanics to represent all possible states consistent with macroscopic conditions.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In statistical mechanics, what is the significance of the partition function?",
+          "correctAnswer": "It encodes information about all possible energy states and their probabilities",
+          "wrongAnswer1": "It measures the physical size of molecules",
+          "wrongAnswer2": "It determines the speed of sound in a medium",
+          "wrongAnswer3": "It represents the total momentum of a system",
+          "explanation": "The partition function is central to calculating thermodynamic quantities by summing over all energy states weighted by their probabilities.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Wave Theory",
+      "questions": [
+        {
+          "question": "What is the primary characteristic that distinguishes a transverse wave from a longitudinal wave?",
+          "correctAnswer": "The direction of particle vibration is perpendicular to the wave propagation direction in transverse waves.",
+          "wrongAnswer1": "The amplitude of transverse waves is always smaller than longitudinal waves.",
+          "wrongAnswer2": "Transverse waves require a medium, while longitudinal waves do not.",
+          "wrongAnswer3": "Longitudinal waves travel faster than transverse waves in all media.",
+          "explanation": "In transverse waves, particles vibrate perpendicular to the wave direction, while in longitudinal waves, vibrations are parallel to wave propagation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which property of a wave determines its energy?",
+          "correctAnswer": "Amplitude",
+          "wrongAnswer1": "Frequency",
+          "wrongAnswer2": "Wavelength",
+          "wrongAnswer3": "Speed",
+          "explanation": "The energy carried by a wave is directly related to the square of its amplitude; larger amplitude means more energy.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens to the wavelength of a wave if its frequency increases while the speed remains constant?",
+          "correctAnswer": "The wavelength decreases.",
+          "wrongAnswer1": "The wavelength increases.",
+          "wrongAnswer2": "The wavelength remains the same.",
+          "wrongAnswer3": "The wave stops propagating.",
+          "explanation": "Wave speed equals frequency times wavelength, so if speed is constant and frequency increases, wavelength must decrease.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Atomic Structure",
+      "questions": [
+        {
+          "question": "What particles are found in the nucleus of an atom?",
+          "correctAnswer": "Protons and neutrons",
+          "wrongAnswer1": "Electrons only",
+          "wrongAnswer2": "Protons and electrons",
+          "wrongAnswer3": "Neutrons and electrons",
+          "explanation": "The nucleus of an atom contains protons and neutrons, while electrons orbit around the nucleus.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which subatomic particle has a negative charge?",
+          "correctAnswer": "Electron",
+          "wrongAnswer1": "Proton",
+          "wrongAnswer2": "Neutron",
+          "wrongAnswer3": "Positron",
+          "explanation": "Electrons have a negative charge, protons have a positive charge, and neutrons are neutral.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How is the atomic number of an element defined?",
+          "correctAnswer": "Number of protons in the nucleus",
+          "wrongAnswer1": "Number of neutrons in the nucleus",
+          "wrongAnswer2": "Number of electrons in an atom",
+          "wrongAnswer3": "Sum of protons and neutrons",
+          "explanation": "The atomic number is determined by the number of protons in the nucleus and defines the element.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Solid State",
+      "questions": [
+        {
+          "question": "What is the fundamental difference between a crystal and an amorphous solid?",
+          "correctAnswer": "A crystal has a regular repeating arrangement of atoms while an amorphous solid does not have a long-range order.",
+          "wrongAnswer1": "A crystal has atoms randomly arranged, whereas an amorphous solid has a periodic atomic structure.",
+          "wrongAnswer2": "A crystal is always a metal and an amorphous solid is a nonmetal.",
+          "wrongAnswer3": "There is no difference; both have identical atomic arrangements.",
+          "explanation": "Crystals are characterized by a highly ordered atomic structure that repeats periodically, whereas amorphous solids lack such long-range periodic atomic arrangement.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of bonding is most commonly found in ionic solids?",
+          "correctAnswer": "Electrostatic attraction between positively and negatively charged ions.",
+          "wrongAnswer1": "Metallic bonding involving delocalized electrons.",
+          "wrongAnswer2": "Covalent bonding with shared electron pairs between atoms.",
+          "wrongAnswer3": "Van der Waals forces between neutral molecules.",
+          "explanation": "Ionic solids are held together by the electrostatic force of attraction between oppositely charged ions forming an ionic bond.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the primary reason metals are good conductors of electricity?",
+          "correctAnswer": "Presence of free electrons or delocalized electrons that can move through the lattice.",
+          "wrongAnswer1": "Their atoms are tightly packed which prevents electron movement.",
+          "wrongAnswer2": "Metals have a high density of neutrons aiding conduction.",
+          "wrongAnswer3": "Metals have ionic bonds that allow for electron flow.",
+          "explanation": "Metals conduct electricity because they have electrons in the outer shell that are free to move throughout the metal lattice, allowing electrical current to flow easily.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Physical Optics",
+      "questions": [
+        {
+          "question": "What phenomenon in physical optics explains the bending of light around obstacles?",
+          "correctAnswer": "Diffraction",
+          "wrongAnswer1": "Refraction",
+          "wrongAnswer2": "Polarization",
+          "wrongAnswer3": "Reflection",
+          "explanation": "Diffraction refers to the bending and spreading of waves around obstacles and openings, a key concept in physical optics.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which effect demonstrates the superposition of two or more light waves in physical optics?",
+          "correctAnswer": "Interference",
+          "wrongAnswer1": "Dispersion",
+          "wrongAnswer2": "Diffraction",
+          "wrongAnswer3": "Scattering",
+          "explanation": "Interference occurs when two or more light waves overlap, resulting in a new wave pattern with regions of constructive and destructive interference.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What aspect of light is directly studied in physical optics, unlike geometric optics which treats light as rays?",
+          "correctAnswer": "Wave nature of light",
+          "wrongAnswer1": "Speed of light in vacuum",
+          "wrongAnswer2": "Light intensity",
+          "wrongAnswer3": "Reflection angle",
+          "explanation": "Physical optics focuses on the wave properties of light, such as interference, diffraction, and polarization, whereas geometric optics treats light as rays without wave considerations.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Magnetism Concepts",
+      "questions": [
+        {
+          "question": "What is the fundamental cause of magnetism in materials?",
+          "correctAnswer": "The movement of electric charges within the material",
+          "wrongAnswer1": "The presence of mass in the material",
+          "wrongAnswer2": "The temperature of the material",
+          "wrongAnswer3": "The weight of the material",
+          "explanation": "Magnetism in materials arises primarily due to the movement of electric charges, such as the spin and orbital motion of electrons, which creates magnetic moments.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of material is strongly attracted by a magnet?",
+          "correctAnswer": "Ferromagnetic materials like iron",
+          "wrongAnswer1": "Diamagnetic materials like copper",
+          "wrongAnswer2": "Paramagnetic materials like aluminum",
+          "wrongAnswer3": "Non-magnetic materials like plastic",
+          "explanation": "Ferromagnetic materials, such as iron, cobalt, and nickel, have strong magnetic moments that align and result in strong attraction to a magnet.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens to magnetic field lines outside a bar magnet?",
+          "correctAnswer": "They curve from the north pole to the south pole",
+          "wrongAnswer1": "They move in straight lines away from the magnet",
+          "wrongAnswer2": "They do not exist outside the magnet",
+          "wrongAnswer3": "They curve from the south pole to the north pole",
+          "explanation": "Magnetic field lines always emerge from the north pole and enter the south pole of a magnet, forming closed loops outside and inside the magnet.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Force and Motion",
+      "questions": [
+        {
+          "question": "What is the effect of an unbalanced force on an object?",
+          "correctAnswer": "It causes the object to accelerate.",
+          "wrongAnswer1": "It keeps the object at rest.",
+          "wrongAnswer2": "It maintains the object's constant speed.",
+          "wrongAnswer3": "It changes the object’s color.",
+          "explanation": "An unbalanced force causes a change in the velocity of an object, meaning the object will accelerate in the direction of the force applied.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "According to Newton's Second Law, what does force equal?",
+          "correctAnswer": "Force equals mass times acceleration.",
+          "wrongAnswer1": "Force equals mass divided by acceleration.",
+          "wrongAnswer2": "Force equals acceleration minus mass.",
+          "wrongAnswer3": "Force equals mass plus acceleration.",
+          "explanation": "Newton's Second Law states that force (F) is the product of mass (m) and acceleration (a), expressed as F = ma.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes Newton's First Law of Motion?",
+          "correctAnswer": "An object at rest stays at rest unless acted on by an external force.",
+          "wrongAnswer1": "Force equals mass times acceleration.",
+          "wrongAnswer2": "Every action has an equal and opposite reaction.",
+          "wrongAnswer3": "Objects always move at a constant speed.",
+          "explanation": "Newton's First Law, also known as the law of inertia, states that an object will not change its state of motion unless a net external force acts upon it.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Energy Conservation",
+      "questions": [
+        {
+          "question": "What principle states that energy cannot be created or destroyed, only transformed from one form to another?",
+          "correctAnswer": "The law of conservation of energy",
+          "wrongAnswer1": "The principle of energy loss",
+          "wrongAnswer2": "The law of increasing entropy",
+          "wrongAnswer3": "The principle of kinetic energy",
+          "explanation": "The law of conservation of energy states that within a closed system, energy cannot be created or destroyed but only converted from one form to another.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In a pendulum, why does the mechanical energy remain constant assuming no air resistance?",
+          "correctAnswer": "Because the potential energy converts into kinetic energy and vice versa without loss",
+          "wrongAnswer1": "Because the pendulum continuously gains external energy",
+          "wrongAnswer2": "Because kinetic energy is always zero at the highest point",
+          "wrongAnswer3": "Because potential energy is lost as heat",
+          "explanation": "In an ideal pendulum, the total mechanical energy is conserved because potential energy at the highest point transforms into kinetic energy at the lowest point and back, assuming no friction or air resistance.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is an example of energy transformation that follows the conservation of energy principle?",
+          "correctAnswer": "Chemical energy in a battery converting into electrical energy powering a device",
+          "wrongAnswer1": "Energy being created inside a generator",
+          "wrongAnswer2": "Heat energy disappearing after turning on a heater",
+          "wrongAnswer3": "Potential energy turning into infinite kinetic energy",
+          "explanation": "Energy transforms from chemical form in a battery into electrical energy when powering a device, illustrating the conservation of energy principle.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Momentum Conservation",
+      "questions": [
+        {
+          "question": "What principle states that the total momentum of a closed system remains constant if no external forces act on it?",
+          "correctAnswer": "Momentum conservation principle",
+          "wrongAnswer1": "Newton's first law of motion",
+          "wrongAnswer2": "Law of universal gravitation",
+          "wrongAnswer3": "Bernoulli's principle",
+          "explanation": "The momentum conservation principle states that in a closed system with no external forces, the total momentum before and after an event remains constant.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In a collision between two objects with masses m1 and m2 and velocities v1 and v2, what quantity remains the same before and after the collision?",
+          "correctAnswer": "The total momentum of both objects",
+          "wrongAnswer1": "The velocities of both objects",
+          "wrongAnswer2": "The kinetic energy of both objects",
+          "wrongAnswer3": "The total mass of the system",
+          "explanation": "According to momentum conservation, the total momentum (product of mass and velocity summed for all objects) remains constant in an isolated system even though individual velocities may change.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is momentum conservation more useful than energy conservation for analyzing inelastic collisions?",
+          "correctAnswer": "Because kinetic energy is not conserved in inelastic collisions, but momentum is always conserved",
+          "wrongAnswer1": "Because energy conservation does not apply to collisions at all",
+          "wrongAnswer2": "Because momentum is easier to calculate than energy",
+          "wrongAnswer3": "Because external forces always affect energy but not momentum",
+          "explanation": "In inelastic collisions, kinetic energy is converted to other forms of energy, but the total momentum remains conserved, making momentum conservation crucial for analysis.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Gravity Laws",
+      "questions": [
+        {
+          "question": "What does Newton's law of universal gravitation state?",
+          "correctAnswer": "Every mass attracts every other mass with a force proportional to their masses and inversely proportional to the square of the distance between them.",
+          "wrongAnswer1": "Gravity only affects objects with a minimum mass and only works in a vacuum.",
+          "wrongAnswer2": "Objects attract each other with a force that depends on their speed and shape.",
+          "wrongAnswer3": "The force of gravity increases with the square of the distance between two objects.",
+          "explanation": "Newton's law of universal gravitation explains that every mass attracts every other mass with a force that is proportional to the product of their masses and inversely proportional to the square of the distance between their centers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "According to the gravity laws, if the distance between two objects is doubled, how is the gravitational force affected?",
+          "correctAnswer": "The gravitational force becomes one-fourth as strong as before.",
+          "wrongAnswer1": "The gravitational force doubles in strength.",
+          "wrongAnswer2": "The gravitational force remains the same.",
+          "wrongAnswer3": "The gravitational force becomes twice as strong.",
+          "explanation": "According to the inverse square law in gravitation, the force decreases with the square of the distance, so doubling the distance reduces the force to one-fourth.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following best describes the role of gravity in planetary motion?",
+          "correctAnswer": "Gravity provides the centripetal force that keeps a planet in orbit around the Sun.",
+          "wrongAnswer1": "Gravity pushes planets away from the Sun to maintain their orbit.",
+          "wrongAnswer2": "Gravity causes planets to move in straight lines through space.",
+          "wrongAnswer3": "Gravity has no effect on the motion of planets.",
+          "explanation": "Gravity acts as a centripetal force that continuously pulls planets towards the Sun, causing them to move in elliptical orbits rather than straight lines.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Thermal Expansion",
+      "questions": [
+        {
+          "question": "What happens to most materials when they are heated?",
+          "correctAnswer": "They expand and increase in size",
+          "wrongAnswer1": "They contract and decrease in size",
+          "wrongAnswer2": "They change color",
+          "wrongAnswer3": "They become magnetic",
+          "explanation": "Most materials expand and increase in size when heated because the particles move faster and take up more space.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of thermal expansion describes the change in length of an object when heated?",
+          "correctAnswer": "Linear expansion",
+          "wrongAnswer1": "Area expansion",
+          "wrongAnswer2": "Volume expansion",
+          "wrongAnswer3": "Surface expansion",
+          "explanation": "Linear expansion refers to the change in length of an object as it is heated or cooled.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why do engineers consider thermal expansion when designing bridges?",
+          "correctAnswer": "To prevent structural damage due to temperature changes",
+          "wrongAnswer1": "To make bridges more colorful",
+          "wrongAnswer2": "To increase the weight of the bridge",
+          "wrongAnswer3": "To reduce the cost of materials",
+          "explanation": "Engineers design expansion joints in bridges to allow for movement caused by thermal expansion and contraction, preventing damage.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Electric Circuits",
+      "questions": [
+        {
+          "question": "What component in an electric circuit stores electrical energy?",
+          "correctAnswer": "A capacitor stores electrical energy.",
+          "wrongAnswer1": "A resistor stores electrical energy.",
+          "wrongAnswer2": "An inductor stores electrical energy.",
+          "wrongAnswer3": "A switch stores electrical energy.",
+          "explanation": "A capacitor stores electrical energy in an electric field between its plates, unlike resistors or switches which do not store energy.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the unit of electrical resistance?",
+          "correctAnswer": "The unit of electrical resistance is ohm.",
+          "wrongAnswer1": "The unit of electrical resistance is ampere.",
+          "wrongAnswer2": "The unit of electrical resistance is volt.",
+          "wrongAnswer3": "The unit of electrical resistance is watt.",
+          "explanation": "Electrical resistance is measured in ohms, which quantifies how much a component resists the flow of current.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In a series circuit, how does the total resistance relate to the individual resistances?",
+          "correctAnswer": "The total resistance is the sum of the individual resistances.",
+          "wrongAnswer1": "The total resistance is the product of the individual resistances.",
+          "wrongAnswer2": "The total resistance is the average of the individual resistances.",
+          "wrongAnswer3": "The total resistance is the difference of the individual resistances.",
+          "explanation": "In a series circuit, resistances add directly to give the total resistance because current passes through each resistor sequentially.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Magnetic Fields",
+      "questions": [
+        {
+          "question": "What creates a magnetic field around a conductor?",
+          "correctAnswer": "Electric current flowing through the conductor",
+          "wrongAnswer1": "The temperature of the conductor",
+          "wrongAnswer2": "The color of the conductor",
+          "wrongAnswer3": "The length of the conductor",
+          "explanation": "A magnetic field is generated when an electric current flows through a conductor due to the moving charges creating a magnetic effect.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How are the magnetic field lines oriented around a straight current-carrying wire?",
+          "correctAnswer": "They form concentric circles around the wire",
+          "wrongAnswer1": "They run parallel to the wire",
+          "wrongAnswer2": "They radiate outward in straight lines",
+          "wrongAnswer3": "They are absent around a current-carrying wire",
+          "explanation": "Magnetic field lines around a straight conductor carrying current form concentric circles with the wire at the center, indicating the direction and shape of the magnetic field.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens to the magnetic field strength if the current in a solenoid is doubled?",
+          "correctAnswer": "The magnetic field strength doubles",
+          "wrongAnswer1": "The magnetic field strength stays the same",
+          "wrongAnswer2": "The magnetic field strength halves",
+          "wrongAnswer3": "The magnetic field strength becomes zero",
+          "explanation": "The magnetic field strength in a solenoid is directly proportional to the current flowing through it, so doubling the current doubles the magnetic field strength.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Light Refraction",
+      "questions": [
+        {
+          "question": "What happens to light when it passes from air into water?",
+          "correctAnswer": "It bends toward the normal line",
+          "wrongAnswer1": "It speeds up and travels straight",
+          "wrongAnswer2": "It bends away from the normal line",
+          "wrongAnswer3": "It stops and reflects back",
+          "explanation": "When light passes from air (a less dense medium) into water (a more dense medium), it slows down and bends toward the normal line. This bending of light is called refraction.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following factors affects the amount of refraction of light at a boundary between two media?",
+          "correctAnswer": "The difference in refractive indices of the two media",
+          "wrongAnswer1": "The color of the light in the first medium",
+          "wrongAnswer2": "The shape of the media's surface",
+          "wrongAnswer3": "The temperature of the light source",
+          "explanation": "Refraction depends primarily on the difference in refractive indices of the two media. The greater the difference, the more the light bends at the boundary.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does the angle of incidence affect the angle of refraction when light passes from one medium to another?",
+          "correctAnswer": "A larger angle of incidence results in a larger angle of refraction according to Snell's law",
+          "wrongAnswer1": "The angle of refraction remains constant regardless of the angle of incidence",
+          "wrongAnswer2": "A larger angle of incidence results in a smaller angle of refraction",
+          "wrongAnswer3": "The angle of refraction equals the angle of incidence always",
+          "explanation": "According to Snell's law, the angle of refraction changes with the angle of incidence and is determined by the refractive indices of the media. Typically, a larger angle of incidence leads to a larger angle of refraction, except in cases of total internal reflection.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Sound Waves",
+      "questions": [
+        {
+          "question": "What type of wave is a sound wave?",
+          "correctAnswer": "A longitudinal wave",
+          "wrongAnswer1": "A transverse wave",
+          "wrongAnswer2": "A surface wave",
+          "wrongAnswer3": "An electromagnetic wave",
+          "explanation": "Sound waves are longitudinal waves because the particle displacement is parallel to the direction of wave propagation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does the frequency of a sound wave affect its pitch?",
+          "correctAnswer": "Higher frequency produces a higher pitch",
+          "wrongAnswer1": "Higher frequency produces a lower pitch",
+          "wrongAnswer2": "Frequency does not affect pitch",
+          "wrongAnswer3": "Lower frequency produces a higher pitch",
+          "explanation": "The pitch of a sound is determined by its frequency; higher frequencies correspond to higher pitches.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens to the speed of sound as the temperature of the medium increases?",
+          "correctAnswer": "The speed of sound increases",
+          "wrongAnswer1": "The speed of sound decreases",
+          "wrongAnswer2": "The speed of sound remains the same",
+          "wrongAnswer3": "The speed of sound stops",
+          "explanation": "As temperature increases, molecules move faster, allowing sound waves to travel more quickly through the medium.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Quantum Entanglement",
+      "questions": [
+        {
+          "question": "What is quantum entanglement?",
+          "correctAnswer": "A phenomenon where particles remain connected so that the state of one affects the state of another instantly",
+          "wrongAnswer1": "A classical theory describing electromagnetic waves",
+          "wrongAnswer2": "The process of splitting an atom into smaller particles",
+          "wrongAnswer3": "The bending of light as it passes through a prism",
+          "explanation": "Quantum entanglement is a quantum phenomenon where the states of two or more particles become linked, so that the measurement of one particle instantly determines the state of the other, regardless of distance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which principle does quantum entanglement challenge?",
+          "correctAnswer": "Locality, as it implies instant connection between particles at a distance",
+          "wrongAnswer1": "The conservation of energy in closed systems",
+          "wrongAnswer2": "The laws of classical mechanics only",
+          "wrongAnswer3": "The uncertainty principle in quantum mechanics",
+          "explanation": "Quantum entanglement challenges the principle of locality because it implies that particles can affect each other's state instantly over any distance, seemingly faster than the speed of light.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How is quantum entanglement typically demonstrated in experiments?",
+          "correctAnswer": "By creating entangled pairs of particles and measuring their correlated properties",
+          "wrongAnswer1": "By heating materials to create thermal radiation patterns",
+          "wrongAnswer2": "By observing light diffraction patterns through a double slit",
+          "wrongAnswer3": "By measuring the gravitational force between two masses",
+          "explanation": "Experiments demonstrate quantum entanglement by producing pairs of entangled particles and then measuring their properties, such as spin or polarization, to show correlations that cannot be explained by classical physics alone.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Black Holes",
+      "questions": [
+        {
+          "question": "What is a black hole?",
+          "correctAnswer": "A region in space where gravity is so strong that nothing can escape it",
+          "wrongAnswer1": "A star that emits intense light and heat",
+          "wrongAnswer2": "A planet with a solid surface and atmosphere",
+          "wrongAnswer3": "A cloud of gas and dust emitting radiation",
+          "explanation": "A black hole is a region of space where the gravitational pull is so strong that nothing, not even light, can escape from it.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What determines the size of a black hole's event horizon?",
+          "correctAnswer": "The mass of the black hole",
+          "wrongAnswer1": "The temperature of the surrounding space",
+          "wrongAnswer2": "The speed at which the black hole rotates",
+          "wrongAnswer3": "The color of the black hole",
+          "explanation": "The size of the event horizon, often called the Schwarzschild radius, depends on the mass of the black hole.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens to objects that cross the event horizon of a black hole?",
+          "correctAnswer": "They are pulled in and cannot escape the black hole's gravity",
+          "wrongAnswer1": "They bounce off and move away from the black hole",
+          "wrongAnswer2": "They orbit the black hole indefinitely without falling in",
+          "wrongAnswer3": "They slow down and remain stationary near it",
+          "explanation": "Objects crossing the event horizon are inevitably drawn into the black hole due to its immense gravitational pull, making escape impossible.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "String Theory",
+      "questions": [
+        {
+          "question": "What is the fundamental idea behind string theory?",
+          "correctAnswer": "Particles are one-dimensional strings rather than points",
+          "wrongAnswer1": "Particles are two-dimensional membranes",
+          "wrongAnswer2": "Particles do not exist at all",
+          "wrongAnswer3": "Particles are always static",
+          "explanation": "String theory proposes that the fundamental constituents of the universe are not zero-dimensional points but one-dimensional strings whose vibrations correspond to different particles.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following does string theory attempt to unify?",
+          "correctAnswer": "General relativity and quantum mechanics",
+          "wrongAnswer1": "Classical mechanics and electromagnetism",
+          "wrongAnswer2": "Thermodynamics and statistical mechanics",
+          "wrongAnswer3": "Optics and acoustics",
+          "explanation": "String theory is an attempt to unify general relativity, which describes gravity, with quantum mechanics, which governs the other fundamental forces and particles.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How many dimensions does string theory typically require for its consistency?",
+          "correctAnswer": "Ten dimensions in superstring theory",
+          "wrongAnswer1": "Four dimensions",
+          "wrongAnswer2": "Three dimensions",
+          "wrongAnswer3": "Twenty-six dimensions",
+          "explanation": "Superstring theory generally requires ten dimensions (nine spatial dimensions plus one time dimension) for mathematical consistency, though other versions like bosonic string theory require 26 dimensions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Nuclear Fusion",
+      "questions": [
+        {
+          "question": "What is the primary process occurring in nuclear fusion?",
+          "correctAnswer": "Combining light atomic nuclei into heavier nuclei",
+          "wrongAnswer1": "Splitting heavy atomic nuclei into lighter nuclei",
+          "wrongAnswer2": "Rearranging electrons in an atom",
+          "wrongAnswer3": "Transferring neutrons between atoms",
+          "explanation": "Nuclear fusion involves combining light atomic nuclei, such as hydrogen isotopes, to form a heavier nucleus, releasing a large amount of energy.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following conditions is most essential for nuclear fusion to occur?",
+          "correctAnswer": "Extremely high temperature and pressure",
+          "wrongAnswer1": "Low temperature and high pressure",
+          "wrongAnswer2": "Room temperature and low pressure",
+          "wrongAnswer3": "Low pressure and high humidity",
+          "explanation": "Nuclear fusion requires extremely high temperatures and pressures to overcome the electrostatic repulsion between nuclei allowing them to fuse.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a potential advantage of nuclear fusion over nuclear fission?",
+          "correctAnswer": "Fusion produces less long-lived radioactive waste",
+          "wrongAnswer1": "Fusion releases more greenhouse gases",
+          "wrongAnswer2": "Fusion requires more abundant uranium fuel",
+          "wrongAnswer3": "Fusion processes are already commercially widespread",
+          "explanation": "Nuclear fusion generates significantly less long-lived radioactive waste compared to nuclear fission, making it a cleaner energy source in terms of radioactive byproducts.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Nuclear Fission",
+      "questions": [
+        {
+          "question": "What happens during nuclear fission?",
+          "correctAnswer": "A heavy nucleus splits into smaller nuclei releasing energy",
+          "wrongAnswer1": "Two light nuclei combine to form a heavier nucleus",
+          "wrongAnswer2": "Electrons are emitted from the nucleus",
+          "wrongAnswer3": "Neutrons are absorbed without any change in the nucleus",
+          "explanation": "Nuclear fission is a process where a heavy atomic nucleus splits into smaller nuclei, releasing a significant amount of energy.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which particle is commonly used to initiate nuclear fission?",
+          "correctAnswer": "Neutron",
+          "wrongAnswer1": "Proton",
+          "wrongAnswer2": "Electron",
+          "wrongAnswer3": "Alpha particle",
+          "explanation": "In nuclear fission, neutrons are commonly used to bombard heavy nuclei to induce splitting.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a common result of nuclear fission in reactors?",
+          "correctAnswer": "Release of energy used to generate electricity",
+          "wrongAnswer1": "Production of antimatter",
+          "wrongAnswer2": "Creation of new elements heavier than uranium",
+          "wrongAnswer3": "Complete disappearance of the nucleus",
+          "explanation": "Nuclear fission in reactors releases energy that is harnessed for electricity generation, making it a primary energy source in nuclear power plants.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Photon Theory",
+      "questions": [
+        {
+          "question": "What does the photon theory primarily describe?",
+          "correctAnswer": "Light behaves as discrete packets of energy called photons",
+          "wrongAnswer1": "Light travels only as continuous waves",
+          "wrongAnswer2": "Photons have no relation to light",
+          "wrongAnswer3": "Photons are particles with a fixed position in space",
+          "explanation": "Photon theory states that light consists of particles called photons, which are discrete packets of energy, explaining phenomena like the photoelectric effect.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Who is credited with the development of the photon theory?",
+          "correctAnswer": "Albert Einstein",
+          "wrongAnswer1": "Isaac Newton",
+          "wrongAnswer2": "James Clerk Maxwell",
+          "wrongAnswer3": "Niels Bohr",
+          "explanation": "Albert Einstein proposed the photon theory in 1905 to explain the photoelectric effect, leading to the concept of light quanta.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does the energy of a photon relate to its frequency according to photon theory?",
+          "correctAnswer": "Energy of a photon is proportional to its frequency",
+          "wrongAnswer1": "Energy of a photon is inversely proportional to its frequency",
+          "wrongAnswer2": "Energy of a photon is independent of its frequency",
+          "wrongAnswer3": "Energy of a photon depends on its amplitude",
+          "explanation": "In photon theory, the energy E of a photon is given by E = hf where h is Planck's constant and f is frequency, showing proportionality.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Superconductivity",
+      "questions": [
+        {
+          "question": "What happens to the electrical resistance of a superconductor below its critical temperature?",
+          "correctAnswer": "It drops to zero",
+          "wrongAnswer1": "It doubles",
+          "wrongAnswer2": "It remains constant",
+          "wrongAnswer3": "It increases gradually",
+          "explanation": "In superconductors, below a certain critical temperature, electrical resistance suddenly drops to zero, allowing current to flow without energy loss.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a characteristic property of a superconductor?",
+          "correctAnswer": "Expulsion of magnetic fields (Meissner effect)",
+          "wrongAnswer1": "Generation of static electric charge",
+          "wrongAnswer2": "Permanent magnetization",
+          "wrongAnswer3": "Resistance to all magnetic fields",
+          "explanation": "Superconductors exhibit the Meissner effect, which is the expulsion of magnetic fields from their interior when cooled below the critical temperature.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the primary mechanism behind conventional superconductivity according to BCS theory?",
+          "correctAnswer": "Cooper pairs of electrons forming a condensate",
+          "wrongAnswer1": "Spontaneous magnetization of electrons",
+          "wrongAnswer2": "Electron scattering by lattice defects",
+          "wrongAnswer3": "Energy dissipation via phonon interactions",
+          "explanation": "BCS theory explains superconductivity as a result of electrons pairing up to form Cooper pairs that move without resistance through the lattice.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "General Relativity",
+      "questions": [
+        {
+          "question": "What is the main idea behind Einstein's theory of general relativity?",
+          "correctAnswer": "Gravity is the curvature of spacetime caused by mass and energy",
+          "wrongAnswer1": "Gravity is a force acting at a distance between masses",
+          "wrongAnswer2": "Gravity results from the flow of a mysterious fluid called ether",
+          "wrongAnswer3": "Gravity is due to electromagnetic attraction between particles",
+          "explanation": "General relativity describes gravity not as a force but as a curvature of spacetime caused by the presence of mass and energy.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which phenomenon is NOT explained by general relativity?",
+          "correctAnswer": "The quantum behavior of subatomic particles",
+          "wrongAnswer1": "The bending of light around massive objects",
+          "wrongAnswer2": "Time dilation near black holes",
+          "wrongAnswer3": "The advancement of Mercury's orbit",
+          "explanation": "General relativity explains gravitational phenomena on large scales but does not encompass the quantum properties of particles, which are described by quantum mechanics.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What role does the equivalence principle play in general relativity?",
+          "correctAnswer": "It states that gravitational and inertial effects are locally indistinguishable",
+          "wrongAnswer1": "It claims that gravity is weaker than electromagnetic forces",
+          "wrongAnswer2": "It explains that gravity can be shielded by certain materials",
+          "wrongAnswer3": "It suggests that light travels faster than gravity",
+          "explanation": "The equivalence principle is fundamental to general relativity, asserting that acceleration and gravitational fields produce equivalent effects on local experiments.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Special Relativity",
+      "questions": [
+        {
+          "question": "What is the principle of relativity in special relativity?",
+          "correctAnswer": "The laws of physics are the same in all inertial frames of reference",
+          "wrongAnswer1": "The speed of light changes depending on the observer's motion",
+          "wrongAnswer2": "Time flows at the same rate for all observers",
+          "wrongAnswer3": "Mass is conserved in all reference frames",
+          "explanation": "The principle of relativity states that the laws of physics hold true and are identical in all inertial reference frames, meaning no inertial frame is preferred.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "According to special relativity, what happens to the length of an object moving close to the speed of light relative to an observer?",
+          "correctAnswer": "The length contracts along the direction of motion",
+          "wrongAnswer1": "The length expands along the direction of motion",
+          "wrongAnswer2": "The length remains unchanged",
+          "wrongAnswer3": "The object becomes heavier",
+          "explanation": "Length contraction is a key prediction of special relativity stating an object moving at a velocity close to light speed will appear shortened along the direction of motion from the viewpoint of a stationary observer.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is time dilation as described in special relativity?",
+          "correctAnswer": "Time passes slower for a moving clock as observed from a stationary frame",
+          "wrongAnswer1": "Time passes faster for a moving clock compared to a stationary clock",
+          "wrongAnswer2": "Time does not change regardless of speed",
+          "wrongAnswer3": "Time passes the same for all observers",
+          "explanation": "Time dilation means a clock moving relative to an observer ticks slower than a clock at rest with respect to that observer, demonstrating that time is relative to the frame of reference.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Electrostatics",
+      "questions": [
+        {
+          "question": "What happens to two objects with opposite charges when they are brought close to each other?",
+          "correctAnswer": "They attract each other",
+          "wrongAnswer1": "They repel each other",
+          "wrongAnswer2": "They remain unaffected",
+          "wrongAnswer3": "They both become neutral",
+          "explanation": "Objects with opposite charges attract each other due to the electrostatic force.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which law explains the force between two point charges?",
+          "correctAnswer": "Coulomb's law",
+          "wrongAnswer1": "Newton's law",
+          "wrongAnswer2": "Ohm's law",
+          "wrongAnswer3": "Archimedes' principle",
+          "explanation": "Coulomb's law quantifies the electrostatic force between two point charges.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the unit of electric charge in the International System of Units?",
+          "correctAnswer": "Coulomb",
+          "wrongAnswer1": "Volt",
+          "wrongAnswer2": "Ampere",
+          "wrongAnswer3": "Ohm",
+          "explanation": "The coulomb is the SI unit used to measure electric charge.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Hydrodynamics",
+      "questions": [
+        {
+          "question": "What principle explains why a fluid's pressure decreases as the fluid's velocity increases?",
+          "correctAnswer": "Bernoulli's principle",
+          "wrongAnswer1": "Archimedes' principle",
+          "wrongAnswer2": "Pascal's law",
+          "wrongAnswer3": "Boyle's law",
+          "explanation": "Bernoulli's principle states that within a flowing fluid, an increase in velocity occurs simultaneously with a decrease in pressure or potential energy.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which quantity remains constant for an incompressible fluid flowing through a pipe of varying diameter?",
+          "correctAnswer": "Volumetric flow rate",
+          "wrongAnswer1": "Fluid density",
+          "wrongAnswer2": "Fluid velocity",
+          "wrongAnswer3": "Fluid pressure",
+          "explanation": "For an incompressible fluid, the volumetric flow rate is constant along the pipe, meaning the product of cross-sectional area and velocity stays constant.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the main force acting on a fluid element in hydrostatic equilibrium?",
+          "correctAnswer": "The pressure gradient force balancing gravity",
+          "wrongAnswer1": "Viscous force overcoming pressure",
+          "wrongAnswer2": "Magnetic force due to charged particles",
+          "wrongAnswer3": "Centrifugal force due to rotation",
+          "explanation": "In hydrostatic equilibrium, the pressure gradient force balances the gravitational force; no net movement of the fluid occurs.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Angular Momentum",
+      "questions": [
+        {
+          "question": "What defines the angular momentum of an object?",
+          "correctAnswer": "The product of its moment of inertia and angular velocity",
+          "wrongAnswer1": "The product of its mass and velocity",
+          "wrongAnswer2": "The force applied to the object",
+          "wrongAnswer3": "The object's potential energy",
+          "explanation": "Angular momentum is defined as the product of an object's moment of inertia and its angular velocity, which describes its rotational motion.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which principle states that angular momentum remains constant if no external torque acts on a system?",
+          "correctAnswer": "Conservation of angular momentum",
+          "wrongAnswer1": "Newton’s first law",
+          "wrongAnswer2": "Law of universal gravitation",
+          "wrongAnswer3": "Conservation of energy",
+          "explanation": "The conservation of angular momentum principle states that if there is no external torque, the total angular momentum of a system remains constant.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens to the angular velocity of a figure skater when they pull in their arms while spinning?",
+          "correctAnswer": "The angular velocity increases",
+          "wrongAnswer1": "The angular velocity decreases",
+          "wrongAnswer2": "The angular velocity stays the same",
+          "wrongAnswer3": "The angular velocity becomes zero",
+          "explanation": "When the skater pulls in their arms, the moment of inertia decreases, so to conserve angular momentum, the angular velocity increases.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Inertia Principles",
+      "questions": [
+        {
+          "question": "What does the principle of inertia state about an object at rest?",
+          "correctAnswer": "An object at rest will remain at rest unless acted upon by a net external force",
+          "wrongAnswer1": "An object at rest will eventually start moving without any force applied",
+          "wrongAnswer2": "An object at rest is constantly accelerating",
+          "wrongAnswer3": "An object at rest can change direction spontaneously",
+          "explanation": "The principle of inertia states that an object at rest will stay at rest unless a net external force acts on it, according to Newton's first law of motion.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does inertia affect a moving object's velocity if no external force is applied?",
+          "correctAnswer": "The object continues moving at the same velocity in a straight line",
+          "wrongAnswer1": "The object's velocity increases over time",
+          "wrongAnswer2": "The object slows down gradually without a force",
+          "wrongAnswer3": "The object changes direction randomly",
+          "explanation": "Inertia implies that an object in motion will continue moving at constant velocity unless an external force causes a change.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What factor primarily determines the amount of inertia an object has?",
+          "correctAnswer": "The mass of the object",
+          "wrongAnswer1": "The color of the object",
+          "wrongAnswer2": "The temperature of the object",
+          "wrongAnswer3": "The shape of the object",
+          "explanation": "Inertia depends on mass; objects with greater mass have greater inertia, making them harder to accelerate or decelerate.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Chaos Theory",
+      "questions": [
+        {
+          "question": "What is the main characteristic of a chaotic system in physics?",
+          "correctAnswer": "It shows extreme sensitivity to initial conditions resulting in unpredictable outcomes.",
+          "wrongAnswer1": "It behaves in a completely random and disorderly manner without any underlying rules.",
+          "wrongAnswer2": "It follows a strict linear pattern with predictable results.",
+          "wrongAnswer3": "It is always stable and returns to equilibrium after disturbances.",
+          "explanation": "A chaotic system is deterministic but highly sensitive to initial conditions, making long-term prediction impossible despite underlying rules.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common example of a system studied in chaos theory?",
+          "correctAnswer": "Weather patterns and climate systems.",
+          "wrongAnswer1": "Simple harmonic oscillators with constant amplitude.",
+          "wrongAnswer2": "Ideal gases in perfect vacuum environments.",
+          "wrongAnswer3": "Static objects with no forces acting on them.",
+          "explanation": "Weather and climate systems exhibit complex, nonlinear interactions and sensitivity to initial conditions, making them classic examples in chaos theory.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the term 'strange attractor' refer to in chaos theory?",
+          "correctAnswer": "A pattern that emerges in the phase space of a chaotic system that is fractal and non-repeating.",
+          "wrongAnswer1": "A fixed point where all states converge in a non-chaotic system.",
+          "wrongAnswer2": "A simple repetitive cycle in a predictable system.",
+          "wrongAnswer3": "An external force that stabilizes chaotic behavior.",
+          "explanation": "Strange attractors are complex geometrical structures that represent the behavior of chaotic systems in phase space, showing fractal characteristics and never repeating exactly.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Field Theory",
+      "questions": [
+        {
+          "question": "What does field theory primarily study in physics?",
+          "correctAnswer": "How fields interact with matter and energy",
+          "wrongAnswer1": "The behavior of solid materials",
+          "wrongAnswer2": "The movement of celestial bodies",
+          "wrongAnswer3": "The properties of chemical reactions",
+          "explanation": "Field theory in physics focuses on how fields such as electromagnetic or gravitational fields interact with matter and energy.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key element of classical field theory?",
+          "correctAnswer": "Continuous fields defined at every point in space and time",
+          "wrongAnswer1": "Quantum particles with discrete energy levels",
+          "wrongAnswer2": "Random motion of gas molecules",
+          "wrongAnswer3": "Electric circuits and current flow",
+          "explanation": "Classical field theory deals with continuous fields, such as electromagnetic fields, which are defined at every point in space and time.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In which branch of physics does quantum field theory play a fundamental role?",
+          "correctAnswer": "Particle physics",
+          "wrongAnswer1": "Thermodynamics",
+          "wrongAnswer2": "Classical mechanics",
+          "wrongAnswer3": "Optics",
+          "explanation": "Quantum field theory is fundamental to particle physics as it describes the quantum behavior of fields and particles.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Laser Technology",
+      "questions": [
+        {
+          "question": "What is the primary mechanism by which a laser produces light?",
+          "correctAnswer": "Stimulated emission of photons from excited atoms",
+          "wrongAnswer1": "Spontaneous emission of photons randomly",
+          "wrongAnswer2": "Reflection of light within a cavity",
+          "wrongAnswer3": "Absorption of photons and re-emission",
+          "explanation": "A laser produces light primarily via stimulated emission, where an incoming photon stimulates an excited atom to emit a photon coherent with the incoming one.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which component in a laser system amplifies light by stimulated emission?",
+          "correctAnswer": "Gain medium",
+          "wrongAnswer1": "Beam splitter",
+          "wrongAnswer2": "Photodetector",
+          "wrongAnswer3": "Diffraction grating",
+          "explanation": "The gain medium is the part of the laser that provides amplification of light through stimulated emission of photons.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the coherence of laser light imply about its waves?",
+          "correctAnswer": "Waves have the same frequency and a fixed phase relationship",
+          "wrongAnswer1": "Waves have random phase and frequency variation",
+          "wrongAnswer2": "Waves are scattered in many directions",
+          "wrongAnswer3": "Waves have different wavelengths but same intensity",
+          "explanation": "Coherence means the light waves have a consistent phase difference and frequency, resulting in a highly directional and monochromatic beam.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Semiconductor Physics",
+      "questions": [
+        {
+          "question": "What is the primary characteristic that defines a semiconductor?",
+          "correctAnswer": "It has electrical conductivity between that of a conductor and an insulator.",
+          "wrongAnswer1": "It conducts electricity better than any metal.",
+          "wrongAnswer2": "It behaves as a perfect electrical insulator at all temperatures.",
+          "wrongAnswer3": "It only conducts electricity at very high temperatures.",
+          "explanation": "Semiconductors have electrical conductivity values between conductors and insulators, which can be modified by doping or changing temperature.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of charge carrier is created by adding acceptor impurities in a semiconductor?",
+          "correctAnswer": "Holes, leading to p-type conductivity.",
+          "wrongAnswer1": "Free electrons, leading to n-type conductivity.",
+          "wrongAnswer2": "Positrons, causing recombination.",
+          "wrongAnswer3": "Ions, creating ionic conductivity.",
+          "explanation": "Adding acceptor impurities creates holes by accepting electrons, which results in p-type semiconductors with holes as the majority carriers.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens to the energy band structure of a semiconductor when it is heavily doped?",
+          "correctAnswer": "The energy bands broaden and impurity levels can merge with conduction or valence bands.",
+          "wrongAnswer1": "The bandgap increases dramatically, preventing conduction.",
+          "wrongAnswer2": "The bandgap disappears completely, making it a perfect conductor.",
+          "wrongAnswer3": "The bands become discrete energy levels, forming isolated states.",
+          "explanation": "Heavy doping introduces many impurity atoms, broadening energy bands and causing impurity states to overlap with main bands, which affects conductivity.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Wave-Particle Duality",
+      "questions": [
+        {
+          "question": "What concept explains that particles such as electrons exhibit both wave and particle properties?",
+          "correctAnswer": "Wave-Particle Duality",
+          "wrongAnswer1": "Quantum Entanglement",
+          "wrongAnswer2": "Heisenberg Uncertainty Principle",
+          "wrongAnswer3": "Electromagnetic Theory",
+          "explanation": "Wave-Particle Duality is the concept that quantum entities like electrons exhibit properties of both waves and particles.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Who is primarily credited with proposing the idea of wave-particle duality for electrons?",
+          "correctAnswer": "Louis de Broglie",
+          "wrongAnswer1": "Isaac Newton",
+          "wrongAnswer2": "Albert Einstein",
+          "wrongAnswer3": "Niels Bohr",
+          "explanation": "Louis de Broglie proposed that particles such as electrons have wave-like properties, introducing the concept of wave-particle duality.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which experiment provides strong evidence for the wave nature of electrons?",
+          "correctAnswer": "Electron double-slit experiment",
+          "wrongAnswer1": "Photoelectric effect experiment",
+          "wrongAnswer2": "Stern-Gerlach experiment",
+          "wrongAnswer3": "Millikan oil drop experiment",
+          "explanation": "The electron double-slit experiment demonstrates interference patterns which provide evidence for the wave-like behavior of electrons, supporting wave-particle duality.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Electromagnetic Induction",
+      "questions": [
+        {
+          "question": "What causes electromagnetic induction in a conductor?",
+          "correctAnswer": "A changing magnetic field around the conductor",
+          "wrongAnswer1": "A constant magnetic field around the conductor",
+          "wrongAnswer2": "An electric current flowing through the conductor",
+          "wrongAnswer3": "A change in temperature of the conductor",
+          "explanation": "Electromagnetic induction occurs when a changing magnetic field induces an electromotive force in a conductor.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "According to Faraday's Law, the induced electromotive force in a circuit is proportional to what?",
+          "correctAnswer": "The rate of change of magnetic flux through the circuit",
+          "wrongAnswer1": "The total magnetic flux through the circuit",
+          "wrongAnswer2": "The size of the circuit",
+          "wrongAnswer3": "The resistance of the circuit",
+          "explanation": "Faraday's Law states that the induced electromotive force is proportional to the rate of change of the magnetic flux through the circuit.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Lenz's Law provides the direction of the induced current. What does this law state?",
+          "correctAnswer": "The induced current opposes the change in magnetic flux that caused it",
+          "wrongAnswer1": "The induced current enhances the change in magnetic flux that caused it",
+          "wrongAnswer2": "The induced current flows in the direction of the magnetic field",
+          "wrongAnswer3": "The induced current is always in the clockwise direction",
+          "explanation": "Lenz's Law states that the direction of the induced current is such that it opposes the change in magnetic flux that caused it, ensuring conservation of energy.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Thermal Conductivity",
+      "questions": [
+        {
+          "question": "What is thermal conductivity a measure of in a material?",
+          "correctAnswer": "The rate at which heat passes through a material",
+          "wrongAnswer1": "The ability of a material to retain heat",
+          "wrongAnswer2": "The electrical resistance of a material",
+          "wrongAnswer3": "The amount of light a material absorbs",
+          "explanation": "Thermal conductivity measures how quickly heat can be conducted through a material, indicating how well the material transfers heat.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following materials typically has a high thermal conductivity?",
+          "correctAnswer": "Copper",
+          "wrongAnswer1": "Wood",
+          "wrongAnswer2": "Plastic",
+          "wrongAnswer3": "Glass",
+          "explanation": "Copper is known for having high thermal conductivity, allowing heat to pass through it very efficiently, unlike wood, plastic, or glass.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is low thermal conductivity important for insulation materials?",
+          "correctAnswer": "It reduces the transfer of heat, keeping environments warm or cool",
+          "wrongAnswer1": "It increases electrical conductivity",
+          "wrongAnswer2": "It allows heat to flow quickly through the material",
+          "wrongAnswer3": "It reflects sunlight effectively",
+          "explanation": "Insulation materials with low thermal conductivity prevent heat from passing through, thus maintaining desired temperatures in buildings or other environments.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Galilean Relativity",
+      "questions": [
+        {
+          "question": "What principle does Galilean Relativity primarily describe?",
+          "correctAnswer": "The laws of physics are the same in all inertial frames.",
+          "wrongAnswer1": "The speed of light is constant in all reference frames.",
+          "wrongAnswer2": "Gravity affects all objects equally regardless of mass.",
+          "wrongAnswer3": "Energy can neither be created nor destroyed.",
+          "explanation": "Galilean Relativity states that the laws of physics hold true in all inertial reference frames, meaning frames moving at constant velocity relative to each other.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "According to Galilean Relativity, how does velocity transform between two inertial frames?",
+          "correctAnswer": "Velocities add or subtract by simple addition or subtraction.",
+          "wrongAnswer1": "Velocities transform according to the Lorentz transformation.",
+          "wrongAnswer2": "Velocity remains the same in all frames.",
+          "wrongAnswer3": "Velocity is multiplied by the relative velocity of the frames.",
+          "explanation": "Galilean Relativity assumes absolute time and space, so relative velocities simply add or subtract linearly between inertial frames.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a limitation of Galilean Relativity?",
+          "correctAnswer": "It does not account for the constancy of the speed of light.",
+          "wrongAnswer1": "It incorrectly predicts the conservation of momentum.",
+          "wrongAnswer2": "It does not explain projectile motion.",
+          "wrongAnswer3": "It fails to describe motion in non-inertial frames.",
+          "explanation": "Galilean Relativity fails to incorporate electromagnetic phenomena and the constant speed of light, which requires Einstein's Special Relativity for accurate description.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Planck Constant",
+      "questions": [
+        {
+          "question": "What does the Planck constant represent in physics?",
+          "correctAnswer": "It is a fundamental constant that relates the energy of a photon to its frequency.",
+          "wrongAnswer1": "It represents the speed of light in a vacuum.",
+          "wrongAnswer2": "It is the measure of gravitational force between two objects.",
+          "wrongAnswer3": "It indicates the charge of an electron.",
+          "explanation": "The Planck constant is a fundamental quantity in quantum mechanics that shows the proportionality between the energy of a photon and the frequency of its electromagnetic wave.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is the approximate value of the Planck constant?",
+          "correctAnswer": "6.626 times 10 to the power of negative 34 joule seconds",
+          "wrongAnswer1": "3.00 times 10 to the power of 8 meters per second",
+          "wrongAnswer2": "9.81 meters per second squared",
+          "wrongAnswer3": "1.60 times 10 to the power of negative 19 coulombs",
+          "explanation": "The Planck constant is approximately equal to 6.626 x 10^-34 joule seconds, a very small value reflecting the scale of quantum effects.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How is the Planck constant significant in the development of quantum theory?",
+          "correctAnswer": "It introduced the concept that energy is quantized and can be emitted or absorbed in discrete amounts.",
+          "wrongAnswer1": "It explained the wave nature of particles in classical mechanics.",
+          "wrongAnswer2": "It showed that energy is always continuous and smooth.",
+          "wrongAnswer3": "It described the relationship between force and mass in Newtonian mechanics.",
+          "explanation": "The introduction of the Planck constant marked the beginning of quantum theory by proposing that energy is quantized, which was a significant departure from classical physics.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Harmonic Motion",
+      "questions": [
+        {
+          "question": "What type of motion is characterized by a restoring force proportional to the displacement from an equilibrium position?",
+          "correctAnswer": "Simple harmonic motion",
+          "wrongAnswer1": "Uniform circular motion",
+          "wrongAnswer2": "Random motion",
+          "wrongAnswer3": "Rectilinear motion",
+          "explanation": "Simple harmonic motion occurs when the restoring force is proportional and opposite to the displacement from equilibrium, leading to oscillatory motion.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following quantities remain constant during simple harmonic motion of a mass-spring system?",
+          "correctAnswer": "Total mechanical energy of the system",
+          "wrongAnswer1": "Kinetic energy at all times",
+          "wrongAnswer2": "Displacement from the mean position",
+          "wrongAnswer3": "Velocity of the object",
+          "explanation": "In simple harmonic motion, the total mechanical energy remains constant as it oscillates between kinetic and potential energy, but kinetic energy, displacement, and velocity change over time.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does the period of a simple pendulum change if the length of the pendulum is quadrupled?",
+          "correctAnswer": "The period doubles",
+          "wrongAnswer1": "The period quadruples",
+          "wrongAnswer2": "The period halves",
+          "wrongAnswer3": "The period remains the same",
+          "explanation": "The period T of a simple pendulum is proportional to the square root of its length L, so if length is quadrupled, the period increases by a factor of two.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Doppler Effect",
+      "questions": [
+        {
+          "question": "What does the Doppler Effect describe?",
+          "correctAnswer": "The change in frequency or wavelength of a wave in relation to an observer moving relative to the wave source",
+          "wrongAnswer1": "The intensity of a wave as it propagates through space",
+          "wrongAnswer2": "The reflection of waves from a surface",
+          "wrongAnswer3": "The bending of waves around obstacles",
+          "explanation": "The Doppler Effect occurs when there is a relative motion between the source of waves and the observer, causing the frequency of the waves to appear higher or lower depending on the direction of motion.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does the observed frequency change when the source of sound moves toward a stationary observer?",
+          "correctAnswer": "The observed frequency increases",
+          "wrongAnswer1": "The observed frequency decreases",
+          "wrongAnswer2": "The observed frequency remains unchanged",
+          "wrongAnswer3": "The observed frequency oscillates rapidly",
+          "explanation": "When the source moves toward the observer, the waves are compressed, leading to a higher frequency and thus a higher pitch heard by the observer.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In which situation is the Doppler Effect not observed?",
+          "correctAnswer": "When there is no relative motion between the source and the observer",
+          "wrongAnswer1": "When the source moves directly toward the observer",
+          "wrongAnswer2": "When the observer moves away from the source",
+          "wrongAnswer3": "When the wave frequency is very high",
+          "explanation": "The Doppler Effect depends on relative motion between the source and the observer; if both are stationary relative to each other, no frequency shift occurs.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Lorentz Transformation",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Lorentz transformation in physics?",
+          "correctAnswer": "To relate coordinates of events between two inertial frames moving at a constant velocity relative to each other",
+          "wrongAnswer1": "To calculate the gravitational force between two masses",
+          "wrongAnswer2": "To determine the energy levels of an electron in an atom",
+          "wrongAnswer3": "To describe the wave behavior of particles in quantum mechanics",
+          "explanation": "The Lorentz transformation equations are used in special relativity to relate space and time coordinates of events as observed in different inertial frames moving at constant velocity relative to each other.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key effect predicted by the Lorentz transformation?",
+          "correctAnswer": "Time dilation, where time appears to slow down for a moving clock relative to a stationary observer",
+          "wrongAnswer1": "Brownian motion in fluids",
+          "wrongAnswer2": "Electromagnetic induction due to changing magnetic fields",
+          "wrongAnswer3": "The photoelectric effect of electron emission from a metal surface",
+          "explanation": "The Lorentz transformation leads to time dilation, meaning that time intervals measured in a moving frame are longer when observed from a stationary frame, which is a fundamental result of special relativity.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the Lorentz transformation, what happens to the length of an object moving at a velocity close to the speed of light as observed from a stationary frame?",
+          "correctAnswer": "It appears contracted (length contraction) along the direction of motion",
+          "wrongAnswer1": "It appears to increase in length",
+          "wrongAnswer2": "It stays the same as in the object's rest frame",
+          "wrongAnswer3": "It becomes undefined due to infinite velocity",
+          "explanation": "According to the Lorentz transformation, an object moving close to the speed of light relative to an observer appears shortened along the direction of motion, an effect known as length contraction.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Physics",
+      "concept": "Quantum Tunneling",
+      "questions": [
+        {
+          "question": "What is quantum tunneling in physics?",
+          "correctAnswer": "The phenomenon where particles pass through a barrier they classically should not be able to cross",
+          "wrongAnswer1": "The reflection of particles from a surface without penetration",
+          "wrongAnswer2": "The increase in energy of particles when heated",
+          "wrongAnswer3": "The splitting of a particle into smaller particles upon collision",
+          "explanation": "Quantum tunneling is a quantum mechanical phenomenon where particles have a probability to pass through a potential barrier despite not having enough energy to overcome it classically.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which principle primarily explains quantum tunneling?",
+          "correctAnswer": "The wave-like nature of particles and the probabilistic interpretation of their position",
+          "wrongAnswer1": "Newton's laws of motion",
+          "wrongAnswer2": "The theory of relativity",
+          "wrongAnswer3": "Classical electromagnetism",
+          "explanation": "Quantum tunneling occurs because particles exhibit wave-like behavior, allowing them to have a non-zero probability to be found on the other side of a barrier due to the probabilistic nature of their wavefunctions.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which application relies on the principle of quantum tunneling?",
+          "correctAnswer": "Scanning tunneling microscope uses quantum tunneling to image surfaces at atomic levels",
+          "wrongAnswer1": "Optical telescopes that use lenses to collect light",
+          "wrongAnswer2": "Hydraulic pumps that move fluids mechanically",
+          "wrongAnswer3": "Traditional radio antennas that detect electromagnetic waves",
+          "explanation": "The scanning tunneling microscope depends on electrons tunneling between a sharp tip and a surface, making use of quantum tunneling to map surfaces with atomic resolution.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

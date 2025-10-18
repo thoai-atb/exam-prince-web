@@ -1,0 +1,1655 @@
+{
+  "topic": "Web Development",
+  "concepts": [
+    {
+      "topic": "Web Development",
+      "concept": "HTML Basics",
+      "questions": [
+        {
+          "question": "What does HTML stand for in web development?",
+          "correctAnswer": "HyperText Markup Language",
+          "wrongAnswer1": "Home Tool Markup Language",
+          "wrongAnswer2": "Hyperlinks and Text Markup Language",
+          "wrongAnswer3": "Hyper Transfer Markup Language",
+          "explanation": "HTML stands for HyperText Markup Language, which is the standard language for creating web pages.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which tag is used to create a hyperlink in HTML?",
+          "correctAnswer": "a",
+          "wrongAnswer1": "link",
+          "wrongAnswer2": "href",
+          "wrongAnswer3": "hyperlink",
+          "explanation": "The a tag is used in HTML to create hyperlinks by using the href attribute to specify the destination URL.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is the correct way to create a heading in HTML?",
+          "correctAnswer": "h1 to h6 tags",
+          "wrongAnswer1": "head tags",
+          "wrongAnswer2": "header tags",
+          "wrongAnswer3": "heading tags",
+          "explanation": "HTML provides six levels of headings using h1 through h6 tags, with h1 being the highest level heading and h6 the lowest.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "CSS Styling",
+      "questions": [
+        {
+          "question": "What property is used in CSS to change the text color of an element?",
+          "correctAnswer": "color",
+          "wrongAnswer1": "background-color",
+          "wrongAnswer2": "font-size",
+          "wrongAnswer3": "text-style",
+          "explanation": "The 'color' property in CSS changes the text color of an element.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which CSS property controls the space between the content of an element and its border?",
+          "correctAnswer": "padding",
+          "wrongAnswer1": "margin",
+          "wrongAnswer2": "border-spacing",
+          "wrongAnswer3": "spacing",
+          "explanation": "Padding controls the space between the element content and its border, while margin controls the space outside the border.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can you select elements with a specific class attribute in CSS?",
+          "correctAnswer": "Using a dot followed by the class name",
+          "wrongAnswer1": "Using a hash followed by the class name",
+          "wrongAnswer2": "Using angle brackets around the class name",
+          "wrongAnswer3": "Using parentheses around the class name",
+          "explanation": "In CSS, classes are selected by prefixing the class name with a dot. For example, .classname selects all elements with that class.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "JavaScript Programming",
+      "questions": [
+        {
+          "question": "What is the correct way to declare a variable in JavaScript?",
+          "correctAnswer": "Using the let keyword",
+          "wrongAnswer1": "Using the variable keyword",
+          "wrongAnswer2": "Using the var keyword",
+          "wrongAnswer3": "Using the int keyword",
+          "explanation": "In modern JavaScript, the let keyword is the preferred way to declare variables as it allows block scope and avoids some issues related to var variables.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method converts a JavaScript object into a JSON string?",
+          "correctAnswer": "JSON.stringify()",
+          "wrongAnswer1": "JSON.parse()",
+          "wrongAnswer2": "Object.toString()",
+          "wrongAnswer3": "JSON.toString()",
+          "explanation": "JSON.stringify converts JavaScript objects into JSON-formatted strings, while JSON.parse converts JSON strings into JavaScript objects.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can you add a comment in JavaScript?",
+          "correctAnswer": "Using double slashes for single-line comments",
+          "wrongAnswer1": "Using /* for single-line comments",
+          "wrongAnswer2": "Using <!-- --> for comments",
+          "wrongAnswer3": "Using # for comments",
+          "explanation": "In JavaScript, single-line comments start with //, while multi-line comments are enclosed in /* and */. HTML-style and hash comments are not valid in JavaScript.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Responsive Design",
+      "questions": [
+        {
+          "question": "What is the primary goal of responsive design in web development?",
+          "correctAnswer": "To ensure a website looks good and functions well on all devices",
+          "wrongAnswer1": "To create separate websites for mobile and desktop users",
+          "wrongAnswer2": "To increase website loading speed only on desktop",
+          "wrongAnswer3": "To focus only on the desktop design of a website",
+          "explanation": "Responsive design aims to provide an optimal viewing experience across a wide range of devices by adjusting the layout and content to the screen size.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which CSS technique is commonly used to implement responsive design?",
+          "correctAnswer": "Media queries that apply different styles based on the device's characteristics",
+          "wrongAnswer1": "Fixed width layouts using pixel values",
+          "wrongAnswer2": "JavaScript pop-ups to adjust content placement",
+          "wrongAnswer3": "Using inline styles only for speed",
+          "explanation": "Media queries allow web pages to adapt styles according to device screen width, orientation, and resolution, which is essential for responsive design.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is responsive design important for SEO?",
+          "correctAnswer": "Because search engines favor mobile-friendly websites, improving rankings",
+          "wrongAnswer1": "Because it allows more advertisements to be placed on the page",
+          "wrongAnswer2": "Because it reduces the amount of content for search engines to index",
+          "wrongAnswer3": "Because it provides a separate URL for mobile users",
+          "explanation": "Responsive design improves user experience on all devices and is preferred by search engines like Google, boosting a site's search engine rankings.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Front-End Frameworks",
+      "questions": [
+        {
+          "question": "Which of the following is a popular front-end framework used for building user interfaces?",
+          "correctAnswer": "React",
+          "wrongAnswer1": "Django",
+          "wrongAnswer2": "Laravel",
+          "wrongAnswer3": "Ruby on Rails",
+          "explanation": "React is a widely-used front-end framework for building user interfaces. Django, Laravel, and Ruby on Rails are back-end frameworks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the primary purpose of a front-end framework in web development?",
+          "correctAnswer": "To build the visual elements and user interface of a website or app",
+          "wrongAnswer1": "To manage databases and server logic",
+          "wrongAnswer2": "To handle network security and authentication",
+          "wrongAnswer3": "To optimize backend server speed",
+          "explanation": "Front-end frameworks are used to build the visual elements that users interact with, including layouts, buttons, and navigation. Backend tasks are handled separately.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which front-end framework is known for using a component-based architecture and a virtual DOM?",
+          "correctAnswer": "React",
+          "wrongAnswer1": "Angular",
+          "wrongAnswer2": "Vue.js",
+          "wrongAnswer3": "Bootstrap",
+          "explanation": "React uses a component-based approach and a virtual DOM for efficient rendering. Angular and Vue.js also use components, but React is especially noted for its virtual DOM. Bootstrap is primarily a CSS framework.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Back-End Development",
+      "questions": [
+        {
+          "question": "What is the main purpose of back-end development in web applications?",
+          "correctAnswer": "To manage server, database, and application logic",
+          "wrongAnswer1": "To design user interfaces and user experience",
+          "wrongAnswer2": "To create the visual layout of web pages",
+          "wrongAnswer3": "To optimize client-side interactivity",
+          "explanation": "Back-end development focuses on server-side operations like managing databases, application logic, and server configuration, unlike front-end which handles UI and UX.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common programming language used in back-end development?",
+          "correctAnswer": "Python",
+          "wrongAnswer1": "HTML",
+          "wrongAnswer2": "CSS",
+          "wrongAnswer3": "Adobe Photoshop",
+          "explanation": "Python is widely used in back-end development due to its frameworks and capabilities to handle server-side logic, whereas HTML and CSS are used for front-end development and Photoshop is a design tool.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does a back-end framework like Node.js primarily provide?",
+          "correctAnswer": "An environment to run JavaScript code on the server",
+          "wrongAnswer1": "A tool to style web pages",
+          "wrongAnswer2": "A platform to create graphic designs",
+          "wrongAnswer3": "A database management system",
+          "explanation": "Node.js allows JavaScript to run outside the browser on the server, enabling back-end development, unlike styling tools or databases which serve different purposes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Web Servers",
+      "questions": [
+        {
+          "question": "What is the primary function of a web server in web development?",
+          "correctAnswer": "To deliver web pages to users' browsers upon request",
+          "wrongAnswer1": "To design the layout of web pages",
+          "wrongAnswer2": "To write scripts for website interactivity",
+          "wrongAnswer3": "To store user data for websites",
+          "explanation": "A web server's main role is to serve web pages to clients, typically web browsers, when requested via HTTP.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which protocol is commonly used by web servers to communicate with browsers?",
+          "correctAnswer": "HTTP",
+          "wrongAnswer1": "FTP",
+          "wrongAnswer2": "SMTP",
+          "wrongAnswer3": "IMAP",
+          "explanation": "HTTP, or Hypertext Transfer Protocol, is the standard protocol used by web servers to send web pages to browsers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a popular web server software?",
+          "correctAnswer": "Apache",
+          "wrongAnswer1": "MySQL",
+          "wrongAnswer2": "React",
+          "wrongAnswer3": "Photoshop",
+          "explanation": "Apache is one of the most widely used web server software, responsible for handling HTTP requests.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "RESTful APIs",
+      "questions": [
+        {
+          "question": "What does REST stand for in RESTful APIs?",
+          "correctAnswer": "Representational State Transfer",
+          "wrongAnswer1": "Rapid State Transition",
+          "wrongAnswer2": "Real-time State Transfer",
+          "wrongAnswer3": "Remote Server Transfer",
+          "explanation": "REST stands for Representational State Transfer, which is an architectural style for designing networked applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which HTTP method is typically used to retrieve data from a RESTful API?",
+          "correctAnswer": "GET",
+          "wrongAnswer1": "POST",
+          "wrongAnswer2": "PUT",
+          "wrongAnswer3": "DELETE",
+          "explanation": "The GET method is used to request data from a specified resource in a RESTful API.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In RESTful APIs, what is the purpose of using a resource URI?",
+          "correctAnswer": "To uniquely identify the resource being accessed or manipulated",
+          "wrongAnswer1": "To specify the media type of the resource",
+          "wrongAnswer2": "To define the authentication method for the API",
+          "wrongAnswer3": "To indicate the status code of the request",
+          "explanation": "A resource URI uniquely identifies the resource that the client wants to access or modify in a RESTful API.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Database Integration",
+      "questions": [
+        {
+          "question": "What is the primary purpose of database integration in web development?",
+          "correctAnswer": "To enable websites to store and retrieve data efficiently",
+          "wrongAnswer1": "To improve the graphical user interface of the website",
+          "wrongAnswer2": "To increase website loading speed by caching static files",
+          "wrongAnswer3": "To enhance the security of the server operating system",
+          "explanation": "Database integration allows web applications to interact with databases for storing, updating, and retrieving data, which is crucial for dynamic website functionality.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common method to integrate a database with a web application?",
+          "correctAnswer": "Using server-side scripting languages like PHP or Node.js to execute database queries",
+          "wrongAnswer1": "Embedding SQL queries directly into HTML without any processing",
+          "wrongAnswer2": "Connecting database directly to front-end JavaScript without an API",
+          "wrongAnswer3": "Using only client-side HTML to communicate with the database",
+          "explanation": "Server-side scripting languages act as intermediaries to send queries to databases and process results before presenting them in the web application.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What role does an Object-Relational Mapping ORM tool play in database integration?",
+          "correctAnswer": "It abstracts database interactions by allowing developers to use objects instead of SQL queries",
+          "wrongAnswer1": "It directly replaces the need for databases by storing data in memory",
+          "wrongAnswer2": "It automatically converts front-end HTML into database schemas",
+          "wrongAnswer3": "It encrypts all database data to enhance security by default",
+          "explanation": "ORM tools simplify database operations by mapping database tables to objects in code, reducing the need to write raw SQL and improving development efficiency.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Version Control",
+      "questions": [
+        {
+          "question": "What is the primary purpose of version control in web development?",
+          "correctAnswer": "To manage and track changes to source code over time",
+          "wrongAnswer1": "To increase the speed of the website",
+          "wrongAnswer2": "To enhance the visual design of the site",
+          "wrongAnswer3": "To monitor server performance during deployment",
+          "explanation": "Version control systems are used to manage and record changes in the source code, allowing multiple developers to collaborate and track revisions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a popular version control system used in web development?",
+          "correctAnswer": "Git",
+          "wrongAnswer1": "Docker",
+          "wrongAnswer2": "Webpack",
+          "wrongAnswer3": "Node.js",
+          "explanation": "Git is a widely-used distributed version control system that helps developers track code changes and collaborate efficiently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In version control, what is a 'commit'?",
+          "correctAnswer": "A saved snapshot of changes made to the codebase",
+          "wrongAnswer1": "A request to merge two projects",
+          "wrongAnswer2": "A backup of the entire website files",
+          "wrongAnswer3": "A code review process conducted by the team",
+          "explanation": "A commit is a recorded set of changes saved in the version control system, representing a snapshot of the project at a given point in time.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Debugging Techniques",
+      "questions": [
+        {
+          "question": "What is the primary purpose of debugging in web development?",
+          "correctAnswer": "To find and fix errors in the code",
+          "wrongAnswer1": "To add new features to a website",
+          "wrongAnswer2": "To increase the website's traffic",
+          "wrongAnswer3": "To design the website layout",
+          "explanation": "Debugging is the process of identifying and correcting errors or bugs in the code to ensure the website functions properly.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which tool is commonly used in browsers to debug JavaScript code?",
+          "correctAnswer": "Developer Tools Console",
+          "wrongAnswer1": "Photo Editing Tool",
+          "wrongAnswer2": "Spreadsheet Software",
+          "wrongAnswer3": "Text Editor",
+          "explanation": "Most browsers include Developer Tools with a Console tab that allows developers to view errors, warnings, and log messages for JavaScript debugging.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the benefit of using breakpoints during debugging?",
+          "correctAnswer": "They allow you to pause code execution to inspect variables and program state",
+          "wrongAnswer1": "They increase the speed of the website",
+          "wrongAnswer2": "They automatically fix bugs in the code",
+          "wrongAnswer3": "They reduce the size of the code files",
+          "explanation": "Breakpoints let developers stop the program at a certain point to examine the behavior and values of variables, helping to understand the cause of bugs.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Cross-Browser Compatibility",
+      "questions": [
+        {
+          "question": "What is the primary goal of cross-browser compatibility in web development?",
+          "correctAnswer": "To ensure a website functions correctly across different web browsers",
+          "wrongAnswer1": "To make websites load faster on a single browser",
+          "wrongAnswer2": "To design websites only for the most popular browser",
+          "wrongAnswer3": "To use advanced features only supported by specific browsers",
+          "explanation": "Cross-browser compatibility aims to make websites work correctly and look consistent across multiple browsers, not just one.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common issue addressed by cross-browser compatibility?",
+          "correctAnswer": "Differences in how browsers render CSS and HTML",
+          "wrongAnswer1": "Slow internet connection affecting loading speeds",
+          "wrongAnswer2": "User preferences for color schemes",
+          "wrongAnswer3": "Server-side database errors",
+          "explanation": "Browsers can interpret CSS and HTML differently, causing the same website to appear or function differently, which cross-browser compatibility seeks to fix.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What approach is most effective to achieve cross-browser compatibility?",
+          "correctAnswer": "Testing and debugging a website on multiple browsers",
+          "wrongAnswer1": "Designing exclusively for Internet Explorer",
+          "wrongAnswer2": "Ignoring browser differences and focusing on content",
+          "wrongAnswer3": "Using features specific to one browser for better performance",
+          "explanation": "Testing on multiple browsers helps developers identify and fix compatibility issues to ensure a consistent user experience.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "User Authentication",
+      "questions": [
+        {
+          "question": "What is the primary purpose of user authentication in web development?",
+          "correctAnswer": "To verify the identity of a user before granting access",
+          "wrongAnswer1": "To encrypt the data sent between the user and the server",
+          "wrongAnswer2": "To design the layout of the web pages",
+          "wrongAnswer3": "To improve the loading speed of a website",
+          "explanation": "User authentication is the process of verifying who a user is before allowing access to certain parts of a web application.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method is commonly used for user authentication?",
+          "correctAnswer": "Using a username and password combination",
+          "wrongAnswer1": "Using only a CAPTCHA verification",
+          "wrongAnswer2": "Using image compression techniques",
+          "wrongAnswer3": "Using website cookies for styling",
+          "explanation": "User authentication typically uses a username and password to verify identity, whereas CAPTCHAs are used to verify humans from bots.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is two-factor authentication in the context of web user authentication?",
+          "correctAnswer": "A security process that requires two different forms of identification",
+          "wrongAnswer1": "A method of logging in through two different browsers simultaneously",
+          "wrongAnswer2": "A technique to double the password length automatically",
+          "wrongAnswer3": "A way to authenticate using the same password twice",
+          "explanation": "Two-factor authentication increases security by requiring two different kinds of verification, such as a password and a one-time code sent to a phone.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Web Accessibility",
+      "questions": [
+        {
+          "question": "What is the primary goal of web accessibility?",
+          "correctAnswer": "To make web content usable for people with disabilities",
+          "wrongAnswer1": "To increase website loading speed",
+          "wrongAnswer2": "To improve website aesthetics",
+          "wrongAnswer3": "To boost search engine ranking",
+          "explanation": "Web accessibility aims to ensure that people with disabilities can perceive, understand, navigate, and interact with websites effectively.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common guideline for creating accessible web content?",
+          "correctAnswer": "Using semantic HTML elements to convey meaning and structure",
+          "wrongAnswer1": "Adding as many images as possible without alt text",
+          "wrongAnswer2": "Relying only on color to convey information",
+          "wrongAnswer3": "Avoiding keyboard navigation support",
+          "explanation": "Semantic HTML helps assistive technologies interpret web content properly, improving accessibility.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is keyboard accessibility important in web design?",
+          "correctAnswer": "Because some users cannot use a mouse and rely on keyboard navigation",
+          "wrongAnswer1": "It makes websites load faster",
+          "wrongAnswer2": "It is only important for developers and testers",
+          "wrongAnswer3": "It helps in reducing hosting costs",
+          "explanation": "Keyboard accessibility ensures that users who cannot use a mouse can still navigate and interact with web content effectively.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Progressive Web Apps",
+      "questions": [
+        {
+          "question": "What is a primary characteristic of Progressive Web Apps?",
+          "correctAnswer": "They provide offline capabilities through service workers.",
+          "wrongAnswer1": "They are only accessible through web browsers with an internet connection.",
+          "wrongAnswer2": "They require installation from an app store to function.",
+          "wrongAnswer3": "They are built exclusively using native mobile app development frameworks.",
+          "explanation": "Progressive Web Apps use service workers to enable offline functionality, allowing the app to work without a network connection.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which technology is essential for enabling background processes and offline functionality in a Progressive Web App?",
+          "correctAnswer": "Service workers",
+          "wrongAnswer1": "JavaScript frameworks like React",
+          "wrongAnswer2": "HTML5 local storage",
+          "wrongAnswer3": "WebAssembly",
+          "explanation": "Service workers run in the background and handle caching, enabling offline support and background data sync in Progressive Web Apps.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What advantage do Progressive Web Apps provide compared to traditional native apps?",
+          "correctAnswer": "They can be accessed directly through a browser without installation.",
+          "wrongAnswer1": "They offer better performance than native apps in all cases.",
+          "wrongAnswer2": "They require more device storage than native apps.",
+          "wrongAnswer3": "They rely solely on the device's hardware without web content.",
+          "explanation": "Progressive Web Apps don't require download from app stores and can be accessed immediately via browsers, combining web and app experiences.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Single Page Applications",
+      "questions": [
+        {
+          "question": "What is a key characteristic of a Single Page Application?",
+          "correctAnswer": "It dynamically updates content without reloading the entire page",
+          "wrongAnswer1": "It reloads the entire page for each user interaction",
+          "wrongAnswer2": "It only uses server-side rendering for each page request",
+          "wrongAnswer3": "It requires multiple HTML files for different pages",
+          "explanation": "Single Page Applications update content dynamically on the same page without requiring full page reloads, enhancing user experience.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which technology is commonly used to build Single Page Applications?",
+          "correctAnswer": "JavaScript frameworks like React, Angular, or Vue",
+          "wrongAnswer1": "Traditional server-side scripting languages like PHP",
+          "wrongAnswer2": "Static HTML and CSS without scripts",
+          "wrongAnswer3": "Database querying languages such as SQL",
+          "explanation": "JavaScript frameworks such as React, Angular, and Vue provide the tools needed to create dynamic Single Page Applications by managing client-side rendering and state.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is one major advantage of Single Page Applications over traditional multi-page websites?",
+          "correctAnswer": "Faster user experience due to reduced page reloads",
+          "wrongAnswer1": "Better SEO performance without additional configuration",
+          "wrongAnswer2": "Simpler initial development without JavaScript knowledge",
+          "wrongAnswer3": "Lower memory usage on the client device",
+          "explanation": "Single Page Applications offer faster interactions by avoiding full page reloads, although SEO can be a challenge requiring extra effort.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Content Management",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a content management system in web development?",
+          "correctAnswer": "To create, manage, and modify digital content easily",
+          "wrongAnswer1": "To design the graphic elements of a website",
+          "wrongAnswer2": "To manage server hardware and network configurations",
+          "wrongAnswer3": "To write complex algorithms for backend processes",
+          "explanation": "A content management system (CMS) is designed to help users create, manage, and modify digital content without needing extensive technical knowledge.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a popular example of a content management system?",
+          "correctAnswer": "WordPress",
+          "wrongAnswer1": "React",
+          "wrongAnswer2": "Node.js",
+          "wrongAnswer3": "Bootstrap",
+          "explanation": "WordPress is a widely used content management system that allows users to build and manage websites easily. React, Node.js, and Bootstrap are development frameworks or libraries rather than CMS platforms.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does a content management system benefit non-technical users in maintaining a website?",
+          "correctAnswer": "By providing a user-friendly interface to edit and publish content without coding",
+          "wrongAnswer1": "By requiring them to learn programming languages for modifications",
+          "wrongAnswer2": "By automatically generating website traffic and marketing content",
+          "wrongAnswer3": "By hosting the website and managing security protocols",
+          "explanation": "A CMS typically offers an intuitive interface for users to edit and publish content directly, which reduces dependence on developers for regular content updates.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Web Security",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a web application firewall?",
+          "correctAnswer": "To filter and monitor HTTP traffic to and from a web application",
+          "wrongAnswer1": "To host web applications on secure servers",
+          "wrongAnswer2": "To speed up the performance of web applications",
+          "wrongAnswer3": "To encrypt data within a web application",
+          "explanation": "A web application firewall (WAF) is used to filter, monitor, and block HTTP traffic to and from a web application to protect against attacks such as SQL injection and cross-site scripting.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which security vulnerability allows attackers to inject malicious scripts into web pages viewed by other users?",
+          "correctAnswer": "Cross-site scripting (XSS)",
+          "wrongAnswer1": "SQL injection",
+          "wrongAnswer2": "Cross-site request forgery (CSRF)",
+          "wrongAnswer3": "Man-in-the-middle attack",
+          "explanation": "Cross-site scripting is a security vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users, compromising their data or sessions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the main function of HTTPS in web security?",
+          "correctAnswer": "To encrypt data transmitted between the client and the server",
+          "wrongAnswer1": "To speed up the loading time of websites",
+          "wrongAnswer2": "To block unauthorized IP addresses",
+          "wrongAnswer3": "To provide user authentication for web applications",
+          "explanation": "HTTPS uses SSL/TLS protocols to encrypt data during transmission between client and server, protecting against eavesdropping and tampering.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "HTTP Protocol",
+      "questions": [
+        {
+          "question": "What does HTTP stand for in web development?",
+          "correctAnswer": "HyperText Transfer Protocol",
+          "wrongAnswer1": "HyperText Transmission Process",
+          "wrongAnswer2": "Hyperlink Transfer Protocol",
+          "wrongAnswer3": "HyperText Transfer Process",
+          "explanation": "HTTP stands for HyperText Transfer Protocol and it is the foundation of data communication for the World Wide Web.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method in HTTP is commonly used to request data from a server?",
+          "correctAnswer": "GET",
+          "wrongAnswer1": "POST",
+          "wrongAnswer2": "PUT",
+          "wrongAnswer3": "DELETE",
+          "explanation": "The GET method is used in HTTP to request data from a specified resource.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What status code does the HTTP protocol use to indicate a successful request?",
+          "correctAnswer": "200",
+          "wrongAnswer1": "404",
+          "wrongAnswer2": "500",
+          "wrongAnswer3": "301",
+          "explanation": "A 200 status code indicates that the HTTP request has succeeded and the server returned the requested resource.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Domain Management",
+      "questions": [
+        {
+          "question": "What is the primary purpose of domain management in web development?",
+          "correctAnswer": "To control and organize domain names for websites",
+          "wrongAnswer1": "To create website graphics and layouts",
+          "wrongAnswer2": "To write server-side code for web applications",
+          "wrongAnswer3": "To monitor website traffic and analytics",
+          "explanation": "Domain management involves controlling domain names, ensuring they are registered, renewed, and linked properly to websites and hosting services.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common task involved in domain management?",
+          "correctAnswer": "Renewing domain registrations before they expire",
+          "wrongAnswer1": "Designing user interface elements for a website",
+          "wrongAnswer2": "Writing scripts for animations on a web page",
+          "wrongAnswer3": "Optimizing images for faster loading time",
+          "explanation": "Domain management includes tasks such as renewing domain registrations, configuring DNS settings, and transferring domains.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does DNS stand for and how is it related to domain management?",
+          "correctAnswer": "Domain Name System, which translates domain names to IP addresses",
+          "wrongAnswer1": "Direct Network Service, which manages internet speeds",
+          "wrongAnswer2": "Domain Network Setup, which creates website layouts",
+          "wrongAnswer3": "Dynamic Naming Server, which stores website data",
+          "explanation": "DNS is a critical part of domain management, translating human-friendly domain names into IP addresses that computers use to identify each other on the network.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Hosting Services",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a web hosting service?",
+          "correctAnswer": "To store website files and make them accessible on the internet",
+          "wrongAnswer1": "To design and develop website content",
+          "wrongAnswer2": "To provide internet connectivity to users",
+          "wrongAnswer3": "To create domain names for websites",
+          "explanation": "A web hosting service provides the infrastructure to store website files so they can be accessed via the internet by users.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of hosting service offers a dedicated server environment to a single client?",
+          "correctAnswer": "Dedicated hosting",
+          "wrongAnswer1": "Shared hosting",
+          "wrongAnswer2": "Cloud hosting",
+          "wrongAnswer3": "Virtual private server hosting",
+          "explanation": "Dedicated hosting means the client has an entire physical server dedicated to their websites, unlike shared or VPS hosting where resources are shared.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is one key advantage of using cloud hosting over traditional hosting?",
+          "correctAnswer": "Scalability to handle varying traffic loads efficiently",
+          "wrongAnswer1": "Lower cost regardless of usage",
+          "wrongAnswer2": "Guaranteed fixed bandwidth at all times",
+          "wrongAnswer3": "No need for a domain name",
+          "explanation": "Cloud hosting allows resources to be scaled up or down based on demand, providing flexibility that traditional hosting models may not offer.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Web Performance",
+      "questions": [
+        {
+          "question": "What is a primary goal of web performance optimization?",
+          "correctAnswer": "To reduce the load time of web pages",
+          "wrongAnswer1": "To increase the number of images on a page",
+          "wrongAnswer2": "To add more animations to the website",
+          "wrongAnswer3": "To use more complex coding techniques",
+          "explanation": "Web performance optimization aims to reduce the load time of web pages to improve user experience and efficiency.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which technique is commonly used to improve web performance?",
+          "correctAnswer": "Minifying CSS and JavaScript files",
+          "wrongAnswer1": "Increasing the size of image files",
+          "wrongAnswer2": "Adding more third-party scripts",
+          "wrongAnswer3": "Using inline styles exclusively",
+          "explanation": "Minifying CSS and JavaScript files reduces file size, which decreases the time it takes for these resources to load, thereby improving performance.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the term 'Lazy Loading' refer to in web performance?",
+          "correctAnswer": "Deferring the loading of images and content until they are needed",
+          "wrongAnswer1": "Loading all images immediately when the page loads",
+          "wrongAnswer2": "Preloading all scripts before rendering",
+          "wrongAnswer3": "Downloading all resources at once on page load",
+          "explanation": "Lazy loading defers the loading of non-critical resources like images until they are needed, which speeds up the initial page load.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "SEO Optimization",
+      "questions": [
+        {
+          "question": "What is the primary purpose of SEO optimization in web development?",
+          "correctAnswer": "To improve a website's visibility in search engine results",
+          "wrongAnswer1": "To increase the loading speed of a website",
+          "wrongAnswer2": "To enhance the visual design of a website",
+          "wrongAnswer3": "To secure a website from cyber attacks",
+          "explanation": "SEO optimization focuses on improving a website's ranking in search engine results to increase organic traffic.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key factor in on-page SEO?",
+          "correctAnswer": "Using relevant keywords in the page content",
+          "wrongAnswer1": "Purchasing paid ads for the website",
+          "wrongAnswer2": "Hosting the website on a faster server",
+          "wrongAnswer3": "Creating social media profiles",
+          "explanation": "On-page SEO involves optimizing individual web pages by using relevant keywords to make content more search engine friendly.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is having a mobile-friendly website important for SEO?",
+          "correctAnswer": "Search engines prioritize mobile-friendly websites in rankings",
+          "wrongAnswer1": "Mobile-friendly sites load slower which improves user focus",
+          "wrongAnswer2": "Mobile sites use fewer images which reduces bandwidth",
+          "wrongAnswer3": "Mobile-friendly sites support more languages",
+          "explanation": "Search engines like Google prioritize websites that are optimized for mobile devices to improve user experience and rankings.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Web Sockets",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Web Sockets in web development?",
+          "correctAnswer": "To enable full-duplex communication between a client and server over a single connection",
+          "wrongAnswer1": "To style web pages using a scripting language",
+          "wrongAnswer2": "To query databases from the client side",
+          "wrongAnswer3": "To manage HTTP request methods like GET and POST",
+          "explanation": "Web Sockets provide a way to open an interactive communication session between the user's browser and a server, allowing messages to be sent back and forth in real-time over a single connection.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which protocol do Web Sockets use for the initial handshake before upgrading the connection?",
+          "correctAnswer": "HTTP",
+          "wrongAnswer1": "FTP",
+          "wrongAnswer2": "TCP",
+          "wrongAnswer3": "SMTP",
+          "explanation": "Web Sockets start with an HTTP handshake to establish the connection, which is then upgraded to the Web Socket protocol to enable full-duplex communication.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which feature distinguishes Web Sockets from traditional HTTP requests?",
+          "correctAnswer": "Web Sockets allow simultaneous two-way communication between client and server.",
+          "wrongAnswer1": "Web Sockets automatically encrypt data using SSL without additional configuration.",
+          "wrongAnswer2": "Web Sockets only accept data from the client, not the server.",
+          "wrongAnswer3": "Web Sockets are designed to transmit only static content like images.",
+          "explanation": "Unlike traditional HTTP which is request-response based and unidirectional at a time, Web Sockets allow full-duplex communication, meaning both client and server can send data independently at the same time.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Cloud Deployment",
+      "questions": [
+        {
+          "question": "What is one of the main benefits of deploying a web application on the cloud?",
+          "correctAnswer": "Scalability to handle varying amounts of traffic",
+          "wrongAnswer1": "Guaranteed zero downtime at all times",
+          "wrongAnswer2": "No need for internet access to use the application",
+          "wrongAnswer3": "Automatic coding of the application without developer input",
+          "explanation": "Cloud deployment allows applications to scale resources up or down based on traffic demand, which helps manage varying loads efficiently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is typically a feature of cloud deployment platforms?",
+          "correctAnswer": "Automatic load balancing between servers",
+          "wrongAnswer1": "Manual hardware configuration required for each server",
+          "wrongAnswer2": "Applications run only on local machines",
+          "wrongAnswer3": "No support for database integration",
+          "explanation": "Cloud platforms usually provide automatic load balancing to distribute traffic across servers, improving performance and reliability.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In cloud deployment, what does the term \"elasticity\" refer to?",
+          "correctAnswer": "The ability to automatically adjust the amount of resources based on demand",
+          "wrongAnswer1": "The application can be quickly rewritten in a new programming language",
+          "wrongAnswer2": "The cloud servers are physically flexible and portable",
+          "wrongAnswer3": "Bandwidth is fixed regardless of network traffic",
+          "explanation": "Elasticity in cloud computing means the system can expand or reduce resources in real time in response to user demand.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "API Development",
+      "questions": [
+        {
+          "question": "What is the main purpose of an API in web development?",
+          "correctAnswer": "To allow different software applications to communicate with each other",
+          "wrongAnswer1": "To create the user interface of a website",
+          "wrongAnswer2": "To store website data on the server",
+          "wrongAnswer3": "To style web pages using CSS",
+          "explanation": "APIs enable different software systems to interact and exchange data, which is essential for integrating various services in web development.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which HTTP method is commonly used to retrieve data from a web API?",
+          "correctAnswer": "GET",
+          "wrongAnswer1": "POST",
+          "wrongAnswer2": "DELETE",
+          "wrongAnswer3": "PUT",
+          "explanation": "The GET method requests data from a specified resource without modifying it, making it the standard for retrieving information from APIs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In REST API development, what does statelessness mean?",
+          "correctAnswer": "Each request from client to server must contain all the information needed to understand and process the request",
+          "wrongAnswer1": "The server maintains session information about the client",
+          "wrongAnswer2": "The API remembers the last request made by the client",
+          "wrongAnswer3": "Only POST requests are allowed to the API",
+          "explanation": "Statelessness means the server does not store any state about the client session, requiring each request to contain all necessary information.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "UI UX Design",
+      "questions": [
+        {
+          "question": "What is the primary goal of UI design in web development?",
+          "correctAnswer": "To create visually appealing and user-friendly interfaces",
+          "wrongAnswer1": "To build the backend infrastructure of a website",
+          "wrongAnswer2": "To manage the database connections",
+          "wrongAnswer3": "To improve the website's search engine ranking",
+          "explanation": "UI design focuses on designing the interface elements that users interact with, aiming for visual appeal and usability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which aspect does UX design mainly focus on?",
+          "correctAnswer": "Enhancing the overall user experience and satisfaction",
+          "wrongAnswer1": "Developing server-side logic",
+          "wrongAnswer2": "Writing HTML and CSS code",
+          "wrongAnswer3": "Creating graphic elements for logos",
+          "explanation": "UX design is concerned with optimizing the user's journey and satisfaction when using the website or application.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which practice is important in both UI and UX design?",
+          "correctAnswer": "Conducting user research and testing",
+          "wrongAnswer1": "Installing database servers",
+          "wrongAnswer2": "Writing backend APIs",
+          "wrongAnswer3": "Configuring network security",
+          "explanation": "User research and testing help designers understand user needs and improve design effectiveness in both UI and UX.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Mobile Optimization",
+      "questions": [
+        {
+          "question": "What is the primary purpose of mobile optimization in web development?",
+          "correctAnswer": "To ensure websites display and function well on mobile devices",
+          "wrongAnswer1": "To improve server-side processing speed",
+          "wrongAnswer2": "To design websites exclusively for desktop users",
+          "wrongAnswer3": "To create mobile apps instead of websites",
+          "explanation": "Mobile optimization focuses on making websites user-friendly and efficient on mobile devices, improving the user experience on smaller screens and varying bandwidths.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which technique is commonly used to achieve mobile optimization for websites?",
+          "correctAnswer": "Responsive web design",
+          "wrongAnswer1": "Using fixed-width layouts",
+          "wrongAnswer2": "Embedding high-resolution images without compression",
+          "wrongAnswer3": "Disabling CSS on mobile devices",
+          "explanation": "Responsive web design allows websites to adapt their layout and content to different screen sizes and orientations, which is essential for effective mobile optimization.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is mobile optimization important for SEO (Search Engine Optimization)?",
+          "correctAnswer": "Search engines prioritize mobile-friendly websites in their rankings",
+          "wrongAnswer1": "Mobile-optimized sites load slower which helps SEO",
+          "wrongAnswer2": "SEO only applies to desktop versions of websites",
+          "wrongAnswer3": "Mobile optimization increases the number of images on a website",
+          "explanation": "Search engines like Google use mobile-friendliness as a ranking factor because most users access the web via mobile devices, making mobile optimization crucial for good SEO performance.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Server-Side Rendering",
+      "questions": [
+        {
+          "question": "What is the primary purpose of server-side rendering in web development?",
+          "correctAnswer": "To generate HTML content on the server before sending it to the client",
+          "wrongAnswer1": "To execute JavaScript only on the client browser",
+          "wrongAnswer2": "To store website data in the user's local storage",
+          "wrongAnswer3": "To create client-side routing without server interaction",
+          "explanation": "Server-side rendering involves generating the full HTML for a webpage on the server and sending it to the client, which can improve load times and SEO.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which advantage does server-side rendering provide compared to client-side rendering?",
+          "correctAnswer": "Faster initial page load and better SEO performance",
+          "wrongAnswer1": "Less server resource usage",
+          "wrongAnswer2": "More interactive elements without page reloads",
+          "wrongAnswer3": "Easier implementation of complex animations",
+          "explanation": "Server-side rendering sends a fully rendered page from the server, enabling faster initial load and making the content accessible to search engine crawlers, whereas client-side rendering often delays content rendering until JavaScript executes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which web technology is most commonly used to implement server-side rendering?",
+          "correctAnswer": "JavaScript frameworks like Next.js that support rendering on the server",
+          "wrongAnswer1": "CSS frameworks like Bootstrap",
+          "wrongAnswer2": "Client-side JavaScript libraries like React used alone without a server renderer",
+          "wrongAnswer3": "Database query languages like SQL",
+          "explanation": "Server-side rendering in modern web development is often implemented using JavaScript frameworks such as Next.js which enable React components to be rendered on the server before being sent to the client.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Static Site Generators",
+      "questions": [
+        {
+          "question": "What is the main purpose of a static site generator in web development?",
+          "correctAnswer": "To create static HTML files from templates and content",
+          "wrongAnswer1": "To generate dynamic content using server-side languages",
+          "wrongAnswer2": "To manage databases for websites",
+          "wrongAnswer3": "To provide real-time user interaction and updates",
+          "explanation": "Static site generators work by converting templates and content into static HTML files that can be served quickly and securely without server-side processing.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a popular static site generator?",
+          "correctAnswer": "Jekyll",
+          "wrongAnswer1": "WordPress",
+          "wrongAnswer2": "Drupal",
+          "wrongAnswer3": "Magento",
+          "explanation": "Jekyll is a widely used static site generator that converts Markdown files into static HTML. WordPress, Drupal, and Magento are dynamic content management systems.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why might a developer choose to use a static site generator over a traditional CMS?",
+          "correctAnswer": "For faster load times and improved security due to serving static content",
+          "wrongAnswer1": "Because it requires a complex database setup",
+          "wrongAnswer2": "To allow frequent dynamic content updates without rebuilding the site",
+          "wrongAnswer3": "To enable server-side processing for user authentication",
+          "explanation": "Static site generators produce files that do not require server-side rendering, leading to faster load times and fewer security risks associated with databases and dynamic content management.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "JavaScript Libraries",
+      "questions": [
+        {
+          "question": "What is the main purpose of JavaScript libraries in web development?",
+          "correctAnswer": "To provide pre-written code that developers can use to perform common tasks easily",
+          "wrongAnswer1": "To create databases for storing user information",
+          "wrongAnswer2": "To design the layout of web pages using HTML",
+          "wrongAnswer3": "To write server-side scripts exclusively",
+          "explanation": "JavaScript libraries offer reusable functions and features that help developers implement common functionalities quickly without writing code from scratch.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a popular JavaScript library used primarily for building user interfaces?",
+          "correctAnswer": "React",
+          "wrongAnswer1": "Django",
+          "wrongAnswer2": "Ruby on Rails",
+          "wrongAnswer3": "Laravel",
+          "explanation": "React is a widely used JavaScript library developed by Facebook to build interactive user interfaces, especially for single-page applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do JavaScript libraries differ from JavaScript frameworks?",
+          "correctAnswer": "Libraries provide specific functionalities, while frameworks dictate the overall structure of an application",
+          "wrongAnswer1": "Libraries can only be used on the server side, frameworks only on the client side",
+          "wrongAnswer2": "Libraries require compiling, frameworks run directly in browsers",
+          "wrongAnswer3": "Libraries are for styling, frameworks are for animations",
+          "explanation": "JavaScript libraries offer individual features or utilities that can be called upon, whereas frameworks offer a complete structure and set of rules for building applications.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "CSS Preprocessors",
+      "questions": [
+        {
+          "question": "What is the main purpose of a CSS preprocessor in web development?",
+          "correctAnswer": "To extend CSS with features like variables and nesting",
+          "wrongAnswer1": "To convert JavaScript code into CSS code",
+          "wrongAnswer2": "To compile HTML into CSS automatically",
+          "wrongAnswer3": "To optimize images for faster page loading",
+          "explanation": "CSS preprocessors add functionality such as variables, nesting, and functions, which are not natively supported in CSS, to enhance style writing and maintenance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a popular CSS preprocessor?",
+          "correctAnswer": "Plain CSS",
+          "wrongAnswer1": "Sass",
+          "wrongAnswer2": "Less",
+          "wrongAnswer3": "Stylus",
+          "explanation": "Plain CSS is the standard stylesheet language and not a preprocessor, while Sass, Less, and Stylus are popular CSS preprocessors.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do CSS preprocessors help in managing large stylesheets?",
+          "correctAnswer": "By allowing the use of mixins, functions, and modular imports",
+          "wrongAnswer1": "By converting CSS into JavaScript for better performance",
+          "wrongAnswer2": "By automatically generating HTML elements based on CSS rules",
+          "wrongAnswer3": "By compressing image files included in stylesheets",
+          "explanation": "CSS preprocessors help manage complexity by supporting reusable code blocks like mixins, functions, and splitting stylesheets into multiple files.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Web Animation",
+      "questions": [
+        {
+          "question": "What is the primary purpose of web animation in web development?",
+          "correctAnswer": "To enhance user experience by adding visual feedback and interactivity",
+          "wrongAnswer1": "To increase the loading time of web pages",
+          "wrongAnswer2": "To replace all images with animated graphics",
+          "wrongAnswer3": "To make text content more difficult to read for users",
+          "explanation": "Web animation is used to improve the user's interaction with the website by making it more engaging and intuitive, not to slow down or complicate the user experience.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following technologies is NOT commonly used for creating web animations?",
+          "correctAnswer": "SQL",
+          "wrongAnswer1": "CSS",
+          "wrongAnswer2": "JavaScript",
+          "wrongAnswer3": "SVG",
+          "explanation": "SQL is a database query language and is not used for creating animations on the web. CSS, JavaScript, and SVG are commonly used for this purpose.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the benefit of using CSS animations over JavaScript animations?",
+          "correctAnswer": "CSS animations typically have better performance and are easier to implement for simple animations",
+          "wrongAnswer1": "CSS animations allow for more complex user interactions than JavaScript",
+          "wrongAnswer2": "CSS animations require completely separate files from the main stylesheet",
+          "wrongAnswer3": "CSS animations can run without any browser support",
+          "explanation": "CSS animations are usually more efficient and simpler to create for basic animations, while JavaScript is preferred for complex or interactive animations.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Form Validation",
+      "questions": [
+        {
+          "question": "What is the primary purpose of form validation in web development?",
+          "correctAnswer": "To ensure that user input meets the required criteria before submission",
+          "wrongAnswer1": "To beautify the form design on web pages",
+          "wrongAnswer2": "To track the number of users filling the form",
+          "wrongAnswer3": "To automatically fill out the form fields with sample data",
+          "explanation": "Form validation is used to check if the user input satisfies certain rules before the data is sent to the server or processed further, preventing errors or malicious input.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common method to perform client-side form validation?",
+          "correctAnswer": "Using JavaScript to check input values before submission",
+          "wrongAnswer1": "Using server-side scripts like PHP to validate after submission",
+          "wrongAnswer2": "Using HTML tags like div to organize form fields",
+          "wrongAnswer3": "Using CSS to hide invalid inputs visually",
+          "explanation": "Client-side form validation is usually done with JavaScript to provide immediate feedback and reduce server load, whereas server-side validation happens after data submission.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is server-side form validation important even when client-side validation is implemented?",
+          "correctAnswer": "Because client-side validation can be bypassed or disabled by the user",
+          "wrongAnswer1": "Because server-side validation is faster than client-side validation",
+          "wrongAnswer2": "Because client-side validation works without JavaScript support",
+          "wrongAnswer3": "Because server-side validation improves form layout",
+          "explanation": "Server-side validation is essential for security and data integrity as users can bypass client-side checks by disabling JavaScript or modifying requests.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Content Delivery",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Content Delivery Network in web development?",
+          "correctAnswer": "To distribute website content to servers closer to users for faster access",
+          "wrongAnswer1": "To increase the bandwidth of a user's internet connection",
+          "wrongAnswer2": "To store all website data in a single central server",
+          "wrongAnswer3": "To create dynamic web pages from database queries",
+          "explanation": "A Content Delivery Network (CDN) distributes website content to multiple servers around the world, reducing latency and speeding up access for users by serving content from the nearest location.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key benefit of using content delivery in web development?",
+          "correctAnswer": "Reduced latency and faster page load times for users",
+          "wrongAnswer1": "Increased server storage capacity",
+          "wrongAnswer2": "Automatic generation of website content",
+          "wrongAnswer3": "Improved database security for user data",
+          "explanation": "Content delivery helps reduce the physical distance between users and content, leading to reduced latency and faster page load times, which improves user experience.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does caching relate to content delivery?",
+          "correctAnswer": "Caching stores copies of content on servers to serve requests faster",
+          "wrongAnswer1": "Caching encrypts user data for security during delivery",
+          "wrongAnswer2": "Caching compresses images before delivering them to users",
+          "wrongAnswer3": "Caching analyzes user behavior to deliver personalized ads",
+          "explanation": "Caching involves storing copies of frequently accessed content on servers closer to users, allowing quicker access to that content and reducing the load on the origin server.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Session Management",
+      "questions": [
+        {
+          "question": "What is the primary purpose of session management in web development?",
+          "correctAnswer": "To maintain stateful information between client and server across multiple requests",
+          "wrongAnswer1": "To store data permanently on the client device",
+          "wrongAnswer2": "To encrypt all data transmitted between client and server",
+          "wrongAnswer3": "To handle server-side rendering of web pages",
+          "explanation": "Session management is used to track user interactions and preserve data during multiple HTTP requests, which are inherently stateless.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common method to identify a user's session on a web application?",
+          "correctAnswer": "Using a unique session ID stored in a cookie",
+          "wrongAnswer1": "Saving user credentials in local storage",
+          "wrongAnswer2": "Embedding session data in the URL",
+          "wrongAnswer3": "Using the user's IP address as the session identifier",
+          "explanation": "A unique session ID stored in a cookie is the most common and secure method for identifying sessions, while other approaches have security or usability issues.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a potential security risk if session management is not implemented properly?",
+          "correctAnswer": "Session hijacking where attackers impersonate a legitimate user",
+          "wrongAnswer1": "Cross-site scripting preventing user input",
+          "wrongAnswer2": "SSL certificate errors during encryption",
+          "wrongAnswer3": "Slow page loading times due to excessive server requests",
+          "explanation": "Improper session management can allow attackers to steal session tokens and gain unauthorized access, known as session hijacking.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Data Visualization",
+      "questions": [
+        {
+          "question": "What is the primary purpose of data visualization in web development?",
+          "correctAnswer": "To represent data visually to make it easier to understand",
+          "wrongAnswer1": "To store large amounts of data securely",
+          "wrongAnswer2": "To write complex backend algorithms",
+          "wrongAnswer3": "To increase website loading speed",
+          "explanation": "Data visualization is used to create visual representations of data, such as charts and graphs, to help users quickly comprehend large or complex datasets.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which JavaScript library is commonly used for creating interactive data visualizations on the web?",
+          "correctAnswer": "D3.js",
+          "wrongAnswer1": "React.js",
+          "wrongAnswer2": "Node.js",
+          "wrongAnswer3": "Express.js",
+          "explanation": "D3.js is a powerful JavaScript library specifically designed for creating dynamic and interactive data visualizations in web browsers.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "When choosing a type of chart for data visualization, which factor is most important to consider?",
+          "correctAnswer": "The type of data and the story you want to tell",
+          "wrongAnswer1": "The programming language used to build the website",
+          "wrongAnswer2": "The number of fonts on the web page",
+          "wrongAnswer3": "The user’s internet connection speed",
+          "explanation": "Selecting the right chart type depends on the nature of the data and the information to be conveyed, ensuring the visualization effectively communicates the intended message.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "GraphQL Queries",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a GraphQL query?",
+          "correctAnswer": "To request specific data by specifying fields and relationships",
+          "wrongAnswer1": "To delete data from a database",
+          "wrongAnswer2": "To update data without specifying fields",
+          "wrongAnswer3": "To retrieve only metadata about the data",
+          "explanation": "GraphQL queries allow clients to request exactly the data they need by specifying the fields and relationships in the query.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used in a GraphQL query to define the operation when requesting data?",
+          "correctAnswer": "query",
+          "wrongAnswer1": "mutation",
+          "wrongAnswer2": "subscription",
+          "wrongAnswer3": "fetch",
+          "explanation": "The keyword 'query' is used to define a GraphQL operation meant to fetch or read data from the server.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In a GraphQL query, how can you request nested data?",
+          "correctAnswer": "By including subfields within a field in the query",
+          "wrongAnswer1": "By creating separate queries for each nested field",
+          "wrongAnswer2": "By using the filter keyword",
+          "wrongAnswer3": "By repeating the main field name multiple times",
+          "explanation": "Nested data is requested by specifying subfields inside the main field in the query, allowing retrieval of related data in one request.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "MVC Architecture",
+      "questions": [
+        {
+          "question": "What does MVC stand for in web development?",
+          "correctAnswer": "Model View Controller",
+          "wrongAnswer1": "Module View Component",
+          "wrongAnswer2": "Model Visual Control",
+          "wrongAnswer3": "Main View Controller",
+          "explanation": "MVC stands for Model View Controller, which is a design pattern used for developing user interfaces by dividing an application into three interconnected components.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In MVC architecture, which component is responsible for handling user input?",
+          "correctAnswer": "Controller",
+          "wrongAnswer1": "Model",
+          "wrongAnswer2": "View",
+          "wrongAnswer3": "Database",
+          "explanation": "The Controller component of MVC handles user input and interacts with the Model to process data and update the View accordingly.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does the Model component function in MVC architecture?",
+          "correctAnswer": "It manages the data and business logic of the application.",
+          "wrongAnswer1": "It displays the application's user interface.",
+          "wrongAnswer2": "It handles user inputs and commands.",
+          "wrongAnswer3": "It manages the application's routing system.",
+          "explanation": "The Model in MVC is responsible for managing the data, logic, and rules of the application, separating it from the user interface and input handling.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Web Components",
+      "questions": [
+        {
+          "question": "What are Web Components primarily used for in web development?",
+          "correctAnswer": "To create reusable and encapsulated custom HTML elements",
+          "wrongAnswer1": "To build server-side web applications",
+          "wrongAnswer2": "To style web pages using CSS",
+          "wrongAnswer3": "To manage database interactions",
+          "explanation": "Web Components allow developers to create reusable and encapsulated custom HTML elements that can be used across web applications, enhancing modularity and maintainability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a core technology used in Web Components?",
+          "correctAnswer": "AJAX",
+          "wrongAnswer1": "Custom Elements",
+          "wrongAnswer2": "Shadow DOM",
+          "wrongAnswer3": "HTML Templates",
+          "explanation": "AJAX is not a core technology of Web Components. The main technologies are Custom Elements, Shadow DOM, and HTML Templates which work together to create reusable and encapsulated components.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What advantage does the Shadow DOM provide in Web Components?",
+          "correctAnswer": "Encapsulation of styles and markup within a component",
+          "wrongAnswer1": "Improved SEO performance",
+          "wrongAnswer2": "Faster server response times",
+          "wrongAnswer3": "Access to external APIs",
+          "explanation": "The Shadow DOM encapsulates the styles and markup of a web component so that they do not interfere with other parts of the page, ensuring modularity and avoiding style conflicts.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Microservices Architecture",
+      "questions": [
+        {
+          "question": "What is the primary characteristic of microservices architecture in web development?",
+          "correctAnswer": "It structures an application as a collection of small, independent services.",
+          "wrongAnswer1": "It combines all application components into a single executable file.",
+          "wrongAnswer2": "It uses a centralized database for all services to access.",
+          "wrongAnswer3": "It requires all services to be written in the same programming language.",
+          "explanation": "Microservices architecture designs an application as multiple small, independently deployable services that communicate over a network, promoting flexibility and scalability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which benefit is often associated with using microservices architecture?",
+          "correctAnswer": "Improved scalability by deploying services independently.",
+          "wrongAnswer1": "Simplified coordination of services through a monolithic codebase.",
+          "wrongAnswer2": "Guaranteed lower latency as all components run in a single process.",
+          "wrongAnswer3": "Elimination of network communication between services.",
+          "explanation": "Microservices allow scaling of individual parts of an application based on demand without scaling the entire system, enhancing resource management.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In microservices architecture, how are services typically communicated with each other?",
+          "correctAnswer": "Through lightweight protocols such as HTTP or messaging queues.",
+          "wrongAnswer1": "Directly calling functions across service boundaries in memory.",
+          "wrongAnswer2": "Using a shared global variable accessible to all services.",
+          "wrongAnswer3": "By embedding service code into a single build artifact.",
+          "explanation": "Microservices interact using lightweight communication protocols, usually over a network, enabling loose coupling and independent deployment.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Containerization Docker",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Docker in web development?",
+          "correctAnswer": "To create, deploy, and run applications in containers",
+          "wrongAnswer1": "To design the user interface of a website",
+          "wrongAnswer2": "To manage databases",
+          "wrongAnswer3": "To write server-side scripting code",
+          "explanation": "Docker is a platform used for developing, shipping, and running applications inside lightweight containers that package the application and its dependencies.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which component of Docker is responsible for running containers?",
+          "correctAnswer": "Docker Engine",
+          "wrongAnswer1": "Docker Compose",
+          "wrongAnswer2": "Docker Hub",
+          "wrongAnswer3": "Docker File",
+          "explanation": "Docker Engine is the core part of Docker that runs and manages containers on the host system.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a Dockerfile used for?",
+          "correctAnswer": "To define the instructions to build a Docker image",
+          "wrongAnswer1": "To store configuration settings for running containers",
+          "wrongAnswer2": "To manage container networking",
+          "wrongAnswer3": "To deploy containers on multiple servers",
+          "explanation": "A Dockerfile contains a set of instructions to automate the building of Docker images which are then used to create containers.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Continuous Integration",
+      "questions": [
+        {
+          "question": "What is the main purpose of Continuous Integration in web development?",
+          "correctAnswer": "To automatically integrate code changes from multiple contributors into a shared repository",
+          "wrongAnswer1": "To deploy finished projects directly to the production server",
+          "wrongAnswer2": "To manually test code changes before merging",
+          "wrongAnswer3": "To design the user interface of a web application",
+          "explanation": "Continuous Integration aims to automatically and frequently merge code changes to detect issues early and improve collaboration among developers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which tool is commonly used to implement Continuous Integration pipelines?",
+          "correctAnswer": "Jenkins",
+          "wrongAnswer1": "Photoshop",
+          "wrongAnswer2": "Microsoft Excel",
+          "wrongAnswer3": "Slack",
+          "explanation": "Jenkins is a popular automation server used to build, test, and deploy code continuously in CI/CD workflows.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a key benefit of Continuous Integration in web development projects?",
+          "correctAnswer": "It helps catch errors early in the development cycle",
+          "wrongAnswer1": "It ensures the code is perfect before any testing",
+          "wrongAnswer2": "It eliminates the need for any manual testing",
+          "wrongAnswer3": "It guarantees immediate production deployment after code changes",
+          "explanation": "Continuous Integration allows developers to detect and fix errors early by integrating code frequently with automated testing, improving code quality and reducing integration problems.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Automated Testing",
+      "questions": [
+        {
+          "question": "What is the primary purpose of automated testing in web development?",
+          "correctAnswer": "To automatically execute tests to identify bugs and errors in web applications",
+          "wrongAnswer1": "To manually check the appearance of web pages",
+          "wrongAnswer2": "To write code without debugging",
+          "wrongAnswer3": "To create graphic designs for websites",
+          "explanation": "Automated testing involves using software tools to execute tests on web applications automatically, helping to find bugs and errors efficiently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common tool used for automated testing in web development?",
+          "correctAnswer": "Selenium",
+          "wrongAnswer1": "Photoshop",
+          "wrongAnswer2": "WordPress",
+          "wrongAnswer3": "Google Analytics",
+          "explanation": "Selenium is a popular testing tool used to automate web browsers for testing web applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What advantage does automated testing provide over manual testing?",
+          "correctAnswer": "It increases testing speed and allows frequent retesting without extra effort",
+          "wrongAnswer1": "It eliminates the need for any human oversight",
+          "wrongAnswer2": "It always finds every possible bug in the application",
+          "wrongAnswer3": "It replaces the need for developers to write code",
+          "explanation": "Automated testing speeds up the testing process and makes it easy to run tests frequently, while manual testing can be time-consuming and less consistent.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Code Refactoring",
+      "questions": [
+        {
+          "question": "What is the primary purpose of code refactoring in web development?",
+          "correctAnswer": "To improve code structure without changing its external behavior",
+          "wrongAnswer1": "To add new features to the web application",
+          "wrongAnswer2": "To fix security vulnerabilities in the code",
+          "wrongAnswer3": "To translate code into a different programming language",
+          "explanation": "Code refactoring involves restructuring existing code to improve readability, maintainability, and performance without altering its functionality.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common benefit of refactoring web development code?",
+          "correctAnswer": "Improved maintainability and easier debugging",
+          "wrongAnswer1": "Increased number of features available to end users",
+          "wrongAnswer2": "Higher server resource consumption",
+          "wrongAnswer3": "Decreased code documentation",
+          "explanation": "Refactoring makes code easier to maintain and debug by cleaning up the structure and removing redundancies, which does not necessarily add features but improves quality.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "When should a web developer consider performing code refactoring?",
+          "correctAnswer": "When code complexity makes future changes difficult",
+          "wrongAnswer1": "Immediately after launching a new website",
+          "wrongAnswer2": "Only during the initial development phase",
+          "wrongAnswer3": "When the application runs slower on older browsers",
+          "explanation": "Refactoring is ideal when the codebase has grown complex and hard to manage, facilitating future updates and reducing bugs without changing functionality.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Package Managers",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a package manager in web development?",
+          "correctAnswer": "To automate the process of installing and managing software libraries",
+          "wrongAnswer1": "To design the layout of web pages",
+          "wrongAnswer2": "To compile source code into executable files",
+          "wrongAnswer3": "To monitor website traffic and analytics",
+          "explanation": "A package manager automates the process of installing, updating, and managing software libraries and dependencies necessary for web development projects.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a popular package manager used for JavaScript projects?",
+          "correctAnswer": "npm",
+          "wrongAnswer1": "pip",
+          "wrongAnswer2": "gem",
+          "wrongAnswer3": "apt-get",
+          "explanation": "npm is the widely used package manager for JavaScript and Node.js projects, while pip is for Python, gem is for Ruby, and apt-get is a Linux package manager.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does a package manager help in managing project dependencies?",
+          "correctAnswer": "It tracks the required packages and their versions to ensure compatibility",
+          "wrongAnswer1": "It converts code from one programming language to another",
+          "wrongAnswer2": "It automatically generates website content based on user input",
+          "wrongAnswer3": "It ensures network security by encrypting data traffic",
+          "explanation": "Package managers maintain files that list project dependencies and their specific versions, allowing developers to easily install and update compatible packages.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Command Line",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a command line interface in web development?",
+          "correctAnswer": "To execute commands and manage files quickly",
+          "wrongAnswer1": "To design web page layouts visually",
+          "wrongAnswer2": "To write HTML and CSS code automatically",
+          "wrongAnswer3": "To create graphical user interfaces",
+          "explanation": "The command line interface allows developers to execute commands to manage files, run scripts, and perform tasks quickly without a graphical interface.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following commands is commonly used to navigate directories in a command line?",
+          "correctAnswer": "cd",
+          "wrongAnswer1": "ls",
+          "wrongAnswer2": "rm",
+          "wrongAnswer3": "mkdir",
+          "explanation": "The 'cd' command is used to change directories, allowing navigation through the file system in the command line.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is the command line useful for running development servers in web development?",
+          "correctAnswer": "It lets developers start and control servers efficiently using simple commands",
+          "wrongAnswer1": "It automatically generates server-side code",
+          "wrongAnswer2": "It provides a graphical interface for server management",
+          "wrongAnswer3": "It compiles code without errors",
+          "explanation": "The command line allows developers to start local development servers and control them using concise commands, facilitating quick testing of web applications.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Webhooks Integration",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a webhook in web development?",
+          "correctAnswer": "To send real-time data from one application to another when an event occurs",
+          "wrongAnswer1": "To send periodic data updates every hour between applications",
+          "wrongAnswer2": "To store data securely in a local database",
+          "wrongAnswer3": "To create user interface components dynamically",
+          "explanation": "Webhooks are used to send real-time data from one system to another when a specific event happens, enabling immediate communication without polling.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which HTTP method is most commonly used when a webhook sends data to another application?",
+          "correctAnswer": "POST",
+          "wrongAnswer1": "GET",
+          "wrongAnswer2": "DELETE",
+          "wrongAnswer3": "PUT",
+          "explanation": "Webhooks typically use the POST method to send data payloads to a configured URL endpoint when an event occurs.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is an important security consideration when implementing webhooks integration?",
+          "correctAnswer": "Validating the signature of incoming webhook requests to ensure authenticity",
+          "wrongAnswer1": "Encrypting the user interface components",
+          "wrongAnswer2": "Using only GET requests for webhook data transmission",
+          "wrongAnswer3": "Looping webhook calls to increase data redundancy",
+          "explanation": "To secure webhook integrations, validating the signature or token of incoming requests ensures that the request comes from a trusted source and not a malicious actor.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Error Handling",
+      "questions": [
+        {
+          "question": "What is the main purpose of error handling in web development?",
+          "correctAnswer": "To manage and respond to errors gracefully during runtime",
+          "wrongAnswer1": "To speed up the loading time of web pages",
+          "wrongAnswer2": "To enhance the visual layout of a website",
+          "wrongAnswer3": "To store user data permanently",
+          "explanation": "Error handling is used to detect and manage errors during the execution of a web application, allowing the program to respond gracefully and avoid crashes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In JavaScript, which statement is commonly used to catch and handle exceptions?",
+          "correctAnswer": "try...catch",
+          "wrongAnswer1": "if...else",
+          "wrongAnswer2": "for...loop",
+          "wrongAnswer3": "switch...case",
+          "explanation": "The try...catch statement is used in JavaScript to catch exceptions and handle errors that occur during the execution of code inside the try block.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a common technique for handling errors in asynchronous web requests?",
+          "correctAnswer": "Using promises with catch methods or async/await with try...catch blocks",
+          "wrongAnswer1": "Reloading the entire page on error",
+          "wrongAnswer2": "Ignoring errors to improve performance",
+          "wrongAnswer3": "Using synchronous functions only",
+          "explanation": "Promises and async/await with try...catch blocks allow developers to catch and handle errors that occur during asynchronous operations like web requests.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Web Development",
+      "concept": "Static Assets",
+      "questions": [
+        {
+          "question": "What are static assets in web development?",
+          "correctAnswer": "Files like images, CSS, and JavaScript that do not change on the server.",
+          "wrongAnswer1": "Dynamic web pages generated by server-side scripts.",
+          "wrongAnswer2": "Data stored in a database for web applications.",
+          "wrongAnswer3": "User input forms on a webpage.",
+          "explanation": "Static assets are files such as images, CSS files, and JavaScript files that are served to the browser as they are, without server-side processing.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is caching important for static assets?",
+          "correctAnswer": "It improves website performance by loading assets faster from the browser cache.",
+          "wrongAnswer1": "It makes the server compute assets every time they're requested.",
+          "wrongAnswer2": "It prevents the assets from being stored on the user's device.",
+          "wrongAnswer3": "It transforms static assets into dynamic content.",
+          "explanation": "Caching static assets allows browsers to store these files locally, reducing load times and server requests, enhancing user experience.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a best practice when managing static assets in a web project?",
+          "correctAnswer": "Using a Content Delivery Network (CDN) to serve static assets.",
+          "wrongAnswer1": "Embedding all static assets directly inside the HTML code.",
+          "wrongAnswer2": "Re-loading static assets on every page request without caching.",
+          "wrongAnswer3": "Storing static assets only in a local development environment.",
+          "explanation": "Serving static assets through a CDN helps in faster global delivery and reduces server load, improving the site's performance.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

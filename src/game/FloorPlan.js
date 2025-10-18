@@ -5,12 +5,14 @@ export default class FloorPlan {
     color = null,
     doors = { north: false, south: false, east: false, west: false },
     question = null, // can hold a Question object or null
+    special = false, // Entrance?
   } = {}) {
     this.id = id ? id : Math.floor(Math.random() * 1e9);
     this.name = name;
     this.color = color;
     this.doors = { ...doors };
-    this.question = question; // 🧩 new attribute
+    this.question = question;
+    this.special = special;
   }
 
   // Clone for immutability
@@ -20,11 +22,28 @@ export default class FloorPlan {
       name: this.name,
       color: this.color,
       doors: { ...this.doors },
-      question: this.question ? { ...this.question } : null, // shallow clone to preserve question
+      question: this.question,
+      special: this.special
     });
   }
 
   hasDoor(direction) {
     return !!this.doors[direction];
+  }
+
+  rotate(clockwise = true) {
+    const newDoors = {};
+    if (clockwise) {
+      newDoors.north = this.doors.west;
+      newDoors.east = this.doors.north;
+      newDoors.south = this.doors.east;
+      newDoors.west = this.doors.south;
+    } else {
+      newDoors.north = this.doors.east;
+      newDoors.west = this.doors.north;
+      newDoors.south = this.doors.west;
+      newDoors.east = this.doors.south;
+    }
+    this.doors = newDoors;
   }
 }

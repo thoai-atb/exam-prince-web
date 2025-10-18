@@ -1,9 +1,14 @@
 import { useState, useEffect } from "react";
 import Room from "./Room";
 import { subscribeKeyboard } from "../input/controls";
+import { useHouseManager } from "../context/HouseManagerContext";
 
-export default function House({ manager }) {
+
+export default function House() {
   // Keep track of state from manager
+  const houseManagerRef = useHouseManager();
+  const manager = houseManagerRef.current;
+
   const [state, setState] = useState(manager.getState());
 
   useEffect(() => {

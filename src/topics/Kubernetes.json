@@ -1,0 +1,1655 @@
+{
+  "topic": "Kubernetes",
+  "concepts": [
+    {
+      "topic": "Kubernetes",
+      "concept": "Container Orchestration",
+      "questions": [
+        {
+          "question": "What is the primary purpose of container orchestration in Kubernetes?",
+          "correctAnswer": "To automate deployment, scaling, and management of containerized applications",
+          "wrongAnswer1": "To design the user interface of applications",
+          "wrongAnswer2": "To compile code into executable binaries",
+          "wrongAnswer3": "To create container images manually",
+          "explanation": "Container orchestration in Kubernetes automates deploying, scaling, and managing containers to ensure applications run efficiently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Kubernetes component is mainly responsible for container orchestration?",
+          "correctAnswer": "The Kubernetes control plane manages container orchestration",
+          "wrongAnswer1": "The container runtime environment",
+          "wrongAnswer2": "The storage volume manager",
+          "wrongAnswer3": "The network firewall",
+          "explanation": "The Kubernetes control plane manages orchestration tasks including scheduling, scaling, and health monitoring of containers.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Kubernetes handle scaling of containerized applications?",
+          "correctAnswer": "By automatically increasing or decreasing the number of container replicas based on load",
+          "wrongAnswer1": "By rewriting the application code automatically",
+          "wrongAnswer2": "By manually restarting containers when performance drops",
+          "wrongAnswer3": "By upgrading hardware components without downtime",
+          "explanation": "Kubernetes supports horizontal scaling by adjusting container replicas according to resource usage and defined policies.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Pods",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Pod in Kubernetes?",
+          "correctAnswer": "To host one or more containers that share storage and network resources",
+          "wrongAnswer1": "To manage individual nodes in the cluster",
+          "wrongAnswer2": "To serve as a storage system for the cluster",
+          "wrongAnswer3": "To control user access to the Kubernetes API",
+          "explanation": "A Pod in Kubernetes is the smallest deployable unit that can contain one or more containers which share the same storage and network resources.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about Pods in Kubernetes?",
+          "correctAnswer": "Pods share an IP address and port space among all containers in the Pod",
+          "wrongAnswer1": "Each container in a Pod has its own IP address separate from the Pod",
+          "wrongAnswer2": "Pods are persistent and remain alive after the containers exit",
+          "wrongAnswer3": "Pods automatically scale based on the number of containers inside",
+          "explanation": "All containers in a Pod share the same network namespace including the IP address and port space, which allows them to communicate easily.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens to a Pod in Kubernetes when the node it is running on fails?",
+          "correctAnswer": "The Pod is terminated and can be recreated on another node by a controller",
+          "wrongAnswer1": "The Pod automatically moves to a new node without any disruption",
+          "wrongAnswer2": "The Pod continues running in a detached state until the node recovers",
+          "wrongAnswer3": "The Pod is converted into a Service to maintain availability",
+          "explanation": "When the node hosting a Pod fails, the Pod is terminated and controllers like Deployments will recreate the Pod on another healthy node to maintain availability.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Nodes",
+      "questions": [
+        {
+          "question": "What is the primary role of a node in a Kubernetes cluster?",
+          "correctAnswer": "To run pods and provide the runtime environment for containers",
+          "wrongAnswer1": "To store persistent data for the cluster",
+          "wrongAnswer2": "To act as the cluster's control plane",
+          "wrongAnswer3": "To serve as the network gateway for Kubernetes services",
+          "explanation": "Nodes in Kubernetes are worker machines that run pods, which are the smallest deployable units that hold containers. They provide the environment for container execution.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which component is responsible for managing individual nodes in Kubernetes?",
+          "correctAnswer": "Kubelet",
+          "wrongAnswer1": "Kubectl",
+          "wrongAnswer2": "Etcd",
+          "wrongAnswer3": "Kube-proxy",
+          "explanation": "The Kubelet is an agent that runs on each node in the cluster and ensures that the containers are running in a pod as expected.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a distinguishing feature of a master node compared to a worker node in Kubernetes?",
+          "correctAnswer": "Master nodes manage the cluster and orchestrate workloads, while worker nodes run the workloads.",
+          "wrongAnswer1": "Master nodes store application data, while worker nodes manage networking.",
+          "wrongAnswer2": "Master nodes only run Kubernetes services, worker nodes only run databases.",
+          "wrongAnswer3": "There is no difference; master and worker nodes perform identical functions.",
+          "explanation": "Master nodes host the control plane components responsible for managing the cluster, whereas worker nodes run the actual application workloads delegated by the master.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Clusters",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Kubernetes cluster?",
+          "correctAnswer": "To manage and orchestrate containerized applications across multiple hosts",
+          "wrongAnswer1": "To store data in a distributed database",
+          "wrongAnswer2": "To create virtual machines on cloud platforms",
+          "wrongAnswer3": "To monitor network traffic between servers",
+          "explanation": "A Kubernetes cluster is designed to manage and orchestrate containerized applications, allowing them to run across multiple hosts efficiently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which components are part of the control plane in a Kubernetes cluster?",
+          "correctAnswer": "API server, Scheduler, Controller manager, and etcd",
+          "wrongAnswer1": "Node, Pod, Container, and API server",
+          "wrongAnswer2": "Docker engine, API server, Scheduler, and Node",
+          "wrongAnswer3": "Controller manager, Node, Pod, and Scheduler",
+          "explanation": "The control plane components include the API server, Scheduler, Controller manager, and etcd, which manage the overall state and operations of the cluster.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In Kubernetes clusters, what is the role of nodes?",
+          "correctAnswer": "Nodes provide the environment to run containerized applications and host pods",
+          "wrongAnswer1": "Nodes store cluster data and configuration settings",
+          "wrongAnswer2": "Nodes act as load balancers for incoming traffic",
+          "wrongAnswer3": "Nodes are responsible for scheduling and managing control plane components",
+          "explanation": "Nodes are worker machines in Kubernetes that host the pods, which run the containerized applications. They provide resources such as CPU, memory, and network connectivity.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Deployments",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Deployment in Kubernetes?",
+          "correctAnswer": "To manage the desired state and updates of Pods",
+          "wrongAnswer1": "To provide persistent storage for applications",
+          "wrongAnswer2": "To expose services outside the cluster",
+          "wrongAnswer3": "To monitor cluster health",
+          "explanation": "A Deployment in Kubernetes is used to declare the desired state for pods and manages their creation, scaling, and updates systematically.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following commands is used to create a new Deployment in Kubernetes?",
+          "correctAnswer": "kubectl create deployment",
+          "wrongAnswer1": "kubectl expose deployment",
+          "wrongAnswer2": "kubectl get pods",
+          "wrongAnswer3": "kubectl delete deployment",
+          "explanation": "The command kubectl create deployment is used to create a new Deployment resource in Kubernetes, which manages pod replicas.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does a Kubernetes Deployment help with updating an application?",
+          "correctAnswer": "By performing rolling updates with no downtime",
+          "wrongAnswer1": "By immediately shutting down all old pods before starting new ones",
+          "wrongAnswer2": "By only updating one pod at a time with manual intervention",
+          "wrongAnswer3": "By creating a new namespace for each update",
+          "explanation": "Deployments in Kubernetes support rolling updates, which gradually replace pods with new ones to avoid downtime during application upgrades.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Services",
+      "questions": [
+        {
+          "question": "What is the main purpose of a Service in Kubernetes?",
+          "correctAnswer": "To provide a stable network endpoint for accessing a set of Pods",
+          "wrongAnswer1": "To store persistent data used by Pods",
+          "wrongAnswer2": "To manage the lifecycle of Pods",
+          "wrongAnswer3": "To define security policies for cluster access",
+          "explanation": "A Service in Kubernetes defines a logical set of Pods and a policy by which to access them, usually providing a stable IP and DNS name for the Pods irrespective of their lifecycle.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of Kubernetes Service exposes the Service on a cluster-internal IP only?",
+          "correctAnswer": "ClusterIP",
+          "wrongAnswer1": "NodePort",
+          "wrongAnswer2": "LoadBalancer",
+          "wrongAnswer3": "ExternalName",
+          "explanation": "The ClusterIP type Service exposes its endpoints only within the cluster, providing an internal IP address accessible by other Pods and Services in the cluster.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does a Kubernetes Service select the Pods to route traffic to?",
+          "correctAnswer": "Using label selectors assigned to the Pods",
+          "wrongAnswer1": "By matching the Pod names directly",
+          "wrongAnswer2": "By IP addresses assigned at runtime",
+          "wrongAnswer3": "Using a static list of Pod IPs defined in the Service",
+          "explanation": "Kubernetes Services use label selectors to identify the group of Pods they route traffic to, ensuring dynamic adaptation as Pods come and go.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Replica Sets",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Replica Set in Kubernetes?",
+          "correctAnswer": "To maintain a stable set of replica Pods running at any given time",
+          "wrongAnswer1": "To manage network communication between clusters",
+          "wrongAnswer2": "To store persistent data for containerized applications",
+          "wrongAnswer3": "To schedule Pods on specific nodes in the cluster",
+          "explanation": "A Replica Set ensures that a specified number of pod replicas are running at all times, providing high availability and scalability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes how a Replica Set manages Pods in Kubernetes?",
+          "correctAnswer": "By creating or deleting Pods to match the desired number of replicas",
+          "wrongAnswer1": "By updating the Kubernetes API server with Pod status information",
+          "wrongAnswer2": "By controlling the Docker container runtime on each node",
+          "wrongAnswer3": "By allocating IP addresses to the Pods dynamically",
+          "explanation": "Replica Sets monitor the current number of pod replicas and add or remove Pods to maintain the desired count.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does a Replica Set identify which Pods it should manage?",
+          "correctAnswer": "Using a label selector to match the Pods",
+          "wrongAnswer1": "By the container image used in the Pods",
+          "wrongAnswer2": "By the names assigned to each Pod manually",
+          "wrongAnswer3": "Through the namespace under which the Pods are created",
+          "explanation": "Replica Sets use label selectors to identify and manage the Pods that belong to them, allowing dynamic Pod management based on labels.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Namespaces",
+      "questions": [
+        {
+          "question": "What is the primary purpose of namespaces in Kubernetes?",
+          "correctAnswer": "To isolate and organize resources within a cluster",
+          "wrongAnswer1": "To manage network traffic routing between clusters",
+          "wrongAnswer2": "To control user authentication and permissions",
+          "wrongAnswer3": "To store container images securely",
+          "explanation": "Namespaces in Kubernetes provide a mechanism to divide cluster resources between multiple users or teams to isolate and organize resources effectively.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about Kubernetes namespaces?",
+          "correctAnswer": "They allow multiple virtual clusters to exist inside a single physical cluster",
+          "wrongAnswer1": "They are used primarily for load balancing requests among pods",
+          "wrongAnswer2": "A namespace can span multiple clusters in different regions",
+          "wrongAnswer3": "Namespaces provide persistent storage independent of pods",
+          "explanation": "Namespaces create virtual clusters inside a single physical cluster, enabling better resource organization and isolation.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do Kubernetes namespaces help with resource quota management?",
+          "correctAnswer": "They allow setting resource limits specific to each namespace to control consumption",
+          "wrongAnswer1": "They automatically increase resources based on workload demand across clusters",
+          "wrongAnswer2": "They permit sharing resource limits between namespaces without restrictions",
+          "wrongAnswer3": "They ignore CPU and memory usage constraints for pods inside a namespace",
+          "explanation": "Namespaces can have resource quotas assigned, which help in limiting resource consumption by the pods and other objects within that namespace.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Ingress Controllers",
+      "questions": [
+        {
+          "question": "What is the primary function of an Ingress Controller in Kubernetes?",
+          "correctAnswer": "To manage external access to services within a cluster",
+          "wrongAnswer1": "To handle storage volumes for pods",
+          "wrongAnswer2": "To schedule pods on nodes",
+          "wrongAnswer3": "To manage internal pod communication",
+          "explanation": "Ingress Controllers are used to manage external access, typically HTTP and HTTPS, to services inside a Kubernetes cluster by routing traffic based on rules.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common Ingress Controller used in Kubernetes environments?",
+          "correctAnswer": "NGINX Ingress Controller",
+          "wrongAnswer1": "Docker Swarm Controller",
+          "wrongAnswer2": "Flannel Controller",
+          "wrongAnswer3": "Kubelet Controller",
+          "explanation": "NGINX Ingress Controller is a widely used implementation that manages external access by routing traffic to services inside Kubernetes based on configured rules.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does an Ingress Controller differ from a LoadBalancer service in Kubernetes?",
+          "correctAnswer": "Ingress Controllers provide HTTP routing and host/path based rules, LoadBalancer services expose a service externally with a dedicated IP.",
+          "wrongAnswer1": "Ingress controllers replace the need for any service objects in Kubernetes.",
+          "wrongAnswer2": "LoadBalancer services are used only for internal traffic management.",
+          "wrongAnswer3": "Ingress Controllers directly manage the cluster nodes' resources.",
+          "explanation": "Ingress Controllers manage external HTTP(S) traffic routing with more fine-grained host and path rules, while LoadBalancer services provide a static IP for exposing services externally but without deep request routing capabilities.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Volumes",
+      "questions": [
+        {
+          "question": "What is the primary purpose of volumes in Kubernetes?",
+          "correctAnswer": "To provide persistent storage accessible to containers",
+          "wrongAnswer1": "To increase network bandwidth between pods",
+          "wrongAnswer2": "To manage CPU resources for pods",
+          "wrongAnswer3": "To scale the number of replicas automatically",
+          "explanation": "Volumes in Kubernetes are used to provide storage that can persist beyond the lifecycle of individual containers, allowing data to be shared and maintained.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of Kubernetes volume is specifically designed to be shared across multiple nodes?",
+          "correctAnswer": "PersistentVolume (PV)",
+          "wrongAnswer1": "EmptyDir",
+          "wrongAnswer2": "ConfigMap",
+          "wrongAnswer3": "Secret",
+          "explanation": "PersistentVolumes are abstractions for storage that can be provisioned and managed independently of pods and can be shared or accessed across different nodes, unlike EmptyDir which is node-local.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does an EmptyDir volume behave when a pod is deleted in Kubernetes?",
+          "correctAnswer": "The data in the EmptyDir volume is deleted when the pod is deleted",
+          "wrongAnswer1": "The data is retained and accessible by other pods",
+          "wrongAnswer2": "The volume automatically converts to a PersistentVolume",
+          "wrongAnswer3": "The data is backed up to PersistentVolumeClaim",
+          "explanation": "EmptyDir volumes are created when a pod is assigned to a node and exist as long as that pod is running; once the pod is deleted, the data stored in the EmptyDir volume is removed as well.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Config Maps",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a ConfigMap in Kubernetes?",
+          "correctAnswer": "To store non-confidential configuration data for pods",
+          "wrongAnswer1": "To manage secrets and passwords securely",
+          "wrongAnswer2": "To orchestrate container networking",
+          "wrongAnswer3": "To monitor pod resource usage",
+          "explanation": "ConfigMaps in Kubernetes are used to store configuration data that pods can consume without including it in the container image, and it is not intended for sensitive information.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can a ConfigMap be consumed by a pod in Kubernetes?",
+          "correctAnswer": "As environment variables or as configuration files mounted into the pod",
+          "wrongAnswer1": "Only as environment variables",
+          "wrongAnswer2": "Only through the Kubernetes API directly",
+          "wrongAnswer3": "By embedding it into the container image",
+          "explanation": "ConfigMaps can be consumed by pods either as environment variables or by mounting them as files inside the container's filesystem, allowing flexible ways to configure containers.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which command is used to create a ConfigMap from a literal key-value pair?",
+          "correctAnswer": "kubectl create configmap my-config --from-literal=key=value",
+          "wrongAnswer1": "kubectl apply configmap my-config --literal key=value",
+          "wrongAnswer2": "kubectl set configmap my-config key=value",
+          "wrongAnswer3": "kubectl generate configmap my-config --from-literal key=value",
+          "explanation": "The correct kubectl syntax to create a ConfigMap from a literal key-value pair is 'kubectl create configmap <name> --from-literal=key=value', making this the proper command for quick creation of ConfigMaps.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Secrets",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Kubernetes Secrets?",
+          "correctAnswer": "To securely store and manage sensitive information such as passwords and tokens",
+          "wrongAnswer1": "To manage cluster nodes and their configurations",
+          "wrongAnswer2": "To deploy applications automatically",
+          "wrongAnswer3": "To monitor the health of the Kubernetes cluster",
+          "explanation": "Kubernetes Secrets are designed to securely store and manage sensitive information like passwords, tokens, or keys used by applications running in the cluster.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a recommended way to create a Kubernetes Secret?",
+          "correctAnswer": "Using kubectl create secret command with literal or file inputs",
+          "wrongAnswer1": "Storing secrets as plain text in Pod definitions",
+          "wrongAnswer2": "Embedding secrets in container images",
+          "wrongAnswer3": "Using ConfigMaps to store sensitive data",
+          "explanation": "The recommended way is to use the kubectl create secret command which allows inputs via literals or files, ensuring the data is encoded and managed securely, unlike storing in plain text or embedding in images.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Kubernetes protect a Secret's data within the cluster?",
+          "correctAnswer": "Stores the data base64 encoded and restricts access via RBAC and namespaces",
+          "wrongAnswer1": "Encrypts data with TLS in all persistent storage",
+          "wrongAnswer2": "Automatically rotates secrets every hour",
+          "wrongAnswer3": "Stores secrets as environment variables visible to all pods",
+          "explanation": "Kubernetes stores Secrets base64 encoded (not encrypted by default) and relies on Role-Based Access Control (RBAC) and namespaces to restrict access. Additional encryption at rest can be configured optionally.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Stateful Sets",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a StatefulSet in Kubernetes?",
+          "correctAnswer": "To manage stateful applications with stable identities and persistent storage",
+          "wrongAnswer1": "To manage stateless applications with temporary storage",
+          "wrongAnswer2": "To monitor network traffic between pods",
+          "wrongAnswer3": "To automate job completions in batch processing",
+          "explanation": "A StatefulSet in Kubernetes is designed to manage stateful applications that require stable network identities and persistent storage, unlike Deployments that are more suited for stateless applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature distinguishes StatefulSets from Deployments in Kubernetes?",
+          "correctAnswer": "Each pod in a StatefulSet has a stable, unique network identifier",
+          "wrongAnswer1": "Pods are automatically replaced with no stable identities",
+          "wrongAnswer2": "Pods are unmanaged and scheduled randomly",
+          "wrongAnswer3": "Pods have ephemeral storage only",
+          "explanation": "StatefulSets provide each pod with a persistent identity and stable network identifier, which is essential for stateful applications.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does a StatefulSet handle pod scaling and upgrading compared to a Deployment?",
+          "correctAnswer": "It scales and upgrades pods sequentially to maintain order and stability",
+          "wrongAnswer1": "It scales all pods simultaneously without regard to order",
+          "wrongAnswer2": "It does not support scaling or upgrading at all",
+          "wrongAnswer3": "It randomly deletes and recreates pods during upgrade",
+          "explanation": "StatefulSets manage pods in a defined order during scaling and upgrades to avoid disruption of stateful services.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Daemon Sets",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Daemon Set in Kubernetes?",
+          "correctAnswer": "To ensure a copy of a pod runs on all or selected nodes",
+          "wrongAnswer1": "To manage stateless applications with load balancing",
+          "wrongAnswer2": "To provide persistent storage volumes for pods",
+          "wrongAnswer3": "To schedule batch jobs at specific times",
+          "explanation": "A Daemon Set ensures that a copy of a pod is running on all or selected nodes in the cluster, which is useful for running background or system services on each node.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can Daemon Sets be useful when deploying logging and monitoring agents in Kubernetes?",
+          "correctAnswer": "They deploy an agent pod on each node to collect data locally",
+          "wrongAnswer1": "They distribute the agents across only worker nodes",
+          "wrongAnswer2": "They run agents only on nodes that are currently idle",
+          "wrongAnswer3": "They update agent pods only during cluster upgrades",
+          "explanation": "Daemon Sets automatically deploy an instance of the pod on every node to collect logs or metrics locally, which simplifies monitoring and logging deployments.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "If a new node is added to a Kubernetes cluster, what happens to Daemon Sets configured in the cluster?",
+          "correctAnswer": "A pod from each Daemon Set is automatically scheduled on the new node",
+          "wrongAnswer1": "New nodes are ignored by existing Daemon Sets",
+          "wrongAnswer2": "Daemon Sets need to be manually updated to include new nodes",
+          "wrongAnswer3": "Pods from Daemon Sets are removed from all other nodes and placed on the new node",
+          "explanation": "When a new node joins a cluster, Kubernetes automatically schedules pods from existing Daemon Sets on that node, ensuring services run consistently across the cluster.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Helm Charts",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Helm Charts in Kubernetes?",
+          "correctAnswer": "To package and manage Kubernetes applications",
+          "wrongAnswer1": "To monitor Kubernetes cluster performance",
+          "wrongAnswer2": "To provide network policies for pods",
+          "wrongAnswer3": "To secure Kubernetes API access",
+          "explanation": "Helm Charts are used to package, configure, and manage Kubernetes applications, making deployment and version control easier.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which file in a Helm Chart defines the default configuration values?",
+          "correctAnswer": "Values.yaml",
+          "wrongAnswer1": "Chart.yaml",
+          "wrongAnswer2": "Templates.yaml",
+          "wrongAnswer3": "Config.yaml",
+          "explanation": "The values.yaml file contains default configuration values used by the Helm Chart templates.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do Helm Charts simplify application deployment in Kubernetes?",
+          "correctAnswer": "By grouping all Kubernetes resource definitions into a single package",
+          "wrongAnswer1": "By replacing YAML configuration files with JSON files",
+          "wrongAnswer2": "By automatically scaling pods based on load",
+          "wrongAnswer3": "By providing automated backup of cluster state",
+          "explanation": "Helm Charts bundle all resource definitions (like deployments, services) into one package, simplifying deployment, upgrades, and rollback.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Kubectl",
+      "questions": [
+        {
+          "question": "What is Kubectl used for in Kubernetes?",
+          "correctAnswer": "Managing and interacting with Kubernetes clusters",
+          "wrongAnswer1": "Building container images",
+          "wrongAnswer2": "Monitoring system hardware",
+          "wrongAnswer3": "Writing application code",
+          "explanation": "Kubectl is a command-line tool that allows users to manage and interact with Kubernetes clusters, including deploying applications and inspecting resources.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command would you use with Kubectl to get information about pods in a Kubernetes cluster?",
+          "correctAnswer": "kubectl get pods",
+          "wrongAnswer1": "kubectl describe nodes",
+          "wrongAnswer2": "kubectl apply pods",
+          "wrongAnswer3": "kubectl create nodes",
+          "explanation": "The 'kubectl get pods' command retrieves information about pods in the Kubernetes cluster. Other commands like 'describe' provide detailed information, but for pods you specifically use 'get pods'.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Kubectl communicate with the Kubernetes cluster?",
+          "correctAnswer": "Through the Kubernetes API server",
+          "wrongAnswer1": "Directly via container runtime",
+          "wrongAnswer2": "Via network sockets to nodes",
+          "wrongAnswer3": "Using SSH to cluster nodes",
+          "explanation": "Kubectl communicates with the Kubernetes cluster by sending commands to the Kubernetes API server, which manages the cluster and resources.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "API Server",
+      "questions": [
+        {
+          "question": "What is the primary function of the Kubernetes API Server?",
+          "correctAnswer": "To serve the Kubernetes API and handle the communication between components",
+          "wrongAnswer1": "To manage the network configuration of the cluster",
+          "wrongAnswer2": "To store persistent data for the cluster",
+          "wrongAnswer3": "To schedule pods onto nodes",
+          "explanation": "The Kubernetes API Server acts as the front-end for the Kubernetes control plane. It exposes the Kubernetes API and manages communication between different components by processing REST operations and validating and configuring data for the API objects.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which component in Kubernetes communicates directly with the API Server to manage cluster state?",
+          "correctAnswer": "Kube-controller-manager",
+          "wrongAnswer1": "Kubelet",
+          "wrongAnswer2": "Etcd",
+          "wrongAnswer3": "Docker",
+          "explanation": "The Kube-controller-manager communicates with the API Server to watch and manage the cluster state by running controller processes that make changes to the desired state.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the role of etcd in relation to the Kubernetes API Server?",
+          "correctAnswer": "It stores all cluster data and configuration accessed through the API Server",
+          "wrongAnswer1": "It processes API requests and schedules workloads",
+          "wrongAnswer2": "It provides the Kubernetes command-line interface",
+          "wrongAnswer3": "It manages network policies in the cluster",
+          "explanation": "etcd is a consistent and highly-available key-value store used by Kubernetes to store all data including configuration, state, and metadata, which the API Server accesses to serve client requests and maintain cluster state.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Kubelet",
+      "questions": [
+        {
+          "question": "What is the primary role of the Kubelet in a Kubernetes cluster?",
+          "correctAnswer": "It manages and ensures containers are running on a node as specified.",
+          "wrongAnswer1": "It schedules pods across all nodes in the cluster.",
+          "wrongAnswer2": "It provides a user interface for cluster monitoring.",
+          "wrongAnswer3": "It acts as a network proxy for the cluster.",
+          "explanation": "The Kubelet is an agent that runs on each node in the cluster and ensures that containers described in PodSpecs are running and healthy on that node.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does the Kubelet know which containers to run on its node?",
+          "correctAnswer": "It receives Pod specifications from the Kubernetes control plane to manage container lifecycle.",
+          "wrongAnswer1": "It independently decides which containers to run based on the node resources.",
+          "wrongAnswer2": "It runs all containers found in the local Docker registry automatically.",
+          "wrongAnswer3": "It uses a manual configuration file updated by the system administrator.",
+          "explanation": "The Kubelet gets pod information and container specs from the Kubernetes API server, which is part of the control plane.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following best describes the interaction of Kubelet with container runtime?",
+          "correctAnswer": "Kubelet communicates with the container runtime to start, stop, and monitor containers.",
+          "wrongAnswer1": "Kubelet replaces the container runtime in managing containers.",
+          "wrongAnswer2": "Kubelet only reports container status but does not manage the runtime.",
+          "wrongAnswer3": "Kubelet interacts directly with the network stack, bypassing the runtime.",
+          "explanation": "Kubelet interacts with container runtimes like Docker or containerd to manage container lifecycle on the node.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Scheduler",
+      "questions": [
+        {
+          "question": "What is the primary role of the Kubernetes scheduler?",
+          "correctAnswer": "Assigning Pods to nodes based on resource availability and policies",
+          "wrongAnswer1": "Managing network policies for Pods",
+          "wrongAnswer2": "Handling storage provisioning for Pods",
+          "wrongAnswer3": "Monitoring the health of Kubernetes components",
+          "explanation": "The Kubernetes scheduler is responsible for assigning Pods to suitable nodes by considering resource requirements and scheduling policies to ensure efficient use of cluster resources.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following factors does the Kubernetes scheduler consider when scheduling a Pod?",
+          "correctAnswer": "Resource requirements, node availability, and affinity rules",
+          "wrongAnswer1": "Pod IP addresses and storage class",
+          "wrongAnswer2": "Container image size and number of replicas",
+          "wrongAnswer3": "Service endpoints and ingress rules",
+          "explanation": "The scheduler evaluates resource requirements, node availability, and affinity or anti-affinity rules to make decisions about where to place Pods in the cluster.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can you influence the Kubernetes scheduler's decision to place a Pod on a specific node?",
+          "correctAnswer": "By using node selectors, affinity rules, or taints and tolerations",
+          "wrongAnswer1": "By changing the container image version",
+          "wrongAnswer2": "By modifying service definitions",
+          "wrongAnswer3": "By setting resource limits in the container spec",
+          "explanation": "Node selectors, affinity/anti-affinity rules, and taints and tolerations provide ways to guide the scheduler in choosing suitable nodes for Pods.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Controller Manager",
+      "questions": [
+        {
+          "question": "What is the primary role of the Kubernetes Controller Manager?",
+          "correctAnswer": "To manage various controllers that regulate the state of the cluster",
+          "wrongAnswer1": "To schedule pods onto nodes",
+          "wrongAnswer2": "To store the configuration data of the cluster",
+          "wrongAnswer3": "To provide network connectivity between pods",
+          "explanation": "The Controller Manager runs controller processes that regulate the state of the Kubernetes cluster, ensuring that the desired state matches the current state.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a function performed by the Kubernetes Controller Manager?",
+          "correctAnswer": "Ensuring replication controllers maintain the desired number of pod replicas",
+          "wrongAnswer1": "Managing the lifecycle of nodes by scheduling pods to them",
+          "wrongAnswer2": "Serving the Kubernetes API",
+          "wrongAnswer3": "Handling DNS resolution for services",
+          "explanation": "The Controller Manager includes the Replication Controller which ensures the specified number of pod replicas are running at any time, maintaining the desired state.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does the Kubernetes Controller Manager interact with the Kubernetes API server?",
+          "correctAnswer": "It watches the API server for changes and makes adjustments to cluster state accordingly",
+          "wrongAnswer1": "It directly manages container runtimes without API interaction",
+          "wrongAnswer2": "It acts as a load balancer for the API server",
+          "wrongAnswer3": "It stores cluster state information independently from the API server",
+          "explanation": "The Controller Manager constantly monitors the API server for changes and takes actions to ensure that the current cluster state matches the desired state.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Persistent Volume",
+      "questions": [
+        {
+          "question": "What is a Persistent Volume in Kubernetes?",
+          "correctAnswer": "A storage resource in the cluster independent of individual pods",
+          "wrongAnswer1": "A temporary storage attached only while a pod is running",
+          "wrongAnswer2": "A network interface for pods",
+          "wrongAnswer3": "A method to manage CPU resources",
+          "explanation": "A Persistent Volume (PV) is a piece of storage in a Kubernetes cluster that has been provisioned by an administrator or dynamically provisioned using Storage Classes. It is independent of a pod's lifecycle, meaning data persists beyond the lifetime of individual pods.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Kubernetes object is used to claim a Persistent Volume?",
+          "correctAnswer": "Persistent Volume Claim",
+          "wrongAnswer1": "StatefulSet",
+          "wrongAnswer2": "ReplicaSet",
+          "wrongAnswer3": "ConfigMap",
+          "explanation": "A Persistent Volume Claim (PVC) is used by a user to request storage resources from a Persistent Volume. It abstracts the details of how storage is provided, allowing pods to use the storage without knowing the underlying infrastructure.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens when a Persistent Volume is released from a Persistent Volume Claim?",
+          "correctAnswer": "The volume can be reclaimed or retained based on its reclaim policy",
+          "wrongAnswer1": "The volume is deleted immediately",
+          "wrongAnswer2": "The volume is converted to a ConfigMap",
+          "wrongAnswer3": "The pod using the volume is terminated immediately",
+          "explanation": "When a Persistent Volume (PV) is released from a Persistent Volume Claim (PVC), the action taken depends on the reclaim policy set on the PV which can be Retain, Recycle, or Delete. This determines if the volume is kept, cleaned, or removed.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Persistent Volume Claim",
+      "questions": [
+        {
+          "question": "What is the purpose of a Persistent Volume Claim in Kubernetes?",
+          "correctAnswer": "To request and claim storage resources from Persistent Volumes",
+          "wrongAnswer1": "To configure network policies",
+          "wrongAnswer2": "To deploy applications automatically",
+          "wrongAnswer3": "To manage user permissions",
+          "explanation": "A Persistent Volume Claim (PVC) in Kubernetes is used by users to request and claim storage resources from available Persistent Volumes (PVs). It abstracts the details of the underlying storage.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes the relationship between a Persistent Volume Claim and a Persistent Volume?",
+          "correctAnswer": "A PVC is a request for storage, and a PV is the actual storage resource that satisfies this request",
+          "wrongAnswer1": "A PVC manages network traffic, while a PV stores application metrics",
+          "wrongAnswer2": "A PVC provides compute resources, and a PV handles memory allocation",
+          "wrongAnswer3": "A PVC schedules pods, while a PV controls pod networking",
+          "explanation": "A Persistent Volume Claim is a user's request for storage, and a Persistent Volume is the physical or virtual storage resource that fulfills this request in Kubernetes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens if a Persistent Volume Claim cannot be immediately matched to a Persistent Volume?",
+          "correctAnswer": "The PVC remains in a pending state until a suitable PV becomes available",
+          "wrongAnswer1": "The PVC automatically deletes itself after a timeout",
+          "wrongAnswer2": "The PVC starts using ephemeral storage instead",
+          "wrongAnswer3": "The PVC requests compute resources instead of storage",
+          "explanation": "When a PVC does not find a suitable PV to bind to, it stays in a pending state until a Persistent Volume that meets its requirements is available.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Horizontal Pod Autoscaler",
+      "questions": [
+        {
+          "question": "What is the primary function of the Horizontal Pod Autoscaler in Kubernetes?",
+          "correctAnswer": "To automatically scale the number of pods based on resource usage",
+          "wrongAnswer1": "To manually scale the number of nodes in the cluster",
+          "wrongAnswer2": "To back up pod data at regular intervals",
+          "wrongAnswer3": "To manage network policies between pods",
+          "explanation": "The Horizontal Pod Autoscaler automatically adjusts the number of pod replicas in a deployment or replica set based on observed CPU utilization or other select metrics, ensuring applications can handle varying loads efficiently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of metric does the Kubernetes Horizontal Pod Autoscaler primarily use by default to trigger scaling?",
+          "correctAnswer": "CPU utilization",
+          "wrongAnswer1": "Memory consumption",
+          "wrongAnswer2": "Network bandwidth",
+          "wrongAnswer3": "Disk I/O rates",
+          "explanation": "By default, the Horizontal Pod Autoscaler scales the number of pods based on target average CPU utilization, but it can be configured to use other metrics with custom metrics support.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What must be enabled in a Kubernetes cluster for the Horizontal Pod Autoscaler to gather metrics and function properly?",
+          "correctAnswer": "Metrics server",
+          "wrongAnswer1": "Ingress controller",
+          "wrongAnswer2": "Persistent volume provisioner",
+          "wrongAnswer3": "Cluster autoscaler",
+          "explanation": "The metrics server collects resource usage metrics, such as CPU and memory, which the Horizontal Pod Autoscaler uses to make scaling decisions. Without it, autoscaling cannot function correctly.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Custom Resource Definitions",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Custom Resource Definitions in Kubernetes?",
+          "correctAnswer": "To extend Kubernetes API with new resource types",
+          "wrongAnswer1": "To manage network policies",
+          "wrongAnswer2": "To configure storage classes",
+          "wrongAnswer3": "To control access through roles",
+          "explanation": "Custom Resource Definitions allow users to add their own resource types to Kubernetes, making it possible to manage custom objects just like built-in objects.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Kubernetes component primarily manages Custom Resource Definitions?",
+          "correctAnswer": "Kubernetes API Server",
+          "wrongAnswer1": "Kubelet",
+          "wrongAnswer2": "Scheduler",
+          "wrongAnswer3": "Controller Manager",
+          "explanation": "The Kubernetes API Server handles Custom Resource Definitions by extending the API and storing custom resources in etcd.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What must be created first before you can use a custom resource in Kubernetes?",
+          "correctAnswer": "Custom Resource Definition",
+          "wrongAnswer1": "Custom Controller",
+          "wrongAnswer2": "Pod Spec",
+          "wrongAnswer3": "Namespace",
+          "explanation": "A Custom Resource Definition must be defined to create and use custom resources within a Kubernetes cluster.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Operators",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Kubernetes Operator?",
+          "correctAnswer": "To automate the management of complex applications on Kubernetes",
+          "wrongAnswer1": "To create user interfaces for Kubernetes clusters",
+          "wrongAnswer2": "To handle network traffic routing in Kubernetes",
+          "wrongAnswer3": "To replace the Kubernetes API server",
+          "explanation": "Kubernetes Operators extend the Kubernetes API to manage complex applications and automate their lifecycle on Kubernetes clusters.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes how Operators manage applications in Kubernetes?",
+          "correctAnswer": "By using custom resources and controllers to automate management tasks",
+          "wrongAnswer1": "By manually updating deployment configurations",
+          "wrongAnswer2": "By directly modifying the Kubernetes nodes",
+          "wrongAnswer3": "By running applications outside the Kubernetes cluster",
+          "explanation": "Operators use Custom Resource Definitions (CRDs) and controllers to monitor and manage applications automatically based on the custom resources.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What role does a Custom Resource Definition play in the functionality of a Kubernetes Operator?",
+          "correctAnswer": "It defines a new resource type that the Operator can manage within Kubernetes",
+          "wrongAnswer1": "It is used to configure Kubernetes networking policies",
+          "wrongAnswer2": "It handles authentication for Kubernetes users",
+          "wrongAnswer3": "It provides API documentation for Kubernetes cluster administrators",
+          "explanation": "CRDs extend the Kubernetes API by defining new resource types that Operators can use to manage specific application components.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Taints",
+      "questions": [
+        {
+          "question": "What is the purpose of taints in Kubernetes?",
+          "correctAnswer": "To repel certain pods from being scheduled on a node",
+          "wrongAnswer1": "To increase the computational power of a node",
+          "wrongAnswer2": "To label nodes based on geographic location",
+          "wrongAnswer3": "To automatically update the Kubernetes API server",
+          "explanation": "Taints allow nodes to repel pods that do not tolerate the taints, controlling pod placement on nodes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Kubernetes component is directly affected by taints?",
+          "correctAnswer": "The scheduler, which decides where pods are placed",
+          "wrongAnswer1": "The kubelet, which manages container runtime",
+          "wrongAnswer2": "The etcd database, which stores cluster state",
+          "wrongAnswer3": "The controller manager, which manages replication",
+          "explanation": "Taints influence the scheduler's behavior by preventing pods without matching tolerations from being assigned to certain nodes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do taints differ from labels in Kubernetes?",
+          "correctAnswer": "Taints repel pods from nodes, labels are used for organizing resources",
+          "wrongAnswer1": "Taints are used to mark pods for deletion, labels assign IP addresses",
+          "wrongAnswer2": "Taints improve network performance, labels monitor resource usage",
+          "wrongAnswer3": "Taints automatically update software, labels control access",
+          "explanation": "Taints are used to repel pods from nodes unless the pods have matching tolerations, whereas labels are generally used for grouping and selecting subsets of resources.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Tolerations",
+      "questions": [
+        {
+          "question": "What is the primary purpose of tolerations in Kubernetes?",
+          "correctAnswer": "To allow pods to be scheduled on nodes with specific taints",
+          "wrongAnswer1": "To restrict pods from running on certain nodes",
+          "wrongAnswer2": "To enhance network security between pods",
+          "wrongAnswer3": "To increase the storage capacity of nodes",
+          "explanation": "Tolerations in Kubernetes are used to allow pods to be scheduled on nodes that have specific taints, which otherwise would repel the pods. This mechanism ensures pods can tolerate node conditions defined by taints.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which component uses tolerations to decide pod placement in Kubernetes?",
+          "correctAnswer": "The Kubernetes scheduler",
+          "wrongAnswer1": "The container runtime",
+          "wrongAnswer2": "The kubelet on each node",
+          "wrongAnswer3": "The Kubernetes API server",
+          "explanation": "The Kubernetes scheduler uses tolerations along with taints to decide which pods can be scheduled on specific nodes. The scheduler matches pod tolerations to node taints before placing the pod.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do tolerations complement taints in Kubernetes?",
+          "correctAnswer": "Tolerations allow pods to tolerate node taints and be scheduled on such nodes",
+          "wrongAnswer1": "Tolerations remove taints from nodes automatically",
+          "wrongAnswer2": "Tolerations enforce strict node selection without exceptions",
+          "wrongAnswer3": "Tolerations delay pod scheduling until taints are cleared",
+          "explanation": "Taints mark nodes with special conditions to repel pods, while tolerations allow specific pods to tolerate those taints and be scheduled on those nodes. This complementary relationship controls pod placement dynamically.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Labels",
+      "questions": [
+        {
+          "question": "What is the primary purpose of labels in Kubernetes?",
+          "correctAnswer": "To organize and select groups of objects based on key-value pairs.",
+          "wrongAnswer1": "To define resource limits for containers in a pod.",
+          "wrongAnswer2": "To specify the IP addresses of nodes in the cluster.",
+          "wrongAnswer3": "To configure network policies for pods.",
+          "explanation": "Labels in Kubernetes are used to attach identifying metadata to objects in the form of key-value pairs, which helps in organizing and selecting resources.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a valid example of a label key in Kubernetes?",
+          "correctAnswer": "app.kubernetes.io/name",
+          "wrongAnswer1": "container.port",
+          "wrongAnswer2": "resource.memory.limit",
+          "wrongAnswer3": "node_ip_address",
+          "explanation": "Kubernetes label keys often use a domain prefix format like app.kubernetes.io/name to avoid collisions and maintain clarity.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do labels differ from annotations in Kubernetes?",
+          "correctAnswer": "Labels are used for selection and grouping, while annotations store non-identifying metadata.",
+          "wrongAnswer1": "Labels are only applied to nodes, annotations only to pods.",
+          "wrongAnswer2": "Annotations define resource constraints, labels manage networking.",
+          "wrongAnswer3": "There is no difference; they are interchangeable.",
+          "explanation": "Labels are key-value pairs used to select and group objects, while annotations also use key-value pairs but store arbitrary metadata not used for selection.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Annotations",
+      "questions": [
+        {
+          "question": "What is the primary use of annotations in Kubernetes?",
+          "correctAnswer": "To attach arbitrary non-identifying metadata to objects",
+          "wrongAnswer1": "To define resource limits for containers",
+          "wrongAnswer2": "To specify the number of pod replicas",
+          "wrongAnswer3": "To set security policies on nodes",
+          "explanation": "Annotations in Kubernetes are used to attach arbitrary non-identifying metadata to objects, which can be used by tools and libraries for various purposes without affecting the core functionality.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do annotations differ from labels in Kubernetes?",
+          "correctAnswer": "Annotations store non-identifying metadata while labels are used for identification and selection",
+          "wrongAnswer1": "Annotations and labels have the same purpose but different names",
+          "wrongAnswer2": "Labels are used only for containers, annotations for nodes",
+          "wrongAnswer3": "Annotations are deprecated and replaced by labels",
+          "explanation": "Annotations are meant for storing non-identifying metadata that may be large or structured data, while labels are key-value pairs used primarily for identification and selection of objects in Kubernetes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which Kubernetes resource field typically stores annotations?",
+          "correctAnswer": "metadata.annotations",
+          "wrongAnswer1": "spec.template.annotations",
+          "wrongAnswer2": "status.annotations",
+          "wrongAnswer3": "metadata.labels",
+          "explanation": "Annotations are stored under the metadata.annotations field of Kubernetes objects, which allows adding arbitrary key-value pairs that do not influence core system behavior.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Etcd",
+      "questions": [
+        {
+          "question": "What is the primary role of Etcd in a Kubernetes cluster?",
+          "correctAnswer": "Storing all cluster data including configuration and state information",
+          "wrongAnswer1": "Managing container networking and IP allocation",
+          "wrongAnswer2": "Scheduling pods across nodes",
+          "wrongAnswer3": "Providing a web interface for cluster management",
+          "explanation": "Etcd is a distributed key-value store that Kubernetes uses to store all of its cluster data like configuration and state, ensuring consistency and reliability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is Etcd considered critical for Kubernetes cluster operation?",
+          "correctAnswer": "Because it maintains the source of truth for all cluster states and configurations",
+          "wrongAnswer1": "It runs all Kubernetes API servers",
+          "wrongAnswer2": "It manages the deployment of applications within pods",
+          "wrongAnswer3": "It controls the network traffic between nodes",
+          "explanation": "Etcd acts as the source of truth for Kubernetes, storing all critical data required for the cluster to operate correctly, making it indispensable for cluster health.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which feature of Etcd ensures high availability in a Kubernetes cluster?",
+          "correctAnswer": "Distributed consensus algorithm among multiple Etcd nodes",
+          "wrongAnswer1": "Centralized single-node storage",
+          "wrongAnswer2": "In-memory caching of cluster data without persistence",
+          "wrongAnswer3": "Automatic scaling of Etcd storage size",
+          "explanation": "Etcd uses a distributed consensus protocol (Raft) to replicate data across multiple nodes, ensuring that the data remains available and consistent even if some nodes fail.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Cloud Native",
+      "questions": [
+        {
+          "question": "What does the term Cloud Native primarily refer to in the context of Kubernetes?",
+          "correctAnswer": "Designing and running applications to fully leverage cloud computing features",
+          "wrongAnswer1": "Running applications exclusively on private data centers",
+          "wrongAnswer2": "Using only virtual machines for application deployment",
+          "wrongAnswer3": "Developing software without using any cloud infrastructure",
+          "explanation": "Cloud Native means building and running applications that take full advantage of the cloud computing model, including Kubernetes for orchestration and scalability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes a key benefit of Cloud Native applications running on Kubernetes?",
+          "correctAnswer": "They can scale automatically based on demand",
+          "wrongAnswer1": "They require manual scaling by administrators",
+          "wrongAnswer2": "They only work on physical servers",
+          "wrongAnswer3": "They must be rewritten for each cloud provider",
+          "explanation": "Cloud Native applications on Kubernetes are designed to scale automatically according to demand, leveraging Kubernetes features like auto-scaling.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which Cloud Native technology is Kubernetes closely associated with to manage containerized applications?",
+          "correctAnswer": "Containers",
+          "wrongAnswer1": "Virtual machines only",
+          "wrongAnswer2": "Monolithic applications",
+          "wrongAnswer3": "Serverless computing without containers",
+          "explanation": "Kubernetes is primarily a container orchestration platform, managing containers to ensure Cloud Native deployment and scaling.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Service Mesh",
+      "questions": [
+        {
+          "question": "What is a Service Mesh in Kubernetes primarily used for?",
+          "correctAnswer": "Managing communication between microservices",
+          "wrongAnswer1": "Storing container images",
+          "wrongAnswer2": "Scheduling pods on nodes",
+          "wrongAnswer3": "Monitoring cluster health",
+          "explanation": "A Service Mesh in Kubernetes manages and controls the communication between microservices, providing features like load balancing, service discovery, and security.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common component of a Service Mesh architecture in Kubernetes?",
+          "correctAnswer": "Sidecar proxy",
+          "wrongAnswer1": "Persistent volume",
+          "wrongAnswer2": "ConfigMap",
+          "wrongAnswer3": "DaemonSet",
+          "explanation": "A sidecar proxy is deployed alongside application containers in a Service Mesh to intercept and manage network traffic between services.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which feature is typically provided by a Service Mesh in a Kubernetes environment?",
+          "correctAnswer": "Traffic routing and observability",
+          "wrongAnswer1": "Container orchestration",
+          "wrongAnswer2": "Storage provisioning",
+          "wrongAnswer3": "Autoscaling of pods",
+          "explanation": "Service Mesh provides advanced traffic routing, observability, and security features for service-to-service communication in Kubernetes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Kubernetes Dashboard",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Kubernetes Dashboard?",
+          "correctAnswer": "It provides a web-based user interface to manage and monitor Kubernetes clusters",
+          "wrongAnswer1": "It is a command-line tool to deploy Kubernetes clusters",
+          "wrongAnswer2": "It is a storage solution for Kubernetes cluster data",
+          "wrongAnswer3": "It acts as a load balancer for Kubernetes services",
+          "explanation": "The Kubernetes Dashboard is a web-based UI that allows users to deploy containerized applications, manage cluster resources, and monitor cluster health visually.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following actions can you perform using the Kubernetes Dashboard?",
+          "correctAnswer": "Deploy new applications and troubleshoot existing pods",
+          "wrongAnswer1": "Directly modify the Kubernetes source code",
+          "wrongAnswer2": "Manage physical network hardware",
+          "wrongAnswer3": "Backup and restore the entire cluster data",
+          "explanation": "The Kubernetes Dashboard lets users deploy and manage applications, as well as view logs and troubleshoot pods, but it is not used for modifying Kubernetes source code or managing physical hardware.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you access the Kubernetes Dashboard securely?",
+          "correctAnswer": "By using kubectl proxy and authentication tokens",
+          "wrongAnswer1": "By connecting directly to the cluster without authentication",
+          "wrongAnswer2": "Through SSH access to the master node",
+          "wrongAnswer3": "By exposing the dashboard service without security measures",
+          "explanation": "Accessing the Kubernetes Dashboard securely involves using kubectl proxy alongside authentication tokens to ensure authorized access rather than exposing it publicly or without verification.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Kube-proxy",
+      "questions": [
+        {
+          "question": "What is the primary function of kube-proxy in a Kubernetes cluster?",
+          "correctAnswer": "To manage network communication and load balancing for services.",
+          "wrongAnswer1": "To schedule pods onto nodes.",
+          "wrongAnswer2": "To store cluster state and configuration data.",
+          "wrongAnswer3": "To monitor the health of the nodes.",
+          "explanation": "Kube-proxy is responsible for managing network communication and load balancing traffic across the pods that provide a service in Kubernetes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which protocol does kube-proxy NOT directly handle when routing traffic?",
+          "correctAnswer": "FTP",
+          "wrongAnswer1": "TCP",
+          "wrongAnswer2": "UDP",
+          "wrongAnswer3": "SCTP",
+          "explanation": "Kube-proxy manages TCP, UDP, and SCTP protocols, but it does not handle FTP as it is an application layer protocol rather than a transport layer protocol.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does kube-proxy implement service load balancing in Kubernetes?",
+          "correctAnswer": "By maintaining network rules on nodes to direct traffic to backend pods.",
+          "wrongAnswer1": "By storing the service definitions in the cluster database.",
+          "wrongAnswer2": "By directly contacting the Kubernetes API server for each request.",
+          "wrongAnswer3": "By creating new pods for each incoming request.",
+          "explanation": "Kube-proxy implements service load balancing by creating and maintaining network rules to forward traffic to the appropriate backend pods within a node, thus balancing the load.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Rolling Updates",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a rolling update in Kubernetes?",
+          "correctAnswer": "To update applications gradually without downtime",
+          "wrongAnswer1": "To stop all instances before updating",
+          "wrongAnswer2": "To update only the configuration files",
+          "wrongAnswer3": "To delete the old version immediately",
+          "explanation": "A rolling update in Kubernetes updates application instances gradually to ensure there is no downtime and the application remains available.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "During a Kubernetes rolling update, what happens if a new version fails health checks?",
+          "correctAnswer": "The update is paused or rolled back",
+          "wrongAnswer1": "The new version replaces all old versions immediately",
+          "wrongAnswer2": "The system ignores the failure and continues updating",
+          "wrongAnswer3": "The update switches to manual mode automatically",
+          "explanation": "Kubernetes pauses or rolls back a rolling update if the new version fails health checks to maintain application stability.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which Kubernetes controller is primarily responsible for managing rolling updates?",
+          "correctAnswer": "Deployment controller",
+          "wrongAnswer1": "Service controller",
+          "wrongAnswer2": "ReplicaSet controller",
+          "wrongAnswer3": "DaemonSet controller",
+          "explanation": "The Deployment controller manages rolling updates by creating new ReplicaSets and scaling down old ones to update pods gradually.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Blue Green Deployment",
+      "questions": [
+        {
+          "question": "What is the main purpose of Blue Green Deployment in Kubernetes?",
+          "correctAnswer": "To minimize downtime and reduce risk during application updates",
+          "wrongAnswer1": "To increase the number of Kubernetes clusters",
+          "wrongAnswer2": "To permanently store application logs",
+          "wrongAnswer3": "To optimize resource allocation for batch jobs",
+          "explanation": "Blue Green Deployment is a technique used to reduce downtime and risk by running two identical production environments, switching traffic between them during updates.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Blue Green Deployment, what do the Blue and Green environments represent?",
+          "correctAnswer": "Two identical production environments where one is live and the other is idle",
+          "wrongAnswer1": "Two different database instances for load balancing",
+          "wrongAnswer2": "Two separate namespaces for development and testing",
+          "wrongAnswer3": "Two different cloud providers used simultaneously",
+          "explanation": "The Blue and Green environments are duplicates, with one actively serving production traffic and the other ready to take over after the update.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does Kubernetes facilitate Blue Green Deployment?",
+          "correctAnswer": "By managing multiple service versions with controlled traffic switching",
+          "wrongAnswer1": "By automatically scaling clusters based on CPU usage",
+          "wrongAnswer2": "By encrypting data in transit for security purposes",
+          "wrongAnswer3": "By storing container images in persistent volumes",
+          "explanation": "Kubernetes enables Blue Green Deployment by allowing management of different application versions and directing traffic between them using services or ingress controllers.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Canary Deployment",
+      "questions": [
+        {
+          "question": "What is the main purpose of a canary deployment in Kubernetes?",
+          "correctAnswer": "To gradually release a new version of an application to a subset of users",
+          "wrongAnswer1": "To rollback all users to a previous application version immediately",
+          "wrongAnswer2": "To deploy all application instances simultaneously",
+          "wrongAnswer3": "To delete all old application versions at once",
+          "explanation": "A canary deployment involves rolling out a new version to a small subset of users first to test its performance and stability before full deployment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Kubernetes feature is most commonly used to manage traffic during a canary deployment?",
+          "correctAnswer": "Service and ingress resource with traffic splitting capabilities",
+          "wrongAnswer1": "Persistent volumes for storing logs",
+          "wrongAnswer2": "ConfigMaps for storing environment variables",
+          "wrongAnswer3": "Secrets for holding sensitive data",
+          "explanation": "Traffic splitting in services or ingress controllers helps direct user requests to the new canary version while still serving most traffic to the stable release.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In a canary deployment, what action is typically taken if the new version exhibits problems?",
+          "correctAnswer": "Rollback the new version and route all traffic back to the previous stable version",
+          "wrongAnswer1": "Increase the number of canary instances despite the issues",
+          "wrongAnswer2": "Shutdown the entire application to fix the bugs",
+          "wrongAnswer3": "Immediately deploy another completely new version",
+          "explanation": "If issues occur during the canary phase, rolling back the deployment prevents affected users from experiencing problems while the team fixes the issues.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Cluster Autoscaler",
+      "questions": [
+        {
+          "question": "What is the primary function of the Cluster Autoscaler in Kubernetes?",
+          "correctAnswer": "To automatically adjust the number of nodes in a cluster based on workload demand.",
+          "wrongAnswer1": "To manage the deployment of containers within a single node.",
+          "wrongAnswer2": "To provide a graphical interface for managing Kubernetes clusters.",
+          "wrongAnswer3": "To monitor the performance of individual pods without scaling.",
+          "explanation": "The Cluster Autoscaler automatically scales the size of a Kubernetes cluster by adding or removing nodes based on the resource needs of the workloads running in the cluster.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which resource metrics does the Cluster Autoscaler primarily use to decide when to scale a Kubernetes cluster?",
+          "correctAnswer": "Node utilization and pending pod scheduling status.",
+          "wrongAnswer1": "Number of failed pod deployments and total memory usage in the cluster.",
+          "wrongAnswer2": "CPU usage inside individual containers only.",
+          "wrongAnswer3": "Volume of network traffic in the cluster.",
+          "explanation": "The Cluster Autoscaler monitors node utilization and checks if pods are pending due to insufficient resources to decide if nodes should be added or removed.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens when the Cluster Autoscaler detects underutilized nodes in a Kubernetes cluster?",
+          "correctAnswer": "It may remove underutilized nodes to optimize resource usage.",
+          "wrongAnswer1": "It increases the cluster size to distribute workload evenly.",
+          "wrongAnswer2": "It migrates pods to other clusters automatically.",
+          "wrongAnswer3": "It upgrades the Kubernetes version on the underutilized nodes.",
+          "explanation": "The Cluster Autoscaler can scale down the cluster by removing nodes that are underutilized to reduce costs and improve efficiency.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Pod Security Policies",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Pod Security Policies in Kubernetes?",
+          "correctAnswer": "To control the security settings of pods at runtime",
+          "wrongAnswer1": "To manage network storage for pods",
+          "wrongAnswer2": "To deploy new pods automatically",
+          "wrongAnswer3": "To monitor pod resource usage",
+          "explanation": "Pod Security Policies are used to define a set of conditions that a pod must meet to be accepted into the system, primarily to control security settings such as running privileged containers or accessing host resources.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Kubernetes resource is used to enforce Pod Security Policies?",
+          "correctAnswer": "PodSecurityPolicy resource with Admission Controller",
+          "wrongAnswer1": "ConfigMap",
+          "wrongAnswer2": "Namespace resource",
+          "wrongAnswer3": "ReplicaSet",
+          "explanation": "Pod Security Policies are enforced using the PodSecurityPolicy resource along with an Admission Controller that validates incoming pod requests against the policy rules.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens if a pod does not comply with existing Pod Security Policies?",
+          "correctAnswer": "The pod creation is denied by the Admission Controller",
+          "wrongAnswer1": "The pod is created but marked as insecure",
+          "wrongAnswer2": "The pod is automatically updated to comply",
+          "wrongAnswer3": "The pod runs without restrictions",
+          "explanation": "If a pod does not match the requirements specified by the Pod Security Policy, the Admission Controller rejects the pod, preventing it from running in the cluster.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Network Policies",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Network Policies in Kubernetes?",
+          "correctAnswer": "To control the traffic flow between pods and services",
+          "wrongAnswer1": "To manage persistent storage for pods",
+          "wrongAnswer2": "To schedule pods on specific nodes",
+          "wrongAnswer3": "To monitor resource usage of containers",
+          "explanation": "Network Policies in Kubernetes are used to define rules that control the inbound and outbound traffic for pods, enhancing cluster security by restricting communications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Kubernetes resource is used to define Network Policies?",
+          "correctAnswer": "NetworkPolicy",
+          "wrongAnswer1": "PodSecurityPolicy",
+          "wrongAnswer2": "ConfigMap",
+          "wrongAnswer3": "ServiceAccount",
+          "explanation": "The NetworkPolicy resource is specifically designed to define rules for controlling network traffic between pods in a Kubernetes cluster.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "By default, what is the network traffic behavior in Kubernetes when no Network Policies are applied?",
+          "correctAnswer": "All traffic is allowed between pods",
+          "wrongAnswer1": "No traffic is allowed between pods",
+          "wrongAnswer2": "Only traffic on port 80 is allowed",
+          "wrongAnswer3": "Traffic is restricted based on namespaces",
+          "explanation": "Without any Network Policies, Kubernetes allows all network traffic between pods, meaning communication is unrestricted by default.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Container Runtime",
+      "questions": [
+        {
+          "question": "What is the primary function of a container runtime in Kubernetes?",
+          "correctAnswer": "To manage the lifecycle of containers on a node",
+          "wrongAnswer1": "To orchestrate multiple Kubernetes clusters",
+          "wrongAnswer2": "To provide network policies between pods",
+          "wrongAnswer3": "To store container images in a registry",
+          "explanation": "A container runtime is responsible for managing the lifecycle of containers, including starting and stopping containers on a Kubernetes node.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of a container runtime that can be used with Kubernetes?",
+          "correctAnswer": "containerd",
+          "wrongAnswer1": "Docker Swarm",
+          "wrongAnswer2": "Helm",
+          "wrongAnswer3": "Etcd",
+          "explanation": "containerd is a popular container runtime compatible with Kubernetes, while Docker Swarm is a container orchestrator, Helm is a package manager, and Etcd is a distributed key-value store.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why did Kubernetes move away from using Docker as the default container runtime?",
+          "correctAnswer": "Because Kubernetes adopted the Container Runtime Interface to support multiple runtimes and improve modularity",
+          "wrongAnswer1": "Because Docker containers were incompatible with pods",
+          "wrongAnswer2": "Because Docker does not support container networking",
+          "wrongAnswer3": "Because Docker was too slow to start containers",
+          "explanation": "Kubernetes developed the Container Runtime Interface (CRI) to allow for flexibility and modularity by supporting various container runtimes, not just Docker.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "CRI-O",
+      "questions": [
+        {
+          "question": "What is CRI-O in the context of Kubernetes?",
+          "correctAnswer": "A lightweight container runtime for Kubernetes",
+          "wrongAnswer1": "A Kubernetes network plugin",
+          "wrongAnswer2": "A pod scheduling tool for Kubernetes",
+          "wrongAnswer3": "A Kubernetes logging system",
+          "explanation": "CRI-O is a lightweight container runtime specifically designed for Kubernetes that implements the Kubernetes Container Runtime Interface (CRI). It enables Kubernetes to use any OCI-compliant runtime as the container runtime environment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is CRI-O preferred in some Kubernetes environments?",
+          "correctAnswer": "Because it is lightweight and specifically designed for Kubernetes",
+          "wrongAnswer1": "Because it provides advanced container monitoring",
+          "wrongAnswer2": "Because it replaces the Kubernetes API server",
+          "wrongAnswer3": "Because it manages Kubernetes cluster nodes",
+          "explanation": "CRI-O is preferred because it is a minimal and efficient container runtime focused on Kubernetes, providing just the necessary features to run containers without extra overhead found in general-purpose runtimes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which standard does CRI-O use for container images?",
+          "correctAnswer": "OCI (Open Container Initiative)",
+          "wrongAnswer1": "RPM packages",
+          "wrongAnswer2": "Docker Compose",
+          "wrongAnswer3": "Kubernetes Helm charts",
+          "explanation": "CRI-O uses OCI standards for container images and runtimes, ensuring compatibility and compliance with container image specifications defined by the Open Container Initiative.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Containerd",
+      "questions": [
+        {
+          "question": "What is Containerd primarily used for in Kubernetes?",
+          "correctAnswer": "A container runtime to manage the lifecycle of containers",
+          "wrongAnswer1": "A networking plugin for managing pod communication",
+          "wrongAnswer2": "A tool for provisioning Kubernetes clusters",
+          "wrongAnswer3": "A monitoring solution for Kubernetes clusters",
+          "explanation": "Containerd is a container runtime that manages the complete lifecycle of containers including image transfer, container execution, and supervision within Kubernetes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes the relationship between Containerd and Kubernetes?",
+          "correctAnswer": "Containerd acts as an interface between Kubernetes and the container runtime.",
+          "wrongAnswer1": "Containerd is an alternative to Kubernetes for container orchestration.",
+          "wrongAnswer2": "Containerd is a Kubernetes monitoring tool.",
+          "wrongAnswer3": "Containerd replaces Kubernetes networking functionality.",
+          "explanation": "Containerd serves as the container runtime Kubernetes uses to run containers, providing an interface to manage container lifecycle operations.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following features is NOT provided by Containerd in the Kubernetes environment?",
+          "correctAnswer": "Cluster autoscaling based on load",
+          "wrongAnswer1": "Container image management",
+          "wrongAnswer2": "Container execution and supervision",
+          "wrongAnswer3": "Snapshot and storage management of containers",
+          "explanation": "Containerd handles container lifecycle operations but does not manage cluster-level features like autoscaling, which is handled by other Kubernetes components.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Resource Quotas",
+      "questions": [
+        {
+          "question": "What is the main purpose of Resource Quotas in Kubernetes?",
+          "correctAnswer": "To limit the resource consumption of pods and containers in a namespace",
+          "wrongAnswer1": "To increase the CPU allocation for all nodes",
+          "wrongAnswer2": "To automatically scale the number of pods in a deployment",
+          "wrongAnswer3": "To provide persistent storage to containers",
+          "explanation": "Resource Quotas in Kubernetes are used to limit the amount of resources like CPU, memory, and storage that can be consumed by objects in a specific namespace to prevent any single team or application from using all resources.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Kubernetes object do you use to define limits on resource usage per namespace?",
+          "correctAnswer": "ResourceQuota",
+          "wrongAnswer1": "LimitRange",
+          "wrongAnswer2": "PodSecurityPolicy",
+          "wrongAnswer3": "HorizontalPodAutoscaler",
+          "explanation": "ResourceQuota is the Kubernetes object used to impose constraints on the resource consumption within a namespace, while LimitRange controls default and maximum resource limits on a per-pod or per-container basis.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "If you want to ensure no namespace consumes more than a fixed amount of CPU and memory, which Kubernetes feature would you use?",
+          "correctAnswer": "Resource Quotas",
+          "wrongAnswer1": "Namespace quotas",
+          "wrongAnswer2": "Pod limits",
+          "wrongAnswer3": "Node selectors",
+          "explanation": "Resource Quotas define maximum resource usage for namespaces, helping cluster administrators prevent overconsumption of CPU and memory resources by any single namespace.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Job",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Job in Kubernetes?",
+          "correctAnswer": "To run a task to completion one or more times",
+          "wrongAnswer1": "To continuously run a service indefinitely",
+          "wrongAnswer2": "To manage persistent storage volumes",
+          "wrongAnswer3": "To configure network policies",
+          "explanation": "A Kubernetes Job is used to create one or more pods that run to completion to perform a task, unlike a Deployment which manages pods for long-running services.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which field in a Kubernetes Job spec defines how many times the job should be retried upon failure?",
+          "correctAnswer": "backoffLimit",
+          "wrongAnswer1": "replicas",
+          "wrongAnswer2": "restartPolicy",
+          "wrongAnswer3": "completionCount",
+          "explanation": "The backoffLimit field specifies how many retries Kubernetes should attempt if the job's pod fails before the job itself is marked failed.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In Kubernetes, what happens when a Job with completions set to 5 and parallelism set to 2 is created?",
+          "correctAnswer": "Two pods run simultaneously until a total of five completions occur",
+          "wrongAnswer1": "Five pods run simultaneously with two replicas each",
+          "wrongAnswer2": "Only five pods run sequentially one after another",
+          "wrongAnswer3": "A single pod runs five times sequentially",
+          "explanation": "The parallelism field controls how many pods run at the same time, while completions defines the total successful pod completions before the Job is considered complete.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "CronJob",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a CronJob in Kubernetes?",
+          "correctAnswer": "To schedule and run tasks periodically according to a defined timetable",
+          "wrongAnswer1": "To manage network traffic between pods",
+          "wrongAnswer2": "To automatically scale applications based on demand",
+          "wrongAnswer3": "To backup data regularly across nodes",
+          "explanation": "A CronJob in Kubernetes is designed to run jobs on a defined schedule, similar to cron jobs in Unix-like systems, allowing tasks to execute periodically.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which field in a Kubernetes CronJob specification defines the schedule for job execution?",
+          "correctAnswer": "schedule",
+          "wrongAnswer1": "template",
+          "wrongAnswer2": "replicas",
+          "wrongAnswer3": "selector",
+          "explanation": "The 'schedule' field in a CronJob resource specifies the time and frequency the job should run using cron syntax.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "If a CronJob in Kubernetes has a concurrencyPolicy set to Forbid, what happens if a previous job is still running when the next scheduled time occurs?",
+          "correctAnswer": "The new job will not start until the previous one finishes",
+          "wrongAnswer1": "Both jobs will run simultaneously",
+          "wrongAnswer2": "The previous job will be terminated and replaced by the new job",
+          "wrongAnswer3": "The new job will run but with a lower priority",
+          "explanation": "Setting concurrencyPolicy to Forbid prevents multiple instances of a job from running at the same time by skipping the new job if the previous one hasn't completed yet.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Kubeflow",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Kubeflow in a Kubernetes environment?",
+          "correctAnswer": "To simplify machine learning workflows and deployment",
+          "wrongAnswer1": "To manage container orchestration and scaling",
+          "wrongAnswer2": "To provide logging and monitoring of Kubernetes clusters",
+          "wrongAnswer3": "To automate network configuration for applications",
+          "explanation": "Kubeflow is designed specifically to simplify the creation, deployment, and management of machine learning workflows on Kubernetes, not general container management or networking.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which component of Kubeflow is responsible for managing machine learning model training jobs?",
+          "correctAnswer": "Kubeflow Training Operator",
+          "wrongAnswer1": "Kubeflow Serving Controller",
+          "wrongAnswer2": "Kubeflow Pipelines UI",
+          "wrongAnswer3": "Kubeflow Metadata Service",
+          "explanation": "The Kubeflow Training Operator manages the execution of machine learning training jobs, enabling distributed training on Kubernetes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Kubeflow Pipelines enhance machine learning workflows?",
+          "correctAnswer": "By enabling the automation and orchestration of ML workflows as reusable components",
+          "wrongAnswer1": "By providing a data storage solution for ML datasets",
+          "wrongAnswer2": "By automatically tuning hyperparameters during training",
+          "wrongAnswer3": "By monitoring GPU usage across the cluster",
+          "explanation": "Kubeflow Pipelines allows data scientists to automate complex machine learning workflows, making them reusable and easier to manage through a visual interface.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Minikube",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Minikube in Kubernetes?",
+          "correctAnswer": "To run a single-node Kubernetes cluster locally for development and testing",
+          "wrongAnswer1": "To manage a large multi-node Kubernetes cluster in production",
+          "wrongAnswer2": "To deploy applications on cloud-based Kubernetes clusters",
+          "wrongAnswer3": "To monitor Kubernetes cluster performance remotely",
+          "explanation": "Minikube is designed to run a single-node Kubernetes cluster locally on your machine, which is useful for development and testing purposes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following environments is where Minikube typically runs?",
+          "correctAnswer": "On a local machine such as a laptop or desktop computer",
+          "wrongAnswer1": "On a production cloud server handling live traffic",
+          "wrongAnswer2": "On a high-performance computing cluster for analytics",
+          "wrongAnswer3": "On a remote Kubernetes master node in the cloud",
+          "explanation": "Minikube runs on local machines to provide a simple Kubernetes environment primarily for learning and development.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does Minikube simplify learning and experimenting with Kubernetes?",
+          "correctAnswer": "By providing a lightweight local Kubernetes cluster that is easy to install and manage",
+          "wrongAnswer1": "By automating multi-region Kubernetes deployments across clouds",
+          "wrongAnswer2": "By providing built-in CI/CD pipelines for Kubernetes applications",
+          "wrongAnswer3": "By replacing Kubernetes with an alternative container orchestration tool",
+          "explanation": "Minikube simplifies Kubernetes learning by giving you a local, easy-to-install Kubernetes cluster that mimics most cluster behaviors.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Kubeadm",
+      "questions": [
+        {
+          "question": "What is the primary purpose of kubeadm in Kubernetes?",
+          "correctAnswer": "To simplify the process of setting up a Kubernetes cluster",
+          "wrongAnswer1": "To manage container networking within the cluster",
+          "wrongAnswer2": "To replace kubectl as the main CLI for cluster operations",
+          "wrongAnswer3": "To provide monitoring and logging for Kubernetes clusters",
+          "explanation": "Kubeadm is a tool designed to simplify and automate the process of bootstrapping a Kubernetes cluster, making it easier to install and configure clusters.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following tasks can kubeadm perform during cluster setup?",
+          "correctAnswer": "Initialize the control plane components and install necessary certificates",
+          "wrongAnswer1": "Automatically scale worker nodes based on load",
+          "wrongAnswer2": "Deploy applications and manage their lifecycle",
+          "wrongAnswer3": "Configure container runtime networking plugins",
+          "explanation": "Kubeadm is responsible for initializing the Kubernetes control plane components and handling certificate generation, but it does not manage application deployment or automatic scaling.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "When using kubeadm to join a new node to an existing Kubernetes cluster, what is required on the new node?",
+          "correctAnswer": "A token and the IP address of the control plane node",
+          "wrongAnswer1": "The full Kubernetes cluster configuration file",
+          "wrongAnswer2": "A copy of the etcd database from the control plane",
+          "wrongAnswer3": "Direct access to the cluster DNS service",
+          "explanation": "To join a node, kubeadm requires a token and the address of the control plane node to establish trust and communication with the cluster.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Kubernetes",
+      "concept": "Cluster Federation",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Kubernetes Cluster Federation?",
+          "correctAnswer": "To manage multiple Kubernetes clusters as a single entity",
+          "wrongAnswer1": "To provide a backup for Kubernetes clusters",
+          "wrongAnswer2": "To convert Kubernetes clusters into virtual machines",
+          "wrongAnswer3": "To monitor the performance of a single Kubernetes cluster",
+          "explanation": "Kubernetes Cluster Federation allows the management and coordination of multiple Kubernetes clusters from a single control plane, enabling workload distribution and unified resource management.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which benefit is commonly associated with using Kubernetes Cluster Federation?",
+          "correctAnswer": "Improved availability and fault tolerance across clusters",
+          "wrongAnswer1": "Reduced network bandwidth between pods",
+          "wrongAnswer2": "Automatic code deployment to containers",
+          "wrongAnswer3": "Faster container build times",
+          "explanation": "By federating clusters, Kubernetes can replicate workloads and services across different geographic locations, enhancing availability and fault tolerance.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Kubernetes Cluster Federation typically handle service discovery?",
+          "correctAnswer": "It synchronizes service information across clusters for unified access",
+          "wrongAnswer1": "It disables service discovery to reduce overhead",
+          "wrongAnswer2": "It directs all service traffic to a primary cluster only",
+          "wrongAnswer3": "It replaces DNS with a custom name resolution system",
+          "explanation": "Kubernetes Cluster Federation synchronizes service endpoints and configurations so that services can be discovered seamlessly across federated clusters.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

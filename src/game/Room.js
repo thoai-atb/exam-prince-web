@@ -40,7 +40,9 @@ export default class Room {
   open(floorplan) {
     this.opened = true;
     this.openable = false;
-    if (floorplan) this.floorplan = floorplan;
+    if (floorplan) {
+      this.floorplan = floorplan;
+    }
   }
 
   setCurrent(isCurrent) {

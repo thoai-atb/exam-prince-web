@@ -1,0 +1,1655 @@
+{
+  "topic": "Basic Math",
+  "concepts": [
+    {
+      "topic": "Basic Math",
+      "concept": "Addition",
+      "questions": [
+        {
+          "question": "What is the result of adding 5 and 3?",
+          "correctAnswer": "8",
+          "wrongAnswer1": "7",
+          "wrongAnswer2": "9",
+          "wrongAnswer3": "6",
+          "explanation": "Adding 5 and 3 results in 8 because 5 plus 3 equals 8.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If you add 10 and 15, what do you get?",
+          "correctAnswer": "25",
+          "wrongAnswer1": "20",
+          "wrongAnswer2": "30",
+          "wrongAnswer3": "15",
+          "explanation": "The sum of 10 and 15 is 25, which is the result of addition.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the sum of 7 and 2?",
+          "correctAnswer": "9",
+          "wrongAnswer1": "8",
+          "wrongAnswer2": "10",
+          "wrongAnswer3": "7",
+          "explanation": "Adding 7 and 2 gives 9 because 7 plus 2 equals 9.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Subtraction",
+      "questions": [
+        {
+          "question": "What is the result of subtracting 7 from 15?",
+          "correctAnswer": "8",
+          "wrongAnswer1": "22",
+          "wrongAnswer2": "-8",
+          "wrongAnswer3": "5",
+          "explanation": "Subtracting 7 from 15 means 15 - 7, which equals 8.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If you have 20 apples and give away 12, how many apples do you have left?",
+          "correctAnswer": "8",
+          "wrongAnswer1": "32",
+          "wrongAnswer2": "12",
+          "wrongAnswer3": "28",
+          "explanation": "Subtracting the given apples from the total: 20 - 12 = 8 apples left.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the difference between 50 and 23?",
+          "correctAnswer": "27",
+          "wrongAnswer1": "73",
+          "wrongAnswer2": "17",
+          "wrongAnswer3": "33",
+          "explanation": "The difference is found by subtracting the smaller number from the bigger one: 50 - 23 = 27.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Multiplication",
+      "questions": [
+        {
+          "question": "What is the product of 4 and 6?",
+          "correctAnswer": "24",
+          "wrongAnswer1": "10",
+          "wrongAnswer2": "20",
+          "wrongAnswer3": "30",
+          "explanation": "Multiplying 4 by 6 gives 24 because 4 times 6 equals 24.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which number do you get when you multiply 7 by 5?",
+          "correctAnswer": "35",
+          "wrongAnswer1": "12",
+          "wrongAnswer2": "40",
+          "wrongAnswer3": "25",
+          "explanation": "Multiplying 7 by 5 results in 35 because 7 times 5 is 35.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If you multiply 9 by 3, what is the result?",
+          "correctAnswer": "27",
+          "wrongAnswer1": "21",
+          "wrongAnswer2": "36",
+          "wrongAnswer3": "30",
+          "explanation": "Multiplying 9 by 3 equals 27 because 9 times 3 is 27.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Division",
+      "questions": [
+        {
+          "question": "What does the division operation represent in basic math?",
+          "correctAnswer": "Splitting a number into equal parts",
+          "wrongAnswer1": "Adding two numbers together",
+          "wrongAnswer2": "Multiplying numbers for total",
+          "wrongAnswer3": "Subtracting one number from another",
+          "explanation": "Division is the process of splitting a number into equal parts or groups.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is the result of dividing 12 by 3?",
+          "correctAnswer": "4",
+          "wrongAnswer1": "6",
+          "wrongAnswer2": "9",
+          "wrongAnswer3": "3",
+          "explanation": "Dividing 12 by 3 gives 4 because 3 times 4 equals 12.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If you divide 20 by 5, what is the quotient?",
+          "correctAnswer": "4",
+          "wrongAnswer1": "5",
+          "wrongAnswer2": "10",
+          "wrongAnswer3": "15",
+          "explanation": "20 divided by 5 equals 4 since 5 multiplied by 4 equals 20.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Fractions",
+      "questions": [
+        {
+          "question": "What is a fraction?",
+          "correctAnswer": "A part of a whole expressed as numerator over denominator",
+          "wrongAnswer1": "A whole number without any parts",
+          "wrongAnswer2": "A decimal number greater than one",
+          "wrongAnswer3": "A percentage of a whole",
+          "explanation": "A fraction represents a part of a whole number and is written with a numerator and a denominator.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following represents one half as a fraction?",
+          "correctAnswer": "1 over 2",
+          "wrongAnswer1": "2 over 1",
+          "wrongAnswer2": "1 over 3",
+          "wrongAnswer3": "3 over 2",
+          "explanation": "One half is represented as one part out of two equal parts, written as 1/2.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you add fractions with the same denominator?",
+          "correctAnswer": "Add the numerators and keep the same denominator",
+          "wrongAnswer1": "Add the denominators and keep the same numerator",
+          "wrongAnswer2": "Multiply the numerators and multiply the denominators",
+          "wrongAnswer3": "Subtract the numerators and change the denominator",
+          "explanation": "When adding fractions with the same denominator, you add the numerators and keep the denominator unchanged.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Decimals",
+      "questions": [
+        {
+          "question": "What does the decimal point in a number represent?",
+          "correctAnswer": "A separator between the whole number and the fractional part",
+          "wrongAnswer1": "A symbol for multiplication",
+          "wrongAnswer2": "A sign that the number is negative",
+          "wrongAnswer3": "A way to separate thousands",
+          "explanation": "The decimal point separates the integer part of the number from the fractional part in decimal numbers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a decimal number?",
+          "correctAnswer": "3.75",
+          "wrongAnswer1": "4",
+          "wrongAnswer2": "15",
+          "wrongAnswer3": "7",
+          "explanation": "A decimal number has digits to the right of the decimal point, such as 3.75, which represents three whole units and seventy-five hundredths.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you read the decimal number 0.5?",
+          "correctAnswer": "Five tenths",
+          "wrongAnswer1": "Fifty",
+          "wrongAnswer2": "Five",
+          "wrongAnswer3": "Zero point five hundred",
+          "explanation": "The decimal 0.5 is read as five tenths, indicating five parts out of ten.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Percentages",
+      "questions": [
+        {
+          "question": "What does 25 percent mean?",
+          "correctAnswer": "25 out of 100 parts",
+          "wrongAnswer1": "25 out of 50 parts",
+          "wrongAnswer2": "25 times 100",
+          "wrongAnswer3": "100 minus 25",
+          "explanation": "Percent means per hundred, so 25 percent is 25 out of 100 parts.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you convert 0.45 to a percentage?",
+          "correctAnswer": "Multiply by 100 to get 45 percent",
+          "wrongAnswer1": "Divide by 100 to get 0.0045 percent",
+          "wrongAnswer2": "Add 100 to get 100.45 percent",
+          "wrongAnswer3": "Subtract 45 to get -44.55 percent",
+          "explanation": "To convert a decimal to a percentage, multiply by 100 and add the percent sign.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If a shirt originally costs 50 dollars and is on sale for 20 percent off, what is the sale price?",
+          "correctAnswer": "40 dollars",
+          "wrongAnswer1": "30 dollars",
+          "wrongAnswer2": "45 dollars",
+          "wrongAnswer3": "35 dollars",
+          "explanation": "20 percent of 50 dollars is 10 dollars off, so sale price is 50 minus 10 equals 40 dollars.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Number Line",
+      "questions": [
+        {
+          "question": "What does a number line visually represent?",
+          "correctAnswer": "A line with numbers placed in order from least to greatest",
+          "wrongAnswer1": "A chart of random numbers without order",
+          "wrongAnswer2": "A set of numbers shown as isolated dots",
+          "wrongAnswer3": "A list of numbers arranged alphabetically",
+          "explanation": "A number line is a visual representation where numbers are placed on a line from least to greatest, helping understand numerical order and magnitude.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "On a number line, which direction usually represents the numbers increasing in value?",
+          "correctAnswer": "Right",
+          "wrongAnswer1": "Left",
+          "wrongAnswer2": "Down",
+          "wrongAnswer3": "Up",
+          "explanation": "On a number line, numbers increase in value as you move to the right, and decrease as you move to the left.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If zero is in the middle of a number line, what kind of numbers appear on the left?",
+          "correctAnswer": "Negative numbers",
+          "wrongAnswer1": "Positive numbers",
+          "wrongAnswer2": "Neutral numbers",
+          "wrongAnswer3": "Odd numbers",
+          "explanation": "On a number line, negative numbers are placed to the left of zero, indicating values less than zero.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Even Numbers",
+      "questions": [
+        {
+          "question": "Which of the following numbers is an even number?",
+          "correctAnswer": "28",
+          "wrongAnswer1": "37",
+          "wrongAnswer2": "19",
+          "wrongAnswer3": "13",
+          "explanation": "An even number is any integer divisible by 2 without a remainder. 28 divided by 2 equals 14, which is a whole number.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What number is even?",
+          "correctAnswer": "46",
+          "wrongAnswer1": "29",
+          "wrongAnswer2": "57",
+          "wrongAnswer3": "33",
+          "explanation": "Even numbers end in 0, 2, 4, 6, or 8. Among the options, only 46 ends with an even digit and is divisible by 2.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these numbers is even?",
+          "correctAnswer": "82",
+          "wrongAnswer1": "51",
+          "wrongAnswer2": "75",
+          "wrongAnswer3": "93",
+          "explanation": "Even numbers are divisible by 2. 82 divided by 2 equals 41, which is whole, making it an even number.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Odd Numbers",
+      "questions": [
+        {
+          "question": "Which of the following is an odd number?",
+          "correctAnswer": "7",
+          "wrongAnswer1": "4",
+          "wrongAnswer2": "6",
+          "wrongAnswer3": "8",
+          "explanation": "Odd numbers are integers that are not divisible by 2 without a remainder. 7 divided by 2 leaves a remainder, making it an odd number.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the next odd number after 15?",
+          "correctAnswer": "17",
+          "wrongAnswer1": "16",
+          "wrongAnswer2": "18",
+          "wrongAnswer3": "14",
+          "explanation": "Odd numbers increase by 2 when moving to the next odd number. After 15, the next odd number is 17.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these sets contains only odd numbers?",
+          "correctAnswer": "1, 3, 5, 7",
+          "wrongAnswer1": "2, 3, 5, 7",
+          "wrongAnswer2": "1, 4, 5, 7",
+          "wrongAnswer3": "1, 3, 6, 7",
+          "explanation": "Odd numbers are numbers which are not divisible by 2. The set 1, 3, 5, 7 contains only odd numbers.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Prime Numbers",
+      "questions": [
+        {
+          "question": "What is a prime number?",
+          "correctAnswer": "A number that has exactly two distinct positive divisors",
+          "wrongAnswer1": "A number that is divisible by three different numbers",
+          "wrongAnswer2": "A number that is even and greater than 2",
+          "wrongAnswer3": "A number that can be divided evenly by 1, 2, and itself",
+          "explanation": "A prime number is defined as a number greater than 1 that has no positive divisors other than 1 and itself.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a prime number?",
+          "correctAnswer": "17",
+          "wrongAnswer1": "18",
+          "wrongAnswer2": "21",
+          "wrongAnswer3": "27",
+          "explanation": "17 is a prime number because it has only two divisors: 1 and 17.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which number is not a prime number?",
+          "correctAnswer": "12",
+          "wrongAnswer1": "2",
+          "wrongAnswer2": "3",
+          "wrongAnswer3": "5",
+          "explanation": "12 is not prime because it has divisors other than 1 and itself (for example, 2, 3, 4, and 6).",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Composite Numbers",
+      "questions": [
+        {
+          "question": "What defines a composite number?",
+          "correctAnswer": "A number with more than two factors",
+          "wrongAnswer1": "A number with only one factor",
+          "wrongAnswer2": "A number that is prime",
+          "wrongAnswer3": "A number divisible only by 1 and itself",
+          "explanation": "A composite number has factors other than 1 and itself, meaning it has more than two factors.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a composite number?",
+          "correctAnswer": "12",
+          "wrongAnswer1": "7",
+          "wrongAnswer2": "5",
+          "wrongAnswer3": "2",
+          "explanation": "12 has factors 1, 2, 3, 4, 6, and 12, so it is composite, while 7, 5, and 2 are prime numbers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is the number 1 not considered composite?",
+          "correctAnswer": "It has only one factor",
+          "wrongAnswer1": "It has exactly two factors",
+          "wrongAnswer2": "It is a prime number",
+          "wrongAnswer3": "It is an even number",
+          "explanation": "The number 1 is neither prime nor composite because it has only one factor, which is itself.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Factors",
+      "questions": [
+        {
+          "question": "What is a factor of the number 12?",
+          "correctAnswer": "3",
+          "wrongAnswer1": "5",
+          "wrongAnswer2": "7",
+          "wrongAnswer3": "11",
+          "explanation": "A factor is a number that divides another number without leaving a remainder. 3 divides 12 exactly, while 5, 7, and 11 do not.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following numbers is NOT a factor of 24?",
+          "correctAnswer": "7",
+          "wrongAnswer1": "4",
+          "wrongAnswer2": "6",
+          "wrongAnswer3": "8",
+          "explanation": "7 does not divide 24 evenly, so it is not a factor. Numbers 4, 6, and 8 do divide 24 exactly, making them factors.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If 5 is a factor of a number, which of these must also be a factor?",
+          "correctAnswer": "10",
+          "wrongAnswer1": "9",
+          "wrongAnswer2": "12",
+          "wrongAnswer3": "7",
+          "explanation": "If 5 is a factor, then multiples of 5, such as 10, are also factors, assuming the number is large enough. 9, 12, and 7 are not related multiples of 5.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Multiples",
+      "questions": [
+        {
+          "question": "What is a multiple of 4?",
+          "correctAnswer": "8",
+          "wrongAnswer1": "9",
+          "wrongAnswer2": "7",
+          "wrongAnswer3": "11",
+          "explanation": "A multiple of 4 is a number that can be divided by 4 without a remainder. 8 is divisible by 4.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which number is not a multiple of 5?",
+          "correctAnswer": "12",
+          "wrongAnswer1": "15",
+          "wrongAnswer2": "20",
+          "wrongAnswer3": "10",
+          "explanation": "Multiples of 5 end in 5 or 0. Since 12 does not, it is not a multiple of 5.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If a number is a multiple of 3, which must be true?",
+          "correctAnswer": "It can be divided evenly by 3",
+          "wrongAnswer1": "It is always an odd number",
+          "wrongAnswer2": "It ends with a 0",
+          "wrongAnswer3": "It is prime",
+          "explanation": "Multiples of 3 are divisible by 3 with no remainder. They can be odd or even and do not necessarily end with 0.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Place Value",
+      "questions": [
+        {
+          "question": "What is the place value of 5 in the number 352?",
+          "correctAnswer": "5 is in the ones place, so its value is 5",
+          "wrongAnswer1": "5 is in the tens place, so its value is 50",
+          "wrongAnswer2": "5 is in the hundreds place, so its value is 500",
+          "wrongAnswer3": "5 is in the thousands place, so its value is 5000",
+          "explanation": "The digit 5 is in the ones place in the number 352, so its place value is 5.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In the number 4,276, what is the place value of 7?",
+          "correctAnswer": "7 is in the tens place, so its value is 70",
+          "wrongAnswer1": "7 is in the ones place, so its value is 7",
+          "wrongAnswer2": "7 is in the hundreds place, so its value is 700",
+          "wrongAnswer3": "7 is in the thousands place, so its value is 7000",
+          "explanation": "The digit 7 is located in the tens place, so its value is 7 times 10, which equals 70.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you determine the place value of a digit in a number?",
+          "correctAnswer": "By identifying the position of the digit from right to left and using the place values such as ones, tens, hundreds, etc.",
+          "wrongAnswer1": "By adding all the digits together and dividing by the number of digits",
+          "wrongAnswer2": "By counting how many times the digit appears in the number",
+          "wrongAnswer3": "By multiplying the digit by 10 regardless of its position",
+          "explanation": "Place value is determined by the position of the digit in the number, starting from the right as ones, then tens, hundreds, and so on.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Rounding Numbers",
+      "questions": [
+        {
+          "question": "What is the result of rounding the number 27.36 to the nearest whole number?",
+          "correctAnswer": "27",
+          "wrongAnswer1": "28",
+          "wrongAnswer2": "26",
+          "wrongAnswer3": "30",
+          "explanation": "When rounding 27.36 to the nearest whole number, you look at the first decimal place, which is 3. Since it is less than 5, you round down to 27.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If you round 45.67 to the nearest tenth, what number do you get?",
+          "correctAnswer": "45.7",
+          "wrongAnswer1": "45.6",
+          "wrongAnswer2": "46.0",
+          "wrongAnswer3": "45.0",
+          "explanation": "To round 45.67 to the nearest tenth, look at the hundredths place which is 7. Since it is 5 or more, you round up the tenths place from 6 to 7, making it 45.7.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which number is the result of rounding 154 to the nearest hundred?",
+          "correctAnswer": "200",
+          "wrongAnswer1": "150",
+          "wrongAnswer2": "100",
+          "wrongAnswer3": "154",
+          "explanation": "To round 154 to the nearest hundred, look at the tens place which is 5. Since it is 5 or more, you round up the hundreds place from 1 to 2, making it 200.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Estimation",
+      "questions": [
+        {
+          "question": "What is the best estimate of 48 plus 53?",
+          "correctAnswer": "About 100",
+          "wrongAnswer1": "About 80",
+          "wrongAnswer2": "About 60",
+          "wrongAnswer3": "About 150",
+          "explanation": "When estimating the sum of 48 and 53, it is easier to round each number to the nearest ten: 50 plus 50 equals 100.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If you want to estimate the product of 19 and 6, which estimate is most reasonable?",
+          "correctAnswer": "About 120",
+          "wrongAnswer1": "About 60",
+          "wrongAnswer2": "About 90",
+          "wrongAnswer3": "About 200",
+          "explanation": "Rounding 19 to 20 and multiplying by 6 gives 20 times 6 equals 120, which is a good estimate.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method can you use to estimate the difference between 84 and 37?",
+          "correctAnswer": "Round numbers and subtract",
+          "wrongAnswer1": "Add the numbers and then divide by 2",
+          "wrongAnswer2": "Multiply the numbers first",
+          "wrongAnswer3": "Use exact subtraction only",
+          "explanation": "For estimation, rounding the numbers (for example to 80 and 40) and then subtracting (80 minus 40) provides an approximate difference.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Order Operations",
+      "questions": [
+        {
+          "question": "What is the correct order of operations in solving mathematical expressions?",
+          "correctAnswer": "Parentheses, exponents, multiplication and division, addition and subtraction",
+          "wrongAnswer1": "Addition, subtraction, multiplication, division, parentheses",
+          "wrongAnswer2": "Multiplication, division, addition, subtraction, exponents",
+          "wrongAnswer3": "Exponents, parentheses, multiplication, division, addition",
+          "explanation": "The correct order of operations is Parentheses, exponents, multiplication and division (left to right), then addition and subtraction (left to right). This rule is often remembered by the acronym PEMDAS.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If you have the expression 3 + 6 x 2, which operation should you perform first?",
+          "correctAnswer": "Multiply 6 by 2 first",
+          "wrongAnswer1": "Add 3 and 6 first",
+          "wrongAnswer2": "Add 3 and 2 first",
+          "wrongAnswer3": "Multiply 3 by 6 first",
+          "explanation": "According to order of operations you multiply before you add, so multiply 6 by 2 first, then add 3.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is it important to follow the order of operations when solving a math problem?",
+          "correctAnswer": "To ensure everyone solves expressions the same way and gets the correct answer",
+          "wrongAnswer1": "To make solving problems slower",
+          "wrongAnswer2": "To confuse students with rules",
+          "wrongAnswer3": "To avoid using parentheses",
+          "explanation": "Following the order of operations standardizes how expressions are solved so that everyone arrives at the same and correct answer.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Algebra Basics",
+      "questions": [
+        {
+          "question": "What is the solution to the equation 2x + 3 = 11?",
+          "correctAnswer": "x equals 4",
+          "wrongAnswer1": "x equals 7",
+          "wrongAnswer2": "x equals 3",
+          "wrongAnswer3": "x equals 8",
+          "explanation": "To solve 2x + 3 = 11, subtract 3 from both sides to get 2x = 8, then divide both sides by 2 to get x = 4.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the variable x represent in algebra?",
+          "correctAnswer": "An unknown value to be found",
+          "wrongAnswer1": "A fixed number",
+          "wrongAnswer2": "An operator between numbers",
+          "wrongAnswer3": "A constant value",
+          "explanation": "In algebra, variables like x represent unknown values that we often solve for.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a correct way to write an algebraic expression?",
+          "correctAnswer": "3x + 5",
+          "wrongAnswer1": "3 + x = 5",
+          "wrongAnswer2": "x 3 + 5",
+          "wrongAnswer3": "3x equals 5",
+          "explanation": "An algebraic expression shows numbers and variables combined with operations. 3x + 5 is an expression, while other options are equations or incorrectly formed.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Geometry Basics",
+      "questions": [
+        {
+          "question": "What is the sum of the interior angles of a triangle?",
+          "correctAnswer": "180 degrees",
+          "wrongAnswer1": "90 degrees",
+          "wrongAnswer2": "360 degrees",
+          "wrongAnswer3": "270 degrees",
+          "explanation": "The sum of the interior angles in any triangle is always 180 degrees.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which shape has all sides equal and all angles equal?",
+          "correctAnswer": "Square",
+          "wrongAnswer1": "Rectangle",
+          "wrongAnswer2": "Trapezoid",
+          "wrongAnswer3": "Rhombus",
+          "explanation": "A square has four equal sides and four equal angles of 90 degrees each.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What do you call a polygon with five sides?",
+          "correctAnswer": "Pentagon",
+          "wrongAnswer1": "Hexagon",
+          "wrongAnswer2": "Quadrilateral",
+          "wrongAnswer3": "Octagon",
+          "explanation": "A polygon with five sides is called a pentagon.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Measurement Units",
+      "questions": [
+        {
+          "question": "Which unit is used to measure length?",
+          "correctAnswer": "Meter",
+          "wrongAnswer1": "Liter",
+          "wrongAnswer2": "Kilogram",
+          "wrongAnswer3": "Second",
+          "explanation": "Meter is the standard unit used to measure length.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What unit is commonly used to measure liquid volume?",
+          "correctAnswer": "Liter",
+          "wrongAnswer1": "Gram",
+          "wrongAnswer2": "Meter",
+          "wrongAnswer3": "Watt",
+          "explanation": "Liter is commonly used to measure the volume of liquids.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which unit is used to measure weight or mass?",
+          "correctAnswer": "Kilogram",
+          "wrongAnswer1": "Meter",
+          "wrongAnswer2": "Second",
+          "wrongAnswer3": "Celsius",
+          "explanation": "Kilogram is the unit used to measure mass or weight.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Time Units",
+      "questions": [
+        {
+          "question": "How many minutes are there in one hour?",
+          "correctAnswer": "60 minutes",
+          "wrongAnswer1": "30 minutes",
+          "wrongAnswer2": "100 minutes",
+          "wrongAnswer3": "45 minutes",
+          "explanation": "There are 60 minutes in one hour by definition.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the number of seconds in 2 minutes?",
+          "correctAnswer": "120 seconds",
+          "wrongAnswer1": "60 seconds",
+          "wrongAnswer2": "180 seconds",
+          "wrongAnswer3": "240 seconds",
+          "explanation": "Each minute has 60 seconds, so 2 minutes have 2 times 60 seconds, which is 120 seconds.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How many hours are there typically in one day?",
+          "correctAnswer": "24 hours",
+          "wrongAnswer1": "12 hours",
+          "wrongAnswer2": "48 hours",
+          "wrongAnswer3": "36 hours",
+          "explanation": "A standard day has 24 hours.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Money Calculations",
+      "questions": [
+        {
+          "question": "If you have 5 dollars and you buy a toy that costs 3 dollars, how much money do you have left?",
+          "correctAnswer": "2 dollars",
+          "wrongAnswer1": "8 dollars",
+          "wrongAnswer2": "1 dollar",
+          "wrongAnswer3": "5 dollars",
+          "explanation": "Subtract the cost of the toy from your total money: 5 - 3 = 2 dollars left.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "You earn 10 dollars doing chores and then spend 4 dollars on snacks. How much money do you have now?",
+          "correctAnswer": "6 dollars",
+          "wrongAnswer1": "14 dollars",
+          "wrongAnswer2": "10 dollars",
+          "wrongAnswer3": "4 dollars",
+          "explanation": "Subtract the money spent from the money earned: 10 - 4 = 6 dollars remaining.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If an apple costs 2 dollars and you buy 3 apples, how much do you spend in total?",
+          "correctAnswer": "6 dollars",
+          "wrongAnswer1": "5 dollars",
+          "wrongAnswer2": "3 dollars",
+          "wrongAnswer3": "8 dollars",
+          "explanation": "Multiply the cost of one apple by the quantity: 2 x 3 = 6 dollars spent.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Graphs Interpretation",
+      "questions": [
+        {
+          "question": "What does the point where the line crosses the y-axis represent in a graph?",
+          "correctAnswer": "The y-intercept, showing the value when x is zero",
+          "wrongAnswer1": "The slope of the line, showing the rate of change",
+          "wrongAnswer2": "The maximum value of the graph",
+          "wrongAnswer3": "The area under the curve",
+          "explanation": "The y-intercept is the point where a line crosses the y-axis, representing the value of y when x is zero.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If a graph shows a line going upwards from left to right, what does it indicate?",
+          "correctAnswer": "A positive relationship between the variables",
+          "wrongAnswer1": "A negative relationship between the variables",
+          "wrongAnswer2": "No relationship between the variables",
+          "wrongAnswer3": "The graph is incorrect",
+          "explanation": "An upward-sloping line indicates a positive correlation where as one variable increases, the other also increases.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What can you determine from the slope of a line on a graph?",
+          "correctAnswer": "The rate of change between the variables",
+          "wrongAnswer1": "The total amount of data points",
+          "wrongAnswer2": "The midpoint of the graph",
+          "wrongAnswer3": "The type of data being graphed",
+          "explanation": "The slope represents how much the y-variable changes for a unit change in the x-variable, showing the rate of change.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Data Analysis",
+      "questions": [
+        {
+          "question": "What is the mean of the dataset 4, 8, 6, 5, 3?",
+          "correctAnswer": "5.2",
+          "wrongAnswer1": "4.5",
+          "wrongAnswer2": "6.0",
+          "wrongAnswer3": "5.0",
+          "explanation": "The mean is calculated by adding all numbers and dividing by the count. (4+8+6+5+3)/5 = 26/5 = 5.2",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which measure of central tendency is most affected by extreme values?",
+          "correctAnswer": "Mean",
+          "wrongAnswer1": "Median",
+          "wrongAnswer2": "Mode",
+          "wrongAnswer3": "Range",
+          "explanation": "The mean is sensitive to extremely high or low values because it considers all data points in the calculation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the median of the dataset 1, 3, 7, 8, 9?",
+          "correctAnswer": "7",
+          "wrongAnswer1": "3",
+          "wrongAnswer2": "8",
+          "wrongAnswer3": "9",
+          "explanation": "The median is the middle value in an ordered dataset. Here the ordered set is 1,3,7,8,9 and the middle value is 7.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Probability Basics",
+      "questions": [
+        {
+          "question": "What is the probability of flipping a fair coin and getting heads?",
+          "correctAnswer": "One half",
+          "wrongAnswer1": "One third",
+          "wrongAnswer2": "One quarter",
+          "wrongAnswer3": "One",
+          "explanation": "A fair coin has two sides, so the chance of landing on heads is one out of two, which is one half.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If you roll a standard six-sided die, what is the probability of rolling a number greater than four?",
+          "correctAnswer": "One third",
+          "wrongAnswer1": "One half",
+          "wrongAnswer2": "One sixth",
+          "wrongAnswer3": "Two thirds",
+          "explanation": "Numbers greater than four on a die are five and six, which are 2 outcomes out of 6 possible, simplifying to one third.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When drawing a single card from a standard deck of 52 cards, what is the probability of drawing a heart?",
+          "correctAnswer": "One fourth",
+          "wrongAnswer1": "One third",
+          "wrongAnswer2": "One sixth",
+          "wrongAnswer3": "One half",
+          "explanation": "There are 13 hearts in a deck of 52 cards, so the probability of drawing a heart is 13/52, which simplifies to one fourth.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Patterns Recognition",
+      "questions": [
+        {
+          "question": "What comes next in the sequence 2, 4, 6, 8, ?",
+          "correctAnswer": "10",
+          "wrongAnswer1": "12",
+          "wrongAnswer2": "14",
+          "wrongAnswer3": "16",
+          "explanation": "The sequence increases by 2 each time, so the next number after 8 is 10.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In the pattern A, B, A, B, A, ? what is the next letter?",
+          "correctAnswer": "B",
+          "wrongAnswer1": "A",
+          "wrongAnswer2": "C",
+          "wrongAnswer3": "D",
+          "explanation": "The pattern alternates between A and B, so after A comes B.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If the pattern is 1, 3, 6, 10, 15, what is the next number?",
+          "correctAnswer": "21",
+          "wrongAnswer1": "18",
+          "wrongAnswer2": "20",
+          "wrongAnswer3": "22",
+          "explanation": "The pattern adds consecutive natural numbers: 2, 3, 4, 5, so the next addition is 6, making 15 plus 6 equals 21.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Sequences",
+      "questions": [
+        {
+          "question": "What is the next number in the sequence 2, 4, 6, 8?",
+          "correctAnswer": "10",
+          "wrongAnswer1": "12",
+          "wrongAnswer2": "9",
+          "wrongAnswer3": "14",
+          "explanation": "This is an arithmetic sequence increasing by 2 each time, so 8 plus 2 equals 10.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In the sequence 1, 3, 6, 10, 15 what type of sequence is this?",
+          "correctAnswer": "Triangular numbers",
+          "wrongAnswer1": "Geometric sequence",
+          "wrongAnswer2": "Arithmetic sequence",
+          "wrongAnswer3": "Fibonacci sequence",
+          "explanation": "This sequence adds an increasing number each time (1, then 2, then 3, etc.) and represents triangular numbers.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "If a sequence starts 3, 9, 27, 81, what is the rule for the sequence?",
+          "correctAnswer": "Multiply by 3 each time",
+          "wrongAnswer1": "Add 3 each time",
+          "wrongAnswer2": "Add 6 each time",
+          "wrongAnswer3": "Multiply by 2 each time",
+          "explanation": "Each term is the previous term multiplied by 3, which is a geometric sequence with common ratio 3.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Negative Numbers",
+      "questions": [
+        {
+          "question": "What is the result of adding a negative number to a positive number?",
+          "correctAnswer": "It depends on which absolute value is larger",
+          "wrongAnswer1": "The result is always positive",
+          "wrongAnswer2": "The result is always negative",
+          "wrongAnswer3": "The result is always zero",
+          "explanation": "Adding a negative number to a positive number results in a value that depends on the absolute values of the numbers involved. If the positive number is larger, the sum is positive, if the negative is larger, the sum is negative, and if they are equal, the sum is zero.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the value of negative five plus negative three?",
+          "correctAnswer": "Negative eight",
+          "wrongAnswer1": "Positive eight",
+          "wrongAnswer2": "Zero",
+          "wrongAnswer3": "Negative two",
+          "explanation": "When adding two negative numbers, you add their absolute values and keep the negative sign, so negative five plus negative three equals negative eight.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about negative numbers?",
+          "correctAnswer": "They are less than zero",
+          "wrongAnswer1": "They are greater than zero",
+          "wrongAnswer2": "They are the same as zero",
+          "wrongAnswer3": "They are only used in multiplication",
+          "explanation": "Negative numbers are all less than zero and are used to represent values below zero. They are not greater than or equal to zero and are applicable in many arithmetic operations, not just multiplication.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Absolute Value",
+      "questions": [
+        {
+          "question": "What is the absolute value of negative five?",
+          "correctAnswer": "Five",
+          "wrongAnswer1": "Negative five",
+          "wrongAnswer2": "Zero",
+          "wrongAnswer3": "Negative one",
+          "explanation": "The absolute value of a number is its distance from zero on the number line without considering direction, so the absolute value of negative five is five.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following represents the absolute value of a number x?",
+          "correctAnswer": "The distance between x and zero on the number line",
+          "wrongAnswer1": "The value of x squared",
+          "wrongAnswer2": "The negative of x",
+          "wrongAnswer3": "The value of x plus one",
+          "explanation": "Absolute value represents the distance from zero on the number line, regardless of whether x is positive or negative.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If the absolute value of a number x is 7, what could x be?",
+          "correctAnswer": "7 or negative 7",
+          "wrongAnswer1": "Only 7",
+          "wrongAnswer2": "Only negative 7",
+          "wrongAnswer3": "0",
+          "explanation": "The absolute value of x is 7 means x can be either 7 or negative 7, since both are seven units away from zero.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Square Numbers",
+      "questions": [
+        {
+          "question": "What is the square of 5?",
+          "correctAnswer": "25",
+          "wrongAnswer1": "10",
+          "wrongAnswer2": "20",
+          "wrongAnswer3": "15",
+          "explanation": "Square of a number is that number multiplied by itself, so 5 times 5 equals 25.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a square number?",
+          "correctAnswer": "36",
+          "wrongAnswer1": "30",
+          "wrongAnswer2": "28",
+          "wrongAnswer3": "26",
+          "explanation": "36 is a square number because it is 6 multiplied by 6.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "The square of which number is 49?",
+          "correctAnswer": "7",
+          "wrongAnswer1": "6",
+          "wrongAnswer2": "8",
+          "wrongAnswer3": "9",
+          "explanation": "7 times 7 equals 49, so the square of 7 is 49.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Square Root",
+      "questions": [
+        {
+          "question": "What is the square root of 81?",
+          "correctAnswer": "9",
+          "wrongAnswer1": "8",
+          "wrongAnswer2": "7",
+          "wrongAnswer3": "6",
+          "explanation": "The square root of 81 is 9 because 9 times 9 equals 81.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which number when squared gives 64?",
+          "correctAnswer": "8",
+          "wrongAnswer1": "6",
+          "wrongAnswer2": "7",
+          "wrongAnswer3": "9",
+          "explanation": "8 squared (8 times 8) equals 64, so the square root of 64 is 8.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the square root of 100?",
+          "correctAnswer": "10",
+          "wrongAnswer1": "9",
+          "wrongAnswer2": "11",
+          "wrongAnswer3": "12",
+          "explanation": "The square root of 100 is 10 because 10 times 10 equals 100.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Exponents",
+      "questions": [
+        {
+          "question": "What does the exponent in a power expression represent?",
+          "correctAnswer": "The number of times the base is multiplied by itself",
+          "wrongAnswer1": "The number that is being multiplied",
+          "wrongAnswer2": "The sum of the base and the exponent",
+          "wrongAnswer3": "The result of the multiplication",
+          "explanation": "In an expression like 3 to the power of 4, the exponent 4 indicates that 3 is multiplied by itself 4 times.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the value of 2 raised to the power of 3?",
+          "correctAnswer": "8",
+          "wrongAnswer1": "6",
+          "wrongAnswer2": "9",
+          "wrongAnswer3": "5",
+          "explanation": "2 to the power of 3 means 2 multiplied by itself 3 times, which is 2 times 2 times 2 equals 8.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If a number is raised to the power of zero, what is the value?",
+          "correctAnswer": "1",
+          "wrongAnswer1": "0",
+          "wrongAnswer2": "The number itself",
+          "wrongAnswer3": "Undefined",
+          "explanation": "Any nonzero number raised to the power of zero is always equal to 1.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Inequalities",
+      "questions": [
+        {
+          "question": "What does the inequality symbol '<' mean in math?",
+          "correctAnswer": "Less than",
+          "wrongAnswer1": "Greater than",
+          "wrongAnswer2": "Equal to",
+          "wrongAnswer3": "Not equal to",
+          "explanation": "The symbol '<' indicates that the value on the left is less than the value on the right.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If 5 x is greater than 15, what is the solution for x?",
+          "correctAnswer": "x is greater than 3",
+          "wrongAnswer1": "x is less than 3",
+          "wrongAnswer2": "x is equal to 3",
+          "wrongAnswer3": "x is not equal to 3",
+          "explanation": "Dividing both sides of the inequality 5x > 15 by 5 gives x > 3.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which is the correct inequality for this statement: Seven is not equal to nine?",
+          "correctAnswer": "7 does not equal 9",
+          "wrongAnswer1": "7 is less than 9",
+          "wrongAnswer2": "7 is greater than 9",
+          "wrongAnswer3": "7 equals 9",
+          "explanation": "The inequality for 'not equal' is written as a symbol showing two values are not the same.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Decimals Addition",
+      "questions": [
+        {
+          "question": "What is the sum of 3.2 and 4.45?",
+          "correctAnswer": "7.65",
+          "wrongAnswer1": "7.75",
+          "wrongAnswer2": "6.75",
+          "wrongAnswer3": "8.65",
+          "explanation": "Adding the decimal numbers 3.2 and 4.45 results in 7.65.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When you add 5.5 and 2.25, what do you get?",
+          "correctAnswer": "7.75",
+          "wrongAnswer1": "7.65",
+          "wrongAnswer2": "6.75",
+          "wrongAnswer3": "8.75",
+          "explanation": "Adding 5.5 and 2.25 gives a total of 7.75.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Calculate the sum of 0.75 and 1.3.",
+          "correctAnswer": "2.05",
+          "wrongAnswer1": "1.85",
+          "wrongAnswer2": "2.15",
+          "wrongAnswer3": "1.95",
+          "explanation": "Adding 0.75 and 1.3 equals 2.05.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Decimals Subtraction",
+      "questions": [
+        {
+          "question": "What is 5.6 minus 3.2?",
+          "correctAnswer": "2.4",
+          "wrongAnswer1": "8.8",
+          "wrongAnswer2": "1.4",
+          "wrongAnswer3": "3.8",
+          "explanation": "Subtracting 3.2 from 5.6 results in 2.4 because 5.6 - 3.2 = 2.4.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you subtract 4.75 from 9.00?",
+          "correctAnswer": "4.25",
+          "wrongAnswer1": "13.75",
+          "wrongAnswer2": "5.25",
+          "wrongAnswer3": "3.25",
+          "explanation": "When you subtract 4.75 from 9.00, you get 4.25 because 9.00 - 4.75 = 4.25.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Calculate 10.05 minus 2.5.",
+          "correctAnswer": "7.55",
+          "wrongAnswer1": "12.55",
+          "wrongAnswer2": "7.45",
+          "wrongAnswer3": "6.55",
+          "explanation": "The decimal subtraction of 2.5 from 10.05 is 7.55 because 10.05 - 2.5 = 7.55.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Decimals Multiplication",
+      "questions": [
+        {
+          "question": "What is the product of 0.5 and 0.2?",
+          "correctAnswer": "0.1",
+          "wrongAnswer1": "0.7",
+          "wrongAnswer2": "1.0",
+          "wrongAnswer3": "0.02",
+          "explanation": "When multiplying decimals, multiply as whole numbers ignoring the decimals then place the decimal point in the product. 0.5 times 0.2 equals 0.1.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you multiply 1.3 by 4.0?",
+          "correctAnswer": "5.2",
+          "wrongAnswer1": "5.4",
+          "wrongAnswer2": "4.8",
+          "wrongAnswer3": "6.3",
+          "explanation": "Multiply 13 by 40, then place the decimal to get the correct answer. 1.3 times 4.0 equals 5.2.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the result of 2.5 multiplied by 0.4?",
+          "correctAnswer": "1.0",
+          "wrongAnswer1": "1.5",
+          "wrongAnswer2": "0.1",
+          "wrongAnswer3": "0.9",
+          "explanation": "Multiply 25 by 4 to get 100, then place the decimal point correctly to get 1.0 as the product.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Decimals Division",
+      "questions": [
+        {
+          "question": "When dividing a decimal by 10, what happens to the decimal point?",
+          "correctAnswer": "It moves one place to the left",
+          "wrongAnswer1": "It moves one place to the right",
+          "wrongAnswer2": "It stays in the same place",
+          "wrongAnswer3": "It moves two places to the left",
+          "explanation": "Dividing by 10 shifts the decimal point one place to the left, reducing its value by a factor of ten.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the result of 4.5 divided by 0.5?",
+          "correctAnswer": "9",
+          "wrongAnswer1": "0.9",
+          "wrongAnswer2": "45",
+          "wrongAnswer3": "0.45",
+          "explanation": "Dividing 4.5 by 0.5 is equivalent to multiplying 4.5 by 2, resulting in 9.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you divide 0.36 by 0.6 using whole numbers?",
+          "correctAnswer": "Multiply both by 10 to get 3.6 divided by 6",
+          "wrongAnswer1": "Multiply both by 100 to get 36 divided by 60",
+          "wrongAnswer2": "Divide both by 10 to get 0.036 divided by 0.06",
+          "wrongAnswer3": "Add 1 to both numbers before dividing",
+          "explanation": "Multiplying both numbers by 10 removes the decimals and simplifies the division to 3.6 divided by 6.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Word Problems",
+      "questions": [
+        {
+          "question": "If Sarah has 3 apples and gives 2 to her friend, how many apples does she have left?",
+          "correctAnswer": "1 apple",
+          "wrongAnswer1": "2 apples",
+          "wrongAnswer2": "3 apples",
+          "wrongAnswer3": "5 apples",
+          "explanation": "Sarah starts with 3 apples and gives away 2, so 3 minus 2 equals 1 apple left.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Tom has 5 pencils and buys 4 more. How many pencils does he have now?",
+          "correctAnswer": "9 pencils",
+          "wrongAnswer1": "10 pencils",
+          "wrongAnswer2": "4 pencils",
+          "wrongAnswer3": "1 pencil",
+          "explanation": "Tom initially has 5 pencils and adds 4 more, so 5 plus 4 equals 9 pencils in total.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "A farmer has 6 chickens and 4 cows. How many animals does he have altogether?",
+          "correctAnswer": "10 animals",
+          "wrongAnswer1": "6 animals",
+          "wrongAnswer2": "4 animals",
+          "wrongAnswer3": "12 animals",
+          "explanation": "The total number of animals is the sum of chickens and cows, so 6 plus 4 equals 10 animals.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Mental Math",
+      "questions": [
+        {
+          "question": "What is the easiest way to mentally add 25 and 37?",
+          "correctAnswer": "Break it into 25 plus 30 plus 7",
+          "wrongAnswer1": "Add 25 and 37 directly without breaking down",
+          "wrongAnswer2": "Multiply 25 by 37",
+          "wrongAnswer3": "Subtract 25 from 37 and then add",
+          "explanation": "Breaking numbers into smaller parts like 25 plus 30 plus 7 helps simplify mental addition.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which strategy helps in mental subtraction?",
+          "correctAnswer": "Rounding the number and then adjusting",
+          "wrongAnswer1": "Multiplying the numbers before subtracting",
+          "wrongAnswer2": "Dividing both numbers before subtraction",
+          "wrongAnswer3": "Adding the numbers instead of subtracting",
+          "explanation": "Rounding numbers to easier values and then adjusting helps perform mental subtraction more easily.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If you need to multiply 9 by 6 mentally, which is a simple method?",
+          "correctAnswer": "Multiply 10 by 6 and subtract 6",
+          "wrongAnswer1": "Multiply 9 by 5 and add 6",
+          "wrongAnswer2": "Multiply 6 by 4 and add another 6",
+          "wrongAnswer3": "Multiply 9 by 7 and subtract 6",
+          "explanation": "Multiplying 10 by 6 and then subtracting 6 is a quick mental math strategy for 9 times 6.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Math Symbols",
+      "questions": [
+        {
+          "question": "What does the plus symbol represent in math?",
+          "correctAnswer": "Addition of two numbers",
+          "wrongAnswer1": "Subtraction of two numbers",
+          "wrongAnswer2": "Multiplication of two numbers",
+          "wrongAnswer3": "Division of two numbers",
+          "explanation": "The plus symbol represents the addition operation, which combines two numbers into a sum.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which symbol is used to indicate multiplication?",
+          "correctAnswer": "The cross or star symbol",
+          "wrongAnswer1": "The plus symbol",
+          "wrongAnswer2": "The equal symbol",
+          "wrongAnswer3": "The division symbol",
+          "explanation": "The multiplication operation is typically indicated by a cross or star symbol, such as x or *.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the equals symbol mean in an equation?",
+          "correctAnswer": "Both sides have the same value",
+          "wrongAnswer1": "The left side is greater than the right side",
+          "wrongAnswer2": "The right side is greater than the left side",
+          "wrongAnswer3": "The operation is incomplete",
+          "explanation": "The equals symbol means the values on both sides of the equation are equal or the same.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Math Properties",
+      "questions": [
+        {
+          "question": "Which property states that the order in which two numbers are added does not change the sum?",
+          "correctAnswer": "Commutative Property of Addition",
+          "wrongAnswer1": "Associative Property of Addition",
+          "wrongAnswer2": "Distributive Property",
+          "wrongAnswer3": "Identity Property",
+          "explanation": "The Commutative Property of Addition states that changing the order of addends does not change the sum, meaning a + b = b + a.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the Associative Property of Multiplication describe?",
+          "correctAnswer": "Changing the grouping of factors does not change the product",
+          "wrongAnswer1": "Changing the order of factors does not change the product",
+          "wrongAnswer2": "Multiplying a number by one keeps the number the same",
+          "wrongAnswer3": "Multiplying a number by zero results in zero",
+          "explanation": "The Associative Property of Multiplication states that when multiplying three or more numbers, the way in which they are grouped does not affect the product, so (a × b) × c = a × (b × c).",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which property explains that multiplying a number by one gives the same number?",
+          "correctAnswer": "Identity Property of Multiplication",
+          "wrongAnswer1": "Zero Property of Multiplication",
+          "wrongAnswer2": "Distributive Property",
+          "wrongAnswer3": "Commutative Property of Multiplication",
+          "explanation": "The Identity Property of Multiplication indicates that any number multiplied by one remains unchanged, so a × 1 = a.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Commutative Property",
+      "questions": [
+        {
+          "question": "What does the commutative property state about addition?",
+          "correctAnswer": "Changing the order of addends does not change the sum",
+          "wrongAnswer1": "The sum changes when the order of addends changes",
+          "wrongAnswer2": "Only one order is correct for addition",
+          "wrongAnswer3": "Addition is only commutative for numbers less than 10",
+          "explanation": "The commutative property of addition states that the sum remains the same regardless of the order of the numbers being added.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which operation is commutative according to the commutative property?",
+          "correctAnswer": "Multiplication",
+          "wrongAnswer1": "Subtraction",
+          "wrongAnswer2": "Division",
+          "wrongAnswer3": "Exponentiation",
+          "explanation": "Multiplication is commutative because changing the order of factors does not change the product.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If a and b are numbers, what does the commutative property imply?",
+          "correctAnswer": "a + b = b + a and a × b = b × a",
+          "wrongAnswer1": "a + b = a - b and a × b = b ÷ a",
+          "wrongAnswer2": "a - b = b - a and a ÷ b = b ÷ a",
+          "wrongAnswer3": "a + b = a + b and a × b = a × b only when a equals b",
+          "explanation": "The commutative property means for both addition and multiplication, the order of numbers can be switched without changing the result.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Associative Property",
+      "questions": [
+        {
+          "question": "What does the Associative Property state in basic math?",
+          "correctAnswer": "The way numbers are grouped does not change the sum or product.",
+          "wrongAnswer1": "Changing the order of numbers changes the result.",
+          "wrongAnswer2": "Only addition follows the property, not multiplication.",
+          "wrongAnswer3": "It applies only when subtracting numbers.",
+          "explanation": "The Associative Property means that when adding or multiplying, how the numbers are grouped (which ones are calculated first) does not affect the final result.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which operation is NOT associative?",
+          "correctAnswer": "Subtraction",
+          "wrongAnswer1": "Addition",
+          "wrongAnswer2": "Multiplication",
+          "wrongAnswer3": "Both addition and multiplication",
+          "explanation": "Subtraction is not associative because changing the grouping of numbers changes the result. Addition and multiplication are associative.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "According to the Associative Property, what is true about (2 + 3) + 4 and 2 + (3 + 4)?",
+          "correctAnswer": "Both expressions yield the same sum.",
+          "wrongAnswer1": "They give different sums because of different grouping.",
+          "wrongAnswer2": "The property only applies to multiplication, so sums differ.",
+          "wrongAnswer3": "Only one expression is valid according to the property.",
+          "explanation": "The Associative Property says that the way numbers are grouped in addition does not change the result. So, (2 + 3) + 4 = 2 + (3 + 4) = 9.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Distributive Property",
+      "questions": [
+        {
+          "question": "What does the distributive property allow you to do in multiplication?",
+          "correctAnswer": "Multiply a number by a sum by multiplying each addend separately and then adding the results",
+          "wrongAnswer1": "Add two numbers and then multiply the sum by a number",
+          "wrongAnswer2": "Multiply two numbers first and then add the results",
+          "wrongAnswer3": "Divide a number by the sum of two numbers",
+          "explanation": "The distributive property states that a(b + c) = ab + ac, allowing you to multiply each term inside the parentheses by the number outside before adding.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which expression correctly applies the distributive property?",
+          "correctAnswer": "3 times (4 plus 5) equals 3 times 4 plus 3 times 5",
+          "wrongAnswer1": "3 times (4 plus 5) equals 3 plus 4 times 5",
+          "wrongAnswer2": "3 times (4 plus 5) equals 3 plus 4 plus 5",
+          "wrongAnswer3": "3 times (4 plus 5) equals 4 plus 5 times 3",
+          "explanation": "Using the distributive property, multiply the number outside the parentheses by each addend inside separately.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When simplifying 5 times (2 plus x), what is the result using the distributive property?",
+          "correctAnswer": "5 times 2 plus 5 times x",
+          "wrongAnswer1": "5 plus 2 times x",
+          "wrongAnswer2": "5 plus 2 plus x",
+          "wrongAnswer3": "2 plus x times 5",
+          "explanation": "The distributive property lets you multiply 5 by each term inside the parentheses separately to get 5 times 2 plus 5 times x.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Number Sense",
+      "questions": [
+        {
+          "question": "What does the term number sense refer to in math?",
+          "correctAnswer": "An intuitive understanding of numbers and their relationships",
+          "wrongAnswer1": "The ability to memorize multiplication tables",
+          "wrongAnswer2": "The skill to solve equations quickly",
+          "wrongAnswer3": "The knowledge of number shape and color",
+          "explanation": "Number sense is the intuitive understanding of numbers, their magnitude, relationships, and how they are affected by operations. It is more about understanding than memorization.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of good number sense?",
+          "correctAnswer": "Estimating the total cost before shopping",
+          "wrongAnswer1": "Reciting all prime numbers between 1 and 100",
+          "wrongAnswer2": "Using a calculator for every arithmetic problem",
+          "wrongAnswer3": "Writing numbers in fancy fonts",
+          "explanation": "Good number sense involves being able to make reasonable estimates and understand numbers in everyday contexts, such as estimating costs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is number sense important for learning math?",
+          "correctAnswer": "It helps students understand concepts rather than just memorize procedures",
+          "wrongAnswer1": "It replaces the need to learn arithmetic operations",
+          "wrongAnswer2": "It allows students to avoid doing any calculations",
+          "wrongAnswer3": "It focuses on remembering exact numbers without context",
+          "explanation": "Number sense supports understanding and flexibility in math, helping students grasp the underlying concepts rather than only memorizing steps or facts.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Skip Counting",
+      "questions": [
+        {
+          "question": "What is skip counting by 5 starting from 0?",
+          "correctAnswer": "0, 5, 10, 15, 20",
+          "wrongAnswer1": "1, 6, 11, 16, 21",
+          "wrongAnswer2": "0, 10, 20, 30, 40",
+          "wrongAnswer3": "5, 10, 15, 20, 25",
+          "explanation": "Skip counting by 5 means adding 5 each time starting from 0, so the sequence is 0, 5, 10, 15, 20.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these is a sequence of skip counting by 2?",
+          "correctAnswer": "2, 4, 6, 8, 10",
+          "wrongAnswer1": "1, 3, 5, 7, 9",
+          "wrongAnswer2": "2, 6, 10, 14, 18",
+          "wrongAnswer3": "4, 8, 12, 16, 20",
+          "explanation": "Skip counting by 2 involves adding 2 each time, producing the sequence 2, 4, 6, 8, 10.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If you skip count by 3 starting at 3, what is the fifth number?",
+          "correctAnswer": "15",
+          "wrongAnswer1": "12",
+          "wrongAnswer2": "18",
+          "wrongAnswer3": "9",
+          "explanation": "Starting at 3 and adding 3 each time, the sequence is 3, 6, 9, 12, 15. The fifth number is 15.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Estimating Sums",
+      "questions": [
+        {
+          "question": "What is the best way to estimate the sum of 478 and 326?",
+          "correctAnswer": "Round each number to the nearest hundred and then add",
+          "wrongAnswer1": "Add the exact numbers without rounding",
+          "wrongAnswer2": "Multiply the two numbers then round",
+          "wrongAnswer3": "Subtract the smaller number from the larger number",
+          "explanation": "Estimating sums is easier by rounding numbers to the nearest place value before adding to simplify calculations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If you want to estimate the sum of 243 and 167, which rounding will make the estimation easiest?",
+          "correctAnswer": "Round 243 to 200 and 167 to 200 before adding",
+          "wrongAnswer1": "Round 243 to 250 and 167 to 150 before adding",
+          "wrongAnswer2": "Add the exact numbers without rounding",
+          "wrongAnswer3": "Round both numbers to the nearest ten and then subtract",
+          "explanation": "Rounding to the nearest hundred simplifies the numbers and makes mental addition easier when estimating sums.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When estimating the sum of two numbers, why is rounding helpful?",
+          "correctAnswer": "It simplifies the numbers, making addition quicker and easier",
+          "wrongAnswer1": "It changes the numbers so they add to zero",
+          "wrongAnswer2": "It makes the answer exact rather than an estimate",
+          "wrongAnswer3": "It always gives the largest possible sum",
+          "explanation": "Rounding numbers before adding reduces complexity and helps in quickly finding an approximate sum, which is the purpose of estimation.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Unit Conversion",
+      "questions": [
+        {
+          "question": "What is the result of converting 5 kilometers to meters?",
+          "correctAnswer": "5000 meters",
+          "wrongAnswer1": "50 meters",
+          "wrongAnswer2": "500 meters",
+          "wrongAnswer3": "0.5 meters",
+          "explanation": "To convert kilometers to meters, multiply the value by 1000. So, 5 kilometers equals 5000 meters.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How many centimeters are there in 2.5 meters?",
+          "correctAnswer": "250 centimeters",
+          "wrongAnswer1": "25 centimeters",
+          "wrongAnswer2": "2500 centimeters",
+          "wrongAnswer3": "0.25 centimeters",
+          "explanation": "Since 1 meter is equal to 100 centimeters, multiply 2.5 by 100 to convert to centimeters, resulting in 250 centimeters.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "If you convert 3000 milliliters to liters, what is the value?",
+          "correctAnswer": "3 liters",
+          "wrongAnswer1": "300 liters",
+          "wrongAnswer2": "0.3 liters",
+          "wrongAnswer3": "30 liters",
+          "explanation": "1 liter equals 1000 milliliters, so dividing 3000 milliliters by 1000 converts it to 3 liters.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Basic Math",
+      "concept": "Math Vocabulary",
+      "questions": [
+        {
+          "question": "What does the term 'sum' refer to in math?",
+          "correctAnswer": "The result of adding two or more numbers",
+          "wrongAnswer1": "The result of multiplying two numbers",
+          "wrongAnswer2": "The difference between two numbers",
+          "wrongAnswer3": "The value of a single number",
+          "explanation": "In math, 'sum' specifically means the total you get when you add numbers together.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which math term describes a number that divides another number exactly?",
+          "correctAnswer": "Divisor",
+          "wrongAnswer1": "Multiple",
+          "wrongAnswer2": "Sum",
+          "wrongAnswer3": "Factor",
+          "explanation": "A divisor is a number that divides another number exactly without leaving a remainder.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a 'product' in mathematics?",
+          "correctAnswer": "The result of multiplying two numbers",
+          "wrongAnswer1": "The result of adding numbers",
+          "wrongAnswer2": "The difference between numbers",
+          "wrongAnswer3": "A number that divides another",
+          "explanation": "In math, the product is the answer you get when you multiply numbers together.",
+          "difficulty": "Basic"
+        }
+      ]
+    }
+  ]
+}
