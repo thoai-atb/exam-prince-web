@@ -1,0 +1,1655 @@
+{
+  "topic": "English",
+  "concepts": [
+    {
+      "topic": "English",
+      "concept": "Grammar basics",
+      "questions": [
+        {
+          "question": "What is the correct form of the verb in the sentence: She _____ to the store every day?",
+          "correctAnswer": "goes",
+          "wrongAnswer1": "go",
+          "wrongAnswer2": "going",
+          "wrongAnswer3": "gone",
+          "explanation": "In the simple present tense, when the subject is third person singular (she), the verb takes an s or es ending.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which sentence is grammatically correct?",
+          "correctAnswer": "They are going to the park later.",
+          "wrongAnswer1": "They is going to the park later.",
+          "wrongAnswer2": "They be going to the park later.",
+          "wrongAnswer3": "They am going to the park later.",
+          "explanation": "The subject 'They' requires the verb 'are' in present continuous tense.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Choose the correct pronoun to complete the sentence: _____ like to read books.",
+          "correctAnswer": "I",
+          "wrongAnswer1": "Me",
+          "wrongAnswer2": "Us",
+          "wrongAnswer3": "They",
+          "explanation": "'I' is the correct subject pronoun to use as the subject of the sentence.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Verb tenses",
+      "questions": [
+        {
+          "question": "Which sentence is in the past continuous tense?",
+          "correctAnswer": "She was reading a book yesterday.",
+          "wrongAnswer1": "She reads a book every day.",
+          "wrongAnswer2": "She will read a book tomorrow.",
+          "wrongAnswer3": "She has read the book.",
+          "explanation": "The past continuous tense describes an action that was ongoing in the past, indicated by 'was reading.'",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the correct present perfect form of the verb 'to eat' for 'he'?",
+          "correctAnswer": "He has eaten.",
+          "wrongAnswer1": "He ate.",
+          "wrongAnswer2": "He eats.",
+          "wrongAnswer3": "He will eat.",
+          "explanation": "The present perfect tense uses 'has' or 'have' plus the past participle, in this case, 'eaten.'",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which sentence correctly uses the future perfect tense?",
+          "correctAnswer": "By next year, they will have finished the project.",
+          "wrongAnswer1": "By next year, they finish the project.",
+          "wrongAnswer2": "By next year, they are finishing the project.",
+          "wrongAnswer3": "By next year, they finished the project.",
+          "explanation": "Future perfect tense describes an action that will have been completed by a specific future time, signaled by 'will have finished.'",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Parts speech",
+      "questions": [
+        {
+          "question": "What part of speech is used to describe a person, place, thing, or idea?",
+          "correctAnswer": "Noun",
+          "wrongAnswer1": "Verb",
+          "wrongAnswer2": "Adjective",
+          "wrongAnswer3": "Adverb",
+          "explanation": "A noun is a word used to name a person, place, thing, or idea.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which part of speech shows action or a state of being?",
+          "correctAnswer": "Verb",
+          "wrongAnswer1": "Noun",
+          "wrongAnswer2": "Adjective",
+          "wrongAnswer3": "Preposition",
+          "explanation": "A verb expresses an action or a state of being in a sentence.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which part of speech modifies a noun or pronoun by providing more information about it?",
+          "correctAnswer": "Adjective",
+          "wrongAnswer1": "Adverb",
+          "wrongAnswer2": "Verb",
+          "wrongAnswer3": "Conjunction",
+          "explanation": "An adjective describes or modifies a noun or pronoun by giving more details about its qualities.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Sentence structure",
+      "questions": [
+        {
+          "question": "What is a simple sentence?",
+          "correctAnswer": "A sentence with one independent clause",
+          "wrongAnswer1": "A sentence with two or more independent clauses",
+          "wrongAnswer2": "A sentence with one dependent clause",
+          "wrongAnswer3": "A sentence with only dependent clauses",
+          "explanation": "A simple sentence consists of a single independent clause with a subject and a predicate, expressing a complete thought.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of a compound sentence?",
+          "correctAnswer": "I went to the store, and I bought some bread.",
+          "wrongAnswer1": "I went to the store because I was hungry.",
+          "wrongAnswer2": "Going to the store, I bought some bread.",
+          "wrongAnswer3": "Because I was hungry, I went to the store.",
+          "explanation": "A compound sentence has two independent clauses joined by a coordinating conjunction such as and, but, or, so.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the sentence structure, what is a dependent clause?",
+          "correctAnswer": "A group of words with a subject and verb that cannot stand alone as a sentence",
+          "wrongAnswer1": "A group of words with no subject",
+          "wrongAnswer2": "A phrase without a verb",
+          "wrongAnswer3": "A complete sentence by itself",
+          "explanation": "A dependent clause contains a subject and verb but does not express a complete thought, so it cannot stand alone as a sentence.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Punctuation rules",
+      "questions": [
+        {
+          "question": "What is the primary function of a comma in a sentence?",
+          "correctAnswer": "To separate items in a list or clauses",
+          "wrongAnswer1": "To end a sentence",
+          "wrongAnswer2": "To replace a letter",
+          "wrongAnswer3": "To indicate a question",
+          "explanation": "A comma is mainly used to separate items in a list and to separate clauses within sentences to improve clarity.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When should a semicolon be used?",
+          "correctAnswer": "To connect closely related independent clauses",
+          "wrongAnswer1": "To end a question",
+          "wrongAnswer2": "To replace a comma in a list",
+          "wrongAnswer3": "To show possession",
+          "explanation": "A semicolon is used to connect two independent clauses that are closely related, providing a stronger separation than a comma but not as final as a period.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which punctuation mark is used to indicate direct speech?",
+          "correctAnswer": "Quotation marks",
+          "wrongAnswer1": "Parentheses",
+          "wrongAnswer2": "Colon",
+          "wrongAnswer3": "Hyphen",
+          "explanation": "Quotation marks are used to indicate when someone is speaking directly or to highlight a specific phrase or term.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Reading comprehension",
+      "questions": [
+        {
+          "question": "What is the main purpose of reading comprehension?",
+          "correctAnswer": "To understand and interpret the meaning of a text",
+          "wrongAnswer1": "To memorize every word in the text",
+          "wrongAnswer2": "To read the text as quickly as possible",
+          "wrongAnswer3": "To ignore the details and focus on the length of the text",
+          "explanation": "Reading comprehension is about understanding and interpreting the meaning of a text rather than just reading or memorizing the words.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which strategy can help improve reading comprehension?",
+          "correctAnswer": "Making predictions about the text before reading",
+          "wrongAnswer1": "Skipping difficult words and ignoring the context",
+          "wrongAnswer2": "Reading the text out loud without thinking",
+          "wrongAnswer3": "Only reading the first and last sentences of each paragraph",
+          "explanation": "Making predictions activates prior knowledge and sets a purpose for reading, which enhances comprehension.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does it mean to infer information while reading?",
+          "correctAnswer": "To understand meanings that are suggested but not directly stated in the text",
+          "wrongAnswer1": "To copy the information word for word from the text",
+          "wrongAnswer2": "To guess without any basis what the text might mean",
+          "wrongAnswer3": "To focus only on the dictionary definitions of words",
+          "explanation": "Inference means using clues from the text and prior knowledge to understand information that is implied rather than explicitly stated.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Vocabulary building",
+      "questions": [
+        {
+          "question": "What is a synonym for the word 'happy'?",
+          "correctAnswer": "Joyful",
+          "wrongAnswer1": "Sad",
+          "wrongAnswer2": "Angry",
+          "wrongAnswer3": "Hungry",
+          "explanation": "A synonym is a word that has the same or similar meaning. 'Joyful' means happy, while the others do not.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which word best describes a person who enjoys reading books?",
+          "correctAnswer": "Bibliophile",
+          "wrongAnswer1": "Cynic",
+          "wrongAnswer2": "Pessimist",
+          "wrongAnswer3": "Apathetic",
+          "explanation": "A bibliophile is a person who loves or collects books. The other options describe different personality traits.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the prefix 'un' in 'unhappy' mean?",
+          "correctAnswer": "Not",
+          "wrongAnswer1": "Very",
+          "wrongAnswer2": "Before",
+          "wrongAnswer3": "After",
+          "explanation": "The prefix 'un' means 'not', so 'unhappy' means 'not happy'.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "English idioms",
+      "questions": [
+        {
+          "question": "What does the idiom 'break the ice' mean?",
+          "correctAnswer": "To initiate conversation in a social setting",
+          "wrongAnswer1": "To break something made of ice",
+          "wrongAnswer2": "To make a situation more tense",
+          "wrongAnswer3": "To ignore someone completely",
+          "explanation": "The idiom 'break the ice' means to do or say something to relieve tension or get conversation started in a social setting.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the idiom 'hit the nail on the head' mean?",
+          "correctAnswer": "To describe exactly what is causing a situation or problem",
+          "wrongAnswer1": "To fail at a task repeatedly",
+          "wrongAnswer2": "To accidentally hurt yourself",
+          "wrongAnswer3": "To build something poorly",
+          "explanation": "The idiom 'hit the nail on the head' means to be exactly correct about something or to describe the main point accurately.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the idiom 'let the cat out of the bag', what does it mean?",
+          "correctAnswer": "To reveal a secret unintentionally",
+          "wrongAnswer1": "To actually release a cat",
+          "wrongAnswer2": "To keep a secret safe",
+          "wrongAnswer3": "To ignore an important fact",
+          "explanation": "'Let the cat out of the bag' means to accidentally reveal a secret or reveal something that was meant to be kept confidential.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Common phrases",
+      "questions": [
+        {
+          "question": "Which phrase is commonly used to greet someone in the morning?",
+          "correctAnswer": "Good morning",
+          "wrongAnswer1": "Good night",
+          "wrongAnswer2": "See you later",
+          "wrongAnswer3": "Thank you",
+          "explanation": "Good morning is a common phrase used to greet someone early in the day.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the phrase 'break a leg' mean?",
+          "correctAnswer": "Good luck",
+          "wrongAnswer1": "Hurt yourself",
+          "wrongAnswer2": "Take a rest",
+          "wrongAnswer3": "Say goodbye",
+          "explanation": "'Break a leg' is a common idiom used to wish someone good luck, especially before a performance.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which phrase is used to apologize?",
+          "correctAnswer": "I am sorry",
+          "wrongAnswer1": "How are you",
+          "wrongAnswer2": "Goodbye",
+          "wrongAnswer3": "Thank you",
+          "explanation": "I am sorry is a common phrase used to express apology when you have hurt someone or made a mistake.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Synonyms antonyms",
+      "questions": [
+        {
+          "question": "What is a synonym for the word happy?",
+          "correctAnswer": "Joyful",
+          "wrongAnswer1": "Sad",
+          "wrongAnswer2": "Angry",
+          "wrongAnswer3": "Tired",
+          "explanation": "A synonym is a word that has the same or similar meaning. Joyful means happy.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which word is an antonym of the word cold?",
+          "correctAnswer": "Hot",
+          "wrongAnswer1": "Cool",
+          "wrongAnswer2": "Freezing",
+          "wrongAnswer3": "Chilly",
+          "explanation": "An antonym is a word with the opposite meaning. Hot is the opposite of cold.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is an antonym for the word increase?",
+          "correctAnswer": "Decrease",
+          "wrongAnswer1": "Grow",
+          "wrongAnswer2": "Expand",
+          "wrongAnswer3": "Raise",
+          "explanation": "Decrease is the opposite of increase, so it is an antonym.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Writing essays",
+      "questions": [
+        {
+          "question": "What is the main purpose of an essay introduction?",
+          "correctAnswer": "To introduce the topic and outline the main points",
+          "wrongAnswer1": "To provide detailed examples and evidence",
+          "wrongAnswer2": "To summarize the entire essay",
+          "wrongAnswer3": "To give a personal opinion unrelated to the topic",
+          "explanation": "The introduction of an essay sets the stage by introducing the topic and outlining the main points that will be discussed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an important feature of a strong thesis statement?",
+          "correctAnswer": "It clearly states the main argument of the essay",
+          "wrongAnswer1": "It includes multiple unrelated ideas",
+          "wrongAnswer2": "It is a question rather than a statement",
+          "wrongAnswer3": "It provides detailed evidence",
+          "explanation": "A strong thesis statement clearly states the main argument or point of the essay, guiding the content of the body paragraphs.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a good practice when writing the conclusion of an essay?",
+          "correctAnswer": "Restate the thesis and summarize the key points",
+          "wrongAnswer1": "Introduce new arguments not discussed before",
+          "wrongAnswer2": "Ignore the introduction and focus on new topics",
+          "wrongAnswer3": "End abruptly without a closing statement",
+          "explanation": "A good conclusion restates the thesis and summarizes the key points discussed, providing closure to the essay.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Paragraph unity",
+      "questions": [
+        {
+          "question": "What does paragraph unity primarily ensure in a paragraph?",
+          "correctAnswer": "All sentences support one main idea",
+          "wrongAnswer1": "The paragraph has exactly five sentences",
+          "wrongAnswer2": "Each sentence introduces a new topic",
+          "wrongAnswer3": "The paragraph includes both unrelated ideas and examples",
+          "explanation": "Paragraph unity ensures that all sentences in the paragraph work together to support a single main idea, making the paragraph cohesive and focused.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes a lack of paragraph unity?",
+          "correctAnswer": "Sentences that discuss different topics without connection",
+          "wrongAnswer1": "Sentences that elaborate on one idea",
+          "wrongAnswer2": "Sentences that provide examples of the main idea",
+          "wrongAnswer3": "Sentences that summarize the paragraph's main point",
+          "explanation": "Lack of paragraph unity occurs when sentences are unrelated and discuss different topics, breaking the focus of the paragraph.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can a writer maintain paragraph unity?",
+          "correctAnswer": "By ensuring all sentences relate directly to the main idea",
+          "wrongAnswer1": "By including as many ideas as possible in one paragraph",
+          "wrongAnswer2": "By writing sentences that do not connect to each other",
+          "wrongAnswer3": "By switching between multiple unrelated topics",
+          "explanation": "Maintaining paragraph unity involves writing sentences that all connect and support one central idea to keep the paragraph coherent.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Subject predicate",
+      "questions": [
+        {
+          "question": "What does the subject in a sentence represent?",
+          "correctAnswer": "The person or thing performing the action or being described",
+          "wrongAnswer1": "The place where the action happens",
+          "wrongAnswer2": "The action or state of being",
+          "wrongAnswer3": "The additional information about the action",
+          "explanation": "The subject is the part of the sentence that indicates who or what is doing the action or being described.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In the sentence 'The cat sleeps on the mat,' what is the predicate?",
+          "correctAnswer": "Sleeps on the mat",
+          "wrongAnswer1": "The cat",
+          "wrongAnswer2": "On the mat",
+          "wrongAnswer3": "The cat sleeps",
+          "explanation": "The predicate tells what the subject does or is, so 'sleeps on the mat' is the predicate describing the action of the cat.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a true statement about subjects and predicates?",
+          "correctAnswer": "Every sentence must have a subject and a predicate to be complete",
+          "wrongAnswer1": "A sentence can have a predicate without a subject",
+          "wrongAnswer2": "The subject always comes after the predicate",
+          "wrongAnswer3": "The predicate is always a single word",
+          "explanation": "A complete sentence requires both a subject and a predicate. The subject usually precedes the predicate, which can be more than one word.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Active passive",
+      "questions": [
+        {
+          "question": "What is the passive voice of the sentence The cat chased the mouse?",
+          "correctAnswer": "The mouse was chased by the cat.",
+          "wrongAnswer1": "The cat was chasing the mouse.",
+          "wrongAnswer2": "The mouse chased the cat.",
+          "wrongAnswer3": "The cat chased the mouse.",
+          "explanation": "In passive voice, the object of the active sentence becomes the subject. The verb also changes to a form of 'to be' plus the past participle. Here, 'The mouse' becomes the subject and the verb changes accordingly.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which sentence is in the active voice?",
+          "correctAnswer": "The teacher explains the lesson.",
+          "wrongAnswer1": "The lesson is explained by the teacher.",
+          "wrongAnswer2": "The lesson was explained by the teacher.",
+          "wrongAnswer3": "The lesson being explained by the teacher.",
+          "explanation": "Active voice has the subject performing the action directly. Here, 'The teacher' is the subject performing the action 'explains'.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Choose the correct passive form of the sentence She writes a letter.",
+          "correctAnswer": "A letter is written by her.",
+          "wrongAnswer1": "A letter wrote by her.",
+          "wrongAnswer2": "She is written a letter.",
+          "wrongAnswer3": "A letter writes by her.",
+          "explanation": "In passive form, the object 'a letter' becomes the subject and the verb changes to 'is written' plus by the agent 'her'.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Direct indirect",
+      "questions": [
+        {
+          "question": "What is the direct form of the sentence He said that he was coming?",
+          "correctAnswer": "He said, I am coming.",
+          "wrongAnswer1": "He said that he is coming.",
+          "wrongAnswer2": "He says, I am coming.",
+          "wrongAnswer3": "He said he would come.",
+          "explanation": "The direct form quotes the exact words spoken, so 'He said, I am coming.' is the direct form of 'He said that he was coming.'",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In changing from direct to indirect speech, which of the following usually changes?",
+          "correctAnswer": "Pronouns and verb tense",
+          "wrongAnswer1": "Punctuation and verb tense",
+          "wrongAnswer2": "Adjectives and adverbs",
+          "wrongAnswer3": "Nouns and conjunctions",
+          "explanation": "When converting from direct to indirect speech, pronouns and verb tense often change to reflect the perspective shift and timing.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of indirect speech?",
+          "correctAnswer": "She said that she was tired.",
+          "wrongAnswer1": "She said, I am tired.",
+          "wrongAnswer2": "She says, I am tired.",
+          "wrongAnswer3": "She will say I am tired.",
+          "explanation": "Indirect speech reports what someone said without quoting them directly and often uses 'that' and changes in verb tense, as in 'She said that she was tired.'",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Modal verbs",
+      "questions": [
+        {
+          "question": "Which modal verb is used to express ability?",
+          "correctAnswer": "Can",
+          "wrongAnswer1": "Must",
+          "wrongAnswer2": "Should",
+          "wrongAnswer3": "May",
+          "explanation": "The modal verb Can is used to express ability or capability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which modal verb expresses a strong obligation or necessity?",
+          "correctAnswer": "Must",
+          "wrongAnswer1": "Can",
+          "wrongAnswer2": "Might",
+          "wrongAnswer3": "Could",
+          "explanation": "The modal verb Must is used to express a strong obligation or necessity.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which modal verb is used to make polite requests?",
+          "correctAnswer": "Could",
+          "wrongAnswer1": "Will",
+          "wrongAnswer2": "Should",
+          "wrongAnswer3": "Must",
+          "explanation": "Could is often used in polite requests to sound more courteous.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Question formation",
+      "questions": [
+        {
+          "question": "What is the correct question form to ask about someone's name?",
+          "correctAnswer": "What is your name?",
+          "wrongAnswer1": "Your name is what?",
+          "wrongAnswer2": "Is your name what?",
+          "wrongAnswer3": "Name is your what?",
+          "explanation": "The correct question form uses 'What is your name?' with the question word 'What' followed by the verb 'is' and the subject 'your name'.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which auxiliary verb is used to form questions in the present simple tense?",
+          "correctAnswer": "Do",
+          "wrongAnswer1": "Are",
+          "wrongAnswer2": "Have",
+          "wrongAnswer3": "Was",
+          "explanation": "In the present simple tense, 'Do' is used as the auxiliary verb to form questions for most verbs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you form a question in the past simple tense for regular verbs?",
+          "correctAnswer": "Did + subject + base verb",
+          "wrongAnswer1": "Do + subject + verb + ed",
+          "wrongAnswer2": "Has + subject + verb",
+          "wrongAnswer3": "Is + subject + verb + ed",
+          "explanation": "Questions in the past simple are formed by using 'Did' followed by the subject and the base form of the verb.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Negative sentences",
+      "questions": [
+        {
+          "question": "Which sentence is a negative sentence?",
+          "correctAnswer": "I do not like apples.",
+          "wrongAnswer1": "I like apples.",
+          "wrongAnswer2": "Do you like apples?",
+          "wrongAnswer3": "I am eating apples.",
+          "explanation": "A negative sentence expresses the absence of something or a negation. 'I do not like apples.' clearly shows negation using 'do not'.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Choose the sentence that correctly shows negation in the past tense.",
+          "correctAnswer": "She did not go to the market.",
+          "wrongAnswer1": "She does go to the market.",
+          "wrongAnswer2": "She gone to the market.",
+          "wrongAnswer3": "She is going to the market.",
+          "explanation": "The negative past tense requires 'did not' followed by the base form of the verb, as in 'She did not go'.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the negative form of the sentence 'They are playing soccer'?",
+          "correctAnswer": "They are not playing soccer.",
+          "wrongAnswer1": "They is not playing soccer.",
+          "wrongAnswer2": "They are playing no soccer.",
+          "wrongAnswer3": "They don’t playing soccer.",
+          "explanation": "The correct negative form with the verb 'to be' in present continuous uses 'are not' before the verb ending in -ing.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Comparative forms",
+      "questions": [
+        {
+          "question": "Which sentence correctly uses the comparative form of the adjective happy?",
+          "correctAnswer": "She is happier than her sister.",
+          "wrongAnswer1": "She is more happy than her sister.",
+          "wrongAnswer2": "She is happyer than her sister.",
+          "wrongAnswer3": "She is happiest than her sister.",
+          "explanation": "For the adjective happy, the comparative form is made by changing the y to i and adding er, resulting in happier.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the correct comparative form of the adjective good?",
+          "correctAnswer": "Better",
+          "wrongAnswer1": "Gooder",
+          "wrongAnswer2": "More good",
+          "wrongAnswer3": "Best",
+          "explanation": "The irregular comparative form of good is better, not gooder or more good. Best is the superlative form.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which sentence correctly uses the comparative form of the adjective interesting?",
+          "correctAnswer": "This book is more interesting than that one.",
+          "wrongAnswer1": "This book is interestinger than that one.",
+          "wrongAnswer2": "This book is interestinger than that one.",
+          "wrongAnswer3": "This book is interestinger than that one.",
+          "explanation": "For adjectives with more than two syllables like interesting, the comparative form is made with more before the adjective.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Superlative forms",
+      "questions": [
+        {
+          "question": "Which of the following is the correct superlative form of the adjective happy?",
+          "correctAnswer": "Happiest",
+          "wrongAnswer1": "More happy",
+          "wrongAnswer2": "Happyest",
+          "wrongAnswer3": "Most happily",
+          "explanation": "The superlative form of happy is 'happiest' which is formed by adding -est to the adjective. 'More happy' is a comparative form, and 'happyest' and 'most happily' are incorrect forms.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Choose the correct superlative form of the adjective 'good'.",
+          "correctAnswer": "Best",
+          "wrongAnswer1": "Goodest",
+          "wrongAnswer2": "More good",
+          "wrongAnswer3": "Most good",
+          "explanation": "The irregular adjective 'good' has the superlative form 'best'. Regular adjectives add -est or use 'most', but 'good' is an exception.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the superlative form of 'beautiful'?",
+          "correctAnswer": "Most beautiful",
+          "wrongAnswer1": "Beautifullest",
+          "wrongAnswer2": "Beautifuller",
+          "wrongAnswer3": "More beautifulest",
+          "explanation": "For adjectives with three or more syllables like 'beautiful', the superlative is formed with 'most' before the adjective. Adding -est is incorrect.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Conditional sentences",
+      "questions": [
+        {
+          "question": "What is the main purpose of a conditional sentence?",
+          "correctAnswer": "To express a situation and its possible result",
+          "wrongAnswer1": "To describe an action in the past",
+          "wrongAnswer2": "To give a direct command",
+          "wrongAnswer3": "To list multiple items in a sentence",
+          "explanation": "Conditional sentences are used to talk about situations and their possible consequences or results based on certain conditions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of a first conditional sentence?",
+          "correctAnswer": "If it rains tomorrow, we will cancel the picnic",
+          "wrongAnswer1": "If I were rich, I would travel the world",
+          "wrongAnswer2": "If he had studied, he would have passed the test",
+          "wrongAnswer3": "If she eats too much, she gets stomachache",
+          "explanation": "First conditional sentences talk about real and possible future situations and their likely results using if plus present tense and will plus base verb.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the structure of a second conditional sentence?",
+          "correctAnswer": "If plus past simple, would plus base verb",
+          "wrongAnswer1": "If plus present simple, will plus base verb",
+          "wrongAnswer2": "If plus past perfect, would have plus past participle",
+          "wrongAnswer3": "If plus present continuous, will be plus verb ing",
+          "explanation": "Second conditional sentences are used to talk about hypothetical or unlikely situations in the present or future, typically structured as if plus past simple and would plus base verb.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Reported speech",
+      "questions": [
+        {
+          "question": "What is reported speech used for in English?",
+          "correctAnswer": "To relay what someone else has said without quoting them exactly",
+          "wrongAnswer1": "To ask questions directly to someone",
+          "wrongAnswer2": "To give commands in an imperative form",
+          "wrongAnswer3": "To state facts with supporting evidence",
+          "explanation": "Reported speech is used to tell someone what another person said without using their exact words or quotation marks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In reported speech, how do you change the tense of the verb when shifting from direct speech in the past tense?",
+          "correctAnswer": "The verb is usually shifted one tense back in time",
+          "wrongAnswer1": "The verb tense stays exactly the same as in direct speech",
+          "wrongAnswer2": "The verb tense is changed to future tense",
+          "wrongAnswer3": "The verb tense changes randomly without rules",
+          "explanation": "In reported speech, when the original statement is in the past tense, the verb typically changes back one tense to reflect the shift in time.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following sentences is an example of reported speech?",
+          "correctAnswer": "She said she was going to the store",
+          "wrongAnswer1": "She said, I am going to the store",
+          "wrongAnswer2": "Are you going to the store? she asked",
+          "wrongAnswer3": "Going to the store, she said",
+          "explanation": "The sentence uses reported speech by conveying what she said indirectly without using quotation marks.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Prepositions usage",
+      "questions": [
+        {
+          "question": "Which sentence correctly uses the preposition 'on'?",
+          "correctAnswer": "The book is on the table.",
+          "wrongAnswer1": "The book is in the table.",
+          "wrongAnswer2": "The book is at the table.",
+          "wrongAnswer3": "The book is under the table.",
+          "explanation": "The preposition 'on' is used to indicate that something is physically touching and supported by a surface, such as a table.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Choose the sentence that correctly uses the preposition 'between'.",
+          "correctAnswer": "She sat between her two friends.",
+          "wrongAnswer1": "She sat among her two friends.",
+          "wrongAnswer2": "She sat on her two friends.",
+          "wrongAnswer3": "She sat in her two friends.",
+          "explanation": "The preposition 'between' is used to indicate something in the middle of two items or people.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which preposition correctly completes this sentence: 'He arrived ___ the airport early.'",
+          "correctAnswer": "at",
+          "wrongAnswer1": "in",
+          "wrongAnswer2": "on",
+          "wrongAnswer3": "to",
+          "explanation": "'At' is the correct preposition to indicate a specific point or location, such as an airport.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Articles definition",
+      "questions": [
+        {
+          "question": "What is the primary purpose of articles in English?",
+          "correctAnswer": "To specify the definiteness of a noun",
+          "wrongAnswer1": "To describe the color of a noun",
+          "wrongAnswer2": "To indicate the gender of a noun",
+          "wrongAnswer3": "To show possession of a noun",
+          "explanation": "Articles in English are used to indicate whether a noun is specific or general, identifying definiteness or indefiniteness.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an indefinite article in English?",
+          "correctAnswer": "A",
+          "wrongAnswer1": "The",
+          "wrongAnswer2": "An",
+          "wrongAnswer3": "Some",
+          "explanation": "The indefinite articles in English are 'a' and 'an', used before singular nouns when the noun is nonspecific.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When should the article 'an' be used instead of 'a'?",
+          "correctAnswer": "Before words starting with a vowel sound",
+          "wrongAnswer1": "Before words starting with a consonant sound",
+          "wrongAnswer2": "Before plural nouns",
+          "wrongAnswer3": "Only with proper nouns",
+          "explanation": "'An' is used before words that begin with a vowel sound to make pronunciation smoother.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Countable uncountable",
+      "questions": [
+        {
+          "question": "Which of the following is an example of a countable noun?",
+          "correctAnswer": "Books",
+          "wrongAnswer1": "Water",
+          "wrongAnswer2": "Rice",
+          "wrongAnswer3": "Air",
+          "explanation": "Books can be counted as individual items, thus they are countable nouns. Water, rice, and air are substances that are not counted individually and are uncountable nouns.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which sentence correctly uses uncountable nouns?",
+          "correctAnswer": "She bought some sugar and milk.",
+          "wrongAnswer1": "She bought some apples and bananas.",
+          "wrongAnswer2": "She bought some chairs and tables.",
+          "wrongAnswer3": "She bought some pens and pencils.",
+          "explanation": "Sugar and milk are uncountable nouns often used with words like 'some' for quantity. The other options contain countable nouns.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the best quantifier to use with uncountable nouns?",
+          "correctAnswer": "Much",
+          "wrongAnswer1": "Many",
+          "wrongAnswer2": "Several",
+          "wrongAnswer3": "Few",
+          "explanation": "Much is used with uncountable nouns to indicate quantity, whereas many, several, and few are used with countable nouns.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Pronouns types",
+      "questions": [
+        {
+          "question": "Which of the following is a personal pronoun?",
+          "correctAnswer": "She is reading a book.",
+          "wrongAnswer1": "That book is hers.",
+          "wrongAnswer2": "This is my favorite book.",
+          "wrongAnswer3": "Everyone enjoyed the movie.",
+          "explanation": "Personal pronouns replace specific people or things. 'She' is a personal pronoun referring to a specific person.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What type of pronoun is used to show possession?",
+          "correctAnswer": "Possessive pronoun",
+          "wrongAnswer1": "Interrogative pronoun",
+          "wrongAnswer2": "Reflexive pronoun",
+          "wrongAnswer3": "Demonstrative pronoun",
+          "explanation": "Possessive pronouns indicate ownership, such as mine, yours, his, hers, ours, and theirs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Identify the type of pronoun in the sentence: 'Who is at the door?'",
+          "correctAnswer": "Interrogative pronoun",
+          "wrongAnswer1": "Relative pronoun",
+          "wrongAnswer2": "Demonstrative pronoun",
+          "wrongAnswer3": "Indefinite pronoun",
+          "explanation": "Interrogative pronouns are used to ask questions. 'Who' is an example of an interrogative pronoun.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Conjunctions list",
+      "questions": [
+        {
+          "question": "Which of the following is a coordinating conjunction?",
+          "correctAnswer": "And",
+          "wrongAnswer1": "Because",
+          "wrongAnswer2": "Although",
+          "wrongAnswer3": "While",
+          "explanation": "Coordinating conjunctions connect words, phrases, or clauses that are of equal importance. 'And' is a common coordinating conjunction, whereas 'because', 'although', and 'while' are subordinating conjunctions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the role of subordinating conjunctions in a sentence?",
+          "correctAnswer": "They connect a dependent clause to an independent clause",
+          "wrongAnswer1": "They connect two independent clauses as equals",
+          "wrongAnswer2": "They connect individual words only",
+          "wrongAnswer3": "They replace nouns in a sentence",
+          "explanation": "Subordinating conjunctions introduce dependent clauses and link them to independent clauses, establishing a relationship such as cause, time, or condition.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is NOT a conjunction?",
+          "correctAnswer": "However",
+          "wrongAnswer1": "But",
+          "wrongAnswer2": "Or",
+          "wrongAnswer3": "Nor",
+          "explanation": "'However' is an adverb used to contrast ideas, not a conjunction. 'But', 'Or', and 'Nor' are coordinating conjunctions used to connect words or clauses.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Collocations examples",
+      "questions": [
+        {
+          "question": "Which of the following is an example of a common collocation?",
+          "correctAnswer": "Make a decision",
+          "wrongAnswer1": "Do a decision",
+          "wrongAnswer2": "Take a decision",
+          "wrongAnswer3": "Create a decision",
+          "explanation": "The phrase 'make a decision' is a common collocation, meaning these words frequently go together in English.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which collocation correctly completes the sentence: She always ______ her homework on time.",
+          "correctAnswer": "does",
+          "wrongAnswer1": "makes",
+          "wrongAnswer2": "takes",
+          "wrongAnswer3": "creates",
+          "explanation": "The correct collocation with 'homework' is 'do homework', not 'make', 'take', or 'create' homework.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Identify the correct collocation related to weather:",
+          "correctAnswer": "heavy rain",
+          "wrongAnswer1": "strong rain",
+          "wrongAnswer2": "big rain",
+          "wrongAnswer3": "fast rain",
+          "explanation": "The correct collocation is 'heavy rain', which is the typical phrase used to describe intense rainfall.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Homophones list",
+      "questions": [
+        {
+          "question": "Which of the following pairs are homophones?",
+          "correctAnswer": "Flour and flower",
+          "wrongAnswer1": "Hair and hare",
+          "wrongAnswer2": "Sea and see",
+          "wrongAnswer3": "All of the above",
+          "explanation": "Homophones are words that sound the same but have different meanings and spellings. Flour and flower, sea and see, hair and hare are all examples of homophones.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a common feature of homophones like knight and night?",
+          "correctAnswer": "They sound the same but have different meanings and spellings",
+          "wrongAnswer1": "They have the same spelling but different pronunciations",
+          "wrongAnswer2": "They have the same meaning but different spellings",
+          "wrongAnswer3": "They are spelled the same and have the same meaning",
+          "explanation": "Homophones are characterized by having the same pronunciation but different meanings and often different spellings.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Choose the homophone pair related to weather conditions.",
+          "correctAnswer": "Rain and reign",
+          "wrongAnswer1": "Right and write",
+          "wrongAnswer2": "See and sea",
+          "wrongAnswer3": "Bare and bear",
+          "explanation": "Rain and reign are homophones where rain refers to precipitation and reign refers to ruling or control.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Homographs meaning",
+      "questions": [
+        {
+          "question": "What is the meaning of homographs in English?",
+          "correctAnswer": "Words that are spelled the same but have different meanings",
+          "wrongAnswer1": "Words that sound the same but have different meanings",
+          "wrongAnswer2": "Words that rhyme with each other",
+          "wrongAnswer3": "Words that have opposite meanings",
+          "explanation": "Homographs are words that share the same spelling but have different meanings and sometimes different pronunciations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of homographs?",
+          "correctAnswer": "Lead (to guide) and lead (a metal)",
+          "wrongAnswer1": "Read (past) and reed (a plant)",
+          "wrongAnswer2": "Mail (letters) and male (gender)",
+          "wrongAnswer3": "Right (correct) and write (to compose)",
+          "explanation": "Lead (to guide) and lead (a metal) are spelled the same but have different meanings, fitting the definition of homographs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can you usually tell the meaning of a homograph in a sentence?",
+          "correctAnswer": "By looking at the context in which it is used",
+          "wrongAnswer1": "By its word length",
+          "wrongAnswer2": "By checking if it rhymes with another word",
+          "wrongAnswer3": "By the number of syllables",
+          "explanation": "The meaning of homographs is usually determined by the context in which they appear in a sentence.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Word formation",
+      "questions": [
+        {
+          "question": "What is the process of creating new words by adding prefixes or suffixes called?",
+          "correctAnswer": "Derivation",
+          "wrongAnswer1": "Compounding",
+          "wrongAnswer2": "Conversion",
+          "wrongAnswer3": "Clipping",
+          "explanation": "Derivation involves adding prefixes or suffixes to a base word to form a new word with a different meaning.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of compounding in word formation?",
+          "correctAnswer": "Toothbrush",
+          "wrongAnswer1": "Happy",
+          "wrongAnswer2": "Redo",
+          "wrongAnswer3": "Texting",
+          "explanation": "Compounding is the process of combining two or more words (like tooth and brush) to create a new word with a specific meaning.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What word formation process involves the omission of parts of a longer word?",
+          "correctAnswer": "Clipping",
+          "wrongAnswer1": "Blending",
+          "wrongAnswer2": "Affixation",
+          "wrongAnswer3": "Conversion",
+          "explanation": "Clipping shortens a longer word by omitting parts of it, such as 'lab' from 'laboratory'.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Prefixes suffixes",
+      "questions": [
+        {
+          "question": "What is the function of a prefix in a word?",
+          "correctAnswer": "It is added to the beginning of a word to change its meaning",
+          "wrongAnswer1": "It is added to the end of a word to change its meaning",
+          "wrongAnswer2": "It is the root part of the word",
+          "wrongAnswer3": "It always changes the word into a noun",
+          "explanation": "A prefix is a group of letters added at the beginning of a word which changes its meaning, but does not change the root word's part of speech in most cases.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a suffix?",
+          "correctAnswer": "-ful",
+          "wrongAnswer1": "un-",
+          "wrongAnswer2": "dis-",
+          "wrongAnswer3": "pre-",
+          "explanation": "A suffix is added at the end of a word to change its meaning or function, and '-ful' is an example of a suffix meaning 'full of'.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do prefixes and suffixes help in English vocabulary?",
+          "correctAnswer": "They help create new words and change meanings",
+          "wrongAnswer1": "They only change the spelling of words without changing meaning",
+          "wrongAnswer2": "They are used to join two sentences",
+          "wrongAnswer3": "They remove the root word completely",
+          "explanation": "Prefixes and suffixes attach to a root word to form new words and alter the meaning, which helps expand vocabulary and understanding.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Phrasal verbs",
+      "questions": [
+        {
+          "question": "What is a phrasal verb?",
+          "correctAnswer": "A verb combined with one or two particles that creates a new meaning",
+          "wrongAnswer1": "A verb followed by a noun that describes action clearly",
+          "wrongAnswer2": "A verb used only in formal writing",
+          "wrongAnswer3": "A verb that cannot be separated by other words",
+          "explanation": "A phrasal verb is a verb combined with one or two particles like prepositions or adverbs, which together create a meaning different from the original verb alone.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which sentence contains a phrasal verb?",
+          "correctAnswer": "She turned off the lights before leaving.",
+          "wrongAnswer1": "She turns the lights off before leaving.",
+          "wrongAnswer2": "She lights the candles before leaving.",
+          "wrongAnswer3": "She left the room quietly.",
+          "explanation": "The phrase 'turned off' is a phrasal verb meaning to deactivate something like lights.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the phrasal verb 'look up' commonly mean?",
+          "correctAnswer": "To search for information in a reference source",
+          "wrongAnswer1": "To view something from below",
+          "wrongAnswer2": "To admire someone greatly",
+          "wrongAnswer3": "To fix something that is broken",
+          "explanation": "The phrasal verb 'look up' usually means to search for information, often in a dictionary or online.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Sentence fragments",
+      "questions": [
+        {
+          "question": "What is a sentence fragment?",
+          "correctAnswer": "An incomplete sentence that lacks a subject or verb",
+          "wrongAnswer1": "A complete sentence with a subject and verb",
+          "wrongAnswer2": "A group of random words without meaning",
+          "wrongAnswer3": "A sentence that has too many clauses",
+          "explanation": "A sentence fragment is a group of words that does not express a complete thought because it lacks a subject, a verb, or both.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of a sentence fragment?",
+          "correctAnswer": "Because I was tired.",
+          "wrongAnswer1": "I went to the store.",
+          "wrongAnswer2": "She plays the piano every day.",
+          "wrongAnswer3": "They are watching a movie now.",
+          "explanation": "Because I was tired is a sentence fragment since it is a dependent clause and does not form a complete thought on its own.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can you fix a sentence fragment?",
+          "correctAnswer": "By adding the missing subject or verb to complete the thought",
+          "wrongAnswer1": "By removing all punctuation",
+          "wrongAnswer2": "By shortening the sentence to fewer words",
+          "wrongAnswer3": "By adding more adjectives",
+          "explanation": "To fix a sentence fragment, you need to add the missing element such as the subject or the verb so that the sentence expresses a complete thought.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Run on sentences",
+      "questions": [
+        {
+          "question": "What is a run on sentence?",
+          "correctAnswer": "A sentence with two or more independent clauses joined incorrectly",
+          "wrongAnswer1": "A sentence with no verbs",
+          "wrongAnswer2": "A sentence written in the past tense",
+          "wrongAnswer3": "A sentence that uses complex vocabulary",
+          "explanation": "A run on sentence occurs when two or more independent clauses are joined without proper punctuation or conjunctions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of a run on sentence?",
+          "correctAnswer": "I went to the store I forgot to buy milk",
+          "wrongAnswer1": "I went to the store, and I forgot to buy milk",
+          "wrongAnswer2": "I went to the store because I needed milk",
+          "wrongAnswer3": "I went to the store; I forgot to buy milk",
+          "explanation": "The first example lacks proper punctuation or a conjunction between two independent clauses, making it a run on sentence.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can you correct a run on sentence?",
+          "correctAnswer": "By adding a period, semicolon, or coordinating conjunction between independent clauses",
+          "wrongAnswer1": "By removing all verbs",
+          "wrongAnswer2": "By changing the sentence to passive voice",
+          "wrongAnswer3": "By adding more adjectives",
+          "explanation": "Correcting a run on sentence involves properly joining independent clauses using punctuation or conjunctions to avoid confusion.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Spelling rules",
+      "questions": [
+        {
+          "question": "What is the correct spelling rule when adding a suffix to a word ending in a silent e?",
+          "correctAnswer": "Drop the silent e before adding the suffix if it begins with a vowel",
+          "wrongAnswer1": "Always keep the silent e regardless of the suffix",
+          "wrongAnswer2": "Double the silent e before adding the suffix",
+          "wrongAnswer3": "Remove the last two letters before adding the suffix",
+          "explanation": "When adding a suffix that begins with a vowel, the silent e at the end of the base word is usually dropped, as in 'make' becoming 'making'.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these words follows the 'i before e except after c' rule?",
+          "correctAnswer": "Receive",
+          "wrongAnswer1": "Believe",
+          "wrongAnswer2": "Science",
+          "wrongAnswer3": "Piece",
+          "explanation": "'Receive' follows the spelling rule where i comes before e except when it follows c, in which case e comes before i.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you usually spell a word that ends with a consonant-vowel-consonant pattern when adding a one-syllable suffix beginning with a vowel?",
+          "correctAnswer": "Double the final consonant before adding the suffix",
+          "wrongAnswer1": "Drop the last consonant before adding the suffix",
+          "wrongAnswer2": "Add the suffix without changing the original spelling",
+          "wrongAnswer3": "Replace the vowel with the suffix",
+          "explanation": "In words ending consonant-vowel-consonant, the final consonant is doubled before adding a suffix that begins with a vowel, such as 'run' becoming 'running'.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Common mistakes",
+      "questions": [
+        {
+          "question": "Which sentence correctly uses the word there in its proper context?",
+          "correctAnswer": "There are many books on the shelf.",
+          "wrongAnswer1": "Their are many books on the shelf.",
+          "wrongAnswer2": "Theyre are many books on the shelf.",
+          "wrongAnswer3": "Thiers are many books on the shelf.",
+          "explanation": "The word 'there' is used to indicate a place or existence, as in 'There are many books on the shelf.' The other options misuse homophones.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Identify the correct sentence with proper subject-verb agreement.",
+          "correctAnswer": "She goes to school every day.",
+          "wrongAnswer1": "She go to school every day.",
+          "wrongAnswer2": "She going to school every day.",
+          "wrongAnswer3": "She gone to school every day.",
+          "explanation": "The subject 'She' requires the verb form 'goes' to agree in number and tense. The other choices have incorrect verb forms.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which sentence correctly uses 'your' and 'you're'?",
+          "correctAnswer": "You're going to love this movie.",
+          "wrongAnswer1": "Your going to love this movie.",
+          "wrongAnswer2": "Youre going to love this movie.",
+          "wrongAnswer3": "Yore going to love this movie.",
+          "explanation": "'You're' is a contraction of 'you are,' so the correct sentence is 'You're going to love this movie.' 'Your' indicates possession and is incorrect in this context.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Academic writing",
+      "questions": [
+        {
+          "question": "What is the primary purpose of academic writing?",
+          "correctAnswer": "To inform and present arguments clearly and logically",
+          "wrongAnswer1": "To entertain the reader with stories",
+          "wrongAnswer2": "To persuade someone to buy a product",
+          "wrongAnswer3": "To write personal diary entries",
+          "explanation": "Academic writing aims to inform readers and present arguments in a clear, logical manner, often supported by evidence.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a characteristic feature of academic writing?",
+          "correctAnswer": "Formal tone and use of evidence-based arguments",
+          "wrongAnswer1": "Informal language and personal opinions",
+          "wrongAnswer2": "Use of slang and contractions",
+          "wrongAnswer3": "Emotional language and exaggerated claims",
+          "explanation": "Academic writing typically uses a formal tone and relies on evidence to support arguments, avoiding informal language or emotional appeals.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the importance of citations in academic writing?",
+          "correctAnswer": "To give credit to original sources and avoid plagiarism",
+          "wrongAnswer1": "To make the paper look longer",
+          "wrongAnswer2": "To confuse the reader",
+          "wrongAnswer3": "To add unrelated information",
+          "explanation": "Citations are used to acknowledge the work of others and help avoid plagiarism, enhancing the credibility of the academic work.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Creative writing",
+      "questions": [
+        {
+          "question": "What is the primary purpose of creative writing?",
+          "correctAnswer": "To express ideas and emotions in an imaginative way",
+          "wrongAnswer1": "To report facts and data clearly",
+          "wrongAnswer2": "To persuade readers with logical arguments",
+          "wrongAnswer3": "To follow strict grammatical rules without deviation",
+          "explanation": "Creative writing focuses on expressing ideas and emotions through imagination and originality, often using literary techniques.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common element found in creative writing?",
+          "correctAnswer": "Character development",
+          "wrongAnswer1": "Statistical analysis",
+          "wrongAnswer2": "Technical manuals",
+          "wrongAnswer3": "Legal documents",
+          "explanation": "Character development is a key element in many forms of creative writing, helping to create engaging stories.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which genre is typically associated with creative writing?",
+          "correctAnswer": "Fictional storytelling",
+          "wrongAnswer1": "Academic research papers",
+          "wrongAnswer2": "Instructional guides",
+          "wrongAnswer3": "Business reports",
+          "explanation": "Fictional storytelling involves creating imagined scenarios and characters, a hallmark of creative writing.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Formal language",
+      "questions": [
+        {
+          "question": "What is a key characteristic of formal language?",
+          "correctAnswer": "It avoids slang and casual expressions",
+          "wrongAnswer1": "It includes informal abbreviations",
+          "wrongAnswer2": "It uses many contractions",
+          "wrongAnswer3": "It often includes colloquial phrases",
+          "explanation": "Formal language is characterized by the avoidance of slang, contractions, and casual expressions to maintain professionalism and clarity.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In which situation is formal language most appropriate?",
+          "correctAnswer": "Writing a business report",
+          "wrongAnswer1": "Texting a friend",
+          "wrongAnswer2": "Casual conversation at home",
+          "wrongAnswer3": "Posting on social media",
+          "explanation": "Formal language is typically used in professional or official communications, such as business reports, to convey seriousness and clarity.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of formal language?",
+          "correctAnswer": "Please accept my sincere apologies for the inconvenience.",
+          "wrongAnswer1": "Sorry about the mess!",
+          "wrongAnswer2": "Hey, what’s up?",
+          "wrongAnswer3": "Gotta fix that soon!",
+          "explanation": "Formal language uses polite and complete sentences without slang or contractions, unlike casual or informal expressions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Informal language",
+      "questions": [
+        {
+          "question": "Which of the following is an example of informal language?",
+          "correctAnswer": "Gonna grab some food.",
+          "wrongAnswer1": "I am going to have a meal.",
+          "wrongAnswer2": "Would you like to have dinner?",
+          "wrongAnswer3": "I will eat now.",
+          "explanation": "The phrase Gonna grab some food is informal because it uses a contraction and casual wording, typical in everyday spoken language.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a characteristic of informal language?",
+          "correctAnswer": "Use of contractions and slang.",
+          "wrongAnswer1": "Strict adherence to grammatical rules.",
+          "wrongAnswer2": "Formal vocabulary and tone.",
+          "wrongAnswer3": "Complex sentence structures.",
+          "explanation": "Informal language often includes contractions, slang, and a conversational tone rather than strict grammar or formal vocabulary.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which scenario is most appropriate for using informal language?",
+          "correctAnswer": "Talking with close friends.",
+          "wrongAnswer1": "Writing a business report.",
+          "wrongAnswer2": "Delivering a formal presentation.",
+          "wrongAnswer3": "Writing an academic essay.",
+          "explanation": "Informal language suits casual conversations such as talking with close friends rather than professional or academic contexts.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Business English",
+      "questions": [
+        {
+          "question": "What is a common greeting used in business emails?",
+          "correctAnswer": "Dear Sir or Madam",
+          "wrongAnswer1": "Hey buddy",
+          "wrongAnswer2": "Yo wassup",
+          "wrongAnswer3": "Hiya mate",
+          "explanation": "Dear Sir or Madam is a formal and common greeting used in business emails when the recipient's name is unknown.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the phrase 'touch base' mean in business English?",
+          "correctAnswer": "To make contact or update someone",
+          "wrongAnswer1": "To hit the ball in a game",
+          "wrongAnswer2": "To ignore someone's message",
+          "wrongAnswer3": "To delay a project",
+          "explanation": "'Touch base' means to make contact with someone to update or check information in a business context.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a polite way to decline an offer in business communication?",
+          "correctAnswer": "Thank you for the offer, but I must decline at this time",
+          "wrongAnswer1": "No thanks, not interested",
+          "wrongAnswer2": "I will never accept that",
+          "wrongAnswer3": "Make me think otherwise",
+          "explanation": "The polite way to decline an offer in business is to thank the person and gently say no without being rude or direct.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "English poetry",
+      "questions": [
+        {
+          "question": "What is a common rhythmic structure used in English poetry?",
+          "correctAnswer": "Iambic pentameter",
+          "wrongAnswer1": "Free verse",
+          "wrongAnswer2": "Haiku",
+          "wrongAnswer3": "Limerick",
+          "explanation": "Iambic pentameter is a common rhythmic structure in English poetry, consisting of five feet with an unstressed syllable followed by a stressed syllable.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Who is known as the Bard of Avon and a famous English poet?",
+          "correctAnswer": "William Shakespeare",
+          "wrongAnswer1": "Robert Frost",
+          "wrongAnswer2": "Emily Dickinson",
+          "wrongAnswer3": "John Keats",
+          "explanation": "William Shakespeare is often called the Bard of Avon and is a famous English poet known for his sonnets and plays.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What poetic device involves repetition of consonant sounds at the beginning of words in a line?",
+          "correctAnswer": "Alliteration",
+          "wrongAnswer1": "Assonance",
+          "wrongAnswer2": "Metaphor",
+          "wrongAnswer3": "Onomatopoeia",
+          "explanation": "Alliteration is the repetition of consonant sounds at the beginning of words to create rhythm or mood in poetry.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "English literature",
+      "questions": [
+        {
+          "question": "Who is known as the author of Romeo and Juliet?",
+          "correctAnswer": "William Shakespeare",
+          "wrongAnswer1": "Charles Dickens",
+          "wrongAnswer2": "Jane Austen",
+          "wrongAnswer3": "George Orwell",
+          "explanation": "William Shakespeare is famous for writing the play Romeo and Juliet, a classic of English literature.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which novel is considered a masterpiece by Jane Austen?",
+          "correctAnswer": "Pride and Prejudice",
+          "wrongAnswer1": "Moby Dick",
+          "wrongAnswer2": "Great Expectations",
+          "wrongAnswer3": "The Catcher in the Rye",
+          "explanation": "Pride and Prejudice is one of Jane Austen's most celebrated novels in English literature.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the main theme of George Orwell's novel 1984?",
+          "correctAnswer": "Totalitarianism and surveillance",
+          "wrongAnswer1": "Love and friendship",
+          "wrongAnswer2": "Adventure and exploration",
+          "wrongAnswer3": "Fantasy and magic",
+          "explanation": "1984 by George Orwell explores the dangers of totalitarian governments and constant surveillance, making it an important work in English literature.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Literary devices",
+      "questions": [
+        {
+          "question": "Which literary device involves giving human traits to non-human objects?",
+          "correctAnswer": "Personification",
+          "wrongAnswer1": "Metaphor",
+          "wrongAnswer2": "Alliteration",
+          "wrongAnswer3": "Onomatopoeia",
+          "explanation": "Personification is a literary device where human qualities are given to animals, objects, or ideas.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What literary device is used when two opposite ideas are placed close together for contrasting effect?",
+          "correctAnswer": "Juxtaposition",
+          "wrongAnswer1": "Simile",
+          "wrongAnswer2": "Hyperbole",
+          "wrongAnswer3": "Irony",
+          "explanation": "Juxtaposition involves placing two contrasting ideas near each other to highlight their differences.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which device involves an exaggerated statement not meant to be taken literally?",
+          "correctAnswer": "Hyperbole",
+          "wrongAnswer1": "Alliteration",
+          "wrongAnswer2": "Personification",
+          "wrongAnswer3": "Symbolism",
+          "explanation": "Hyperbole is an intentional exaggeration used for emphasis or effect, not meant to be interpreted literally.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Narrative techniques",
+      "questions": [
+        {
+          "question": "What is the purpose of using the narrative technique known as 'foreshadowing'?",
+          "correctAnswer": "To hint at events that will occur later in the story",
+          "wrongAnswer1": "To introduce new characters abruptly",
+          "wrongAnswer2": "To provide a detailed setting description",
+          "wrongAnswer3": "To break the story into unrelated parts",
+          "explanation": "Foreshadowing is used to give readers hints or clues about what will happen later in the narrative, building anticipation and tension.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which narrative technique involves telling the story from the point of view of one character, using words like I and me?",
+          "correctAnswer": "First-person narration",
+          "wrongAnswer1": "Third-person omniscient",
+          "wrongAnswer2": "Second-person narration",
+          "wrongAnswer3": "Stream of consciousness",
+          "explanation": "First-person narration is when the story is told by a character within the story using first-person pronouns such as I or me, providing a personal perspective.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the technique 'stream of consciousness' aim to depict in a narrative?",
+          "correctAnswer": "The continuous flow of a character's thoughts and feelings",
+          "wrongAnswer1": "The detailed chronological order of events",
+          "wrongAnswer2": "A clear dialogue between characters",
+          "wrongAnswer3": "An objective, outside perspective",
+          "explanation": "Stream of consciousness narrates the character's thoughts and feelings as they occur, often in a disorganized or non-linear manner, reflecting the inner experiences.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Dialogue writing",
+      "questions": [
+        {
+          "question": "What is the main purpose of dialogue in a story or play?",
+          "correctAnswer": "To show conversation between characters and reveal their feelings",
+          "wrongAnswer1": "To give a detailed description of the setting",
+          "wrongAnswer2": "To explain the background of the story",
+          "wrongAnswer3": "To summarize the plot briefly",
+          "explanation": "Dialogue is used to present the spoken exchange between characters, which helps reveal their emotions, personality, and advances the plot.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which punctuation mark is typically used to indicate spoken words in dialogue writing?",
+          "correctAnswer": "Quotation marks",
+          "wrongAnswer1": "Parentheses",
+          "wrongAnswer2": "Exclamation marks",
+          "wrongAnswer3": "Commas",
+          "explanation": "Quotation marks are placed around the exact words spoken by a character to show it is dialogue.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When writing dialogue, what is important to include to show who is speaking?",
+          "correctAnswer": "Dialogue tags such as said or asked",
+          "wrongAnswer1": "Only writing the spoken words without any tags",
+          "wrongAnswer2": "Using long paragraphs without breaks",
+          "wrongAnswer3": "Writing all dialogue in capital letters",
+          "explanation": "Dialogue tags help indicate which character is speaking and how they are speaking, making the dialogue clear to the reader.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Speech delivery",
+      "questions": [
+        {
+          "question": "What is the primary focus of effective speech delivery?",
+          "correctAnswer": "Engaging the audience through clear voice and body language",
+          "wrongAnswer1": "Using complex vocabulary to impress listeners",
+          "wrongAnswer2": "Reading the speech word for word without eye contact",
+          "wrongAnswer3": "Speaking as fast as possible to cover all points",
+          "explanation": "Effective speech delivery involves engaging the audience by using a clear voice, appropriate body language, and maintaining eye contact rather than just using complex words or reading directly.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key element in speech delivery?",
+          "correctAnswer": "Pacing and pausing to emphasize important points",
+          "wrongAnswer1": "Avoiding any form of gesture or movement",
+          "wrongAnswer2": "Speaking in a monotone voice to maintain consistency",
+          "wrongAnswer3": "Memorizing the exact script without adaptation",
+          "explanation": "Pacing and pausing help to emphasize important points and give the audience time to absorb the message, making the speech more effective.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is eye contact important in speech delivery?",
+          "correctAnswer": "It helps establish a connection with the audience",
+          "wrongAnswer1": "It intimidates the audience into listening",
+          "wrongAnswer2": "It allows the speaker to avoid looking at notes",
+          "wrongAnswer3": "It shows that the speaker has memorized the speech",
+          "explanation": "Maintaining eye contact helps build rapport and makes the audience feel involved in the speech, enhancing communication.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Language acquisition",
+      "questions": [
+        {
+          "question": "What is language acquisition?",
+          "correctAnswer": "The process by which humans learn to understand and produce language naturally.",
+          "wrongAnswer1": "A formal method of learning languages through classroom instruction.",
+          "wrongAnswer2": "The way computers translate text from one language to another.",
+          "wrongAnswer3": "A type of language used only by linguists.",
+          "explanation": "Language acquisition refers to the natural process through which humans learn to understand and speak their first language, typically during early childhood.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which is a key theory of first language acquisition?",
+          "correctAnswer": "The nativist theory which suggests humans have an innate ability to learn language.",
+          "wrongAnswer1": "The behaviorist theory that language is learned only by watching television.",
+          "wrongAnswer2": "The social theory which states language is only learned through formal writing.",
+          "wrongAnswer3": "The cognitive theory that language is unrelated to brain development.",
+          "explanation": "The nativist theory, proposed by Noam Chomsky, states that humans are born with an innate ability to acquire language, known as the language acquisition device.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "At what age does most language acquisition typically begin?",
+          "correctAnswer": "In early childhood, usually within the first few years of life.",
+          "wrongAnswer1": "During adulthood, after learning a second language.",
+          "wrongAnswer2": "Only after starting formal education at school.",
+          "wrongAnswer3": "During teenage years when cognitive skills mature.",
+          "explanation": "Language acquisition primarily occurs in early childhood when the brain is most receptive to learning and processing language naturally and effortlessly.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "English",
+      "concept": "Second language",
+      "questions": [
+        {
+          "question": "What is a second language?",
+          "correctAnswer": "A language learned after the first language",
+          "wrongAnswer1": "A language learned before birth",
+          "wrongAnswer2": "A language only spoken in one country",
+          "wrongAnswer3": "The first language a person speaks",
+          "explanation": "A second language is any language learned after a person's first language, often used for communication in different regions or countries.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why do people learn a second language?",
+          "correctAnswer": "To communicate with people from different cultures",
+          "wrongAnswer1": "To forget their first language",
+          "wrongAnswer2": "Because it is required by law everywhere",
+          "wrongAnswer3": "Because they can only speak one language",
+          "explanation": "People learn a second language to be able to communicate with others who speak different languages and to connect with different cultures.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of a second language?",
+          "correctAnswer": "Learning Spanish after speaking Chinese at home",
+          "wrongAnswer1": "Speaking English as a native language",
+          "wrongAnswer2": "Using gestures instead of words",
+          "wrongAnswer3": "Speaking the language of one country only",
+          "explanation": "Learning a language after one's native language is considered a second language; for example, a native Chinese speaker learning Spanish is learning a second language.",
+          "difficulty": "Basic"
+        }
+      ]
+    }
+  ]
+}

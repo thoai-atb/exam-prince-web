@@ -15,8 +15,10 @@ const Main = ({ topic, onExit }) => {
         </div>
 
         {/* Draft & Question panels */}
-        <div className="flex flex-row items-start justify-center p-2">
-          <ChooseFloorPlan />
+        <div className="relative flex flex-row items-start justify-center p-2">
+          <div className="absolute top-0 left-0">
+            <ChooseFloorPlan />
+          </div>
           <FloorPlanPanel />
         </div>
       </main>

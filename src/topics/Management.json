@@ -1,0 +1,1655 @@
+{
+  "topic": "Management",
+  "concepts": [
+    {
+      "topic": "Management",
+      "concept": "Leadership Styles",
+      "questions": [
+        {
+          "question": "Which leadership style involves making decisions independently with little input from team members?",
+          "correctAnswer": "Autocratic leadership",
+          "wrongAnswer1": "Democratic leadership",
+          "wrongAnswer2": "Laissez-faire leadership",
+          "wrongAnswer3": "Transformational leadership",
+          "explanation": "Autocratic leadership is characterized by individual control over all decisions with little consultation with others.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What type of leadership style encourages team participation and consensus in decision-making?",
+          "correctAnswer": "Democratic leadership",
+          "wrongAnswer1": "Autocratic leadership",
+          "wrongAnswer2": "Transactional leadership",
+          "wrongAnswer3": "Laissez-faire leadership",
+          "explanation": "Democratic leadership involves team members in decision-making, promoting collaboration and shared responsibility.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which leadership style is characterized by a hands-off approach, allowing team members to make most decisions?",
+          "correctAnswer": "Laissez-faire leadership",
+          "wrongAnswer1": "Autocratic leadership",
+          "wrongAnswer2": "Democratic leadership",
+          "wrongAnswer3": "Transformational leadership",
+          "explanation": "Laissez-faire leaders provide minimal supervision and allow group members considerable freedom in how they do their work.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Project Planning",
+      "questions": [
+        {
+          "question": "What is the primary purpose of project planning in management?",
+          "correctAnswer": "To define the project's objectives, scope, and schedule",
+          "wrongAnswer1": "To assign daily tasks to team members without overview",
+          "wrongAnswer2": "To prepare financial reports after project completion",
+          "wrongAnswer3": "To execute tasks without prior analysis",
+          "explanation": "Project planning involves defining objectives, scope, schedule, and resources needed to successfully complete a project.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which document typically outlines the tasks, timelines, and responsible parties in a project plan?",
+          "correctAnswer": "A project schedule or Gantt chart",
+          "wrongAnswer1": "A financial audit report",
+          "wrongAnswer2": "A personnel evaluation form",
+          "wrongAnswer3": "A marketing strategy document",
+          "explanation": "A project schedule or Gantt chart visually represents tasks, timelines, and who is responsible for each task within the project plan.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "During project planning, risk assessment is important because it helps to:",
+          "correctAnswer": "Identify potential problems and develop mitigation strategies",
+          "wrongAnswer1": "Increase the project's budget without reason",
+          "wrongAnswer2": "Delay the project start date indefinitely",
+          "wrongAnswer3": "Ignore minor issues to speed up planning",
+          "explanation": "Risk assessment allows the project team to foresee potential risks and plan actions to reduce their impact or likelihood.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Team Building",
+      "questions": [
+        {
+          "question": "What is the primary goal of team building activities?",
+          "correctAnswer": "To improve communication and collaboration among team members",
+          "wrongAnswer1": "To increase individual competition within the team",
+          "wrongAnswer2": "To assign tasks without discussion",
+          "wrongAnswer3": "To evaluate employee performance individually",
+          "explanation": "Team building activities are designed to enhance communication, trust, and collaboration among team members, leading to better overall team performance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common benefit of effective team building?",
+          "correctAnswer": "Improved problem solving and decision making",
+          "wrongAnswer1": "Reduced need for meetings",
+          "wrongAnswer2": "Increased individual workload",
+          "wrongAnswer3": "More competition among team members",
+          "explanation": "Effective team building fosters a cooperative environment that improves problem solving and decision making by leveraging diverse perspectives.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which factor is most important to consider when planning team building exercises?",
+          "correctAnswer": "Team members' interests and goals",
+          "wrongAnswer1": "Only the budget available",
+          "wrongAnswer2": "The popularity of the activities outside work",
+          "wrongAnswer3": "Choosing the most physically demanding tasks",
+          "explanation": "Planning team building exercises should focus on the preferences and objectives of the team members to ensure engagement and relevance, which enhances effectiveness.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Conflict Resolution",
+      "questions": [
+        {
+          "question": "What is the primary goal of conflict resolution in management?",
+          "correctAnswer": "To find a solution that satisfies all parties involved",
+          "wrongAnswer1": "To determine which party is right and which is wrong",
+          "wrongAnswer2": "To escalate the issue to upper management",
+          "wrongAnswer3": "To avoid addressing the conflict altogether",
+          "explanation": "The primary goal of conflict resolution is to find a solution that satisfies all parties involved, allowing them to work together effectively.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which conflict resolution style involves cooperating and working together to solve the problem?",
+          "correctAnswer": "Collaborating",
+          "wrongAnswer1": "Avoiding",
+          "wrongAnswer2": "Competing",
+          "wrongAnswer3": "Accommodating",
+          "explanation": "Collaborating involves working together cooperatively to find a mutually beneficial solution to the conflict.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "When managing conflict, what is an effective first step?",
+          "correctAnswer": "Identifying the underlying cause of the conflict",
+          "wrongAnswer1": "Immediately imposing a solution",
+          "wrongAnswer2": "Ignoring the conflict until it resolves itself",
+          "wrongAnswer3": "Taking sides based on personal opinions",
+          "explanation": "An effective first step in conflict management is identifying the underlying cause of the conflict before attempting to resolve it.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Change Management",
+      "questions": [
+        {
+          "question": "What is the primary goal of change management in an organization?",
+          "correctAnswer": "To help employees adapt to new processes and technologies",
+          "wrongAnswer1": "To maintain all existing workflows without modifications",
+          "wrongAnswer2": "To avoid any changes in organizational structure",
+          "wrongAnswer3": "To delay project deadlines intentionally",
+          "explanation": "Change management focuses on helping employees and the organization successfully transition to new ways of working, such as new processes or technologies, ensuring smooth adaptation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a critical step in the change management process?",
+          "correctAnswer": "Communicating the change clearly to all stakeholders",
+          "wrongAnswer1": "Ignoring employee feedback during the transition",
+          "wrongAnswer2": "Implementing changes without planning",
+          "wrongAnswer3": "Avoiding any training related to the change",
+          "explanation": "Clear communication to all stakeholders is essential in change management to ensure understanding, reduce resistance, and facilitate a smoother transition.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is resistance considered a common challenge in change management?",
+          "correctAnswer": "Because employees may fear loss of control or uncertainty about the future",
+          "wrongAnswer1": "Because employees always prefer working harder with no reason",
+          "wrongAnswer2": "Because resistance delays the completion of unrelated projects",
+          "wrongAnswer3": "Because management discourages all teamwork during change",
+          "explanation": "Resistance arises as employees often feel uncertain or worry about losing control when changes occur, making it a common challenge leaders must address in change management.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Time Management",
+      "questions": [
+        {
+          "question": "What is the primary goal of time management?",
+          "correctAnswer": "To use available time effectively and efficiently",
+          "wrongAnswer1": "To work longer hours without breaks",
+          "wrongAnswer2": "To delegate all tasks to others",
+          "wrongAnswer3": "To avoid planning daily activities",
+          "explanation": "The primary goal of time management is to use available time effectively and efficiently to accomplish tasks and reach goals.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common tool used in time management?",
+          "correctAnswer": "To-do lists",
+          "wrongAnswer1": "Television remote",
+          "wrongAnswer2": "Cooking utensils",
+          "wrongAnswer3": "Sports equipment",
+          "explanation": "To-do lists are a common and effective tool used to organize and prioritize tasks in time management.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the Eisenhower Matrix used for in time management?",
+          "correctAnswer": "Prioritizing tasks based on urgency and importance",
+          "wrongAnswer1": "Scheduling meetings automatically",
+          "wrongAnswer2": "Tracking daily expenses",
+          "wrongAnswer3": "Measuring employee performance",
+          "explanation": "The Eisenhower Matrix helps individuals prioritize tasks by categorizing them into urgent, important, both or neither, which improves time management.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Strategic Planning",
+      "questions": [
+        {
+          "question": "What is the primary purpose of strategic planning in management?",
+          "correctAnswer": "To set long-term goals and determine the best approach to achieve them",
+          "wrongAnswer1": "To manage day-to-day operations and workflow",
+          "wrongAnswer2": "To train employees on company policies",
+          "wrongAnswer3": "To evaluate the financial performance at the end of the year",
+          "explanation": "Strategic planning in management focuses on establishing long-term objectives and defining the best strategies to reach those goals.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT typically part of the strategic planning process?",
+          "correctAnswer": "Employee performance reviews",
+          "wrongAnswer1": "Environmental scanning",
+          "wrongAnswer2": "Setting objectives",
+          "wrongAnswer3": "Formulating strategies",
+          "explanation": "While strategic planning involves analyzing the environment, setting objectives, and creating strategies, employee performance reviews are more related to performance management.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does strategic planning help organizations?",
+          "correctAnswer": "By providing a clear direction and making resource allocation more effective",
+          "wrongAnswer1": "By focusing solely on increasing short-term profits",
+          "wrongAnswer2": "By eliminating the need for operational planning",
+          "wrongAnswer3": "By ensuring all employees get equal workloads",
+          "explanation": "Strategic planning guides organizations by outlining a clear direction and optimizing resource allocation, rather than focusing only on short-term profits or operational details.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Performance Metrics",
+      "questions": [
+        {
+          "question": "What is the primary purpose of performance metrics in management?",
+          "correctAnswer": "To measure and evaluate the efficiency and effectiveness of employees or processes",
+          "wrongAnswer1": "To increase the number of employees in a department",
+          "wrongAnswer2": "To reduce the overall budget of a company",
+          "wrongAnswer3": "To develop new products for the market",
+          "explanation": "Performance metrics are used to assess how well employees or processes are performing, helping managers make informed decisions to improve operations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of a performance metric in a sales department?",
+          "correctAnswer": "Number of sales completed within a month",
+          "wrongAnswer1": "Number of office meetings conducted",
+          "wrongAnswer2": "Amount spent on office supplies",
+          "wrongAnswer3": "Number of job applications received",
+          "explanation": "The number of sales completed within a month directly measures the sales performance, making it a relevant performance metric.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is it important for performance metrics to be specific and measurable?",
+          "correctAnswer": "Because specific and measurable metrics provide clear targets and objective data for evaluation",
+          "wrongAnswer1": "Because vague metrics are easier to ignore",
+          "wrongAnswer2": "Because unmeasurable metrics increase employee stress",
+          "wrongAnswer3": "Because specific metrics always require less effort",
+          "explanation": "Clear and measurable performance metrics allow managers to track progress accurately and make justified decisions based on objective data.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Decision Making",
+      "questions": [
+        {
+          "question": "What is the primary purpose of decision making in management?",
+          "correctAnswer": "To choose the best course of action among alternatives",
+          "wrongAnswer1": "To complete tasks without consulting others",
+          "wrongAnswer2": "To create more problems for the team to solve",
+          "wrongAnswer3": "To delay action until all data is available",
+          "explanation": "Decision making involves selecting the best possible option from available alternatives to achieve desired outcomes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common step in the decision-making process?",
+          "correctAnswer": "Evaluating alternatives based on criteria",
+          "wrongAnswer1": "Ignoring available information",
+          "wrongAnswer2": "Taking immediate action without analysis",
+          "wrongAnswer3": "Avoiding responsibility for the choice",
+          "explanation": "Evaluating alternatives is crucial to assess their pros and cons before selecting the best option.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What type of decision making involves using a systematic process with clearly defined criteria?",
+          "correctAnswer": "Rational decision making",
+          "wrongAnswer1": "Emotional decision making",
+          "wrongAnswer2": "Random decision making",
+          "wrongAnswer3": "Impulsive decision making",
+          "explanation": "Rational decision making follows a logical and objective process to ensure better outcomes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Risk Management",
+      "questions": [
+        {
+          "question": "What is the primary goal of risk management in a business context?",
+          "correctAnswer": "To identify, assess, and mitigate risks that could impact the organization",
+          "wrongAnswer1": "To maximize profits without considering potential threats",
+          "wrongAnswer2": "To eliminate all risks entirely",
+          "wrongAnswer3": "To delay decision-making until risks become problems",
+          "explanation": "Risk management involves proactively identifying, assessing, and mitigating risks to minimize negative impacts on the organization.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common step in the risk management process?",
+          "correctAnswer": "Identifying potential risks and analyzing their impact",
+          "wrongAnswer1": "Ignoring risks to focus on opportunities",
+          "wrongAnswer2": "Accepting all risks without taking any action",
+          "wrongAnswer3": "Delaying risk assessment until after a project is completed",
+          "explanation": "A key part of risk management is to identify and analyze risks early to take informed actions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In risk management, what does 'risk mitigation' mean?",
+          "correctAnswer": "Implementing measures to reduce the likelihood or impact of risks",
+          "wrongAnswer1": "Accepting the risk and doing nothing about it",
+          "wrongAnswer2": "Ignoring risks until they occur",
+          "wrongAnswer3": "Transferring all risks to competitors",
+          "explanation": "Risk mitigation involves strategies and actions to lessen either the probability of risks occurring or their potential negative effects.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Communication Skills",
+      "questions": [
+        {
+          "question": "What is the primary purpose of effective communication in management?",
+          "correctAnswer": "To ensure clear understanding between all parties",
+          "wrongAnswer1": "To increase the number of emails sent",
+          "wrongAnswer2": "To reduce meeting times",
+          "wrongAnswer3": "To avoid discussing problems",
+          "explanation": "Effective communication in management aims to ensure that all parties clearly understand the information, expectations, and feedback.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which communication skill is most important for resolving conflicts in a team?",
+          "correctAnswer": "Active listening",
+          "wrongAnswer1": "Writing lengthy reports",
+          "wrongAnswer2": "Speaking loudly",
+          "wrongAnswer3": "Ignoring the other person's point of view",
+          "explanation": "Active listening helps managers understand different perspectives and find common ground to resolve conflicts.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a barrier that can negatively impact communication in a managerial setting?",
+          "correctAnswer": "Cultural differences among team members",
+          "wrongAnswer1": "Using clear and simple language",
+          "wrongAnswer2": "Providing regular feedback",
+          "wrongAnswer3": "Holding inclusive meetings",
+          "explanation": "Cultural differences can lead to misunderstandings if not addressed properly, creating barriers to effective communication.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Budget Control",
+      "questions": [
+        {
+          "question": "What is the primary purpose of budget control in management?",
+          "correctAnswer": "To monitor and regulate expenses against the budget",
+          "wrongAnswer1": "To increase the overall budget without limits",
+          "wrongAnswer2": "To eliminate all costs from the budget",
+          "wrongAnswer3": "To only focus on revenue generation",
+          "explanation": "Budget control helps organizations ensure that spending does not exceed the budget and that financial resources are used effectively.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key step in the budget control process?",
+          "correctAnswer": "Comparing actual expenses with budgeted amounts",
+          "wrongAnswer1": "Ignoring discrepancies between expenses and the budget",
+          "wrongAnswer2": "Setting the budget without any reviews",
+          "wrongAnswer3": "Randomly allocating resources without a plan",
+          "explanation": "A critical part of budget control is to regularly compare actual expenses against the planned budget to identify variances and take corrective actions.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can budget control contribute to strategic management?",
+          "correctAnswer": "By providing financial data to support decision making and resource allocation",
+          "wrongAnswer1": "By replacing strategic planning with financial reports",
+          "wrongAnswer2": "By limiting managers’ ability to make decisions",
+          "wrongAnswer3": "By focusing only on short-term expenses",
+          "explanation": "Budget control provides essential financial information that helps managers align resources with strategic objectives and make informed decisions.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Resource Allocation",
+      "questions": [
+        {
+          "question": "What is the primary objective of resource allocation in management?",
+          "correctAnswer": "To distribute resources efficiently to meet project goals",
+          "wrongAnswer1": "To increase the total number of resources available",
+          "wrongAnswer2": "To minimize the number of employees on a project",
+          "wrongAnswer3": "To delay project timelines for cost savings",
+          "explanation": "Resource allocation aims to distribute the available resources effectively to achieve the goals of the project or organization within constraints like time and budget.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes a common challenge in resource allocation?",
+          "correctAnswer": "Balancing resource availability with project priorities",
+          "wrongAnswer1": "Increasing resource usage regardless of cost",
+          "wrongAnswer2": "Ignoring project deadlines to save resources",
+          "wrongAnswer3": "Allocating all resources to a single project only",
+          "explanation": "A common challenge is to balance limited resources among various projects or tasks while maintaining priorities and deadlines.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In resource allocation, what is the term for the strategy that assigns resources based on project importance and urgency?",
+          "correctAnswer": "Priority-based allocation",
+          "wrongAnswer1": "Random distribution",
+          "wrongAnswer2": "Fixed resource assignment",
+          "wrongAnswer3": "Equal sharing method",
+          "explanation": "Priority-based allocation focuses on allocating resources according to the importance and urgency of projects to optimize outcomes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Employee Motivation",
+      "questions": [
+        {
+          "question": "What is a primary goal of employee motivation in the workplace?",
+          "correctAnswer": "To increase employee productivity and satisfaction",
+          "wrongAnswer1": "To reduce employee salaries",
+          "wrongAnswer2": "To limit employee social interactions",
+          "wrongAnswer3": "To decrease working hours without productivity goals",
+          "explanation": "Employee motivation aims to boost productivity and enhance job satisfaction, leading to better performance and workplace morale.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which theory explains motivation by the fulfillment of hierarchy of needs?",
+          "correctAnswer": "Maslow's Hierarchy of Needs",
+          "wrongAnswer1": "Herzberg's Two-Factor Theory",
+          "wrongAnswer2": "McGregor's Theory X and Theory Y",
+          "wrongAnswer3": "Equity Theory",
+          "explanation": "Maslow's Hierarchy of Needs suggests that employees are motivated by fulfilling needs from basic survival to self-actualization in a stepwise manner.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is an example of intrinsic motivation?",
+          "correctAnswer": "Feeling personal satisfaction from completing a challenging task",
+          "wrongAnswer1": "Receiving a bonus for good performance",
+          "wrongAnswer2": "Getting praise from a manager",
+          "wrongAnswer3": "Winning an employee of the month award",
+          "explanation": "Intrinsic motivation comes from within the individual, such as personal satisfaction or interest in the work itself, unlike extrinsic rewards.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Organizational Culture",
+      "questions": [
+        {
+          "question": "What is Organizational Culture primarily concerned with?",
+          "correctAnswer": "The shared values, beliefs, and norms that influence how employees think and behave",
+          "wrongAnswer1": "The financial performance of the organization",
+          "wrongAnswer2": "The physical layout of the office",
+          "wrongAnswer3": "The number of employees in the organization",
+          "explanation": "Organizational Culture refers to the shared values, beliefs, and norms within an organization that shape how employees behave and interact.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT typically a component of Organizational Culture?",
+          "correctAnswer": "Technological infrastructure",
+          "wrongAnswer1": "Language and communication style",
+          "wrongAnswer2": "Rituals and ceremonies",
+          "wrongAnswer3": "Shared values and beliefs",
+          "explanation": "Technological infrastructure is related to organizational resources but is not a component of culture, which focuses more on shared social elements like language, rituals, and values.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can organizational culture impact employee performance?",
+          "correctAnswer": "It can motivate employees through a sense of belonging and shared purpose",
+          "wrongAnswer1": "It directly increases the budget for employee salaries",
+          "wrongAnswer2": "It replaces the need for employee training programs",
+          "wrongAnswer3": "It determines the legal structure of the company",
+          "explanation": "A strong organizational culture fosters motivation and commitment by giving employees a sense of identity and shared goals, positively influencing performance.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Customer Relationship",
+      "questions": [
+        {
+          "question": "What is the primary goal of customer relationship management?",
+          "correctAnswer": "To build and maintain long-term customer loyalty",
+          "wrongAnswer1": "To maximize short-term sales only",
+          "wrongAnswer2": "To reduce product quality to save costs",
+          "wrongAnswer3": "To focus solely on advertising campaigns",
+          "explanation": "Customer relationship management focuses on creating long-term loyalty and engagement rather than just short-term sales or advertising efforts.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key benefit of effective customer relationship management?",
+          "correctAnswer": "Improved customer satisfaction and retention",
+          "wrongAnswer1": "Decreased product innovation",
+          "wrongAnswer2": "Increased employee turnover",
+          "wrongAnswer3": "Reduced communication with clients",
+          "explanation": "Effective customer relationship management enhances customer satisfaction and retention by improving service and communication.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which tool is commonly used to manage customer relationships in a business?",
+          "correctAnswer": "Customer Relationship Management software",
+          "wrongAnswer1": "Enterprise Resource Planning software",
+          "wrongAnswer2": "Accounting software",
+          "wrongAnswer3": "Inventory management system",
+          "explanation": "CRM software is specifically designed to help businesses manage interactions and relationships with customers.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Quality Assurance",
+      "questions": [
+        {
+          "question": "What is the primary goal of quality assurance in management?",
+          "correctAnswer": "To ensure products or services meet specified standards and satisfy customer expectations",
+          "wrongAnswer1": "To increase the quantity of products produced",
+          "wrongAnswer2": "To reduce employee workload without monitoring quality",
+          "wrongAnswer3": "To focus solely on the marketing of products",
+          "explanation": "Quality assurance focuses on maintaining quality standards to satisfy customers by preventing defects and ensuring consistent product or service quality.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common method used in quality assurance processes?",
+          "correctAnswer": "Regular inspections and audits to identify defects",
+          "wrongAnswer1": "Increasing production speed without checks",
+          "wrongAnswer2": "Hiring only new employees without training",
+          "wrongAnswer3": "Focusing only on final product packaging",
+          "explanation": "Quality assurance often involves systematic inspections and audits to detect and prevent defects, ensuring products meet quality standards throughout production.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In management, how does quality assurance differ from quality control?",
+          "correctAnswer": "Quality assurance focuses on process improvement, while quality control focuses on identifying defects in the final product",
+          "wrongAnswer1": "Quality assurance deals only with customer feedback, quality control involves employee training",
+          "wrongAnswer2": "Quality assurance is about marketing, while quality control is about sales",
+          "wrongAnswer3": "There is no difference; both terms mean exactly the same thing",
+          "explanation": "Quality assurance aims at preventing defects through improved processes, whereas quality control identifies defects in finished products through testing and inspection.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Talent Acquisition",
+      "questions": [
+        {
+          "question": "What is the primary goal of talent acquisition in an organization?",
+          "correctAnswer": "To attract and hire qualified candidates who fit the company's needs",
+          "wrongAnswer1": "To train employees in new skills",
+          "wrongAnswer2": "To design employee benefits packages",
+          "wrongAnswer3": "To manage company finances",
+          "explanation": "Talent acquisition focuses on identifying, attracting, and hiring the best candidates to fulfill the organization's job requirements.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key activity in the talent acquisition process?",
+          "correctAnswer": "Sourcing candidates through various channels",
+          "wrongAnswer1": "Conducting employee performance reviews",
+          "wrongAnswer2": "Developing marketing campaigns",
+          "wrongAnswer3": "Managing payroll systems",
+          "explanation": "Sourcing candidates involves looking for potential hires in multiple places, which is essential in talent acquisition.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does talent acquisition differ from recruitment?",
+          "correctAnswer": "Talent acquisition is a long-term strategy focusing on finding skilled individuals for current and future needs",
+          "wrongAnswer1": "Talent acquisition is only about temporary hiring while recruitment is permanent",
+          "wrongAnswer2": "Talent acquisition deals with employee training and development",
+          "wrongAnswer3": "There is no difference between talent acquisition and recruitment",
+          "explanation": "Talent acquisition is broader, focusing on long-term workforce planning and finding people who meet the organization’s evolving needs, whereas recruitment typically focuses on filling immediate vacancies.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Workforce Diversity",
+      "questions": [
+        {
+          "question": "What is a primary benefit of workforce diversity in an organization?",
+          "correctAnswer": "It promotes a variety of perspectives and ideas.",
+          "wrongAnswer1": "It ensures all employees have the same background.",
+          "wrongAnswer2": "It reduces the need for training and development.",
+          "wrongAnswer3": "It limits communication between teams.",
+          "explanation": "Workforce diversity brings together people with different backgrounds and experiences, promoting a wide range of perspectives and ideas that can enhance creativity and innovation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which practice is important for effectively managing workforce diversity?",
+          "correctAnswer": "Implementing inclusive policies and practices.",
+          "wrongAnswer1": "Encouraging employees to conform to a single culture.",
+          "wrongAnswer2": "Avoiding discussions about differences among employees.",
+          "wrongAnswer3": "Promoting competition between diverse groups.",
+          "explanation": "Effective management of workforce diversity requires inclusive policies that recognize and value differences, fostering an environment where all employees feel respected and included.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What challenge might organizations face when managing workforce diversity?",
+          "correctAnswer": "Potential communication barriers due to cultural differences.",
+          "wrongAnswer1": "Increased uniformity in work styles.",
+          "wrongAnswer2": "Decreased creativity and problem-solving abilities.",
+          "wrongAnswer3": "Limited access to diverse talent pools.",
+          "explanation": "Managing a diverse workforce can present challenges such as communication barriers caused by different cultural norms and languages, which need to be addressed for effective teamwork.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Process Improvement",
+      "questions": [
+        {
+          "question": "What is the main goal of process improvement in management?",
+          "correctAnswer": "To make processes more efficient and effective",
+          "wrongAnswer1": "To increase the number of steps in a process",
+          "wrongAnswer2": "To reduce communication between departments",
+          "wrongAnswer3": "To maintain the status quo without changes",
+          "explanation": "Process improvement aims to enhance the efficiency and effectiveness of processes, leading to better performance and results.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common methodology used for process improvement?",
+          "correctAnswer": "Lean Six Sigma",
+          "wrongAnswer1": "Waterfall Model",
+          "wrongAnswer2": "IPO Model",
+          "wrongAnswer3": "SWOT Analysis",
+          "explanation": "Lean Six Sigma combines lean manufacturing and Six Sigma to improve process efficiency and reduce defects.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a typical first step in any process improvement initiative?",
+          "correctAnswer": "Identifying and mapping the current process",
+          "wrongAnswer1": "Implementing new technology immediately",
+          "wrongAnswer2": "Training employees on new procedures without analysis",
+          "wrongAnswer3": "Eliminating all existing workflows",
+          "explanation": "Understanding and documenting the existing process is crucial before making improvements to identify areas for change.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Goal Setting",
+      "questions": [
+        {
+          "question": "What is the primary purpose of goal setting in management?",
+          "correctAnswer": "To provide clear direction and focus for employees",
+          "wrongAnswer1": "To increase the overall budget of the company",
+          "wrongAnswer2": "To reduce the number of employees in a team",
+          "wrongAnswer3": "To limit communication between departments",
+          "explanation": "Goal setting helps managers and employees focus on specific objectives, ensuring efforts are aligned and resources are used effectively.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a characteristic of effective goals in management?",
+          "correctAnswer": "Specific, measurable, attainable, relevant, and time-bound",
+          "wrongAnswer1": "Vague, flexible, long-term, and non-measurable",
+          "wrongAnswer2": "Impossible to achieve and not aligned with company values",
+          "wrongAnswer3": "Focused only on financial performance",
+          "explanation": "Effective goals are often described using the SMART criteria, which ensures they are clear and achievable within a set timeframe.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does participative goal setting improve employee performance?",
+          "correctAnswer": "It increases motivation and commitment by involving employees in decision making",
+          "wrongAnswer1": "It reduces employees' responsibilities and tasks",
+          "wrongAnswer2": "It allows managers to set goals without employee input",
+          "wrongAnswer3": "It eliminates the need for performance evaluations",
+          "explanation": "Involving employees in goal setting makes them feel valued and more accountable, which often leads to better performance outcomes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Delegation Skills",
+      "questions": [
+        {
+          "question": "What is the primary purpose of delegation in management?",
+          "correctAnswer": "To assign responsibility and authority to others",
+          "wrongAnswer1": "To reduce the workload of the manager permanently",
+          "wrongAnswer2": "To avoid accountability for tasks",
+          "wrongAnswer3": "To eliminate the need for teamwork",
+          "explanation": "Delegation is primarily about assigning responsibility and authority to subordinates to accomplish tasks effectively while maintaining accountability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key skill for effective delegation?",
+          "correctAnswer": "Clearly communicating the expectations and responsibilities",
+          "wrongAnswer1": "Micromanaging every step of the delegated task",
+          "wrongAnswer2": "Avoiding follow-up on the assigned tasks",
+          "wrongAnswer3": "Delegating without considering the capabilities of team members",
+          "explanation": "Effective delegation requires clear communication of what is expected and the responsibilities involved to ensure the task is understood and completed successfully.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "When delegating tasks, managers should consider:",
+          "correctAnswer": "The skills and strengths of the team members",
+          "wrongAnswer1": "Assigning tasks randomly to avoid bias",
+          "wrongAnswer2": "Delegating only the simplest tasks",
+          "wrongAnswer3": "Completing all critical tasks personally",
+          "explanation": "Good delegation involves matching tasks to the abilities and strengths of team members to maximize effectiveness and development.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Crisis Management",
+      "questions": [
+        {
+          "question": "What is the primary goal of crisis management in an organization?",
+          "correctAnswer": "To minimize the impact of a crisis and restore normal operations swiftly",
+          "wrongAnswer1": "To avoid all risks regardless of the situation",
+          "wrongAnswer2": "To delegate all decisions to external authorities",
+          "wrongAnswer3": "To delay response until the crisis resolves itself",
+          "explanation": "The primary goal of crisis management is to minimize the negative impact of the crisis and restore normal operations as quickly as possible.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a typical phase of crisis management?",
+          "correctAnswer": "Ignorance",
+          "wrongAnswer1": "Preparation",
+          "wrongAnswer2": "Response",
+          "wrongAnswer3": "Recovery",
+          "explanation": "Common phases of crisis management include preparation, response, and recovery. Ignorance is not part of this process and would be counterproductive.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is communication critical during a crisis management situation?",
+          "correctAnswer": "It ensures accurate information is shared to coordinate response efforts effectively",
+          "wrongAnswer1": "It prevents any news from reaching the public",
+          "wrongAnswer2": "It allows the company to conceal the crisis fully",
+          "wrongAnswer3": "It serves primarily to assign blame internally",
+          "explanation": "Effective communication during a crisis is essential to share accurate information, coordinate responses, and maintain trust with stakeholders.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Stakeholder Engagement",
+      "questions": [
+        {
+          "question": "What is the primary purpose of stakeholder engagement in management?",
+          "correctAnswer": "To involve stakeholders in decision-making processes",
+          "wrongAnswer1": "To minimize the number of stakeholders",
+          "wrongAnswer2": "To report company profits to stakeholders",
+          "wrongAnswer3": "To delegate tasks to stakeholders",
+          "explanation": "Stakeholder engagement aims to involve stakeholders in decisions that affect them to improve outcomes and foster collaboration.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a commonly used method for stakeholder engagement?",
+          "correctAnswer": "Conducting regular meetings and communication sessions",
+          "wrongAnswer1": "Ignoring stakeholder concerns to speed up processes",
+          "wrongAnswer2": "Restricting information to only top management",
+          "wrongAnswer3": "Allowing stakeholders to make all decisions independently",
+          "explanation": "Regular meetings and communication help keep stakeholders informed and involved, which is a key part of stakeholder engagement.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is identifying stakeholders an essential step in the stakeholder engagement process?",
+          "correctAnswer": "Because it helps tailor communication and engagement strategies",
+          "wrongAnswer1": "Because it reduces the cost of projects",
+          "wrongAnswer2": "Because it eliminates conflicts automatically",
+          "wrongAnswer3": "Because it avoids the need for feedback collection",
+          "explanation": "Identifying stakeholders allows managers to understand who is affected and to design appropriate engagement approaches that address their interests and influence.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Business Ethics",
+      "questions": [
+        {
+          "question": "What is the primary focus of business ethics in management?",
+          "correctAnswer": "Ensuring that business operations are conducted in a morally responsible manner",
+          "wrongAnswer1": "Maximizing profits at any cost",
+          "wrongAnswer2": "Focusing solely on customer satisfaction",
+          "wrongAnswer3": "Reducing operational costs",
+          "explanation": "Business ethics primarily focuses on conducting business in ways that are morally responsible, which means considering the impact of decisions on all stakeholders and adhering to ethical standards.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is considered a key principle of business ethics?",
+          "correctAnswer": "Honesty and transparency in dealings",
+          "wrongAnswer1": "Ignoring conflicts of interest",
+          "wrongAnswer2": "Pursuing aggressive competition by any means",
+          "wrongAnswer3": "Prioritizing shareholder profits exclusively",
+          "explanation": "A key principle of business ethics is maintaining honesty and transparency in all business dealings to foster trust and integrity.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do business ethics impact management decision-making?",
+          "correctAnswer": "They guide managers to consider the social and environmental effects of their decisions",
+          "wrongAnswer1": "They encourage managers to focus only on financial outcomes",
+          "wrongAnswer2": "They make managers prioritize speed over accuracy",
+          "wrongAnswer3": "They promote disregarding legal regulations if profitable",
+          "explanation": "Business ethics influence management decisions by encouraging consideration of broader social and environmental impacts, not just financial gains, thereby promoting sustainable and responsible business practices.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Market Analysis",
+      "questions": [
+        {
+          "question": "What is the primary purpose of market analysis in management?",
+          "correctAnswer": "To understand customer needs and market trends",
+          "wrongAnswer1": "To increase employee productivity",
+          "wrongAnswer2": "To develop internal training programs",
+          "wrongAnswer3": "To monitor company financial performance",
+          "explanation": "Market analysis helps management understand customer needs and market trends to make informed business decisions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common method used in market analysis?",
+          "correctAnswer": "Analyzing competitor strategies",
+          "wrongAnswer1": "Reviewing employee attendance records",
+          "wrongAnswer2": "Conducting internal financial audits",
+          "wrongAnswer3": "Improving workplace safety protocols",
+          "explanation": "Analyzing competitor strategies is a key method in market analysis to evaluate the market environment.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is market segmentation important in market analysis?",
+          "correctAnswer": "It allows targeting specific customer groups effectively",
+          "wrongAnswer1": "It helps reduce company tax liabilities",
+          "wrongAnswer2": "It improves internal communication among departments",
+          "wrongAnswer3": "It decreases overall production costs",
+          "explanation": "Market segmentation identifies specific groups within a market to target marketing efforts more effectively.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Supply Chain",
+      "questions": [
+        {
+          "question": "What is the primary goal of supply chain management?",
+          "correctAnswer": "To efficiently manage the flow of goods and services from supplier to customer",
+          "wrongAnswer1": "To increase the number of suppliers regardless of cost",
+          "wrongAnswer2": "To focus only on the production process without considering distribution",
+          "wrongAnswer3": "To reduce the quality of products to save money",
+          "explanation": "The primary goal of supply chain management is to efficiently manage the flow of goods, information, and finances from suppliers to customers, ensuring timely delivery and cost effectiveness.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes a supply chain?",
+          "correctAnswer": "A network of organizations involved in producing and delivering a product",
+          "wrongAnswer1": "A single company producing goods without external involvement",
+          "wrongAnswer2": "An internal department focused on marketing strategies",
+          "wrongAnswer3": "A financial plan for a company",
+          "explanation": "A supply chain includes all organizations involved in producing and delivering a product, from suppliers to end customers, encompassing production, transportation, and distribution.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What role does inventory management play in supply chain efficiency?",
+          "correctAnswer": "It balances stock levels to meet demand without overstocking or stockouts",
+          "wrongAnswer1": "It focuses solely on increasing inventory to prevent shortages",
+          "wrongAnswer2": "It ignores demand patterns to simplify operations",
+          "wrongAnswer3": "It eliminates all safety stock regardless of demand variability",
+          "explanation": "Inventory management aims to keep optimal stock levels to satisfy customer demand promptly while minimizing holding costs and avoiding excess inventory or shortages.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Inventory Control",
+      "questions": [
+        {
+          "question": "What is the primary goal of inventory control in management?",
+          "correctAnswer": "To maintain optimal inventory levels to meet demand and minimize costs",
+          "wrongAnswer1": "To order as much inventory as possible to avoid stockouts",
+          "wrongAnswer2": "To keep inventory levels low regardless of demand",
+          "wrongAnswer3": "To focus on sales forecasting only",
+          "explanation": "The primary goal of inventory control is to balance having enough inventory to meet customer demand without incurring excessive holding costs or stockouts.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method is commonly used in inventory control to track items and reduce stockouts?",
+          "correctAnswer": "Just-in-time (JIT) inventory system",
+          "wrongAnswer1": "Bulk purchasing only",
+          "wrongAnswer2": "Ignoring reorder points",
+          "wrongAnswer3": "Random stocktaking without schedule",
+          "explanation": "The Just-in-time inventory system helps businesses minimize inventory levels and reduce stockouts by receiving goods only as they are needed in the production process.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a key indicator for inventory stock that triggers a reorder in inventory control systems?",
+          "correctAnswer": "Reorder point",
+          "wrongAnswer1": "Sales forecast",
+          "wrongAnswer2": "Lead time",
+          "wrongAnswer3": "Carrying cost",
+          "explanation": "The reorder point is the inventory level at which an order should be placed to replenish stock before it runs out, considering lead time and demand.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Operational Efficiency",
+      "questions": [
+        {
+          "question": "What does operational efficiency primarily aim to improve within an organization?",
+          "correctAnswer": "The effective use of resources to maximize output and reduce waste",
+          "wrongAnswer1": "Increasing the number of employees regardless of output",
+          "wrongAnswer2": "Focusing solely on long-term strategic planning",
+          "wrongAnswer3": "Eliminating all forms of technology from processes",
+          "explanation": "Operational efficiency focuses on making the best possible use of resources to achieve high productivity while minimizing waste and cost.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common method to enhance operational efficiency?",
+          "correctAnswer": "Implementing process automation to streamline repetitive tasks",
+          "wrongAnswer1": "Increasing manual paperwork to ensure records",
+          "wrongAnswer2": "Reducing communication between departments",
+          "wrongAnswer3": "Replacing experienced staff with new hires without training",
+          "explanation": "Automating repetitive processes can reduce errors and time, thus improving operational efficiency.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is monitoring key performance indicators essential for operational efficiency?",
+          "correctAnswer": "It helps identify areas where processes can be optimized and resources better allocated",
+          "wrongAnswer1": "It is used to reward only the top managers",
+          "wrongAnswer2": "It discourages employee collaboration across teams",
+          "wrongAnswer3": "It replaces the need for any financial analysis",
+          "explanation": "Tracking KPIs provides measurable data on performance which is critical for making informed decisions to improve efficiency.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Corporate Governance",
+      "questions": [
+        {
+          "question": "What is the primary purpose of corporate governance?",
+          "correctAnswer": "To ensure accountability and transparency in a company's management",
+          "wrongAnswer1": "To maximize short-term profits at any cost",
+          "wrongAnswer2": "To increase competition among employees",
+          "wrongAnswer3": "To establish strict government control over companies",
+          "explanation": "Corporate governance is designed to ensure that a company is managed in a way that is accountable and transparent to its stakeholders, balancing interests and promoting ethical conduct.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which group is mainly responsible for overseeing corporate governance within a company?",
+          "correctAnswer": "The board of directors",
+          "wrongAnswer1": "The customers",
+          "wrongAnswer2": "The human resources department",
+          "wrongAnswer3": "The marketing team",
+          "explanation": "The board of directors has the primary responsibility to oversee management and ensure that corporate governance principles are followed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a key principle of effective corporate governance?",
+          "correctAnswer": "Balancing the interests of shareholders, management, customers, and other stakeholders",
+          "wrongAnswer1": "Allowing management full control without oversight",
+          "wrongAnswer2": "Focusing only on maximizing shareholder wealth regardless of other impacts",
+          "wrongAnswer3": "Avoiding disclosure of financial information to protect company secrets",
+          "explanation": "Effective corporate governance balances the interests of all key stakeholders, ensuring sustainable long-term success.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Succession Planning",
+      "questions": [
+        {
+          "question": "What is the primary purpose of succession planning in an organization?",
+          "correctAnswer": "To identify and develop internal personnel to fill key leadership positions",
+          "wrongAnswer1": "To hire external candidates to replace departing employees",
+          "wrongAnswer2": "To create a detailed company organizational chart",
+          "wrongAnswer3": "To plan employee training sessions on technical skills",
+          "explanation": "Succession planning focuses on preparing internal employees to step into important roles to ensure continuity in leadership and critical positions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key benefit of effective succession planning?",
+          "correctAnswer": "Ensures business continuity and reduces the impact of leadership changes",
+          "wrongAnswer1": "Increases external recruitment costs significantly",
+          "wrongAnswer2": "Eliminates the need for employee performance evaluations",
+          "wrongAnswer3": "Allows companies to avoid developing employee skills",
+          "explanation": "Succession planning helps organizations maintain steady leadership and operations by preparing employees for future roles, minimizing disruptions when changes occur.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which step is commonly involved in the succession planning process?",
+          "correctAnswer": "Assessing and developing potential candidates for key roles",
+          "wrongAnswer1": "Firing underperforming employees without replacement",
+          "wrongAnswer2": "Layoff planning to reduce workforce quickly",
+          "wrongAnswer3": "Outsourcing all leadership positions to consultants",
+          "explanation": "A critical part of succession planning is evaluating and grooming employees who can advance into leadership or vital positions within the company.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Financial Reporting",
+      "questions": [
+        {
+          "question": "What is the primary purpose of financial reporting in management?",
+          "correctAnswer": "To provide relevant financial information to stakeholders for decision making",
+          "wrongAnswer1": "To calculate employee salaries",
+          "wrongAnswer2": "To determine marketing strategies",
+          "wrongAnswer3": "To manage daily cash flow transactions",
+          "explanation": "Financial reporting aims to supply important financial data about a company’s performance and position, enabling stakeholders such as investors, creditors, and management to make informed decisions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which financial statement presents a company's assets, liabilities, and equity at a specific point in time?",
+          "correctAnswer": "The balance sheet",
+          "wrongAnswer1": "The income statement",
+          "wrongAnswer2": "The cash flow statement",
+          "wrongAnswer3": "The statement of retained earnings",
+          "explanation": "The balance sheet, or statement of financial position, details assets, liabilities, and shareholders' equity at a particular date, showing the company’s financial standing.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which principle requires financial statements to present information that is complete, neutral, and free from error?",
+          "correctAnswer": "The principle of reliability",
+          "wrongAnswer1": "The matching principle",
+          "wrongAnswer2": "The revenue recognition principle",
+          "wrongAnswer3": "The cost principle",
+          "explanation": "The reliability principle mandates that financial information must be accurate and unbiased to be trusted by users for economic decision-making.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Performance Appraisal",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a performance appraisal?",
+          "correctAnswer": "To evaluate an employee's work performance and provide feedback",
+          "wrongAnswer1": "To increase the employee's salary automatically",
+          "wrongAnswer2": "To punish employees for poor behavior",
+          "wrongAnswer3": "To hire new employees",
+          "explanation": "Performance appraisals are designed to assess and provide feedback on an employee's job performance to help improve productivity and growth.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT typically included in a performance appraisal?",
+          "correctAnswer": "Determining employee's hobbies and interests",
+          "wrongAnswer1": "Reviewing employee's job responsibilities",
+          "wrongAnswer2": "Assessing employee's strengths and weaknesses",
+          "wrongAnswer3": "Setting future performance goals",
+          "explanation": "Performance appraisals focus on job-related performance and goals, not personal hobbies or unrelated interests.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is an important characteristic of an effective performance appraisal system?",
+          "correctAnswer": "It should be fair, consistent, and based on measurable criteria",
+          "wrongAnswer1": "It should focus only on recent events without considering overall performance",
+          "wrongAnswer2": "It should be done secretly without informing the employee",
+          "wrongAnswer3": "It should be based solely on the manager's personal opinions",
+          "explanation": "Effective performance appraisals are fair, consistent, and rely on measurable data to ensure unbiased evaluations.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Employee Training",
+      "questions": [
+        {
+          "question": "What is the primary purpose of employee training?",
+          "correctAnswer": "To improve employee skills and knowledge for better job performance",
+          "wrongAnswer1": "To increase the number of employees in a company",
+          "wrongAnswer2": "To reduce employee salaries for cost savings",
+          "wrongAnswer3": "To promote employees without considering skills",
+          "explanation": "Employee training is designed to enhance skills and knowledge so employees can perform their jobs effectively and contribute to organizational success.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common method used in employee training programs?",
+          "correctAnswer": "On-the-job training",
+          "wrongAnswer1": "Annual company parties",
+          "wrongAnswer2": "Random salary adjustments",
+          "wrongAnswer3": "Casual team lunches",
+          "explanation": "On-the-job training is a common training method where employees learn while performing their job tasks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is continuous training important in employee development?",
+          "correctAnswer": "It helps employees keep up with changes and improve their skills over time",
+          "wrongAnswer1": "It guarantees immediate promotions after each session",
+          "wrongAnswer2": "It replaces the need for performance evaluations",
+          "wrongAnswer3": "It only benefits new employees",
+          "explanation": "Continuous training ensures employees adapt to changes and continually enhance their abilities, benefiting both the individual and the organization.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Innovation Management",
+      "questions": [
+        {
+          "question": "What is the primary goal of innovation management in an organization",
+          "correctAnswer": "To systematically manage ideas and transform them into profitable products or processes",
+          "wrongAnswer1": "To reduce the costs of production to the minimum",
+          "wrongAnswer2": "To increase the number of employees in the R&D department",
+          "wrongAnswer3": "To maintain current product lines without change",
+          "explanation": "Innovation management focuses on handling ideas systematically and converting them into valuable new products or services to maintain competitive advantage.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key step in the innovation management process",
+          "correctAnswer": "Idea generation and evaluation",
+          "wrongAnswer1": "Accounting and financial auditing",
+          "wrongAnswer2": "Employee training and development",
+          "wrongAnswer3": "Customer service and support",
+          "explanation": "Idea generation and evaluation are essential steps in managing innovation to identify potentially successful ideas for development.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does innovation management contribute to a company’s competitive advantage",
+          "correctAnswer": "By encouraging continuous creativity that leads to unique products and improved processes",
+          "wrongAnswer1": "By strictly following traditional methods and avoiding risks",
+          "wrongAnswer2": "By focusing solely on marketing rather than product development",
+          "wrongAnswer3": "By limiting the number of new projects to reduce complexity",
+          "explanation": "Innovation management promotes ongoing creativity and development, helping companies to stay ahead by offering unique and improved solutions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Conflict Management",
+      "questions": [
+        {
+          "question": "What is the primary goal of conflict management in organizations?",
+          "correctAnswer": "To resolve disputes and improve workplace relationships",
+          "wrongAnswer1": "To ignore conflicts and maintain the status quo",
+          "wrongAnswer2": "To encourage competition among employees",
+          "wrongAnswer3": "To escalate conflicts for stronger leadership decisions",
+          "explanation": "Conflict management aims to resolve disputes constructively, enhancing collaboration and workplace harmony.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which strategy involves cooperating to find a mutually beneficial solution in conflict management?",
+          "correctAnswer": "Collaborating",
+          "wrongAnswer1": "Avoiding",
+          "wrongAnswer2": "Competing",
+          "wrongAnswer3": "Accommodating",
+          "explanation": "Collaborating is a strategy focused on working together to find solutions that satisfy all parties involved.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In conflict management, what does the 'compromising' approach entail?",
+          "correctAnswer": "Each party gives up something to reach a middle ground",
+          "wrongAnswer1": "One party fully satisfies their concerns at the expense of another",
+          "wrongAnswer2": "Both parties ignore the conflict hoping it will resolve over time",
+          "wrongAnswer3": "Seeking outside help to enforce a decision",
+          "explanation": "Compromising involves concessions from all parties to find a solution acceptable to everyone.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Lean Management",
+      "questions": [
+        {
+          "question": "What is the primary goal of Lean Management?",
+          "correctAnswer": "To eliminate waste and improve process efficiency",
+          "wrongAnswer1": "To increase the number of employees in a company",
+          "wrongAnswer2": "To maximize the number of products produced regardless of quality",
+          "wrongAnswer3": "To focus entirely on marketing and sales efforts",
+          "explanation": "Lean Management focuses on reducing waste and improving efficiency in processes to deliver better value to customers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following tools is commonly used in Lean Management to identify waste?",
+          "correctAnswer": "Value Stream Mapping",
+          "wrongAnswer1": "Financial Forecasting",
+          "wrongAnswer2": "SWOT Analysis",
+          "wrongAnswer3": "Balanced Scorecard",
+          "explanation": "Value Stream Mapping is a tool used in Lean Management to visualize and analyze the flow of materials and information to identify waste.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In Lean Management, what does the term 'Kaizen' mean?",
+          "correctAnswer": "Continuous improvement through small, incremental changes",
+          "wrongAnswer1": "A one-time major change",
+          "wrongAnswer2": "Focusing only on cost reduction",
+          "wrongAnswer3": "Replacing employees with machines",
+          "explanation": "Kaizen is a key concept in Lean Management emphasizing ongoing, incremental improvements to processes and systems.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Agile Methodology",
+      "questions": [
+        {
+          "question": "What is the primary focus of Agile Methodology?",
+          "correctAnswer": "Delivering small, functional pieces of a project quickly and iteratively",
+          "wrongAnswer1": "Comprehensive documentation before starting development",
+          "wrongAnswer2": "Strictly following a fixed project plan without changes",
+          "wrongAnswer3": "Delaying testing until the end of the project",
+          "explanation": "Agile methodology emphasizes delivering small, working pieces of the project in short iterations to quickly adapt to changes and get feedback.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a characteristic of Agile teams?",
+          "correctAnswer": "Cross-functional collaboration and adaptability",
+          "wrongAnswer1": "Strict hierarchical structure with defined roles only",
+          "wrongAnswer2": "Working in isolation on individual parts of the project",
+          "wrongAnswer3": "Relying entirely on contract negotiation to guide progress",
+          "explanation": "Agile teams are cross-functional, collaborate closely, and adapt to changing requirements throughout the project lifecycle.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In Agile Methodology, what is a sprint?",
+          "correctAnswer": "A fixed time period during which a set of work must be completed and made ready for review",
+          "wrongAnswer1": "The initial project planning phase before development begins",
+          "wrongAnswer2": "A meeting to discuss project status with stakeholders",
+          "wrongAnswer3": "A document outlining project requirements in detail",
+          "explanation": "A sprint is a time-boxed iteration where a team delivers specific work to be reviewed, allowing frequent inspection and adaptation.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Data Analysis",
+      "questions": [
+        {
+          "question": "What is the primary purpose of data analysis in management?",
+          "correctAnswer": "To make informed decisions based on data insights",
+          "wrongAnswer1": "To create marketing materials",
+          "wrongAnswer2": "To manage employee attendance",
+          "wrongAnswer3": "To schedule meetings efficiently",
+          "explanation": "Data analysis helps management make informed decisions by interpreting data and extracting actionable insights.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common technique used in data analysis?",
+          "correctAnswer": "Statistical analysis",
+          "wrongAnswer1": "Employee counseling",
+          "wrongAnswer2": "Public speaking",
+          "wrongAnswer3": "Team-building exercises",
+          "explanation": "Statistical analysis is a common method used in data analysis to interpret data and identify patterns.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is data visualization important in data analysis for management?",
+          "correctAnswer": "It helps communicate data findings clearly and quickly",
+          "wrongAnswer1": "It replaces the need for data collection",
+          "wrongAnswer2": "It formats data for storage",
+          "wrongAnswer3": "It manages team schedules",
+          "explanation": "Data visualization presents data in charts or graphs, making complex information easier to understand and share with stakeholders.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Team Leadership",
+      "questions": [
+        {
+          "question": "What is the primary role of a team leader in a management context?",
+          "correctAnswer": "To guide and motivate team members towards achieving goals",
+          "wrongAnswer1": "To manage only the administrative tasks of the team",
+          "wrongAnswer2": "To work independently without interacting with team members",
+          "wrongAnswer3": "To make all decisions without consulting the team",
+          "explanation": "A team leader's primary role is to guide and motivate the team to achieve their shared goals, fostering collaboration and providing support.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key characteristic of effective team leadership?",
+          "correctAnswer": "Good communication skills with team members",
+          "wrongAnswer1": "Avoiding feedback to prevent conflict",
+          "wrongAnswer2": "Focusing solely on individual tasks rather than team goals",
+          "wrongAnswer3": "Delegating all tasks without follow-up",
+          "explanation": "Effective team leaders communicate clearly and actively listen to their team members to ensure understanding and cohesion.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does a team leader best handle conflicts within the team?",
+          "correctAnswer": "By addressing conflicts promptly and facilitating a resolution",
+          "wrongAnswer1": "Ignoring conflicts hoping they will resolve themselves",
+          "wrongAnswer2": "Taking sides with one member without discussion",
+          "wrongAnswer3": "Punishing the entire team regardless of the issue",
+          "explanation": "Addressing conflicts quickly and mediating discussions helps maintain a positive team environment and keeps the team productive.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Motivational Techniques",
+      "questions": [
+        {
+          "question": "Which motivational technique involves setting clear and achievable goals to inspire employees?",
+          "correctAnswer": "Goal setting theory",
+          "wrongAnswer1": "Punishment theory",
+          "wrongAnswer2": "Classical conditioning",
+          "wrongAnswer3": "Social learning theory",
+          "explanation": "Goal setting theory motivates employees by establishing clear, specific, and achievable objectives, enhancing their commitment and performance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What motivational technique focuses on rewarding employees for their performance with bonuses or raises?",
+          "correctAnswer": "Incentive compensation",
+          "wrongAnswer1": "Job rotation",
+          "wrongAnswer2": "Group brainstorming",
+          "wrongAnswer3": "Job enlargement",
+          "explanation": "Incentive compensation motivates employees by providing financial rewards based on their performance, encouraging higher productivity.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which approach to motivation emphasizes understanding employees' individual needs and providing appropriate support?",
+          "correctAnswer": "Maslow's hierarchy of needs",
+          "wrongAnswer1": "Theory X management",
+          "wrongAnswer2": "Transactional leadership",
+          "wrongAnswer3": "Scientific management",
+          "explanation": "Maslow's hierarchy of needs theory emphasizes that employees have different levels of needs, and motivation is driven by satisfying these needs progressively.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Decision Support",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Decision Support System in management?",
+          "correctAnswer": "To help managers make informed decisions by analyzing data",
+          "wrongAnswer1": "To automate all managerial tasks without human intervention",
+          "wrongAnswer2": "To replace the need for experienced managers completely",
+          "wrongAnswer3": "To create daily operational schedules automatically",
+          "explanation": "A Decision Support System (DSS) assists managers by providing relevant data analysis and insights to support decision-making processes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key feature of Decision Support Systems?",
+          "correctAnswer": "Interactive and user-friendly data analysis capabilities",
+          "wrongAnswer1": "Mandatory full automation without user input",
+          "wrongAnswer2": "Only providing financial data without qualitative information",
+          "wrongAnswer3": "Fixed reports that cannot be customized",
+          "explanation": "Decision Support Systems are designed to be interactive and allow users to analyze data in various ways, supporting flexible decision-making.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do Decision Support Systems improve organizational decision-making?",
+          "correctAnswer": "By integrating data from multiple sources to provide comprehensive insights",
+          "wrongAnswer1": "By eliminating the need for communication within teams",
+          "wrongAnswer2": "By strictly following predefined rules without adapting to new information",
+          "wrongAnswer3": "By replacing managers with artificial intelligence bots",
+          "explanation": "Decision Support Systems integrate diverse data sources, helping managers evaluate options thoroughly and make better decisions based on a broad perspective.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Organizational Behavior",
+      "questions": [
+        {
+          "question": "What is the primary focus of organizational behavior in management?",
+          "correctAnswer": "Studying how individuals and groups act within organizations",
+          "wrongAnswer1": "Designing financial strategies for the company",
+          "wrongAnswer2": "Developing new products for the market",
+          "wrongAnswer3": "Managing the company’s physical assets",
+          "explanation": "Organizational behavior focuses on understanding and managing how people behave individually and in groups within a workplace to improve effectiveness.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes a key goal of studying organizational behavior?",
+          "correctAnswer": "To improve employee motivation and productivity",
+          "wrongAnswer1": "To increase the company's market share",
+          "wrongAnswer2": "To reduce the cost of raw materials",
+          "wrongAnswer3": "To develop new marketing campaigns",
+          "explanation": "A key goal of organizational behavior is to understand and enhance employee motivation and productivity by studying behavior.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which factor is NOT typically studied within organizational behavior?",
+          "correctAnswer": "Company financial performance",
+          "wrongAnswer1": "Group dynamics",
+          "wrongAnswer2": "Leadership styles",
+          "wrongAnswer3": "Individual attitudes",
+          "explanation": "Organizational behavior mainly examines human behavior aspects such as leadership, group dynamics, and individual attitudes, but does not focus directly on financial performance.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Workplace Safety",
+      "questions": [
+        {
+          "question": "What is the primary goal of workplace safety programs?",
+          "correctAnswer": "To prevent accidents and injuries at work",
+          "wrongAnswer1": "To increase employee workload",
+          "wrongAnswer2": "To reduce company profits",
+          "wrongAnswer3": "To eliminate all work tasks",
+          "explanation": "The main goal of workplace safety programs is to reduce the risk of accidents and injuries at the workplace, ensuring a safe environment for employees.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an important element of workplace safety management?",
+          "correctAnswer": "Regular safety training for employees",
+          "wrongAnswer1": "Ignoring minor safety violations",
+          "wrongAnswer2": "Removing safety equipment to save costs",
+          "wrongAnswer3": "Encouraging employees to work faster without precautions",
+          "explanation": "Regular safety training helps employees understand potential hazards and how to avoid them, which is key to effective workplace safety management.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does effective workplace safety benefit an organization?",
+          "correctAnswer": "It improves employee morale and reduces downtime",
+          "wrongAnswer1": "It increases paperwork and bureaucracy",
+          "wrongAnswer2": "It decreases productivity by limiting tasks",
+          "wrongAnswer3": "It primarily benefits competitors",
+          "explanation": "Effective workplace safety reduces accidents, which leads to less lost work time and higher employee satisfaction, ultimately benefiting organizational performance.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Customer Service",
+      "questions": [
+        {
+          "question": "What is the primary goal of customer service in a business?",
+          "correctAnswer": "To ensure customer satisfaction and loyalty",
+          "wrongAnswer1": "To increase product prices regularly",
+          "wrongAnswer2": "To reduce the number of employees",
+          "wrongAnswer3": "To focus only on internal processes",
+          "explanation": "The primary goal of customer service is to ensure customers are satisfied with the service or product, which helps build loyalty and repeat business.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which skill is most important for a customer service representative to have?",
+          "correctAnswer": "Effective communication skills",
+          "wrongAnswer1": "Advanced programming skills",
+          "wrongAnswer2": "Financial accounting knowledge",
+          "wrongAnswer3": "Physical strength",
+          "explanation": "Effective communication is crucial for customer service representatives to understand and address customer needs and issues clearly and professionally.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can a company measure the effectiveness of its customer service?",
+          "correctAnswer": "By tracking customer feedback and satisfaction surveys",
+          "wrongAnswer1": "By monitoring employee lunch breaks",
+          "wrongAnswer2": "By counting the number of emails sent internally",
+          "wrongAnswer3": "By reducing the quality of the product",
+          "explanation": "Customer feedback and satisfaction surveys provide direct insights into how well the customer service is performing and areas that may need improvement.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Brand Management",
+      "questions": [
+        {
+          "question": "What is the primary goal of brand management?",
+          "correctAnswer": "To maintain and improve a brand's reputation and value",
+          "wrongAnswer1": "To develop new product lines constantly",
+          "wrongAnswer2": "To reduce company expenses related to marketing",
+          "wrongAnswer3": "To eliminate competition in the market",
+          "explanation": "Brand management focuses on maintaining and improving the reputation and value of a brand to ensure customer loyalty and market share.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key activity in brand management?",
+          "correctAnswer": "Monitoring customer perceptions and feedback",
+          "wrongAnswer1": "Setting company financial budgets",
+          "wrongAnswer2": "Hiring new staff for the sales team",
+          "wrongAnswer3": "Designing the company's office layout",
+          "explanation": "Monitoring customer perceptions and feedback is essential to understand how a brand is viewed, which helps in managing the brand effectively.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does brand management contribute to a competitive advantage?",
+          "correctAnswer": "By creating a strong, recognizable brand identity that differentiates a company",
+          "wrongAnswer1": "By offering the lowest prices in the market",
+          "wrongAnswer2": "By increasing the number of products regardless of quality",
+          "wrongAnswer3": "By focusing solely on advertising without product improvement",
+          "explanation": "Strong brand management creates a unique and recognizable identity that helps a company stand out from competitors, thus providing a competitive advantage.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Work-Life Balance",
+      "questions": [
+        {
+          "question": "What is the primary goal of work-life balance in management?",
+          "correctAnswer": "To help employees equally manage their work responsibilities and personal life.",
+          "wrongAnswer1": "To ensure employees spend more time at work than at home.",
+          "wrongAnswer2": "To encourage employees to focus only on their career growth.",
+          "wrongAnswer3": "To reduce the number of vacation days employees take.",
+          "explanation": "Work-life balance aims to create an environment where employees can effectively manage their professional tasks alongside their personal life to maintain overall well-being.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following practices can improve work-life balance?",
+          "correctAnswer": "Flexible working hours and remote work options.",
+          "wrongAnswer1": "Strict monitoring of employee activities during work hours.",
+          "wrongAnswer2": "Encouraging employees to check work emails outside office hours.",
+          "wrongAnswer3": "Assigning overtime work without extra compensation.",
+          "explanation": "Flexible working hours and remote work options allow employees to better organize their time between work and personal life, enhancing work-life balance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is maintaining work-life balance important for organizations?",
+          "correctAnswer": "It increases employee satisfaction and reduces burnout.",
+          "wrongAnswer1": "It guarantees higher profits immediately.",
+          "wrongAnswer2": "It ensures employees work longer hours daily.",
+          "wrongAnswer3": "It eliminates the need for team collaboration.",
+          "explanation": "Maintaining work-life balance helps in retaining motivated employees, lowering stress and burnout, which contributes to better productivity and job satisfaction over time.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Management Information",
+      "questions": [
+        {
+          "question": "What is the primary purpose of management information in an organization",
+          "correctAnswer": "To provide accurate and timely data to support decision making",
+          "wrongAnswer1": "To control employee personal activities",
+          "wrongAnswer2": "To replace human managers entirely",
+          "wrongAnswer3": "To create marketing advertisements",
+          "explanation": "Management information systems are designed to collect and provide managers with necessary information that supports effective decision making.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes management information",
+          "correctAnswer": "Data processed into a useful format for managers",
+          "wrongAnswer1": "Raw unorganized data from various sources",
+          "wrongAnswer2": "Employee personal opinions about the company",
+          "wrongAnswer3": "Financial reports sent to shareholders only",
+          "explanation": "Management information refers to data that has been processed and organized to help managers make informed decisions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does management information contribute to effective management",
+          "correctAnswer": "By improving the quality and speed of managerial decisions",
+          "wrongAnswer1": "By eliminating the need for managerial oversight",
+          "wrongAnswer2": "By focusing solely on long-term employee benefits",
+          "wrongAnswer3": "By increasing paperwork and administrative tasks",
+          "explanation": "Management information systems streamline information flow, enhancing the decision-making process in management.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Employee Engagement",
+      "questions": [
+        {
+          "question": "What is the primary goal of employee engagement in a company?",
+          "correctAnswer": "To foster a committed and motivated workforce",
+          "wrongAnswer1": "To increase product prices",
+          "wrongAnswer2": "To reduce the number of employees",
+          "wrongAnswer3": "To outsource all company functions",
+          "explanation": "Employee engagement aims to create a committed and motivated workforce, which improves performance and retention.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key factor in improving employee engagement?",
+          "correctAnswer": "Providing meaningful work and recognition",
+          "wrongAnswer1": "Increasing employee workloads without extra pay",
+          "wrongAnswer2": "Limiting employee communication with management",
+          "wrongAnswer3": "Reducing training opportunities",
+          "explanation": "Meaningful work and recognition increase satisfaction and engagement among employees.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does effective leadership impact employee engagement?",
+          "correctAnswer": "It builds trust and encourages open communication",
+          "wrongAnswer1": "It imposes strict rules without input from employees",
+          "wrongAnswer2": "It isolates employees from decision making",
+          "wrongAnswer3": "It decreases opportunities for professional growth",
+          "explanation": "Effective leadership promotes trust and open communication, which enhances engagement.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Management",
+      "concept": "Corporate Strategy",
+      "questions": [
+        {
+          "question": "What is the primary focus of corporate strategy in management?",
+          "correctAnswer": "Determining the overall scope and direction of the entire organization",
+          "wrongAnswer1": "Managing routine operational activities",
+          "wrongAnswer2": "Designing individual marketing campaigns",
+          "wrongAnswer3": "Controlling employee attendance",
+          "explanation": "Corporate strategy is concerned with the overall direction and scope of an organization to achieve long-term objectives, unlike operational or functional management tasks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a typical decision area included in corporate strategy?",
+          "correctAnswer": "Deciding which industries or markets the company should compete in",
+          "wrongAnswer1": "Scheduling daily work shifts",
+          "wrongAnswer2": "Selecting specific suppliers for raw materials",
+          "wrongAnswer3": "Setting individual employee goals",
+          "explanation": "Corporate strategy involves high-level decisions about industries and markets where the company competes, which affects its long-term success.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does corporate strategy differ from business unit strategy?",
+          "correctAnswer": "Corporate strategy defines the overall scope of the organization while business unit strategy focuses on competing successfully in particular markets",
+          "wrongAnswer1": "Corporate strategy only addresses financial targets while business unit strategy is about marketing",
+          "wrongAnswer2": "Business unit strategy decides company acquisitions while corporate strategy manages customer relations",
+          "wrongAnswer3": "They are the same and used interchangeably",
+          "explanation": "Corporate strategy guides the entire organization, including allocation of resources among business units, whereas business unit strategy targets specific competitive approaches in markets served by each unit.",
+          "difficulty": "Advanced"
+        }
+      ]
+    }
+  ]
+}

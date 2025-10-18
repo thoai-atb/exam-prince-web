@@ -1,0 +1,1655 @@
+{
+  "topic": "Operating System",
+  "concepts": [
+    {
+      "topic": "Operating System",
+      "concept": "Kernel",
+      "questions": [
+        {
+          "question": "What is the primary function of the kernel in an operating system?",
+          "correctAnswer": "It manages hardware resources and facilitates communication between hardware and software.",
+          "wrongAnswer1": "It acts as the user interface for the operating system.",
+          "wrongAnswer2": "It stores all user data and applications.",
+          "wrongAnswer3": "It provides network services to other computers.",
+          "explanation": "The kernel is the core component of the operating system that manages hardware resources and enables communication between hardware and software components.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes a microkernel?",
+          "correctAnswer": "A kernel design that only includes essential functions like communication and basic resource management.",
+          "wrongAnswer1": "A kernel that contains all system services and device drivers in one large block.",
+          "wrongAnswer2": "A kernel that operates primarily in user mode to increase security.",
+          "wrongAnswer3": "A kernel specifically designed for graphic processing units.",
+          "explanation": "A microkernel contains only essential functions to keep the kernel small and modular, delegating other services to user space.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why might an operating system use a monolithic kernel design?",
+          "correctAnswer": "Because it can provide better performance by running all services in kernel space.",
+          "wrongAnswer1": "Because it isolates all drivers and services entirely in user space for security.",
+          "wrongAnswer2": "Because it requires less memory by having no device drivers.",
+          "wrongAnswer3": "Because it allows the kernel to be updated without rebooting the system.",
+          "explanation": "Monolithic kernels run most services within kernel space, which often results in better system performance but can reduce stability and security compared to microkernels.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Process Management",
+      "questions": [
+        {
+          "question": "What is a process in the context of an operating system?",
+          "correctAnswer": "A program in execution with its own address space and resources",
+          "wrongAnswer1": "A static file stored on disk",
+          "wrongAnswer2": "A device driver for hardware components",
+          "wrongAnswer3": "A user interface application",
+          "explanation": "A process is a program in execution, which has its own address space, system resources, and execution context managed by the operating system.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following states is not typically part of process state transitions?",
+          "correctAnswer": "Archived",
+          "wrongAnswer1": "Running",
+          "wrongAnswer2": "Waiting",
+          "wrongAnswer3": "Ready",
+          "explanation": "Typical process states include New, Ready, Running, Waiting, and Terminated. Archived is not a standard process state.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What role does the process scheduler play in process management?",
+          "correctAnswer": "Allocates CPU time to processes based on scheduling algorithms",
+          "wrongAnswer1": "Manages physical memory allocation for processes",
+          "wrongAnswer2": "Handles input and output device requests",
+          "wrongAnswer3": "Monitors network traffic related to processes",
+          "explanation": "The process scheduler is responsible for distributing CPU time among processes according to scheduling algorithms to achieve multitasking.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Memory Management",
+      "questions": [
+        {
+          "question": "What is the primary purpose of memory management in an operating system?",
+          "correctAnswer": "To allocate and manage the computer's primary memory efficiently",
+          "wrongAnswer1": "To control the input and output devices",
+          "wrongAnswer2": "To manage the file storage on disk",
+          "wrongAnswer3": "To schedule tasks for the CPU",
+          "explanation": "Memory management is responsible for allocating and managing the computer's primary memory (RAM) so that processes can run efficiently without interference.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which memory management technique divides memory into fixed-size blocks called frames?",
+          "correctAnswer": "Paging",
+          "wrongAnswer1": "Segmentation",
+          "wrongAnswer2": "Swapping",
+          "wrongAnswer3": "Caching",
+          "explanation": "Paging divides memory into fixed-size blocks called frames to manage memory allocation without external fragmentation.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In memory management, what is the main difference between paging and segmentation?",
+          "correctAnswer": "Paging divides memory into fixed-size blocks while segmentation divides memory into variable-size segments",
+          "wrongAnswer1": "Paging divides memory into variable-size segments while segmentation uses fixed-size blocks",
+          "wrongAnswer2": "Paging moves processes to disk while segmentation only works in RAM",
+          "wrongAnswer3": "Paging uses virtual memory while segmentation does not",
+          "explanation": "Paging uses fixed-size blocks to break memory into frames, while segmentation divides memory into logical segments of variable size based on program structure.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "File System",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a file system in an operating system",
+          "correctAnswer": "To organize and manage files on storage devices",
+          "wrongAnswer1": "To execute programs",
+          "wrongAnswer2": "To manage network connections",
+          "wrongAnswer3": "To provide user interface features",
+          "explanation": "A file system is responsible for organizing and managing how data is stored and retrieved on storage devices such as hard drives and SSDs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a function of a file system",
+          "correctAnswer": "Compiling source code into executable files",
+          "wrongAnswer1": "Managing file access permissions",
+          "wrongAnswer2": "Maintaining directory structures",
+          "wrongAnswer3": "Allocating space for files",
+          "explanation": "File systems are not involved in compiling code; their main roles include managing file permissions, directory structures, and storage allocation.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which file system feature helps prevent data loss by keeping track of changes not yet committed to the disk",
+          "correctAnswer": "Journaling",
+          "wrongAnswer1": "Encryption",
+          "wrongAnswer2": "Compression",
+          "wrongAnswer3": "Defragmentation",
+          "explanation": "Journaling records changes before they are actually made to the disk, helping preserve data integrity in the event of a crash or power failure.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Device Drivers",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a device driver in an operating system?",
+          "correctAnswer": "To facilitate communication between the OS and hardware devices",
+          "wrongAnswer1": "To store user data securely on the hard drive",
+          "wrongAnswer2": "To manage network connections and protocols",
+          "wrongAnswer3": "To provide a user interface for software applications",
+          "explanation": "Device drivers act as translators between the operating system and hardware devices, enabling the OS to send and receive commands to the hardware.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes how device drivers operate within an OS?",
+          "correctAnswer": "They provide a software interface to hardware devices allowing OS and applications to use the device.",
+          "wrongAnswer1": "They replace hardware components when damaged.",
+          "wrongAnswer2": "They directly control user authentication and access rights.",
+          "wrongAnswer3": "They monitor system performance and optimize hardware speed automatically.",
+          "explanation": "Device drivers provide the necessary software interface that allows the operating system and applications to interact properly with hardware devices.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is it important for device drivers to be matched to specific hardware and operating system versions?",
+          "correctAnswer": "Because drivers need to communicate accurately with the hardware and be compatible with the OS kernel architecture.",
+          "wrongAnswer1": "Because drivers encrypt all data transferred to and from the device for security reasons.",
+          "wrongAnswer2": "Because the drivers act as a firewall between the hardware and internet.",
+          "wrongAnswer3": "Because drivers convert user manuals into software instructions for the OS.",
+          "explanation": "Drivers must correctly understand the hardware specifics and the operating system's environment to function correctly and ensure hardware operates as intended.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "User Interface",
+      "questions": [
+        {
+          "question": "What is the primary function of a user interface in an operating system?",
+          "correctAnswer": "To allow users to interact with the computer system",
+          "wrongAnswer1": "To manage the computer's hardware resources",
+          "wrongAnswer2": "To compile programs automatically",
+          "wrongAnswer3": "To store permanent data",
+          "explanation": "The user interface in an operating system enables users to interact with the computer system, providing a means to input commands and receive outputs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a type of user interface for operating systems?",
+          "correctAnswer": "Graphical User Interface",
+          "wrongAnswer1": "Central Processing Unit",
+          "wrongAnswer2": "Random Access Memory",
+          "wrongAnswer3": "Motherboard",
+          "explanation": "Graphical User Interface (GUI) is a type of user interface that allows users to interact using graphical elements like windows and icons.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does a command line interface differ from a graphical user interface?",
+          "correctAnswer": "It requires typing text commands instead of using visual elements",
+          "wrongAnswer1": "It uses touch screens instead of mouse input",
+          "wrongAnswer2": "It processes data faster than graphical interfaces",
+          "wrongAnswer3": "It displays images in higher resolution than graphical interfaces",
+          "explanation": "A command line interface relies on text commands for interaction, whereas a graphical user interface uses visual elements like icons and buttons.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Multitasking",
+      "questions": [
+        {
+          "question": "What does multitasking in an operating system allow a computer to do?",
+          "correctAnswer": "Execute multiple processes at the same time by managing CPU time",
+          "wrongAnswer1": "Run only one program at a time to avoid conflicts",
+          "wrongAnswer2": "Increase the CPU speed physically to handle tasks",
+          "wrongAnswer3": "Eliminate the need for memory management while running tasks",
+          "explanation": "Multitasking allows an operating system to execute multiple processes concurrently by efficiently managing CPU time and resource allocation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a type of multitasking in operating systems?",
+          "correctAnswer": "Preemptive multitasking",
+          "wrongAnswer1": "Linear multitasking",
+          "wrongAnswer2": "Serial multitasking",
+          "wrongAnswer3": "Fixed multitasking",
+          "explanation": "Preemptive multitasking allows the OS to control CPU time and switch between tasks, unlike cooperative multitasking or non-preemptive types.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does preemptive multitasking improve system responsiveness?",
+          "correctAnswer": "By allowing the operating system to interrupt tasks and allocate CPU time fairly",
+          "wrongAnswer1": "By running one task at a time without interruptions",
+          "wrongAnswer2": "By increasing the number of CPUs available to the system",
+          "wrongAnswer3": "By prioritizing all tasks equally with no interruptions",
+          "explanation": "Preemptive multitasking improves responsiveness by enabling the OS to interrupt running tasks and assign CPU time to other tasks, thus balancing the workload efficiently.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Virtual Memory",
+      "questions": [
+        {
+          "question": "What is the primary purpose of virtual memory in an operating system?",
+          "correctAnswer": "To extend the available physical memory by using disk space",
+          "wrongAnswer1": "To increase the processor speed",
+          "wrongAnswer2": "To store permanent files and data",
+          "wrongAnswer3": "To improve network connectivity",
+          "explanation": "Virtual memory allows an operating system to use disk space to simulate extra RAM, enabling programs to run even if there isn't enough physical memory available.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which component manages the translation of virtual addresses to physical addresses in virtual memory?",
+          "correctAnswer": "The memory management unit (MMU)",
+          "wrongAnswer1": "The central processing unit (CPU)",
+          "wrongAnswer2": "The file system",
+          "wrongAnswer3": "The network interface card (NIC)",
+          "explanation": "The memory management unit (MMU) is responsible for translating virtual addresses to physical addresses, enabling the use of virtual memory.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens during a page fault in a virtual memory system?",
+          "correctAnswer": "The operating system loads the required page from disk into physical memory",
+          "wrongAnswer1": "The system crashes due to invalid memory access",
+          "wrongAnswer2": "The CPU executes the instruction without any delay",
+          "wrongAnswer3": "The network connection is reset",
+          "explanation": "A page fault occurs when a program tries to access a page not currently in physical memory, prompting the OS to fetch the page from disk.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Deadlock",
+      "questions": [
+        {
+          "question": "What is a deadlock in the context of operating systems?",
+          "correctAnswer": "A situation where processes are stuck waiting for resources held by each other",
+          "wrongAnswer1": "A process that terminates unexpectedly",
+          "wrongAnswer2": "A technique for managing multiple processes",
+          "wrongAnswer3": "A method for allocating CPU time",
+          "explanation": "Deadlock occurs when a group of processes are each waiting for resources that the others hold, causing all to be stuck indefinitely.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following conditions is NOT required for a deadlock to occur?",
+          "correctAnswer": "Preemption of resources",
+          "wrongAnswer1": "Mutual exclusion",
+          "wrongAnswer2": "Hold and wait",
+          "wrongAnswer3": "Circular wait",
+          "explanation": "The four necessary conditions for deadlock are mutual exclusion, hold and wait, no preemption, and circular wait. Preemption of resources prevents deadlock.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which strategy aims to avoid deadlocks by denying one of the necessary conditions?",
+          "correctAnswer": "Deadlock prevention",
+          "wrongAnswer1": "Deadlock detection",
+          "wrongAnswer2": "Deadlock recovery",
+          "wrongAnswer3": "Resource scheduling",
+          "explanation": "Deadlock prevention works by ensuring that at least one of the necessary conditions for deadlock does not occur, thus avoiding deadlocks entirely.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Buffering",
+      "questions": [
+        {
+          "question": "What is the primary purpose of buffering in an operating system?",
+          "correctAnswer": "To temporarily store data while transferring between devices or processes",
+          "wrongAnswer1": "To permanently save data on a hard disk",
+          "wrongAnswer2": "To improve the processing speed of the CPU",
+          "wrongAnswer3": "To convert data formats for compatibility",
+          "explanation": "Buffering is used to temporarily hold data that is being transferred between two devices or processes to manage differences in their speeds or data handling capabilities.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes a buffer in the context of operating systems?",
+          "correctAnswer": "A reserved area in memory used to hold data temporarily",
+          "wrongAnswer1": "A type of permanent storage device",
+          "wrongAnswer2": "A process scheduler",
+          "wrongAnswer3": "A software tool for virus scanning",
+          "explanation": "A buffer is a reserved region in memory where data is stored temporarily during transfer to handle speed differences between sources and destinations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does buffering improve system performance?",
+          "correctAnswer": "By reducing the time a device spends waiting for data by holding data temporarily",
+          "wrongAnswer1": "By increasing the CPU clock speed",
+          "wrongAnswer2": "By avoiding the need for data validation",
+          "wrongAnswer3": "By compressing data before transfer",
+          "explanation": "Buffering allows devices or processes to continue operating without waiting for slower operations to complete by holding data temporarily, thus improving overall performance.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Scheduling Algorithms",
+      "questions": [
+        {
+          "question": "Which scheduling algorithm assigns the CPU to the process with the shortest next CPU burst?",
+          "correctAnswer": "Shortest Job Next",
+          "wrongAnswer1": "First Come First Served",
+          "wrongAnswer2": "Round Robin",
+          "wrongAnswer3": "Priority Scheduling",
+          "explanation": "Shortest Job Next (SJN) scheduling selects the process with the smallest estimated next CPU burst time, aiming to reduce waiting time.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In which scheduling algorithm does each process get an equal fixed time in cyclic order?",
+          "correctAnswer": "Round Robin",
+          "wrongAnswer1": "First Come First Served",
+          "wrongAnswer2": "Shortest Job Next",
+          "wrongAnswer3": "Priority Scheduling",
+          "explanation": "Round Robin scheduling allocates CPU time slices (quantum) to each process in a circular order to ensure fairness and responsiveness.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the primary disadvantage of Priority Scheduling?",
+          "correctAnswer": "Possible starvation of low priority processes",
+          "wrongAnswer1": "High overhead due to frequent context switching",
+          "wrongAnswer2": "Processes are run in strict arrival order",
+          "wrongAnswer3": "It requires precise knowledge of next CPU burst time",
+          "explanation": "In Priority Scheduling, low priority processes may suffer starvation if higher priority processes keep arriving.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Inter-process Communication",
+      "questions": [
+        {
+          "question": "What is the main purpose of inter-process communication in an operating system?",
+          "correctAnswer": "To enable processes to exchange data and signals",
+          "wrongAnswer1": "To increase the speed of single process execution",
+          "wrongAnswer2": "To allocate more memory for each process",
+          "wrongAnswer3": "To manage hardware resources directly",
+          "explanation": "Inter-process communication (IPC) allows different processes to communicate and synchronize their actions by exchanging data and signals.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a common method of inter-process communication?",
+          "correctAnswer": "Direct manipulation of CPU registers",
+          "wrongAnswer1": "Message passing",
+          "wrongAnswer2": "Shared memory",
+          "wrongAnswer3": "Pipes",
+          "explanation": "IPC methods usually include message passing, shared memory, and pipes, while direct manipulation of CPU registers is not used for communication between processes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In shared memory IPC, what must processes do to avoid conflicts while accessing the shared data?",
+          "correctAnswer": "Use synchronization mechanisms like semaphores or mutexes",
+          "wrongAnswer1": "Increase the size of memory allocated",
+          "wrongAnswer2": "Run on the same CPU core",
+          "wrongAnswer3": "Use separate address spaces",
+          "explanation": "Since multiple processes access the same memory region, synchronization methods are necessary to prevent data inconsistency and race conditions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "System Calls",
+      "questions": [
+        {
+          "question": "What is the primary purpose of system calls in an operating system?",
+          "correctAnswer": "To provide an interface for user programs to request services from the kernel",
+          "wrongAnswer1": "To execute hardware instructions directly",
+          "wrongAnswer2": "To manage internet connections",
+          "wrongAnswer3": "To compile user programs",
+          "explanation": "System calls allow user-level applications to interact with the kernel and request system-level services safely and efficiently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT typically a type of system call in an operating system?",
+          "correctAnswer": "User interface customization",
+          "wrongAnswer1": "Process control",
+          "wrongAnswer2": "File management",
+          "wrongAnswer3": "Device manipulation",
+          "explanation": "System calls generally include process control, file management, and device management, but user interface customization is usually handled at the application level, not via system calls.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do system calls affect the security of an operating system?",
+          "correctAnswer": "They provide controlled access to hardware and resources, preventing direct user manipulation",
+          "wrongAnswer1": "They allow unrestricted access to kernel memory",
+          "wrongAnswer2": "They bypass security checks when accessing files",
+          "wrongAnswer3": "They disable user authentication temporarily",
+          "explanation": "System calls act as a controlled interface, ensuring that users and applications cannot directly access sensitive resources and must comply with security policies enforced by the kernel.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Security",
+      "questions": [
+        {
+          "question": "What is the primary purpose of an operating system's security features?",
+          "correctAnswer": "To protect the system and data from unauthorized access and threats",
+          "wrongAnswer1": "To increase the graphical performance of applications",
+          "wrongAnswer2": "To improve the speed of the internet connection",
+          "wrongAnswer3": "To provide only user interface customization options",
+          "explanation": "The main aim of OS security features is to safeguard the system and user data against unauthorized access, malware, and other security threats.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common method used by operating systems to manage user security?",
+          "correctAnswer": "User authentication through passwords and biometrics",
+          "wrongAnswer1": "Increasing the CPU clock speed",
+          "wrongAnswer2": "Allocating more memory to applications",
+          "wrongAnswer3": "Changing the desktop wallpaper automatically",
+          "explanation": "Operating systems use methods like user authentication, including passwords and biometrics, to verify user identity and protect access.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What role does an operating system's firewall play in security?",
+          "correctAnswer": "It controls incoming and outgoing network traffic to prevent unauthorized access",
+          "wrongAnswer1": "It optimizes system performance by managing processor workload",
+          "wrongAnswer2": "It manages file storage location to speed up access times",
+          "wrongAnswer3": "It updates software applications automatically without user interaction",
+          "explanation": "A firewall monitors and controls network traffic based on security rules to prevent unauthorized access or threats from the internet or networks.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Booting",
+      "questions": [
+        {
+          "question": "What is the first step in the booting process of a computer?",
+          "correctAnswer": "The BIOS performs a Power-On Self Test",
+          "wrongAnswer1": "The operating system loads into memory",
+          "wrongAnswer2": "The hard drive spins up to full speed",
+          "wrongAnswer3": "The user logs into their account",
+          "explanation": "The booting process starts with the BIOS performing a Power-On Self Test to check hardware functionality before loading the operating system.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which component is responsible for loading the operating system during the booting process?",
+          "correctAnswer": "The bootloader",
+          "wrongAnswer1": "The kernel",
+          "wrongAnswer2": "The BIOS",
+          "wrongAnswer3": "The system registry",
+          "explanation": "After the BIOS and POST, the bootloader is responsible for loading the operating system into memory.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens immediately after the BIOS completes the Power-On Self Test?",
+          "correctAnswer": "Control is transferred to the bootloader",
+          "wrongAnswer1": "The computer shuts down",
+          "wrongAnswer2": "The user is prompted to enter a password",
+          "wrongAnswer3": "The network settings are initialized",
+          "explanation": "Once the BIOS completes POST successfully, it hands over control to the bootloader which continues the boot process by loading the operating system.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Threads",
+      "questions": [
+        {
+          "question": "What is a thread in the context of an operating system?",
+          "correctAnswer": "A thread is the smallest unit of execution within a process.",
+          "wrongAnswer1": "A thread is a program stored on a disk drive.",
+          "wrongAnswer2": "A thread is a part of the operating system kernel.",
+          "wrongAnswer3": "A thread is a type of file stored in memory.",
+          "explanation": "A thread is the smallest unit of execution that can be scheduled by an operating system. It is a subset of a process and allows for concurrent execution within the process.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do threads differ from processes?",
+          "correctAnswer": "Threads within the same process share the same memory space, while processes have separate memory spaces.",
+          "wrongAnswer1": "Threads have their own memory space, but processes share memory space.",
+          "wrongAnswer2": "Threads are slower than processes because they require more resources.",
+          "wrongAnswer3": "Processes can only execute sequentially, but threads cannot.",
+          "explanation": "Threads share the memory and resources of the process they belong to, enabling efficient communication and data exchange. Processes have independent memory spaces, making them more isolated.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a benefit of using threads in an operating system?",
+          "correctAnswer": "Improved application responsiveness due to concurrent execution.",
+          "wrongAnswer1": "Increased security by isolating all operations into separate threads.",
+          "wrongAnswer2": "Complete prevention of deadlocks in multitasking.",
+          "wrongAnswer3": "Elimination of the need for synchronization in multi-threading.",
+          "explanation": "Threads allow concurrent execution within a process, which can improve responsiveness and resource utilization. However, threads require synchronization to avoid issues like deadlocks and do not inherently increase security isolation.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Paging",
+      "questions": [
+        {
+          "question": "What is the primary purpose of paging in an operating system?",
+          "correctAnswer": "To manage memory by dividing it into fixed-size blocks called pages",
+          "wrongAnswer1": "To improve the speed of CPU execution by pipelining instructions",
+          "wrongAnswer2": "To encrypt data during transmission over a network",
+          "wrongAnswer3": "To share files between different computers",
+          "explanation": "Paging is a memory management scheme that eliminates the need for contiguous allocation of physical memory by dividing memory into fixed-size pages.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In paging, what term is used to describe the division of physical memory into fixed-size blocks?",
+          "correctAnswer": "Frames",
+          "wrongAnswer1": "Segments",
+          "wrongAnswer2": "Clusters",
+          "wrongAnswer3": "Pages",
+          "explanation": "In paging, physical memory is divided into fixed-size blocks called frames. The logical memory is divided into pages which are mapped onto these frames.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does paging help prevent external fragmentation in memory management?",
+          "correctAnswer": "By dividing memory into fixed-size pages, allowing any page to be mapped to any frame",
+          "wrongAnswer1": "By allocating contiguous memory blocks to processes",
+          "wrongAnswer2": "By compressing the memory contents to fit into smaller space",
+          "wrongAnswer3": "By swapping the entire process in and out of memory at once",
+          "explanation": "Paging removes the requirement of contiguous memory allocation which prevents external fragmentation because any free frame can be used for any page.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Segmentation",
+      "questions": [
+        {
+          "question": "What is segmentation in an operating system?",
+          "correctAnswer": "A memory management technique that divides the memory into variable-sized segments.",
+          "wrongAnswer1": "A process of dividing CPU time into fixed slots for each process.",
+          "wrongAnswer2": "A technique to swap entire processes between main memory and disk.",
+          "wrongAnswer3": "A method to encrypt segment data in memory.",
+          "explanation": "Segmentation is a memory management technique where memory is divided into segments that can vary in size, representing different parts of a program such as code, data, and stack.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key advantage of segmentation?",
+          "correctAnswer": "It reflects the logical view of a process and supports protection and sharing.",
+          "wrongAnswer1": "It uses fixed size blocks for memory allocation.",
+          "wrongAnswer2": "It eliminates the need for a page table.",
+          "wrongAnswer3": "It allows processes to run without any memory protection.",
+          "explanation": "Segmentation supports the logical division of programs and provides protection and sharing by managing different segments separately.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In segmentation, what causes external fragmentation?",
+          "correctAnswer": "Allocation and deallocation of variable-sized segments over time.",
+          "wrongAnswer1": "Fixed length pages not fitting exactly in memory frames.",
+          "wrongAnswer2": "Swapping segments out to disk and back into memory.",
+          "wrongAnswer3": "Using only one large contiguous segment for all processes.",
+          "explanation": "Since segments are of variable size, repeated allocation and deallocation can create small gaps of free memory scattered throughout, leading to external fragmentation.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "File Permissions",
+      "questions": [
+        {
+          "question": "What does the 'read' permission allow a user to do with a file?",
+          "correctAnswer": "View the contents of the file",
+          "wrongAnswer1": "Modify the contents of the file",
+          "wrongAnswer2": "Execute the file as a program",
+          "wrongAnswer3": "Delete the file",
+          "explanation": "The 'read' permission allows a user to view or read the contents of the file but does not allow any modification, execution, or deletion of the file.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Unix-like operating systems, which command is used to change file permissions?",
+          "correctAnswer": "chmod",
+          "wrongAnswer1": "chperm",
+          "wrongAnswer2": "setperm",
+          "wrongAnswer3": "permchange",
+          "explanation": "The 'chmod' command is used in Unix-like systems to change the file permissions for user, group, and others.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What permission must a file have for it to be executed as a program?",
+          "correctAnswer": "Execute permission",
+          "wrongAnswer1": "Read permission",
+          "wrongAnswer2": "Write permission",
+          "wrongAnswer3": "Delete permission",
+          "explanation": "For a file to be run as a program, it must have the execute permission enabled. Without this, the operating system will not allow the file to be executed.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Shell",
+      "questions": [
+        {
+          "question": "What is the primary function of a shell in an operating system?",
+          "correctAnswer": "To act as an interface between the user and the operating system",
+          "wrongAnswer1": "To manage hardware resources directly",
+          "wrongAnswer2": "To compile high-level programming languages",
+          "wrongAnswer3": "To provide network security and encryption",
+          "explanation": "A shell acts as an interface between the user and the operating system, allowing users to execute commands and run programs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common type of shell used in Unix-like operating systems?",
+          "correctAnswer": "Bash",
+          "wrongAnswer1": "CMD",
+          "wrongAnswer2": "PowerShell",
+          "wrongAnswer3": "ShinyShell",
+          "explanation": "Bash is a widely used shell in Unix-like systems, while CMD and PowerShell are primarily used in Windows.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does a shell process commands entered by the user?",
+          "correctAnswer": "It interprets the commands and then passes them to the operating system for execution",
+          "wrongAnswer1": "It directly modifies the files on the hard disk without user commands",
+          "wrongAnswer2": "It translates the commands into machine language and stores them permanently",
+          "wrongAnswer3": "It encrypts the commands before sending them to the processor",
+          "explanation": "The shell translates user commands into instructions that the operating system can understand and execute.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Operating Modes",
+      "questions": [
+        {
+          "question": "What is the primary purpose of different operating modes in an operating system?",
+          "correctAnswer": "To separate user-level operations from system-level operations",
+          "wrongAnswer1": "To increase the clock speed of the CPU",
+          "wrongAnswer2": "To manage file storage efficiently",
+          "wrongAnswer3": "To control network traffic",
+          "explanation": "Operating modes, such as user mode and kernel mode, help protect the operating system by separating user-level processes from critical system-level operations, preventing unauthorized access to hardware and sensitive code.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which mode in an operating system grants full access to all hardware and system resources?",
+          "correctAnswer": "Kernel mode",
+          "wrongAnswer1": "User mode",
+          "wrongAnswer2": "Guest mode",
+          "wrongAnswer3": "Safe mode",
+          "explanation": "Kernel mode allows the operating system to execute privileged instructions and access hardware directly, essential for managing resources. User mode restricts access to prevent accidental or malicious damage.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does switching between operating modes typically occur?",
+          "correctAnswer": "Through a system call or interrupt triggered by the running process",
+          "wrongAnswer1": "Randomly by the operating system at fixed intervals",
+          "wrongAnswer2": "When the user manually changes the mode in settings",
+          "wrongAnswer3": "Automatically when the device runs out of memory",
+          "explanation": "Mode switching usually happens when a user process requests a service from the operating system via a system call or when an interrupt occurs, enabling the CPU to switch to kernel mode.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Interrupt Handling",
+      "questions": [
+        {
+          "question": "What is the primary purpose of interrupt handling in an operating system?",
+          "correctAnswer": "To respond to urgent events by temporarily halting the current process",
+          "wrongAnswer1": "To increase the speed of the processor permanently",
+          "wrongAnswer2": "To stop all processes and shut down the system",
+          "wrongAnswer3": "To permanently disable input/output devices",
+          "explanation": "Interrupt handling allows the operating system to respond quickly to important events by temporarily stopping the current process and addressing the event, which improves efficiency and responsiveness.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which component is responsible for directing the processor to the appropriate interrupt service routine?",
+          "correctAnswer": "Interrupt vector table",
+          "wrongAnswer1": "Process control block",
+          "wrongAnswer2": "File allocation table",
+          "wrongAnswer3": "Memory management unit",
+          "explanation": "The interrupt vector table maintains pointers to interrupt service routines, allowing the processor to jump to the correct handler when an interrupt occurs.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the key difference between a maskable and a non-maskable interrupt?",
+          "correctAnswer": "Maskable interrupts can be ignored or delayed by the processor, non-maskable interrupts cannot be delayed",
+          "wrongAnswer1": "Maskable interrupts are used only for hardware errors, non-maskable for software errors",
+          "wrongAnswer2": "Non-maskable interrupts are generated by user programs, maskable by hardware only",
+          "wrongAnswer3": "Maskable interrupts always have higher priority than non-maskable interrupts",
+          "explanation": "Maskable interrupts allow the processor to disable them temporarily, while non-maskable interrupts must be handled immediately as they typically indicate critical events like hardware failures.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Spooling",
+      "questions": [
+        {
+          "question": "What is the primary purpose of spooling in operating systems?",
+          "correctAnswer": "To manage data by queuing it for sequential processing",
+          "wrongAnswer1": "To increase physical memory of the system",
+          "wrongAnswer2": "To directly execute multiple programs simultaneously",
+          "wrongAnswer3": "To secure the system from unauthorized access",
+          "explanation": "Spooling stands for Simultaneous Peripheral Operations On-line and is used to manage data by queuing it for sequential processing, especially for devices like printers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which device is most commonly associated with spooling in operating systems?",
+          "correctAnswer": "Printer",
+          "wrongAnswer1": "Hard Drive",
+          "wrongAnswer2": "Keyboard",
+          "wrongAnswer3": "Monitor",
+          "explanation": "Spooling is most commonly used to manage print jobs by storing them in a queue before sending them to the printer.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does spooling improve performance in an operating system?",
+          "correctAnswer": "By allowing devices to operate asynchronously with the CPU",
+          "wrongAnswer1": "By increasing CPU processing speed",
+          "wrongAnswer2": "By allocating more disk space to active programs",
+          "wrongAnswer3": "By reducing the number of running processes",
+          "explanation": "Spooling allows devices like printers to operate independently from the CPU by queuing tasks so the CPU can continue processing other jobs without waiting.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Resource Allocation",
+      "questions": [
+        {
+          "question": "What is the primary purpose of resource allocation in an operating system?",
+          "correctAnswer": "To distribute system resources efficiently among processes",
+          "wrongAnswer1": "To increase the overall size of the operating system",
+          "wrongAnswer2": "To limit the number of users logging into the system",
+          "wrongAnswer3": "To uninstall unnecessary software automatically",
+          "explanation": "Resource allocation in an operating system is primarily concerned with managing and distributing system resources such as CPU time, memory, and I/O devices efficiently among multiple processes to ensure optimal performance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which resource allocation method assigns fixed portions of memory to processes?",
+          "correctAnswer": "Partitioning",
+          "wrongAnswer1": "Virtual memory",
+          "wrongAnswer2": "Paging",
+          "wrongAnswer3": "Swapping",
+          "explanation": "Partitioning allocates fixed blocks of memory to processes, as opposed to methods like paging or virtual memory that manage memory dynamically. This is an important concept in resource allocation strategies.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does an operating system prevent deadlock during resource allocation?",
+          "correctAnswer": "By implementing resource allocation algorithms that avoid circular wait conditions",
+          "wrongAnswer1": "By increasing the number of processes",
+          "wrongAnswer2": "By disabling multitasking features",
+          "wrongAnswer3": "By allocating all resources to a single process",
+          "explanation": "To prevent deadlock, operating systems use algorithms that avoid circular wait and ensure proper ordering of resource allocation, preventing processes from waiting indefinitely for resources.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "User Account Management",
+      "questions": [
+        {
+          "question": "What is the main purpose of user account management in an operating system?",
+          "correctAnswer": "To control access and permissions for different users",
+          "wrongAnswer1": "To increase the speed of the operating system",
+          "wrongAnswer2": "To manage hardware components",
+          "wrongAnswer3": "To create backups of system files",
+          "explanation": "User account management primarily focuses on controlling access and permissions to ensure security and proper use of the system by different users.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is typically NOT a function of user account management?",
+          "correctAnswer": "Defragmenting the hard drive",
+          "wrongAnswer1": "Creating new user accounts",
+          "wrongAnswer2": "Modifying user permissions",
+          "wrongAnswer3": "Deleting user accounts",
+          "explanation": "Defragmenting the hard drive is related to system maintenance, not user account management, which deals with creating, modifying, and deleting user accounts.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In user account management, what is the role of permissions?",
+          "correctAnswer": "They determine what actions a user can perform on the system",
+          "wrongAnswer1": "They speed up the login process",
+          "wrongAnswer2": "They backup user data automatically",
+          "wrongAnswer3": "They install software updates",
+          "explanation": "Permissions define the level of access a user has, specifying what files or resources can be read, written, or executed, ensuring system security and proper functionality.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "File System Hierarchy",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the root directory in a file system hierarchy?",
+          "correctAnswer": "It serves as the top-level directory that contains all other directories and files.",
+          "wrongAnswer1": "It stores all user documents only.",
+          "wrongAnswer2": "It only contains system configuration files.",
+          "wrongAnswer3": "It acts as temporary storage for deleted files.",
+          "explanation": "The root directory is the base of the file system hierarchy and contains all other directories and files, making it the starting point for file organization.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which directory in a Unix-like file system hierarchy commonly stores user home directories?",
+          "correctAnswer": "/home",
+          "wrongAnswer1": "/etc",
+          "wrongAnswer2": "/var",
+          "wrongAnswer3": "/bin",
+          "explanation": "The /home directory typically contains personal directories for users, while /etc contains configuration files, /var holds variable data, and /bin contains essential binaries.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In a file system hierarchy, what type of files would you expect to find in the /var directory?",
+          "correctAnswer": "Files that change frequently, such as logs and spool files.",
+          "wrongAnswer1": "User executable binaries.",
+          "wrongAnswer2": "Configuration files for the system.",
+          "wrongAnswer3": "Temporary files that are deleted on reboot.",
+          "explanation": "/var is used for variable data like logs, spool files, and other files that are expected to grow and change regularly, unlike /bin or /etc.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Memory Protection",
+      "questions": [
+        {
+          "question": "What is the primary purpose of memory protection in an operating system?",
+          "correctAnswer": "To prevent one process from accessing the memory of another process",
+          "wrongAnswer1": "To increase the speed of memory access",
+          "wrongAnswer2": "To allocate more memory to each process",
+          "wrongAnswer3": "To allow direct hardware access by all processes",
+          "explanation": "Memory protection ensures that a process cannot access the memory allocated to another process, which helps maintain system stability and security.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which hardware feature is commonly used to enforce memory protection?",
+          "correctAnswer": "Memory Management Unit (MMU)",
+          "wrongAnswer1": "Central Processing Unit (CPU)",
+          "wrongAnswer2": "Graphics Processing Unit (GPU)",
+          "wrongAnswer3": "Input Output Controller",
+          "explanation": "The Memory Management Unit translates logical addresses to physical addresses and enforces access controls to protect memory regions.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens if a process tries to access a memory segment it is not authorized to?",
+          "correctAnswer": "The operating system raises a protection fault or exception",
+          "wrongAnswer1": "The process is given access temporarily",
+          "wrongAnswer2": "The hardware ignores the request silently",
+          "wrongAnswer3": "The operating system allocates additional memory to the process",
+          "explanation": "When unauthorized memory access occurs, the OS detects the violation and typically terminates the process or raises an error to prevent data corruption.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Real-time Operating System",
+      "questions": [
+        {
+          "question": "What is the primary characteristic of a Real-time Operating System?",
+          "correctAnswer": "It guarantees a response within a strict time limit.",
+          "wrongAnswer1": "It maximizes throughput regardless of timing.",
+          "wrongAnswer2": "It prioritizes user-friendly interfaces over performance.",
+          "wrongAnswer3": "It only runs batch processing tasks.",
+          "explanation": "A Real-time Operating System (RTOS) is designed to provide deterministic response times to events, ensuring tasks are completed within a guaranteed time frame to meet real-time constraints.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of application most commonly uses a Real-time Operating System?",
+          "correctAnswer": "Embedded systems like automotive controls and medical devices.",
+          "wrongAnswer1": "General office productivity software.",
+          "wrongAnswer2": "Video editing software.",
+          "wrongAnswer3": "Web browsers.",
+          "explanation": "RTOS are commonly employed in embedded systems where predictable timing is critical, such as automotive control systems and medical devices, ensuring reliability and safety.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does a Real-time Operating System differ from a general-purpose operating system?",
+          "correctAnswer": "By providing deterministic task scheduling to meet deadlines.",
+          "wrongAnswer1": "By supporting more users simultaneously.",
+          "wrongAnswer2": "By offering a graphical user interface.",
+          "wrongAnswer3": "By focusing on energy-saving features.",
+          "explanation": "RTOS differs from general-purpose OS by its deterministic scheduling algorithms to ensure tasks meet their timing deadlines, critical in time-sensitive applications.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Distributed Operating System",
+      "questions": [
+        {
+          "question": "What is the primary goal of a distributed operating system?",
+          "correctAnswer": "To manage a group of independent computers and make them appear as a single system",
+          "wrongAnswer1": "To operate on a single computer with multiple cores",
+          "wrongAnswer2": "To provide a graphical user interface for a single computer",
+          "wrongAnswer3": "To manage only the hardware resources of a single machine",
+          "explanation": "A distributed operating system manages multiple independent computers and presents them to the user as a single unified system, enhancing resource sharing and coordination.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key characteristic of a distributed operating system?",
+          "correctAnswer": "Transparency in resource access across multiple machines",
+          "wrongAnswer1": "Single user interface on a standalone machine",
+          "wrongAnswer2": "Lack of process synchronization between nodes",
+          "wrongAnswer3": "Operating only in real-time applications",
+          "explanation": "Distributed operating systems provide transparency in accessing resources distributed across multiple machines, making the system appear as one cohesive unit to users.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does a distributed operating system differ from a network operating system?",
+          "correctAnswer": "It manages resources and users as a single system rather than simply providing networking capabilities",
+          "wrongAnswer1": "It only allows file sharing but no resource management",
+          "wrongAnswer2": "It is designed only for mobile devices",
+          "wrongAnswer3": "It does not support communication between computers",
+          "explanation": "Unlike network operating systems that manage communication between computers, distributed operating systems manage all resources and users centrally to appear as a single system.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Embedded Systems",
+      "questions": [
+        {
+          "question": "What defines an embedded system in computing?",
+          "correctAnswer": "A dedicated computer system designed for specific control functions",
+          "wrongAnswer1": "A general-purpose computer used for a variety of tasks",
+          "wrongAnswer2": "A system that operates only on an Internet connection",
+          "wrongAnswer3": "A computer system without any user interface",
+          "explanation": "An embedded system is designed to perform dedicated functions within a larger mechanical or electrical system, often with real-time computing constraints.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which characteristic is typical of embedded operating systems?",
+          "correctAnswer": "They are optimized for real-time performance and low resource consumption",
+          "wrongAnswer1": "They require heavy graphical user interfaces",
+          "wrongAnswer2": "They are always built to support multiple user profiles",
+          "wrongAnswer3": "They primarily focus on web browsing capabilities",
+          "explanation": "Embedded operating systems are tailored to run efficiently on limited hardware, emphasizing real-time responsiveness and minimal resource usage.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why are embedded systems often used in consumer electronics?",
+          "correctAnswer": "Because they offer reliable and efficient control over device operations",
+          "wrongAnswer1": "Because they have large storage capacities for multimedia",
+          "wrongAnswer2": "Because they provide extensive user customization options",
+          "wrongAnswer3": "Because they function best when connected to cloud services",
+          "explanation": "Embedded systems provide dedicated and dependable control, which is critical in consumer electronics to ensure proper functioning and user experience.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Batch Processing",
+      "questions": [
+        {
+          "question": "What is the primary characteristic of batch processing in operating systems?",
+          "correctAnswer": "Processing a group of jobs together without manual intervention",
+          "wrongAnswer1": "Processing each job immediately as it arrives",
+          "wrongAnswer2": "Processing jobs interactively with user input",
+          "wrongAnswer3": "Processing jobs only one at a time with manual approval",
+          "explanation": "Batch processing involves executing a collection of jobs all at once without user intervention, optimizing system efficiency.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an advantage of batch processing?",
+          "correctAnswer": "Efficient use of resources by executing jobs sequentially",
+          "wrongAnswer1": "Immediate user feedback on each job",
+          "wrongAnswer2": "Allows real-time interaction with jobs",
+          "wrongAnswer3": "Requires manual intervention for job scheduling",
+          "explanation": "Batch processing allows the system to handle multiple jobs at once which improves resource utilization compared to interactive processing.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In batch processing, how are jobs typically submitted to the system?",
+          "correctAnswer": "As a batch or group of jobs submitted together",
+          "wrongAnswer1": "Individually with interaction from the user",
+          "wrongAnswer2": "Only through real-time command input",
+          "wrongAnswer3": "Randomly without grouping",
+          "explanation": "Jobs are collected and submitted as batches so they can be processed sequentially without user intervention during execution.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Multilevel Queue",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a multilevel queue scheduling algorithm in an operating system?",
+          "correctAnswer": "To separate processes into different queues based on their priority or type",
+          "wrongAnswer1": "To execute all processes in a single queue without priority",
+          "wrongAnswer2": "To allocate the same amount of CPU time to all processes",
+          "wrongAnswer3": "To randomly select processes for execution without any classification",
+          "explanation": "A multilevel queue scheduling algorithm divides processes into different queues based on their priority or type, allowing different scheduling algorithms to be applied to each queue, improving process management.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In a multilevel queue scheduling system, how are processes typically assigned to different queues?",
+          "correctAnswer": "Based on process characteristics like priority or process type",
+          "wrongAnswer1": "Randomly assigned to any queue",
+          "wrongAnswer2": "Based on the process owner’s preference",
+          "wrongAnswer3": "Based on the order in which processes arrive",
+          "explanation": "Processes are assigned to queues based on their characteristics such as priority or type, allowing tailored handling for different kinds of processes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a limitation of the multilevel queue scheduling algorithm?",
+          "correctAnswer": "It can cause starvation for lower priority queues if higher priority queues are always full",
+          "wrongAnswer1": "It schedules all processes using a single algorithm for simplicity",
+          "wrongAnswer2": "It guarantees equal CPU time for all processes regardless of queue",
+          "wrongAnswer3": "It does not separate processes by priority or type",
+          "explanation": "One limitation of multilevel queue scheduling is the potential for starvation, where lower priority queues get little or no CPU time if higher priority queues are frequently occupied.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Context Switching",
+      "questions": [
+        {
+          "question": "What is the main purpose of context switching in an operating system?",
+          "correctAnswer": "To save and restore the state of a CPU to switch from one process to another",
+          "wrongAnswer1": "To allocate memory to different processes",
+          "wrongAnswer2": "To manage file system operations efficiently",
+          "wrongAnswer3": "To control access to hardware devices",
+          "explanation": "Context switching involves saving the state of the currently running process and restoring the state of the next process to run, enabling multiple processes to share a single CPU.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT typically saved during a context switch?",
+          "correctAnswer": "File descriptors open by the process",
+          "wrongAnswer1": "Program counter",
+          "wrongAnswer2": "CPU registers",
+          "wrongAnswer3": "Process state information",
+          "explanation": "During context switching, the CPU registers, program counter, and process state information are saved, but file descriptors are maintained by the operating system and are not part of the CPU context.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does context switching affect system performance?",
+          "correctAnswer": "It introduces overhead because saving and loading contexts takes time",
+          "wrongAnswer1": "It improves performance by eliminating all delays",
+          "wrongAnswer2": "It has no effect on system performance",
+          "wrongAnswer3": "It decreases the CPU usage significantly",
+          "explanation": "Context switching is necessary for multitasking but causes overhead since the CPU must stop executing one process and save its state before loading another, which consumes time.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Load Balancing",
+      "questions": [
+        {
+          "question": "What is the primary goal of load balancing in an operating system?",
+          "correctAnswer": "To distribute workload evenly across multiple resources",
+          "wrongAnswer1": "To increase the memory capacity of the system",
+          "wrongAnswer2": "To prioritize certain processes over others",
+          "wrongAnswer3": "To reduce the network bandwidth usage",
+          "explanation": "Load balancing aims to distribute the workload evenly across multiple resources such as CPUs or servers to optimize resource use and avoid overloading any single resource.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following methods can be used for load balancing?",
+          "correctAnswer": "Round Robin scheduling",
+          "wrongAnswer1": "First In First Out scheduling",
+          "wrongAnswer2": "Single queue processing",
+          "wrongAnswer3": "Serial execution",
+          "explanation": "Round Robin scheduling is a common load balancing method that distributes workloads cyclically among resources to ensure balanced usage.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is load balancing important in distributed systems?",
+          "correctAnswer": "It prevents any single system from becoming a bottleneck by distributing tasks evenly",
+          "wrongAnswer1": "It increases the size of data each node can store",
+          "wrongAnswer2": "It decreases the number of nodes required in the system",
+          "wrongAnswer3": "It guarantees faster execution of tasks regardless of workload",
+          "explanation": "In distributed systems, load balancing is crucial to prevent any single node from being overwhelmed, which helps improve overall system efficiency and response times.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Fault Tolerance",
+      "questions": [
+        {
+          "question": "What is the primary goal of fault tolerance in an operating system?",
+          "correctAnswer": "To ensure the system continues to operate despite hardware or software failures",
+          "wrongAnswer1": "To improve the speed of the system by optimizing resource use",
+          "wrongAnswer2": "To increase the memory capacity of the system",
+          "wrongAnswer3": "To enhance the graphical user interface of the system",
+          "explanation": "Fault tolerance refers to the ability of a system to continue functioning correctly even when some components fail, preventing system crashes and data loss.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which technique is commonly used to achieve fault tolerance in operating systems?",
+          "correctAnswer": "Redundancy by duplicating critical components",
+          "wrongAnswer1": "Encrypting all data transmissions",
+          "wrongAnswer2": "Installing multiple antivirus programs",
+          "wrongAnswer3": "Regularly updating the user interface",
+          "explanation": "Fault tolerance is often achieved through redundancy, where important components or data are duplicated so that if one fails, another can take over without interruption.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does checkpointing contribute to fault tolerance in operating systems?",
+          "correctAnswer": "By saving the system state periodically to enable recovery after a failure",
+          "wrongAnswer1": "By improving network bandwidth for faster data transfer",
+          "wrongAnswer2": "By increasing processor speed during heavy tasks",
+          "wrongAnswer3": "By providing user authentication for security",
+          "explanation": "Checkpointing involves saving the current state of a system at intervals, allowing the system to roll back to a previous state in case of failure, thus maintaining fault tolerance.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "System Libraries",
+      "questions": [
+        {
+          "question": "What is the primary purpose of system libraries in an operating system?",
+          "correctAnswer": "To provide standard functions and routines for programs to use",
+          "wrongAnswer1": "To manage hardware devices directly",
+          "wrongAnswer2": "To store user data and files",
+          "wrongAnswer3": "To control the user interface appearance",
+          "explanation": "System libraries contain standard functions and routines that applications use to perform common tasks without needing to write code from scratch, facilitating program development and execution.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes how applications interact with system libraries?",
+          "correctAnswer": "Applications call functions provided by system libraries to perform common tasks",
+          "wrongAnswer1": "Applications execute system libraries as separate programs",
+          "wrongAnswer2": "Applications directly modify the system library files",
+          "wrongAnswer3": "Applications avoid using system libraries for better performance",
+          "explanation": "Applications use system libraries by calling their provided functions to utilize common functionalities without having to implement them internally.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why are system libraries essential for operating system efficiency and functionality?",
+          "correctAnswer": "They enable code reuse and standardization across applications",
+          "wrongAnswer1": "They allow operating systems to run without hardware drivers",
+          "wrongAnswer2": "They store all system configuration settings",
+          "wrongAnswer3": "They prevent unauthorized access to memory",
+          "explanation": "System libraries allow programs to reuse common code, which avoids duplication, reduces errors, and facilitates maintenance, contributing to overall OS efficiency and functionality.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Virtualization",
+      "questions": [
+        {
+          "question": "What is virtualization in the context of operating systems?",
+          "correctAnswer": "The creation of virtual versions of physical hardware resources",
+          "wrongAnswer1": "A method to increase physical memory capacity",
+          "wrongAnswer2": "A way to speed up the CPU by overclocking",
+          "wrongAnswer3": "A technique to reduce battery consumption",
+          "explanation": "Virtualization refers to creating virtual versions of hardware resources like servers, storage devices, or networks, allowing multiple operating systems to run on a single physical machine.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key benefit of virtualization?",
+          "correctAnswer": "Improved resource utilization by running multiple virtual machines on one physical machine",
+          "wrongAnswer1": "Reducing the size of physical storage devices",
+          "wrongAnswer2": "Increasing the screen resolution of a computer",
+          "wrongAnswer3": "Enhancing the physical durability of hardware components",
+          "explanation": "Virtualization improves resource utilization by allowing multiple virtual machines to operate on a single physical server, efficiently sharing resources.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What role does a hypervisor play in virtualization?",
+          "correctAnswer": "It manages and allocates resources to multiple virtual machines on a host system",
+          "wrongAnswer1": "It is a type of virus that targets virtual machines",
+          "wrongAnswer2": "It speeds up internet connectivity for virtual environments",
+          "wrongAnswer3": "It acts as a firewall to protect the host machine from attacks",
+          "explanation": "A hypervisor is software that creates and runs virtual machines by managing and allocating the physical resources of the host machine among them.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Hypervisor",
+      "questions": [
+        {
+          "question": "What is the main function of a hypervisor in computing?",
+          "correctAnswer": "To manage and run multiple virtual machines on a single physical host",
+          "wrongAnswer1": "To provide a user interface for operating systems",
+          "wrongAnswer2": "To connect multiple computers in a network",
+          "wrongAnswer3": "To manage file systems on a computer",
+          "explanation": "A hypervisor is software that creates and runs virtual machines by abstracting the hardware of a single physical host so that multiple virtual machines can operate independently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a type of hypervisor that runs directly on the host's hardware?",
+          "correctAnswer": "Type 1 hypervisor",
+          "wrongAnswer1": "Type 2 hypervisor",
+          "wrongAnswer2": "Firmware hypervisor",
+          "wrongAnswer3": "Application hypervisor",
+          "explanation": "Type 1 hypervisors run directly on the physical hardware of the host machine, providing better performance and efficiency compared to Type 2 hypervisors which run on a host operating system.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is a hypervisor important in cloud computing?",
+          "correctAnswer": "It enables running multiple isolated virtual machines on shared physical resources",
+          "wrongAnswer1": "It enhances the speed of internet connections",
+          "wrongAnswer2": "It acts as antivirus software for cloud systems",
+          "wrongAnswer3": "It manages user authentication in cloud platforms",
+          "explanation": "Hypervisors allow cloud providers to efficiently utilize physical hardware by running multiple virtual machines securely and independently, which is essential for delivering scalable cloud services.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Swap Space",
+      "questions": [
+        {
+          "question": "What is the primary purpose of swap space in an operating system?",
+          "correctAnswer": "To provide additional virtual memory by using disk space",
+          "wrongAnswer1": "To increase the physical RAM in a system",
+          "wrongAnswer2": "To store permanent files and documents",
+          "wrongAnswer3": "To manage user permissions and access control",
+          "explanation": "Swap space is used by the operating system to extend virtual memory beyond the physical RAM by temporarily moving inactive pages of memory to disk space, thus allowing more processes to run.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes when swap space is used?",
+          "correctAnswer": "When the physical memory is fully utilized and more memory is needed",
+          "wrongAnswer1": "Only during system startup",
+          "wrongAnswer2": "When a program requires access to a peripheral device",
+          "wrongAnswer3": "When the system is shutting down",
+          "explanation": "Swap space is utilized when the system's physical RAM is insufficient for running processes and additional memory is needed, allowing the system to keep running by swapping inactive pages to disk.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does the use of swap space affect system performance?",
+          "correctAnswer": "It can slow down the system because accessing data on disk is slower than RAM",
+          "wrongAnswer1": "It always speeds up performance by increasing available memory",
+          "wrongAnswer2": "It has no effect on system performance",
+          "wrongAnswer3": "It improves processor speed by offloading computations to disk",
+          "explanation": "Accessing data from swap space on the disk is much slower than accessing data from physical RAM, so heavy use of swap can lead to decreased system performance.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Kernel Mode",
+      "questions": [
+        {
+          "question": "What is Kernel Mode in an operating system?",
+          "correctAnswer": "A mode where the operating system has full access to hardware and system resources",
+          "wrongAnswer1": "A mode that restricts access to hardware and runs user applications",
+          "wrongAnswer2": "A mode used only for running user-level applications",
+          "wrongAnswer3": "A mode where the system runs without any restrictions on user programs",
+          "explanation": "Kernel Mode allows the operating system to execute with full privileges, having unrestricted access to hardware and system resources. User mode, in contrast, limits this access for security and stability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is Kernel Mode important for the functioning of an operating system?",
+          "correctAnswer": "It allows the OS to manage hardware resources and perform critical tasks securely",
+          "wrongAnswer1": "It restricts the OS from accessing hardware to prevent crashes",
+          "wrongAnswer2": "It lets user programs access the hardware directly for better performance",
+          "wrongAnswer3": "It disables security features to increase system speed",
+          "explanation": "Kernel Mode provides the necessary privileges for the OS to control hardware and execute critical functions safely, preventing user programs from causing system instability.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following actions typically requires an operating system to switch from user mode to kernel mode?",
+          "correctAnswer": "Performing input/output operations with hardware devices",
+          "wrongAnswer1": "Running simple calculations within a user application",
+          "wrongAnswer2": "Displaying text on the screen without hardware interaction",
+          "wrongAnswer3": "Executing basic arithmetic in a spreadsheet program",
+          "explanation": "Operations like input/output require direct hardware access, which is only possible in kernel mode. Thus, the OS switches to kernel mode to safely perform these tasks.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "User Mode",
+      "questions": [
+        {
+          "question": "What is the primary characteristic of user mode in an operating system?",
+          "correctAnswer": "It restricts access to system resources and hardware for safety.",
+          "wrongAnswer1": "It allows direct access to hardware and kernel operations.",
+          "wrongAnswer2": "It is a debugging mode for developers only.",
+          "wrongAnswer3": "It completely disables user-level applications.",
+          "explanation": "User mode is designed to restrict applications from directly accessing hardware or critical system resources, promoting system stability and security.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why do operating systems use user mode?",
+          "correctAnswer": "To prevent user applications from damaging the system or accessing protected resources.",
+          "wrongAnswer1": "To allow user applications to modify the kernel directly.",
+          "wrongAnswer2": "To enhance the speed of all applications by providing full hardware access.",
+          "wrongAnswer3": "To run multiple operating systems simultaneously.",
+          "explanation": "User mode isolates user applications from core system components, preventing errors or malicious activities from compromising the OS.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following operations is typically not allowed in user mode?",
+          "correctAnswer": "Directly accessing the physical memory or hardware devices.",
+          "wrongAnswer1": "Running user interface programs and applications.",
+          "wrongAnswer2": "Performing computations and data processing.",
+          "wrongAnswer3": "Communicating with other user applications through standard APIs.",
+          "explanation": "User mode restricts direct hardware access to protect system integrity, so these operations require kernel mode privileges.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Input Output",
+      "questions": [
+        {
+          "question": "What is the primary role of input output management in an operating system?",
+          "correctAnswer": "To coordinate and manage data exchange between the computer and peripherals",
+          "wrongAnswer1": "To compile and execute programs",
+          "wrongAnswer2": "To manage network connections exclusively",
+          "wrongAnswer3": "To control the computer's power usage",
+          "explanation": "Input output management is responsible for handling the communication between the computer and its peripheral devices such as keyboards, printers, and disks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which component typically handles buffering in input output operations?",
+          "correctAnswer": "The operating system's I/O subsystem",
+          "wrongAnswer1": "The central processing unit alone",
+          "wrongAnswer2": "The user's application directly",
+          "wrongAnswer3": "The hard disk drive hardware only",
+          "explanation": "The operating system's I/O subsystem manages buffering to optimize data transfer between devices and system memory.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the purpose of interrupt-driven I/O in operating systems?",
+          "correctAnswer": "To allow the CPU to continue other tasks until the I/O device is ready",
+          "wrongAnswer1": "To execute I/O commands sequentially without interruptions",
+          "wrongAnswer2": "To disable all device communications temporarily",
+          "wrongAnswer3": "To increase the power consumption for better performance",
+          "explanation": "Interrupt-driven I/O lets the CPU perform other operations and deals with I/O events only when an interrupt signal occurs indicating the device is ready.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "File Caching",
+      "questions": [
+        {
+          "question": "What is the primary purpose of file caching in an operating system?",
+          "correctAnswer": "To improve file access speed by storing frequently accessed data in memory",
+          "wrongAnswer1": "To permanently store files on a secondary storage device",
+          "wrongAnswer2": "To encrypt files for security purposes",
+          "wrongAnswer3": "To compress files to save disk space",
+          "explanation": "File caching stores frequently accessed file data in memory to reduce access time and improve overall system performance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common benefit of file caching?",
+          "correctAnswer": "Reduced disk I/O operations leading to faster file access",
+          "wrongAnswer1": "Increased file fragmentation on disk",
+          "wrongAnswer2": "Permanent backup of data to the cloud",
+          "wrongAnswer3": "Automatic file deletion to free up space",
+          "explanation": "File caching reduces the need to repeatedly read data from disk, thereby minimizing disk input/output operations and speeding up file access.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens when cached file data in memory is modified but not yet written back to disk?",
+          "correctAnswer": "The data is called dirty cache and must be written back to ensure data consistency",
+          "wrongAnswer1": "The data is discarded immediately to free cache space",
+          "wrongAnswer2": "The cached change is lost if the system crashes because it is not stored anywhere",
+          "wrongAnswer3": "The data is automatically saved to an external device",
+          "explanation": "Modified cached data that has not yet been written to disk is known as dirty cache. The system must write it back to disk to maintain data integrity.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "System Performance",
+      "questions": [
+        {
+          "question": "What is the primary factor that affects system performance in an operating system?",
+          "correctAnswer": "The efficiency of resource management by the OS",
+          "wrongAnswer1": "The color of the user interface",
+          "wrongAnswer2": "The brand of the monitor",
+          "wrongAnswer3": "The number of desktop icons",
+          "explanation": "System performance largely depends on how efficiently the operating system manages system resources such as CPU, memory, and I/O devices.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following techniques is commonly used by operating systems to improve CPU utilization?",
+          "correctAnswer": "Process scheduling algorithms",
+          "wrongAnswer1": "Changing the screen resolution",
+          "wrongAnswer2": "Altering the keyboard layout",
+          "wrongAnswer3": "Adding more folders on the desktop",
+          "explanation": "Operating systems use process scheduling algorithms to optimize CPU utilization by deciding the order in which processes access the CPU.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does virtual memory contribute to system performance?",
+          "correctAnswer": "By allowing more programs to run concurrently by using disk space as additional memory",
+          "wrongAnswer1": "By increasing the screen brightness automatically",
+          "wrongAnswer2": "By speeding up the network internet connection",
+          "wrongAnswer3": "By reducing the number of installed applications",
+          "explanation": "Virtual memory lets the OS use disk space to simulate additional RAM, enabling more applications to run simultaneously and improving overall system performance.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Access Control",
+      "questions": [
+        {
+          "question": "What is the primary purpose of access control in an operating system",
+          "correctAnswer": "To restrict unauthorized users from accessing system resources",
+          "wrongAnswer1": "To speed up system performance by managing CPU usage",
+          "wrongAnswer2": "To organize files in directories for easier access",
+          "wrongAnswer3": "To allow all users unrestricted access to files",
+          "explanation": "Access control mechanisms are designed to restrict unauthorized users from accessing system resources, thereby protecting data and ensuring security.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a common type of access control model",
+          "correctAnswer": "Task-based control",
+          "wrongAnswer1": "Discretionary access control",
+          "wrongAnswer2": "Mandatory access control",
+          "wrongAnswer3": "Role-based access control",
+          "explanation": "Common access control models include discretionary access control, mandatory access control, and role-based access control. Task-based control is not a standard model.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In role-based access control (RBAC), how are permissions assigned",
+          "correctAnswer": "Permissions are assigned to roles rather than directly to users",
+          "wrongAnswer1": "Permissions are granted only to individual users",
+          "wrongAnswer2": "Permissions are assigned randomly to users regardless of role",
+          "wrongAnswer3": "Permissions are permanently fixed and cannot be changed",
+          "explanation": "In RBAC, permissions are assigned to roles, and users are then assigned roles, simplifying management of access rights.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Encryption",
+      "questions": [
+        {
+          "question": "What is the primary purpose of encryption in an operating system?",
+          "correctAnswer": "To protect data by converting it into an unreadable format for unauthorized users",
+          "wrongAnswer1": "To increase the speed of data processing",
+          "wrongAnswer2": "To create backup copies of files",
+          "wrongAnswer3": "To organize files and folders efficiently",
+          "explanation": "Encryption securely converts data into a format that unauthorized users cannot read, protecting sensitive information.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes symmetric encryption used in operating systems?",
+          "correctAnswer": "The same key is used for both encrypting and decrypting data",
+          "wrongAnswer1": "Different keys are used for encrypting and decrypting data",
+          "wrongAnswer2": "Data is encrypted without using any keys",
+          "wrongAnswer3": "Encryption keys are shared publicly with all users",
+          "explanation": "Symmetric encryption uses a single key for both encryption and decryption, which must be kept secret between sender and receiver.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does encryption improve security when files are stored on an operating system?",
+          "correctAnswer": "It makes the stored data unreadable without the correct decryption key",
+          "wrongAnswer1": "It compresses the files to save storage space",
+          "wrongAnswer2": "It automatically deletes files after a certain time",
+          "wrongAnswer3": "It shares the files with authorized users without encryption",
+          "explanation": "Encryption helps secure stored data by making it unreadable unless accessed with the correct decryption key, thus protecting confidentiality.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Data Compression",
+      "questions": [
+        {
+          "question": "What is the primary purpose of data compression in operating systems?",
+          "correctAnswer": "To reduce the size of data for storage and transmission",
+          "wrongAnswer1": "To increase the security of data",
+          "wrongAnswer2": "To speed up data processing",
+          "wrongAnswer3": "To encrypt data for protection",
+          "explanation": "Data compression reduces the size of data to save storage space and make transmission more efficient, not necessarily to increase security or speed processing.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of data compression is typically reversible, allowing the original data to be perfectly reconstructed?",
+          "correctAnswer": "Lossless compression",
+          "wrongAnswer1": "Lossy compression",
+          "wrongAnswer2": "Entropy encoding",
+          "wrongAnswer3": "Huffman coding",
+          "explanation": "Lossless compression allows exact original data recovery, while lossy compression loses some information during compression.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a common algorithm used for data compression in operating systems?",
+          "correctAnswer": "Lempel-Ziv-Welch (LZW)",
+          "wrongAnswer1": "Advanced Encryption Standard (AES)",
+          "wrongAnswer2": "Secure Hash Algorithm (SHA)",
+          "wrongAnswer3": "Transport Layer Security (TLS)",
+          "explanation": "LZW is a compression algorithm widely used for data compression, whereas AES, SHA, and TLS relate to encryption, hashing, and security protocols, not compression.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Command Interpreter",
+      "questions": [
+        {
+          "question": "What is the primary role of a command interpreter in an operating system?",
+          "correctAnswer": "To translate user commands into actions for the operating system to execute",
+          "wrongAnswer1": "To manage hardware resources like memory and CPU",
+          "wrongAnswer2": "To provide a graphical user interface for applications",
+          "wrongAnswer3": "To store files and data on the disk",
+          "explanation": "The command interpreter acts as an interface between the user and the operating system, interpreting user commands and converting them into system actions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of a command interpreter?",
+          "correctAnswer": "Bash shell in Unix/Linux",
+          "wrongAnswer1": "Microsoft Word application",
+          "wrongAnswer2": "Windows File Explorer",
+          "wrongAnswer3": "Google Chrome browser",
+          "explanation": "Bash shell is a command interpreter that processes and executes commands typed by the user in Unix/Linux systems.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does a command interpreter handle complex tasks involving multiple commands?",
+          "correctAnswer": "By executing commands sequentially or through scripts that automate tasks",
+          "wrongAnswer1": "By using AI to predict the next user command",
+          "wrongAnswer2": "By running all commands in parallel automatically",
+          "wrongAnswer3": "By converting commands into hardware instructions directly",
+          "explanation": "Command interpreters can run commands one after another or execute scripts containing multiple commands to perform complex operations.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Crash Recovery",
+      "questions": [
+        {
+          "question": "What is the primary purpose of crash recovery in an operating system?",
+          "correctAnswer": "To restore the system to a stable state after a failure",
+          "wrongAnswer1": "To speed up the system performance",
+          "wrongAnswer2": "To prevent system overheating",
+          "wrongAnswer3": "To increase network bandwidth",
+          "explanation": "Crash recovery focuses on restoring the system to a stable state after a crash or failure, ensuring data integrity and system reliability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which technique is commonly used by operating systems for crash recovery?",
+          "correctAnswer": "Logging changes to a journal or log file",
+          "wrongAnswer1": "Disabling all background processes",
+          "wrongAnswer2": "Increasing RAM capacity",
+          "wrongAnswer3": "Installing antivirus software",
+          "explanation": "Logging changes to a journal or log file helps an operating system recover by replaying or undoing actions after a crash.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In crash recovery, what does the term 'checkpoint' usually refer to?",
+          "correctAnswer": "A saved state of the system from which recovery can start",
+          "wrongAnswer1": "The point when the system crashes",
+          "wrongAnswer2": "A tool for debugging software",
+          "wrongAnswer3": "The maximum uptime before rebooting",
+          "explanation": "A checkpoint is a saved stable state of the system that the recovery process can revert to in order to minimize loss after a crash.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "concept": "Logging",
+      "questions": [
+        {
+          "question": "What is the primary purpose of logging in an operating system?",
+          "correctAnswer": "To record system events and activities for monitoring and troubleshooting",
+          "wrongAnswer1": "To speed up system performance by caching data",
+          "wrongAnswer2": "To manage user permissions and access control",
+          "wrongAnswer3": "To allocate memory to running processes",
+          "explanation": "Logging in an operating system is mainly used to keep a record of system events and activities, which helps in monitoring system behavior and troubleshooting issues when they occur.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of information is typically NOT included in an operating system log file?",
+          "correctAnswer": "Actual content of user files",
+          "wrongAnswer1": "System error messages",
+          "wrongAnswer2": "User login attempts",
+          "wrongAnswer3": "Resource usage statistics",
+          "explanation": "Operating system log files usually contain metadata about system operations, errors, login attempts, and resource usage but do not include the actual content of user files for security and privacy reasons.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can logging improve security in an operating system?",
+          "correctAnswer": "By providing an audit trail for detecting unauthorized access or suspicious activities",
+          "wrongAnswer1": "By encrypting all data stored on the system",
+          "wrongAnswer2": "By automatically blocking IP addresses that generate errors",
+          "wrongAnswer3": "By increasing the speed of authentication processes",
+          "explanation": "Logging provides detailed records of actions and events, which serve as an audit trail to detect and investigate unauthorized access or suspicious behavior, thereby enhancing system security.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

@@ -55,8 +55,8 @@ export default function ChooseFloorPlan() {
   return (
     <div
       className={`
-        bg-gray-800 text-white shadow-md overflow-hidden duration-500 ease-out
-        ${isVisible ? "w-64 p-4 opacity-100" : "w-2 h-full p-2 opacity-0"}
+        bg-gray-800 text-white shadow-md overflow-hidden duration-300 ease-out
+        ${isVisible ? "w-96 p-4 opacity-100" : "w-2 h-full p-2 opacity-0"}
       `}
     >
       {isVisible && (
@@ -82,7 +82,7 @@ export default function ChooseFloorPlan() {
                   }
                   hoverEffect="hover:brightness-110"
                 />
-                <div className="text-sm font-semibold text-center flex-1">
+                <div className="text-sm font-semibold text-left pl-4 flex-1">
                   {fp.name}
                 </div>
               </div>

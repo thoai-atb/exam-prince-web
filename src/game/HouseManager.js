@@ -4,11 +4,12 @@ import Room from "./Room.js";
 import RoomOpenSession from "./RoomOpenSession.js";
 
 export default class HouseManager {
-  constructor(topic, rows = 9, cols = 5, start = [8, 2]) {
+  constructor(topic, rows = 9, cols = 5, start = [8, 2], end = [0, 2]) {
     this.rows = rows;
     this.cols = cols;
     this.currentPosition = start;
     this.entrancePosition = start;
+    this.submissionPosition = end;
     this.exited = false;
 
     // ✅ Use the passed topicData (no more hard import)
@@ -30,6 +31,7 @@ export default class HouseManager {
 
     // Open starting room immediately
     this.createEntrance();
+    this.createSubmission();
     this.updateEnterableRooms();
   }
 
@@ -70,13 +72,30 @@ export default class HouseManager {
       color: "#444444",
       doors: { north: true, south: true, west: true, east: true },
       question: null,
-      special: true,
+      special: "entrance",
     });
 
     const room = this.rooms[row][col];
     room.open(entranceFloorPlan);
 
     this.setCurrentLocation(row, col);
+  }
+
+  createSubmission() {
+    const [row, col] = this.submissionPosition; 
+
+    // ✅ Use the topic name dynamically
+    const submissionFloorPlan = new FloorPlan({
+      id: "FP-51",
+      name: "EXAM SUBMISSION",
+      color: "#AAAAAA",
+      doors: { north: false, south: true, west: true, east: true },
+      question: null,
+      special: "submission",
+    });
+
+    const room = this.rooms[row][col];
+    room.open(submissionFloorPlan);
   }
 
   openRoom(row, col) {

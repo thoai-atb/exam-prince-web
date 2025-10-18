@@ -7,7 +7,7 @@ export default function FloorPlan({
   borderClass = "",
   hoverEffect = "",
   debugClass = "",
-  fontSize = "0.55rem",
+  fontSize = "0.50rem",
   overrideBgColor = null,
   textClass = "",
   onClick = null,

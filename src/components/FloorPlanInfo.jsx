@@ -13,7 +13,7 @@ export default function FloorPlanInfo({ floorPlan }) {
         borderClass="border-4 border-white"
         widthClass="w-32"
         hoverEffect=""
-        fontSize="1.2rem"
+        fontSize="1rem"
       />
 
       <div className="flex flex-col justify-center gap-2 text-sm text-left w-64">
