@@ -29,7 +29,10 @@ export default class HouseManager {
     this.roomOpenSession = new RoomOpenSession();
 
     // Items collected on the way
-    this.items = {};
+    this.items = {
+      // ruler: 1,
+      // eraser: 1
+    };
 
     // Statistics
     this.roomsDiscovered = 0;
@@ -108,7 +111,7 @@ export default class HouseManager {
     room.open(submissionFloorPlan);
   }
 
-  // STEPS: [openRoom] -> selectFloorPlan -> setUserAnswer -> useFloorPlan
+  // MAIN STEPS: [openRoom] -> selectFloorPlan -> setUserAnswer -> useFloorPlan
   openRoom(row, col) {
     if (this.roomOpenSession.floorPlans.length > 0) {
       throw new Error(
@@ -125,10 +128,7 @@ export default class HouseManager {
     };
 
     const floorplans = this.generator.draftValidFloorPlans(
-      mustConnect,
-      row,
-      col,
-      3
+      mustConnect, row, col, 3
     );
     if (floorplans.length === 0) {
       throw new Error(
@@ -142,7 +142,38 @@ export default class HouseManager {
     this.notify();
   }
 
-  // STEPS: openRoom -> [selectFloorPlan] -> setUserAnswer -> useFloorPlan
+  // OPTIONAL BRANCH: openRoom -> [sketch more] -> selectFloorPlan
+  sketchMoreFloorPlan() {
+    if (!this.canSketchMore())
+      return;
+    const row = this.roomOpenSession.row;
+    const col = this.roomOpenSession.col;
+    const [cr, cc] = this.currentPosition;
+    let mustConnect = {
+      north: row === cr + 1 && col === cc,
+      south: row === cr - 1 && col === cc,
+      west: row === cr && col === cc + 1,
+      east: row === cr && col === cc - 1,
+    };
+    const newFloorPlans = this.generator.draftValidFloorPlans(
+      mustConnect, row, col, 1, this.roomOpenSession.floorPlans);
+    if (newFloorPlans.length === 0) {
+      throw new Error(
+        `No valid floorplans available for room at row ${row}, col ${col}`
+      );
+    }
+    this.items.ruler -= 1;
+    this.roomOpenSession.addFloorPlan(newFloorPlans[0]);
+    this.notify();
+  }
+
+  canSketchMore() {
+    return this.roomOpenSession.floorPlans.length &&
+      !this.roomOpenSession.selectedFloorPlan &&
+      this.items.ruler > 0;
+  }
+
+  // MAIN STEPS: openRoom -> [selectFloorPlan] -> setUserAnswer -> useFloorPlan
   selectFloorPlan(selectedFloorPlanName) {
     if (!this.roomOpenSession.floorPlans.length) {
       throw new Error("No floor plans in the session");
@@ -171,26 +202,29 @@ export default class HouseManager {
     this.notify();
   }
 
-  // STEPS: openRoom -> selectFloorPlan -> [setUserAnswer] -> useFloorPlan
+  // MAIN STEPS: openRoom -> selectFloorPlan -> [setUserAnswer] -> useFloorPlan
   setUserAnswer(index) {
     if (this.roomOpenSession.userAnswer !== null) return;
     this.roomOpenSession.setUserAnswer(index);
     this.notify();
   }
 
-  // IN BETWEEN STEP: openRoom -> selectFloorPlan -> setUserAnswer -> [eraseAnswer] -> setUserAnswer
+  // OPTIONAL BRANCH: openRoom -> selectFloorPlan -> setUserAnswer -> [eraseAnswer] -> setUserAnswer
   eraseAnswer() {
-    if (this.roomOpenSession.userAnswer === null) return;
-    if (!this.items.eraser) {
-      throw new Error("Don't have eraser to erase the answer");
-    }
-
+    if (!this.erasable())
+      return;
     this.items.eraser -= 1;
     this.roomOpenSession.clearUserAnswer();
     this.notify();
   }
 
-  // STEPS: openRoom -> selectFloorPlan -> setUserAnswer -> [useFloorPlan]
+  erasable() {
+    return this.roomOpenSession.userAnswer !== null &&
+      this.items.eraser > 0 &&
+      !this.roomOpenSession.isCorrect(this.roomOpenSession.userAnswer);
+  }
+
+  // MAIN STEPS: openRoom -> selectFloorPlan -> setUserAnswer -> [useFloorPlan]
   useFloorPlan() {
     if (!this.roomOpenSession?.selectedFloorPlan) return;
 

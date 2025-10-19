@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import KeyboardButton from "./KeyBoardButton";
 import { subscribeKeyboard } from "../input/controls";
+import ItemDictionary from "../game/ItemDictionary";
 
 export default function Question({
   question,
@@ -69,7 +70,7 @@ export default function Question({
   if (!question) return null;
 
   return (
-    <div className="mt-4 w-full max-w-md bg-gray-900 p-4 rounded-md space-y-3 transition-none">
+    <div className="mt-4 w-full bg-gray-900 p-4 rounded-md space-y-3 transition-none">
       <h3 className="text-md font-semibold">{question.concept}</h3>
       <p className="text-sm">{question.question}</p>
 
@@ -125,13 +126,13 @@ export default function Question({
             <KeyboardButton>E</KeyboardButton>
           </div>
 
-          {erasable && (
+          {!!erasable && (
             <>
               <div
                 className="bg-gray-800 px-8 py-2 hover:bg-gray-500 cursor-pointer text-white rounded-md transition-all"
                 onClick={handleErase}
               >
-                Erase Answer
+                Erase {ItemDictionary.get("eraser").icon}
               </div>
               <div className="text-gray-500">
                 <KeyboardButton>Q</KeyboardButton>

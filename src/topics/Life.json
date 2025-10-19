@@ -1,0 +1,1655 @@
+{
+  "topic": "Life",
+  "concepts": [
+    {
+      "topic": "Life",
+      "concept": "Birth",
+      "questions": [
+        {
+          "question": "What is the primary biological event that defines birth?",
+          "correctAnswer": "The process of a baby being delivered from the mother's womb",
+          "wrongAnswer1": "The first day a baby can walk independently",
+          "wrongAnswer2": "The moment a baby starts to talk",
+          "wrongAnswer3": "The time when a baby starts eating solid food",
+          "explanation": "Birth refers to the process of a baby being delivered from the mother's womb into the outside world, marking the beginning of life outside the mother.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which organ is primarily involved in the birth process for mammals?",
+          "correctAnswer": "The uterus",
+          "wrongAnswer1": "The heart",
+          "wrongAnswer2": "The brain",
+          "wrongAnswer3": "The lungs",
+          "explanation": "The uterus is the organ where the baby develops during pregnancy and from which it is delivered during birth in mammals.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the term for the stages leading up to and including delivery of a baby?",
+          "correctAnswer": "Labor",
+          "wrongAnswer1": "Gestation",
+          "wrongAnswer2": "Fertilization",
+          "wrongAnswer3": "Weaning",
+          "explanation": "Labor encompasses the stages of contractions and dilation that lead to and include the delivery of a baby.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Growth",
+      "questions": [
+        {
+          "question": "What is the primary characteristic of growth in living organisms?",
+          "correctAnswer": "An increase in size and number of cells",
+          "wrongAnswer1": "A decrease in metabolic activity",
+          "wrongAnswer2": "A reduction in genetic material",
+          "wrongAnswer3": "An immediate response to stimuli",
+          "explanation": "Growth in living organisms mainly involves an increase in both the size of cells and the number of cells.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which process is essential for the growth of multicellular organisms?",
+          "correctAnswer": "Cell division and differentiation",
+          "wrongAnswer1": "Photosynthesis only",
+          "wrongAnswer2": "Digestion of nutrients alone",
+          "wrongAnswer3": "Excretion of waste",
+          "explanation": "Multicellular organisms grow by dividing cells and allowing those cells to specialize, which is known as differentiation.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does environmental factors influence growth in organisms?",
+          "correctAnswer": "They can either enhance or inhibit growth depending on the conditions",
+          "wrongAnswer1": "They have no effect on growth",
+          "wrongAnswer2": "They always promote faster growth",
+          "wrongAnswer3": "They cause genetic changes directly",
+          "explanation": "Environmental factors such as nutrition, temperature, and light can affect the rate of growth either positively or negatively.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Development",
+      "questions": [
+        {
+          "question": "What term describes the process by which living organisms grow and change over time?",
+          "correctAnswer": "Development",
+          "wrongAnswer1": "Evolution",
+          "wrongAnswer2": "Metabolism",
+          "wrongAnswer3": "Reproduction",
+          "explanation": "Development refers to the process of growth and change that living organisms undergo throughout their lifecycle.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes development in living organisms?",
+          "correctAnswer": "The changes in size, shape, and function during an organism's life",
+          "wrongAnswer1": "The change in species over many generations",
+          "wrongAnswer2": "The energy-producing process of cells",
+          "wrongAnswer3": "The process of passing genes to offspring",
+          "explanation": "Development involves physical and functional changes that occur as an organism grows, distinct from evolutionary changes or reproduction.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does development differ from evolution?",
+          "correctAnswer": "Development is the growth and change within an individual organism, while evolution is a change in populations over generations",
+          "wrongAnswer1": "Development occurs only in plants, evolution only in animals",
+          "wrongAnswer2": "Development involves genetic mutations, evolution does not",
+          "wrongAnswer3": "Development is sudden, evolution is immediate",
+          "explanation": "Development refers to changes within an individual during its lifetime; evolution refers to genetic changes in populations over successive generations.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Survival",
+      "questions": [
+        {
+          "question": "What is the primary goal of survival in the natural world?",
+          "correctAnswer": "To maintain life and avoid death",
+          "wrongAnswer1": "To dominate other species",
+          "wrongAnswer2": "To accumulate resources indefinitely",
+          "wrongAnswer3": "To avoid all types of danger permanently",
+          "explanation": "Survival focuses on maintaining life and avoiding death, rather than domination or endless accumulation of resources.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key factor that influences an organism's survival?",
+          "correctAnswer": "Adaptation to the environment",
+          "wrongAnswer1": "Popularity among other species",
+          "wrongAnswer2": "Size of the organism alone",
+          "wrongAnswer3": "Speed of reproduction without environmental fit",
+          "explanation": "Adaptation to the environment allows organisms to survive by adjusting to changes and challenges in their surroundings.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is biodiversity important for the survival of ecosystems?",
+          "correctAnswer": "It increases resilience against environmental changes",
+          "wrongAnswer1": "It ensures all species compete equally",
+          "wrongAnswer2": "It allows ecosystems to stay static over time",
+          "wrongAnswer3": "It reduces the need for natural selection",
+          "explanation": "Biodiversity provides ecosystems with the ability to withstand and recover from changes, promoting overall survival.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Aging",
+      "questions": [
+        {
+          "question": "What is the primary characteristic of the aging process in living organisms?",
+          "correctAnswer": "Gradual decline in physiological function over time",
+          "wrongAnswer1": "Sudden increase in growth rate",
+          "wrongAnswer2": "Immediate recovery from injuries",
+          "wrongAnswer3": "Constant reproduction rate",
+          "explanation": "Aging is characterized by a gradual decline in physiological functions, leading to increased vulnerability and reduced ability to respond to stress.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which cellular component is most associated with the aging process due to its role in limiting cell division?",
+          "correctAnswer": "Telomeres",
+          "wrongAnswer1": "Mitochondria",
+          "wrongAnswer2": "Ribosomes",
+          "wrongAnswer3": "Lysosomes",
+          "explanation": "Telomeres shorten with each cell division, eventually leading to cell senescence and contributing to the aging process.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is one commonly studied factor that contributes to aging according to scientific research?",
+          "correctAnswer": "Accumulation of cellular damage from free radicals",
+          "wrongAnswer1": "Increased production of new DNA",
+          "wrongAnswer2": "Enhanced cellular repair mechanisms",
+          "wrongAnswer3": "Permanent growth in tissue size",
+          "explanation": "Free radicals cause oxidative damage to cells over time, which is considered a significant contributor to aging.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Reproduction",
+      "questions": [
+        {
+          "question": "What is the primary purpose of reproduction in living organisms?",
+          "correctAnswer": "To produce offspring and ensure species survival",
+          "wrongAnswer1": "To obtain food and nutrients",
+          "wrongAnswer2": "To move from one place to another",
+          "wrongAnswer3": "To breathe and exchange gases",
+          "explanation": "Reproduction is the biological process by which new individual organisms are produced, ensuring the survival of a species.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of reproduction involves a single parent producing offspring without the involvement of gametes?",
+          "correctAnswer": "Asexual reproduction",
+          "wrongAnswer1": "Sexual reproduction",
+          "wrongAnswer2": "Fertilization",
+          "wrongAnswer3": "Pollination",
+          "explanation": "Asexual reproduction involves only one parent and does not require the fusion of gametes, producing genetically identical offspring.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In sexual reproduction, what are the specialized cells called that combine to form a new organism?",
+          "correctAnswer": "Gametes",
+          "wrongAnswer1": "Zygotes",
+          "wrongAnswer2": "Embryos",
+          "wrongAnswer3": "Chromosomes",
+          "explanation": "Gametes are specialized reproductive cells, such as sperm and eggs, that fuse during fertilization to form a zygote, which develops into a new organism.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Metabolism",
+      "questions": [
+        {
+          "question": "What is metabolism in living organisms?",
+          "correctAnswer": "It is the set of chemical reactions that sustain life by converting energy and matter.",
+          "wrongAnswer1": "It is the process of cell division to produce new cells.",
+          "wrongAnswer2": "It is the mechanism by which organisms respond to environmental changes.",
+          "wrongAnswer3": "It is the way organisms move from one place to another.",
+          "explanation": "Metabolism refers to all chemical reactions within a living organism that are necessary for maintaining life, including energy transformation and material synthesis and breakdown.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes the types of metabolism?",
+          "correctAnswer": "Anabolism builds molecules and stores energy while catabolism breaks down molecules and releases energy.",
+          "wrongAnswer1": "Anabolism breaks down molecules and releases energy while catabolism builds molecules and stores energy.",
+          "wrongAnswer2": "Both anabolism and catabolism are processes that decrease energy in the cell.",
+          "wrongAnswer3": "Metabolism only involves breaking down molecules for energy.",
+          "explanation": "Metabolism consists mainly of two complementary processes: anabolism, which constructs complex molecules from simpler ones and stores energy, and catabolism, which breaks down complex molecules to release energy.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is metabolism important for living organisms?",
+          "correctAnswer": "Because it provides energy and molecules necessary for growth, repair, and maintaining cellular functions.",
+          "wrongAnswer1": "Because it controls the movement of organisms in their environment.",
+          "wrongAnswer2": "Because it enables organisms to reproduce without genetic material.",
+          "wrongAnswer3": "Because it helps organisms survive by blocking all chemical reactions.",
+          "explanation": "Metabolism is essential as it supplies energy and building blocks for cellular processes such as growth, repair, and maintenance of life.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Evolution",
+      "questions": [
+        {
+          "question": "What is the main mechanism that drives evolution?",
+          "correctAnswer": "Natural selection",
+          "wrongAnswer1": "Artificial selection",
+          "wrongAnswer2": "Genetic engineering",
+          "wrongAnswer3": "Mutation alone",
+          "explanation": "Natural selection is the primary process by which evolution occurs, favoring individuals with traits that enhance survival and reproduction.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes evolution?",
+          "correctAnswer": "Change in the genetic makeup of a population over time",
+          "wrongAnswer1": "Individual organisms adapt to their environment during their lifetime",
+          "wrongAnswer2": "Organisms become more complex over time",
+          "wrongAnswer3": "Species remain unchanged throughout history",
+          "explanation": "Evolution refers to changes in the genetic composition of populations across generations, not changes within an organism's lifetime.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What role do mutations play in evolution?",
+          "correctAnswer": "They provide new genetic variations on which selection can act",
+          "wrongAnswer1": "They always result in harmful effects",
+          "wrongAnswer2": "They are purposely directed changes to improve species",
+          "wrongAnswer3": "They are the only factor responsible for evolution",
+          "explanation": "Mutations introduce new genetic variations that can be beneficial, neutral, or harmful, forming the raw material for evolutionary processes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Adaptation",
+      "questions": [
+        {
+          "question": "What is the main purpose of adaptation in living organisms?",
+          "correctAnswer": "To improve their chances of survival and reproduction",
+          "wrongAnswer1": "To make them more colorful",
+          "wrongAnswer2": "To increase their size",
+          "wrongAnswer3": "To make them faster",
+          "explanation": "Adaptation helps organisms survive in their environments and reproduce successfully by developing traits suited to their surroundings.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of adaptation?",
+          "correctAnswer": "Camouflage in animals to blend with their environment",
+          "wrongAnswer1": "Eating food quickly",
+          "wrongAnswer2": "Sleeping at night",
+          "wrongAnswer3": "Growing taller every year",
+          "explanation": "Camouflage is an adaptation that allows animals to avoid predators by blending in with their surroundings.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do adaptations arise in populations over time?",
+          "correctAnswer": "Through natural selection favoring beneficial traits",
+          "wrongAnswer1": "By individual animals deciding to change their traits",
+          "wrongAnswer2": "By sudden changes in the environment",
+          "wrongAnswer3": "Because of random luck without any advantage",
+          "explanation": "Adaptations develop over generations as natural selection favors traits that enhance survival and reproduction in a given environment.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Homeostasis",
+      "questions": [
+        {
+          "question": "What is the primary purpose of homeostasis in living organisms?",
+          "correctAnswer": "To maintain a stable internal environment despite external changes",
+          "wrongAnswer1": "To increase energy production during exercise",
+          "wrongAnswer2": "To promote rapid growth and development",
+          "wrongAnswer3": "To eliminate all waste products immediately",
+          "explanation": "Homeostasis is the process by which living organisms regulate their internal environment to maintain stable conditions necessary for survival despite changes outside.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of homeostasis in the human body?",
+          "correctAnswer": "Regulating body temperature through sweating or shivering",
+          "wrongAnswer1": "Digesting food to absorb nutrients",
+          "wrongAnswer2": "Growing hair and nails continuously",
+          "wrongAnswer3": "Breathing faster when exercising",
+          "explanation": "Homeostasis involves maintaining stable internal conditions such as body temperature. Sweating cools the body and shivering warms it, helping to regulate temperature.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which body system plays a crucial role in homeostasis by sending signals to regulate bodily functions?",
+          "correctAnswer": "The nervous system",
+          "wrongAnswer1": "The skeletal system",
+          "wrongAnswer2": "The digestive system",
+          "wrongAnswer3": "The reproductive system",
+          "explanation": "The nervous system sends electrical signals to organs and tissues to help regulate internal conditions and maintain homeostasis.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Consciousness",
+      "questions": [
+        {
+          "question": "What is consciousness generally defined as?",
+          "correctAnswer": "The state of being aware of and able to think about oneself and the environment",
+          "wrongAnswer1": "The ability to sleep and dream",
+          "wrongAnswer2": "A specific brain region responsible for emotions",
+          "wrongAnswer3": "The process of digestion in living beings",
+          "explanation": "Consciousness is commonly defined as the state of being aware of oneself and the surrounding environment, involving perception, thought, and awareness.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best explains the 'hard problem of consciousness'?",
+          "correctAnswer": "Understanding how and why we have subjective experiences",
+          "wrongAnswer1": "Identifying the brain's motor functions",
+          "wrongAnswer2": "Explaining reflex actions without thinking",
+          "wrongAnswer3": "Determining the chemical composition of neurons",
+          "explanation": "The 'hard problem of consciousness' refers to the challenge of explaining why and how subjective experiences arise from physical processes in the brain.",
+          "difficulty": "Advanced"
+        },
+        {
+          "question": "Which part of the brain is most associated with consciousness?",
+          "correctAnswer": "The cerebral cortex",
+          "wrongAnswer1": "The cerebellum",
+          "wrongAnswer2": "The brainstem",
+          "wrongAnswer3": "The spinal cord",
+          "explanation": "The cerebral cortex is heavily involved in higher brain functions including conscious thought, perception, and voluntary actions, making it key to consciousness.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Emotion",
+      "questions": [
+        {
+          "question": "What is the primary purpose of emotions in human life?",
+          "correctAnswer": "To help individuals respond to their environment and communicate with others",
+          "wrongAnswer1": "To provide detailed logical reasoning for decisions",
+          "wrongAnswer2": "To store large amounts of factual information",
+          "wrongAnswer3": "To regulate bodily functions like breathing and heart rate",
+          "explanation": "Emotions primarily help humans react to their surroundings and express feelings, supporting survival and social connections.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is generally considered a basic emotion?",
+          "correctAnswer": "Fear",
+          "wrongAnswer1": "Jealousy",
+          "wrongAnswer2": "Guilt",
+          "wrongAnswer3": "Pride",
+          "explanation": "Basic emotions like fear are universal and biologically based, whereas emotions like guilt and pride are more complex and socially influenced.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do emotions influence decision making?",
+          "correctAnswer": "They can bias choices by affecting attention and memory",
+          "wrongAnswer1": "They always lead to the most logical outcome",
+          "wrongAnswer2": "They prevent any kind of rational thought",
+          "wrongAnswer3": "They have no effect on decisions at all",
+          "explanation": "Emotions impact decision making by shaping what we focus on and remember, often biasing choices but not necessarily preventing logic.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Learning",
+      "questions": [
+        {
+          "question": "What is the primary purpose of learning in life?",
+          "correctAnswer": "To acquire knowledge and skills for personal growth",
+          "wrongAnswer1": "To memorize information without understanding",
+          "wrongAnswer2": "To avoid new experiences and challenges",
+          "wrongAnswer3": "To prove superiority over others",
+          "explanation": "Learning is essential for acquiring knowledge and skills that contribute to personal development and adapting to new situations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method is most effective for deep learning?",
+          "correctAnswer": "Engaging actively with the material and practicing regularly",
+          "wrongAnswer1": "Relying solely on memorization",
+          "wrongAnswer2": "Ignoring feedback and corrections",
+          "wrongAnswer3": "Studying only the night before an exam",
+          "explanation": "Active engagement and consistent practice help reinforce understanding and retention of knowledge, leading to deeper learning.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does learning throughout life contribute to success?",
+          "correctAnswer": "It helps individuals adapt to changes and continuously improve themselves",
+          "wrongAnswer1": "It guarantees immediate wealth and fame",
+          "wrongAnswer2": "It eliminates the need for problem-solving skills",
+          "wrongAnswer3": "It allows avoiding responsibilities",
+          "explanation": "Lifelong learning fosters adaptability and self-improvement, which are critical for personal and professional success.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Memory",
+      "questions": [
+        {
+          "question": "What is the primary function of memory in living organisms?",
+          "correctAnswer": "To store and retrieve information for learning and survival",
+          "wrongAnswer1": "To digest food for energy production",
+          "wrongAnswer2": "To regulate body temperature",
+          "wrongAnswer3": "To pump blood throughout the body",
+          "explanation": "Memory allows organisms to retain information from past experiences, which is crucial for learning and adapting to their environment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which part of the brain is most associated with the formation of new memories?",
+          "correctAnswer": "The hippocampus",
+          "wrongAnswer1": "The cerebellum",
+          "wrongAnswer2": "The medulla oblongata",
+          "wrongAnswer3": "The pituitary gland",
+          "explanation": "The hippocampus plays a vital role in converting short-term memories into long-term memories.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What type of memory involves recalling skills and actions, such as riding a bike?",
+          "correctAnswer": "Procedural memory",
+          "wrongAnswer1": "Episodic memory",
+          "wrongAnswer2": "Semantic memory",
+          "wrongAnswer3": "Sensory memory",
+          "explanation": "Procedural memory is the type of long-term memory responsible for knowing how to perform different actions and skills.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Sleep",
+      "questions": [
+        {
+          "question": "What is the primary function of sleep for the human body?",
+          "correctAnswer": "To restore energy and repair the body",
+          "wrongAnswer1": "To increase hunger and thirst",
+          "wrongAnswer2": "To promote constant physical activity",
+          "wrongAnswer3": "To cause permanent unconsciousness",
+          "explanation": "Sleep helps the body restore energy, repair tissues, and support brain function, which is crucial for overall health.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which stage of sleep is most associated with vivid dreams?",
+          "correctAnswer": "Rapid eye movement (REM) sleep",
+          "wrongAnswer1": "Light sleep",
+          "wrongAnswer2": "Deep non-REM sleep",
+          "wrongAnswer3": "Awake state",
+          "explanation": "REM sleep is the stage where most vivid dreaming occurs, characterized by rapid eye movement and increased brain activity.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does lack of sleep affect cognitive function?",
+          "correctAnswer": "It impairs focus, memory, and decision-making",
+          "wrongAnswer1": "It enhances creativity and memory",
+          "wrongAnswer2": "It has no effect on brain function",
+          "wrongAnswer3": "It improves problem solving and reasoning skills",
+          "explanation": "Sleep deprivation negatively impacts the brain's ability to concentrate, remember information, and make decisions effectively.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Death",
+      "questions": [
+        {
+          "question": "What is defined as the permanent cessation of all biological functions that sustain a living organism?",
+          "correctAnswer": "Death",
+          "wrongAnswer1": "Birth",
+          "wrongAnswer2": "Dormancy",
+          "wrongAnswer3": "Healing",
+          "explanation": "Death refers to the permanent end of all vital functions in an organism, distinguishing it from states like dormancy or healing.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which process marks the end of an organism's life cycle?",
+          "correctAnswer": "Death",
+          "wrongAnswer1": "Growth",
+          "wrongAnswer2": "Reproduction",
+          "wrongAnswer3": "Metabolism",
+          "explanation": "Death marks the end of an organism's life cycle, whereas processes like growth and reproduction occur during life.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a universal experience that all living things eventually undergo?",
+          "correctAnswer": "Death",
+          "wrongAnswer1": "Immortality",
+          "wrongAnswer2": "Photosynthesis",
+          "wrongAnswer3": "Hibernation",
+          "explanation": "Death is a universal experience for all living organisms, unlike specific processes like photosynthesis which are limited to certain life forms.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Genetics",
+      "questions": [
+        {
+          "question": "What are the basic units of heredity in genetics?",
+          "correctAnswer": "Genes",
+          "wrongAnswer1": "Cells",
+          "wrongAnswer2": "Proteins",
+          "wrongAnswer3": "Enzymes",
+          "explanation": "Genes are the basic units of heredity that carry genetic information from parents to offspring.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which molecule carries the genetic instructions used in growth and functioning?",
+          "correctAnswer": "DNA",
+          "wrongAnswer1": "RNA",
+          "wrongAnswer2": "Protein",
+          "wrongAnswer3": "Lipid",
+          "explanation": "DNA carries the genetic instructions used for development and functioning of all living organisms.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What process results in the formation of two identical daughter cells from a single cell?",
+          "correctAnswer": "Mitosis",
+          "wrongAnswer1": "Meiosis",
+          "wrongAnswer2": "Fertilization",
+          "wrongAnswer3": "Photosynthesis",
+          "explanation": "Mitosis is the process of cell division that results in two identical daughter cells and is essential for growth and repair.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Ecology",
+      "questions": [
+        {
+          "question": "What does the study of ecology mainly focus on?",
+          "correctAnswer": "The relationships between living organisms and their environment",
+          "wrongAnswer1": "The chemical composition of organisms",
+          "wrongAnswer2": "The history of ancient civilizations",
+          "wrongAnswer3": "The structure of cells",
+          "explanation": "Ecology is the branch of biology that studies interactions among organisms and their environment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of an ecosystem?",
+          "correctAnswer": "A forest with trees, animals, soil, and climate interacting",
+          "wrongAnswer1": "A single species of birds",
+          "wrongAnswer2": "A laboratory culture of bacteria",
+          "wrongAnswer3": "An individual tree",
+          "explanation": "An ecosystem includes all living organisms and their physical environment interacting in a specific area.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What role do producers play in an ecosystem?",
+          "correctAnswer": "They produce energy through photosynthesis for other organisms",
+          "wrongAnswer1": "They consume animals for energy",
+          "wrongAnswer2": "They decompose dead materials",
+          "wrongAnswer3": "They break down nutrients in the soil",
+          "explanation": "Producers, like plants, convert sunlight into energy through photosynthesis, supporting the food chain.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Symbiosis",
+      "questions": [
+        {
+          "question": "What is symbiosis in biological terms?",
+          "correctAnswer": "A close and long-term interaction between two different species",
+          "wrongAnswer1": "A competition between species for resources",
+          "wrongAnswer2": "The process of one species eating another",
+          "wrongAnswer3": "The reproduction of species in isolation",
+          "explanation": "Symbiosis refers to a close and long-term biological interaction between two different species which can be mutualistic, commensalistic, or parasitic.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of mutualism in symbiosis?",
+          "correctAnswer": "Bees pollinating flowers while collecting nectar",
+          "wrongAnswer1": "Barnacles attaching to whales without affecting them",
+          "wrongAnswer2": "Tapeworms living inside intestines harming the host",
+          "wrongAnswer3": "Lions hunting zebras for food",
+          "explanation": "Mutualism is a type of symbiosis where both species benefit, such as bees pollinating flowers and collecting nectar.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does parasitism differ from other types of symbiosis?",
+          "correctAnswer": "One organism benefits while the other is harmed",
+          "wrongAnswer1": "Both organisms benefit equally",
+          "wrongAnswer2": "Neither organism is affected",
+          "wrongAnswer3": "Both organisms are harmed",
+          "explanation": "Parasitism is a type of symbiotic relationship where one organism benefits at the expense of the other, which is harmed.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Nutrition",
+      "questions": [
+        {
+          "question": "What is the primary purpose of nutrition in living organisms?",
+          "correctAnswer": "To provide energy and essential nutrients for growth and maintenance",
+          "wrongAnswer1": "To make organisms grow taller only",
+          "wrongAnswer2": "To help organisms sleep better",
+          "wrongAnswer3": "To improve the color of organisms",
+          "explanation": "Nutrition provides energy and essential nutrients necessary for growth, repair, and maintaining bodily functions in living organisms.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which nutrient is most important for building and repairing tissues?",
+          "correctAnswer": "Proteins",
+          "wrongAnswer1": "Carbohydrates",
+          "wrongAnswer2": "Fats",
+          "wrongAnswer3": "Vitamins",
+          "explanation": "Proteins are essential for the repair and building of body tissues, as they supply amino acids needed for growth and repair.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why are vitamins essential in a balanced diet?",
+          "correctAnswer": "They help regulate body processes and prevent deficiencies",
+          "wrongAnswer1": "They are the main source of energy",
+          "wrongAnswer2": "They provide structural support to cells",
+          "wrongAnswer3": "They are stored as fat in the body",
+          "explanation": "Vitamins assist in regulating body functions and preventing diseases caused by deficiencies, although they do not provide energy directly.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Disease",
+      "questions": [
+        {
+          "question": "What is a common cause of infectious diseases?",
+          "correctAnswer": "Bacteria and viruses",
+          "wrongAnswer1": "Physical injuries",
+          "wrongAnswer2": "Vitamin deficiency",
+          "wrongAnswer3": "Lack of exercise",
+          "explanation": "Infectious diseases are commonly caused by bacteria, viruses, fungi, or parasites that invade the body.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following diseases is considered non-communicable?",
+          "correctAnswer": "Diabetes",
+          "wrongAnswer1": "Influenza",
+          "wrongAnswer2": "Tuberculosis",
+          "wrongAnswer3": "Chickenpox",
+          "explanation": "Diabetes is a non-communicable disease, meaning it is not transmitted from person to person, unlike infectious diseases such as influenza, tuberculosis, or chickenpox.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do vaccines help in preventing diseases?",
+          "correctAnswer": "They stimulate the immune system to recognize and fight pathogens",
+          "wrongAnswer1": "They directly kill all disease-causing germs",
+          "wrongAnswer2": "They increase blood circulation to affected areas",
+          "wrongAnswer3": "They replace damaged cells in the body",
+          "explanation": "Vaccines work by preparing the immune system to recognize and combat specific pathogens, thereby preventing diseases.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Fitness",
+      "questions": [
+        {
+          "question": "What is a key benefit of maintaining physical fitness?",
+          "correctAnswer": "Improved cardiovascular health",
+          "wrongAnswer1": "Increased risk of illness",
+          "wrongAnswer2": "Decreased energy levels",
+          "wrongAnswer3": "Poor muscle strength",
+          "explanation": "Maintaining physical fitness helps improve cardiovascular health by strengthening the heart and improving circulation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which component is essential for a balanced fitness routine?",
+          "correctAnswer": "Combination of strength, endurance, and flexibility exercises",
+          "wrongAnswer1": "Only strength training",
+          "wrongAnswer2": "Exclusive focus on aerobic exercises",
+          "wrongAnswer3": "Avoiding physical activity altogether",
+          "explanation": "A balanced fitness routine includes strength, endurance, and flexibility exercises to promote overall health and prevent injury.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does regular fitness activity impact mental health?",
+          "correctAnswer": "Reduces stress and improves mood",
+          "wrongAnswer1": "Causes increased anxiety",
+          "wrongAnswer2": "Leads to depression",
+          "wrongAnswer3": "Has no effect on mental health",
+          "explanation": "Exercise releases endorphins which help reduce stress and elevate mood, positively impacting mental health.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Behavior",
+      "questions": [
+        {
+          "question": "What does the term behavior refer to in living organisms?",
+          "correctAnswer": "The actions or reactions of an organism in response to external or internal stimuli",
+          "wrongAnswer1": "The genetic code of an organism",
+          "wrongAnswer2": "The physical structure of a plant or animal",
+          "wrongAnswer3": "The environment where an organism lives",
+          "explanation": "Behavior encompasses all actions or responses by an organism to stimuli from their surroundings or internal conditions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of learned behavior?",
+          "correctAnswer": "A dog learning to sit on command",
+          "wrongAnswer1": "A bird building a nest instinctively",
+          "wrongAnswer2": "A plant growing toward light",
+          "wrongAnswer3": "A reflex action like pulling a hand away from fire",
+          "explanation": "Learned behaviors are acquired through experience, such as a dog learning commands, while instinctive behaviors are inherited and automatic.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does behavior benefit living organisms?",
+          "correctAnswer": "It helps organisms adapt and survive in their environment",
+          "wrongAnswer1": "It determines the color of organisms",
+          "wrongAnswer2": "It controls the genetic traits passed to offspring",
+          "wrongAnswer3": "It decides the lifespan of the organism",
+          "explanation": "Behavior allows an organism to respond to changes in its environment, increasing chances of survival and reproduction.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Communication",
+      "questions": [
+        {
+          "question": "What is the primary purpose of communication in daily life?",
+          "correctAnswer": "To exchange information and ideas between people",
+          "wrongAnswer1": "To increase physical strength",
+          "wrongAnswer2": "To improve cooking skills",
+          "wrongAnswer3": "To build houses",
+          "explanation": "Communication allows people to share information, express thoughts, and understand each other, which is essential for daily interactions and relationships.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of non-verbal communication?",
+          "correctAnswer": "Body language and facial expressions",
+          "wrongAnswer1": "Talking on the phone",
+          "wrongAnswer2": "Writing an email",
+          "wrongAnswer3": "Listening to a podcast",
+          "explanation": "Non-verbal communication includes gestures, body posture, facial expressions, and eye contact, which convey messages without words.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is effective communication important in teamwork?",
+          "correctAnswer": "It helps team members understand each other's ideas and work together efficiently",
+          "wrongAnswer1": "It allows members to work separately without interaction",
+          "wrongAnswer2": "It reduces the need for meetings",
+          "wrongAnswer3": "It increases competition among members",
+          "explanation": "Effective communication ensures clear understanding, reduces misunderstandings, and helps coordinate efforts in a team to achieve common goals.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Culture",
+      "questions": [
+        {
+          "question": "What is culture primarily comprised of?",
+          "correctAnswer": "The beliefs, customs, arts, and social behaviors of a particular group",
+          "wrongAnswer1": "The physical traits of a group of people",
+          "wrongAnswer2": "The economic status of a community",
+          "wrongAnswer3": "The political system of a country",
+          "explanation": "Culture includes the shared beliefs, customs, arts, and social behaviors that characterize a group of people.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How is culture typically transmitted from one generation to another?",
+          "correctAnswer": "Through language, rituals, and social learning",
+          "wrongAnswer1": "Genetic inheritance",
+          "wrongAnswer2": "Economic trade",
+          "wrongAnswer3": "Natural selection",
+          "explanation": "Culture is passed down mainly through language, rituals, and social learning rather than genetic or economic means.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following best explains cultural diversity?",
+          "correctAnswer": "Differences in cultural practices arise because of variation in environmental, historical, and social factors",
+          "wrongAnswer1": "All cultures are identical and there is no real diversity",
+          "wrongAnswer2": "Cultural diversity is due to genetic differences only",
+          "wrongAnswer3": "Cultural diversity comes from the random mixing of populations with no historical reasons",
+          "explanation": "Cultural diversity results from a mix of environmental, historical, and social influences that shape how groups develop unique cultural traits.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Society",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a society?",
+          "correctAnswer": "To organize individuals for mutual support and cooperation",
+          "wrongAnswer1": "To promote individual isolation and competition",
+          "wrongAnswer2": "To eliminate all forms of government and rules",
+          "wrongAnswer3": "To focus solely on technological advancements",
+          "explanation": "A society is primarily meant to organize people to live together, supporting each other and cooperating to improve life for all members.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these is a key characteristic of any society?",
+          "correctAnswer": "Shared norms and values among its members",
+          "wrongAnswer1": "Complete independence of individuals without interaction",
+          "wrongAnswer2": "Random grouping of people without common goals",
+          "wrongAnswer3": "Existence of a single ruler controlling all aspects",
+          "explanation": "Societies are defined by shared norms and values which guide behavior and promote social cohesion.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does society influence individual behavior?",
+          "correctAnswer": "By setting rules and expectations that individuals generally follow",
+          "wrongAnswer1": "By forcing individuals to act without any freedom",
+          "wrongAnswer2": "By encouraging complete disregard for social norms",
+          "wrongAnswer3": "By isolating individuals to prevent interaction",
+          "explanation": "Society influences individuals by establishing norms and rules that shape acceptable behavior, helping maintain order and harmony.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Technology",
+      "questions": [
+        {
+          "question": "What is technology primarily used for in everyday life",
+          "correctAnswer": "To solve problems and improve efficiency",
+          "wrongAnswer1": "To complicate simple tasks unnecessarily",
+          "wrongAnswer2": "To replace all human interaction",
+          "wrongAnswer3": "To reduce the use of any tools",
+          "explanation": "Technology is mainly developed to make tasks easier, solve problems, and enhance productivity in everyday life.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following fields has been most transformed by technology",
+          "correctAnswer": "Communication",
+          "wrongAnswer1": "Ancient agriculture",
+          "wrongAnswer2": "Traditional painting only",
+          "wrongAnswer3": "All religious rituals remain unchanged",
+          "explanation": "Communication has been revolutionized by technology through inventions like the internet, smartphones, and social media, vastly changing how people connect.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How has technology impacted education in recent years",
+          "correctAnswer": "It has enabled online learning and access to vast resources",
+          "wrongAnswer1": "It has eliminated the need for teachers entirely",
+          "wrongAnswer2": "It has made books obsolete in every case",
+          "wrongAnswer3": "It has stopped all traditional learning methods",
+          "explanation": "Technology has expanded educational methods by providing online courses and accessible digital materials, complementing traditional teaching rather than replacing it all.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Philosophy",
+      "questions": [
+        {
+          "question": "What is the main question addressed by philosophy regarding life?",
+          "correctAnswer": "What is the meaning or purpose of life?",
+          "wrongAnswer1": "How to increase life expectancy?",
+          "wrongAnswer2": "What is the biological process of life?",
+          "wrongAnswer3": "How to improve physical health?",
+          "explanation": "Philosophy often explores fundamental questions such as the meaning or purpose of life, unlike biology or medicine which focus on life processes and health.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which branch of philosophy specifically studies the nature of existence and life?",
+          "correctAnswer": "Metaphysics",
+          "wrongAnswer1": "Epistemology",
+          "wrongAnswer2": "Ethics",
+          "wrongAnswer3": "Logic",
+          "explanation": "Metaphysics is the branch of philosophy that studies existence, reality, and the nature of life beyond the physical aspects.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "According to existentialist philosophy, what gives life its meaning?",
+          "correctAnswer": "Individual choice and personal responsibility",
+          "wrongAnswer1": "Predetermined destiny",
+          "wrongAnswer2": "Biological survival",
+          "wrongAnswer3": "Social conventions",
+          "explanation": "Existentialism emphasizes that individuals create their own meaning in life through their choices and actions rather than external factors or predetermined fate.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Spirituality",
+      "questions": [
+        {
+          "question": "What is spirituality primarily concerned with?",
+          "correctAnswer": "The connection to something greater than oneself",
+          "wrongAnswer1": "Material wealth and possessions",
+          "wrongAnswer2": "Scientific experimentation",
+          "wrongAnswer3": "Political influence",
+          "explanation": "Spirituality is about connecting to something greater than oneself, such as the universe, nature, or a higher power, rather than material or scientific pursuits.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which practice is commonly associated with spiritual growth?",
+          "correctAnswer": "Meditation and mindfulness",
+          "wrongAnswer1": "Competitive sports",
+          "wrongAnswer2": "Watching television",
+          "wrongAnswer3": "Collecting stamps",
+          "explanation": "Meditation and mindfulness are practices that help individuals develop spiritual awareness and a deeper sense of inner peace.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Spirituality often emphasizes which of the following qualities?",
+          "correctAnswer": "Compassion and empathy",
+          "wrongAnswer1": "Aggression and competitiveness",
+          "wrongAnswer2": "Indifference and apathy",
+          "wrongAnswer3": "Isolation and solitude",
+          "explanation": "Spirituality encourages qualities like compassion and empathy as part of connecting with others and the world in a meaningful way.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Purpose",
+      "questions": [
+        {
+          "question": "What is often considered the main aspect when defining the purpose of life?",
+          "correctAnswer": "Finding meaning and fulfillment through personal growth and relationships",
+          "wrongAnswer1": "Accruing wealth and material possessions",
+          "wrongAnswer2": "Avoiding any form of change or challenge",
+          "wrongAnswer3": "Living without any goals or direction",
+          "explanation": "The purpose of life is commonly linked to finding meaning and fulfillment, often through personal growth, relationships, and contributing to something greater than oneself, rather than purely material gains or passive existence.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which philosophical approach emphasizes that individuals create their own purpose in life?",
+          "correctAnswer": "Existentialism",
+          "wrongAnswer1": "Determinism",
+          "wrongAnswer2": "Nihilism",
+          "wrongAnswer3": "Stoicism",
+          "explanation": "Existentialism argues that life has no inherent purpose and that individuals must define their own meaning through their choices and actions.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In many cultural traditions, what is a common purpose attributed to life?",
+          "correctAnswer": "To live in harmony with community and nature",
+          "wrongAnswer1": "To dominate others and achieve power",
+          "wrongAnswer2": "To isolate oneself from society",
+          "wrongAnswer3": "To focus solely on individual success",
+          "explanation": "Many cultures emphasize living in harmony with the community and nature as a core purpose, highlighting balance and interconnectedness rather than control or isolation.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Identity",
+      "questions": [
+        {
+          "question": "What does identity primarily refer to in the context of life?",
+          "correctAnswer": "The characteristics and qualities that make a person unique",
+          "wrongAnswer1": "The geographical location where a person lives",
+          "wrongAnswer2": "The jobs and wealth a person has",
+          "wrongAnswer3": "The clothes a person wears daily",
+          "explanation": "Identity in life refers to the unique characteristics and qualities that define an individual, distinguishing them from others.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following influences a person's identity the most?",
+          "correctAnswer": "Personal experiences and cultural background",
+          "wrongAnswer1": "The type of phone a person uses",
+          "wrongAnswer2": "The color of a person's house",
+          "wrongAnswer3": "The brand of clothes a person prefers",
+          "explanation": "A person's identity is largely shaped by their personal experiences and the cultural background they come from, which influence values and behaviors.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is understanding one's identity important in life?",
+          "correctAnswer": "It helps people understand their values and make decisions accordingly",
+          "wrongAnswer1": "It ensures a person will be rich",
+          "wrongAnswer2": "It determines a person’s popularity",
+          "wrongAnswer3": "It helps a person choose a favorite color",
+          "explanation": "Understanding identity helps individuals recognize their values and beliefs, guiding their decisions and actions in life.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Freedom",
+      "questions": [
+        {
+          "question": "What is the primary meaning of freedom in the context of life?",
+          "correctAnswer": "The ability to act and make choices without undue restraint",
+          "wrongAnswer1": "Having unlimited resources at your disposal",
+          "wrongAnswer2": "Being completely isolated from society",
+          "wrongAnswer3": "Following all rules without question",
+          "explanation": "Freedom in life generally refers to the power or right to act, speak, or think without hindrance or restraint.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does freedom contribute to personal development?",
+          "correctAnswer": "It allows individuals to explore their interests and make choices that shape their identity",
+          "wrongAnswer1": "It forces people to always conform to societal norms",
+          "wrongAnswer2": "It removes all responsibilities making life easier",
+          "wrongAnswer3": "It guarantees success without effort",
+          "explanation": "Freedom enables people to pursue their own paths and learn from experiences, fostering growth and self-discovery.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following best represents a limitation of freedom?",
+          "correctAnswer": "Freedom must be exercised without infringing on the rights of others",
+          "wrongAnswer1": "Freedom means doing whatever one wants regardless of others",
+          "wrongAnswer2": "Freedom eliminates the need for any laws or rules",
+          "wrongAnswer3": "Freedom is only important in political contexts",
+          "explanation": "Freedom comes with responsibilities and must be balanced to avoid harming the freedom and rights of other people.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Responsibility",
+      "questions": [
+        {
+          "question": "What does taking responsibility in life generally mean?",
+          "correctAnswer": "Accepting the consequences of your actions and obligations",
+          "wrongAnswer1": "Avoiding difficult tasks and decisions",
+          "wrongAnswer2": "Blaming others for your mistakes",
+          "wrongAnswer3": "Ignoring your duties and commitments",
+          "explanation": "Taking responsibility means acknowledging and accepting the outcomes of your actions and fulfilling your obligations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best illustrates personal responsibility?",
+          "correctAnswer": "Managing your own time and meeting deadlines",
+          "wrongAnswer1": "Relying on others to complete your tasks",
+          "wrongAnswer2": "Ignoring advice from others",
+          "wrongAnswer3": "Procrastinating on important work",
+          "explanation": "Personal responsibility includes managing oneself effectively, such as organizing time and completing tasks without relying on others.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is responsibility important for personal growth?",
+          "correctAnswer": "It helps individuals build trust and develop self-discipline",
+          "wrongAnswer1": "It allows people to avoid facing consequences",
+          "wrongAnswer2": "It encourages dependence on others",
+          "wrongAnswer3": "It prevents people from taking initiative",
+          "explanation": "Responsibility fosters trust and self-discipline, which are essential for personal development and maturity.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Love",
+      "questions": [
+        {
+          "question": "What is commonly considered the core emotion that defines love?",
+          "correctAnswer": "Affection and care for another person",
+          "wrongAnswer1": "Hatred and resentment",
+          "wrongAnswer2": "Indifference and apathy",
+          "wrongAnswer3": "Fear and anxiety",
+          "explanation": "Love is primarily characterized by affection and care towards someone, which involves positive feelings and emotional attachment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of love is often described as unconditional and selfless?",
+          "correctAnswer": "Agape love",
+          "wrongAnswer1": "Eros love",
+          "wrongAnswer2": "Philia love",
+          "wrongAnswer3": "Ludus love",
+          "explanation": "Agape love is commonly defined as unconditional and selfless love, often associated with care without expecting anything in return.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In psychological terms, what is a common effect of experiencing love on an individual?",
+          "correctAnswer": "Increased feelings of happiness and well-being",
+          "wrongAnswer1": "Higher stress levels and anxiety",
+          "wrongAnswer2": "Decreased motivation and energy",
+          "wrongAnswer3": "Isolation from social groups",
+          "explanation": "Experiencing love is strongly linked with increased happiness and a sense of well-being due to emotional support and bonding.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Friendship",
+      "questions": [
+        {
+          "question": "What is a key characteristic of true friendship?",
+          "correctAnswer": "Mutual trust and support",
+          "wrongAnswer1": "Frequent arguments and competition",
+          "wrongAnswer2": "Ignoring each other's feelings",
+          "wrongAnswer3": "Keeping secrets from each other",
+          "explanation": "True friendship is based on mutual trust and support, where friends care for and help each other.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can friendship positively impact mental health?",
+          "correctAnswer": "By providing emotional support during tough times",
+          "wrongAnswer1": "By increasing feelings of loneliness",
+          "wrongAnswer2": "By causing stress through misunderstandings",
+          "wrongAnswer3": "By encouraging isolation from others",
+          "explanation": "Friendship provides emotional support which can reduce stress and improve mental health, helping individuals cope with difficulties.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which activity is most likely to strengthen a friendship?",
+          "correctAnswer": "Spending quality time together and sharing experiences",
+          "wrongAnswer1": "Competing continuously against each other",
+          "wrongAnswer2": "Ignoring each other's advice and opinions",
+          "wrongAnswer3": "Avoiding communication about feelings",
+          "explanation": "Spending quality time and sharing experiences help build understanding and trust, which strengthen friendships.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Family",
+      "questions": [
+        {
+          "question": "What is generally considered the primary purpose of a family?",
+          "correctAnswer": "To provide support and love to its members",
+          "wrongAnswer1": "To compete with neighbors",
+          "wrongAnswer2": "To earn maximum income",
+          "wrongAnswer3": "To avoid socializing",
+          "explanation": "The primary purpose of a family is to provide emotional support, love, and care to its members, ensuring their well-being and development.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following roles is typically associated with family members?",
+          "correctAnswer": "Offering guidance and nurturing",
+          "wrongAnswer1": "Ignoring each other's needs",
+          "wrongAnswer2": "Working separately without communication",
+          "wrongAnswer3": "Encouraging isolation",
+          "explanation": "Family members usually play roles that involve nurturing, guiding, and caring for each other to promote healthy relationships and growth.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does family influence an individual's development?",
+          "correctAnswer": "By shaping values, beliefs, and behavior",
+          "wrongAnswer1": "By having no impact on personality",
+          "wrongAnswer2": "By forcing everyone to act the same",
+          "wrongAnswer3": "By discouraging education",
+          "explanation": "Families are critical in shaping an individual's values, beliefs, and behaviors, which contributes significantly to personal development.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Work",
+      "questions": [
+        {
+          "question": "What is the main purpose of work in life?",
+          "correctAnswer": "To earn a living and fulfill personal goals",
+          "wrongAnswer1": "To avoid social interactions",
+          "wrongAnswer2": "To spend all your time without breaks",
+          "wrongAnswer3": "To do nothing and relax",
+          "explanation": "The main purpose of work is to earn income to support oneself and to achieve personal and professional goals.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which factor is most important for job satisfaction?",
+          "correctAnswer": "Doing meaningful work that aligns with interests",
+          "wrongAnswer1": "Working the longest hours possible",
+          "wrongAnswer2": "Earning the highest salary without considering job content",
+          "wrongAnswer3": "Never taking any vacations or breaks",
+          "explanation": "Job satisfaction is largely influenced by how meaningful the work is and how well it fits the individual's interests and values.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does work impact personal development?",
+          "correctAnswer": "It provides opportunities to learn new skills and grow",
+          "wrongAnswer1": "It only causes stress and should be avoided",
+          "wrongAnswer2": "It stops personal growth because of time constraints",
+          "wrongAnswer3": "It prevents people from meeting others and learning",
+          "explanation": "Work helps individuals develop new skills, knowledge, and experiences that contribute to their personal and professional growth.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Play",
+      "questions": [
+        {
+          "question": "What is a primary purpose of play in life?",
+          "correctAnswer": "To explore and learn new skills",
+          "wrongAnswer1": "To avoid work and responsibilities",
+          "wrongAnswer2": "To cause harm to others",
+          "wrongAnswer3": "To isolate oneself socially",
+          "explanation": "Play serves as a way for individuals, especially children, to explore their environment and develop new cognitive, physical, and social skills.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does play benefit social development?",
+          "correctAnswer": "It helps individuals learn cooperation and communication",
+          "wrongAnswer1": "It encourages people to be competitive and aggressive",
+          "wrongAnswer2": "It limits interactions with others",
+          "wrongAnswer3": "It focuses only on individual success",
+          "explanation": "Play often involves interaction with others, which promotes learning cooperation, sharing, and effective communication, essential for social development.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In adult life, what role does play have?",
+          "correctAnswer": "It reduces stress and boosts creativity",
+          "wrongAnswer1": "It wastes valuable time and decreases productivity",
+          "wrongAnswer2": "It only serves as physical exercise",
+          "wrongAnswer3": "It is irrelevant and unimportant",
+          "explanation": "For adults, engaging in playful activities can reduce stress, enhance creativity, and improve overall well-being.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Stress",
+      "questions": [
+        {
+          "question": "What is a common physical effect of stress on the body?",
+          "correctAnswer": "Increased heart rate and muscle tension",
+          "wrongAnswer1": "Decreased breathing rate and muscle relaxation",
+          "wrongAnswer2": "Improved digestion and calmness",
+          "wrongAnswer3": "Lowered blood pressure and relaxation",
+          "explanation": "Stress typically triggers the body's fight or flight response, causing increased heart rate and muscle tension.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an effective way to manage stress?",
+          "correctAnswer": "Regular exercise and deep breathing techniques",
+          "wrongAnswer1": "Ignoring stressful situations completely",
+          "wrongAnswer2": "Excessive consumption of caffeine",
+          "wrongAnswer3": "Isolating oneself from social support",
+          "explanation": "Regular physical activity and deep breathing help reduce stress levels by calming the nervous system and improving mood.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can chronic stress affect mental health over time?",
+          "correctAnswer": "It can contribute to anxiety and depression",
+          "wrongAnswer1": "It always improves mental clarity",
+          "wrongAnswer2": "It prevents all mental illnesses",
+          "wrongAnswer3": "It has no impact on emotional well-being",
+          "explanation": "Long-term stress can negatively impact brain function and emotional regulation, increasing the risk of anxiety and depression.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Health",
+      "questions": [
+        {
+          "question": "What is a vital component of maintaining good health?",
+          "correctAnswer": "Eating a balanced diet regularly",
+          "wrongAnswer1": "Skipping meals frequently",
+          "wrongAnswer2": "Avoiding all forms of exercise",
+          "wrongAnswer3": "Sleeping less than four hours per night",
+          "explanation": "Eating a balanced diet regularly provides essential nutrients and energy needed for bodily functions and overall health.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which practice is most effective in preventing the spread of infectious diseases?",
+          "correctAnswer": "Regular hand washing with soap and water",
+          "wrongAnswer1": "Sharing personal items without cleaning",
+          "wrongAnswer2": "Ignoring vaccination recommendations",
+          "wrongAnswer3": "Touching your face frequently with unwashed hands",
+          "explanation": "Regular hand washing with soap removes germs that can cause infectious diseases, thereby preventing their spread.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following activities contributes significantly to mental health improvement?",
+          "correctAnswer": "Engaging in regular physical exercise",
+          "wrongAnswer1": "Isolating oneself from social interactions",
+          "wrongAnswer2": "Working continuously without breaks",
+          "wrongAnswer3": "Constantly focusing on negative thoughts",
+          "explanation": "Regular physical exercise releases endorphins and reduces stress, which improves mental health and emotional well-being.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Mindfulness",
+      "questions": [
+        {
+          "question": "What is the primary focus of mindfulness practice?",
+          "correctAnswer": "Being present and fully engaged in the current moment",
+          "wrongAnswer1": "Planning future events in detail",
+          "wrongAnswer2": "Replaying past memories continuously",
+          "wrongAnswer3": "Ignoring thoughts to avoid stress",
+          "explanation": "Mindfulness involves being fully aware and engaged in the present moment rather than focusing on the past or future.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common benefit of regular mindfulness practice?",
+          "correctAnswer": "Reduced stress and improved emotional regulation",
+          "wrongAnswer1": "Increased memory loss",
+          "wrongAnswer2": "Heightened anxiety levels",
+          "wrongAnswer3": "Physical weakness",
+          "explanation": "Regular mindfulness practice is known to help reduce stress and improve emotional regulation, leading to better mental health.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which technique is often used in mindfulness to enhance present-moment awareness?",
+          "correctAnswer": "Focused breathing exercises",
+          "wrongAnswer1": "Rapid eye movement exercises",
+          "wrongAnswer2": "Memory recall tasks",
+          "wrongAnswer3": "Multitasking daily activities",
+          "explanation": "Focused breathing exercises help anchor attention in the present moment, which is a core aspect of mindfulness practice.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Creativity",
+      "questions": [
+        {
+          "question": "What is a key characteristic of creativity?",
+          "correctAnswer": "Generating original and valuable ideas",
+          "wrongAnswer1": "Copying existing ideas exactly",
+          "wrongAnswer2": "Avoiding new experiences",
+          "wrongAnswer3": "Following strict rules without deviation",
+          "explanation": "Creativity involves producing original and useful ideas or solutions, not merely copying or avoiding novel approaches.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which activity is most likely to enhance creativity?",
+          "correctAnswer": "Engaging in diverse experiences and learning new skills",
+          "wrongAnswer1": "Repeating the same routine daily",
+          "wrongAnswer2": "Ignoring feedback from others",
+          "wrongAnswer3": "Limiting exposure to different cultures",
+          "explanation": "Creativity flourishes when individuals embrace new experiences and continuously learn, which broadens perspectives and inspires new ideas.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does creativity impact problem-solving in life?",
+          "correctAnswer": "It allows for innovative solutions beyond conventional methods",
+          "wrongAnswer1": "It limits choices to tried and tested solutions",
+          "wrongAnswer2": "It encourages reliance solely on past experiences",
+          "wrongAnswer3": "It reduces flexibility in thinking",
+          "explanation": "Creativity encourages thinking outside the box, enabling novel and effective solutions beyond traditional approaches, enhancing problem-solving capabilities.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Hope",
+      "questions": [
+        {
+          "question": "What is the primary role of hope in life?",
+          "correctAnswer": "To provide motivation and a positive outlook for the future",
+          "wrongAnswer1": "To guarantee success in all endeavors",
+          "wrongAnswer2": "To eliminate all negative experiences",
+          "wrongAnswer3": "To ensure others always agree with you",
+          "explanation": "Hope helps individuals maintain motivation and optimism, even during difficult times, but it does not guarantee success or eliminate problems.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can hope affect a person facing challenges?",
+          "correctAnswer": "It can improve resilience and encourage persistence",
+          "wrongAnswer1": "It always removes the challenges instantly",
+          "wrongAnswer2": "It makes a person ignore reality completely",
+          "wrongAnswer3": "It causes a person to avoid all responsibilities",
+          "explanation": "Hope improves resilience by encouraging people to persist and find ways to overcome challenges rather than avoiding or ignoring them.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following best describes hope in the context of psychological well-being?",
+          "correctAnswer": "A cognitive process that involves expecting positive outcomes despite uncertainty",
+          "wrongAnswer1": "A fixed personality trait that does not change",
+          "wrongAnswer2": "An illusion that disconnects people from reality",
+          "wrongAnswer3": "A temporary feeling that has no influence on behavior",
+          "explanation": "Hope is a cognitive process involving the expectation of positive outcomes and supports mental health by fostering motivation and goal pursuit.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Fear",
+      "questions": [
+        {
+          "question": "What is a common emotional response that helps individuals react to danger?",
+          "correctAnswer": "Fear",
+          "wrongAnswer1": "Happiness",
+          "wrongAnswer2": "Curiosity",
+          "wrongAnswer3": "Excitement",
+          "explanation": "Fear is a basic emotional response that helps individuals recognize and react to threats or danger.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does fear usually affect decision-making in stressful situations?",
+          "correctAnswer": "It triggers caution and alertness to avoid harm.",
+          "wrongAnswer1": "It causes people to ignore the risk involved.",
+          "wrongAnswer2": "It makes people more likely to take unnecessary risks.",
+          "wrongAnswer3": "It leads to complete indifference to danger.",
+          "explanation": "Fear typically triggers caution and alertness, helping individuals avoid harm during stressful situations.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a psychological mechanism that involves facing fear to reduce its impact over time?",
+          "correctAnswer": "Exposure therapy",
+          "wrongAnswer1": "Avoidance behavior",
+          "wrongAnswer2": "Repression",
+          "wrongAnswer3": "Projection",
+          "explanation": "Exposure therapy is a psychological method where gradual exposure to the source of fear helps reduce its intensity.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Challenge",
+      "questions": [
+        {
+          "question": "What is a common benefit of facing challenges in life?",
+          "correctAnswer": "They help build resilience and strength",
+          "wrongAnswer1": "They guarantee immediate success without effort",
+          "wrongAnswer2": "They always lead to failure and loss",
+          "wrongAnswer3": "They are easy to avoid and have no impact",
+          "explanation": "Facing challenges often helps individuals develop resilience and strength by learning how to overcome difficulties.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can challenges in life affect personal growth?",
+          "correctAnswer": "They encourage learning and self-improvement",
+          "wrongAnswer1": "They prevent any form of progress",
+          "wrongAnswer2": "They only cause stress without benefits",
+          "wrongAnswer3": "They make people less confident",
+          "explanation": "Challenges encourage people to learn new skills and improve themselves, promoting personal growth.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a productive way to approach a difficult challenge?",
+          "correctAnswer": "Break it into smaller steps and tackle each one",
+          "wrongAnswer1": "Ignore it and hope it goes away",
+          "wrongAnswer2": "Give up immediately to avoid discomfort",
+          "wrongAnswer3": "Wait for someone else to solve it",
+          "explanation": "Breaking a difficult challenge into smaller steps makes it manageable and increases the chances of success.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Opportunity",
+      "questions": [
+        {
+          "question": "What does the concept of opportunity most closely relate to in the context of life?",
+          "correctAnswer": "A favorable set of circumstances that can lead to success",
+          "wrongAnswer1": "An inevitable outcome that cannot be changed",
+          "wrongAnswer2": "A random event without any potential benefit",
+          "wrongAnswer3": "A guaranteed failure in any pursuit",
+          "explanation": "Opportunity refers to favorable conditions or chances that can be leveraged for positive outcomes or success in life.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can one best take advantage of an opportunity in life?",
+          "correctAnswer": "By recognizing it early and acting decisively",
+          "wrongAnswer1": "By ignoring it and waiting for something better",
+          "wrongAnswer2": "By avoiding any risk or effort involved",
+          "wrongAnswer3": "By relying solely on luck without preparation",
+          "explanation": "Opportunities often require timely recognition and proactive effort to be successfully utilized.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which mindset helps most effectively in turning life opportunities into achievements?",
+          "correctAnswer": "Being open to new experiences and willing to learn",
+          "wrongAnswer1": "Avoiding change and sticking to familiar routines",
+          "wrongAnswer2": "Waiting passively for opportunities to come",
+          "wrongAnswer3": "Focusing only on past failures and fears",
+          "explanation": "An open and adaptive mindset enables individuals to identify and capitalize on new opportunities that arise.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Conflict",
+      "questions": [
+        {
+          "question": "What is a common cause of conflict in personal relationships?",
+          "correctAnswer": "Differences in values or beliefs",
+          "wrongAnswer1": "Having exactly the same opinions",
+          "wrongAnswer2": "Always agreeing on everything",
+          "wrongAnswer3": "Lack of communication",
+          "explanation": "Conflict in personal relationships often arises from differences in values, beliefs, or expectations between individuals.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an effective way to resolve conflict?",
+          "correctAnswer": "Open and honest communication",
+          "wrongAnswer1": "Ignoring the problem",
+          "wrongAnswer2": "Refusing to listen to the other person",
+          "wrongAnswer3": "Blaming others",
+          "explanation": "Open and honest communication helps understand different perspectives and find mutually acceptable solutions to conflicts.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What role does conflict play in personal growth?",
+          "correctAnswer": "It can lead to increased understanding and stronger relationships",
+          "wrongAnswer1": "It only causes harm and should be avoided at all costs",
+          "wrongAnswer2": "It always leads to the end of relationships",
+          "wrongAnswer3": "It has no impact on personal growth",
+          "explanation": "Though often difficult, conflict can promote personal growth by encouraging reflection, empathy, and resolution skills.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Peace",
+      "questions": [
+        {
+          "question": "What is a common symbol used to represent peace?",
+          "correctAnswer": "A white dove",
+          "wrongAnswer1": "A red rose",
+          "wrongAnswer2": "A black cat",
+          "wrongAnswer3": "A yellow sun",
+          "explanation": "The white dove is widely recognized as a symbol of peace and hope.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these is a key element to achieving peace in communities?",
+          "correctAnswer": "Open communication",
+          "wrongAnswer1": "Strict punishment",
+          "wrongAnswer2": "Complete isolation",
+          "wrongAnswer3": "Unlimited competition",
+          "explanation": "Open communication promotes understanding and helps resolve conflicts, which is essential for peace.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which famous leader is known for promoting peace through nonviolent resistance?",
+          "correctAnswer": "Mahatma Gandhi",
+          "wrongAnswer1": "Winston Churchill",
+          "wrongAnswer2": "Napoleon Bonaparte",
+          "wrongAnswer3": "Julius Caesar",
+          "explanation": "Mahatma Gandhi is renowned for his nonviolent approach to achieving political and social progress, which inspired peace movements worldwide.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Justice",
+      "questions": [
+        {
+          "question": "What is the primary goal of justice in society?",
+          "correctAnswer": "To ensure fairness and equality for all individuals",
+          "wrongAnswer1": "To promote wealth accumulation for the rich",
+          "wrongAnswer2": "To punish people without trial",
+          "wrongAnswer3": "To allow people to do whatever they want",
+          "explanation": "Justice aims to provide fairness and equality, ensuring that everyone is treated according to the law and moral principles.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which branch of government is typically responsible for interpreting laws and administering justice?",
+          "correctAnswer": "The judiciary",
+          "wrongAnswer1": "The legislature",
+          "wrongAnswer2": "The executive",
+          "wrongAnswer3": "The military",
+          "explanation": "The judiciary interprets laws and delivers justice by resolving disputes based on legal standards.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which concept is essential to achieving justice in a society?",
+          "correctAnswer": "Impartiality",
+          "wrongAnswer1": "Favoritism",
+          "wrongAnswer2": "Corruption",
+          "wrongAnswer3": "Bias",
+          "explanation": "Impartiality means treating everyone fairly without bias or favoritism, which is critical for justice.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Life",
+      "concept": "Mortality",
+      "questions": [
+        {
+          "question": "What does mortality refer to in the context of life?",
+          "correctAnswer": "The state of being subject to death",
+          "wrongAnswer1": "The ability to live forever",
+          "wrongAnswer2": "A measure of happiness during life",
+          "wrongAnswer3": "The study of living organisms",
+          "explanation": "Mortality refers to the condition or fact of being mortal, meaning subject to death, which is a fundamental aspect of life.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which term best describes the inevitability of death for all living beings?",
+          "correctAnswer": "Mortality",
+          "wrongAnswer1": "Immunity",
+          "wrongAnswer2": "Immortality",
+          "wrongAnswer3": "Vitality",
+          "explanation": "Mortality is the term that describes the inevitability of death, distinguishing all living beings from the concept of immortality where death is absent.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is understanding mortality important in the study of life?",
+          "correctAnswer": "It helps in comprehending life cycles and biological limits",
+          "wrongAnswer1": "It allows organisms to avoid death",
+          "wrongAnswer2": "It ensures eternal youth",
+          "wrongAnswer3": "It promotes endless growth",
+          "explanation": "Understanding mortality is crucial because it defines the natural limits of life, influencing reproduction, aging, and ecological dynamics.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

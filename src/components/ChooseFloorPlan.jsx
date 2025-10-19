@@ -4,6 +4,7 @@ import KeyboardButton from "./KeyBoardButton";
 import { useHouseManager } from "../pages/HouseContainer";
 import { subscribeKeyboard } from "../input/controls";
 import ItemDictionary from "../game/ItemDictionary";
+import Button from "./Button";
 
 export default function ChooseFloorPlan() {
   const [floorplans, setFloorplans] = useState([]);
@@ -54,6 +55,9 @@ export default function ChooseFloorPlan() {
             }
           }
           break;
+        case "q":
+          houseManagerRef.current.sketchMoreFloorPlan();
+          break;
         default:
           break;
       }
@@ -66,9 +70,11 @@ export default function ChooseFloorPlan() {
     floorplans.length > 0 &&
     !houseManagerRef.current.roomOpenSession.selectedFloorPlan;
 
+  const canUserRuler = houseManagerRef.current.items.ruler;
+
   return (
     <div
-      className="bg-gray-800 text-white shadow-md overflow-hidden ease-out"
+      className="bg-gray-800 text-white shadow-md overflow-hidden ease-out mb-8"
       style={{
         transition: "all 0.3s ease-out",
         width: isVisible ? "28rem" : "0.5rem",
@@ -78,7 +84,7 @@ export default function ChooseFloorPlan() {
     >
       {isVisible && (
         <>
-          <h2 className="text-lg font-bold mb-2 text-center">
+          <h2 className="text-lg font-bold mb-4 text-center">
             Choose a floor plan
           </h2>
 
@@ -109,7 +115,7 @@ export default function ChooseFloorPlan() {
                   />
 
                   <div className="text-sm font-semibold text-left pl-4 flex-1 flex items-center justify-between">
-                    <span>{fp.name}</span>
+                    <span className="text-base">{fp.name}</span>
 
                     <div className="flex">
                       {fp.items?.length > 0 && (
@@ -142,10 +148,24 @@ export default function ChooseFloorPlan() {
             })}
           </div>
 
-          <p className="mt-4 text-xs text-gray-400 text-center">
-            <KeyboardButton>W</KeyboardButton> <KeyboardButton>S</KeyboardButton> to move,{" "}
-            <KeyboardButton>E</KeyboardButton> to select
-          </p>
+          <div className="flex w-full flex-row px-4 mt-4 justify-between items-center">
+            {!!canUserRuler && (
+              <div className="flex flex-row items-center">
+                <Button
+                  onClick={() => houseManagerRef.current.sketchMoreFloorPlan()}
+                  text={"Sketch more " + ItemDictionary.get("ruler").icon}
+                  overrideClass={"bg-gray-900 hover:bg-gray-500 w-auto p-4"}
+                />
+                <div className="text-gray-500 mx-2">
+                  <KeyboardButton>Q</KeyboardButton>
+                </div>
+              </div>
+            )}
+            <p className="mt-4 mb-4 flex-1 text-xs text-gray-400 text-center">
+              <KeyboardButton>W</KeyboardButton> <KeyboardButton>S</KeyboardButton> to move,{" "}
+              <KeyboardButton>E</KeyboardButton> to select
+            </p>
+          </div>
         </>
       )}
     </div>

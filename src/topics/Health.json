@@ -1,0 +1,1655 @@
+{
+  "topic": "Health",
+  "concepts": [
+    {
+      "topic": "Health",
+      "concept": "Physical fitness",
+      "questions": [
+        {
+          "question": "What does physical fitness primarily refer to?",
+          "correctAnswer": "The ability to perform daily activities with vigor and without undue fatigue",
+          "wrongAnswer1": "The amount of time spent exercising each day",
+          "wrongAnswer2": "Having a perfectly sculpted body without any fat",
+          "wrongAnswer3": "Being able to lift very heavy weights",
+          "explanation": "Physical fitness primarily means having the capacity to carry out daily tasks with energy and minimal fatigue, reflecting overall health and well-being.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a component of physical fitness?",
+          "correctAnswer": "Mental agility",
+          "wrongAnswer1": "Muscular strength",
+          "wrongAnswer2": "Cardiovascular endurance",
+          "wrongAnswer3": "Flexibility",
+          "explanation": "Physical fitness includes components such as muscular strength, cardiovascular endurance, and flexibility. Mental agility is a cognitive ability and not a component of physical fitness.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does regular aerobic exercise contribute to physical fitness?",
+          "correctAnswer": "It improves cardiovascular endurance and promotes heart health",
+          "wrongAnswer1": "It only helps in building muscle size",
+          "wrongAnswer2": "It reduces bone density over time",
+          "wrongAnswer3": "It decreases lung capacity",
+          "explanation": "Regular aerobic exercise strengthens the heart and lungs, enhancing cardiovascular endurance, which is vital for overall physical fitness.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Mental health",
+      "questions": [
+        {
+          "question": "What is a common symptom of poor mental health?",
+          "correctAnswer": "Feeling constantly sad or anxious",
+          "wrongAnswer1": "Having a broken bone",
+          "wrongAnswer2": "Experiencing frequent headaches",
+          "wrongAnswer3": "Having trouble with vision",
+          "explanation": "Feeling constantly sad or anxious is a common symptom of poor mental health, reflecting emotional or psychological distress.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an effective way to maintain good mental health?",
+          "correctAnswer": "Regular exercise and sufficient sleep",
+          "wrongAnswer1": "Avoiding all social interaction",
+          "wrongAnswer2": "Ignoring feelings and stress",
+          "wrongAnswer3": "Consuming large amounts of caffeine",
+          "explanation": "Regular exercise and sufficient sleep help maintain good mental health by reducing stress and improving mood.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What role do mental health professionals play in managing mental health?",
+          "correctAnswer": "They provide therapy and support to individuals experiencing mental health issues",
+          "wrongAnswer1": "They perform surgical treatments for mental illness",
+          "wrongAnswer2": "They prescribe antibiotics to treat mental health problems",
+          "wrongAnswer3": "They offer financial advice to improve mental wellness",
+          "explanation": "Mental health professionals provide therapy and support that help individuals cope with and manage mental health conditions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Balanced diet",
+      "questions": [
+        {
+          "question": "What is a balanced diet primarily composed of?",
+          "correctAnswer": "A variety of foods from all food groups",
+          "wrongAnswer1": "Only fruits and vegetables",
+          "wrongAnswer2": "Mostly carbohydrates",
+          "wrongAnswer3": "High amounts of fats and sugars",
+          "explanation": "A balanced diet includes a mix of all the food groups to provide essential nutrients for the body.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is it important to maintain a balanced diet?",
+          "correctAnswer": "To provide necessary nutrients for overall health and energy",
+          "wrongAnswer1": "To gain weight rapidly",
+          "wrongAnswer2": "To avoid eating any fats or carbohydrates",
+          "wrongAnswer3": "To eat only one type of food daily",
+          "explanation": "Maintaining a balanced diet ensures the body gets all necessary nutrients to function properly and maintain health.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these is NOT typically a component of a balanced diet?",
+          "correctAnswer": "Excess processed sugar and saturated fats",
+          "wrongAnswer1": "Fruits and vegetables",
+          "wrongAnswer2": "Whole grains",
+          "wrongAnswer3": "Protein from lean sources",
+          "explanation": "A balanced diet limits excess processed sugars and saturated fats as they can harm health.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Regular exercise",
+      "questions": [
+        {
+          "question": "What is one of the primary benefits of regular exercise?",
+          "correctAnswer": "Improves cardiovascular health",
+          "wrongAnswer1": "Causes permanent muscle damage",
+          "wrongAnswer2": "Decreases bone density",
+          "wrongAnswer3": "Reduces lung capacity",
+          "explanation": "Regular exercise helps to improve cardiovascular health by strengthening the heart and improving circulation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How often is it recommended to engage in moderate exercise for health benefits?",
+          "correctAnswer": "At least 150 minutes per week",
+          "wrongAnswer1": "10 minutes once a month",
+          "wrongAnswer2": "5 hours every day",
+          "wrongAnswer3": "Only when feeling tired",
+          "explanation": "Health guidelines typically recommend at least 150 minutes of moderate exercise per week for significant health benefits.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these is a mental health benefit of regular exercise?",
+          "correctAnswer": "Reduces symptoms of depression and anxiety",
+          "wrongAnswer1": "Causes increased stress levels",
+          "wrongAnswer2": "Leads to memory loss",
+          "wrongAnswer3": "Worsens mood swings",
+          "explanation": "Exercise releases endorphins and other chemicals that help reduce symptoms of depression and anxiety, enhancing overall mental health.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Stress management",
+      "questions": [
+        {
+          "question": "What is one effective technique for managing stress?",
+          "correctAnswer": "Practicing deep breathing exercises regularly",
+          "wrongAnswer1": "Ignoring your feelings and hoping they go away",
+          "wrongAnswer2": "Consuming large amounts of caffeine to stay alert",
+          "wrongAnswer3": "Avoiding all physical activity to stay calm",
+          "explanation": "Deep breathing exercises help reduce stress by calming the nervous system and improving oxygen flow.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which lifestyle change can help reduce long-term stress?",
+          "correctAnswer": "Engaging in regular physical exercise",
+          "wrongAnswer1": "Sleeping less to have more time to work",
+          "wrongAnswer2": "Eating more processed foods for convenience",
+          "wrongAnswer3": "Isolating oneself from friends and family",
+          "explanation": "Regular physical exercise helps lower stress hormones and releases endorphins that improve mood.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does mindfulness meditation contribute to stress management?",
+          "correctAnswer": "By encouraging awareness and acceptance of the present moment",
+          "wrongAnswer1": "By allowing you to avoid stressful situations completely",
+          "wrongAnswer2": "By distracting your mind with unrelated thoughts",
+          "wrongAnswer3": "By increasing your workload to stay busy",
+          "explanation": "Mindfulness meditation helps manage stress by increasing awareness and reducing emotional reactivity to stressors.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Sleep hygiene",
+      "questions": [
+        {
+          "question": "What is a key practice of good sleep hygiene?",
+          "correctAnswer": "Maintaining a consistent sleep schedule",
+          "wrongAnswer1": "Watching television in bed",
+          "wrongAnswer2": "Drinking caffeine before bedtime",
+          "wrongAnswer3": "Taking long naps during the day",
+          "explanation": "Maintaining a consistent sleep schedule helps regulate the body's internal clock, improving sleep quality.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which environment is best for promoting good sleep hygiene?",
+          "correctAnswer": "A cool, dark, and quiet bedroom",
+          "wrongAnswer1": "A bright room with loud music",
+          "wrongAnswer2": "A warm room with many electronic devices",
+          "wrongAnswer3": "A room with constant movement and light",
+          "explanation": "A cool, dark, and quiet environment helps the body relax and supports the natural sleep cycle.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why should electronic devices be avoided before bedtime according to sleep hygiene principles?",
+          "correctAnswer": "Their blue light can interfere with melatonin production",
+          "wrongAnswer1": "They release harmful radiation that disrupts sleep",
+          "wrongAnswer2": "They cause excessive noise that keeps people awake",
+          "wrongAnswer3": "They release heat that makes the room too warm",
+          "explanation": "Blue light emitted by screens interferes with the production of melatonin, the hormone responsible for sleep regulation.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Hydration importance",
+      "questions": [
+        {
+          "question": "Why is staying hydrated important for the human body?",
+          "correctAnswer": "It helps maintain body temperature and supports vital functions",
+          "wrongAnswer1": "It increases the body's fat storage significantly",
+          "wrongAnswer2": "It reduces the body's need for sleep",
+          "wrongAnswer3": "It makes the body immune to all diseases",
+          "explanation": "Staying hydrated is crucial as it helps regulate body temperature, supports digestion, and keeps organs functioning properly.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a common symptom of dehydration?",
+          "correctAnswer": "Feeling thirsty and experiencing dry mouth",
+          "wrongAnswer1": "Excessive sweating without thirst",
+          "wrongAnswer2": "Sudden improvement in vision",
+          "wrongAnswer3": "Increased appetite for sugary foods",
+          "explanation": "Dehydration often causes thirst and dry mouth as the body signals the need for more fluids.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which population group is more vulnerable to dehydration?",
+          "correctAnswer": "The elderly, because their sense of thirst decreases with age",
+          "wrongAnswer1": "Teenagers, because they produce more body heat",
+          "wrongAnswer2": "Athletes only during winter seasons",
+          "wrongAnswer3": "People with low blood pressure only",
+          "explanation": "Elderly people are more vulnerable to dehydration since their ability to sense thirst diminishes and they may not drink enough fluids.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Preventive care",
+      "questions": [
+        {
+          "question": "What is the main goal of preventive care in health?",
+          "correctAnswer": "To avoid the development of diseases by early detection and healthy practices",
+          "wrongAnswer1": "To treat diseases only after they cause symptoms",
+          "wrongAnswer2": "To prescribe medications without any diagnosis",
+          "wrongAnswer3": "To focus on surgical interventions for existing conditions",
+          "explanation": "Preventive care focuses on measures taken to prevent diseases rather than treating them after onset, which includes early detection through screenings and promoting healthy behaviors.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of preventive care?",
+          "correctAnswer": "Getting vaccinated against the flu annually",
+          "wrongAnswer1": "Taking antibiotics for a cold",
+          "wrongAnswer2": "Undergoing surgery to remove a tumor",
+          "wrongAnswer3": "Taking painkillers for an injury",
+          "explanation": "Vaccinations are a key element of preventive care as they help prevent diseases before they occur, unlike treatments that address symptoms or illnesses after they develop.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does preventive care benefit healthcare systems?",
+          "correctAnswer": "By reducing the cost and burden of treating advanced diseases through early detection",
+          "wrongAnswer1": "By increasing the number of hospital admissions",
+          "wrongAnswer2": "By encouraging the use of more expensive treatments",
+          "wrongAnswer3": "By delaying diagnosis until symptoms become severe",
+          "explanation": "Preventive care helps lower healthcare costs and reduces strain on medical facilities by preventing diseases or catching them early, which is generally less costly and more effective than advanced treatment.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Vaccination benefits",
+      "questions": [
+        {
+          "question": "What is a primary benefit of vaccination?",
+          "correctAnswer": "It helps prevent infectious diseases.",
+          "wrongAnswer1": "It guarantees complete immunity against all diseases.",
+          "wrongAnswer2": "It eliminates the need for any medical checkups.",
+          "wrongAnswer3": "It immediately cures existing infections.",
+          "explanation": "Vaccinations are designed to help prevent infectious diseases by stimulating the immune system to recognize and fight specific pathogens. They do not guarantee complete immunity to all diseases, eliminate the need for medical care, or cure existing infections.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do vaccines contribute to community health?",
+          "correctAnswer": "By creating herd immunity to protect those who cannot be vaccinated.",
+          "wrongAnswer1": "By replacing all natural immunity in individuals.",
+          "wrongAnswer2": "By ensuring everyone receives the exact same vaccine dose.",
+          "wrongAnswer3": "By being effective only in children and not adults.",
+          "explanation": "Vaccines help create herd immunity, which protects individuals who cannot be vaccinated, such as those with medical conditions or allergies. They do not replace natural immunity, require uniform dosing for all, or work only in children.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is an indirect benefit of vaccination?",
+          "correctAnswer": "Reducing the spread of disease within a population.",
+          "wrongAnswer1": "Providing nutrition to strengthen the body.",
+          "wrongAnswer2": "Eliminating all health risks from lifestyle choices.",
+          "wrongAnswer3": "Causing immediate antibody production without a waiting period.",
+          "explanation": "Vaccinations help reduce the spread of infectious diseases in the population, indirectly protecting individuals through lowered transmission. They do not provide nutrition, remove all lifestyle health risks, or cause immediate antibody production; instead, immunity builds over time.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Chronic diseases",
+      "questions": [
+        {
+          "question": "What is a key characteristic of chronic diseases?",
+          "correctAnswer": "They develop slowly and last for a long time",
+          "wrongAnswer1": "They appear suddenly and last a short time",
+          "wrongAnswer2": "They are always contagious",
+          "wrongAnswer3": "They can be cured quickly with antibiotics",
+          "explanation": "Chronic diseases are conditions that develop gradually and persist over a long period, often for a lifetime, unlike acute diseases which appear suddenly and are short-lived.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common chronic disease?",
+          "correctAnswer": "Diabetes",
+          "wrongAnswer1": "Flu",
+          "wrongAnswer2": "Common cold",
+          "wrongAnswer3": "Acute bronchitis",
+          "explanation": "Diabetes is a chronic disease characterized by high blood sugar levels over a long period, while flu, common cold, and acute bronchitis are typically acute illnesses.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What lifestyle factor can significantly reduce the risk of developing many chronic diseases?",
+          "correctAnswer": "Regular physical activity and a healthy diet",
+          "wrongAnswer1": "Smoking tobacco",
+          "wrongAnswer2": "Excessive alcohol consumption",
+          "wrongAnswer3": "Sleeping less than six hours a night regularly",
+          "explanation": "Engaging in regular physical activity and maintaining a healthy diet are effective ways to lower the risk of many chronic diseases, while smoking, excessive alcohol use, and poor sleep can increase the risk.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Heart health",
+      "questions": [
+        {
+          "question": "What is a key factor in maintaining good heart health?",
+          "correctAnswer": "Regular physical activity and a balanced diet",
+          "wrongAnswer1": "Avoiding all fats and oils",
+          "wrongAnswer2": "Sleeping less than five hours a night",
+          "wrongAnswer3": "Taking vitamin supplements regularly",
+          "explanation": "Regular physical activity and a balanced diet help maintain heart health by controlling weight, blood pressure, and cholesterol levels.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following conditions directly affects heart health?",
+          "correctAnswer": "High blood pressure",
+          "wrongAnswer1": "Common cold",
+          "wrongAnswer2": "Seasonal allergies",
+          "wrongAnswer3": "Skin rash",
+          "explanation": "High blood pressure increases the risk of heart disease by causing damage to the arteries and heart over time.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is managing stress important for heart health?",
+          "correctAnswer": "Stress can increase blood pressure and lead to heart problems over time",
+          "wrongAnswer1": "Stress only affects mental health but not the heart",
+          "wrongAnswer2": "Stress reduces appetite which can harm heart function",
+          "wrongAnswer3": "Stress causes immediate heart attacks in all cases",
+          "explanation": "Chronic stress may raise blood pressure and cause harmful habits that negatively affect heart health.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Mental wellness",
+      "questions": [
+        {
+          "question": "What is a key practice to maintain good mental wellness?",
+          "correctAnswer": "Engaging in regular physical activity",
+          "wrongAnswer1": "Ignoring feelings and thoughts",
+          "wrongAnswer2": "Isolating oneself from social interactions",
+          "wrongAnswer3": "Avoiding sleep to stay busy",
+          "explanation": "Regular physical activity helps improve mood and reduce anxiety, which are important for mental wellness.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following can negatively affect mental wellness?",
+          "correctAnswer": "Chronic stress and lack of sleep",
+          "wrongAnswer1": "Balanced diet and meditation",
+          "wrongAnswer2": "Positive social relationships",
+          "wrongAnswer3": "Regular exercise",
+          "explanation": "Chronic stress and lack of sleep can lead to mental health problems and impair overall mental wellness.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What role does mindfulness play in mental wellness?",
+          "correctAnswer": "It helps increase awareness and reduce stress",
+          "wrongAnswer1": "It causes distraction and increases anxiety",
+          "wrongAnswer2": "It eliminates the need for social support",
+          "wrongAnswer3": "It replaces professional therapy completely",
+          "explanation": "Mindfulness promotes awareness of the present moment and helps reduce stress, contributing positively to mental wellness.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Healthy lifestyle",
+      "questions": [
+        {
+          "question": "What is an essential component of a healthy lifestyle?",
+          "correctAnswer": "Balanced diet with regular physical activity",
+          "wrongAnswer1": "Eating only fast food",
+          "wrongAnswer2": "Avoiding all exercise",
+          "wrongAnswer3": "Sleeping less than five hours daily",
+          "explanation": "A healthy lifestyle includes a balanced diet combined with regular physical activity to maintain overall well-being.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which habit contributes most to maintaining good mental health in a healthy lifestyle?",
+          "correctAnswer": "Regular exercise and adequate sleep",
+          "wrongAnswer1": "Consuming excessive caffeine",
+          "wrongAnswer2": "Skipping meals frequently",
+          "wrongAnswer3": "Isolating oneself socially",
+          "explanation": "Regular exercise and adequate sleep help reduce stress and improve mood, supporting mental health.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is hydration important in a healthy lifestyle?",
+          "correctAnswer": "It helps regulate body temperature and maintain bodily functions",
+          "wrongAnswer1": "It increases calorie intake unnecessarily",
+          "wrongAnswer2": "It causes dehydration and fatigue",
+          "wrongAnswer3": "It replaces the need for nutritious food",
+          "explanation": "Hydration is vital because water regulates body temperature and supports bodily functions such as digestion and circulation.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Weight management",
+      "questions": [
+        {
+          "question": "What is the primary goal of weight management?",
+          "correctAnswer": "To maintain a healthy body weight through balanced diet and exercise",
+          "wrongAnswer1": "To lose as much weight as possible in a short time",
+          "wrongAnswer2": "To avoid eating any carbohydrates at all",
+          "wrongAnswer3": "To gain weight quickly without exercise",
+          "explanation": "Weight management aims to maintain a healthy body weight by balancing calorie intake with physical activity.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common method used in weight management?",
+          "correctAnswer": "Monitoring calorie intake and regular physical activity",
+          "wrongAnswer1": "Skipping all meals to reduce calories",
+          "wrongAnswer2": "Only drinking water for an entire week",
+          "wrongAnswer3": "Taking supplements without changing diet or exercise",
+          "explanation": "Effective weight management involves monitoring calories consumed and increasing physical activity rather than extreme or unsafe practices.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is it important to combine diet and exercise for weight management?",
+          "correctAnswer": "Because diet controls calorie intake while exercise increases calorie expenditure",
+          "wrongAnswer1": "Because diet alone causes muscle loss",
+          "wrongAnswer2": "Because exercise alone can make you gain weight",
+          "wrongAnswer3": "Because exercise replaces the need for healthy eating",
+          "explanation": "Combining diet and exercise helps balance calories consumed and calories burned, supporting healthy and sustainable weight management.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Nutrition facts",
+      "questions": [
+        {
+          "question": "What information do nutrition facts labels typically provide?",
+          "correctAnswer": "Details about calories, fats, vitamins, and ingredients",
+          "wrongAnswer1": "Instructions on how to cook the food item",
+          "wrongAnswer2": "The history of the food brand",
+          "wrongAnswer3": "Price and discount information",
+          "explanation": "Nutrition facts labels give details on the nutritional content such as calories, fat, vitamins, minerals, and ingredients to help consumers make informed dietary choices.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is it important to check the serving size on a nutrition facts label?",
+          "correctAnswer": "Because it determines the amount of nutrients listed applies to that portion size",
+          "wrongAnswer1": "Because it tells you how many people the package can feed",
+          "wrongAnswer2": "Because it indicates the best time to eat the food",
+          "wrongAnswer3": "Because it provides the cooking temperature",
+          "explanation": "Serving size is important because all the nutrition information on the label is based on that specific amount of food, so eating more or less changes how many calories and nutrients are consumed.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which nutrient is usually listed first on a nutrition facts label due to its higher quantity?",
+          "correctAnswer": "Total fat",
+          "wrongAnswer1": "Vitamin C",
+          "wrongAnswer2": "Calcium",
+          "wrongAnswer3": "Sugars",
+          "explanation": "Total fat is often listed first because it is present in higher amounts and is a key factor in assessing the food's impact on health.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Mindfulness practice",
+      "questions": [
+        {
+          "question": "What is the main goal of mindfulness practice?",
+          "correctAnswer": "To focus attention on the present moment calmly and non-judgmentally",
+          "wrongAnswer1": "To analyze past mistakes in detail",
+          "wrongAnswer2": "To plan for future events with anxiety",
+          "wrongAnswer3": "To multitask and increase productivity",
+          "explanation": "Mindfulness practice involves paying attention to the present experience with openness and without judgment, which helps reduce stress and increase awareness.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common technique used in mindfulness practice?",
+          "correctAnswer": "Focused breathing exercises",
+          "wrongAnswer1": "Watching television",
+          "wrongAnswer2": "Speed reading",
+          "wrongAnswer3": "Physical strength training",
+          "explanation": "Focused breathing is a foundational mindfulness technique to help anchor attention and increase present-moment awareness.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these is a recognized benefit of regular mindfulness practice?",
+          "correctAnswer": "Improved emotional regulation and stress reduction",
+          "wrongAnswer1": "Immediate weight loss",
+          "wrongAnswer2": "Increased muscle mass",
+          "wrongAnswer3": "Better night vision",
+          "explanation": "Mindfulness has been shown to help with managing emotions and reducing stress over time, contributing to overall mental well-being.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Immunity boosting",
+      "questions": [
+        {
+          "question": "Which vitamin is most commonly associated with boosting the immune system?",
+          "correctAnswer": "Vitamin C",
+          "wrongAnswer1": "Vitamin D",
+          "wrongAnswer2": "Vitamin A",
+          "wrongAnswer3": "Vitamin K",
+          "explanation": "Vitamin C is widely recognized for its role in supporting various cellular functions of the immune system, helping it function effectively.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What lifestyle habit is important for enhancing immunity alongside diet?",
+          "correctAnswer": "Regular exercise",
+          "wrongAnswer1": "Watching television",
+          "wrongAnswer2": "Sleeping less",
+          "wrongAnswer3": "Avoiding water",
+          "explanation": "Regular exercise helps boost the immune system by promoting good circulation, which allows cells and substances of the immune system to move through the body freely and do their job efficiently.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following foods is known for its immunity-boosting properties due to probiotics?",
+          "correctAnswer": "Yogurt",
+          "wrongAnswer1": "White bread",
+          "wrongAnswer2": "Fried chicken",
+          "wrongAnswer3": "Chocolate",
+          "explanation": "Yogurt contains probiotics which are beneficial bacteria that can help strengthen the gut microbiome and boost the immune system.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Healthcare access",
+      "questions": [
+        {
+          "question": "What does healthcare access primarily refer to?",
+          "correctAnswer": "The ability to obtain necessary health services easily and affordably",
+          "wrongAnswer1": "The availability of luxury health facilities",
+          "wrongAnswer2": "The number of doctors in a city",
+          "wrongAnswer3": "The cost of medical education",
+          "explanation": "Healthcare access is about the ability of individuals to obtain needed medical services without barriers such as cost, location, or availability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which factor is most likely to improve healthcare access in rural areas?",
+          "correctAnswer": "Increasing the number of local clinics and medical staff",
+          "wrongAnswer1": "Building more luxury hospitals in big cities",
+          "wrongAnswer2": "Reducing the number of health insurance providers",
+          "wrongAnswer3": "Increasing the cost of medical treatment",
+          "explanation": "Increasing local clinics in rural areas directly improves healthcare access by making services geographically and physically closer to those populations.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does health insurance typically affect healthcare access?",
+          "correctAnswer": "It reduces the financial barriers to obtaining medical treatment",
+          "wrongAnswer1": "It limits the types of services available",
+          "wrongAnswer2": "It ensures access only to private hospitals",
+          "wrongAnswer3": "It guarantees free medical care for all treatments",
+          "explanation": "Health insurance usually lowers out-of-pocket costs, making it easier for people to afford healthcare services, thereby improving access.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Medical checkups",
+      "questions": [
+        {
+          "question": "What is the primary purpose of regular medical checkups?",
+          "correctAnswer": "To detect health issues early and maintain overall health",
+          "wrongAnswer1": "To get prescriptions for medications",
+          "wrongAnswer2": "To have surgery when needed",
+          "wrongAnswer3": "To avoid visiting the doctor",
+          "explanation": "Regular medical checkups are mainly conducted to detect health problems early and help maintain good health through preventive care.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How often should a healthy adult typically have a general medical checkup?",
+          "correctAnswer": "Once every year or two",
+          "wrongAnswer1": "Once every ten years",
+          "wrongAnswer2": "Every month",
+          "wrongAnswer3": "Only when feeling sick",
+          "explanation": "A healthy adult is generally advised to have a medical checkup once a year or every two years to ensure early detection of potential health issues.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT commonly included in a routine medical checkup?",
+          "correctAnswer": "Surgery",
+          "wrongAnswer1": "Blood pressure measurement",
+          "wrongAnswer2": "Blood test",
+          "wrongAnswer3": "Physical examination",
+          "explanation": "Surgery is not part of a routine medical checkup, which usually includes physical examinations, blood pressure checks, and blood tests for general health assessment.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Disease prevention",
+      "questions": [
+        {
+          "question": "What is one of the most effective methods to prevent infectious diseases?",
+          "correctAnswer": "Getting vaccinated according to recommended schedules",
+          "wrongAnswer1": "Avoiding all social interactions indefinitely",
+          "wrongAnswer2": "Only eating organic food",
+          "wrongAnswer3": "Taking antibiotics regularly regardless of illness",
+          "explanation": "Vaccination stimulates the immune system to protect against specific infectious diseases and is a proven preventive method.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which lifestyle habit significantly reduces the risk of chronic diseases such as heart disease and diabetes?",
+          "correctAnswer": "Regular physical activity and a balanced diet",
+          "wrongAnswer1": "Sleeping only four hours per night",
+          "wrongAnswer2": "Using supplements instead of medication",
+          "wrongAnswer3": "Avoiding fruits and vegetables completely",
+          "explanation": "Maintaining regular exercise combined with a balanced diet helps reduce risk factors associated with chronic diseases.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does hand washing help in disease prevention?",
+          "correctAnswer": "It removes germs and prevents their spread to others",
+          "wrongAnswer1": "It makes the skin immune to infection",
+          "wrongAnswer2": "It replaces the need for vaccinations",
+          "wrongAnswer3": "It guarantees no one will ever get sick",
+          "explanation": "Proper hand hygiene reduces the transmission of infectious agents, thus lowering the incidence of many infections.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Health education",
+      "questions": [
+        {
+          "question": "What is the primary goal of health education?",
+          "correctAnswer": "To promote healthy behaviors and prevent diseases",
+          "wrongAnswer1": "To treat illnesses after they occur",
+          "wrongAnswer2": "To sell health products to people",
+          "wrongAnswer3": "To provide financial advice for medical bills",
+          "explanation": "Health education aims to inform and encourage individuals to adopt healthier lifestyles to prevent diseases and promote overall well-being.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key component of health education?",
+          "correctAnswer": "Teaching about nutrition and physical activity",
+          "wrongAnswer1": "Only focusing on medication usage",
+          "wrongAnswer2": "Ignoring mental health issues",
+          "wrongAnswer3": "Providing training exclusively in surgical procedures",
+          "explanation": "Health education involves teaching about various aspects such as nutrition, physical activity, and mental health to help individuals make informed health choices.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is health education important in schools?",
+          "correctAnswer": "It equips students with knowledge to make healthy choices throughout life",
+          "wrongAnswer1": "It replaces the need for physical education classes",
+          "wrongAnswer2": "It guarantees students will never get sick",
+          "wrongAnswer3": "It only focuses on teaching about diseases",
+          "explanation": "Health education in schools helps students learn about healthy habits, enabling them to maintain good health and avoid risky behaviors long-term.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Substance abuse",
+      "questions": [
+        {
+          "question": "What is a common effect of substance abuse on the human body?",
+          "correctAnswer": "Damage to organs such as the liver and brain",
+          "wrongAnswer1": "Improved immune system function",
+          "wrongAnswer2": "Increased muscle strength",
+          "wrongAnswer3": "Enhanced mental clarity",
+          "explanation": "Substance abuse can cause significant damage to vital organs, particularly the liver and brain, due to the harmful chemicals in drugs and alcohol.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a potential psychological consequence of substance abuse?",
+          "correctAnswer": "Development of depression and anxiety disorders",
+          "wrongAnswer1": "Improvement in memory and concentration",
+          "wrongAnswer2": "Increased social interactions and friendships",
+          "wrongAnswer3": "Enhanced decision-making skills",
+          "explanation": "Substance abuse can lead to various psychological problems including depression and anxiety, as the brain chemistry is altered by the addictive substances.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which approach is commonly used in treating substance abuse disorders?",
+          "correctAnswer": "Behavioral therapy combined with medication-assisted treatment",
+          "wrongAnswer1": "Complete isolation without professional support",
+          "wrongAnswer2": "Sole reliance on medication without therapy",
+          "wrongAnswer3": "Ignoring the problem and hoping it resolves on its own",
+          "explanation": "Effective treatment of substance abuse often involves a combination of behavioral therapies and medication-assisted treatments to address both the psychological and physical aspects of addiction.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Emotional health",
+      "questions": [
+        {
+          "question": "What is emotional health primarily concerned with?",
+          "correctAnswer": "Managing emotions and coping with stress effectively",
+          "wrongAnswer1": "Physical fitness and exercise routines",
+          "wrongAnswer2": "Dietary habits and nutrition",
+          "wrongAnswer3": "Sleep patterns and rest quality",
+          "explanation": "Emotional health involves understanding, managing emotions, and coping with stress to maintain mental well-being.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following practices can improve emotional health?",
+          "correctAnswer": "Talking about feelings and seeking support when needed",
+          "wrongAnswer1": "Ignoring emotions to stay focused on tasks",
+          "wrongAnswer2": "Isolating oneself from social interactions",
+          "wrongAnswer3": "Avoiding all stressful situations at all costs",
+          "explanation": "Expressing feelings and seeking social support are crucial for maintaining good emotional health.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does poor emotional health affect physical health?",
+          "correctAnswer": "It can lead to increased risk of illnesses such as heart disease and weakened immune function",
+          "wrongAnswer1": "It only affects mental state without influencing the body",
+          "wrongAnswer2": "It guarantees improved physical strength and stamina",
+          "wrongAnswer3": "It solely causes skin problems without other effects",
+          "explanation": "Poor emotional health can negatively impact physical health by increasing vulnerability to various illnesses and weakening the immune system.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Digestive health",
+      "questions": [
+        {
+          "question": "What is the main function of the digestive system?",
+          "correctAnswer": "To break down food and absorb nutrients",
+          "wrongAnswer1": "To pump blood throughout the body",
+          "wrongAnswer2": "To control breathing and oxygen intake",
+          "wrongAnswer3": "To regulate body temperature",
+          "explanation": "The digestive system is primarily responsible for breaking down food into nutrients the body can use and absorbing those nutrients into the bloodstream.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which organ is primarily responsible for nutrient absorption during digestion?",
+          "correctAnswer": "The small intestine",
+          "wrongAnswer1": "The stomach",
+          "wrongAnswer2": "The large intestine",
+          "wrongAnswer3": "The pancreas",
+          "explanation": "The small intestine has a large surface area with villi and microvilli that allow for efficient absorption of nutrients from digested food.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does fiber contribute to digestive health?",
+          "correctAnswer": "Fiber helps regulate bowel movements and prevent constipation",
+          "wrongAnswer1": "Fiber increases stomach acid production",
+          "wrongAnswer2": "Fiber breaks down fats and proteins",
+          "wrongAnswer3": "Fiber is absorbed directly as a nutrient",
+          "explanation": "Dietary fiber adds bulk to stool and promotes regular bowel movements, which is important for maintaining digestive health and preventing constipation.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Bone strength",
+      "questions": [
+        {
+          "question": "What is a key factor in maintaining strong bones?",
+          "correctAnswer": "Getting enough calcium and vitamin D",
+          "wrongAnswer1": "Avoiding all physical activity",
+          "wrongAnswer2": "Drinking only sugary drinks",
+          "wrongAnswer3": "Sleeping less than 4 hours a night",
+          "explanation": "Calcium and vitamin D are essential for bone health as they help in building and maintaining strong bones.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following exercises is most beneficial for increasing bone strength?",
+          "correctAnswer": "Weight-bearing exercises like walking or lifting weights",
+          "wrongAnswer1": "Swimming in a pool",
+          "wrongAnswer2": "Cycling on a stationary bike",
+          "wrongAnswer3": "Stretching exercises",
+          "explanation": "Weight-bearing exercises stimulate bone formation and increase bone strength.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does aging typically affect bone strength?",
+          "correctAnswer": "Bone density decreases, leading to weaker bones",
+          "wrongAnswer1": "Bone strength remains the same throughout life",
+          "wrongAnswer2": "Bones become thicker and stronger with age",
+          "wrongAnswer3": "Bones become more flexible as we age",
+          "explanation": "As people age, bone density generally decreases which makes bones more fragile and increases the risk of fractures.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Dental care",
+      "questions": [
+        {
+          "question": "What is the main purpose of brushing your teeth regularly?",
+          "correctAnswer": "To remove plaque and prevent tooth decay",
+          "wrongAnswer1": "To change the color of your teeth",
+          "wrongAnswer2": "To make teeth grow faster",
+          "wrongAnswer3": "To prevent hair loss",
+          "explanation": "Brushing teeth regularly removes plaque, which is a sticky film of bacteria that causes tooth decay and gum disease.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How often should you visit the dentist for a routine checkup to maintain good dental health?",
+          "correctAnswer": "Every six months",
+          "wrongAnswer1": "Every two years",
+          "wrongAnswer2": "Only when you feel pain",
+          "wrongAnswer3": "Once a month",
+          "explanation": "Visiting the dentist every six months allows early detection and treatment of dental issues before they become serious.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following foods is best for maintaining healthy teeth?",
+          "correctAnswer": "Cheese",
+          "wrongAnswer1": "Candy",
+          "wrongAnswer2": "Soda",
+          "wrongAnswer3": "Chips",
+          "explanation": "Cheese helps to protect tooth enamel by neutralizing acids in the mouth and providing calcium, which strengthens teeth.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Vision care",
+      "questions": [
+        {
+          "question": "What is a common practice to protect your eyes from strain when using digital devices?",
+          "correctAnswer": "Taking regular breaks using the 20-20-20 rule",
+          "wrongAnswer1": "Wearing sunglasses indoors at all times",
+          "wrongAnswer2": "Only reading in dim light to rest the eyes",
+          "wrongAnswer3": "Avoiding all screen use entirely",
+          "explanation": "The 20-20-20 rule helps reduce eye strain by reminding you to look at something 20 feet away for 20 seconds every 20 minutes when using digital devices.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which nutrient is essential for maintaining healthy vision?",
+          "correctAnswer": "Vitamin A",
+          "wrongAnswer1": "Vitamin C",
+          "wrongAnswer2": "Vitamin D",
+          "wrongAnswer3": "Vitamin K",
+          "explanation": "Vitamin A is crucial for good vision because it helps form the pigment necessary for the retina to function properly.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a common symptom that indicates you might need to see an eye care professional?",
+          "correctAnswer": "Persistent blurred vision",
+          "wrongAnswer1": "Occasional sneezing",
+          "wrongAnswer2": "Mild headache after exercise",
+          "wrongAnswer3": "Dry skin",
+          "explanation": "Persistent blurred vision can be a sign of vision problems that require professional assessment and correction.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Hearing health",
+      "questions": [
+        {
+          "question": "What is the primary cause of noise-induced hearing loss?",
+          "correctAnswer": "Exposure to loud sounds over time",
+          "wrongAnswer1": "Lack of sleep",
+          "wrongAnswer2": "Poor diet",
+          "wrongAnswer3": "Excessive exercise",
+          "explanation": "Noise-induced hearing loss primarily results from prolonged exposure to loud noises that damage the hair cells in the inner ear.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common symptom of hearing loss?",
+          "correctAnswer": "Difficulty understanding conversations",
+          "wrongAnswer1": "Frequent headaches",
+          "wrongAnswer2": "Blurred vision",
+          "wrongAnswer3": "Loss of appetite",
+          "explanation": "Difficulty understanding conversations, especially in noisy environments, is a common sign of hearing loss.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the best way to protect your hearing in a noisy environment?",
+          "correctAnswer": "Wearing ear protection such as earplugs or earmuffs",
+          "wrongAnswer1": "Yelling to hear better",
+          "wrongAnswer2": "Using headphones at maximum volume",
+          "wrongAnswer3": "Covering ears with hands temporarily",
+          "explanation": "Wearing ear protection like earplugs or earmuffs can significantly reduce exposure to harmful noise levels and protect hearing.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Skin protection",
+      "questions": [
+        {
+          "question": "What is the most effective way to protect your skin from harmful UV rays?",
+          "correctAnswer": "Using a broad-spectrum sunscreen regularly",
+          "wrongAnswer1": "Wearing sunglasses only",
+          "wrongAnswer2": "Applying moisturizer without SPF",
+          "wrongAnswer3": "Avoiding water-based products",
+          "explanation": "Using a broad-spectrum sunscreen protects the skin from both UVA and UVB rays, which are harmful ultraviolet rays from the sun.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is it important to reapply sunscreen every two hours?",
+          "correctAnswer": "Because sunscreen loses its effectiveness due to sweating and water exposure",
+          "wrongAnswer1": "Because sunscreen changes color over time",
+          "wrongAnswer2": "Because reapplying sunscreen tints the skin",
+          "wrongAnswer3": "Because sunscreen becomes toxic after two hours",
+          "explanation": "Sunscreen can wear off or be washed away by sweat or water, so it must be reapplied to maintain protection.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following habits can help protect your skin from damage?",
+          "correctAnswer": "Wearing protective clothing and seeking shade during peak sunlight",
+          "wrongAnswer1": "Using tanning beds to get a base tan",
+          "wrongAnswer2": "Only using sunscreen when the skin feels dry",
+          "wrongAnswer3": "Taking long hot showers daily",
+          "explanation": "Wearing protective clothing and avoiding direct sun exposure during peak hours helps reduce skin damage risk.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Respiratory health",
+      "questions": [
+        {
+          "question": "What is one of the primary functions of the respiratory system?",
+          "correctAnswer": "To exchange oxygen and carbon dioxide in the lungs",
+          "wrongAnswer1": "To pump blood throughout the body",
+          "wrongAnswer2": "To digest food into nutrients",
+          "wrongAnswer3": "To produce hormones for metabolism",
+          "explanation": "The respiratory system mainly functions to exchange oxygen from the air with carbon dioxide from the blood in the lungs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common symptom of poor respiratory health?",
+          "correctAnswer": "Shortness of breath",
+          "wrongAnswer1": "Headache",
+          "wrongAnswer2": "Blurred vision",
+          "wrongAnswer3": "Joint pain",
+          "explanation": "Shortness of breath is a common symptom indicating issues with respiratory health, as it reflects difficulty in breathing or lung function.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which lifestyle change can most improve respiratory health?",
+          "correctAnswer": "Quitting smoking",
+          "wrongAnswer1": "Increasing sugar intake",
+          "wrongAnswer2": "Avoiding exercise",
+          "wrongAnswer3": "Reducing water consumption",
+          "explanation": "Quitting smoking reduces harmful substances in the lungs and helps improve respiratory function significantly.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Blood pressure",
+      "questions": [
+        {
+          "question": "What is blood pressure a measure of?",
+          "correctAnswer": "The force of blood pushing against the walls of arteries",
+          "wrongAnswer1": "The amount of blood in the veins",
+          "wrongAnswer2": "The speed of blood flow in capillaries",
+          "wrongAnswer3": "The oxygen level in the blood",
+          "explanation": "Blood pressure is the measurement of the force that blood exerts on the walls of arteries as the heart pumps it around the body.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which condition is often diagnosed by measuring blood pressure?",
+          "correctAnswer": "Hypertension",
+          "wrongAnswer1": "Diabetes",
+          "wrongAnswer2": "Anemia",
+          "wrongAnswer3": "Asthma",
+          "explanation": "Hypertension, or high blood pressure, is commonly diagnosed through regular blood pressure measurements.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What do the two numbers in a blood pressure reading represent?",
+          "correctAnswer": "Systolic pressure over diastolic pressure",
+          "wrongAnswer1": "Diastolic pressure over heart rate",
+          "wrongAnswer2": "Heart rate over pulse pressure",
+          "wrongAnswer3": "Oxygen saturation over systolic pressure",
+          "explanation": "The first number is systolic pressure, measuring the pressure when the heart beats, while the second is diastolic pressure, measuring pressure when the heart is at rest.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Diabetes control",
+      "questions": [
+        {
+          "question": "What is the primary goal in controlling diabetes?",
+          "correctAnswer": "Maintaining blood sugar levels within a target range",
+          "wrongAnswer1": "Eliminating all sugar from the diet",
+          "wrongAnswer2": "Avoiding physical activity",
+          "wrongAnswer3": "Taking insulin only when symptoms appear",
+          "explanation": "The primary goal in diabetes control is to maintain blood glucose levels within a target range to avoid complications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an effective lifestyle change for managing diabetes?",
+          "correctAnswer": "Regular physical activity",
+          "wrongAnswer1": "Skipping meals frequently",
+          "wrongAnswer2": "Smoking cigarettes",
+          "wrongAnswer3": "Consuming high-sugar beverages often",
+          "explanation": "Regular physical activity helps improve insulin sensitivity and blood sugar control in people with diabetes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is monitoring blood glucose important in diabetes control?",
+          "correctAnswer": "It helps adjust treatment and prevent complications",
+          "wrongAnswer1": "It eliminates the need for medication",
+          "wrongAnswer2": "It cures diabetes completely",
+          "wrongAnswer3": "It replaces the need for a healthy diet",
+          "explanation": "Monitoring blood glucose allows individuals and healthcare providers to adjust medications and lifestyle to maintain optimal blood sugar levels and reduce the risk of complications.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Cancer awareness",
+      "questions": [
+        {
+          "question": "What is one of the primary goals of cancer awareness campaigns?",
+          "correctAnswer": "To educate people about early detection and prevention",
+          "wrongAnswer1": "To promote only treatment options",
+          "wrongAnswer2": "To discourage regular health checks",
+          "wrongAnswer3": "To focus solely on genetic causes of cancer",
+          "explanation": "Cancer awareness campaigns aim to educate the public about the importance of early detection and prevention to reduce cancer incidence and improve outcomes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common method promoted for early cancer detection?",
+          "correctAnswer": "Regular screenings and self-examinations",
+          "wrongAnswer1": "Avoiding all medical visits",
+          "wrongAnswer2": "Relying only on symptoms to seek care",
+          "wrongAnswer3": "Using unproven alternative therapies",
+          "explanation": "Regular screenings and self-examinations help in early detection of cancer, which can lead to better treatment success rates.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is it important to raise awareness about risk factors associated with cancer?",
+          "correctAnswer": "Because it helps individuals make lifestyle changes to reduce their risk",
+          "wrongAnswer1": "Because cancer risk factors cannot be controlled or changed",
+          "wrongAnswer2": "Because only genetics determine cancer risk",
+          "wrongAnswer3": "Because treatment is more important than prevention",
+          "explanation": "Understanding and raising awareness about risk factors enables individuals to adopt healthier behaviors that may reduce the likelihood of developing cancer.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Allergy management",
+      "questions": [
+        {
+          "question": "What is the first step in managing a food allergy?",
+          "correctAnswer": "Avoiding the allergenic food entirely",
+          "wrongAnswer1": "Taking antibiotics regularly",
+          "wrongAnswer2": "Increasing exposure to the food",
+          "wrongAnswer3": "Using essential oils for relief",
+          "explanation": "The most effective way to manage a food allergy is to completely avoid the food that triggers the allergic reaction to prevent any symptoms or complications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which medication is commonly used to treat mild allergy symptoms?",
+          "correctAnswer": "Antihistamines",
+          "wrongAnswer1": "Pain relievers",
+          "wrongAnswer2": "Antibiotics",
+          "wrongAnswer3": "Antacids",
+          "explanation": "Antihistamines help block the effects of histamine, which is released during an allergic reaction, thereby reducing symptoms like itching, sneezing, and runny nose.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is it important to have an action plan for severe allergic reactions?",
+          "correctAnswer": "To quickly recognize symptoms and use emergency treatment like epinephrine",
+          "wrongAnswer1": "To avoid taking any medications during an allergic reaction",
+          "wrongAnswer2": "To wait and see if symptoms go away on their own",
+          "wrongAnswer3": "To rely only on home remedies",
+          "explanation": "Having an action plan ensures that a person with severe allergies recognizes symptoms early and administers emergency treatment such as an epinephrine injection promptly to prevent life-threatening complications.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Physical therapy",
+      "questions": [
+        {
+          "question": "What is the primary goal of physical therapy?",
+          "correctAnswer": "To restore movement and function after injury or illness",
+          "wrongAnswer1": "To diagnose medical conditions through imaging",
+          "wrongAnswer2": "To perform surgeries to repair damaged tissues",
+          "wrongAnswer3": "To prescribe medications for chronic pain",
+          "explanation": "Physical therapy mainly focuses on helping patients regain movement and improve function following injury or illness, rather than performing diagnoses, surgeries, or prescribing medications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common technique used in physical therapy?",
+          "correctAnswer": "Therapeutic exercises to improve strength and mobility",
+          "wrongAnswer1": "Administering intravenous medications",
+          "wrongAnswer2": "Performing acupuncture for pain relief",
+          "wrongAnswer3": "Using X-ray imaging to assess bone fractures",
+          "explanation": "Physical therapy commonly uses therapeutic exercises to help patients improve their strength and mobility, whereas administering medications, acupuncture, and imaging are outside its primary scope.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Who typically provides physical therapy treatments?",
+          "correctAnswer": "Licensed physical therapists",
+          "wrongAnswer1": "General practitioners",
+          "wrongAnswer2": "Pharmacists",
+          "wrongAnswer3": "Dietitians",
+          "explanation": "Physical therapy treatments are provided by licensed physical therapists who have specialized training in rehabilitation, unlike general practitioners, pharmacists, or dietitians.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Social health",
+      "questions": [
+        {
+          "question": "What is the primary focus of social health?",
+          "correctAnswer": "Maintaining positive and meaningful relationships with others",
+          "wrongAnswer1": "Improving physical fitness through exercise",
+          "wrongAnswer2": "Eating a balanced diet to prevent illness",
+          "wrongAnswer3": "Getting enough sleep every night",
+          "explanation": "Social health involves how well individuals interact and form relationships, which affects their overall well-being.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which activity best supports social health?",
+          "correctAnswer": "Participating in community events and social gatherings",
+          "wrongAnswer1": "Watching television for several hours alone",
+          "wrongAnswer2": "Reading books independently",
+          "wrongAnswer3": "Working out at the gym alone",
+          "explanation": "Engaging in social activities and community involvement helps build social connections and support networks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is social health important for overall well-being?",
+          "correctAnswer": "It helps reduce stress and improves emotional support",
+          "wrongAnswer1": "It only influences physical strength and endurance",
+          "wrongAnswer2": "It replaces the need for medical treatment",
+          "wrongAnswer3": "It guarantees financial success",
+          "explanation": "Good social health provides emotional support and reduces stress, which contributes to mental and physical health.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Work-life balance",
+      "questions": [
+        {
+          "question": "What is a key benefit of maintaining a good work-life balance?",
+          "correctAnswer": "Improved mental health and reduced stress levels",
+          "wrongAnswer1": "Increased work hours and productivity",
+          "wrongAnswer2": "Constant availability for work tasks",
+          "wrongAnswer3": "Greater focus on career advancement over personal time",
+          "explanation": "Maintaining a good work-life balance helps reduce stress and improve overall mental health by allowing time for relaxation and personal activities.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which strategy can help improve work-life balance?",
+          "correctAnswer": "Setting clear boundaries between work time and personal time",
+          "wrongAnswer1": "Checking work emails frequently outside office hours",
+          "wrongAnswer2": "Taking on extra work tasks to impress supervisors",
+          "wrongAnswer3": "Prioritizing work tasks over health needs regularly",
+          "explanation": "Setting clear boundaries helps individuals separate work responsibilities from personal life, promoting better balance and wellbeing.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a common consequence of poor work-life balance?",
+          "correctAnswer": "Increased risk of burnout and physical health problems",
+          "wrongAnswer1": "Enhanced social relationships and relaxation",
+          "wrongAnswer2": "Improved time management and satisfaction",
+          "wrongAnswer3": "Higher income due to extra work hours",
+          "explanation": "Poor work-life balance often leads to burnout, which negatively impacts both physical and mental health.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Healthy aging",
+      "questions": [
+        {
+          "question": "What is one key factor in promoting healthy aging?",
+          "correctAnswer": "Maintaining a balanced diet and regular exercise",
+          "wrongAnswer1": "Avoiding all physical activity",
+          "wrongAnswer2": "Eating only protein-rich foods",
+          "wrongAnswer3": "Ignoring mental health",
+          "explanation": "A balanced diet and regular exercise help maintain physical and mental health, which are essential for healthy aging.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which habit contributes most to healthy aging?",
+          "correctAnswer": "Regular physical activity and social engagement",
+          "wrongAnswer1": "Sleeping less than five hours per night",
+          "wrongAnswer2": "Smoking and excessive alcohol consumption",
+          "wrongAnswer3": "Isolation from friends and family",
+          "explanation": "Regular physical activity and social engagement improve overall health and reduce the risk of chronic diseases during aging.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is mental stimulation important for healthy aging?",
+          "correctAnswer": "It helps maintain cognitive function and reduces risk of dementia",
+          "wrongAnswer1": "It has no impact on physical health",
+          "wrongAnswer2": "It causes unnecessary stress",
+          "wrongAnswer3": "It only benefits young people",
+          "explanation": "Mental stimulation keeps the brain active, supporting cognitive health and possibly delaying the onset of dementia in older adults.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Mental disorders",
+      "questions": [
+        {
+          "question": "What is a common symptom of depression?",
+          "correctAnswer": "Persistent sadness or low mood",
+          "wrongAnswer1": "Sudden weight gain",
+          "wrongAnswer2": "High fever",
+          "wrongAnswer3": "Shortness of breath",
+          "explanation": "Depression commonly presents with a persistent feeling of sadness or low mood that lasts for weeks or more.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which mental disorder is characterized by episodes of mania and depression?",
+          "correctAnswer": "Bipolar disorder",
+          "wrongAnswer1": "Schizophrenia",
+          "wrongAnswer2": "Generalized anxiety disorder",
+          "wrongAnswer3": "Obsessive-compulsive disorder",
+          "explanation": "Bipolar disorder involves alternating episodes of mania (elevated mood) and depression (low mood).",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a commonly used type of therapy for treating anxiety disorders?",
+          "correctAnswer": "Cognitive behavioral therapy",
+          "wrongAnswer1": "Antibiotic treatment",
+          "wrongAnswer2": "Physical therapy",
+          "wrongAnswer3": "Electrocardiogram",
+          "explanation": "Cognitive behavioral therapy (CBT) is a widely used psychological treatment for anxiety disorders and helps change negative thought patterns.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Public health",
+      "questions": [
+        {
+          "question": "What is the primary goal of public health?",
+          "correctAnswer": "To prevent disease and promote health at the community level",
+          "wrongAnswer1": "To treat individual patients in hospitals",
+          "wrongAnswer2": "To conduct private medical research",
+          "wrongAnswer3": "To sell health insurance policies",
+          "explanation": "Public health focuses on preventing disease and promoting health across populations and communities, rather than treating individual cases.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common public health intervention?",
+          "correctAnswer": "Vaccination programs to prevent infectious diseases",
+          "wrongAnswer1": "Performing surgical procedures",
+          "wrongAnswer2": "Prescribing medication for individual patients",
+          "wrongAnswer3": "Designing fitness apps for personal use",
+          "explanation": "Public health interventions often include vaccination programs aimed at controlling and preventing infectious diseases among populations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does public health differ from clinical medicine?",
+          "correctAnswer": "Public health focuses on population health and prevention, clinical medicine focuses on individual treatment",
+          "wrongAnswer1": "Public health only involves mental health care, clinical medicine only physical health care",
+          "wrongAnswer2": "Public health deals exclusively with elderly care, clinical medicine does not",
+          "wrongAnswer3": "Public health is only concerned with nutrition, clinical medicine is only surgery",
+          "explanation": "Public health aims to improve health outcomes for entire populations through prevention and health promotion, whereas clinical medicine focuses on diagnosing and treating individual patients.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Health insurance",
+      "questions": [
+        {
+          "question": "What is the primary purpose of health insurance?",
+          "correctAnswer": "To help cover medical expenses for illnesses and injuries",
+          "wrongAnswer1": "To provide free gym memberships",
+          "wrongAnswer2": "To cover only dental treatments",
+          "wrongAnswer3": "To pay for holiday travel expenses",
+          "explanation": "Health insurance is designed to cover medical costs associated with illnesses and injuries, reducing the financial burden on individuals.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is typically NOT covered by basic health insurance plans?",
+          "correctAnswer": "Cosmetic surgery",
+          "wrongAnswer1": "Emergency room visits",
+          "wrongAnswer2": "Prescription medications",
+          "wrongAnswer3": "Preventive care screenings",
+          "explanation": "Basic health insurance plans usually do not cover elective cosmetic surgeries unless they are medically necessary.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a common feature of health insurance that requires the insured to pay a portion of the costs?",
+          "correctAnswer": "Copayment or deductible",
+          "wrongAnswer1": "Premium waiver",
+          "wrongAnswer2": "Lifetime maximum",
+          "wrongAnswer3": "No-claim bonus",
+          "explanation": "Most health insurance plans require policyholders to pay a copayment or deductible as a share of medical expenses before insurance coverage fully applies.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "First aid",
+      "questions": [
+        {
+          "question": "What is the first step you should take when providing first aid to an injured person?",
+          "correctAnswer": "Ensure the scene is safe for both you and the victim",
+          "wrongAnswer1": "Immediately start CPR",
+          "wrongAnswer2": "Give the person food and water",
+          "wrongAnswer3": "Move the person to a more comfortable place",
+          "explanation": "The first step in first aid is to make sure the environment is safe to prevent further harm to yourself or the injured person.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the primary purpose of applying pressure to a bleeding wound?",
+          "correctAnswer": "To stop or slow down the bleeding",
+          "wrongAnswer1": "To clean the wound completely",
+          "wrongAnswer2": "To reduce the pain instantly",
+          "wrongAnswer3": "To prevent infection permanently",
+          "explanation": "Applying pressure helps to compress blood vessels and slow down blood flow, which controls bleeding until professional help arrives.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a recommended action when assisting someone who is choking?",
+          "correctAnswer": "Giving the person water to drink",
+          "wrongAnswer1": "Performing back blows between the shoulder blades",
+          "wrongAnswer2": "Performing abdominal thrusts if the person cannot breathe",
+          "wrongAnswer3": "Encouraging the person to cough forcefully",
+          "explanation": "Giving water to a choking person can worsen the obstruction; instead, appropriate first aid techniques should be used.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Health technology",
+      "questions": [
+        {
+          "question": "What is the primary purpose of health technology?",
+          "correctAnswer": "To improve patient care and health outcomes",
+          "wrongAnswer1": "To entertain patients during hospital stays",
+          "wrongAnswer2": "To increase hospital profits",
+          "wrongAnswer3": "To replace healthcare professionals",
+          "explanation": "Health technology is designed to enhance the quality of healthcare by improving diagnosis, treatment, and patient monitoring, leading to better health outcomes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of health technology?",
+          "correctAnswer": "Electronic health records",
+          "wrongAnswer1": "Traditional paper medical charts",
+          "wrongAnswer2": "Handwritten prescriptions",
+          "wrongAnswer3": "Verbal patient instructions",
+          "explanation": "Electronic health records are digital versions of patients' medical histories that facilitate quick access and sharing of medical data among healthcare providers, exemplifying health technology.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does telemedicine exemplify health technology?",
+          "correctAnswer": "By enabling remote diagnosis and treatment through digital communication",
+          "wrongAnswer1": "By requiring patients to visit clinics in person",
+          "wrongAnswer2": "By eliminating the need for medical equipment",
+          "wrongAnswer3": "By replacing all face-to-face consultations with automated services",
+          "explanation": "Telemedicine uses digital communication tools to allow healthcare providers to diagnose and treat patients remotely, improving access to care especially for those in remote areas.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Herbal remedies",
+      "questions": [
+        {
+          "question": "What is a common reason people use herbal remedies?",
+          "correctAnswer": "To treat minor health issues naturally",
+          "wrongAnswer1": "To replace emergency medical care",
+          "wrongAnswer2": "To increase chances of rapid weight loss",
+          "wrongAnswer3": "To cure genetic conditions",
+          "explanation": "Herbal remedies are often used to treat minor health issues naturally, such as colds or minor skin conditions, but they are not substitutes for emergency medical care or treatments for serious diseases.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of an herbal remedy?",
+          "correctAnswer": "Chamomile tea for relaxation",
+          "wrongAnswer1": "Ibuprofen for pain relief",
+          "wrongAnswer2": "Antibiotics for infections",
+          "wrongAnswer3": "Insulin for diabetes management",
+          "explanation": "Chamomile tea is an herbal remedy commonly used for relaxation. Ibuprofen and antibiotics are pharmaceutical drugs, and insulin is a hormone therapy, not herbal remedies.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is an important safety consideration when using herbal remedies?",
+          "correctAnswer": "They may interact with prescription medications",
+          "wrongAnswer1": "They are always safe because they are natural",
+          "wrongAnswer2": "Dosage does not matter for herbal treatments",
+          "wrongAnswer3": "They can cure all illnesses without side effects",
+          "explanation": "Herbal remedies can interact with prescription medications, so it is important to consult healthcare providers before use. Being natural does not guarantee safety, and dosage is important to avoid side effects.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Sexual health",
+      "questions": [
+        {
+          "question": "What is an important aspect of maintaining good sexual health?",
+          "correctAnswer": "Regular testing for sexually transmitted infections",
+          "wrongAnswer1": "Ignoring symptoms and hoping they go away",
+          "wrongAnswer2": "Using protection during sexual activity",
+          "wrongAnswer3": "Having unprotected sex regularly",
+          "explanation": "Regular testing for sexually transmitted infections helps detect and treat infections early, contributing to good sexual health.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method is commonly recommended to prevent unwanted pregnancies and reduce the risk of sexually transmitted infections?",
+          "correctAnswer": "Using condoms consistently and correctly",
+          "wrongAnswer1": "Relying only on withdrawal method",
+          "wrongAnswer2": "Taking antibiotics regularly",
+          "wrongAnswer3": "Using herbal remedies",
+          "explanation": "Condoms are effective in preventing both unwanted pregnancies and sexually transmitted infections when used properly.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is open communication important in sexual health?",
+          "correctAnswer": "It helps partners discuss boundaries, consent, and health concerns openly",
+          "wrongAnswer1": "It allows partners to avoid difficult topics",
+          "wrongAnswer2": "It reduces the need for protection during sex",
+          "wrongAnswer3": "It guarantees no risk of infection",
+          "explanation": "Open communication builds trust and ensures that partners respect each other's boundaries and health, enhancing sexual health.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Pregnancy care",
+      "questions": [
+        {
+          "question": "What is a key component of prenatal care during pregnancy?",
+          "correctAnswer": "Regular check-ups with a healthcare provider",
+          "wrongAnswer1": "Avoiding all physical activity",
+          "wrongAnswer2": "Taking no vitamins or supplements",
+          "wrongAnswer3": "Eating twice the usual amount of food",
+          "explanation": "Regular check-ups help monitor the health of both mother and baby during pregnancy.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which nutrient is especially important to consume during pregnancy for fetal development?",
+          "correctAnswer": "Folic acid",
+          "wrongAnswer1": "Vitamin C only",
+          "wrongAnswer2": "Only carbohydrates",
+          "wrongAnswer3": "Iron alone is sufficient",
+          "explanation": "Folic acid is crucial in preventing neural tube defects and supporting fetal growth.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a common recommendation regarding exercise during pregnancy?",
+          "correctAnswer": "Engage in moderate physical activity as advised by a healthcare provider",
+          "wrongAnswer1": "Avoid all exercise to prevent harm",
+          "wrongAnswer2": "Start intense weightlifting programs",
+          "wrongAnswer3": "Exercise only after the first trimester",
+          "explanation": "Moderate exercise is beneficial for most pregnant women and should be done according to medical advice.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Child health",
+      "questions": [
+        {
+          "question": "What is a common measure to ensure good nutrition in children?",
+          "correctAnswer": "Providing a balanced diet with essential vitamins and minerals",
+          "wrongAnswer1": "Giving only high sugar snacks",
+          "wrongAnswer2": "Skipping breakfast regularly",
+          "wrongAnswer3": "Allowing unrestricted fast food consumption",
+          "explanation": "A balanced diet with essential vitamins and minerals supports proper growth and development in children.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is regular vaccination important for child health?",
+          "correctAnswer": "It protects children from contagious and potentially serious diseases",
+          "wrongAnswer1": "It guarantees children will never get sick",
+          "wrongAnswer2": "It improves children's intelligence",
+          "wrongAnswer3": "It replaces the need for good hygiene",
+          "explanation": "Vaccinations help build immunity and protect children from diseases that can cause severe illness.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a key factor in promoting mental health in children?",
+          "correctAnswer": "Providing a supportive and loving environment",
+          "wrongAnswer1": "Ignoring children's emotional needs",
+          "wrongAnswer2": "Exposing children to stressful situations",
+          "wrongAnswer3": "Isolating children from social interactions",
+          "explanation": "A supportive and loving environment helps children develop healthy emotional and social skills necessary for mental well-being.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Fitness tracking",
+      "questions": [
+        {
+          "question": "What is the primary purpose of fitness tracking devices?",
+          "correctAnswer": "To monitor physical activity and health metrics regularly",
+          "wrongAnswer1": "To provide entertainment through games and apps",
+          "wrongAnswer2": "To make phone calls and send messages",
+          "wrongAnswer3": "To serve as a replacement for medical check-ups",
+          "explanation": "Fitness tracking devices are mainly designed to monitor physical activity such as steps taken, heart rate, and sleep patterns to help users maintain or improve their health.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common feature found in most fitness trackers?",
+          "correctAnswer": "Heart rate monitoring",
+          "wrongAnswer1": "Cooking recipes",
+          "wrongAnswer2": "Video conferencing capabilities",
+          "wrongAnswer3": "Language translation",
+          "explanation": "Most fitness trackers include heart rate monitors to provide feedback on cardiovascular activity and fitness levels.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can fitness tracking influence a person's health habits?",
+          "correctAnswer": "By providing data that motivates regular exercise and better lifestyle choices",
+          "wrongAnswer1": "By automatically curing illnesses",
+          "wrongAnswer2": "By replacing the need for any medical professional",
+          "wrongAnswer3": "By promoting extensive use of social media",
+          "explanation": "Fitness tracking devices encourage healthier habits by giving users insights into their activity patterns and motivating them to improve their physical fitness.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Healthy habits",
+      "questions": [
+        {
+          "question": "What is an example of a healthy habit?",
+          "correctAnswer": "Eating a balanced diet with fruits and vegetables",
+          "wrongAnswer1": "Skipping breakfast regularly",
+          "wrongAnswer2": "Watching TV for long hours without moving",
+          "wrongAnswer3": "Eating lots of fast food every day",
+          "explanation": "Eating a balanced diet with fruits and vegetables provides essential nutrients that support overall health, unlike skipping breakfast or consuming mostly fast food.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is regular exercise considered a healthy habit?",
+          "correctAnswer": "It improves cardiovascular health and boosts energy levels",
+          "wrongAnswer1": "It leads to weight gain and tiredness",
+          "wrongAnswer2": "It causes excessive stress on the body",
+          "wrongAnswer3": "It reduces the need for sleep",
+          "explanation": "Regular exercise improves cardiovascular health and boosts energy, promoting wellbeing. It does not cause weight gain or reduce sleep needs negatively.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which habit helps promote good mental health?",
+          "correctAnswer": "Getting enough sleep each night",
+          "wrongAnswer1": "Staying up all night frequently",
+          "wrongAnswer2": "Skipping meals often",
+          "wrongAnswer3": "Ignoring social interactions",
+          "explanation": "Getting enough sleep helps the brain function properly and supports emotional balance, unlike staying up late or missing meals which can harm mental health.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Health",
+      "concept": "Environmental health",
+      "questions": [
+        {
+          "question": "What does environmental health primarily focus on?",
+          "correctAnswer": "The impact of the environment on human health",
+          "wrongAnswer1": "The study of genetic diseases",
+          "wrongAnswer2": "The treatment of infectious diseases",
+          "wrongAnswer3": "The analysis of nutritional values in food",
+          "explanation": "Environmental health is concerned with how environmental factors affect human health and well-being.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common environmental health hazard?",
+          "correctAnswer": "Air pollution",
+          "wrongAnswer1": "Vitamin deficiency",
+          "wrongAnswer2": "Genetic mutation",
+          "wrongAnswer3": "Poor posture",
+          "explanation": "Air pollution is a significant environmental health hazard that can cause respiratory and cardiovascular problems.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these measures is most effective in improving environmental health?",
+          "correctAnswer": "Reducing exposure to hazardous chemicals",
+          "wrongAnswer1": "Increasing physical exercise",
+          "wrongAnswer2": "Improving hospital care standards",
+          "wrongAnswer3": "Enhancing mental health awareness",
+          "explanation": "Reducing exposure to hazardous chemicals helps prevent diseases related to environmental contaminants, directly improving environmental health.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

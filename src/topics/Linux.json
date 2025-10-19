@@ -828,33 +828,33 @@
     },
     {
       "topic": "Linux",
-      "concept": "Linux Mint",
+      "concept": "GNU Utilities",
       "questions": [
         {
-          "question": "What is Linux Mint primarily known for?",
-          "correctAnswer": "User-friendly Linux distribution based on Ubuntu",
-          "wrongAnswer1": "Windows operating system variant",
-          "wrongAnswer2": "A type of hardware device",
-          "wrongAnswer3": "A programming language",
-          "explanation": "Linux Mint is widely known as a user-friendly Linux distribution that is based on Ubuntu, designed to provide a more approachable and comfortable experience for new Linux users.",
+          "question": "What is the primary purpose of GNU utilities in a Linux system?",
+          "correctAnswer": "To provide essential command-line tools and utilities for system operation",
+          "wrongAnswer1": "To provide a graphical user interface for Linux applications",
+          "wrongAnswer2": "To manage hardware drivers and kernel modules",
+          "wrongAnswer3": "To serve as a package management system",
+          "explanation": "GNU utilities are a collection of essential command-line tools that support basic operations and system management tasks in Linux.",
           "difficulty": "Basic"
         },
         {
-          "question": "Which desktop environment is most commonly associated with Linux Mint?",
-          "correctAnswer": "Cinnamon",
-          "wrongAnswer1": "KDE Plasma",
-          "wrongAnswer2": "GNOME",
-          "wrongAnswer3": "XFCE",
-          "explanation": "Linux Mint is most famously associated with the Cinnamon desktop environment, which was developed by the Linux Mint team to provide a traditional and easy-to-use interface.",
+          "question": "Which of the following is a common GNU utility used for file manipulation?",
+          "correctAnswer": "cp",
+          "wrongAnswer1": "mkdir",
+          "wrongAnswer2": "python",
+          "wrongAnswer3": "gcc",
+          "explanation": "cp is a GNU utility used to copy files and directories, making it a common file manipulation tool.",
           "difficulty": "Intermediate"
         },
         {
-          "question": "Which package management system does Linux Mint primarily use?",
-          "correctAnswer": "APT (Advanced Package Tool)",
-          "wrongAnswer1": "YUM",
-          "wrongAnswer2": "RPM",
-          "wrongAnswer3": "Pacman",
-          "explanation": "Linux Mint primarily uses APT for package management since it is based on Ubuntu and Debian, which use the APT system to handle software installation and updates.",
+          "question": "Which command-line utility from GNU is used for searching plain-text data for lines matching a regular expression?",
+          "correctAnswer": "grep",
+          "wrongAnswer1": "find",
+          "wrongAnswer2": "awk",
+          "wrongAnswer3": "sed",
+          "explanation": "grep searches through text for lines containing a match to a specified pattern, making it a fundamental text processing GNU utility.",
           "difficulty": "Intermediate"
         }
       ]
@@ -1455,33 +1455,33 @@
     },
     {
       "topic": "Linux",
-      "concept": "Linux Mint",
+      "concept": "Virtualization",
       "questions": [
         {
-          "question": "What is Linux Mint primarily known for in the Linux distribution world?",
-          "correctAnswer": "Being user-friendly and suitable for beginners",
-          "wrongAnswer1": "Being a command-line only system",
-          "wrongAnswer2": "Focusing mainly on server use",
-          "wrongAnswer3": "Exclusively supporting the KDE desktop environment",
-          "explanation": "Linux Mint is known for its user-friendly interface and ease of use, making it popular among beginners transitioning from other operating systems.",
+          "question": "What is the primary purpose of virtualization in Linux environments?",
+          "correctAnswer": "To run multiple virtual machines on a single physical host",
+          "wrongAnswer1": "To increase the physical memory of a Linux system",
+          "wrongAnswer2": "To replace the operating system kernel with a virtual one",
+          "wrongAnswer3": "To permanently partition a hard drive into several segments",
+          "explanation": "Virtualization allows multiple virtual machines to run on a single physical host, enabling efficient resource utilization and isolation.",
           "difficulty": "Basic"
         },
         {
-          "question": "Which desktop environments are commonly available in Linux Mint?",
-          "correctAnswer": "Cinnamon, MATE, and Xfce",
-          "wrongAnswer1": "GNOME only",
-          "wrongAnswer2": "KDE and LXQt only",
-          "wrongAnswer3": "Unity only",
-          "explanation": "Linux Mint offers several desktop environments including Cinnamon, MATE, and Xfce to cater to different user preferences.",
+          "question": "Which Linux tool is commonly used for managing virtual machines?",
+          "correctAnswer": "libvirt",
+          "wrongAnswer1": "GIMP",
+          "wrongAnswer2": "Emacs",
+          "wrongAnswer3": "Apache",
+          "explanation": "libvirt is a toolkit to interact with the virtualization capabilities of recent Linux systems and is commonly used to manage virtual machines.",
           "difficulty": "Intermediate"
         },
         {
-          "question": "What is a key feature of Linux Mint's update policy?",
-          "correctAnswer": "It provides safe and stable updates with a focus on system reliability",
-          "wrongAnswer1": "It installs all updates automatically without user control",
-          "wrongAnswer2": "It discourages users from updating their system",
-          "wrongAnswer3": "It updates only the kernel, ignoring other software",
-          "explanation": "Linux Mint emphasizes stable and reliable updates, allowing users to selectively apply updates to avoid system issues.",
+          "question": "What is a hypervisor in the context of Linux virtualization?",
+          "correctAnswer": "A software layer that manages virtual machines and controls their access to hardware",
+          "wrongAnswer1": "A type of Linux distribution optimized for networking",
+          "wrongAnswer2": "An application that provides graphical user interface for Linux",
+          "wrongAnswer3": "A security module for protecting Linux kernels",
+          "explanation": "The hypervisor is the software that enables virtualization by managing multiple virtual machines and their access to the physical hardware on the host system.",
           "difficulty": "Intermediate"
         }
       ]

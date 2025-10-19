@@ -1,0 +1,1655 @@
+{
+  "topic": "NodeJS",
+  "concepts": [
+    {
+      "topic": "NodeJS",
+      "concept": "Event Loop",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Event Loop in NodeJS?",
+          "correctAnswer": "To handle asynchronous operations without blocking the main thread",
+          "wrongAnswer1": "To manage database connections efficiently",
+          "wrongAnswer2": "To serve static files to clients",
+          "wrongAnswer3": "To compile JavaScript code before execution",
+          "explanation": "The Event Loop in NodeJS continuously monitors the call stack and callback queue to process asynchronous events, enabling non-blocking I/O operations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes how the Event Loop manages asynchronous callbacks in NodeJS?",
+          "correctAnswer": "It processes callbacks from the callback queue when the call stack is empty",
+          "wrongAnswer1": "It executes all callbacks in parallel to improve performance",
+          "wrongAnswer2": "It processes callbacks before executing the main code",
+          "wrongAnswer3": "It delays all asynchronous callbacks until a timer expires",
+          "explanation": "The Event Loop waits until the call stack is empty before processing callbacks from the callback queue, ensuring non-blocking execution.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In NodeJS Event Loop phases, which phase is responsible for executing timers scheduled by setTimeout or setInterval?",
+          "correctAnswer": "Timers phase",
+          "wrongAnswer1": "Poll phase",
+          "wrongAnswer2": "Check phase",
+          "wrongAnswer3": "Close callbacks phase",
+          "explanation": "The Timers phase of the Event Loop executes callbacks scheduled by setTimeout and setInterval functions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Asynchronous Programming",
+      "questions": [
+        {
+          "question": "What is the main advantage of asynchronous programming in NodeJS?",
+          "correctAnswer": "It allows non-blocking execution of code.",
+          "wrongAnswer1": "It makes the code run synchronously.",
+          "wrongAnswer2": "It slows down the execution to save resources.",
+          "wrongAnswer3": "It requires more memory to run programs.",
+          "explanation": "Asynchronous programming in NodeJS enables non-blocking execution, allowing other operations to run while waiting for tasks like I/O operations to complete.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which NodeJS feature most directly supports asynchronous programming?",
+          "correctAnswer": "The event loop",
+          "wrongAnswer1": "Global variables",
+          "wrongAnswer2": "Synchronous callbacks",
+          "wrongAnswer3": "Static typing",
+          "explanation": "The event loop in NodeJS facilitates asynchronous programming by handling operations asynchronously and executing callbacks when operations complete.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why might a developer use callbacks or promises in NodeJS asynchronous programming?",
+          "correctAnswer": "To handle the result of an asynchronous operation once it completes.",
+          "wrongAnswer1": "To make the code run faster synchronously.",
+          "wrongAnswer2": "To block the execution until the operation finishes.",
+          "wrongAnswer3": "To convert synchronous code into machine code.",
+          "explanation": "Callbacks and promises provide mechanisms to manage the outcome of asynchronous tasks when they complete without blocking the main execution thread.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Callbacks",
+      "questions": [
+        {
+          "question": "What is a callback in NodeJS?",
+          "correctAnswer": "A function passed as an argument to another function to be executed later",
+          "wrongAnswer1": "A variable that holds data temporarily",
+          "wrongAnswer2": "A method to handle synchronous operations",
+          "wrongAnswer3": "An error handling mechanism",
+          "explanation": "A callback in NodeJS is a function passed into another function as an argument, which is then invoked once an operation is completed, allowing asynchronous execution.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do callbacks help in NodeJS?",
+          "correctAnswer": "They allow asynchronous operations to complete before executing the next step",
+          "wrongAnswer1": "They convert synchronous code to asynchronous code automatically",
+          "wrongAnswer2": "They handle errors by catching exceptions",
+          "wrongAnswer3": "They optimize performance by running code in parallel automatically",
+          "explanation": "Callbacks help NodeJS handle asynchronous operations by executing the callback function once the task is done, ensuring non-blocking code execution.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What problem might occur when using multiple nested callbacks in NodeJS?",
+          "correctAnswer": "Callback hell, which makes code hard to read and maintain",
+          "wrongAnswer1": "Memory leaks due to synchronous blocking",
+          "wrongAnswer2": "Automatic garbage collection failure",
+          "wrongAnswer3": "Immediate termination of the program",
+          "explanation": "Using many nested callbacks can lead to callback hell, making code complex, hard to read, and difficult to maintain, which is a common challenge in asynchronous programming.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Promises",
+      "questions": [
+        {
+          "question": "What is the main purpose of a Promise in NodeJS?",
+          "correctAnswer": "To handle asynchronous operations and avoid callback hell",
+          "wrongAnswer1": "To improve synchronous code execution speed",
+          "wrongAnswer2": "To manage file system operations directly",
+          "wrongAnswer3": "To handle HTTP requests exclusively",
+          "explanation": "Promises in NodeJS provide a way to handle asynchronous operations, making code easier to read and maintain by avoiding deeply nested callbacks, known as callback hell.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method is used to handle the successful completion of a Promise?",
+          "correctAnswer": "then",
+          "wrongAnswer1": "catch",
+          "wrongAnswer2": "finally",
+          "wrongAnswer3": "resolve",
+          "explanation": "The then method is used to specify what to do when a Promise is fulfilled successfully. The catch method handles errors, and finally executes code after then or catch.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the catch method do in a Promise chain?",
+          "correctAnswer": "It handles any errors or rejections in the Promise chain",
+          "wrongAnswer1": "It always executes after then regardless of the Promise result",
+          "wrongAnswer2": "It converts a Promise into a synchronous operation",
+          "wrongAnswer3": "It initiates the Promise constructor",
+          "explanation": "The catch method is designed to catch and handle any errors or rejections that occur in a Promise chain, improving error handling in asynchronous code.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Async Await",
+      "questions": [
+        {
+          "question": "What is the primary benefit of using async await in NodeJS?",
+          "correctAnswer": "It allows writing asynchronous code that looks and behaves like synchronous code.",
+          "wrongAnswer1": "It makes all code execute synchronously without any async behavior.",
+          "wrongAnswer2": "It automatically converts synchronous code into asynchronous code.",
+          "wrongAnswer3": "It replaces all callbacks without using promises.",
+          "explanation": "Async await syntax in NodeJS helps write asynchronous code more clearly and understandably by making it appear synchronous, while still being asynchronous internally.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used to pause the execution of an async function until a Promise is resolved?",
+          "correctAnswer": "await",
+          "wrongAnswer1": "async",
+          "wrongAnswer2": "then",
+          "wrongAnswer3": "pause",
+          "explanation": "The 'await' keyword pauses the execution of an async function until the Promise it uses resolves, allowing code to wait for asynchronous operations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What must a function be declared with to use the await keyword inside it?",
+          "correctAnswer": "async",
+          "wrongAnswer1": "await",
+          "wrongAnswer2": "promise",
+          "wrongAnswer3": "defer",
+          "explanation": "To use the 'await' keyword inside a function, the function must be declared as 'async'. This marks it as asynchronous and allows the usage of await.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Node Modules",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Node modules?",
+          "correctAnswer": "To organize and reuse code in Node.js applications",
+          "wrongAnswer1": "To compile Node.js code into machine language",
+          "wrongAnswer2": "To create graphical user interfaces",
+          "wrongAnswer3": "To store database information",
+          "explanation": "Node modules allow developers to organize code into reusable pieces, making development more manageable and modular.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you include a Node module in your application?",
+          "correctAnswer": "Using the require function with the module name",
+          "wrongAnswer1": "Using import from the global namespace",
+          "wrongAnswer2": "Linking the module in HTML script tags",
+          "wrongAnswer3": "Calling the module directly by its filename",
+          "explanation": "In Node.js, the require function is used to include modules into your code by specifying the module name or path.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Where are the Node modules typically stored when installed via npm?",
+          "correctAnswer": "In the node_modules folder in the project directory",
+          "wrongAnswer1": "In the root directory of the operating system",
+          "wrongAnswer2": "In the public HTML folder of the project",
+          "wrongAnswer3": "In the system environment variables",
+          "explanation": "When npm installs modules, it places them inside the node_modules directory in the project's folder structure.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "NPM",
+      "questions": [
+        {
+          "question": "What is the primary purpose of NPM in NodeJS?",
+          "correctAnswer": "To manage and install packages and their dependencies",
+          "wrongAnswer1": "To execute NodeJS code on the server",
+          "wrongAnswer2": "To compile NodeJS code into machine code",
+          "wrongAnswer3": "To create user interfaces for NodeJS applications",
+          "explanation": "NPM (Node Package Manager) is mainly used to manage and install packages and their dependencies in NodeJS projects, facilitating code reuse and module management.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which command is used to initialize a new NodeJS project and create a package.json file using NPM?",
+          "correctAnswer": "npm init",
+          "wrongAnswer1": "npm start",
+          "wrongAnswer2": "npm install",
+          "wrongAnswer3": "npm run",
+          "explanation": "The 'npm init' command is used to create a package.json file that manages a NodeJS project's metadata and dependencies.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can you install a package locally in a NodeJS project using NPM?",
+          "correctAnswer": "npm install package-name",
+          "wrongAnswer1": "npm global install package-name",
+          "wrongAnswer2": "npm launch package-name",
+          "wrongAnswer3": "npm start package-name",
+          "explanation": "Using 'npm install package-name' installs the package locally to the project directory, allowing it to be used within that project.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "CommonJS",
+      "questions": [
+        {
+          "question": "What is the primary purpose of CommonJS in NodeJS?",
+          "correctAnswer": "To define a standard for module interoperability",
+          "wrongAnswer1": "To handle database connections",
+          "wrongAnswer2": "To format JSON data",
+          "wrongAnswer3": "To manage HTTP requests",
+          "explanation": "CommonJS is a standard designed to allow modules to be used in a consistent way across different JavaScript environments, especially in NodeJS.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these is the correct syntax to export a function in CommonJS?",
+          "correctAnswer": "module.exports = functionName",
+          "wrongAnswer1": "export functionName",
+          "wrongAnswer2": "exports.functionName = functionName",
+          "wrongAnswer3": "export default functionName",
+          "explanation": "In CommonJS, module.exports is used to export a single function, object, or value from a module.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you import a module in CommonJS within a NodeJS application?",
+          "correctAnswer": "Using the require function with the module name",
+          "wrongAnswer1": "Using import statement with the module name",
+          "wrongAnswer2": "Using include() with the module path",
+          "wrongAnswer3": "Using loadModule with the module name",
+          "explanation": "CommonJS modules are imported by using the require() function, which loads and caches the module.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "ES Modules",
+      "questions": [
+        {
+          "question": "What is the correct way to import a module using ES Modules in NodeJS?",
+          "correctAnswer": "import moduleName from './module.js';",
+          "wrongAnswer1": "const moduleName = require('./module.js');",
+          "wrongAnswer2": "import moduleName from 'module';",
+          "wrongAnswer3": "require('moduleName');",
+          "explanation": "ES Modules use the import syntax with the keyword import followed by the module name and path, ending with a semicolon. The require function is used in CommonJS, not ES Modules.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which file extension is typically used for ES Modules in NodeJS?",
+          "correctAnswer": ".js with type set to module in package.json",
+          "wrongAnswer1": ".mjs only",
+          "wrongAnswer2": ".cjs",
+          "wrongAnswer3": ".json",
+          "explanation": "ES Modules can use the .js extension if the package.json file sets type to module, enabling the ES Module syntax. .mjs is also recognized but not required if type is module.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do ES Modules in NodeJS differ from CommonJS modules?",
+          "correctAnswer": "ES Modules are statically analyzed and use import/export syntax, CommonJS uses require/exports and is dynamic.",
+          "wrongAnswer1": "ES Modules do not support asynchronous loading, CommonJS does.",
+          "wrongAnswer2": "CommonJS modules are loaded before ES Modules.",
+          "wrongAnswer3": "ES Modules can only be used in browsers.",
+          "explanation": "ES Modules allow static analysis and support import/export keywords, enabling better optimization. CommonJS uses require() calls and exports object, which are dynamic and loaded at runtime.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Streams",
+      "questions": [
+        {
+          "question": "What is the primary purpose of streams in NodeJS?",
+          "correctAnswer": "To handle reading or writing data in a continuous flow",
+          "wrongAnswer1": "To store large amounts of data in memory",
+          "wrongAnswer2": "To execute code asynchronously",
+          "wrongAnswer3": "To create server routes easily",
+          "explanation": "Streams in NodeJS are used to handle data in chunks over time, allowing for efficient reading or writing without loading the entire dataset into memory at once.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a type of stream in NodeJS?",
+          "correctAnswer": "Text stream",
+          "wrongAnswer1": "Readable stream",
+          "wrongAnswer2": "Writable stream",
+          "wrongAnswer3": "Duplex stream",
+          "explanation": "NodeJS streams are classified mainly as readable, writable, duplex, and transform streams. There is no specific 'text stream' type in NodeJS.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can you create a readable stream from a file using NodeJS?",
+          "correctAnswer": "Using fs.createReadStream method",
+          "wrongAnswer1": "Using net.createReadStream method",
+          "wrongAnswer2": "Using http.createReadStream method",
+          "wrongAnswer3": "Using stream.createReadStream method",
+          "explanation": "The fs module in NodeJS provides the createReadStream method to create a readable stream from a file, which allows reading the file content in chunks.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Buffer",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Buffer class in NodeJS?",
+          "correctAnswer": "To handle binary data directly in memory",
+          "wrongAnswer1": "To store JSON objects",
+          "wrongAnswer2": "To manage asynchronous callbacks",
+          "wrongAnswer3": "To create HTTP servers",
+          "explanation": "The Buffer class in NodeJS is designed to handle raw binary data stored in memory, enabling manipulation of binary streams.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can you create a new Buffer from a string in NodeJS?",
+          "correctAnswer": "Buffer.from('example')",
+          "wrongAnswer1": "new Buffer.string('example')",
+          "wrongAnswer2": "Buffer.new('example')",
+          "wrongAnswer3": "createBuffer('example')",
+          "explanation": "NodeJS uses Buffer.from method to create a new buffer containing the provided string converted into binary data.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method converts a Buffer back to a string in NodeJS?",
+          "correctAnswer": "buffer.toString()",
+          "wrongAnswer1": "buffer.convertToString()",
+          "wrongAnswer2": "buffer.stringify()",
+          "wrongAnswer3": "buffer.toJSON()",
+          "explanation": "The toString method converts the contents of a Buffer back to a UTF-8 string representation.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Process Object",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Process object in NodeJS?",
+          "correctAnswer": "To provide information and control about the current NodeJS process",
+          "wrongAnswer1": "To handle HTTP requests and responses",
+          "wrongAnswer2": "To manage file system operations",
+          "wrongAnswer3": "To create and manage database connections",
+          "explanation": "The Process object in NodeJS is a global object that provides information and control over the current NodeJS process running your application.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which property of the Process object gives access to the environment variables?",
+          "correctAnswer": "process.env",
+          "wrongAnswer1": "process.argv",
+          "wrongAnswer2": "process.envVars",
+          "wrongAnswer3": "process.envVariables",
+          "explanation": "The process.env property contains an object that holds all the environment variables available to the NodeJS process.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can you listen for the 'exit' event in the NodeJS Process object?",
+          "correctAnswer": "process.on('exit', callbackFunction)",
+          "wrongAnswer1": "process.exit.listen(callbackFunction)",
+          "wrongAnswer2": "process.listen('exit', callbackFunction)",
+          "wrongAnswer3": "process.exit.on('callbackFunction')",
+          "explanation": "You use process.on('exit', callback) to register a callback function that runs when the NodeJS process is about to exit.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Event Emitter",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Event Emitter in NodeJS",
+          "correctAnswer": "To handle and emit events asynchronously",
+          "wrongAnswer1": "To manage HTTP requests synchronously",
+          "wrongAnswer2": "To perform file system operations",
+          "wrongAnswer3": "To execute SQL queries",
+          "explanation": "The Event Emitter in NodeJS is designed to handle and emit events asynchronously, allowing the application to respond to various events efficiently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method is used to register an event listener on an Event Emitter object in NodeJS",
+          "correctAnswer": "on",
+          "wrongAnswer1": "emit",
+          "wrongAnswer2": "listen",
+          "wrongAnswer3": "handle",
+          "explanation": "The 'on' method is used to attach an event listener that listens for a specific event and executes a callback when that event is emitted.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens when you call the emit method on an Event Emitter instance",
+          "correctAnswer": "It triggers all listeners for the specified event",
+          "wrongAnswer1": "It deletes all listeners for the event",
+          "wrongAnswer2": "It pauses the event processing",
+          "wrongAnswer3": "It initializes a new event emitter",
+          "explanation": "Calling the 'emit' method triggers all the functions attached as listeners for that specific event, allowing asynchronous event handling.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "HTTP Server",
+      "questions": [
+        {
+          "question": "What module is primarily used to create an HTTP server in NodeJS?",
+          "correctAnswer": "http",
+          "wrongAnswer1": "https",
+          "wrongAnswer2": "net",
+          "wrongAnswer3": "express",
+          "explanation": "The 'http' module in NodeJS is the core module used to create HTTP servers without needing any external dependencies.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method is used to listen for incoming requests on a NodeJS HTTP server?",
+          "correctAnswer": "server.listen()",
+          "wrongAnswer1": "http.listen()",
+          "wrongAnswer2": "server.connect()",
+          "wrongAnswer3": "app.listen()",
+          "explanation": "The server.listen() method binds and listens for connections on the specified host and port, allowing the server to accept incoming requests.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In a basic NodeJS HTTP server, what arguments does the request listener function receive?",
+          "correctAnswer": "Request and Response objects",
+          "wrongAnswer1": "Request and Data objects",
+          "wrongAnswer2": "Response and Callback objects",
+          "wrongAnswer3": "Request only",
+          "explanation": "A request listener function for a NodeJS HTTP server receives two arguments: the request object that contains data about the client's request, and the response object used to send back the desired HTTP response.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Express Framework",
+      "questions": [
+        {
+          "question": "What is the primary use of the Express framework in NodeJS?",
+          "correctAnswer": "To simplify the process of building web applications and APIs",
+          "wrongAnswer1": "To handle database management and queries",
+          "wrongAnswer2": "To provide a GUI for desktop applications",
+          "wrongAnswer3": "To compile NodeJS code into executable files",
+          "explanation": "Express is a minimal and flexible NodeJS web application framework that provides features to build web and mobile applications, mainly web servers and APIs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method in Express is commonly used to define a route for handling GET requests?",
+          "correctAnswer": "app.get('/route', callback)",
+          "wrongAnswer1": "app.post('/route', callback)",
+          "wrongAnswer2": "app.delete('/route', callback)",
+          "wrongAnswer3": "app.listen('/route', callback)",
+          "explanation": "The app.get method is used in Express to define a route that listens for HTTP GET requests on a specific path.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In Express, what is middleware primarily used for?",
+          "correctAnswer": "To execute code during the request-response cycle, such as logging or authentication",
+          "wrongAnswer1": "To replace the need for routing requests",
+          "wrongAnswer2": "To serve static files exclusively",
+          "wrongAnswer3": "To connect databases automatically",
+          "explanation": "Middleware functions in Express are functions that have access to the request and response objects, and they can execute code, modify requests and responses, end the request-response cycle, or call the next middleware.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Middleware",
+      "questions": [
+        {
+          "question": "What is the primary purpose of middleware in a NodeJS application?",
+          "correctAnswer": "To process requests and responses between the client and server",
+          "wrongAnswer1": "To compile NodeJS code into machine code",
+          "wrongAnswer2": "To directly access the database without routing",
+          "wrongAnswer3": "To handle front-end rendering exclusively",
+          "explanation": "Middleware functions in NodeJS are used to process incoming requests and outgoing responses, acting as a bridge between the client and the server, often used for logging, authentication, and error handling.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes how middleware functions are executed in Express?",
+          "correctAnswer": "In sequence, one after another, until one ends the request-response cycle",
+          "wrongAnswer1": "Randomly, without a specific order",
+          "wrongAnswer2": "Only after the response has been sent to the client",
+          "wrongAnswer3": "Simultaneously in parallel threads",
+          "explanation": "Middleware functions in Express are executed sequentially, where each function can either pass control to the next or end the cycle by sending a response.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In an Express app, what parameters does a typical middleware function take?",
+          "correctAnswer": "Request, response, and next function",
+          "wrongAnswer1": "Request, database connection, and callback",
+          "wrongAnswer2": "Response, error, and session object",
+          "wrongAnswer3": "Next function, error, and client object",
+          "explanation": "A standard Express middleware function takes three arguments: the request object, the response object, and the next function which calls the next middleware in the stack.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "REST API",
+      "questions": [
+        {
+          "question": "What is a REST API in the context of NodeJS?",
+          "correctAnswer": "A REST API is a web service that uses HTTP methods to perform CRUD operations.",
+          "wrongAnswer1": "A REST API is a desktop application for processing local files.",
+          "wrongAnswer2": "A REST API is a database management system.",
+          "wrongAnswer3": "A REST API is a type of front-end framework used for UI design.",
+          "explanation": "In NodeJS, a REST API refers to a server-side web service that uses HTTP methods such as GET, POST, PUT, and DELETE to allow clients to create, read, update, and delete resources.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which HTTP method is commonly used to update a resource in a NodeJS REST API?",
+          "correctAnswer": "PUT",
+          "wrongAnswer1": "GET",
+          "wrongAnswer2": "POST",
+          "wrongAnswer3": "DELETE",
+          "explanation": "In REST APIs, the PUT method is typically used to update an existing resource, while GET is for retrieving data, POST is for creating new resources, and DELETE is for removing resources.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which NodeJS module is often used to build REST APIs easily?",
+          "correctAnswer": "Express",
+          "wrongAnswer1": "React",
+          "wrongAnswer2": "Angular",
+          "wrongAnswer3": "jQuery",
+          "explanation": "Express is a widely-used minimal and flexible NodeJS framework that simplifies creating REST APIs by providing useful middleware and routing features.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "File System",
+      "questions": [
+        {
+          "question": "What module do you use in NodeJS to interact with the file system?",
+          "correctAnswer": "fs module",
+          "wrongAnswer1": "http module",
+          "wrongAnswer2": "net module",
+          "wrongAnswer3": "path module",
+          "explanation": "The fs module in NodeJS provides functionalities to interact with the file system, such as reading and writing files.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which fs method is used to read the contents of a file asynchronously?",
+          "correctAnswer": "fs.readFile",
+          "wrongAnswer1": "fs.writeFile",
+          "wrongAnswer2": "fs.open",
+          "wrongAnswer3": "fs.unlink",
+          "explanation": "The fs.readFile method reads the content of a file asynchronously in NodeJS, whereas fs.writeFile writes to a file asynchronously.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can you check if a file exists synchronously using the fs module?",
+          "correctAnswer": "fs.existsSync(path)",
+          "wrongAnswer1": "fs.checkSync(path)",
+          "wrongAnswer2": "fs.fileExists(path)",
+          "wrongAnswer3": "fs.isFile(path)",
+          "explanation": "fs.existsSync(path) is the synchronous method to check if a file or directory exists at the given path in NodeJS.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Cluster Module",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Cluster module in NodeJS?",
+          "correctAnswer": "To create child processes that share the same server port",
+          "wrongAnswer1": "To handle file system operations asynchronously",
+          "wrongAnswer2": "To manage database connections efficiently",
+          "wrongAnswer3": "To implement routing for HTTP requests",
+          "explanation": "The Cluster module in NodeJS allows the creation of child processes that run simultaneously and share the same server port. This helps to take advantage of multi-core systems and improve performance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method is used to create a new worker in the NodeJS Cluster module?",
+          "correctAnswer": "cluster.fork()",
+          "wrongAnswer1": "cluster.spawn()",
+          "wrongAnswer2": "cluster.createWorker()",
+          "wrongAnswer3": "cluster.worker()",
+          "explanation": "The cluster.fork() method is used to create a new worker process in the Cluster module. Each worker runs independently but shares the server port.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does the Cluster module help in scaling a NodeJS application?",
+          "correctAnswer": "By creating multiple worker processes that can handle requests concurrently",
+          "wrongAnswer1": "By caching responses to reduce database load",
+          "wrongAnswer2": "By converting the application to a microservices architecture",
+          "wrongAnswer3": "By optimizing the event loop execution speed",
+          "explanation": "The Cluster module creates multiple worker processes that can each handle requests concurrently, effectively utilizing multiple CPU cores and improving application scalability.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Child Process",
+      "questions": [
+        {
+          "question": "What module in NodeJS is used to create and manage child processes?",
+          "correctAnswer": "The child_process module",
+          "wrongAnswer1": "The fs module",
+          "wrongAnswer2": "The http module",
+          "wrongAnswer3": "The events module",
+          "explanation": "NodeJS uses the child_process module to create and manage child processes, allowing for asynchronous operations and handling subprocesses.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method in the child_process module is used to spawn a new process in NodeJS?",
+          "correctAnswer": "spawn",
+          "wrongAnswer1": "fork",
+          "wrongAnswer2": "execFile",
+          "wrongAnswer3": "execSync",
+          "explanation": "The spawn method is used to launch a new process with the given command. It provides more control over the subprocess, including streaming input/output.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does the exec function differ from spawn in the child_process module?",
+          "correctAnswer": "exec buffers the output and runs a command in a shell, while spawn streams output and runs a command directly",
+          "wrongAnswer1": "exec streams output and runs commands directly, while spawn buffers output",
+          "wrongAnswer2": "exec is synchronous, while spawn is asynchronous",
+          "wrongAnswer3": "exec is used for file operations, while spawn is for networking tasks",
+          "explanation": "exec runs a command in a shell and buffers the output internally, suitable for smaller outputs. Spawn starts a new process directly and streams output, useful for large data or long-running processes.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Debugging",
+      "questions": [
+        {
+          "question": "What is the primary purpose of debugging in NodeJS?",
+          "correctAnswer": "To identify and fix errors in the NodeJS application code",
+          "wrongAnswer1": "To increase the speed of the NodeJS runtime",
+          "wrongAnswer2": "To convert JavaScript code to another programming language",
+          "wrongAnswer3": "To optimize the NodeJS application for production",
+          "explanation": "Debugging refers to the process of finding and resolving bugs or errors in the application code to ensure it runs correctly.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following NodeJS tools can be used for debugging?",
+          "correctAnswer": "Node Inspector or built-in debugger module",
+          "wrongAnswer1": "NPM install command",
+          "wrongAnswer2": "Node Package Manager",
+          "wrongAnswer3": "NodeJS file system module",
+          "explanation": "Node Inspector and the built-in debugger module provide tools to step through code and inspect application state during execution.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does the --inspect flag assist with debugging NodeJS applications?",
+          "correctAnswer": "It enables the V8 inspector integration so you can debug using Chrome DevTools",
+          "wrongAnswer1": "It automatically fixes syntax errors in the code",
+          "wrongAnswer2": "It runs the application without any breakpoints",
+          "wrongAnswer3": "It compiles the code into an executable",
+          "explanation": "The --inspect flag activates the debugging protocol allowing developers to use Chrome DevTools for interactive debugging.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Error Handling",
+      "questions": [
+        {
+          "question": "Which method is commonly used in NodeJS to handle synchronous errors?",
+          "correctAnswer": "Try catch block",
+          "wrongAnswer1": "Event listeners",
+          "wrongAnswer2": "Callback functions",
+          "wrongAnswer3": "Promises",
+          "explanation": "In NodeJS, synchronous errors are typically handled using try catch blocks, which allow the program to catch exceptions and handle them gracefully.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the purpose of error-first callbacks in NodeJS?",
+          "correctAnswer": "To pass an error object as the first argument to signal errors",
+          "wrongAnswer1": "To enhance performance by avoiding errors",
+          "wrongAnswer2": "To define the success result as the first argument",
+          "wrongAnswer3": "To handle events using callback functions",
+          "explanation": "Error-first callbacks in NodeJS conventionally pass an error object as the first argument, so the function knows if an error occurred and can handle it if needed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do Promises improve error handling in asynchronous NodeJS code compared to callbacks?",
+          "correctAnswer": "They allow chaining with catch to handle errors more cleanly",
+          "wrongAnswer1": "They automatically retry failed operations",
+          "wrongAnswer2": "They prevent errors from occurring",
+          "wrongAnswer3": "They require less code to write synchronous logic",
+          "explanation": "Promises provide a better structure for asynchronous error handling by allowing chaining methods such as catch to handle errors in one place rather than nested callbacks.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Package.json",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the package.json file in a NodeJS project?",
+          "correctAnswer": "To manage project dependencies and metadata",
+          "wrongAnswer1": "To store the main project source code",
+          "wrongAnswer2": "To serve as a configuration file for the NodeJS runtime",
+          "wrongAnswer3": "To define the database schema for the project",
+          "explanation": "The package.json file is mainly used to manage project dependencies, scripts, and metadata like the project name and version.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which field in the package.json file defines the command to start the application?",
+          "correctAnswer": "scripts",
+          "wrongAnswer1": "dependencies",
+          "wrongAnswer2": "main",
+          "wrongAnswer3": "engines",
+          "explanation": "The scripts section in package.json allows you to define commands like start, test, and others for the project.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "If you want to specify a specific version of a dependency in package.json, which field would you use?",
+          "correctAnswer": "dependencies",
+          "wrongAnswer1": "devDependencies",
+          "wrongAnswer2": "scripts",
+          "wrongAnswer3": "engines",
+          "explanation": "dependencies lists the packages your project needs to run, and you can specify the specific version or version range for each package.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Environment Variables",
+      "questions": [
+        {
+          "question": "What is the primary purpose of environment variables in NodeJS applications?",
+          "correctAnswer": "To store configuration settings outside the source code",
+          "wrongAnswer1": "To write temporary data during execution",
+          "wrongAnswer2": "To handle user input data",
+          "wrongAnswer3": "To manage server-side rendering",
+          "explanation": "Environment variables are mainly used to keep configuration details like database credentials, API keys, and other settings outside of the application code, allowing better security and flexibility.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can you access environment variables in a NodeJS application?",
+          "correctAnswer": "Using process.env object",
+          "wrongAnswer1": "Using global.env object",
+          "wrongAnswer2": "Using require.env module",
+          "wrongAnswer3": "Using dotenv.config() directly",
+          "explanation": "Environment variables in NodeJS are accessible through the process.env object, which holds all the environment variables as properties.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which package is commonly used in NodeJS for loading environment variables from a .env file?",
+          "correctAnswer": "dotenv",
+          "wrongAnswer1": "express",
+          "wrongAnswer2": "http",
+          "wrongAnswer3": "nodemon",
+          "explanation": "The dotenv package is widely used to load environment variables defined in a .env file into process.env, making it easy to manage configuration during development.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "REPL",
+      "questions": [
+        {
+          "question": "What does REPL in NodeJS stand for?",
+          "correctAnswer": "Read Eval Print Loop",
+          "wrongAnswer1": "Rapid Execute Process Loop",
+          "wrongAnswer2": "Read Evaluate Print Line",
+          "wrongAnswer3": "Run Execute Program Logic",
+          "explanation": "REPL stands for Read Eval Print Loop, which is an interactive programming environment that takes single user inputs, executes them, and returns the result to the user.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature best describes NodeJS REPL?",
+          "correctAnswer": "An interactive shell for executing JavaScript code",
+          "wrongAnswer1": "A debugging tool for NodeJS",
+          "wrongAnswer2": "A package manager for NodeJS modules",
+          "wrongAnswer3": "A library for building web servers",
+          "explanation": "NodeJS REPL is an interactive shell that allows running JavaScript code line by line, making it useful for quick testing and experimentation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In NodeJS REPL, what happens when you type and enter a JavaScript statement?",
+          "correctAnswer": "The statement is immediately evaluated and the result printed",
+          "wrongAnswer1": "The statement is saved as a script file",
+          "wrongAnswer2": "The statement is ignored until a run command is given",
+          "wrongAnswer3": "The statement is compiled but not executed",
+          "explanation": "In the NodeJS REPL, each entered statement is evaluated instantly and the output is printed, enabling immediate feedback.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Global Objects",
+      "questions": [
+        {
+          "question": "Which global object in NodeJS provides information about the current process?",
+          "correctAnswer": "process",
+          "wrongAnswer1": "global",
+          "wrongAnswer2": "console",
+          "wrongAnswer3": "module",
+          "explanation": "The 'process' global object in NodeJS provides information and control over the current NodeJS process, including environment info, stdin, stdout, and exit events.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In NodeJS, what does the global object 'Buffer' primarily handle?",
+          "correctAnswer": "Handling binary data",
+          "wrongAnswer1": "Managing HTTP requests",
+          "wrongAnswer2": "Scheduling tasks",
+          "wrongAnswer3": "Logging output",
+          "explanation": "The 'Buffer' global object is used for handling and manipulating raw binary data in NodeJS, useful for file system operations and network protocols.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which global object would you use in NodeJS to write logs to the console?",
+          "correctAnswer": "console",
+          "wrongAnswer1": "process",
+          "wrongAnswer2": "global",
+          "wrongAnswer3": "require",
+          "explanation": "The 'console' global object provides methods like log, error, and warn that write output to the terminal or command line, useful for debugging and logging.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Timers",
+      "questions": [
+        {
+          "question": "What function is used to schedule a callback to run after a certain delay in NodeJS?",
+          "correctAnswer": "setTimeout",
+          "wrongAnswer1": "setInterval",
+          "wrongAnswer2": "clearTimeout",
+          "wrongAnswer3": "process.nextTick",
+          "explanation": "setTimeout schedules a callback function to execute once after the specified delay. setInterval calls repeatedly, clearTimeout cancels a timeout, and process.nextTick schedules a callback to run on the next event loop iteration.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which NodeJS timer method repeatedly executes a function at specified intervals?",
+          "correctAnswer": "setInterval",
+          "wrongAnswer1": "setTimeout",
+          "wrongAnswer2": "clearInterval",
+          "wrongAnswer3": "process.nextTick",
+          "explanation": "setInterval schedules a function to run repeatedly at the given interval. setTimeout runs once after delay, clearInterval cancels intervals, and process.nextTick schedules a callback to run immediately after the current operation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you stop a timer set by setTimeout in NodeJS?",
+          "correctAnswer": "Calling clearTimeout with the timeout ID",
+          "wrongAnswer1": "Calling clearInterval with the interval ID",
+          "wrongAnswer2": "Calling setTimeout again with zero delay",
+          "wrongAnswer3": "Calling process.exit",
+          "explanation": "clearTimeout is used to cancel a timer created with setTimeout by passing its ID. clearInterval is for intervals, and process.exit terminates the process.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Sockets",
+      "questions": [
+        {
+          "question": "What is the primary purpose of sockets in NodeJS?",
+          "correctAnswer": "To enable communication between a client and a server over a network",
+          "wrongAnswer1": "To manage database connections within NodeJS applications",
+          "wrongAnswer2": "To handle file system operations asynchronously",
+          "wrongAnswer3": "To create user interfaces in NodeJS applications",
+          "explanation": "Sockets are used to establish network communication channels between clients and servers, allowing data to be sent and received over a network.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which NodeJS module is commonly used to create and manage TCP sockets?",
+          "correctAnswer": "net",
+          "wrongAnswer1": "http",
+          "wrongAnswer2": "fs",
+          "wrongAnswer3": "express",
+          "explanation": "The 'net' module in NodeJS provides an asynchronous network API for creating stream-based TCP or IPC servers and clients.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In a WebSocket connection using NodeJS, which event indicates that the connection has been established?",
+          "correctAnswer": "open",
+          "wrongAnswer1": "connect",
+          "wrongAnswer2": "ready",
+          "wrongAnswer3": "start",
+          "explanation": "The 'open' event is emitted when a WebSocket connection is successfully established between the client and server.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "WebSockets",
+      "questions": [
+        {
+          "question": "What is the primary use of WebSockets in NodeJS?",
+          "correctAnswer": "To enable full-duplex communication between client and server",
+          "wrongAnswer1": "To serve static files to the client",
+          "wrongAnswer2": "To perform server-side rendering",
+          "wrongAnswer3": "To handle database queries asynchronously",
+          "explanation": "WebSockets provide a full-duplex communication channel over a single TCP connection, which is ideal for real-time data exchange between client and server in NodeJS applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which NodeJS module is commonly used to implement WebSocket servers?",
+          "correctAnswer": "ws",
+          "wrongAnswer1": "http",
+          "wrongAnswer2": "express",
+          "wrongAnswer3": "fs",
+          "explanation": "The 'ws' module is a popular WebSocket implementation for NodeJS, allowing easy setup of WebSocket servers for real-time communication.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does the term 'full-duplex' mean in the context of WebSockets?",
+          "correctAnswer": "Data can be sent and received simultaneously between client and server",
+          "wrongAnswer1": "Data can only be sent from server to client",
+          "wrongAnswer2": "Data is encrypted before being sent",
+          "wrongAnswer3": "Only one message can be sent at a time",
+          "explanation": "Full-duplex communication means that both parties can send and receive data at the same time, which is a key feature of WebSockets enabling real-time interaction.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Microservices",
+      "questions": [
+        {
+          "question": "What is a primary characteristic of microservices in NodeJS applications?",
+          "correctAnswer": "They are small, independent services that communicate over a network.",
+          "wrongAnswer1": "They require a single monolithic codebase.",
+          "wrongAnswer2": "They always use synchronous communication within the same process.",
+          "wrongAnswer3": "They cannot be deployed independently.",
+          "explanation": "Microservices are designed as small, independent services that communicate with each other over a network, allowing independent deployment and scalability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common communication protocol used between microservices in NodeJS?",
+          "correctAnswer": "HTTP/REST APIs",
+          "wrongAnswer1": "Direct database connections",
+          "wrongAnswer2": "In-memory function calls",
+          "wrongAnswer3": "File system sharing",
+          "explanation": "Microservices commonly communicate using HTTP/REST APIs, enabling services to interact over the network in a loosely coupled manner.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why might NodeJS be a good choice for implementing microservices?",
+          "correctAnswer": "Its event-driven, non-blocking I/O model supports scalable network applications.",
+          "wrongAnswer1": "It enforces strict synchronous processing which simplifies microservices.",
+          "wrongAnswer2": "It restricts services to a single thread to avoid complexity.",
+          "wrongAnswer3": "It is only designed for desktop applications, not network services.",
+          "explanation": "NodeJS's event-driven, non-blocking I/O model makes it well suited for building scalable networked microservices architectures.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Authentication",
+      "questions": [
+        {
+          "question": "What is the primary purpose of authentication in a NodeJS application?",
+          "correctAnswer": "To verify the identity of a user or system",
+          "wrongAnswer1": "To control the access rights of a user",
+          "wrongAnswer2": "To store user data securely",
+          "wrongAnswer3": "To encrypt the user password",
+          "explanation": "Authentication is the process of verifying the identity of a user or system before granting access to resources.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is commonly used in NodeJS for implementing authentication?",
+          "correctAnswer": "Passport.js middleware",
+          "wrongAnswer1": "Express Validator",
+          "wrongAnswer2": "Morgan logger",
+          "wrongAnswer3": "CORS middleware",
+          "explanation": "Passport.js is a popular authentication middleware for NodeJS, providing various strategies for user login.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a JSON Web Token (JWT) used for in NodeJS authentication?",
+          "correctAnswer": "To securely transmit information between parties as a JSON object",
+          "wrongAnswer1": "To hash user passwords",
+          "wrongAnswer2": "To serve static files",
+          "wrongAnswer3": "To manage user sessions on the server",
+          "explanation": "JWT is used to securely transmit claims between parties and is commonly used for stateless authentication in NodeJS applications.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "JWT",
+      "questions": [
+        {
+          "question": "What does JWT stand for in the context of NodeJS authentication?",
+          "correctAnswer": "JSON Web Token",
+          "wrongAnswer1": "Java Web Technology",
+          "wrongAnswer2": "JavaScript Web Token",
+          "wrongAnswer3": "Java Web Token",
+          "explanation": "JWT stands for JSON Web Token, which is a compact, URL-safe means of representing claims to be transferred between two parties for authentication and information exchange.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the primary purpose of using JWT in NodeJS applications?",
+          "correctAnswer": "To securely transmit information between parties as a JSON object",
+          "wrongAnswer1": "To store session information on the server",
+          "wrongAnswer2": "To encrypt database entries",
+          "wrongAnswer3": "To handle HTTP request routing",
+          "explanation": "JWTs are primarily used to securely transfer claims or information between parties. They are often used for authentication and authorization purposes in NodeJS applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which part of the JWT contains the claims or payload data?",
+          "correctAnswer": "The second part, called the payload",
+          "wrongAnswer1": "The first part, called the header",
+          "wrongAnswer2": "The third part, called the signature",
+          "wrongAnswer3": "JWT does not contain payload data",
+          "explanation": "A typical JWT has three parts: header, payload, and signature. The payload part contains the claims or the JSON data that conveys information.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "OAuth",
+      "questions": [
+        {
+          "question": "What is the primary purpose of OAuth in NodeJS applications?",
+          "correctAnswer": "To authorize third-party applications to access user data without sharing passwords",
+          "wrongAnswer1": "To encrypt user passwords before storing them",
+          "wrongAnswer2": "To manage database connections securely",
+          "wrongAnswer3": "To create custom user authentication from scratch",
+          "explanation": "OAuth is a protocol that allows third-party applications to access user resources without exposing user passwords, providing secure authorization in NodeJS apps.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes how OAuth works in a NodeJS app?",
+          "correctAnswer": "It delegates user authentication to an external service, then grants access tokens for API calls",
+          "wrongAnswer1": "It stores user credentials directly in the NodeJS server for validation",
+          "wrongAnswer2": "It requires users to enter their passwords on every API request",
+          "wrongAnswer3": "It uses cookies to manage user sessions without tokens",
+          "explanation": "OAuth works by delegating authentication to an external provider and issuing access tokens, enabling secure API access without password sharing.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "When implementing OAuth in NodeJS, which token is primarily used to access protected resources?",
+          "correctAnswer": "Access token",
+          "wrongAnswer1": "Refresh token",
+          "wrongAnswer2": "ID token",
+          "wrongAnswer3": "Session token",
+          "explanation": "The access token is used to grant clients permission to access protected resources. Refresh tokens are used to obtain new access tokens.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Database Integration",
+      "questions": [
+        {
+          "question": "What is a common NodeJS module used for integrating with MongoDB databases?",
+          "correctAnswer": "Mongoose",
+          "wrongAnswer1": "Express",
+          "wrongAnswer2": "React",
+          "wrongAnswer3": "Lodash",
+          "explanation": "Mongoose is a popular ODM (Object Data Modeling) library for MongoDB and NodeJS that provides a straightforward schema-based solution to model application data.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method in NodeJS is commonly used to establish a connection to a SQL database?",
+          "correctAnswer": "Using a client.connect() method",
+          "wrongAnswer1": "Using res.send() method",
+          "wrongAnswer2": "Calling app.use() middleware",
+          "wrongAnswer3": "Calling JSON.stringify()",
+          "explanation": "In NodeJS database clients like pg for PostgreSQL or mysql modules, the connect method is used to establish a connection to the database server.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When integrating databases in NodeJS, which practice helps prevent SQL injection attacks?",
+          "correctAnswer": "Using parameterized queries or prepared statements",
+          "wrongAnswer1": "Concatenating user input strings in queries",
+          "wrongAnswer2": "Ignoring user input sanitization",
+          "wrongAnswer3": "Using plain text passwords",
+          "explanation": "Parameterized queries or prepared statements ensure that SQL code and data inputs are separated, reducing the risk of SQL injection vulnerabilities when interacting with databases.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "MongoDB",
+      "questions": [
+        {
+          "question": "What is MongoDB in the context of NodeJS development?",
+          "correctAnswer": "A NoSQL database used to store JSON-like documents",
+          "wrongAnswer1": "A package manager for NodeJS",
+          "wrongAnswer2": "A front-end framework",
+          "wrongAnswer3": "A testing tool for JavaScript applications",
+          "explanation": "MongoDB is a NoSQL database that stores data in flexible, JSON-like documents, commonly used with NodeJS for backend data management.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which NodeJS package is commonly used to interact with MongoDB?",
+          "correctAnswer": "Mongoose",
+          "wrongAnswer1": "Express",
+          "wrongAnswer2": "React",
+          "wrongAnswer3": "Angular",
+          "explanation": "Mongoose is an ODM (Object Data Modeling) library for MongoDB and NodeJS, providing a straightforward schema-based solution to model data.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does MongoDB store data differently compared to traditional SQL databases?",
+          "correctAnswer": "It stores data in collections of JSON-like documents instead of tables with rows and columns",
+          "wrongAnswer1": "It stores data in Excel sheets only",
+          "wrongAnswer2": "It requires fixed schemas before storing data",
+          "wrongAnswer3": "It uses stored procedures for querying",
+          "explanation": "MongoDB uses collections of flexible documents which makes it different from relational databases that use fixed schema tables.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "MySQL",
+      "questions": [
+        {
+          "question": "What is the main purpose of using MySQL with NodeJS?",
+          "correctAnswer": "To store and manage data in a database",
+          "wrongAnswer1": "To style web pages dynamically",
+          "wrongAnswer2": "To handle user authentication without a database",
+          "wrongAnswer3": "To create server-side animations",
+          "explanation": "MySQL is a relational database management system used with NodeJS to store, retrieve and manage data.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which NodeJS module is commonly used to connect to a MySQL database?",
+          "correctAnswer": "mysql",
+          "wrongAnswer1": "http",
+          "wrongAnswer2": "express",
+          "wrongAnswer3": "fs",
+          "explanation": "The 'mysql' module in NodeJS provides functionalities to connect and query MySQL databases.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you initiate a connection to a MySQL database in NodeJS?",
+          "correctAnswer": "By creating a connection object with hostname, user, password, and database name",
+          "wrongAnswer1": "By importing the MySQL database directly into NodeJS code",
+          "wrongAnswer2": "By running SQL commands directly without a connection",
+          "wrongAnswer3": "By using NodeJS global variables to connect automatically",
+          "explanation": "A connection to MySQL in NodeJS requires creating a connection object with necessary credentials.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Sequelize",
+      "questions": [
+        {
+          "question": "What is Sequelize primarily used for in NodeJS applications?",
+          "correctAnswer": "It is an Object-Relational Mapping tool to interact with databases.",
+          "wrongAnswer1": "It is a framework for creating web servers.",
+          "wrongAnswer2": "It handles real-time communication between clients and servers.",
+          "wrongAnswer3": "It is a tool to manage file uploads in NodeJS.",
+          "explanation": "Sequelize is an ORM for NodeJS that allows developers to define and work with database models using JavaScript instead of raw SQL queries.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following features is supported by Sequelize?",
+          "correctAnswer": "Model definition and associations like one-to-many relationships.",
+          "wrongAnswer1": "Direct manipulation of DOM elements in NodeJS.",
+          "wrongAnswer2": "Automatic generation of frontend UI components.",
+          "wrongAnswer3": "Serving static files in an Express application.",
+          "explanation": "Sequelize allows defining models and relationships (associations) between them, such as one-to-many and many-to-many, for database operations.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Sequelize execute raw SQL queries alongside model operations?",
+          "correctAnswer": "It provides a query interface to run raw SQL queries for complex operations.",
+          "wrongAnswer1": "It automatically converts JavaScript functions into SQL procedures.",
+          "wrongAnswer2": "It uses SQL queries only for model creation but not for data manipulation.",
+          "wrongAnswer3": "It does not allow running raw SQL queries at all.",
+          "explanation": "Sequelize has a query interface that lets developers execute raw SQL when complex queries are needed beyond the ORM capabilities.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Mongoose",
+      "questions": [
+        {
+          "question": "What is Mongoose primarily used for in a NodeJS application?",
+          "correctAnswer": "To interact with MongoDB databases using schema-based models",
+          "wrongAnswer1": "To manage file uploads on the server",
+          "wrongAnswer2": "To handle HTTP request routing",
+          "wrongAnswer3": "To create real-time communication channels",
+          "explanation": "Mongoose is a NodeJS library that provides a schema-based solution to model data in MongoDB, facilitating easier and structured database operations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which Mongoose feature allows you to enforce a structure on documents in a MongoDB collection?",
+          "correctAnswer": "Defining a schema",
+          "wrongAnswer1": "Creating a middleware",
+          "wrongAnswer2": "Setting up a virtual property",
+          "wrongAnswer3": "Implementing a plugin",
+          "explanation": "Mongoose schemas define the structure and data types for documents stored in MongoDB collections, providing data validation and consistency.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the Mongoose method 'populate' primarily do?",
+          "correctAnswer": "It fills referenced document fields with the actual document data from other collections",
+          "wrongAnswer1": "It updates multiple documents in bulk",
+          "wrongAnswer2": "It removes documents that match a query",
+          "wrongAnswer3": "It creates a new collection in the database",
+          "explanation": "The 'populate' method in Mongoose replaces the specified path in a document with the document(s) from other collections that it references, enabling easy reference data retrieval.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Logging",
+      "questions": [
+        {
+          "question": "What is the purpose of logging in NodeJS applications?",
+          "correctAnswer": "To record events for debugging and monitoring purposes",
+          "wrongAnswer1": "To execute asynchronous code more efficiently",
+          "wrongAnswer2": "To store user data persistently",
+          "wrongAnswer3": "To handle HTTP requests",
+          "explanation": "Logging is used in NodeJS applications to record various runtime events which helps developers debug issues and monitor application behavior.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which NodeJS module is commonly used for simple logging to the console?",
+          "correctAnswer": "console",
+          "wrongAnswer1": "http",
+          "wrongAnswer2": "fs",
+          "wrongAnswer3": "path",
+          "explanation": "The console module provides basic logging functionality such as console.log used for standard output in NodeJS.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What advantage do logging libraries like Winston or Bunyan offer over using console.log in NodeJS?",
+          "correctAnswer": "They provide configurable log levels and output formats",
+          "wrongAnswer1": "They automatically fix code errors",
+          "wrongAnswer2": "They improve NodeJS runtime performance directly",
+          "wrongAnswer3": "They handle database connections",
+          "explanation": "Logging libraries like Winston or Bunyan offer advanced features such as configurable log levels, multiple output formats, and persistent log storage, improving logging flexibility compared to console.log.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Unit Testing",
+      "questions": [
+        {
+          "question": "What is the main purpose of unit testing in NodeJS development?",
+          "correctAnswer": "To test individual components or functions in isolation",
+          "wrongAnswer1": "To test the whole application at once",
+          "wrongAnswer2": "To test the user interface only",
+          "wrongAnswer3": "To test network and database connectivity",
+          "explanation": "Unit testing focuses on testing small, individual parts of a program in isolation to ensure they work correctly by themselves.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following frameworks is commonly used for unit testing in NodeJS?",
+          "correctAnswer": "Mocha",
+          "wrongAnswer1": "React",
+          "wrongAnswer2": "Express",
+          "wrongAnswer3": "MongoDB",
+          "explanation": "Mocha is a popular JavaScript test framework commonly used for unit testing in NodeJS environments.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In unit testing, what is a mock used for?",
+          "correctAnswer": "To simulate external dependencies or modules",
+          "wrongAnswer1": "To create a duplicate of the function under test",
+          "wrongAnswer2": "To write the actual production code",
+          "wrongAnswer3": "To improve performance of the application",
+          "explanation": "Mocks replace external dependencies during unit tests to isolate the unit being tested and avoid relying on external systems.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Mocha",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Mocha in NodeJS development?",
+          "correctAnswer": "To provide a testing framework for writing and running tests",
+          "wrongAnswer1": "To serve as a package manager for NodeJS modules",
+          "wrongAnswer2": "To handle HTTP requests and routing",
+          "wrongAnswer3": "To compile JavaScript into machine code",
+          "explanation": "Mocha is a JavaScript test framework running on NodeJS, designed to help developers write and execute test cases efficiently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature is NOT commonly associated with Mocha?",
+          "correctAnswer": "Automatic code deployment to production environments",
+          "wrongAnswer1": "Support for asynchronous testing",
+          "wrongAnswer2": "Ability to use different assertion libraries",
+          "wrongAnswer3": "Hooks for setup and teardown of tests",
+          "explanation": "Mocha provides features like hooks and supports asynchronous tests and various assertion libraries but does not handle deployment tasks.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Mocha handle asynchronous tests in NodeJS?",
+          "correctAnswer": "By accepting a done callback parameter to signal test completion",
+          "wrongAnswer1": "By automatically converting asynchronous code to synchronous",
+          "wrongAnswer2": "By ignoring asynchronous operations and assuming tests pass",
+          "wrongAnswer3": "By requiring all asynchronous operations to return promises",
+          "explanation": "Mocha allows asynchronous tests by using a done callback or returning promises to know when a test is complete.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Chai",
+      "questions": [
+        {
+          "question": "What is the primary use of Chai in NodeJS development?",
+          "correctAnswer": "Chai is used as an assertion library for testing.",
+          "wrongAnswer1": "Chai is a framework for building web servers.",
+          "wrongAnswer2": "Chai is a database management tool.",
+          "wrongAnswer3": "Chai is a package manager like npm.",
+          "explanation": "Chai is a popular assertion library used in NodeJS to write tests that verify code behavior with readable assertions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which style does Chai support for assertions?",
+          "correctAnswer": "Chai supports should, expect, and assert styles for assertions.",
+          "wrongAnswer1": "Chai only supports assert style assertions.",
+          "wrongAnswer2": "Chai only supports should style assertions.",
+          "wrongAnswer3": "Chai only supports expect style assertions.",
+          "explanation": "Chai provides multiple assertion styles including should, expect, and assert to accommodate different testing preferences.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How would you use Chai in combination with Mocha?",
+          "correctAnswer": "Chai provides the assertion functions to use inside Mocha test cases for checking conditions.",
+          "wrongAnswer1": "Chai replaces Mocha as a test runner.",
+          "wrongAnswer2": "Chai is used to start the server for Mocha tests.",
+          "wrongAnswer3": "Chai manages test databases when running Mocha tests.",
+          "explanation": "Mocha serves as a test framework and runner, while Chai is used alongside it to perform assertions that verify test outcomes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Jest",
+      "questions": [
+        {
+          "question": "What is Jest primarily used for in NodeJS development?",
+          "correctAnswer": "Testing JavaScript code including NodeJS applications",
+          "wrongAnswer1": "Building user interfaces for NodeJS apps",
+          "wrongAnswer2": "Managing databases in NodeJS applications",
+          "wrongAnswer3": "Deploying NodeJS applications to cloud servers",
+          "explanation": "Jest is a testing framework used to write and run tests for JavaScript code including NodeJS applications to ensure code correctness.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature is a key aspect of Jest?",
+          "correctAnswer": "Snapshot testing to capture the state of UI components",
+          "wrongAnswer1": "Real-time backend data streaming",
+          "wrongAnswer2": "Automated CSS styling for UI components",
+          "wrongAnswer3": "Managing API gateways",
+          "explanation": "Jest supports snapshot testing which helps developers track UI changes by saving snapshots of components and comparing them during future tests.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Jest handle asynchronous code in NodeJS tests?",
+          "correctAnswer": "By allowing use of async functions and promises within test cases",
+          "wrongAnswer1": "It automatically converts async code to synchronous",
+          "wrongAnswer2": "By ignoring asynchronous code during tests",
+          "wrongAnswer3": "By requiring tests to be written in a callback style only",
+          "explanation": "Jest fully supports asynchronous tests using async/await syntax or returning promises, allowing effective testing of asynchronous NodeJS functionality.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "ESLint",
+      "questions": [
+        {
+          "question": "What is the primary purpose of ESLint in a NodeJS project?",
+          "correctAnswer": "To identify and fix problems in JavaScript code according to defined coding standards",
+          "wrongAnswer1": "To execute NodeJS applications faster",
+          "wrongAnswer2": "To manage dependencies in a NodeJS project",
+          "wrongAnswer3": "To compile JavaScript into machine code",
+          "explanation": "ESLint is a tool used to analyze JavaScript code for potential errors and to enforce coding standards, improving code quality and consistency.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which file is commonly used to configure ESLint settings in a NodeJS project?",
+          "correctAnswer": ".eslintrc.json",
+          "wrongAnswer1": "package.json",
+          "wrongAnswer2": "config.js",
+          "wrongAnswer3": "eslint.config.js",
+          "explanation": "The .eslintrc.json file is the common configuration file for ESLint where rules and environment settings are defined.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens when ESLint detects a rule violation in your code?",
+          "correctAnswer": "It reports the error or warning and can optionally fix some problems automatically",
+          "wrongAnswer1": "It stops the code from running entirely",
+          "wrongAnswer2": "It restarts the NodeJS server",
+          "wrongAnswer3": "It deletes the problematic code automatically without user input",
+          "explanation": "ESLint reports any violations of coding rules and can fix some automatically, but it does not stop code execution or delete code on its own.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Prettier",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Prettier in a NodeJS project?",
+          "correctAnswer": "To automatically format code for consistent style",
+          "wrongAnswer1": "To manage project dependencies",
+          "wrongAnswer2": "To optimize performance of NodeJS applications",
+          "wrongAnswer3": "To compile NodeJS code to machine language",
+          "explanation": "Prettier is a code formatter that automatically formats code to ensure a consistent style across the project, improving readability and maintainability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following file types can Prettier format in a NodeJS environment?",
+          "correctAnswer": "JavaScript, JSON, and Markdown files",
+          "wrongAnswer1": "Only JavaScript files",
+          "wrongAnswer2": "Only JSON files",
+          "wrongAnswer3": "Only HTML files",
+          "explanation": "Prettier supports formatting multiple file types including JavaScript, JSON, Markdown, and more to maintain consistency across different parts of a NodeJS project.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Prettier integrate with development workflows in NodeJS projects?",
+          "correctAnswer": "By running as a plugin in code editors and as a pre-commit hook",
+          "wrongAnswer1": "By replacing the NodeJS runtime",
+          "wrongAnswer2": "By managing database connections",
+          "wrongAnswer3": "By bundling code for production deployment",
+          "explanation": "Prettier is commonly integrated into development workflows by using plugins in code editors for real-time formatting and tools like pre-commit hooks to ensure code style before commits.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "TypeScript",
+      "questions": [
+        {
+          "question": "What is the primary benefit of using TypeScript with NodeJS?",
+          "correctAnswer": "TypeScript adds static typing to JavaScript for better error detection",
+          "wrongAnswer1": "TypeScript replaces JavaScript runtime with a faster engine",
+          "wrongAnswer2": "TypeScript eliminates the need for package management in NodeJS",
+          "wrongAnswer3": "TypeScript converts JavaScript into machine code directly",
+          "explanation": "TypeScript is a superset of JavaScript that introduces static typing, allowing developers to detect type-related errors at compile time, which improves code quality in NodeJS projects.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does TypeScript improve code maintainability in NodeJS applications?",
+          "correctAnswer": "By enforcing type annotations and interfaces for clearer code contracts",
+          "wrongAnswer1": "By automatically optimizing code for performance without developer input",
+          "wrongAnswer2": "By removing all runtime errors through type checking during execution",
+          "wrongAnswer3": "By converting asynchronous code into synchronous code to simplify logic",
+          "explanation": "TypeScript's type system allows developers to explicitly define types and interfaces, making the code more predictable and easier to maintain over time in NodeJS applications.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is needed to run TypeScript code in a NodeJS environment?",
+          "correctAnswer": "Compile TypeScript into JavaScript before running it in NodeJS",
+          "wrongAnswer1": "Run the TypeScript code directly using the NodeJS engine without changes",
+          "wrongAnswer2": "Use a special NodeJS version that understands TypeScript natively",
+          "wrongAnswer3": "Install a TypeScript plugin in the NodeJS runtime to execute the code",
+          "explanation": "TypeScript code must be compiled (transpiled) to JavaScript, which NodeJS can execute, because NodeJS does not natively understand TypeScript syntax.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Cluster",
+      "questions": [
+        {
+          "question": "What is the main purpose of using the cluster module in NodeJS?",
+          "correctAnswer": "To create child processes that share the same server port",
+          "wrongAnswer1": "To manage database connections more efficiently",
+          "wrongAnswer2": "To handle front-end routing in single-page applications",
+          "wrongAnswer3": "To improve CSS styling in NodeJS applications",
+          "explanation": "The cluster module allows NodeJS to create child processes that share the same server port, enabling better utilization of multi-core systems and improving performance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does the cluster module improve NodeJS application performance?",
+          "correctAnswer": "By enabling the application to run multiple processes on different CPU cores",
+          "wrongAnswer1": "By caching API responses on the client side",
+          "wrongAnswer2": "By reducing file size of JavaScript bundles",
+          "wrongAnswer3": "By using a single thread to handle all requests",
+          "explanation": "The cluster module allows spawning multiple child processes that run on different CPU cores, allowing NodeJS to handle more concurrent requests and improve performance.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which method in the cluster module is commonly used to start worker processes?",
+          "correctAnswer": "cluster.fork()",
+          "wrongAnswer1": "cluster.spawn()",
+          "wrongAnswer2": "cluster.createWorker()",
+          "wrongAnswer3": "cluster.start()",
+          "explanation": "The cluster.fork() method is used to create new worker processes that execute the server code in parallel.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "V8 Engine",
+      "questions": [
+        {
+          "question": "What is the primary role of the V8 engine in NodeJS?",
+          "correctAnswer": "To execute JavaScript code by compiling it to machine code",
+          "wrongAnswer1": "To manage the NodeJS file system operations",
+          "wrongAnswer2": "To handle HTTP requests and responses",
+          "wrongAnswer3": "To provide a user interface for JavaScript applications",
+          "explanation": "The V8 engine is responsible for executing JavaScript by compiling it into machine code, which improves performance in NodeJS applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Who developed the V8 engine used in NodeJS?",
+          "correctAnswer": "Google",
+          "wrongAnswer1": "Microsoft",
+          "wrongAnswer2": "Facebook",
+          "wrongAnswer3": "Mozilla",
+          "explanation": "The V8 engine was developed by Google and is used in both the Chrome browser and NodeJS to execute JavaScript efficiently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does the V8 engine improve JavaScript performance in NodeJS?",
+          "correctAnswer": "By compiling JavaScript directly into machine code before execution",
+          "wrongAnswer1": "By interpreting JavaScript code line by line at runtime",
+          "wrongAnswer2": "By converting JavaScript into bytecode for a virtual machine",
+          "wrongAnswer3": "By offloading JavaScript execution to external servers",
+          "explanation": "V8 enhances performance by compiling JavaScript into optimized machine code, allowing faster execution compared to interpreting the code.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Thread Pool",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a thread pool in NodeJS?",
+          "correctAnswer": "To handle multiple asynchronous tasks concurrently using a pool of worker threads",
+          "wrongAnswer1": "To increase the number of CPU cores available",
+          "wrongAnswer2": "To manage HTTP requests synchronously",
+          "wrongAnswer3": "To compile JavaScript code into machine code",
+          "explanation": "A thread pool in NodeJS is used to execute asynchronous tasks concurrently by reusing a fixed number of worker threads from the pool, improving performance and resource management.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which module in NodeJS provides the implementation of the thread pool mechanism?",
+          "correctAnswer": "libuv",
+          "wrongAnswer1": "fs",
+          "wrongAnswer2": "http",
+          "wrongAnswer3": "crypto",
+          "explanation": "NodeJS uses libuv, a C library, for its event loop and asynchronous I/O with an internal thread pool to handle tasks like file system operations and DNS lookups.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does the size of the thread pool in NodeJS affect the performance of asynchronous operations?",
+          "correctAnswer": "A larger thread pool can handle more parallel tasks but may increase context switching overhead",
+          "wrongAnswer1": "A smaller thread pool always increases execution speed",
+          "wrongAnswer2": "The thread pool size does not impact performance",
+          "wrongAnswer3": "Thread pools only affect synchronous code execution",
+          "explanation": "Increasing the thread pool size allows more tasks to be processed concurrently, but if it grows too large, overhead from context switching can reduce performance benefits.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "NodeJS",
+      "concept": "Cross-Platform",
+      "questions": [
+        {
+          "question": "What does it mean that NodeJS is cross-platform?",
+          "correctAnswer": "It can run on multiple operating systems like Windows, macOS, and Linux",
+          "wrongAnswer1": "It only works on Windows operating systems",
+          "wrongAnswer2": "It requires special hardware to operate",
+          "wrongAnswer3": "It can only run on Linux servers",
+          "explanation": "NodeJS is designed to be cross-platform, meaning it can run on various operating systems such as Windows, macOS, and Linux without modification.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which operating system can NodeJS run on?",
+          "correctAnswer": "Windows, macOS, and Linux",
+          "wrongAnswer1": "Only Windows and macOS",
+          "wrongAnswer2": "Only Linux and Unix",
+          "wrongAnswer3": "Only mobile operating systems",
+          "explanation": "One of the key features of NodeJS is its ability to run on all major operating systems including Windows, macOS, and Linux.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is cross-platform compatibility important for NodeJS?",
+          "correctAnswer": "It allows developers to run the same code on different operating systems without changes",
+          "wrongAnswer1": "It limits the code to be used only on a single operating system",
+          "wrongAnswer2": "It makes the code slower on non-Windows machines",
+          "wrongAnswer3": "It requires rewriting the code for each operating system",
+          "explanation": "Cross-platform compatibility in NodeJS allows developers to write code once and execute it on multiple operating systems, improving flexibility and reducing development time.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

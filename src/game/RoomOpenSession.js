@@ -14,6 +14,11 @@ export default class RoomOpenSession {
     this.floorPlans = floorPlans;
   }
 
+  addFloorPlan(floorPlan) {
+    this.floorPlans.push(floorPlan);
+    console.log("PLANS: ", this.floorPlans);
+  }
+
   setSelectedFloorPlan(floorPlan) {
     this.selectedFloorPlan = floorPlan;
   }
@@ -25,6 +30,10 @@ export default class RoomOpenSession {
       return false;
     this.failed = answerIndex !== this.selectedFloorPlan.question.correctIdx;
     return !this.failed;
+  }
+
+  isCorrect(answerIndex) {
+    return answerIndex === this.selectedFloorPlan.question.correctIdx;
   }
 
   clearUserAnswer() {

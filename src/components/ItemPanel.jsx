@@ -37,7 +37,7 @@ export default function ItemPanel() {
 
   return (
     <div className="flex flex-col gap-4 w-48">
-      {Object.keys(items).map((id, i) => {
+      {Object.keys(items).filter(key => items[key] > 0).map((id, i) => {
         const itemInfo = ItemDictionary.get(id);
 
         return (

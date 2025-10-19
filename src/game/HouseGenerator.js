@@ -21,7 +21,7 @@ export default class HouseGenerator {
     // Distribute Items
     this.distributeItem("sheet", 1);
     this.distributePencils(true);
-    this.distributeItem("ruler", 5);
+    this.distributeItem("ruler", 6);
     this.distributeItem("eraser", 3);
 
     // Set cost for floor plans
@@ -165,10 +165,20 @@ export default class HouseGenerator {
     });
   }
 
-  draftValidFloorPlans(mustConnect = {}, row = 0, col = 0, count = 1) {
+  draftValidFloorPlans(mustConnect = {}, row = 0, col = 0, count = 1, excepts = []) {
     const validPool = [];
 
     for (const fp of this.pool) {
+      // Excepts for FP in list
+      let skip = false;
+      for (const fpe of excepts) {
+        if(fpe.id === fp.id) {
+          skip = true;
+          break;
+        }
+      }
+      if (skip) continue;
+
       let isValid = false;
 
       for (let i = 0; i < 4; i++) { // try 0°, 90°, 180°, 270°

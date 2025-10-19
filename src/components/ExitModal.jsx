@@ -34,10 +34,10 @@ export default function ExitModal({ visible, onConfirm, onCancel }) {
   return (
     <div className="fixed inset-0 flex items-center justify-center z-50">
       <div className="fixed w-full h-full bg-black opacity-50" />
-      <div className="bg-gray-900 text-white rounded-lg p-6 w-80 shadow-lg z-50">
+      <div className="bg-gray-900 text-white rounded-lg p-6 w-96 shadow-lg z-50">
         <h2 className="text-lg font-bold mb-4 text-center">Confirm Exit</h2>
         <p className="text-sm mb-6 text-center">
-          Are you sure you want to exit the house? Exiting will be considered an exam failure.
+          Are you sure you want to quit? Hopefully you have better luck next semester.
         </p>
 
         <div className="flex gap-4 justify-center mb-4">
@@ -53,7 +53,7 @@ export default function ExitModal({ visible, onConfirm, onCancel }) {
           />
         </div>
 
-        <div className="flex justify-center items-center text-xs text-gray-300 gap-1">
+        {/* <div className="flex justify-center items-center text-xs text-gray-300 gap-1">
           <span>Use</span>
           <KeyboardButton>A</KeyboardButton>
           <span>/</span>
@@ -61,7 +61,7 @@ export default function ExitModal({ visible, onConfirm, onCancel }) {
           <span>to select,</span>
           <KeyboardButton>E</KeyboardButton>
           <span>to confirm</span>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -21,7 +21,6 @@ export default function QuestionPanel() {
       const session = manager.roomOpenSession;
       if (manager.isDrafting()) {
         setSelectedFloorPlan(session?.selectedFloorPlan || null);
-        console.log(session);
         setUserAnswer(session?.userAnswer ?? null);
       } else {
         const fp = manager.getCurrentFloorPlan();
@@ -88,7 +87,7 @@ export default function QuestionPanel() {
         handleAnswerClick={handleAnswerClick}
         handleProceed={handleProceed}
         isDrafting={houseManagerRef.current.isDrafting()}
-        erasable={houseManagerRef.current.items.eraser > 0}
+        erasable={houseManagerRef.current.erasable()}
         handleErase={() => houseManagerRef.current.eraseAnswer()}
         cheat={cheat}
       />

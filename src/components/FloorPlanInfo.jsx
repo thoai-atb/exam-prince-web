@@ -42,7 +42,7 @@ export default function FloorPlanInfo({ floorPlan }) {
           />
         )}
         {floorPlan.special && (
-          <InfoField label="Special" value={"EXAM ENTRANCE"} />
+          <InfoField label="Special" value={floorPlan.special.toUpperCase()} />
         )}
       </div>
     </div>

@@ -1,0 +1,1655 @@
+{
+  "topic": "C# and .NET",
+  "concepts": [
+    {
+      "topic": "C# and .NET",
+      "concept": "CLR",
+      "questions": [
+        {
+          "question": "What does CLR stand for in the context of .NET?",
+          "correctAnswer": "Common Language Runtime",
+          "wrongAnswer1": "Common Library Resource",
+          "wrongAnswer2": "Central Language Runtime",
+          "wrongAnswer3": "Common Logic Repository",
+          "explanation": "CLR stands for Common Language Runtime, which is the virtual machine component of Microsoft's .NET framework that manages the execution of .NET programs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the primary function of the CLR in .NET?",
+          "correctAnswer": "To manage the execution of .NET programs",
+          "wrongAnswer1": "To compile C# code into Python",
+          "wrongAnswer2": "To provide a graphical user interface",
+          "wrongAnswer3": "To store database records",
+          "explanation": "The CLR manages the execution of .NET programs, including memory management, security, and exception handling, making it central to the .NET runtime environment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following features is provided by the CLR?",
+          "correctAnswer": "Memory management and garbage collection",
+          "wrongAnswer1": "Designing user interfaces",
+          "wrongAnswer2": "Writing SQL queries",
+          "wrongAnswer3": "Creating network protocols",
+          "explanation": "The CLR provides several important features such as memory management and garbage collection, which help manage resources and improve the safety and performance of .NET applications.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "JIT Compilation",
+      "questions": [
+        {
+          "question": "What does JIT compilation do in the .NET framework?",
+          "correctAnswer": "It converts Intermediate Language code to native machine code at runtime",
+          "wrongAnswer1": "It compiles source code directly into native machine code before execution",
+          "wrongAnswer2": "It interprets source code line by line during execution",
+          "wrongAnswer3": "It optimizes the code by removing unused variables only",
+          "explanation": "JIT compilation in .NET translates the intermediate language (IL) code into native machine code just before execution, which helps in optimizing performance at runtime.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When does JIT compilation occur in the lifecycle of a .NET application?",
+          "correctAnswer": "At runtime, when the code is about to be executed",
+          "wrongAnswer1": "During the build process, before the application is run",
+          "wrongAnswer2": "When the application is installed on the machine",
+          "wrongAnswer3": "Only during debugging sessions",
+          "explanation": "JIT compilation happens at runtime, converting IL to native code right before it executes, allowing platform-specific optimization and flexibility.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a benefit of JIT compilation in .NET?",
+          "correctAnswer": "It allows platform-specific optimization by generating native code at runtime",
+          "wrongAnswer1": "It increases startup time by compiling everything before execution",
+          "wrongAnswer2": "It prevents code from being executed on different hardware platforms",
+          "wrongAnswer3": "It translates code into a universal intermediate language only",
+          "explanation": "JIT compilation enables .NET applications to generate native machine code optimized for the current hardware platform during execution, improving performance.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Garbage Collection",
+      "questions": [
+        {
+          "question": "What is the primary purpose of garbage collection in C# and .NET?",
+          "correctAnswer": "To automatically manage memory by freeing unused objects",
+          "wrongAnswer1": "To manually allocate memory for new objects",
+          "wrongAnswer2": "To optimize application performance by compiling code",
+          "wrongAnswer3": "To handle user input and output operations",
+          "explanation": "Garbage collection in C# and .NET automatically manages memory by identifying and freeing unused objects, preventing memory leaks and reducing developer burden.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which generation in .NET garbage collection is for objects that have survived multiple collections?",
+          "correctAnswer": "Generation 2",
+          "wrongAnswer1": "Generation 0",
+          "wrongAnswer2": "Generation 1",
+          "wrongAnswer3": "Generation 3",
+          "explanation": "Generation 2 contains long-lived objects that have survived several garbage collection cycles, whereas Generation 0 and 1 are for short-lived and medium-lived objects respectively.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does the .NET garbage collector determine when to perform a collection?",
+          "correctAnswer": "It runs when there is insufficient memory or allocation thresholds are exceeded",
+          "wrongAnswer1": "It runs after every method call",
+          "wrongAnswer2": "It runs only when the application is closed",
+          "wrongAnswer3": "It runs manually when triggered by the developer",
+          "explanation": "The .NET garbage collector runs automatically based on memory usage and allocation thresholds to maintain efficient memory management without manual intervention.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "LINQ",
+      "questions": [
+        {
+          "question": "What is the primary purpose of LINQ in C#?",
+          "correctAnswer": "To query collections in a readable and concise manner",
+          "wrongAnswer1": "To design graphical user interfaces",
+          "wrongAnswer2": "To perform low-level memory management",
+          "wrongAnswer3": "To compile C# code into machine language",
+          "explanation": "LINQ (Language Integrated Query) is designed to make querying collections and data more readable and concise within C# code, enabling integration of query capabilities directly in the language.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a standard LINQ query operator in C#?",
+          "correctAnswer": "Compile",
+          "wrongAnswer1": "Where",
+          "wrongAnswer2": "Select",
+          "wrongAnswer3": "OrderBy",
+          "explanation": "Standard LINQ query operators include Where, Select, and OrderBy for querying collections. Compile is not a LINQ operator; it refers to compiling code.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does LINQ improve the development experience when working with data?",
+          "correctAnswer": "By allowing developers to write queries directly within C# using familiar syntax",
+          "wrongAnswer1": "By replacing the need for any database or data storage",
+          "wrongAnswer2": "By automatically optimizing hardware performance",
+          "wrongAnswer3": "By converting all code into SQL statements",
+          "explanation": "LINQ allows developers to integrate queries in C# syntax, making code more readable and maintainable compared to constructing separate query languages or string-based queries.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Async Await",
+      "questions": [
+        {
+          "question": "What is the primary purpose of using async and await in C#?",
+          "correctAnswer": "To simplify asynchronous programming and improve code readability",
+          "wrongAnswer1": "To make synchronous code execute faster",
+          "wrongAnswer2": "To prevent all exceptions in the code",
+          "wrongAnswer3": "To automatically generate threads for parallel processing",
+          "explanation": "Async and await keywords allow writing asynchronous code that looks similar to synchronous code, making it easier to read and maintain.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In C#, what does the await keyword do?",
+          "correctAnswer": "It pauses the execution of the async method until the awaited Task completes",
+          "wrongAnswer1": "It creates a new thread to run the awaited method",
+          "wrongAnswer2": "It forces the program to run synchronously",
+          "wrongAnswer3": "It cancels the running Task if it takes too long",
+          "explanation": "The await keyword asynchronously waits for the Task to finish, allowing other work to proceed without blocking the calling thread.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about methods declared with the async modifier in C#?",
+          "correctAnswer": "They usually return Task, Task<T>, or void and enable the use of the await keyword inside them",
+          "wrongAnswer1": "They always run on a new thread automatically",
+          "wrongAnswer2": "They cannot throw exceptions",
+          "wrongAnswer3": "They must return a string value",
+          "explanation": "Async methods allow the presence of await inside them and typically return Task types or void for event handlers, facilitating asynchronous execution.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Lambda Expressions",
+      "questions": [
+        {
+          "question": "What is the primary purpose of lambda expressions in C#?",
+          "correctAnswer": "To create anonymous functions that can be used to define inline delegates",
+          "wrongAnswer1": "To declare new classes dynamically during runtime",
+          "wrongAnswer2": "To serialize objects into XML format",
+          "wrongAnswer3": "To create static constructors for initializing objects",
+          "explanation": "Lambda expressions are used to create anonymous functions which are often utilized to define inline delegates or expression trees.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best represents the syntax of a lambda expression in C#?",
+          "correctAnswer": "parameters => expression or statement block",
+          "wrongAnswer1": "function(parameters) { expression }",
+          "wrongAnswer2": "delegate(parameters) => expression",
+          "wrongAnswer3": "lambda { parameters -> expression }",
+          "explanation": "The correct syntax for lambda expressions in C# uses the lambda operator => to separate parameters and the expression or statement block.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do lambda expressions enhance LINQ queries in C#?",
+          "correctAnswer": "By allowing concise inline functions to filter, project, or aggregate data",
+          "wrongAnswer1": "By automatically optimizing query execution plans at runtime",
+          "wrongAnswer2": "By enabling asynchronous execution of queries without callbacks",
+          "wrongAnswer3": "By converting queries directly into SQL stored procedures",
+          "explanation": "Lambda expressions enable writing concise inline functions which simplify filtering, projecting, and aggregating data within LINQ queries.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Extension Methods",
+      "questions": [
+        {
+          "question": "What is the primary purpose of extension methods in C#",
+          "correctAnswer": "To add new methods to existing types without modifying them",
+          "wrongAnswer1": "To extend the size of a class in memory",
+          "wrongAnswer2": "To replace existing methods in a class",
+          "wrongAnswer3": "To enable inheritance from multiple classes",
+          "explanation": "Extension methods allow you to add new methods to existing types without creating a new derived type, recompiling, or otherwise modifying the original type.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used in C# to declare an extension method",
+          "correctAnswer": "static",
+          "wrongAnswer1": "virtual",
+          "wrongAnswer2": "override",
+          "wrongAnswer3": "abstract",
+          "explanation": "Extension methods must be declared as static methods inside a static class so they can be called as if they were instance methods.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you call an extension method in C#",
+          "correctAnswer": "Using the instance followed by the method name as if it were an instance method",
+          "wrongAnswer1": "By creating an object of the static class that contains it",
+          "wrongAnswer2": "Using the new keyword with the extension method",
+          "wrongAnswer3": "By referencing the method with the class name and method name statically",
+          "explanation": "Extension methods can be called using the instance of the type they extend, making it appear as if the method is a part of that instance's class.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Delegates",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a delegate in C#?",
+          "correctAnswer": "To encapsulate a reference to a method with a specific signature",
+          "wrongAnswer1": "To manage memory allocation and garbage collection",
+          "wrongAnswer2": "To define a new type of variable",
+          "wrongAnswer3": "To implement a database connection in .NET",
+          "explanation": "A delegate in C# is a type that represents references to methods with a particular parameter list and return type. Delegates are used to pass methods as arguments to other methods.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key feature of delegates in C#?",
+          "correctAnswer": "They can be multicast, meaning they can hold references to multiple methods",
+          "wrongAnswer1": "They automatically execute methods in parallel",
+          "wrongAnswer2": "They are only used for exception handling",
+          "wrongAnswer3": "They only work with static methods",
+          "explanation": "Delegates can reference one or more methods, allowing for multicast invocation. This means calling multiple methods through a single delegate instance.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do you declare a delegate type that represents methods taking an int and returning a string?",
+          "correctAnswer": "public delegate string MyDelegate(int input);",
+          "wrongAnswer1": "public delegate int MyDelegate(string input);",
+          "wrongAnswer2": "delegate MyDelegate string(int);",
+          "wrongAnswer3": "public MyDelegate delegate string(int);",
+          "explanation": "The syntax to declare a delegate includes the delegate keyword followed by the return type, delegate name, and parameter list. For example, public delegate string MyDelegate(int input); declares a delegate that takes an int and returns a string.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Events",
+      "questions": [
+        {
+          "question": "What is the primary purpose of events in C#?",
+          "correctAnswer": "To enable a class to notify other classes or objects when something happens",
+          "wrongAnswer1": "To store data persistently across different instances",
+          "wrongAnswer2": "To perform synchronous database transactions",
+          "wrongAnswer3": "To generate unique identifiers for objects",
+          "explanation": "Events in C# are used to provide notifications to other objects or classes when a specific action occurs, enabling event-driven programming.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used in C# to declare an event?",
+          "correctAnswer": "event",
+          "wrongAnswer1": "delegate",
+          "wrongAnswer2": "notify",
+          "wrongAnswer3": "trigger",
+          "explanation": "In C#, events are declared using the 'event' keyword, which defines an event based on a delegate type.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do event handlers typically get attached to events in C#?",
+          "correctAnswer": "Using the += operator to add a method to the event delegate",
+          "wrongAnswer1": "Using the = operator to assign a method to the event",
+          "wrongAnswer2": "Using the bind() method to link the event to a handler",
+          "wrongAnswer3": "Using the onClick() method automatically",
+          "explanation": "Event handlers are usually attached to events using the += operator, which adds the handler method to the invocation list of the delegate representing the event.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Generics",
+      "questions": [
+        {
+          "question": "What is the primary purpose of using generics in C#?",
+          "correctAnswer": "To enable type-safe data structures without committing to a specific data type",
+          "wrongAnswer1": "To enforce the use of only integer data types in collections",
+          "wrongAnswer2": "To improve the speed of string concatenation operations",
+          "wrongAnswer3": "To declare global variables accessible across all classes",
+          "explanation": "Generics allow you to create a class or method that can work with any data type while providing compile-time type safety.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a correct definition of a generic class in C#?",
+          "correctAnswer": "public class Repository<T> { }",
+          "wrongAnswer1": "public class Repository { T }",
+          "wrongAnswer2": "public class Repository<T>() { }",
+          "wrongAnswer3": "class Repository<T> where T : int { }",
+          "explanation": "The correct syntax for declaring a generic class uses angle brackets with a type parameter T without parentheses.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What constraint would you use to restrict a generic type T to be a reference type in C#?",
+          "correctAnswer": "where T : class",
+          "wrongAnswer1": "where T : struct",
+          "wrongAnswer2": "where T : new()",
+          "wrongAnswer3": "where T : interface",
+          "explanation": "The 'class' constraint restricts the generic type argument to be a reference type in C# generics.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Nullable Types",
+      "questions": [
+        {
+          "question": "What is the primary purpose of nullable types in C#?",
+          "correctAnswer": "To allow variables to hold null values in addition to their normal values",
+          "wrongAnswer1": "To make all types inherit from a nullable base class",
+          "wrongAnswer2": "To prevent any variable from being assigned a null value",
+          "wrongAnswer3": "To create variables that can store multiple different data types",
+          "explanation": "Nullable types in C# are designed to allow value types to hold an additional null value, which is useful for representing undefined or missing values.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you declare a nullable type for an integer in C#?",
+          "correctAnswer": "int? myNumber;",
+          "wrongAnswer1": "nullable int myNumber;",
+          "wrongAnswer2": "int myNumber?;",
+          "wrongAnswer3": "int nullable myNumber;",
+          "explanation": "A nullable type is declared by appending a question mark to the value type, for example int? for a nullable integer.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which property of a nullable type is used to check if it contains a non-null value?",
+          "correctAnswer": "HasValue",
+          "wrongAnswer1": "IsNull",
+          "wrongAnswer2": "ValueExists",
+          "wrongAnswer3": "ContainsValue",
+          "explanation": "The HasValue property returns true if the nullable type contains a non-null value, otherwise false.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Tuple Types",
+      "questions": [
+        {
+          "question": "What is the primary use of tuple types in C#?",
+          "correctAnswer": "To group multiple values into a single compound value without defining a separate class",
+          "wrongAnswer1": "To create new classes that inherit from base types",
+          "wrongAnswer2": "To manage asynchronous programming and tasks",
+          "wrongAnswer3": "To define global constants in a program",
+          "explanation": "Tuple types in C# are mainly used to group multiple values into a single compound value without needing to create a class or struct, providing a lightweight way to handle multiple data points together.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you declare a tuple with three elements in C#?",
+          "correctAnswer": "var myTuple = (1, \"example\", true);",
+          "wrongAnswer1": "var myTuple = Tuple.Create(1, \"example\", true);",
+          "wrongAnswer2": "var myTuple = new Tuple<int, string>();",
+          "wrongAnswer3": "var myTuple = [1, \"example\", true];",
+          "explanation": "In C# 7.0 and later, you can declare tuples using the syntax (value1, value2, value3). The example correctly shows a tuple with an int, string, and bool.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which namespace must you include to use the Tuple classes in C#?",
+          "correctAnswer": "System",
+          "wrongAnswer1": "System.Collections.Generic",
+          "wrongAnswer2": "System.Threading.Tasks",
+          "wrongAnswer3": "System.Linq",
+          "explanation": "The Tuple classes are located in the System namespace, and you typically do not need to add any additional using directives beyond using System to work with them.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Pattern Matching",
+      "questions": [
+        {
+          "question": "What is pattern matching used for in C#?",
+          "correctAnswer": "To check a value against a pattern and extract information",
+          "wrongAnswer1": "To create patterns of user interface layouts",
+          "wrongAnswer2": "To match syntax errors in code",
+          "wrongAnswer3": "To optimize database queries",
+          "explanation": "Pattern matching in C# is used to check if a value conforms to a pattern and to extract information from it, making code more readable and concise.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature introduced in C# 7 greatly enhanced pattern matching capabilities?",
+          "correctAnswer": "The introduction of \"is\" expressions with patterns",
+          "wrongAnswer1": "The introduction of LINQ",
+          "wrongAnswer2": "Async and Await keywords",
+          "wrongAnswer3": "Extension methods",
+          "explanation": "C# 7 introduced enhanced pattern matching capabilities using the \"is\" keyword, allowing more expressive and concise type checking and extraction.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What kind of patterns can be used in C# pattern matching?",
+          "correctAnswer": "Type patterns, constant patterns, var patterns, and property patterns",
+          "wrongAnswer1": "Only string patterns",
+          "wrongAnswer2": "Only numerical comparison patterns",
+          "wrongAnswer3": "Regular expressions exclusively",
+          "explanation": "C# supports various pattern types including type patterns, constant patterns, var patterns, and property patterns to handle different matching scenarios.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Attributes",
+      "questions": [
+        {
+          "question": "What is the main purpose of attributes in C#?",
+          "correctAnswer": "To add metadata to program elements such as classes and methods",
+          "wrongAnswer1": "To define the main logic of a method",
+          "wrongAnswer2": "To execute code at runtime",
+          "wrongAnswer3": "To create new data types",
+          "explanation": "Attributes in C# are used to add declarative information or metadata to program elements like classes, methods, properties, etc. This metadata can then be retrieved at runtime or compile time to affect behavior or provide additional information.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a correct way to apply an attribute to a class in C#?",
+          "correctAnswer": "[Serializable] public class MyClass {}",
+          "wrongAnswer1": "class [Serializable] MyClass {}",
+          "wrongAnswer2": "public class MyClass [Serializable] {}",
+          "wrongAnswer3": "public class Serializable MyClass {}",
+          "explanation": "In C#, attributes are applied by placing them in square brackets above the declaration of a class, method, or other program element. For example, [Serializable] above a class marks it as serializable.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can you retrieve attribute information at runtime in C#?",
+          "correctAnswer": "Using reflection to get the attributes of a program element",
+          "wrongAnswer1": "By compiling the code with a special attribute compiler flag",
+          "wrongAnswer2": "Attributes are not accessible at runtime",
+          "wrongAnswer3": "By executing the attribute as a method",
+          "explanation": "To access attribute data at runtime, C# uses reflection. You can call methods like GetCustomAttributes on types or members to retrieve attribute instances and their data.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Reflection",
+      "questions": [
+        {
+          "question": "What is the primary purpose of reflection in C#?",
+          "correctAnswer": "To inspect and interact with types and assemblies at runtime",
+          "wrongAnswer1": "To compile code at runtime",
+          "wrongAnswer2": "To manage memory allocation manually",
+          "wrongAnswer3": "To enhance the performance of loops",
+          "explanation": "Reflection in C# allows programs to examine and manipulate types, methods, properties, and assemblies during runtime, making it powerful for dynamic type discovery and invocation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which class in .NET is commonly used for obtaining type information through reflection?",
+          "correctAnswer": "System.Type",
+          "wrongAnswer1": "System.Reflection.Info",
+          "wrongAnswer2": "System.Runtime.CompilerServices",
+          "wrongAnswer3": "System.Diagnostics.Process",
+          "explanation": "System.Type is the fundamental class used in reflection to obtain metadata about types such as classes and interfaces at runtime.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is NOT a typical use case for reflection in C#?",
+          "correctAnswer": "Automatically encrypting data before saving",
+          "wrongAnswer1": "Loading assemblies at runtime",
+          "wrongAnswer2": "Discovering the methods of a class dynamically",
+          "wrongAnswer3": "Creating objects of types discovered at runtime",
+          "explanation": "Reflection is used mainly for inspecting and accessing metadata and creating types dynamically, but it does not inherently provide functionality for automatically encrypting data.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Assemblies",
+      "questions": [
+        {
+          "question": "What is an assembly in the context of .NET?",
+          "correctAnswer": "A compiled code library used for deployment, versioning, and security in .NET",
+          "wrongAnswer1": "A type of database storage in .NET",
+          "wrongAnswer2": "A user interface framework for C# applications",
+          "wrongAnswer3": "A networking protocol used by .NET applications",
+          "explanation": "An assembly in .NET is a compiled code library (DLL or EXE) that contains code and resources used for deployment, versioning, and security.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a part of a .NET assembly?",
+          "correctAnswer": "Web services configuration",
+          "wrongAnswer1": "Metadata",
+          "wrongAnswer2": "Manifest",
+          "wrongAnswer3": "Intermediate Language code",
+          "explanation": "A .NET assembly contains metadata, manifest, and IL code; web services configuration is not part of the assembly itself.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What information does the manifest of a .NET assembly contain?",
+          "correctAnswer": "Assembly version, culture, and referenced assemblies",
+          "wrongAnswer1": "User interface layout information",
+          "wrongAnswer2": "Database connection details",
+          "wrongAnswer3": "Operating system kernel settings",
+          "explanation": "The manifest provides identity information about the assembly, including version, culture, and references to other assemblies.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Namespaces",
+      "questions": [
+        {
+          "question": "What is the primary purpose of namespaces in C#?",
+          "correctAnswer": "To organize and group related classes and avoid naming conflicts",
+          "wrongAnswer1": "To define the entry point of a program",
+          "wrongAnswer2": "To create a new data type",
+          "wrongAnswer3": "To manage memory allocation for objects",
+          "explanation": "Namespaces in C# are used to logically group related classes, interfaces, and other types, which helps organize code and prevent naming conflicts between identifiers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do you refer to a class from another namespace in C#?",
+          "correctAnswer": "By using the fully qualified name or a using directive",
+          "wrongAnswer1": "By importing the class using import keyword",
+          "wrongAnswer2": "By declaring the class as public only",
+          "wrongAnswer3": "By inheriting the namespace",
+          "explanation": "In C#, you can access a class from another namespace by specifying its fully qualified name or by including a using directive at the top of the file to simplify access.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which keyword is used in C# to include a namespace in your file for easier access to its types?",
+          "correctAnswer": "using",
+          "wrongAnswer1": "import",
+          "wrongAnswer2": "namespace",
+          "wrongAnswer3": "include",
+          "explanation": "The keyword 'using' in C# is used to include namespaces so that the types defined within them can be accessed without needing fully qualified names.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Interfaces",
+      "questions": [
+        {
+          "question": "What is the primary purpose of an interface in C#?",
+          "correctAnswer": "To define a contract that classes can implement",
+          "wrongAnswer1": "To create objects directly without classes",
+          "wrongAnswer2": "To store data similar to classes",
+          "wrongAnswer3": "To inherit multiple class implementations",
+          "explanation": "An interface in C# defines a contract that the implementing classes must follow by providing implementations for the interface members. It does not provide implementation itself or store data.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used to declare an interface in C#?",
+          "correctAnswer": "interface",
+          "wrongAnswer1": "implements",
+          "wrongAnswer2": "class",
+          "wrongAnswer3": "inherits",
+          "explanation": "The keyword interface is used to declare an interface in C#. Classes then implement these interfaces to define specific behavior.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Can a C# class implement multiple interfaces?",
+          "correctAnswer": "Yes, a class can implement multiple interfaces",
+          "wrongAnswer1": "No, a class can only implement one interface",
+          "wrongAnswer2": "Only abstract classes can implement multiple interfaces",
+          "wrongAnswer3": "Interfaces cannot be implemented by classes",
+          "explanation": "C# supports multiple interface implementation, allowing a class to implement more than one interface, enabling flexible and modular designs.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Abstract Classes",
+      "questions": [
+        {
+          "question": "What is a key characteristic of an abstract class in C#?",
+          "correctAnswer": "It cannot be instantiated directly but can provide base functionality.",
+          "wrongAnswer1": "It can be instantiated like any other class.",
+          "wrongAnswer2": "It must contain only abstract methods without any implementation.",
+          "wrongAnswer3": "It cannot be inherited by other classes.",
+          "explanation": "An abstract class cannot be instantiated directly and is meant to provide a common base with some implementation for derived classes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used to declare an abstract class in C#?",
+          "correctAnswer": "abstract",
+          "wrongAnswer1": "virtual",
+          "wrongAnswer2": "interface",
+          "wrongAnswer3": "override",
+          "explanation": "The abstract keyword is used to declare a class as abstract in C#.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What must a non-abstract derived class do if the base class contains abstract methods?",
+          "correctAnswer": "It must override and provide an implementation for all abstract methods.",
+          "wrongAnswer1": "It may ignore the abstract methods without overriding them.",
+          "wrongAnswer2": "It must be declared as abstract as well.",
+          "wrongAnswer3": "It must convert abstract methods to virtual methods.",
+          "explanation": "Derived classes must override all abstract methods from the base abstract class to provide specific implementations.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Exception Handling",
+      "questions": [
+        {
+          "question": "What keyword is used in C# to handle exceptions?",
+          "correctAnswer": "try",
+          "wrongAnswer1": "catchblock",
+          "wrongAnswer2": "handle",
+          "wrongAnswer3": "except",
+          "explanation": "In C#, exceptions are handled using the try block followed by one or more catch blocks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which block in C# is used to execute code regardless of whether an exception was thrown or not?",
+          "correctAnswer": "finally",
+          "wrongAnswer1": "catch",
+          "wrongAnswer2": "try",
+          "wrongAnswer3": "throw",
+          "explanation": "The finally block executes code after try and catch blocks have completed, regardless of an exception.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does the throw keyword affect exception handling in C#?",
+          "correctAnswer": "It is used to raise an exception explicitly.",
+          "wrongAnswer1": "It catches the exception and stops program execution.",
+          "wrongAnswer2": "It defines a block of code where exceptions are handled.",
+          "wrongAnswer3": "It suppresses exceptions from being thrown.",
+          "explanation": "The throw keyword is used to explicitly raise an exception, which can then be caught by catch blocks.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Dependency Injection",
+      "questions": [
+        {
+          "question": "What is the main purpose of Dependency Injection in C# and .NET?",
+          "correctAnswer": "To reduce coupling between classes and increase code maintainability",
+          "wrongAnswer1": "To enforce strict inheritance hierarchies",
+          "wrongAnswer2": "To enable multiple threads to execute simultaneously",
+          "wrongAnswer3": "To handle exceptions more efficiently",
+          "explanation": "Dependency Injection is used primarily to reduce tight coupling between classes and to make the system easier to maintain and test by injecting dependencies rather than hardcoding them.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a common type of Dependency Injection in .NET?",
+          "correctAnswer": "Event Injection",
+          "wrongAnswer1": "Constructor Injection",
+          "wrongAnswer2": "Property Injection",
+          "wrongAnswer3": "Method Injection",
+          "explanation": "Constructor Injection, Property Injection, and Method Injection are common types of Dependency Injection in .NET. Event Injection is not a standard type of Dependency Injection.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the context of Dependency Injection in C#, what role does an IoC container play?",
+          "correctAnswer": "It manages object lifetimes and resolves dependencies automatically",
+          "wrongAnswer1": "It compiles the C# code into executable files",
+          "wrongAnswer2": "It manages database transactions for the application",
+          "wrongAnswer3": "It provides user interface elements for Dependency Injection",
+          "explanation": "An Inversion of Control container manages the lifecycle of objects and resolves their dependencies automatically, facilitating Dependency Injection.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Entity Framework",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Entity Framework in .NET development?",
+          "correctAnswer": "To provide an Object-Relational Mapper for database operations",
+          "wrongAnswer1": "To create user interfaces for web applications",
+          "wrongAnswer2": "To manage network communications",
+          "wrongAnswer3": "To handle application security",
+          "explanation": "Entity Framework is an Object-Relational Mapper that simplifies database interactions by allowing developers to work with data as strongly typed objects.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which approach allows you to work with an existing database using Entity Framework?",
+          "correctAnswer": "Database-First approach",
+          "wrongAnswer1": "Model-First approach",
+          "wrongAnswer2": "Code-Only approach",
+          "wrongAnswer3": "API-First approach",
+          "explanation": "The Database-First approach lets developers generate model classes from an existing database schema.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In Entity Framework, what does the DbContext class represent?",
+          "correctAnswer": "A session with the database that allows querying and saving data",
+          "wrongAnswer1": "A visual design tool for creating database schemas",
+          "wrongAnswer2": "A configuration file for setting up entity mappings",
+          "wrongAnswer3": "A library for encryption and security",
+          "explanation": "DbContext is the primary class in Entity Framework used for database interactions like querying and saving data.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "ASP.NET Core",
+      "questions": [
+        {
+          "question": "What is ASP.NET Core primarily used for?",
+          "correctAnswer": "Building web applications and APIs",
+          "wrongAnswer1": "Creating desktop applications",
+          "wrongAnswer2": "Managing databases",
+          "wrongAnswer3": "Designing mobile apps",
+          "explanation": "ASP.NET Core is a framework for building web applications and APIs efficiently and cross-platform.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature of ASP.NET Core allows it to run on multiple operating systems?",
+          "correctAnswer": "Cross-platform support",
+          "wrongAnswer1": "Windows-only compatibility",
+          "wrongAnswer2": "Built-in mobile support",
+          "wrongAnswer3": "Exclusive to Azure cloud",
+          "explanation": "ASP.NET Core is designed to be cross-platform, enabling it to run on Windows, Linux, and macOS.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In ASP.NET Core, what is a middleware?",
+          "correctAnswer": "Software component that handles requests and responses in the application pipeline",
+          "wrongAnswer1": "A type of database service",
+          "wrongAnswer2": "A user interface component",
+          "wrongAnswer3": "A background job scheduler",
+          "explanation": "Middleware in ASP.NET Core processes incoming HTTP requests and outgoing responses as part of the application pipeline.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Blazor",
+      "questions": [
+        {
+          "question": "What is Blazor in the context of C# and .NET?",
+          "correctAnswer": "A framework for building interactive web applications using C#",
+          "wrongAnswer1": "A database management system within .NET",
+          "wrongAnswer2": "A front-end design tool for desktop applications",
+          "wrongAnswer3": "An integrated development environment for C#",
+          "explanation": "Blazor is a framework in the .NET ecosystem that allows developers to build interactive web applications using C# instead of JavaScript.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which technology does Blazor use to run C# code in the browser?",
+          "correctAnswer": "WebAssembly",
+          "wrongAnswer1": "JavaScript runtime",
+          "wrongAnswer2": "Silverlight",
+          "wrongAnswer3": "ActiveX controls",
+          "explanation": "Blazor WebAssembly runs C# code directly in the browser using WebAssembly technology, allowing for client-side execution without plugins.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What are the hosting models available for Blazor applications?",
+          "correctAnswer": "Blazor Server and Blazor WebAssembly",
+          "wrongAnswer1": "Blazor Desktop and Blazor Hybrid",
+          "wrongAnswer2": "Blazor MVC and Blazor Web API",
+          "wrongAnswer3": "Blazor Forms and Blazor Pages",
+          "explanation": "Blazor supports two main hosting models: Blazor Server where the app runs on the server and uses SignalR for UI updates, and Blazor WebAssembly where the app runs directly in the browser using WebAssembly.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Middleware",
+      "questions": [
+        {
+          "question": "What is the primary purpose of middleware in a .NET application?",
+          "correctAnswer": "To handle requests and responses in the application's pipeline",
+          "wrongAnswer1": "To store data in a database",
+          "wrongAnswer2": "To manage user interface elements",
+          "wrongAnswer3": "To compile the source code",
+          "explanation": "Middleware in .NET is software components that are assembled into an application pipeline to handle requests and responses. They can modify the request or response and control the flow of the pipeline.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In ASP.NET Core, how is middleware typically added to the application pipeline?",
+          "correctAnswer": "Using the app.Use method in the Configure method of Startup.cs",
+          "wrongAnswer1": "By adding services in the ConfigureServices method",
+          "wrongAnswer2": "By configuring the database context",
+          "wrongAnswer3": "By modifying the appsettings.json file",
+          "explanation": "Middleware components are added to the application's request pipeline using the app.Use method in the Configure method of the Startup class in ASP.NET Core.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is true about the order of middleware components in the .NET Core pipeline?",
+          "correctAnswer": "The order they are added defines the order in which requests and responses are processed",
+          "wrongAnswer1": "Middleware order does not affect processing flow",
+          "wrongAnswer2": "Middleware runs in parallel regardless of order",
+          "wrongAnswer3": "Middleware components only run after the response is sent",
+          "explanation": "In .NET Core, the order in which middleware components are added to the pipeline is critical, as it determines the sequence in which requests are processed and responses are generated.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "SignalR",
+      "questions": [
+        {
+          "question": "What is the primary purpose of SignalR in .NET?",
+          "correctAnswer": "To enable real-time web functionality and bidirectional communication",
+          "wrongAnswer1": "To manage database transactions asynchronously",
+          "wrongAnswer2": "To create static web pages with efficient caching",
+          "wrongAnswer3": "To perform batch processing of large files",
+          "explanation": "SignalR is a library for .NET that allows server code to send asynchronous notifications to client-side web applications, enabling real-time functionality such as chat and live updates.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which transport method does SignalR fallback to if WebSockets are not available?",
+          "correctAnswer": "Server-Sent Events or Long Polling",
+          "wrongAnswer1": "FTP",
+          "wrongAnswer2": "SOAP",
+          "wrongAnswer3": "SMTP",
+          "explanation": "SignalR automatically falls back to other transport methods like Server-Sent Events or Long Polling when WebSockets are not supported by the client or server.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In SignalR, what is a Hub?",
+          "correctAnswer": "A high-level pipeline that handles communication between clients and the server",
+          "wrongAnswer1": "A type of database used for storing messages",
+          "wrongAnswer2": "A middleware component for routing HTTP requests",
+          "wrongAnswer3": "A configuration setting for enabling WebSockets",
+          "explanation": "A Hub in SignalR is a core abstraction that allows clients and servers to call methods on each other, facilitating real-time communication.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Web API",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Web API in C# and .NET?",
+          "correctAnswer": "To allow communication between different software applications over the web",
+          "wrongAnswer1": "To design user interfaces for desktop applications",
+          "wrongAnswer2": "To manage databases locally on a computer",
+          "wrongAnswer3": "To compile and run C# code on the server",
+          "explanation": "A Web API in C# and .NET is designed to enable communication between different software applications using HTTP requests, often over the internet or an intranet.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which class is commonly used as a base for creating Web API controllers in ASP.NET Core?",
+          "correctAnswer": "ControllerBase",
+          "wrongAnswer1": "PageModel",
+          "wrongAnswer2": "DbContext",
+          "wrongAnswer3": "Startup",
+          "explanation": "In ASP.NET Core, the ControllerBase class is typically used as the base class for API controllers, providing the necessary functionality to handle HTTP requests.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the context of ASP.NET Web API, what HTTP method is typically used to create a new resource?",
+          "correctAnswer": "POST",
+          "wrongAnswer1": "GET",
+          "wrongAnswer2": "PUT",
+          "wrongAnswer3": "DELETE",
+          "explanation": "The POST HTTP method is generally used to create new resources on the server in a RESTful Web API scenario.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "MVC Pattern",
+      "questions": [
+        {
+          "question": "What does the MVC pattern stand for in software development?",
+          "correctAnswer": "Model View Controller",
+          "wrongAnswer1": "Module View Component",
+          "wrongAnswer2": "Model View Class",
+          "wrongAnswer3": "Module Variable Control",
+          "explanation": "MVC stands for Model View Controller, a design pattern used for developing user interfaces by dividing the related program logic into three interconnected elements.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which component of the MVC pattern is responsible for handling user input and interacting with the model?",
+          "correctAnswer": "Controller",
+          "wrongAnswer1": "Model",
+          "wrongAnswer2": "View",
+          "wrongAnswer3": "Service",
+          "explanation": "The Controller handles user inputs, processes them, and interacts with the Model to update data or changes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the MVC pattern, what is the primary role of the View component?",
+          "correctAnswer": "Display data to the user",
+          "wrongAnswer1": "Manage application data",
+          "wrongAnswer2": "Process user commands",
+          "wrongAnswer3": "Handle database connections",
+          "explanation": "The View component is responsible for displaying the data to the user, reflecting the current state of the Model.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Razor Pages",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Razor Pages in ASP.NET Core?",
+          "correctAnswer": "To build dynamic web pages with a simple page-based coding model",
+          "wrongAnswer1": "To manage database connections in .NET applications",
+          "wrongAnswer2": "To style web pages using CSS and JavaScript",
+          "wrongAnswer3": "To develop desktop applications using Windows Forms",
+          "explanation": "Razor Pages is a page-based programming model used in ASP.NET Core to create dynamic web pages easily by combining HTML and C# code.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which file extension is typically used for Razor Pages?",
+          "correctAnswer": ".cshtml",
+          "wrongAnswer1": ".aspx",
+          "wrongAnswer2": ".razor",
+          "wrongAnswer3": ".html",
+          "explanation": "Razor Pages use .cshtml files, which combine C# code and HTML markup to generate dynamic content.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do Razor Pages in ASP.NET Core differ from traditional MVC controllers?",
+          "correctAnswer": "Razor Pages encapsulate the UI and related logic in a single file, while MVC separates logic into controllers and views",
+          "wrongAnswer1": "Razor Pages are used only for APIs, while MVC is for web pages",
+          "wrongAnswer2": "MVC supports only server-side rendering, while Razor Pages support client-side rendering",
+          "wrongAnswer3": "Razor Pages can only be used with Visual Studio Code, while MVC requires Visual Studio",
+          "explanation": "Razor Pages simplify web development by combining the page's UI and its logic, reducing complexity compared to the MVC model which separates concerns into controllers and views.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Task Parallelism",
+      "questions": [
+        {
+          "question": "What is the main purpose of task parallelism in C#?",
+          "correctAnswer": "To run multiple tasks concurrently to improve performance",
+          "wrongAnswer1": "To execute tasks sequentially to reduce complexity",
+          "wrongAnswer2": "To run tasks only on a single thread for consistency",
+          "wrongAnswer3": "To convert synchronous code into asynchronous code automatically",
+          "explanation": "Task parallelism in C# is primarily used to run multiple tasks concurrently, which can improve application performance by utilizing multiple processors or cores.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which class in .NET is commonly used to implement task parallelism?",
+          "correctAnswer": "System.Threading.Tasks.Task",
+          "wrongAnswer1": "System.Threading.Thread",
+          "wrongAnswer2": "System.Timers.Timer",
+          "wrongAnswer3": "System.IO.FileStream",
+          "explanation": "The System.Threading.Tasks.Task class is the core class used for task parallelism in .NET, allowing developers to create and manage tasks that can run concurrently.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which method is typically used to start a new task for parallel execution in C#?",
+          "correctAnswer": "Task.Run",
+          "wrongAnswer1": "Thread.Start",
+          "wrongAnswer2": "Task.Wait",
+          "wrongAnswer3": "Thread.Sleep",
+          "explanation": "Task.Run is a commonly used method to start a new task that runs concurrently on a thread pool thread, enabling task parallelism.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Value Types",
+      "questions": [
+        {
+          "question": "Which of the following is a characteristic of value types in C#?",
+          "correctAnswer": "They store data directly and are allocated on the stack.",
+          "wrongAnswer1": "They are always allocated on the heap and accessed via references.",
+          "wrongAnswer2": "They cannot hold any data and are only used for methods.",
+          "wrongAnswer3": "They only exist in the .NET Framework but not in .NET Core.",
+          "explanation": "Value types in C# store their data directly and are typically allocated on the stack, which improves performance for small data elements.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a value type in C#?",
+          "correctAnswer": "String",
+          "wrongAnswer1": "Int32",
+          "wrongAnswer2": "Boolean",
+          "wrongAnswer3": "Char",
+          "explanation": "String is a reference type in C#, while Int32, Boolean, and Char are value types.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens when you assign one value type variable to another in C#?",
+          "correctAnswer": "A copy of the value is made, and both variables operate independently.",
+          "wrongAnswer1": "Both variables point to the same memory location.",
+          "wrongAnswer2": "The original variable becomes null.",
+          "wrongAnswer3": "The value is shared through a reference.",
+          "explanation": "Assigning a value type creates a copy of the data, so changes to one variable do not affect the other.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Reference Types",
+      "questions": [
+        {
+          "question": "What defines a reference type in C#?",
+          "correctAnswer": "A type that stores a reference to the memory location of the object",
+          "wrongAnswer1": "A type that stores the actual data directly in the variable",
+          "wrongAnswer2": "A type that cannot be used with classes",
+          "wrongAnswer3": "A type that only stores constant values",
+          "explanation": "In C#, reference types store the address of the object in memory rather than the object itself. This allows multiple variables to reference the same object.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of a reference type in C#?",
+          "correctAnswer": "Class",
+          "wrongAnswer1": "Struct",
+          "wrongAnswer2": "Enum",
+          "wrongAnswer3": "Int",
+          "explanation": "In C#, classes are reference types while structs, enums, and primitive types like int are value types.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "When a reference type variable is assigned to another, what happens?",
+          "correctAnswer": "Both variables refer to the same object in memory",
+          "wrongAnswer1": "A copy of the object is created and assigned to the new variable",
+          "wrongAnswer2": "The original variable is deleted",
+          "wrongAnswer3": "The second variable becomes null",
+          "explanation": "Assigning one reference type variable to another makes both variables point to the same object, so changes through one variable affect the object seen by the other.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Boxing Unboxing",
+      "questions": [
+        {
+          "question": "What is boxing in C#?",
+          "correctAnswer": "Converting a value type to an object type",
+          "wrongAnswer1": "Converting an object type to a value type",
+          "wrongAnswer2": "Copying a reference type to another reference type",
+          "wrongAnswer3": "Converting a string to an integer",
+          "explanation": "Boxing is the process of converting a value type to an object type so it can be treated as an object.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is unboxing in C#?",
+          "correctAnswer": "Converting an object back to a value type",
+          "wrongAnswer1": "Converting a value type to a string",
+          "wrongAnswer2": "Copying a value type to another value type",
+          "wrongAnswer3": "Assigning a string to an object",
+          "explanation": "Unboxing extracts the value type from the object it was boxed into, converting it back to the original value type.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why should boxing and unboxing be used carefully in C#?",
+          "correctAnswer": "Because they have performance overhead",
+          "wrongAnswer1": "Because they cause memory leaks",
+          "wrongAnswer2": "Because they generate compile-time errors",
+          "wrongAnswer3": "Because they make code unreadable",
+          "explanation": "Boxing and unboxing involve extra processing and memory allocation, which can slow down performance if used excessively.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Indexers",
+      "questions": [
+        {
+          "question": "What is the purpose of an indexer in C#?",
+          "correctAnswer": "To allow objects to be indexed like arrays",
+          "wrongAnswer1": "To define a static method in a class",
+          "wrongAnswer2": "To specify the inheritance of classes",
+          "wrongAnswer3": "To declare global variables",
+          "explanation": "Indexers allow instances of a class or struct to be indexed just like arrays, using the [] syntax to access elements.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used to define an indexer in a C# class?",
+          "correctAnswer": "this",
+          "wrongAnswer1": "index",
+          "wrongAnswer2": "operator",
+          "wrongAnswer3": "ref",
+          "explanation": "The keyword 'this' is used to define an indexer in C#. It specifies that the class or struct can be indexed.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What must be specified when declaring an indexer in C#?",
+          "correctAnswer": "A parameter to indicate the index",
+          "wrongAnswer1": "A return type only",
+          "wrongAnswer2": "A class name",
+          "wrongAnswer3": "A delegate type",
+          "explanation": "An indexer declaration requires parameters (usually one) to specify the type of index used, enabling access to elements at that index.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Properties",
+      "questions": [
+        {
+          "question": "What is the primary purpose of properties in C#?",
+          "correctAnswer": "To provide a flexible mechanism to read and write private fields",
+          "wrongAnswer1": "To execute methods automatically",
+          "wrongAnswer2": "To define new data types",
+          "wrongAnswer3": "To create directly accessible public variables",
+          "explanation": "Properties in C# are used to encapsulate private fields and provide controlled access through get and set accessors.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes an auto-implemented property in C#?",
+          "correctAnswer": "A property where the compiler creates a hidden backing field automatically",
+          "wrongAnswer1": "A property with explicitly defined get and set methods that must access a field",
+          "wrongAnswer2": "A property that cannot be assigned a default value",
+          "wrongAnswer3": "A method that returns the value of a private variable",
+          "explanation": "Auto-implemented properties allow you to quickly define properties without explicitly declaring a backing field; the compiler generates it automatically.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In C#, how can you make a property read-only?",
+          "correctAnswer": "By providing only a get accessor",
+          "wrongAnswer1": "By providing only a set accessor",
+          "wrongAnswer2": "By making the property static",
+          "wrongAnswer3": "By declaring the property as public",
+          "explanation": "A read-only property has only a get accessor, which allows reading the value but not modifying it directly through the property.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Constructors",
+      "questions": [
+        {
+          "question": "What is the main purpose of a constructor in a C# class?",
+          "correctAnswer": "To initialize objects of the class when they are created",
+          "wrongAnswer1": "To declare the methods of the class",
+          "wrongAnswer2": "To inherit properties from another class",
+          "wrongAnswer3": "To destroy objects of the class",
+          "explanation": "Constructors are special methods called when an instance of a class is created to initialize the object.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about constructors in C#?",
+          "correctAnswer": "They have the same name as the class and no return type",
+          "wrongAnswer1": "They must have a return type of void",
+          "wrongAnswer2": "They can only be called explicitly like regular methods",
+          "wrongAnswer3": "They can only be declared as static",
+          "explanation": "Constructors in C# share the same name as their class and do not have a return type, not even void.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens if you do not explicitly define a constructor in your C# class?",
+          "correctAnswer": "A default parameterless constructor is automatically provided by the compiler",
+          "wrongAnswer1": "The class cannot be instantiated",
+          "wrongAnswer2": "The class will only have static members",
+          "wrongAnswer3": "An error is thrown at compile time",
+          "explanation": "If no constructor is defined, the C# compiler automatically provides a default constructor with no parameters.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Finalizers",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a finalizer in C#?",
+          "correctAnswer": "To release unmanaged resources before the object is destroyed",
+          "wrongAnswer1": "To increase the performance of the application",
+          "wrongAnswer2": "To initialize new objects when created",
+          "wrongAnswer3": "To handle exceptions during runtime",
+          "explanation": "A finalizer in C# is used to release unmanaged resources held by an object before it is garbage collected. It acts as a destructor to clean up resources that the garbage collector does not handle automatically.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method name is reserved for finalizers in a C# class?",
+          "correctAnswer": "The method with syntax ~ClassName()",
+          "wrongAnswer1": "Dispose() method",
+          "wrongAnswer2": "Finalize() method with public access modifier",
+          "wrongAnswer3": "Destructor() method",
+          "explanation": "In C#, a finalizer is written using the tilde symbol followed by the class name with no access modifiers, like ~ClassName(). This method is called by the runtime before the object is destroyed.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following statements is true about finalizers in C#?",
+          "correctAnswer": "Finalizers are automatically called by the garbage collector before memory is reclaimed",
+          "wrongAnswer1": "Finalizers must be explicitly called by the developer to free resources",
+          "wrongAnswer2": "Finalizers improve application performance by running on the main thread",
+          "wrongAnswer3": "Finalizers can be run multiple times for the same object",
+          "explanation": "In C#, finalizers are called automatically by the garbage collector just before reclaiming an object's memory to ensure cleanup of unmanaged resources. Developers should not call them directly, and finalizers are only called once per object during its lifetime.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Partial Classes",
+      "questions": [
+        {
+          "question": "What is the primary benefit of using partial classes in C sharp?",
+          "correctAnswer": "They allow a class to be split across multiple files for better organization",
+          "wrongAnswer1": "They enable the creation of abstract classes with partial implementation",
+          "wrongAnswer2": "They automatically generate class documentation from comments",
+          "wrongAnswer3": "They allow inheritance from multiple base classes in a class",
+          "explanation": "Partial classes in C sharp let developers split the definition of a class into multiple files, which helps in managing large classes and organizing code better.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about partial classes in C sharp?",
+          "correctAnswer": "All parts of a partial class must have the partial keyword and the same accessibility level",
+          "wrongAnswer1": "Only one part needs the partial keyword and the parts can have different namespaces",
+          "wrongAnswer2": "Partial classes can only be used with structs and interfaces",
+          "wrongAnswer3": "Each part can have different method signatures for the same method",
+          "explanation": "All parts of a partial class must be marked with the partial keyword and reside within the same namespace and assembly. They must share the same accessibility level as well.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "When would it be inappropriate to use a partial class in C sharp?",
+          "correctAnswer": "When class definitions need to be tightly controlled and not split across files",
+          "wrongAnswer1": "When you want to implement interfaces in multiple files",
+          "wrongAnswer2": "When you want to define nested classes within the same file",
+          "wrongAnswer3": "When working on small classes with few members",
+          "explanation": "Partial classes are best used for organizing large classes. For small classes or scenarios requiring tight control over class definition in one file, partial classes might introduce unnecessary complexity.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Records",
+      "questions": [
+        {
+          "question": "What is a primary feature of records introduced in C# 9?",
+          "correctAnswer": "They provide built-in functionality for value-based equality.",
+          "wrongAnswer1": "They allow multiple inheritance unlike classes.",
+          "wrongAnswer2": "They are mutable by default and focus on method overloading.",
+          "wrongAnswer3": "They are used exclusively for asynchronous programming.",
+          "explanation": "Records in C# provide built-in support for value-based equality, making it easy to compare record instances based on their data rather than their reference.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do records differ from classes in terms of immutability?",
+          "correctAnswer": "Records are immutable by default, supporting with-expressions to create modified copies.",
+          "wrongAnswer1": "Records must always be mutable and do not support with-expressions.",
+          "wrongAnswer2": "Classes are immutable by default and records require explicit keywords to modify properties.",
+          "wrongAnswer3": "Both records and classes have the same behavior regarding immutability by default.",
+          "explanation": "Records are designed to be immutable by default in C# and provide with-expressions that allow creating new instances with modified property values, unlike typical classes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which keyword is used to declare a record in C#?",
+          "correctAnswer": "record",
+          "wrongAnswer1": "class",
+          "wrongAnswer2": "struct",
+          "wrongAnswer3": "interface",
+          "explanation": "The keyword \"record\" is used in C# to define a record type, distinguishing it from classes and structs.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Immutable Types",
+      "questions": [
+        {
+          "question": "What best describes an immutable type in C#?",
+          "correctAnswer": "An object whose state cannot be changed after it is created",
+          "wrongAnswer1": "An object that can change state anytime",
+          "wrongAnswer2": "A type that only holds constant values",
+          "wrongAnswer3": "An object that is mutable under certain conditions",
+          "explanation": "Immutable types are objects whose state cannot be modified after creation, ensuring that their data remains constant throughout their lifetime.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why are immutable types beneficial in multi-threaded applications?",
+          "correctAnswer": "They prevent data corruption by avoiding state changes during concurrent access",
+          "wrongAnswer1": "They enhance performance by allowing state changes",
+          "wrongAnswer2": "They allow threads to modify shared data safely",
+          "wrongAnswer3": "They reduce memory usage by sharing references",
+          "explanation": "Immutable types cannot change state, so multiple threads can safely access them without synchronization, preventing data corruption.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a common practice to implement an immutable type in C#?",
+          "correctAnswer": "Make all fields readonly and initialize them via constructor",
+          "wrongAnswer1": "Use public setters for all properties",
+          "wrongAnswer2": "Allow modification of fields after object creation",
+          "wrongAnswer3": "Declare fields as static to share across instances",
+          "explanation": "To create immutable types in C#, fields are usually declared readonly and set only once during construction to prevent later modification.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Dynamic Types",
+      "questions": [
+        {
+          "question": "What is a key feature of dynamic types in C#?",
+          "correctAnswer": "The type is determined at runtime rather than compile time",
+          "wrongAnswer1": "The type is fixed at compile time",
+          "wrongAnswer2": "The type must be explicitly declared",
+          "wrongAnswer3": "The type cannot change once assigned",
+          "explanation": "Dynamic types in C# allow the type of a variable to be resolved at runtime, providing flexibility for operations on objects whose types are unknown until execution.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which keyword is used to declare a dynamic type variable in C#?",
+          "correctAnswer": "dynamic",
+          "wrongAnswer1": "var",
+          "wrongAnswer2": "object",
+          "wrongAnswer3": "auto",
+          "explanation": "In C#, the keyword dynamic is used to declare variables whose types are determined at runtime, offering dynamic typing capabilities.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens if you perform an invalid operation on a dynamic type variable in C#?",
+          "correctAnswer": "A runtime exception is thrown",
+          "wrongAnswer1": "A compile-time error occurs",
+          "wrongAnswer2": "The operation is silently ignored",
+          "wrongAnswer3": "The variable automatically converts to the correct type",
+          "explanation": "Because dynamic types are checked at runtime, invalid operations on them will not cause compile-time errors but will throw exceptions when the code executes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Attributes",
+      "questions": [
+        {
+          "question": "What is the primary purpose of attributes in C#?",
+          "correctAnswer": "To add metadata to program elements such as classes and methods",
+          "wrongAnswer1": "To define the logic of a method",
+          "wrongAnswer2": "To manage memory allocation",
+          "wrongAnswer3": "To handle exceptions thrown by the program",
+          "explanation": "Attributes in C# are used to add metadata to program entities like classes, methods, and properties, which can be retrieved at runtime or compile time for various purposes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can you retrieve the value of an attribute applied to a method in C#?",
+          "correctAnswer": "Using reflection to inspect the method's metadata",
+          "wrongAnswer1": "By invoking the method directly",
+          "wrongAnswer2": "Through event handlers attached to the method",
+          "wrongAnswer3": "By extending the method with inheritance",
+          "explanation": "Reflection in C# allows you to inspect attributes and access their values applied to classes, methods, properties, etc., at runtime.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is true about custom attributes in C#?",
+          "correctAnswer": "Custom attributes must inherit from the System.Attribute class",
+          "wrongAnswer1": "Custom attributes do not require inheritance from any class",
+          "wrongAnswer2": "Custom attributes should inherit from the System.Object class only",
+          "wrongAnswer3": "Custom attributes automatically inherit from System.Enum",
+          "explanation": "In C#, to create a custom attribute, you must derive your attribute class from System.Attribute to enable the attribute infrastructure to recognize and use it.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Code Contracts",
+      "questions": [
+        {
+          "question": "What is the primary purpose of Code Contracts in C#?",
+          "correctAnswer": "To specify preconditions, postconditions, and object invariants in code",
+          "wrongAnswer1": "To perform automated memory management",
+          "wrongAnswer2": "To create graphical user interfaces",
+          "wrongAnswer3": "To optimize runtime performance through just-in-time compilation",
+          "explanation": "Code Contracts allow developers to specify conditions like preconditions, postconditions, and invariants, which help ensure code correctness and provide runtime and static checking.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which namespace is typically associated with implementing Code Contracts in .NET?",
+          "correctAnswer": "System.Diagnostics.Contracts",
+          "wrongAnswer1": "System.Collections.Generic",
+          "wrongAnswer2": "System.Threading.Tasks",
+          "wrongAnswer3": "System.IO",
+          "explanation": "The System.Diagnostics.Contracts namespace contains classes for defining code contracts like Contract.Requires and Contract.Ensures.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do Code Contracts improve software quality?",
+          "correctAnswer": "By providing explicit documentation and enabling runtime and static verification of code assumptions",
+          "wrongAnswer1": "By automatically refactoring code for better readability",
+          "wrongAnswer2": "By reducing the size of compiled assemblies",
+          "wrongAnswer3": "By encrypting the source code to prevent unauthorized changes",
+          "explanation": "Code Contracts help clarify assumptions and expected behavior in code, which allows for verifying correctness and catching errors before they manifest in runtime failures.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "WinForms",
+      "questions": [
+        {
+          "question": "What is the primary purpose of WinForms in C# and .NET?",
+          "correctAnswer": "To create graphical user interfaces for desktop applications",
+          "wrongAnswer1": "To develop web applications with server-side scripting",
+          "wrongAnswer2": "To manage database connectivity and data manipulation",
+          "wrongAnswer3": "To handle network communication protocols",
+          "explanation": "WinForms is a UI framework in .NET used specifically for creating desktop applications with graphical user interfaces.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common feature of WinForms controls?",
+          "correctAnswer": "They provide event-driven interaction capabilities",
+          "wrongAnswer1": "They automatically convert desktop apps to mobile apps",
+          "wrongAnswer2": "They enable direct manipulation of SQL databases",
+          "wrongAnswer3": "They control server-side business logic execution",
+          "explanation": "WinForms controls support event-driven programming, allowing user interaction via events like clicks and key presses.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does WinForms handle the layout of controls on a form?",
+          "correctAnswer": "By using container controls and layout managers like FlowLayoutPanel and TableLayoutPanel",
+          "wrongAnswer1": "By automatically resizing controls based on the monitor resolution without developer input",
+          "wrongAnswer2": "By embedding CSS styles directly within the form's code",
+          "wrongAnswer3": "By using XML files to define control positions and properties",
+          "explanation": "WinForms uses container controls and layout managers to help organize the placement and resizing of controls dynamically.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "WPF",
+      "questions": [
+        {
+          "question": "What does WPF stand for in the context of C# and .NET?",
+          "correctAnswer": "Windows Presentation Foundation",
+          "wrongAnswer1": "Web Programming Framework",
+          "wrongAnswer2": "Windows Programming Format",
+          "wrongAnswer3": "Web Presentation Foundation",
+          "explanation": "WPF stands for Windows Presentation Foundation and it is a UI framework for building Windows desktop applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which language is commonly used to define the user interface in WPF applications?",
+          "correctAnswer": "XAML",
+          "wrongAnswer1": "HTML",
+          "wrongAnswer2": "CSS",
+          "wrongAnswer3": "JavaScript",
+          "explanation": "XAML (Extensible Application Markup Language) is used to declare the UI elements and layout in WPF applications.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a primary feature of WPF that distinguishes it from older Windows UI frameworks?",
+          "correctAnswer": "Supports vector-based graphics for scalable UI",
+          "wrongAnswer1": "Only supports bitmap images",
+          "wrongAnswer2": "Uses console-based input methods",
+          "wrongAnswer3": "Does not support data binding",
+          "explanation": "WPF supports vector-based graphics which allows UIs to scale smoothly without losing quality, unlike older frameworks that rely mostly on bitmaps.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "XAML",
+      "questions": [
+        {
+          "question": "What is the primary purpose of XAML in the .NET framework?",
+          "correctAnswer": "To define user interfaces in a declarative way",
+          "wrongAnswer1": "To write backend business logic",
+          "wrongAnswer2": "To style a database schema",
+          "wrongAnswer3": "To manage file system operations",
+          "explanation": "XAML (Extensible Application Markup Language) is primarily used to declare the layout and appearance of user interfaces in .NET applications, providing a clear separation from the business logic.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes how XAML is used in conjunction with C# in a .NET application?",
+          "correctAnswer": "XAML defines the UI layout while C# handles the application logic",
+          "wrongAnswer1": "XAML executes the application logic while C# defines the UI",
+          "wrongAnswer2": "Both XAML and C# are used only for defining UI elements",
+          "wrongAnswer3": "XAML replaces C# entirely when creating .NET applications",
+          "explanation": "XAML is used to define the UI declaratively, while C# manages the behavior and application logic, enabling a clear separation of concerns.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In a WPF application, how does XAML relate to event handling?",
+          "correctAnswer": "XAML can declare UI elements and associate events which are handled by C# code",
+          "wrongAnswer1": "XAML code runs all event handler logic without C#",
+          "wrongAnswer2": "Event handling is done entirely within XAML without invocation of C#",
+          "wrongAnswer3": "XAML does not support event declarations or handlers",
+          "explanation": "In WPF, XAML declares the UI and can specify events such as button clicks, but the actual event handling code is written in the C# code-behind file.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "NuGet Packages",
+      "questions": [
+        {
+          "question": "What is the primary purpose of NuGet packages in .NET development?",
+          "correctAnswer": "To manage and distribute reusable code libraries and dependencies.",
+          "wrongAnswer1": "To compile C# code into executable files.",
+          "wrongAnswer2": "To monitor application performance during runtime.",
+          "wrongAnswer3": "To create user interfaces for .NET applications.",
+          "explanation": "NuGet packages are designed to provide a convenient way to manage reusable code libraries and their dependencies, making it easier for developers to share and use code.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do developers typically add a NuGet package to their .NET project?",
+          "correctAnswer": "By using the NuGet Package Manager or the dotnet CLI to install the package.",
+          "wrongAnswer1": "By copying the package files manually into the project folder.",
+          "wrongAnswer2": "By writing custom scripts to compile the package source code.",
+          "wrongAnswer3": "By downloading and running an installer file for the package.",
+          "explanation": "Developers usually add NuGet packages via the Package Manager in Visual Studio or by using the dotnet command-line interface, which handles downloading and integrating the package.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What file in a .NET project typically lists the NuGet packages the project depends on?",
+          "correctAnswer": "The project file, such as .csproj, contains references to NuGet packages.",
+          "wrongAnswer1": "The app.config file lists the NuGet packages in the project.",
+          "wrongAnswer2": "The packages.config file is where NuGet package source code is stored.",
+          "wrongAnswer3": "The global.json file defines the NuGet packages used.",
+          "explanation": "In modern .NET projects, the .csproj file usually includes PackageReference items that specify the NuGet packages the project depends on, enabling automatic restore and version management.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Visual Studio",
+      "questions": [
+        {
+          "question": "What is Visual Studio primarily used for in C# development?",
+          "correctAnswer": "It is an integrated development environment for writing, debugging, and compiling C# code.",
+          "wrongAnswer1": "It is a cloud service for hosting C# applications.",
+          "wrongAnswer2": "It is a database management system specific to C# projects.",
+          "wrongAnswer3": "It is a version control system for tracking changes in C# code.",
+          "explanation": "Visual Studio is an integrated development environment (IDE) widely used for writing, debugging, and compiling code in C# and other languages, making development easier and more efficient.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which feature of Visual Studio helps in finding and fixing errors in C# code?",
+          "correctAnswer": "The debugger feature allows you to step through code and evaluate variables to fix errors.",
+          "wrongAnswer1": "The code formatter automatically organizes your code but does not help with errors.",
+          "wrongAnswer2": "The version control feature only helps manage code changes, not errors.",
+          "wrongAnswer3": "The code snippet feature provides reusable code but does not debug errors.",
+          "explanation": "The debugger in Visual Studio lets you run your C# code step by step, inspect variables, and understand issues to fix errors effectively.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does Visual Studio assist in designing user interfaces for C# applications?",
+          "correctAnswer": "It provides a visual designer tool to drag and drop controls onto forms.",
+          "wrongAnswer1": "It uses command-line scripts to manually code user interface elements.",
+          "wrongAnswer2": "It requires third-party software for any user interface design in C#.",
+          "wrongAnswer3": "It only supports text-based user interfaces, not graphical ones.",
+          "explanation": "Visual Studio includes a visual designer that allows developers to visually create user interfaces by dragging and dropping controls, which simplifies the design process for C# applications.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": "Global Assembly Cache",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Global Assembly Cache in .NET?",
+          "correctAnswer": "To store shared assemblies that can be used by multiple applications",
+          "wrongAnswer1": "To compile assemblies into executable files",
+          "wrongAnswer2": "To manage database connections for .NET applications",
+          "wrongAnswer3": "To provide a cache for web pages in ASP.NET",
+          "explanation": "The Global Assembly Cache (GAC) is used to store assemblies that are intended to be shared by multiple .NET applications, allowing for centralized versioning and deployment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which tool is commonly used to add an assembly to the Global Assembly Cache?",
+          "correctAnswer": "Gacutil.exe",
+          "wrongAnswer1": "Msbuild.exe",
+          "wrongAnswer2": "IISReset.exe",
+          "wrongAnswer3": "Regsvr32.exe",
+          "explanation": "Gacutil.exe is the command-line tool provided by Microsoft for installing and managing assemblies in the Global Assembly Cache.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a requirement for an assembly to be installed into the Global Assembly Cache?",
+          "correctAnswer": "The assembly must have a strong name",
+          "wrongAnswer1": "The assembly must be written in C#",
+          "wrongAnswer2": "The assembly must be less than 1 MB in size",
+          "wrongAnswer3": "The assembly must be a dynamic link library (DLL)",
+          "explanation": "Only assemblies with a strong name, which includes a unique public key and version information, can be installed into the Global Assembly Cache to ensure uniqueness and versioning control.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "C# and .NET",
+      "concept": ".NET Core",
+      "questions": [
+        {
+          "question": "What is .NET Core primarily designed for?",
+          "correctAnswer": "Building cross-platform applications",
+          "wrongAnswer1": "Developing Windows-only desktop software",
+          "wrongAnswer2": "Creating Android apps exclusively",
+          "wrongAnswer3": "Making web pages using HTML",
+          "explanation": ".NET Core is a cross-platform reimplementation of .NET, designed to support building applications that run on Windows, Linux, and macOS.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key benefit of using .NET Core?",
+          "correctAnswer": "It supports cross-platform development and open source",
+          "wrongAnswer1": "It only works on Windows and is closed source",
+          "wrongAnswer2": "It requires older versions of Windows for compatibility",
+          "wrongAnswer3": "It is designed exclusively for mobile applications",
+          "explanation": ".NET Core is open source and supports cross-platform development, unlike the original .NET Framework which is Windows-only.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": ".NET Core applications typically use which runtime environment?",
+          "correctAnswer": "CoreCLR",
+          "wrongAnswer1": "Java Virtual Machine",
+          "wrongAnswer2": "Common Language Runtime (CLR) for .NET Framework",
+          "wrongAnswer3": "Node.js runtime",
+          "explanation": "CoreCLR is the runtime used by .NET Core, providing a lightweight, modular, and cross-platform runtime environment distinct from the CLR used by the full .NET Framework.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

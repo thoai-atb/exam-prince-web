@@ -17,7 +17,7 @@ export default function ExamSubmission({ submitable, onSubmit }) {
 
   return (
     <div className="mt-4 flex flex-col text-start gap-4 text-sm text-gray-300 bg-gray-900 w-full p-6 rounded-md">
-      <p className="font-semibold text-white mb-1 text-center">🏛️ Exam Submission</p>
+      <p className="font-semibold text-white mb-2 text-center">🏛️ Exam Submission</p>
 
       <p>This is where you submit your exam papers.</p>
 
@@ -26,7 +26,7 @@ export default function ExamSubmission({ submitable, onSubmit }) {
       </p>
 
       <p className="mt-2">
-        There is only one floorplan that has the <b>answer sheet</b>.
+        There is only one <b>answer sheet</b> in this house.
       </p>
 
       {submitable && (
