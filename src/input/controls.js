@@ -3,7 +3,7 @@ const subscribers = new Set();
 
 function handleKeyDown(e) {
   const key = e.key.toLowerCase();
-  if (["w", "a", "s", "d", "e"].includes(key)) {
+  if (["w", "a", "s", "d", "e", "q"].includes(key)) {
     subscribers.forEach((cb) => cb(key));
   }
 }

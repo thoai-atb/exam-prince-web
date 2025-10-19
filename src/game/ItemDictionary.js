@@ -8,10 +8,10 @@ class Item {
 
 export default class ItemDictionary {
   static items = {
-    pencil: new Item("Pencil", "✏️", "You need pencils to draft rooms with multiple doors"),
-    eraser: new Item("Eraser", "🩹", "Use it to erase mistakes"),
-    ruler: new Item("Ruler", "📏", "Sketch additional floor plan"),
-    sheet: new Item("Answer Sheet", "📜", "Used to write your answers on, essential for exam submission"),
+    pencil: new Item("Pencil", "✏️", "Draft rooms with multiple doors"),
+    eraser: new Item("Eraser", "🩹", "Used to erase mistakes, cannot be used for previus rooms"),
+    ruler: new Item("Ruler", "📏", "Sketch additional floor plans"),
+    sheet: new Item("Answer Sheet", "📜", "This item is required for exam submission"),
   };
 
   static get(itemId) {

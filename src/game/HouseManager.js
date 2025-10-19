@@ -174,7 +174,19 @@ export default class HouseManager {
   // STEPS: openRoom -> selectFloorPlan -> [setUserAnswer] -> useFloorPlan
   setUserAnswer(index) {
     if (this.roomOpenSession.userAnswer !== null) return;
-    this.roomOpenSession.setUserAnswer(index)
+    this.roomOpenSession.setUserAnswer(index);
+    this.notify();
+  }
+
+  // IN BETWEEN STEP: openRoom -> selectFloorPlan -> setUserAnswer -> [eraseAnswer] -> setUserAnswer
+  eraseAnswer() {
+    if (this.roomOpenSession.userAnswer === null) return;
+    if (!this.items.eraser) {
+      throw new Error("Don't have eraser to erase the answer");
+    }
+
+    this.items.eraser -= 1;
+    this.roomOpenSession.clearUserAnswer();
     this.notify();
   }
 

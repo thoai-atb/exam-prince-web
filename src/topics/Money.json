@@ -1,0 +1,1655 @@
+{
+  "topic": "Money",
+  "concepts": [
+    {
+      "topic": "Money",
+      "concept": "Currency forms",
+      "questions": [
+        {
+          "question": "What form of currency is most commonly used for everyday transactions?",
+          "correctAnswer": "Physical cash such as coins and banknotes",
+          "wrongAnswer1": "Cryptocurrency like Bitcoin",
+          "wrongAnswer2": "Digital credits stored in a banking app",
+          "wrongAnswer3": "Commodity money such as gold bars",
+          "explanation": "Physical cash including coins and banknotes is the most widely accepted and commonly used form of currency in everyday transactions across the world.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which currency form relies entirely on digital technology and has no physical representation?",
+          "correctAnswer": "Cryptocurrency",
+          "wrongAnswer1": "Physical cash",
+          "wrongAnswer2": "Commodity money",
+          "wrongAnswer3": "Paper money",
+          "explanation": "Cryptocurrencies are digital or virtual currencies that use cryptography for security and do not have a physical form like coins or banknotes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What form of money is backed by a physical good such as gold?",
+          "correctAnswer": "Commodity money",
+          "wrongAnswer1": "Fiat money",
+          "wrongAnswer2": "Cryptocurrency",
+          "wrongAnswer3": "Electronic money",
+          "explanation": "Commodity money has intrinsic value and is backed by a physical commodity like gold or silver, unlike fiat money which is backed by government decree only.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Digital wallets",
+      "questions": [
+        {
+          "question": "What is the primary function of a digital wallet?",
+          "correctAnswer": "To store and manage digital money and payment information",
+          "wrongAnswer1": "To print physical cash automatically",
+          "wrongAnswer2": "To create cryptocurrencies",
+          "wrongAnswer3": "To provide in-person banking services",
+          "explanation": "A digital wallet is used to store and manage digital currency and payment information safely and conveniently for online or electronic transactions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a typical feature of digital wallets?",
+          "correctAnswer": "Issuing physical credit cards",
+          "wrongAnswer1": "Storing credit card details",
+          "wrongAnswer2": "Making online payments",
+          "wrongAnswer3": "Storing digital coupons and tickets",
+          "explanation": "Digital wallets usually store payment information and offer transaction capabilities but do not issue physical cards as part of their services.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why are digital wallets considered more secure than carrying cash?",
+          "correctAnswer": "They use encryption and authentication to protect transaction data",
+          "wrongAnswer1": "They allow unlimited access without password protection",
+          "wrongAnswer2": "They use visible paper trails for security",
+          "wrongAnswer3": "They rely on physical locks to protect money",
+          "explanation": "Digital wallets use encryption and authentication technologies to protect financial data and secure transactions, making them safer than carrying cash.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Credit cards",
+      "questions": [
+        {
+          "question": "What is the main advantage of using a credit card for purchases?",
+          "correctAnswer": "It allows you to buy now and pay later with an interest if not paid on time.",
+          "wrongAnswer1": "It gives immediate discounts on all purchases without any conditions.",
+          "wrongAnswer2": "It requires you to pay the full amount immediately during purchase.",
+          "wrongAnswer3": "It only works for online purchases and not in stores.",
+          "explanation": "Credit cards let users pay for purchases immediately while deferring payment to a later date; unpaid balances usually incur interest.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common fee associated with credit card usage?",
+          "correctAnswer": "Annual fee charged for maintaining the credit card account.",
+          "wrongAnswer1": "Monthly fee for using cash from your debit account.",
+          "wrongAnswer2": "One-time fee when opening a savings account.",
+          "wrongAnswer3": "Fee for receiving paycheck direct deposit.",
+          "explanation": "Many credit cards charge an annual fee to cover maintenance and benefits associated with the card.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What happens if you only pay the minimum amount due on your credit card statement?",
+          "correctAnswer": "You will incur interest on the remaining balance, increasing the total cost over time.",
+          "wrongAnswer1": "Your credit card balance is fully paid off immediately.",
+          "wrongAnswer2": "You avoid any interest charges completely.",
+          "wrongAnswer3": "Your credit card account will be closed automatically.",
+          "explanation": "Paying only the minimum leaves a balance that accrues interest, which adds to the total amount owed.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Interest rates",
+      "questions": [
+        {
+          "question": "What does an interest rate represent in financial terms?",
+          "correctAnswer": "The percentage charged on a loan or earned on an investment",
+          "wrongAnswer1": "The total amount of money borrowed or invested",
+          "wrongAnswer2": "The fee paid for withdrawing money from an account",
+          "wrongAnswer3": "The tax rate applied to earnings from investments",
+          "explanation": "An interest rate is the percentage of a loan charged as interest to the borrower or the return earned on an investment, reflecting the cost of borrowing or the reward for saving money.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does a higher interest rate generally affect borrowing?",
+          "correctAnswer": "It makes borrowing more expensive for consumers and businesses",
+          "wrongAnswer1": "It makes borrowing cheaper and more accessible",
+          "wrongAnswer2": "It does not affect borrowing costs",
+          "wrongAnswer3": "It reduces the amount of interest earned on savings accounts",
+          "explanation": "Higher interest rates increase the cost of borrowing money, which usually reduces the demand for taking loans by consumers and businesses.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is most likely to occur if central banks increase interest rates?",
+          "correctAnswer": "Reduced consumer spending and slower economic growth",
+          "wrongAnswer1": "An increase in inflation and consumer spending",
+          "wrongAnswer2": "A surge in new business investments",
+          "wrongAnswer3": "A decrease in savings rates among individuals",
+          "explanation": "When central banks increase interest rates, borrowing costs rise, typically leading to reduced consumer spending and slower economic growth to help control inflation.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Savings accounts",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a savings account?",
+          "correctAnswer": "To store money and earn interest over time",
+          "wrongAnswer1": "To provide a place to write checks for daily expenses",
+          "wrongAnswer2": "To borrow money for short-term needs",
+          "wrongAnswer3": "To pay bills automatically every month",
+          "explanation": "A savings account is designed to hold money securely while earning interest, helping you save over time.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key feature of most savings accounts?",
+          "correctAnswer": "Earning interest on the deposited amount",
+          "wrongAnswer1": "Unlimited check writing privileges",
+          "wrongAnswer2": "No limits on daily withdrawals",
+          "wrongAnswer3": "Instant credit card access",
+          "explanation": "Savings accounts typically offer interest earnings but often limit withdrawals and do not allow check writing like checking accounts.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why might someone choose a savings account instead of keeping cash at home?",
+          "correctAnswer": "Because a savings account is safer and can earn interest",
+          "wrongAnswer1": "Because cash at home gains interest over time",
+          "wrongAnswer2": "Because a savings account allows unlimited spending",
+          "wrongAnswer3": "Because savings accounts do not require identification",
+          "explanation": "Savings accounts provide safety from theft or loss and additionally earn interest, unlike cash kept at home.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Investment strategies",
+      "questions": [
+        {
+          "question": "What is dollar-cost averaging in investment strategies?",
+          "correctAnswer": "Investing a fixed amount regularly regardless of market conditions",
+          "wrongAnswer1": "Investing a lump sum all at once when markets are low",
+          "wrongAnswer2": "Only investing in stocks during a bull market",
+          "wrongAnswer3": "Holding cash instead of investing to avoid market risk",
+          "explanation": "Dollar-cost averaging involves investing a set amount on a regular schedule, which helps mitigate the impact of market volatility by buying more shares when prices are low and fewer when prices are high.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which strategy focuses on minimizing risk by spreading investments across various asset types?",
+          "correctAnswer": "Diversification",
+          "wrongAnswer1": "Speculation",
+          "wrongAnswer2": "Market timing",
+          "wrongAnswer3": "Day trading",
+          "explanation": "Diversification reduces risk by allocating investments among different financial instruments, industries, and other categories, which can limit the impact of any one asset's poor performance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the main goal of value investing?",
+          "correctAnswer": "Buying undervalued stocks with potential for long-term growth",
+          "wrongAnswer1": "Making quick profits from short-term market fluctuations",
+          "wrongAnswer2": "Investing exclusively in technology stocks",
+          "wrongAnswer3": "Avoiding stocks and only investing in bonds",
+          "explanation": "Value investing aims to find stocks that are priced lower than their intrinsic value, expecting their price to increase over time as the market recognizes their true worth.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Financial markets",
+      "questions": [
+        {
+          "question": "What is the primary function of financial markets?",
+          "correctAnswer": "To facilitate the buying and selling of financial assets",
+          "wrongAnswer1": "To print physical currency for the economy",
+          "wrongAnswer2": "To provide insurance for personal belongings",
+          "wrongAnswer3": "To regulate tax collection by the government",
+          "explanation": "Financial markets serve as platforms where buyers and sellers can trade financial assets such as stocks, bonds, and commodities, thereby allocating resources efficiently.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a type of financial market?",
+          "correctAnswer": "Stock market",
+          "wrongAnswer1": "Real estate market",
+          "wrongAnswer2": "Labor market",
+          "wrongAnswer3": "Retail market",
+          "explanation": "The stock market is a financial market focused on the trading of shares of companies, distinct from markets like real estate or labor markets that deal with physical assets or services.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do financial markets impact economic growth?",
+          "correctAnswer": "By channeling savings into investments that generate production and employment",
+          "wrongAnswer1": "By increasing government spending on infrastructure projects",
+          "wrongAnswer2": "By controlling the amount of money in circulation through central banks",
+          "wrongAnswer3": "By reducing unemployment through direct job creation",
+          "explanation": "Financial markets enable the efficient allocation of capital from savers to investors, which fuels business expansion, innovation, and ultimately economic growth.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Economic inflation",
+      "questions": [
+        {
+          "question": "What is economic inflation typically characterized by?",
+          "correctAnswer": "A general increase in prices and fall in the purchasing value of money",
+          "wrongAnswer1": "A decrease in prices and rise in the purchasing value of money",
+          "wrongAnswer2": "Stable prices with no change in purchasing value",
+          "wrongAnswer3": "An increase in money supply with no effect on prices",
+          "explanation": "Economic inflation is characterized by a widespread rise in prices, which decreases the purchasing power of money over time.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common cause of economic inflation?",
+          "correctAnswer": "An increase in the money supply faster than the growth of real output",
+          "wrongAnswer1": "A decrease in demand for goods and services",
+          "wrongAnswer2": "A reduction in government spending",
+          "wrongAnswer3": "Technological advancements improving productivity",
+          "explanation": "Inflation often occurs when the money supply increases faster than economic growth, leading to more money chasing the same amount of goods and services.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can central banks typically control economic inflation?",
+          "correctAnswer": "By raising interest rates to reduce money supply and borrowing",
+          "wrongAnswer1": "By lowering interest rates to encourage more borrowing",
+          "wrongAnswer2": "By printing more money to increase liquidity",
+          "wrongAnswer3": "By imposing price controls on goods and services",
+          "explanation": "Central banks raise interest rates to make borrowing more expensive, which helps reduce money circulation and control inflation.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Cryptocurrency basics",
+      "questions": [
+        {
+          "question": "What is cryptocurrency primarily used for?",
+          "correctAnswer": "Digital currency for online transactions",
+          "wrongAnswer1": "Physical cash exchange",
+          "wrongAnswer2": "Government-issued money",
+          "wrongAnswer3": "Bartering goods and services",
+          "explanation": "Cryptocurrency is a form of digital currency used mainly for online transactions and does not exist in physical form.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which technology underpins most cryptocurrencies?",
+          "correctAnswer": "Blockchain technology",
+          "wrongAnswer1": "Traditional banking systems",
+          "wrongAnswer2": "Paper ledger accounting",
+          "wrongAnswer3": "Physical coin minting",
+          "explanation": "Most cryptocurrencies use blockchain technology to securely record and verify transactions in a decentralized ledger.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What distinguishes cryptocurrency from traditional currency?",
+          "correctAnswer": "Decentralization and digital nature",
+          "wrongAnswer1": "Being issued by central banks",
+          "wrongAnswer2": "Physical bills and coins",
+          "wrongAnswer3": "Government regulation and backing",
+          "explanation": "Cryptocurrencies are decentralized digital assets not issued or regulated by central authorities, unlike traditional fiat currencies.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Personal budgeting",
+      "questions": [
+        {
+          "question": "What is the primary goal of creating a personal budget?",
+          "correctAnswer": "To manage income and expenses effectively",
+          "wrongAnswer1": "To increase the amount of money you earn",
+          "wrongAnswer2": "To spend as much money as possible",
+          "wrongAnswer3": "To avoid paying any bills",
+          "explanation": "The main purpose of a personal budget is to help individuals plan and control their income and expenses to achieve financial stability.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following should be recorded in a personal budget?",
+          "correctAnswer": "Monthly income and all expenses",
+          "wrongAnswer1": "Only income sources",
+          "wrongAnswer2": "Only large purchases",
+          "wrongAnswer3": "Irregular bonuses only",
+          "explanation": "A personal budget should include all sources of income and all types of expenses to provide a clear picture of financial health.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can tracking your spending help with personal budgeting?",
+          "correctAnswer": "It helps identify areas where expenses can be reduced",
+          "wrongAnswer1": "It increases excitement to spend money",
+          "wrongAnswer2": "It guarantees more income next month",
+          "wrongAnswer3": "It replaces the need to save money",
+          "explanation": "Tracking spending allows individuals to see where money is going and find opportunities to cut unnecessary costs and save more.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Loan types",
+      "questions": [
+        {
+          "question": "What type of loan is typically used to purchase a house?",
+          "correctAnswer": "Mortgage loan",
+          "wrongAnswer1": "Personal loan",
+          "wrongAnswer2": "Auto loan",
+          "wrongAnswer3": "Student loan",
+          "explanation": "A mortgage loan is specifically designed for purchasing real estate properties like houses, while other loans serve different needs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which loan type usually has the shortest repayment term?",
+          "correctAnswer": "Payday loan",
+          "wrongAnswer1": "Mortgage loan",
+          "wrongAnswer2": "Student loan",
+          "wrongAnswer3": "Auto loan",
+          "explanation": "Payday loans are short-term, high-interest loans that typically need to be repaid by the next paycheck, whereas other loans often have longer repayment periods.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What distinguishes a secured loan from an unsecured loan?",
+          "correctAnswer": "A secured loan is backed by collateral, an unsecured loan is not",
+          "wrongAnswer1": "A secured loan has no interest, an unsecured loan has interest",
+          "wrongAnswer2": "A secured loan is only for businesses, an unsecured loan is for individuals",
+          "wrongAnswer3": "A secured loan is always paid monthly, an unsecured loan is paid annually",
+          "explanation": "Secured loans require collateral to back the loan, providing security to lenders, while unsecured loans do not require collateral, which often results in higher interest rates to compensate for the increased risk.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Debt management",
+      "questions": [
+        {
+          "question": "What is the primary goal of debt management?",
+          "correctAnswer": "To reduce and eventually eliminate debt through a structured plan",
+          "wrongAnswer1": "To increase borrowing to cover expenses",
+          "wrongAnswer2": "To ignore debt until it is paid off automatically",
+          "wrongAnswer3": "To invest all income in stocks before paying debts",
+          "explanation": "Debt management focuses on creating a structured plan to reduce and eliminate debt responsibly.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common method used in debt management?",
+          "correctAnswer": "Consolidating multiple debts into one loan with a lower interest rate",
+          "wrongAnswer1": "Increasing the number of credit cards to spread out payments",
+          "wrongAnswer2": "Paying only the minimum amount due every month without a plan",
+          "wrongAnswer3": "Avoiding communication with creditors about debt issues",
+          "explanation": "Debt consolidation is a common strategy to simplify payments and reduce interest costs in debt management.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is budgeting important in debt management?",
+          "correctAnswer": "It helps track income and expenses to allocate funds for debt repayment",
+          "wrongAnswer1": "It encourages spending more money on non-essential items",
+          "wrongAnswer2": "It guarantees immediate elimination of all debts",
+          "wrongAnswer3": "It reduces the need to communicate with lenders",
+          "explanation": "Budgeting allows individuals to manage their money effectively, ensuring timely debt payments and avoiding new debt.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Stock trading",
+      "questions": [
+        {
+          "question": "What is the primary purpose of stock trading?",
+          "correctAnswer": "To buy and sell shares of companies to make a profit",
+          "wrongAnswer1": "To save money in a bank account",
+          "wrongAnswer2": "To apply for a loan from a financial institution",
+          "wrongAnswer3": "To purchase goods and services",
+          "explanation": "Stock trading involves buying and selling shares of company ownership in order to make profits based on the stock price fluctuations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes a stock market?",
+          "correctAnswer": "A marketplace where stocks are bought and sold",
+          "wrongAnswer1": "A place where goods are auctioned",
+          "wrongAnswer2": "A bank that offers stock investment accounts",
+          "wrongAnswer3": "A government office regulating currencies",
+          "explanation": "The stock market is a marketplace where investors buy and sell stocks representing shares of companies.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does it mean to hold a stock?",
+          "correctAnswer": "To own shares of a company",
+          "wrongAnswer1": "To have cash reserved for purchases",
+          "wrongAnswer2": "To have borrowed money to invest",
+          "wrongAnswer3": "To sell products for the company",
+          "explanation": "Holding a stock means owning part of a company through shares that represent ownership stakes.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Mutual funds",
+      "questions": [
+        {
+          "question": "What is a mutual fund?",
+          "correctAnswer": "A pooled investment fund managed by professionals",
+          "wrongAnswer1": "A type of personal savings account with fixed interest",
+          "wrongAnswer2": "A loan given by banks to investors",
+          "wrongAnswer3": "An insurance product with guaranteed returns",
+          "explanation": "A mutual fund pools money from many investors to invest in securities, managed by professional fund managers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key advantage of investing in mutual funds?",
+          "correctAnswer": "Professional management of the investment portfolio",
+          "wrongAnswer1": "Guaranteed returns without risk",
+          "wrongAnswer2": "No fees or charges for managing the investment",
+          "wrongAnswer3": "Funds are insured by the government",
+          "explanation": "Mutual funds offer professional management, but returns are market-linked and fees apply; they are not government insured.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which risk is commonly associated with mutual funds?",
+          "correctAnswer": "Market risk due to fluctuations in asset prices",
+          "wrongAnswer1": "Risk of the bank defaulting on deposits",
+          "wrongAnswer2": "No risk as investments are insured",
+          "wrongAnswer3": "Inflation risk being eliminated by mutual funds",
+          "explanation": "Mutual funds are subject to market risk since the value of securities can change with market conditions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Retirement planning",
+      "questions": [
+        {
+          "question": "What is the main goal of retirement planning?",
+          "correctAnswer": "To ensure financial security after stopping work",
+          "wrongAnswer1": "To increase spending during working years",
+          "wrongAnswer2": "To avoid paying taxes throughout life",
+          "wrongAnswer3": "To spend all savings before retirement",
+          "explanation": "Retirement planning focuses on saving and investing to provide financial security once a person stops working.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common tool used in retirement planning?",
+          "correctAnswer": "401(k) plan",
+          "wrongAnswer1": "Short-term credit card",
+          "wrongAnswer2": "Emergency fund",
+          "wrongAnswer3": "Payday loans",
+          "explanation": "A 401(k) plan is a retirement savings account that allows individuals to save and invest money tax-deferred until retirement.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is it important to start retirement planning early?",
+          "correctAnswer": "To allow more time for investments to grow",
+          "wrongAnswer1": "To reduce current expenses drastically",
+          "wrongAnswer2": "To avoid working later in life",
+          "wrongAnswer3": "To increase reliance on social benefits only",
+          "explanation": "Starting early gives more years for compound interest to increase savings, making retirement more financially comfortable.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Taxation laws",
+      "questions": [
+        {
+          "question": "What is the primary purpose of taxation laws?",
+          "correctAnswer": "To regulate the collection of taxes from individuals and businesses",
+          "wrongAnswer1": "To provide loans to government agencies",
+          "wrongAnswer2": "To control international trade agreements",
+          "wrongAnswer3": "To set interest rates for banks",
+          "explanation": "Taxation laws establish the rules and regulations for how taxes are collected from individuals and businesses to fund government services.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which body typically creates and enforces taxation laws in a country?",
+          "correctAnswer": "The government or legislative authority",
+          "wrongAnswer1": "Private companies",
+          "wrongAnswer2": "Non-governmental organizations",
+          "wrongAnswer3": "International courts",
+          "explanation": "Taxation laws are created and enforced by the government or legislative bodies to ensure tax compliance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do taxation laws impact economic behavior?",
+          "correctAnswer": "They influence spending, saving, and investment decisions through tax incentives or penalties",
+          "wrongAnswer1": "They directly set prices for consumer goods",
+          "wrongAnswer2": "They determine employment contracts in private companies",
+          "wrongAnswer3": "They dictate the exchange rates between currencies",
+          "explanation": "Taxation laws affect economic behavior by encouraging or discouraging certain financial activities through tax policies.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Banking services",
+      "questions": [
+        {
+          "question": "What is a common service provided by banks?",
+          "correctAnswer": "Accepting deposits from customers",
+          "wrongAnswer1": "Manufacturing electronic goods",
+          "wrongAnswer2": "Providing medical treatment",
+          "wrongAnswer3": "Selling grocery items",
+          "explanation": "Banks commonly provide services like accepting deposits, which is a basic banking service.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a function of a bank?",
+          "correctAnswer": "Providing loans to individuals and businesses",
+          "wrongAnswer1": "Operating public transport services",
+          "wrongAnswer2": "Running educational institutions",
+          "wrongAnswer3": "Organizing sports events",
+          "explanation": "Banks provide loans as part of their financial services to help individuals and businesses with funds.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What service might a bank offer to help customers manage their money electronically?",
+          "correctAnswer": "Online banking and mobile banking",
+          "wrongAnswer1": "Physical book lending",
+          "wrongAnswer2": "Home delivery of groceries",
+          "wrongAnswer3": "Car repair services",
+          "explanation": "Banks offer online and mobile banking services for customers to manage their accounts electronically and conveniently.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Mobile payments",
+      "questions": [
+        {
+          "question": "What is a primary advantage of using mobile payments?",
+          "correctAnswer": "They allow quick and convenient transactions via smartphones",
+          "wrongAnswer1": "They require carrying large amounts of cash",
+          "wrongAnswer2": "They are only usable in banks",
+          "wrongAnswer3": "They always incur high fees",
+          "explanation": "Mobile payments enable users to make purchases conveniently using their smartphones without needing physical cash, making transactions faster and easier.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which technology is commonly used for mobile payments?",
+          "correctAnswer": "Near Field Communication (NFC)",
+          "wrongAnswer1": "Bluetooth Low Energy (BLE) exclusively",
+          "wrongAnswer2": "Universal Serial Bus (USB)",
+          "wrongAnswer3": "Infrared transmission",
+          "explanation": "Near Field Communication technology allows secure and quick exchange of payment information between devices in close proximity, commonly used in mobile payments.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a security feature often implemented in mobile payments to protect users?",
+          "correctAnswer": "Biometric authentication such as fingerprint or facial recognition",
+          "wrongAnswer1": "Publicly sharing payment credentials",
+          "wrongAnswer2": "Using only passwords without encryption",
+          "wrongAnswer3": "Leaving devices unlocked during payment",
+          "explanation": "Mobile payment systems often use biometric authentication methods to ensure that only authorized users can complete transactions, enhancing security.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Foreign exchange",
+      "questions": [
+        {
+          "question": "What does foreign exchange primarily involve?",
+          "correctAnswer": "The trading of one currency for another",
+          "wrongAnswer1": "The exchange of goods between countries",
+          "wrongAnswer2": "The buying and selling of stocks",
+          "wrongAnswer3": "The transfer of money within a country",
+          "explanation": "Foreign exchange involves trading one country's currency for another, facilitating international trade and investment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which market is the largest in the world based on daily trading volume?",
+          "correctAnswer": "The foreign exchange market",
+          "wrongAnswer1": "The stock market",
+          "wrongAnswer2": "The real estate market",
+          "wrongAnswer3": "The commodities market",
+          "explanation": "The foreign exchange market is the largest financial market in the world, with trillions of dollars traded every day.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a common purpose of foreign exchange in business?",
+          "correctAnswer": "To facilitate international transactions and investments",
+          "wrongAnswer1": "To determine domestic interest rates",
+          "wrongAnswer2": "To regulate internal currency supply",
+          "wrongAnswer3": "To establish local tax laws",
+          "explanation": "Foreign exchange enables businesses to convert currencies needed for international trade and investment purposes.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Money laundering",
+      "questions": [
+        {
+          "question": "What is the primary purpose of money laundering?",
+          "correctAnswer": "To disguise the origins of illegally obtained money",
+          "wrongAnswer1": "To protect personal savings from loss",
+          "wrongAnswer2": "To invest in legitimate businesses",
+          "wrongAnswer3": "To transfer money internationally for trade",
+          "explanation": "Money laundering is the process of making illegally-gained money appear legal by disguising its origins.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common stage in money laundering?",
+          "correctAnswer": "Placement, layering, and integration",
+          "wrongAnswer1": "Savings, investment, and profit",
+          "wrongAnswer2": "Planning, execution, and evaluation",
+          "wrongAnswer3": "Earning, spending, and saving",
+          "explanation": "Money laundering typically involves three stages: placement (introducing illegal funds), layering (concealing origins), and integration (using laundered money).",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why do governments enforce anti-money laundering laws?",
+          "correctAnswer": "To prevent criminal activities and maintain financial system integrity",
+          "wrongAnswer1": "To increase taxes on financial institutions",
+          "wrongAnswer2": "To promote international trade agreements",
+          "wrongAnswer3": "To encourage consumer spending",
+          "explanation": "Anti-money laundering laws are designed to stop criminals from using illegal money, which helps keep financial systems transparent and trustworthy.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Wealth management",
+      "questions": [
+        {
+          "question": "What is the primary goal of wealth management?",
+          "correctAnswer": "To grow and protect an individual's financial assets",
+          "wrongAnswer1": "To provide short term loans and credit services",
+          "wrongAnswer2": "To manage company payroll and expenses",
+          "wrongAnswer3": "To insure property against damages",
+          "explanation": "Wealth management focuses on strategies that grow and safeguard a person's overall financial portfolio.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which service is commonly included in wealth management?",
+          "correctAnswer": "Investment advice and financial planning",
+          "wrongAnswer1": "Tax collection and legal prosecution",
+          "wrongAnswer2": "Manufacturing of consumer goods",
+          "wrongAnswer3": "Real estate property maintenance",
+          "explanation": "Wealth management services typically involve advising clients on investments and providing comprehensive financial plans.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Who is the typical client for wealth management services?",
+          "correctAnswer": "Individuals with significant assets needing expert financial guidance",
+          "wrongAnswer1": "Small businesses with limited capital",
+          "wrongAnswer2": "Unemployed individuals with no savings",
+          "wrongAnswer3": "Retail customers looking for daily banking services",
+          "explanation": "Wealth management usually serves clients who have substantial assets requiring professional management and strategy.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Financial literacy",
+      "questions": [
+        {
+          "question": "What is the primary goal of financial literacy?",
+          "correctAnswer": "To understand how to manage money effectively",
+          "wrongAnswer1": "To learn how to avoid all taxes",
+          "wrongAnswer2": "To become a millionaire quickly",
+          "wrongAnswer3": "To know the history of currency",
+          "explanation": "Financial literacy is about understanding how to manage money, including budgeting, saving, investing, and debt management, to make sound financial decisions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which skill is important in financial literacy?",
+          "correctAnswer": "Creating a budget to track income and expenses",
+          "wrongAnswer1": "Ignoring credit scores since they are not important",
+          "wrongAnswer2": "Spending all earnings immediately to boost the economy",
+          "wrongAnswer3": "Investing in random stocks without research",
+          "explanation": "Creating and following a budget helps individuals control their financial resources and make informed spending choices.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a benefit of being financially literate?",
+          "correctAnswer": "Being able to plan for future expenses and emergencies",
+          "wrongAnswer1": "Ensuring you never have to pay bills manually",
+          "wrongAnswer2": "Guaranteeing instant wealth by using credit cards",
+          "wrongAnswer3": "Avoiding the need to ever work again",
+          "explanation": "Financial literacy helps individuals prepare for and manage unexpected costs, reducing stress and financial difficulties.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Payment gateways",
+      "questions": [
+        {
+          "question": "What is the primary function of a payment gateway in online transactions?",
+          "correctAnswer": "To securely process and authorize payments between customers and merchants",
+          "wrongAnswer1": "To provide loans to online shoppers",
+          "wrongAnswer2": "To store physical cash for online businesses",
+          "wrongAnswer3": "To regulate currency exchange rates globally",
+          "explanation": "Payment gateways securely process and authorize payments in online transactions, ensuring that the customer's payment information is protected and the transaction is completed successfully.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a typical feature of a payment gateway?",
+          "correctAnswer": "Issuing credit cards to customers",
+          "wrongAnswer1": "Encrypting payment details from customers",
+          "wrongAnswer2": "Facilitating communication between merchant and bank",
+          "wrongAnswer3": "Supporting multiple payment methods such as credit cards and digital wallets",
+          "explanation": "Payment gateways do not issue credit cards; they only process payments made through various methods. The issuance of credit cards is done by banks and financial institutions.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do payment gateways enhance security during online payment processing?",
+          "correctAnswer": "By encrypting sensitive data to prevent interception by unauthorized parties",
+          "wrongAnswer1": "By physically securing the customer's device",
+          "wrongAnswer2": "By converting cash into cryptocurrency automatically",
+          "wrongAnswer3": "By monitoring customer spending habits for marketing purposes",
+          "explanation": "Payment gateways use encryption protocols to protect sensitive payment information from being intercepted or stolen during transmission, significantly enhancing the security of online transactions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Online banking",
+      "questions": [
+        {
+          "question": "What is a primary benefit of online banking?",
+          "correctAnswer": "It allows users to manage their accounts from anywhere at any time",
+          "wrongAnswer1": "It requires visiting a bank branch for every transaction",
+          "wrongAnswer2": "It only works during banking hours",
+          "wrongAnswer3": "It involves handling physical cash only",
+          "explanation": "Online banking enables users to access and manage their bank accounts remotely 24/7 without needing to visit a physical branch.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a security feature commonly used in online banking?",
+          "correctAnswer": "Two-factor authentication",
+          "wrongAnswer1": "Sending passwords through email",
+          "wrongAnswer2": "Using the same password for all accounts",
+          "wrongAnswer3": "Sharing login details with others",
+          "explanation": "Two-factor authentication adds an extra layer of security by requiring a second form of verification in addition to the password.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What type of transactions can people typically perform using online banking?",
+          "correctAnswer": "Transferring money between accounts and paying bills",
+          "wrongAnswer1": "Only viewing account balance without transactions",
+          "wrongAnswer2": "Cash deposits directly through the website",
+          "wrongAnswer3": "Printing physical checks automatically",
+          "explanation": "Online banking platforms usually provide functions like transferring funds, paying bills, and checking balances, but they do not handle physical cash or check printing.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Money supply",
+      "questions": [
+        {
+          "question": "What does the term 'money supply' refer to in economics?",
+          "correctAnswer": "The total amount of money available in an economy at a specific time",
+          "wrongAnswer1": "The total coins in circulation in a country",
+          "wrongAnswer2": "The amount of money a bank has in its vault",
+          "wrongAnswer3": "The income generated by all companies in an economy",
+          "explanation": "Money supply represents the total stock of money—cash, coins, and balances in bank accounts—available within an economy at a given time.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is typically not included in measures of the money supply?",
+          "correctAnswer": "Physical assets like gold and real estate",
+          "wrongAnswer1": "Currency in circulation",
+          "wrongAnswer2": "Demand deposits in banks",
+          "wrongAnswer3": "Checking account balances",
+          "explanation": "Money supply includes currency and easily accessible bank deposits but excludes physical assets such as gold and real estate since they are not liquid money.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is monitoring the money supply important for a country's central bank?",
+          "correctAnswer": "It helps control inflation and stabilize the economy",
+          "wrongAnswer1": "It determines the amount of coins to mint each year",
+          "wrongAnswer2": "It sets the exchange rate of the national currency",
+          "wrongAnswer3": "It fixes interest rates for commercial banks",
+          "explanation": "Central banks monitor and manage the money supply to influence inflation, economic growth, and overall financial stability.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Monetary policy",
+      "questions": [
+        {
+          "question": "What is the primary goal of monetary policy?",
+          "correctAnswer": "To control inflation and stabilize the currency",
+          "wrongAnswer1": "To increase government spending",
+          "wrongAnswer2": "To regulate foreign trade",
+          "wrongAnswer3": "To set tax rates",
+          "explanation": "Monetary policy primarily aims to control inflation, manage employment levels, and stabilize the currency by adjusting interest rates and money supply.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which institution is typically responsible for implementing monetary policy?",
+          "correctAnswer": "The central bank",
+          "wrongAnswer1": "The treasury department",
+          "wrongAnswer2": "The finance ministry",
+          "wrongAnswer3": "The federal court",
+          "explanation": "Monetary policy is usually implemented by the central bank of a country, such as the Federal Reserve in the United States, by controlling the money supply and interest rates.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following tools is commonly used in monetary policy?",
+          "correctAnswer": "Adjusting interest rates",
+          "wrongAnswer1": "Increasing government subsidies",
+          "wrongAnswer2": "Setting minimum wage levels",
+          "wrongAnswer3": "Imposing tariffs on imports",
+          "explanation": "Adjusting interest rates is a key tool in monetary policy used by central banks to influence economic activity and control inflation.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Cash transactions",
+      "questions": [
+        {
+          "question": "What is a cash transaction?",
+          "correctAnswer": "A payment made using physical currency such as coins or banknotes",
+          "wrongAnswer1": "A payment made through a credit card or online transfer",
+          "wrongAnswer2": "A loan agreement between two parties",
+          "wrongAnswer3": "An investment in stocks or bonds",
+          "explanation": "A cash transaction involves directly paying with physical money like coins or banknotes, rather than digital or credit payment methods.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an advantage of cash transactions?",
+          "correctAnswer": "They do not require electronic devices or internet access",
+          "wrongAnswer1": "They are always fully traceable and recorded digitally",
+          "wrongAnswer2": "They allow purchases on credit for future payments",
+          "wrongAnswer3": "They guarantee protection against theft during payment",
+          "explanation": "Cash transactions only need physical currency and do not depend on electronic devices or internet connectivity.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a common disadvantage of cash transactions?",
+          "correctAnswer": "They can be less secure and harder to recover if lost or stolen",
+          "wrongAnswer1": "They usually incur higher bank fees compared to card payments",
+          "wrongAnswer2": "They always require electronic approval before completion",
+          "wrongAnswer3": "They cannot be used for small purchases",
+          "explanation": "Cash is vulnerable to loss or theft, and once gone it is difficult to recover, unlike electronic payment methods that may offer fraud protection.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Economic cycles",
+      "questions": [
+        {
+          "question": "What is the term for the recurring upward and downward movements in economic activity?",
+          "correctAnswer": "Economic cycles",
+          "wrongAnswer1": "Monetary policy",
+          "wrongAnswer2": "Fiscal policy",
+          "wrongAnswer3": "Inflation",
+          "explanation": "Economic cycles refer to the fluctuations in economic activity that an economy experiences over a period of time, characterized by periods of expansion and contraction.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which phase of the economic cycle is characterized by decreasing economic activity and rising unemployment?",
+          "correctAnswer": "Recession",
+          "wrongAnswer1": "Expansion",
+          "wrongAnswer2": "Peak",
+          "wrongAnswer3": "Recovery",
+          "explanation": "A recession is the phase of the economic cycle where economic activity declines, and unemployment typically rises as businesses reduce production and lay off workers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "During which phase of the economic cycle does economic activity usually reach its highest point before declining?",
+          "correctAnswer": "Peak",
+          "wrongAnswer1": "Trough",
+          "wrongAnswer2": "Recession",
+          "wrongAnswer3": "Recovery",
+          "explanation": "The peak is the phase in the economic cycle where economic activity is at its maximum, often followed by a downturn leading to a recession.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Financial crises",
+      "questions": [
+        {
+          "question": "What is a financial crisis primarily characterized by?",
+          "correctAnswer": "A sudden and severe disruption in financial markets and institutions",
+          "wrongAnswer1": "A gradual increase in interest rates",
+          "wrongAnswer2": "Stable and growing stock market values",
+          "wrongAnswer3": "A steady rise in consumer spending",
+          "explanation": "A financial crisis typically involves a sudden and severe disruption in financial markets and institutions, leading to loss of confidence, liquidity problems, and economic downturns.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common cause of financial crises?",
+          "correctAnswer": "Excessive borrowing and risky financial practices",
+          "wrongAnswer1": "High levels of government spending only",
+          "wrongAnswer2": "Strict banking regulations without any risk",
+          "wrongAnswer3": "Stable economic growth without market fluctuations",
+          "explanation": "Financial crises are often caused by excessive borrowing and risky financial practices that lead to asset bubbles and financial instability.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a typical consequence of a financial crisis?",
+          "correctAnswer": "Bank failures and widespread economic recession",
+          "wrongAnswer1": "Continuous economic expansion and job growth",
+          "wrongAnswer2": "Increase in investment due to market confidence",
+          "wrongAnswer3": "Stable housing prices and credit availability",
+          "explanation": "Financial crises often lead to bank failures and widespread economic recession due to loss of confidence and credit crunches.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Asset allocation",
+      "questions": [
+        {
+          "question": "What is the primary purpose of asset allocation in investment management?",
+          "correctAnswer": "To diversify investments among different asset classes to manage risk and optimize returns",
+          "wrongAnswer1": "To invest all funds in a single asset to maximize gains",
+          "wrongAnswer2": "To focus solely on short-term profit opportunities",
+          "wrongAnswer3": "To avoid investing in stocks entirely",
+          "explanation": "Asset allocation involves spreading investments across various asset classes such as stocks, bonds, and cash to balance risk and return according to an investor's goals.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common asset class considered in asset allocation?",
+          "correctAnswer": "Stocks",
+          "wrongAnswer1": "Cryptocurrency wallets",
+          "wrongAnswer2": "Personal loans to friends",
+          "wrongAnswer3": "Real estate deeds in name only",
+          "explanation": "Stocks are a main asset class used in asset allocation, along with bonds, cash, and sometimes real estate and commodities.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does age typically influence asset allocation decisions?",
+          "correctAnswer": "Younger investors often allocate more to stocks for growth, while older investors prefer bonds to preserve capital",
+          "wrongAnswer1": "Older investors usually invest all money in high-risk assets",
+          "wrongAnswer2": "Age does not play any role in asset allocation",
+          "wrongAnswer3": "Younger investors allocate more funds to bonds to avoid risk",
+          "explanation": "Younger investors can usually take more risk by investing more in stocks to seek growth, while older investors tend to shift toward bonds for income and lower risk.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Real estate investing",
+      "questions": [
+        {
+          "question": "What is a common goal of real estate investing?",
+          "correctAnswer": "To generate passive income through rental properties",
+          "wrongAnswer1": "To maximize short-term gains by frequent trading",
+          "wrongAnswer2": "To avoid all risks by keeping money in savings accounts",
+          "wrongAnswer3": "To only invest in commercial real estate without diversification",
+          "explanation": "Many real estate investors aim to generate passive income by owning rental properties that provide steady cash flow over time.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which factor is most important when evaluating a property for real estate investment?",
+          "correctAnswer": "Location and potential for appreciation",
+          "wrongAnswer1": "The color of the building exterior",
+          "wrongAnswer2": "The number of previous owners",
+          "wrongAnswer3": "Whether the property has a swimming pool",
+          "explanation": "The location of a property significantly influences its value and growth potential, making it a key consideration in real estate investing.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the difference between a REIT and direct real estate investing?",
+          "correctAnswer": "REIT allows investing in real estate through publicly traded shares without owning physical properties",
+          "wrongAnswer1": "Direct investing requires purchasing stocks of real estate companies only",
+          "wrongAnswer2": "REIT investing means buying raw land without buildings",
+          "wrongAnswer3": "Direct investing is always less risky than REIT investing",
+          "explanation": "A Real Estate Investment Trust (REIT) lets investors buy shares of a portfolio of real estate assets, providing liquidity and diversification compared to owning properties directly.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Economic growth",
+      "questions": [
+        {
+          "question": "What does economic growth primarily refer to?",
+          "correctAnswer": "An increase in the production of goods and services over time",
+          "wrongAnswer1": "A rise in the general price level of goods and services",
+          "wrongAnswer2": "An increase in government spending without change in output",
+          "wrongAnswer3": "A decrease in unemployment rates due to temporary factors",
+          "explanation": "Economic growth is defined as an increase in the production and consumption of goods and services, indicating improvements in a country's economy over time.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which factor is most likely to contribute to sustained economic growth?",
+          "correctAnswer": "Technological innovation that improves productivity",
+          "wrongAnswer1": "Higher tariffs that protect domestic industries",
+          "wrongAnswer2": "Increased short-term borrowing by consumers",
+          "wrongAnswer3": "Rising inflation with no change in output",
+          "explanation": "Sustained economic growth is often driven by technological innovations that increase productivity, enabling more output with the same input.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does economic growth affect the standard of living?",
+          "correctAnswer": "It usually improves the standard of living through higher incomes and better services",
+          "wrongAnswer1": "It always causes inflation that reduces purchasing power",
+          "wrongAnswer2": "It leads to resource depletion without benefits to people",
+          "wrongAnswer3": "It reduces employment opportunities in the long run",
+          "explanation": "Sustained economic growth tends to raise income levels and allows for better services and infrastructure, thus improving the overall standard of living.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Consumer spending",
+      "questions": [
+        {
+          "question": "What is consumer spending primarily related to?",
+          "correctAnswer": "Purchases of goods and services by households",
+          "wrongAnswer1": "Investments in government bonds",
+          "wrongAnswer2": "Savings deposited in banks",
+          "wrongAnswer3": "Taxes paid to the government",
+          "explanation": "Consumer spending refers to the amount of money households spend on goods and services for personal use.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does consumer spending affect the economy?",
+          "correctAnswer": "It drives demand for goods and services, influencing economic growth",
+          "wrongAnswer1": "It decreases national income through taxes",
+          "wrongAnswer2": "It reduces government spending on social services",
+          "wrongAnswer3": "It limits the production capacity of businesses",
+          "explanation": "Consumer spending is a key component of economic activity, as higher consumer demand encourages production and economic expansion.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which factor is most likely to increase consumer spending?",
+          "correctAnswer": "A rise in household income",
+          "wrongAnswer1": "An increase in interest rates",
+          "wrongAnswer2": "Higher unemployment rates",
+          "wrongAnswer3": "An increase in taxes",
+          "explanation": "When household income rises, consumers are generally able to spend more on goods and services, boosting consumer spending.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Currency exchange",
+      "questions": [
+        {
+          "question": "What does currency exchange involve?",
+          "correctAnswer": "Trading one country's money for another country's money",
+          "wrongAnswer1": "Buying stocks in a foreign country",
+          "wrongAnswer2": "Depositing money in a bank account",
+          "wrongAnswer3": "Saving money in a piggy bank",
+          "explanation": "Currency exchange refers to the process of converting one country's currency into another country’s currency, usually for purposes such as travel, trade, or investment.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which factor often affects the rate at which currencies are exchanged?",
+          "correctAnswer": "Supply and demand for each currency",
+          "wrongAnswer1": "The color of the banknotes",
+          "wrongAnswer2": "The number of banks in a country",
+          "wrongAnswer3": "The size of the country's population",
+          "explanation": "Currency exchange rates fluctuate based on how much people want to buy or sell a currency, which is influenced by supply and demand in the foreign exchange market.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the main purpose of currency exchange markets?",
+          "correctAnswer": "To facilitate global trade and investment by allowing currency conversion",
+          "wrongAnswer1": "To set fixed prices for goods and services worldwide",
+          "wrongAnswer2": "To prevent people from traveling internationally",
+          "wrongAnswer3": "To increase the value of one currency over another artificially",
+          "explanation": "Currency exchange markets enable individuals, businesses, and governments to convert one currency into another, which is essential for international trade and investment.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Budget deficits",
+      "questions": [
+        {
+          "question": "What does a budget deficit indicate in a government's financial management?",
+          "correctAnswer": "The government is spending more than it receives in revenue",
+          "wrongAnswer1": "The government is saving money for future projects",
+          "wrongAnswer2": "The government is collecting more taxes than it needs",
+          "wrongAnswer3": "The government has no debt obligations",
+          "explanation": "A budget deficit occurs when a government's expenditures exceed its revenues, meaning it is spending more than it collects through taxes and other income.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common consequence of sustained budget deficits?",
+          "correctAnswer": "Increase in national debt",
+          "wrongAnswer1": "Decrease in interest rates",
+          "wrongAnswer2": "Surplus in the government's budget",
+          "wrongAnswer3": "Reduction in inflation",
+          "explanation": "Sustained budget deficits typically lead to an increase in a country's national debt as the government borrows money to cover the gap between spending and revenue.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can governments reduce a budget deficit?",
+          "correctAnswer": "By increasing taxes or decreasing spending",
+          "wrongAnswer1": "By printing more money without restrictions",
+          "wrongAnswer2": "By reducing exports to other countries",
+          "wrongAnswer3": "By increasing subsidies to public sectors",
+          "explanation": "Governments can reduce budget deficits by either increasing their income through higher taxes or cutting back on spending to balance the budget.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Government bonds",
+      "questions": [
+        {
+          "question": "What is a government bond?",
+          "correctAnswer": "A government bond is a debt security issued by a government to support spending and obligations.",
+          "wrongAnswer1": "A government bond is a type of equity investment in government-owned companies.",
+          "wrongAnswer2": "A government bond is a form of digital currency created by the government.",
+          "wrongAnswer3": "A government bond is a tax paid by citizens to the government.",
+          "explanation": "Government bonds are debt instruments where investors lend money to the government for a defined period at a fixed interest rate.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why do governments issue bonds?",
+          "correctAnswer": "Governments issue bonds to raise funds for public projects and to cover budget shortfalls.",
+          "wrongAnswer1": "Governments issue bonds to print new money and increase the currency supply.",
+          "wrongAnswer2": "Governments issue bonds to pay dividends to citizens.",
+          "wrongAnswer3": "Governments issue bonds to eliminate all taxes permanently.",
+          "explanation": "Issuing bonds allows governments to borrow money from investors to finance expenditures without immediately raising taxes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is typically considered the safest investment related to government bonds?",
+          "correctAnswer": "Bonds issued by stable, developed countries are typically the safest investments.",
+          "wrongAnswer1": "Bonds issued by unstable or rapidly changing governments offer the safest returns.",
+          "wrongAnswer2": "Cryptocurrency investments backed by the government are always safest.",
+          "wrongAnswer3": "Stocks issued by government-owned enterprises are the safest bonds.",
+          "explanation": "Stable government bonds are low-risk because they are backed by the full faith and credit of a strong government, making default unlikely.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Financial regulations",
+      "questions": [
+        {
+          "question": "What is the primary purpose of financial regulations?",
+          "correctAnswer": "To ensure the stability and integrity of the financial system",
+          "wrongAnswer1": "To maximize company profits regardless of risk",
+          "wrongAnswer2": "To eliminate all risks from the financial market",
+          "wrongAnswer3": "To restrict consumer access to financial products",
+          "explanation": "Financial regulations are designed mainly to maintain the stability and integrity of the financial system by managing risks and protecting consumers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which entity is typically responsible for enforcing financial regulations?",
+          "correctAnswer": "Government regulatory agencies such as the SEC or FCA",
+          "wrongAnswer1": "Private companies in the finance sector",
+          "wrongAnswer2": "Individual investors",
+          "wrongAnswer3": "Non-profit organizations unrelated to finance",
+          "explanation": "Financial regulations are enforced by government agencies that oversee financial markets to ensure compliance and protect investors.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do financial regulations impact banks?",
+          "correctAnswer": "They impose rules on capital requirements and lending practices",
+          "wrongAnswer1": "They encourage banks to take unlimited risks",
+          "wrongAnswer2": "They prevent banks from offering loans",
+          "wrongAnswer3": "They allow banks to operate without oversight",
+          "explanation": "Financial regulations require banks to maintain certain capital levels and follow prudent lending practices to reduce risks to the financial system.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Peer-to-peer lending",
+      "questions": [
+        {
+          "question": "What is peer-to-peer lending primarily.",
+          "correctAnswer": "A method where individuals lend money directly to other individuals without using a traditional financial institution",
+          "wrongAnswer1": "A loan from a bank that is guaranteed by the government",
+          "wrongAnswer2": "A type of investment fund that pools money from many investors to buy loans",
+          "wrongAnswer3": "A government program providing direct loans to small businesses",
+          "explanation": "Peer-to-peer lending involves individuals lending money directly to others without a bank intermediary, often facilitated through online platforms.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which platform feature is most essential in peer-to-peer lending.",
+          "correctAnswer": "An online platform that connects lenders to borrowers",
+          "wrongAnswer1": "Automatic loan forgiveness programs",
+          "wrongAnswer2": "High interest rates mandated by the government",
+          "wrongAnswer3": "Physical bank branches for face-to-face lending",
+          "explanation": "Peer-to-peer lending relies on online platforms to match lenders and borrowers directly, bypassing traditional banks.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a common risk associated with peer-to-peer lending for lenders.",
+          "correctAnswer": "Borrowers may default on their loans leading to potential loss of investment",
+          "wrongAnswer1": "The lender must pay back the loan if the borrower defaults",
+          "wrongAnswer2": "The government will take over the loan and forgive it",
+          "wrongAnswer3": "The loan interest rates are fixed by law and cannot change",
+          "explanation": "In peer-to-peer lending, lenders face the risk that the borrower might fail to repay the loan, which can result in losing their invested capital.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Microfinance services",
+      "questions": [
+        {
+          "question": "What is the primary goal of microfinance services?",
+          "correctAnswer": "To provide small loans and financial services to low-income individuals",
+          "wrongAnswer1": "To offer high-interest loans to large corporations",
+          "wrongAnswer2": "To invest in stock markets for wealthy clients",
+          "wrongAnswer3": "To provide insurance services to government agencies",
+          "explanation": "Microfinance services aim to enable low-income individuals or small businesses to access financial products like loans, savings, and insurance that are usually unavailable to them.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which group is most likely to benefit from microfinance services?",
+          "correctAnswer": "Low-income individuals or small entrepreneurs",
+          "wrongAnswer1": "Large multinational companies",
+          "wrongAnswer2": "Government officials",
+          "wrongAnswer3": "High-net-worth investors",
+          "explanation": "Microfinance targets people with limited access to conventional banking, often small entrepreneurs or low-income households needing financial support.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common feature of microfinance institutions?",
+          "correctAnswer": "Offering small loans without requiring traditional collateral",
+          "wrongAnswer1": "Providing large, unsecured loans to big businesses",
+          "wrongAnswer2": "Exclusively offering credit cards to customers",
+          "wrongAnswer3": "Focusing only on foreign currency exchange services",
+          "explanation": "Microfinance institutions typically provide small loans to clients who lack collateral or credit history, helping them to start or expand small businesses.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Credit scores",
+      "questions": [
+        {
+          "question": "What is a credit score used for?",
+          "correctAnswer": "To evaluate a person's creditworthiness when applying for loans",
+          "wrongAnswer1": "To measure a person's monthly income",
+          "wrongAnswer2": "To track a person's daily spending habits",
+          "wrongAnswer3": "To determine eligibility for government benefits",
+          "explanation": "A credit score is a numerical representation of a person's creditworthiness, used by lenders to decide if they will provide credit.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which factor most impacts a credit score?",
+          "correctAnswer": "Payment history on credit accounts",
+          "wrongAnswer1": "Number of bank accounts owned",
+          "wrongAnswer2": "Total cash savings",
+          "wrongAnswer3": "Monthly rent payments",
+          "explanation": "Payment history is the biggest factor affecting credit scores because it shows if debts are paid on time.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How often can a person check their credit score without affecting it?",
+          "correctAnswer": "As often as they want through a soft inquiry",
+          "wrongAnswer1": "Only once a year",
+          "wrongAnswer2": "Every six months",
+          "wrongAnswer3": "Only when applying for a loan",
+          "explanation": "Soft inquiries allow individuals to check their credit score without impacting it, unlike hard inquiries which occur during credit applications.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Money transfer",
+      "questions": [
+        {
+          "question": "What is a common method of transferring money electronically?",
+          "correctAnswer": "Bank wire transfer",
+          "wrongAnswer1": "Depositing coins in a piggy bank",
+          "wrongAnswer2": "Sending a physical check by mail",
+          "wrongAnswer3": "Paying with cash at a store",
+          "explanation": "A bank wire transfer is a common electronic method to transfer money directly between banks or financial institutions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which service is typically used for international money transfers?",
+          "correctAnswer": "SWIFT network",
+          "wrongAnswer1": "Local cash deposit",
+          "wrongAnswer2": "Mobile phone text messages",
+          "wrongAnswer3": "Credit card swiping",
+          "explanation": "The SWIFT network is widely used for secure international money transfers between banks.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is an important factor to consider when transferring money online?",
+          "correctAnswer": "Security of the transaction",
+          "wrongAnswer1": "Color of the website",
+          "wrongAnswer2": "Number of ads on the page",
+          "wrongAnswer3": "Font style used on the website",
+          "explanation": "Security is crucial to protect financial information and prevent fraud during online money transfers.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Cryptocurrency mining",
+      "questions": [
+        {
+          "question": "What is the primary purpose of cryptocurrency mining?",
+          "correctAnswer": "To validate transactions and add them to the blockchain",
+          "wrongAnswer1": "To print new physical currency notes",
+          "wrongAnswer2": "To exchange cryptocurrencies for fiat money",
+          "wrongAnswer3": "To store cryptocurrencies securely in a wallet",
+          "explanation": "Cryptocurrency mining involves using computational power to validate transactions and add them to the blockchain, which secures the network and rewards miners with new coins.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following devices is commonly used for cryptocurrency mining?",
+          "correctAnswer": "Specialized hardware called ASICs",
+          "wrongAnswer1": "Standard desktop printers",
+          "wrongAnswer2": "Ordinary smartphones without additional hardware",
+          "wrongAnswer3": "Digital cameras",
+          "explanation": "ASICs, or Application-Specific Integrated Circuits, are specialized devices designed for efficient cryptocurrency mining, outperforming general-purpose devices.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What happens to the mining reward in many cryptocurrencies over time due to processes like halving?",
+          "correctAnswer": "The reward decreases periodically, making mining more difficult",
+          "wrongAnswer1": "The reward increases exponentially to encourage more miners",
+          "wrongAnswer2": "The reward stays constant regardless of time",
+          "wrongAnswer3": "The reward is given only once and not repeated",
+          "explanation": "In many cryptocurrencies such as Bitcoin, the mining reward halves at regular intervals, reducing the number of new coins created and making mining progressively harder.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Digital currency",
+      "questions": [
+        {
+          "question": "What is digital currency?",
+          "correctAnswer": "A form of money that exists only in electronic form",
+          "wrongAnswer1": "Physical coins and banknotes used in transactions",
+          "wrongAnswer2": "Paper money issued by central banks",
+          "wrongAnswer3": "Tokens used only in video games",
+          "explanation": "Digital currency is money that exists electronically, without a physical form like coins or banknotes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of digital currency?",
+          "correctAnswer": "Bitcoin",
+          "wrongAnswer1": "US dollar cash",
+          "wrongAnswer2": "Gold coins",
+          "wrongAnswer3": "Checks",
+          "explanation": "Bitcoin is a well-known example of digital currency that operates electronically on a decentralized network called blockchain.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What distinguishes digital currency from traditional physical money?",
+          "correctAnswer": "It is stored and transacted electronically without a physical form",
+          "wrongAnswer1": "It can be touched and held like coins",
+          "wrongAnswer2": "It is printed by government mints",
+          "wrongAnswer3": "It requires physical wallets to store",
+          "explanation": "Digital currency exists only electronically and transactions occur over digital networks, unlike traditional money which is physical and tangible.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Financial technology",
+      "questions": [
+        {
+          "question": "What is the main purpose of financial technology in the money industry?",
+          "correctAnswer": "To improve and automate the delivery and use of financial services",
+          "wrongAnswer1": "To create physical currency for transactions",
+          "wrongAnswer2": "To replace banks entirely with technology firms",
+          "wrongAnswer3": "To invest in the stock market automatically",
+          "explanation": "Financial technology, or fintech, primarily aims to use technology to enhance and streamline financial services, making them more accessible and efficient.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common application of financial technology?",
+          "correctAnswer": "Mobile payment apps allowing digital wallet transactions",
+          "wrongAnswer1": "Printing new types of banknotes",
+          "wrongAnswer2": "Opening traditional brick-and-mortar banks",
+          "wrongAnswer3": "Physically transporting cash between banks",
+          "explanation": "Mobile payment apps are a popular fintech application, enabling users to carry out digital transactions safely and conveniently without cash.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How has financial technology impacted traditional banking?",
+          "correctAnswer": "By increasing accessibility and offering online services",
+          "wrongAnswer1": "By eliminating the need for bank employees altogether",
+          "wrongAnswer2": "By making physical bank visits mandatory for all transactions",
+          "wrongAnswer3": "By removing all regulations from financial transactions",
+          "explanation": "Fintech has made financial services more accessible through online platforms, but it has not removed the need for regulation or eliminated all bank staff.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Inflation rates",
+      "questions": [
+        {
+          "question": "What does the term inflation rate measure?",
+          "correctAnswer": "The percentage increase in prices of goods and services over time",
+          "wrongAnswer1": "The total amount of money in circulation",
+          "wrongAnswer2": "The interest rate set by central banks",
+          "wrongAnswer3": "The exchange rate between two currencies",
+          "explanation": "Inflation rate measures how much the general level of prices for goods and services rises over a specific period, usually annually, indicating a decrease in purchasing power.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following can result from high inflation rates?",
+          "correctAnswer": "Decreased purchasing power of money",
+          "wrongAnswer1": "Increased value of currency compared to other currencies",
+          "wrongAnswer2": "Lower prices for imported goods",
+          "wrongAnswer3": "Higher interest rates on government bonds always",
+          "explanation": "High inflation reduces the value of money, meaning consumers can buy less with the same amount, thus decreasing purchasing power.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why do central banks aim to keep inflation rates low and stable?",
+          "correctAnswer": "To maintain economic stability and predictability for consumers and businesses",
+          "wrongAnswer1": "To ensure rapid growth of money supply only",
+          "wrongAnswer2": "To eliminate unemployment completely",
+          "wrongAnswer3": "To fix exchange rates permanently",
+          "explanation": "Low and stable inflation helps maintain economic stability, making it easier for consumers and businesses to plan for the future and supports steady economic growth.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Financial planning",
+      "questions": [
+        {
+          "question": "What is the primary goal of financial planning?",
+          "correctAnswer": "To manage income and expenses to meet future goals",
+          "wrongAnswer1": "To spend as much money as possible",
+          "wrongAnswer2": "To avoid paying taxes on all income",
+          "wrongAnswer3": "To keep all money in cash at home",
+          "explanation": "Financial planning involves organizing your finances so you can achieve specific life goals by effectively managing income, expenses, savings, and investments.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key component of a financial plan?",
+          "correctAnswer": "Budgeting and saving for future needs",
+          "wrongAnswer1": "Maximizing credit card debt",
+          "wrongAnswer2": "Ignoring retirement savings",
+          "wrongAnswer3": "Avoiding any form of insurance",
+          "explanation": "A good financial plan includes budgeting to control spending and saving money regularly to meet future financial needs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can financial planning help during emergencies?",
+          "correctAnswer": "By setting aside an emergency fund for unexpected expenses",
+          "wrongAnswer1": "By taking out high-interest loans when needed",
+          "wrongAnswer2": "By relying on credit cards without a repayment plan",
+          "wrongAnswer3": "By spending all savings on daily expenses",
+          "explanation": "Financial planning encourages creating an emergency fund that provides financial security in case of unexpected events such as medical emergencies or job loss.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Economic indicators",
+      "questions": [
+        {
+          "question": "What is the primary purpose of economic indicators?",
+          "correctAnswer": "To provide information about the overall health of an economy",
+          "wrongAnswer1": "To set the interest rates for banks",
+          "wrongAnswer2": "To determine tax rates for individuals",
+          "wrongAnswer3": "To regulate stock market trades",
+          "explanation": "Economic indicators give insights into the condition and performance of an economy, helping stakeholders make informed decisions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is considered a leading economic indicator?",
+          "correctAnswer": "Stock market performance",
+          "wrongAnswer1": "Unemployment rate",
+          "wrongAnswer2": "Consumer Price Index",
+          "wrongAnswer3": "Gross Domestic Product",
+          "explanation": "Leading indicators like stock market performance tend to predict future economic activity, whereas others like unemployment rate and GDP are lagging or coincident indicators.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does the Consumer Price Index (CPI) help economists?",
+          "correctAnswer": "It measures changes in the average price level of goods and services purchased by households",
+          "wrongAnswer1": "It tracks the total production of a country",
+          "wrongAnswer2": "It calculates the government budget deficit",
+          "wrongAnswer3": "It shows the number of new businesses started each year",
+          "explanation": "The CPI is used to track inflation by showing how prices change over time for consumer goods and services.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Monetary system",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a monetary system?",
+          "correctAnswer": "To facilitate the exchange of goods and services",
+          "wrongAnswer1": "To control population growth",
+          "wrongAnswer2": "To regulate weather patterns",
+          "wrongAnswer3": "To organize educational institutions",
+          "explanation": "A monetary system provides a standardized medium of exchange, which helps facilitate trade and economic activity.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a key component of a monetary system?",
+          "correctAnswer": "Currency",
+          "wrongAnswer1": "Language",
+          "wrongAnswer2": "Climate",
+          "wrongAnswer3": "Transportation",
+          "explanation": "Currency serves as the medium of exchange in a monetary system, enabling transactions between individuals and businesses.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does a government typically support its monetary system?",
+          "correctAnswer": "By issuing currency and regulating banks",
+          "wrongAnswer1": "By running public transportation",
+          "wrongAnswer2": "By enforcing traffic laws",
+          "wrongAnswer3": "By managing wildlife reserves",
+          "explanation": "Governments issue currency and regulate financial institutions to maintain the stability and integrity of the monetary system.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Investment portfolio",
+      "questions": [
+        {
+          "question": "What is the main purpose of an investment portfolio?",
+          "correctAnswer": "To diversify and manage financial assets to reduce risk",
+          "wrongAnswer1": "To store money in a savings account only",
+          "wrongAnswer2": "To invest exclusively in one company's stock",
+          "wrongAnswer3": "To lend money to friends and family",
+          "explanation": "An investment portfolio is designed to diversify assets across various investments to manage and reduce risk, rather than concentrating all funds in one place or purpose.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes asset diversification in an investment portfolio?",
+          "correctAnswer": "Spreading investments across different asset types to reduce risk",
+          "wrongAnswer1": "Putting all money into real estate",
+          "wrongAnswer2": "Investing only in government bonds",
+          "wrongAnswer3": "Keeping all funds in cash under a mattress",
+          "explanation": "Asset diversification involves investing in a range of assets such as stocks, bonds, and real estate to spread risk and avoid losses from a single investment type.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is it important to periodically review and adjust your investment portfolio?",
+          "correctAnswer": "To ensure it aligns with your financial goals and risk tolerance over time",
+          "wrongAnswer1": "To switch all investments to the latest trending stock",
+          "wrongAnswer2": "To withdraw all money during market fluctuations",
+          "wrongAnswer3": "To increase the number of investments without any strategy",
+          "explanation": "Investment portfolios need regular review to maintain alignment with changing financial goals and risk tolerance, avoiding impulsive decisions based on market trends.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Money",
+      "concept": "Financial statements",
+      "questions": [
+        {
+          "question": "What is the primary purpose of financial statements?",
+          "correctAnswer": "To provide information about a company's financial performance and position",
+          "wrongAnswer1": "To forecast future stock prices",
+          "wrongAnswer2": "To track employee performance",
+          "wrongAnswer3": "To record customer feedback",
+          "explanation": "Financial statements are prepared to give stakeholders information about a company's financial health, including its performance and financial position, which helps in decision making.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a typical component of financial statements?",
+          "correctAnswer": "Marketing strategy report",
+          "wrongAnswer1": "Balance sheet",
+          "wrongAnswer2": "Income statement",
+          "wrongAnswer3": "Cash flow statement",
+          "explanation": "Financial statements generally include the balance sheet, income statement, and cash flow statement. A marketing strategy report is not part of financial statements.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "The balance sheet in financial statements primarily shows what?",
+          "correctAnswer": "Assets, liabilities, and equity at a specific point in time",
+          "wrongAnswer1": "Revenues and expenses over a period",
+          "wrongAnswer2": "Cash inflows and outflows during a period",
+          "wrongAnswer3": "The company’s business strategy",
+          "explanation": "The balance sheet details the company’s financial position by showing assets, liabilities, and equity at a specific date, unlike income statements or cash flow statements which cover periods.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

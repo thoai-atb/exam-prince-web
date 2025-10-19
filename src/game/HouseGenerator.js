@@ -19,28 +19,21 @@ export default class HouseGenerator {
     }
 
     // Distribute Items
-    this.distributeAnswerSheets(1);
-    this.distributePencils();
+    this.distributeItem("sheet", 1);
+    this.distributePencils(true);
+    this.distributeItem("ruler", 5);
+    this.distributeItem("eraser", 3);
 
     // Set cost for floor plans
     this.setCost();
   }
 
-  distributeAnswerSheets(count = 10) {
-    // Ensure we don’t pick duplicate indices
-    const chosenIndices = new Set();
-    while (chosenIndices.size < Math.min(count, this.pool.length)) {
-      chosenIndices.add(Math.floor(Math.random() * this.pool.length));
-    }
-
-    for (const index of chosenIndices) {
-      const fp = this.pool[index];
-      fp.addItem("sheet");
-    }
-  }
-
-  distributePencils() {
+  distributePencils(skipEmpty = false) {
     for (const fp of this.pool) {
+      // Room is not empty
+      if (skipEmpty && fp.items && fp.items.length > 0)
+        continue;
+
       const doorCount = fp.countDoors();
 
       // Always give 1 pencil if dead-end (1 door)
@@ -54,6 +47,36 @@ export default class HouseGenerator {
       }
     }
   }
+
+  distributeItem(item, count = 10, skipEmpty = false) {
+    // Collect all possible room indices
+    let availableIndices = this.pool.map((_, i) => i);
+
+    // If "skipEmpty" is true → only include rooms with no items
+    if (skipEmpty) {
+      availableIndices = availableIndices.filter(i => {
+        const fp = this.pool[i];
+        return !fp.items || fp.items.length === 0; // adjust depending on your structure
+      });
+    }
+
+    // If no rooms available under skipEmpty condition, stop early
+    if (availableIndices.length === 0) return;
+
+    // Choose random unique indices
+    const chosenIndices = new Set();
+    while (chosenIndices.size < Math.min(count, availableIndices.length)) {
+      const randomIndex = Math.floor(Math.random() * availableIndices.length);
+      chosenIndices.add(availableIndices[randomIndex]);
+    }
+
+    // Distribute the item
+    for (const i of chosenIndices) {
+      const fp = this.pool[i];
+      fp.addItem(item);
+    }
+  }
+
 
   setCost() {
     for (const fp of this.pool) {

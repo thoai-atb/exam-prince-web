@@ -5,7 +5,7 @@ import { useHouseManager } from "../pages/HouseContainer";
 import ExamEntrance from "./ExamEntrance";
 import ExamSubmission from "./ExamSubmission";
 
-export default function FloorPlanPanel() {
+export default function QuestionPanel() {
   const [selectedFloorPlan, setSelectedFloorPlan] = useState(null);
   const [userAnswer, setUserAnswer] = useState(null);
   const [cheat, setCheat] = useState(false);
@@ -21,6 +21,7 @@ export default function FloorPlanPanel() {
       const session = manager.roomOpenSession;
       if (manager.isDrafting()) {
         setSelectedFloorPlan(session?.selectedFloorPlan || null);
+        console.log(session);
         setUserAnswer(session?.userAnswer ?? null);
       } else {
         const fp = manager.getCurrentFloorPlan();
@@ -87,6 +88,8 @@ export default function FloorPlanPanel() {
         handleAnswerClick={handleAnswerClick}
         handleProceed={handleProceed}
         isDrafting={houseManagerRef.current.isDrafting()}
+        erasable={houseManagerRef.current.items.eraser > 0}
+        handleErase={() => houseManagerRef.current.eraseAnswer()}
         cheat={cheat}
       />
 
@@ -101,7 +104,7 @@ export default function FloorPlanPanel() {
       )}
 
       {cheat && (
-        <div className="text-green-400 text-xs mt-2">
+        <div className="text-green-400 text-xs">
           👁️ Secret mode activated
         </div>
       )}

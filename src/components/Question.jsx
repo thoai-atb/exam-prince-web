@@ -7,11 +7,12 @@ export default function Question({
   userAnswer,
   handleAnswerClick,
   handleProceed,
+  handleErase,
   isDrafting,
+  erasable,
   cheat = false,
 }) {
   const [highlightIndex, setHighlightIndex] = useState(0);
-
   const displayProceedBtn = userAnswer !== null && isDrafting;
 
   // ✅ keyboard control logic
@@ -21,7 +22,6 @@ export default function Question({
 
       switch (key) {
         case "w":
-          // move up
           if (userAnswer === null) {
             setHighlightIndex(
               (prev) => (prev - 1 + question.answers.length) % question.answers.length
@@ -30,20 +30,22 @@ export default function Question({
           break;
 
         case "s":
-          // move down
           if (userAnswer === null) {
-            setHighlightIndex(
-              (prev) => (prev + 1) % question.answers.length
-            );
+            setHighlightIndex((prev) => (prev + 1) % question.answers.length);
           }
           break;
 
         case "e":
-          // select or go back
           if (userAnswer === null && highlightIndex >= 0) {
             handleAnswerClick(highlightIndex);
           } else if (displayProceedBtn) {
             handleProceed();
+          }
+          break;
+
+        case "q":
+          if (erasable && displayProceedBtn) {
+            handleErase();
           }
           break;
 
@@ -60,6 +62,8 @@ export default function Question({
     displayProceedBtn,
     handleAnswerClick,
     handleProceed,
+    handleErase,
+    erasable,
   ]);
 
   if (!question) return null;
@@ -74,10 +78,7 @@ export default function Question({
         {question.answers.map((answer, idx) => {
           let displayAnswer = answer;
 
-          // append marker if cheat is enabled
-          if (cheat && idx === question.correctIdx) {
-            displayAnswer += " 🔰";
-          }
+          if (cheat && idx === question.correctIdx) displayAnswer += " 🔰";
 
           let bgClass = "bg-gray-700 hover:bg-gray-600";
 
@@ -111,31 +112,42 @@ export default function Question({
         </div>
       )}
 
-      {/* Proceed Button */}
+      {/* Proceed + Erase Buttons */}
       {displayProceedBtn && (
-        <div className="mt-4 w-full flex justify-center transition-opacity duration-700">
+        <div className="mt-4 w-full flex justify-center items-center gap-4 transition-opacity duration-700">
           <div
             className="bg-gray-800 px-12 py-2 hover:bg-gray-500 cursor-pointer text-white rounded-md transition-all"
             onClick={handleProceed}
           >
             Confirm
           </div>
-          <div className="flex justify-center items-center mx-2 text-gray-500">
+          <div className="text-gray-500">
             <KeyboardButton>E</KeyboardButton>
           </div>
+
+          {erasable && (
+            <>
+              <div
+                className="bg-gray-800 px-8 py-2 hover:bg-gray-500 cursor-pointer text-white rounded-md transition-all"
+                onClick={handleErase}
+              >
+                Erase Answer
+              </div>
+              <div className="text-gray-500">
+                <KeyboardButton>Q</KeyboardButton>
+              </div>
+            </>
+          )}
         </div>
       )}
 
       {/* Keyboard Instructions */}
-      {
-        userAnswer === null && (
-          <p className="mt-4 text-xs text-gray-400 text-center">
-            <KeyboardButton>W</KeyboardButton> <KeyboardButton>S</KeyboardButton> to move,{" "}
-            <KeyboardButton>E</KeyboardButton> to select
-          </p>
-
-        )
-      }
+      {userAnswer === null && (
+        <p className="mt-4 text-xs text-gray-400 text-center">
+          <KeyboardButton>W</KeyboardButton> <KeyboardButton>S</KeyboardButton> to move,{" "}
+          <KeyboardButton>E</KeyboardButton> to select
+        </p>
+      )}
     </div>
   );
 }

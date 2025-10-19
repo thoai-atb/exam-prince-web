@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useRef, useEffect, useState } from "react";
 import House from "../components/House";
 import ChooseFloorPlan from "../components/ChooseFloorPlan";
-import FloorPlanPanel from "../components/FloorPlanPanel";
+import QuestionPanel from "../components/QuestionPanel";
 import ItemPanel from "../components/ItemPanel";
 import ExitModal from "../components/ExitModal";
 import HouseManager from "../game/HouseManager";
@@ -68,7 +68,7 @@ export default function HouseContainer({ topic, onExit }) {
             <div className="absolute top-0 left-0">
               <ChooseFloorPlan />
             </div>
-            <FloorPlanPanel />
+            <QuestionPanel />
           </div>
         </main>
       )}

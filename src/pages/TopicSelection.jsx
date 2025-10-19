@@ -35,7 +35,7 @@ export default function TopicSelection({ onSelect }) {
   return (
     <div className="flex flex-col gap-5 items-center text-center text-white justify-between">
       {/* 🌟 App Header */}
-      <div className="flex flex-col items-center mt-6">
+      <div className="flex flex-col items-center">
         <img
           src="/logo.png"
           alt="Exam Prince Logo"
@@ -50,7 +50,7 @@ export default function TopicSelection({ onSelect }) {
       <div className="bg-gray-900 text-white flex flex-col items-center p-4 rounded-sm shadow-lg">
         <h2 className="text-lg font-thin mb-4">Select a Topic</h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-3 max-w-5xl">
+        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-1 max-w-5xl">
           {topics.map((t, idx) => {
             const isSelected = selectedTopic?.path === t.path;
             return (

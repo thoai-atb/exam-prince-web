@@ -27,6 +27,10 @@ export default class RoomOpenSession {
     return !this.failed;
   }
 
+  clearUserAnswer() {
+    this.userAnswer = null;
+  }
+
   // Reset the session
   reset() {
     this.active = false;
