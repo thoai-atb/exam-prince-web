@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 import Room from "./Room";
 import { subscribeKeyboard } from "../input/controls";
-import { useHouseManager } from "../context/HouseManagerContext";
-
+import { useHouseManager } from "../pages/HouseContainer";
 
 export default function House() {
   // Keep track of state from manager

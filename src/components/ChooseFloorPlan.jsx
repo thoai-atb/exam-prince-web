@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import FloorPlan from "./FloorPlan";
 import KeyboardButton from "./KeyBoardButton";
-import { useHouseManager } from "../context/HouseManagerContext";
+import { useHouseManager } from "../pages/HouseContainer";
 import { subscribeKeyboard } from "../input/controls";
 import ItemDictionary from "../game/ItemDictionary";
 

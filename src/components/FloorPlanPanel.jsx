@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Question from "./Question";
 import FloorPlanInfo from "./FloorPlanInfo";
-import { useHouseManager } from "../context/HouseManagerContext";
+import { useHouseManager } from "../pages/HouseContainer";
 import ExamEntrance from "./ExamEntrance";
 import ExamSubmission from "./ExamSubmission";
 
@@ -63,7 +63,12 @@ export default function FloorPlanPanel() {
       />
 
       {selectedFloorPlan.special === "entrance" && (<ExamEntrance onExit={() => houseManagerRef.current.exitHouse()} />)}
-      {selectedFloorPlan.special === "submission" && (<ExamSubmission onSubmit={() => console.log("SUBMIT")} />)}
+      {selectedFloorPlan.special === "submission" && (
+        <ExamSubmission
+          submitable={houseManagerRef.current.items["sheet"] > 0}
+          onSubmit={() => houseManagerRef.current.submit()}
+        />
+      )}
     </div>
   );
 }

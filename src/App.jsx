@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Main from "./pages/Main";
+import HouseContainer from "./pages/HouseContainer";
 import TopicSelection from "./pages/TopicSelection";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       {!selectedTopic ? (
         <TopicSelection onSelect={(topic) => setSelectedTopic(topic)} />
       ) : (
-        <Main topic={selectedTopic} onExit={() => setSelectedTopic(null)} />
+        <HouseContainer topic={selectedTopic} onExit={() => setSelectedTopic(null)} />
       )}
     </>
   );

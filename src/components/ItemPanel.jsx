@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { useHouseManager } from "../context/HouseManagerContext";
+import { useHouseManager } from "../pages/HouseContainer";
 import ItemDictionary from "../game/ItemDictionary";
 
 export default function ItemPanel() {
@@ -45,9 +45,9 @@ export default function ItemPanel() {
       {Object.keys(items).map((id, i) => (
         <div
           key={i}
-          className={`flex flex-row px-2 ${flashIds.has(id) ? "bg-gray-700" : ""} duration-700 transition-all text-xl gap-2 h-12 items-center rounded-lg`}
+          className={`flex flex-row px-2 ${flashIds.has(id) ? "bg-gray-500" : ""} duration-700 transition-all text-xl gap-2 h-12 items-center rounded-lg`}
         >
-          <span className={`text-yellow-300 font-bold transition-all duration-700 ${flashIds.has(id) ? "text-4xl" : "text-xl"}`}>{items[id]}</span>
+          <span className={`text-yellow-300 font-bold`}>{items[id]}</span>
           <span>{ItemDictionary.get(id).icon}</span>
           <span className="text-sm text-gray-300">{ItemDictionary.get(id).name}</span>
         </div>

@@ -39,9 +39,9 @@ export default function TopicSelection({ onSelect }) {
         <img
           src="/logo.png"
           alt="Exam Prince Logo"
-          className="w-20 h-20 mb-2 drop-shadow-lg"
+          className="w-20 h-20 mb-2 drop-shadow-lg border-4 border-black"
         />
-        <p className="text-3xl font-bold text-blue-400 tracking-wide">
+        <p className="text-3xl font-thin font-serif italic text-blue-400 tracking-wide">
           Exam Prince
         </p>
       </div>

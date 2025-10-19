@@ -11,6 +11,7 @@ export default class HouseManager {
     this.entrancePosition = start;
     this.submissionPosition = end;
     this.exiting = false;
+    this.submitted = false;
     this.topic = topic.data;
 
     // Pass the topic data to HouseGenerator
@@ -29,6 +30,10 @@ export default class HouseManager {
 
     // Items collected on the way
     this.items = {};
+
+    // Statistics
+    this.roomsDiscovered = 0;
+    this.roomsFailed = 0;
 
     // Open starting room immediately
     this.createEntrance();
@@ -51,7 +56,10 @@ export default class HouseManager {
       rooms: this.rooms,
       currentPosition: this.currentPosition,
       exiting: this.exiting,
-      items: this.items
+      items: this.items,
+      submitted: this.submitted,
+      roomsDiscovered: this.roomsDiscovered,
+      roomsFailed: this.roomsFailed
     };
   }
 
@@ -166,15 +174,21 @@ export default class HouseManager {
   useFloorPlan() {
     if (!this.roomOpenSession?.selectedFloorPlan)
       return;
+
     const floorplan = this.generator.useFloorPlan(
       this.roomOpenSession.selectedFloorPlan.name
     );
     const [row, col] = [this.roomOpenSession.row, this.roomOpenSession.col];
     this.rooms[row][col].open(floorplan);
     const failed = this.roomOpenSession.failed;
+
     this.roomOpenSession.reset();
+    this.roomsDiscovered += 1;
+
+    // Fail or not?
     if (failed) {
       this.rooms[row][col].failed = true;
+      this.roomsFailed += 1;
       this.refresh();
     } else {
       for (const item of floorplan.items) {
@@ -265,7 +279,7 @@ export default class HouseManager {
 
   moveTo(newRow, newCol) {
     if (this.roomOpenSession.active) return false;
-    if (this.exiting) return false;
+    if (this.exiting || this.submitted) return false;
 
     // Exiting the House
     const [er, ec] = this.entrancePosition;
@@ -292,6 +306,11 @@ export default class HouseManager {
     if (this.items[itemId] === undefined)
       this.items[itemId] = 0;
     this.items[itemId] += 1;
+  }
+
+  submit() {
+    this.submitted = true;
+    this.notify();
   }
 
   exitHouse() {
