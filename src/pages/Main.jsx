@@ -1,5 +1,5 @@
 // Main.jsx
-import React from "react";
+import React, { useEffect, useState } from "react";
 import House from "../components/House";
 import ChooseFloorPlan from "../components/ChooseFloorPlan";
 import { HouseManagerProvider } from "../context/HouseManagerContext";

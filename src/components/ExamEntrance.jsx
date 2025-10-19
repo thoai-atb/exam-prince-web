@@ -26,7 +26,7 @@ export default function ExamEntrance({ onExit }) {
       </p>
 
       <p className="mt-2">
-        You can leave the house to quit and give up this exam.
+        You can exit the house anytime and give up this exam.
       </p>
 
       <div className="w-full flex justify-center items-center">
@@ -34,7 +34,7 @@ export default function ExamEntrance({ onExit }) {
           className="bg-gray-800 text-center py-2 w-1/2 hover:bg-gray-500 cursor-pointer text-white rounded-md transition-all"
           onClick={() => onExit()}
         >
-          QUIT
+          EXIT
         </div>
       </div>
     </div>

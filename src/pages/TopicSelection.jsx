@@ -21,6 +21,17 @@ export default function TopicSelection({ onSelect }) {
     if (onSelect && selectedTopic) onSelect(selectedTopic);
   };
 
+  // --- Keyboard handling ---
+  useEffect(() => {
+    const handleKey = (e) => {
+      if (e.key.toLowerCase() === "e" && selectedTopic) {
+        handleContinue();
+      }
+    };
+    window.addEventListener("keydown", handleKey);
+    return () => window.removeEventListener("keydown", handleKey);
+  }, [selectedTopic]);
+
   return (
     <div className="flex flex-col gap-5 items-center text-center text-white justify-between">
       {/* 🌟 App Header */}
@@ -67,7 +78,7 @@ export default function TopicSelection({ onSelect }) {
       <div
         onClick={handleContinue}
         className={`mb-4 px-4 py-2 rounded-md bg-blue-600 hover:bg-blue-500 cursor-pointer font-semibold text-sm shadow-md transition-all
-          ${selectedTopic ? "opacity-100" : "opacity-0 pointer-events-none"}
+          ${selectedTopic ? "opacity-100  w-1/2" : "opacity-0 w-0 pointer-events-none"}
         `}
       >
         Continue

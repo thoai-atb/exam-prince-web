@@ -1,9 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useHouseManager } from "../context/HouseManagerContext";
 import ItemDictionary from "../game/ItemDictionary";
 
 export default function ItemPanel() {
   const [items, setItems] = useState({});
+  const [flashIds, setFlashIds] = useState(new Set());
+  const prevItemsRef = useRef({});
   const houseManagerRef = useHouseManager();
 
   useEffect(() => {
@@ -11,7 +13,22 @@ export default function ItemPanel() {
     if (!manager) return;
 
     const update = () => {
-      setItems({ ...manager.items }); // Create a new object so React detects the change
+      const newItems = { ...manager.items };
+      const newFlashIds = new Set();
+
+      // Compare previous counts with current
+      for (const id of Object.keys(newItems)) {
+        if (newItems[id] !== (prevItemsRef.current[id] || 0)) {
+          newFlashIds.add(id);
+        }
+      }
+
+      prevItemsRef.current = newItems;
+      setItems(newItems);
+      setFlashIds(newFlashIds);
+
+      // Remove flash after short delay
+      setTimeout(() => setFlashIds(new Set()), 300);
     };
 
     const unsubscribe = manager.subscribe(() => {
@@ -24,14 +41,13 @@ export default function ItemPanel() {
   }, [houseManagerRef]);
 
   return (
-    <div className="flex flex-col gap-4 w-40">
+    <div className="flex flex-col gap-4 w-48">
       {Object.keys(items).map((id, i) => (
         <div
           key={i}
-          className="flex flex-row text-xl gap-2 items-center rounded-lg"
+          className={`flex flex-row px-2 ${flashIds.has(id) ? "bg-gray-700" : ""} duration-700 transition-all text-xl gap-2 h-12 items-center rounded-lg`}
         >
-          {/* Count */}
-          <span className="font-bold text-yellow-400">{items[id]}</span>
+          <span className={`text-yellow-300 font-bold transition-all duration-700 ${flashIds.has(id) ? "text-4xl" : "text-xl"}`}>{items[id]}</span>
           <span>{ItemDictionary.get(id).icon}</span>
           <span className="text-sm text-gray-300">{ItemDictionary.get(id).name}</span>
         </div>
@@ -39,13 +55,3 @@ export default function ItemPanel() {
     </div>
   );
 }
-
-// --- Mock items for testing ---
-const mockItems = [
-  { id: 1, name: "Answer Sheet", icon: "📜" },
-  { id: 2, name: "Pencil", icon: "✏️" },
-  { id: 3, name: "Ruler", icon: "📏" },
-  { id: 4, name: "Eraser", icon: "🩹" },
-  { id: 5, name: "Pencil", icon: "✏️" },
-  { id: 6, name: "Pencil", icon: "✏️" },
-];

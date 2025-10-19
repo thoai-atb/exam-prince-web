@@ -10,7 +10,7 @@ export default function Question({
   isDrafting,
   cheat = false,
 }) {
-  const [highlightIndex, setHighlightIndex] = useState(-1);
+  const [highlightIndex, setHighlightIndex] = useState(0);
 
   const displayProceedBtn = userAnswer !== null && isDrafting;
 

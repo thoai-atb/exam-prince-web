@@ -10,7 +10,7 @@ export default class HouseManager {
     this.currentPosition = start;
     this.entrancePosition = start;
     this.submissionPosition = end;
-    this.exited = false;
+    this.exiting = false;
     this.topic = topic.data;
 
     // Pass the topic data to HouseGenerator
@@ -50,7 +50,7 @@ export default class HouseManager {
     return {
       rooms: this.rooms,
       currentPosition: this.currentPosition,
-      exited: this.exited,
+      exiting: this.exiting,
       items: this.items
     };
   }
@@ -264,10 +264,10 @@ export default class HouseManager {
   }
 
   moveTo(newRow, newCol) {
-    if (this.roomOpenSession.active) {
-      return false;
-    }
+    if (this.roomOpenSession.active) return false;
+    if (this.exiting) return false;
 
+    // Exiting the House
     const [er, ec] = this.entrancePosition;
     if (newRow === er + 1 && newCol === ec) {
       this.exitHouse();
@@ -295,7 +295,12 @@ export default class HouseManager {
   }
 
   exitHouse() {
-    this.exited = true;
+    this.exiting = true;
+    this.notify();
+  }
+
+  cancelExit() {
+    this.exiting = false;
     this.notify();
   }
 }
