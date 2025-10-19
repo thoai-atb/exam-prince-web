@@ -469,8 +469,8 @@
       "questions": [
         {
           "question": "What is the place value of 5 in the number 352?",
-          "correctAnswer": "5 is in the ones place, so its value is 5",
-          "wrongAnswer1": "5 is in the tens place, so its value is 50",
+          "correctAnswer": "5 is in the tens place, so its value is 50",
+          "wrongAnswer1": "5 is in the ones place, so its value is 5",
           "wrongAnswer2": "5 is in the hundreds place, so its value is 500",
           "wrongAnswer3": "5 is in the thousands place, so its value is 5000",
           "explanation": "The digit 5 is in the ones place in the number 352, so its place value is 5.",

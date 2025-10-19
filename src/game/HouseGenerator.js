@@ -18,13 +18,15 @@ export default class HouseGenerator {
       );
     }
 
-    this.distributeAnswerSheets(10);
+    // Distribute Items
+    this.distributeAnswerSheets(1);
     this.distributePencils();
+
+    // Set cost for floor plans
+    this.setCost();
   }
 
   distributeAnswerSheets(count = 10) {
-    if (this.pool.length === 0) return;
-
     // Ensure we don’t pick duplicate indices
     const chosenIndices = new Set();
     while (chosenIndices.size < Math.min(count, this.pool.length)) {
@@ -38,8 +40,6 @@ export default class HouseGenerator {
   }
 
   distributePencils() {
-    if (this.pool.length === 0) return;
-
     for (const fp of this.pool) {
       const doorCount = fp.countDoors();
 
@@ -51,6 +51,28 @@ export default class HouseGenerator {
       // 2-way: 25% chance to add 1 pencil
       else if (doorCount === 2 && Math.random() < 0.25) {
         fp.addItem("pencil");
+      }
+    }
+  }
+
+  setCost() {
+    for (const fp of this.pool) {
+      const doorCount = fp.countDoors();
+
+      // 4 doors always cost >= 1 pencil
+      if (doorCount === 4) {
+        if (Math.random() < 0.75)
+          fp.cost = 2;
+        else
+          fp.cost = 1;
+      }
+
+      // 3-way: 50% chance cost 1 pencil
+      if (doorCount === 3) {
+        if (Math.random() < 0.5)
+          fp.cost = 1;
+        else
+          fp.cost = 0;
       }
     }
   }
@@ -149,7 +171,18 @@ export default class HouseGenerator {
     }
 
     const shuffled = validPool.sort(() => Math.random() - 0.5);
-    return shuffled.slice(0, count);
+    let selected = shuffled.slice(0, count);
+
+    // 🟩 Ensure at least one free (cost === 0) floor plan
+    if (!selected.some(fp => fp.cost === 0)) {
+      const freePlan = validPool.find(fp => fp.cost === 0);
+      if (freePlan) {
+        // Replace a random one in the selection with the free plan
+        selected[Math.floor(Math.random() * selected.length)] = freePlan;
+      }
+    }
+
+    return selected;
   }
 
   useFloorPlan(floorplanName) {

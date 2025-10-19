@@ -7,6 +7,7 @@ export default class FloorPlan {
     question = null, // can hold a Question object or null
     special = null, // A string
     items = [],
+    cost = 0,
   } = {}) {
     this.id = id ? id : Math.floor(Math.random() * 1e9);
     this.name = name;
@@ -15,6 +16,7 @@ export default class FloorPlan {
     this.question = question;
     this.special = special;
     this.items = items;
+    this.cost = cost;
   }
 
   // Clone for immutability
@@ -26,7 +28,8 @@ export default class FloorPlan {
       doors: { ...this.doors },
       question: this.question,
       special: this.special,
-      items: [...this.items]
+      items: [...this.items],
+      cost: this.cost,
     });
   }
 

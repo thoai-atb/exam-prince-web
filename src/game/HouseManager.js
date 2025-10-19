@@ -153,10 +153,18 @@ export default class HouseManager {
     const selectedFP = floorPlans.find(
       (fp) => fp.name === selectedFloorPlanName
     );
+
     if (!selectedFP) {
       throw new Error(
-        `Selected floorplan ${selectedFloorPlanName} is not in the drafted options`
+        `Selected floor plan ${selectedFloorPlanName} is not in the drafted options`
       );
+    }
+
+    if (selectedFP.cost > 0) {
+      if (this.items.pencil < selectedFP.cost) {
+        throw new Error("Not enough pencils to draft floor plan");
+      }
+      this.items.pencil -= selectedFP.cost;
     }
 
     this.roomOpenSession.setSelectedFloorPlan(selectedFP);
@@ -172,8 +180,7 @@ export default class HouseManager {
 
   // STEPS: openRoom -> selectFloorPlan -> setUserAnswer -> [useFloorPlan]
   useFloorPlan() {
-    if (!this.roomOpenSession?.selectedFloorPlan)
-      return;
+    if (!this.roomOpenSession?.selectedFloorPlan) return;
 
     const floorplan = this.generator.useFloorPlan(
       this.roomOpenSession.selectedFloorPlan.name
