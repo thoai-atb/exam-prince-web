@@ -3,6 +3,7 @@ import FloorPlan from "./FloorPlan";
 import KeyboardButton from "./KeyBoardButton";
 import { useHouseManager } from "../context/HouseManagerContext";
 import { subscribeKeyboard } from "../input/controls";
+import ItemDictionary from "../game/ItemDictionary";
 
 export default function ChooseFloorPlan() {
   const [floorplans, setFloorplans] = useState([]);
@@ -82,15 +83,34 @@ export default function ChooseFloorPlan() {
                   }
                   hoverEffect="hover:brightness-110"
                 />
-                <div className="text-sm font-semibold text-left pl-4 flex-1">
-                  {fp.name}
+                <div className="text-sm font-semibold text-left pl-4 flex-1 flex items-center justify-between">
+                  <span>{fp.name}</span>
+
+                  <div className="flex">
+                    {/* 🧩 Item icons displayed here */}
+                    {fp.items?.length > 0 && (
+                      <div className="flex gap-1 ml-2 font-light">
+                        +
+                      </div>
+                    )}
+                    {fp.items?.length > 0 && (
+                      <div className="flex gap-1">
+                        {fp.items.map((item, i) => (
+                          <span key={i} title={ItemDictionary.get(item).name}>
+                            {ItemDictionary.get(item).icon}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                  </div>
                 </div>
               </div>
             ))}
           </div>
 
           <p className="mt-4 text-xs text-gray-400 text-center">
-            <KeyboardButton>W</KeyboardButton> <KeyboardButton>S</KeyboardButton> to move, <KeyboardButton>E</KeyboardButton> to select
+            <KeyboardButton>W</KeyboardButton> <KeyboardButton>S</KeyboardButton> to move,{" "}
+            <KeyboardButton>E</KeyboardButton> to select
           </p>
         </>
       )}

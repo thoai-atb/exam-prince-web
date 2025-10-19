@@ -5,7 +5,8 @@ export default class FloorPlan {
     color = null,
     doors = { north: false, south: false, east: false, west: false },
     question = null, // can hold a Question object or null
-    special = false, // Entrance?
+    special = null, // A string
+    items = [],
   } = {}) {
     this.id = id ? id : Math.floor(Math.random() * 1e9);
     this.name = name;
@@ -13,6 +14,7 @@ export default class FloorPlan {
     this.doors = { ...doors };
     this.question = question;
     this.special = special;
+    this.items = items;
   }
 
   // Clone for immutability
@@ -23,12 +25,18 @@ export default class FloorPlan {
       color: this.color,
       doors: { ...this.doors },
       question: this.question,
-      special: this.special
+      special: this.special,
+      items: [...this.items]
     });
   }
 
   hasDoor(direction) {
     return !!this.doors[direction];
+  }
+
+  countDoors() {
+    const doors = Object.values(this.doors).filter(Boolean).length;
+    return doors;
   }
 
   rotate(clockwise = true) {
@@ -45,5 +53,9 @@ export default class FloorPlan {
       newDoors.east = this.doors.south;
     }
     this.doors = newDoors;
+  }
+
+  addItem(item) {
+    this.items.push(item);
   }
 }

@@ -1,5 +1,6 @@
 import FloorPlan from "./FloorPlan.js";
 import Question from "./Question.js";
+import Item from "./ItemDictionary.js";
 
 export default class HouseGenerator {
   constructor(rows, cols, poolSize = 100, questionsFile = null) {
@@ -15,6 +16,42 @@ export default class HouseGenerator {
       this.pool = Array.from({ length: poolSize }, (_, i) =>
         this.generateRandomFloorPlan(i)
       );
+    }
+
+    this.distributeAnswerSheets(10);
+    this.distributePencils();
+  }
+
+  distributeAnswerSheets(count = 10) {
+    if (this.pool.length === 0) return;
+
+    // Ensure we don’t pick duplicate indices
+    const chosenIndices = new Set();
+    while (chosenIndices.size < Math.min(count, this.pool.length)) {
+      chosenIndices.add(Math.floor(Math.random() * this.pool.length));
+    }
+
+    for (const index of chosenIndices) {
+      const fp = this.pool[index];
+      fp.addItem("sheet");
+    }
+  }
+
+  distributePencils() {
+    if (this.pool.length === 0) return;
+
+    for (const fp of this.pool) {
+      const doorCount = fp.countDoors();
+
+      // Always give 1 pencil if dead-end (1 door)
+      if (doorCount === 1) {
+        fp.addItem("pencil");
+      }
+
+      // 2-way: 25% chance to add 1 pencil
+      else if (doorCount === 2 && Math.random() < 0.25) {
+        fp.addItem("pencil");
+      }
     }
   }
 

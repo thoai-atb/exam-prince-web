@@ -7,7 +7,10 @@ const HouseManagerContext = createContext(null);
 export const useHouseManager = () => useContext(HouseManagerContext);
 
 export const HouseManagerProvider = ({ topic, onExit, children }) => {
-  const managerRef = useRef(new HouseManager(topic));
+  const managerRef = useRef();
+  if (!managerRef.current) {
+    managerRef.current = new HouseManager(topic);
+  }
 
   useEffect(() => {
     // --- Reactively update when manager notifies ---

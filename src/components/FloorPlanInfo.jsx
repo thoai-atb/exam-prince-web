@@ -2,6 +2,7 @@
 import React from "react";
 import InfoField from "./InfoField";
 import FloorPlan from "./FloorPlan";
+import ItemDictionary from "../game/ItemDictionary";
 
 export default function FloorPlanInfo({ floorPlan }) {
   if (!floorPlan) return null;
@@ -28,8 +29,17 @@ export default function FloorPlanInfo({ floorPlan }) {
               .join(", ") || "None"
           }
         />
+
         {floorPlan.question && (
           <InfoField label="Difficulty" value={floorPlan.question.difficulty} />
+        )}
+
+        {/* 🧩 Show items if any */}
+        {floorPlan.items?.length > 0 && (
+          <InfoField
+            label="Items"
+            value={floorPlan.items.map((item) => ItemDictionary.get(item)).map(i => i.icon + " " + i.name).join(", ")}
+          />
         )}
         {floorPlan.special && (
           <InfoField label="Special" value={"EXAM ENTRANCE"} />

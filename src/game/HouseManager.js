@@ -11,8 +11,6 @@ export default class HouseManager {
     this.entrancePosition = start;
     this.submissionPosition = end;
     this.exited = false;
-
-    // ✅ Use the passed topicData (no more hard import)
     this.topic = topic.data;
 
     // Pass the topic data to HouseGenerator
@@ -28,6 +26,9 @@ export default class HouseManager {
 
     // Object to hold currently "drafted" floorplans during selection
     this.roomOpenSession = new RoomOpenSession();
+
+    // Items collected on the way
+    this.items = {};
 
     // Open starting room immediately
     this.createEntrance();
@@ -49,7 +50,8 @@ export default class HouseManager {
     return {
       rooms: this.rooms,
       currentPosition: this.currentPosition,
-      exited: this.exited
+      exited: this.exited,
+      items: this.items
     };
   }
 
@@ -63,7 +65,7 @@ export default class HouseManager {
   }
 
   createEntrance() {
-    const [row, col] = this.entrancePosition; 
+    const [row, col] = this.entrancePosition;
 
     // ✅ Use the topic name dynamically
     const entranceFloorPlan = new FloorPlan({
@@ -82,7 +84,7 @@ export default class HouseManager {
   }
 
   createSubmission() {
-    const [row, col] = this.submissionPosition; 
+    const [row, col] = this.submissionPosition;
 
     // ✅ Use the topic name dynamically
     const submissionFloorPlan = new FloorPlan({
@@ -98,6 +100,7 @@ export default class HouseManager {
     room.open(submissionFloorPlan);
   }
 
+  // STEPS: [openRoom] -> selectFloorPlan -> setUserAnswer -> useFloorPlan
   openRoom(row, col) {
     if (this.roomOpenSession.floorPlans.length > 0) {
       throw new Error(
@@ -131,6 +134,7 @@ export default class HouseManager {
     this.notify();
   }
 
+  // STEPS: openRoom -> [selectFloorPlan] -> setUserAnswer -> useFloorPlan
   selectFloorPlan(selectedFloorPlanName) {
     if (!this.roomOpenSession.floorPlans.length) {
       throw new Error("No floor plans in the session");
@@ -151,12 +155,14 @@ export default class HouseManager {
     this.notify();
   }
 
+  // STEPS: openRoom -> selectFloorPlan -> [setUserAnswer] -> useFloorPlan
   setUserAnswer(index) {
     if (this.roomOpenSession.userAnswer !== null) return;
     this.roomOpenSession.setUserAnswer(index)
     this.notify();
   }
 
+  // STEPS: openRoom -> selectFloorPlan -> setUserAnswer -> [useFloorPlan]
   useFloorPlan() {
     if (!this.roomOpenSession?.selectedFloorPlan)
       return;
@@ -170,7 +176,12 @@ export default class HouseManager {
     if (failed) {
       this.rooms[row][col].failed = true;
       this.refresh();
-    } else this.setCurrentLocation(row, col);
+    } else {
+      for (const item of floorplan.items) {
+        this.addItem(item)
+      }
+      this.setCurrentLocation(row, col);
+    }
   }
 
   setCurrentLocation(row, col) {
@@ -275,6 +286,12 @@ export default class HouseManager {
     }
 
     return true;
+  }
+
+  addItem(itemId) {
+    if (this.items[itemId] === undefined)
+      this.items[itemId] = 0;
+    this.items[itemId] += 1;
   }
 
   exitHouse() {
