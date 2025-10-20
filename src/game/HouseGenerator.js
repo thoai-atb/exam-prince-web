@@ -21,11 +21,26 @@ export default class HouseGenerator {
     // Distribute Items
     this.distributeItem("sheet", 1);
     this.distributePencils(true);
-    this.distributeItem("ruler", 6);
+    this.distributeItem("ruler", 8);
     this.distributeItem("eraser", 3);
 
     // Set cost for floor plans
     this.setCost();
+
+    this.addSpecialFloorPlan();
+  }
+
+  addSpecialFloorPlan() {
+    const fp = new FloorPlan({
+      id: "FP-51",
+      name: "LIBRARY",
+      color: "black",
+      doors: { south: true, east: true, west: true, north: false },
+      special: "library",
+      items: ["pencil", "ruler", "eraser"],
+      cost: 0,
+    });
+    this.pool.push(fp);
   }
 
   distributePencils(skipEmpty = false) {
@@ -100,31 +115,29 @@ export default class HouseGenerator {
     }
   }
 
-  static randomColorFromString(str) {
-    // Simple hash to generate consistent color
-    let hash = 0;
-    for (let i = 0; i < str.length; i++) {
-      hash = str.charCodeAt(i) + ((hash << 5) - hash);
-    }
-    const color = `hsl(${hash % 360}, 60%, 40%)`;
-    return color;
+  static randomColor() {
+    // Fully random HSL color
+    const hue = Math.floor(Math.random() * 360);
+    const saturation = 60 + Math.random() * 20; // between 60–80%
+    const lightness = 35 + Math.random() * 20; // between 35–55%
+    return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
   }
 
-  static randomDoorsFromString(str) {
-    const hash = str.split("").reduce((acc, c) => acc + c.charCodeAt(0), 0);
+  static randomDoors() {
+    // Random true/false for each direction
     return {
-      north: hash % 2 === 0,
-      south: (hash >> 1) % 2 === 0,
-      west: (hash >> 2) % 2 === 0,
-      east: (hash >> 3) % 2 === 0,
+      north: Math.random() < 0.5,
+      south: Math.random() < 0.5,
+      west: Math.random() < 0.5,
+      east: Math.random() < 0.5,
     };
   }
 
   generateRandomFloorPlan(index) {
     return new FloorPlan({
       name: `FP-${index}`,
-      color: HouseGenerator.randomColorFromString(`FP-${index}`),
-      doors: HouseGenerator.randomDoorsFromString(`FP-${index}`),
+      color: HouseGenerator.randomColor(),
+      doors: HouseGenerator.randomDoors(),
     });
   }
 
@@ -140,8 +153,8 @@ export default class HouseGenerator {
     const concepts = data.concepts || [];
     this.pool = concepts.map((concept, i) => {
       const name = concept.concept;
-      const color = HouseGenerator.randomColorFromString(name);
-      const doors = HouseGenerator.randomDoorsFromString(name);
+      const color = HouseGenerator.randomColor();
+      const doors = HouseGenerator.randomDoors();
 
       // Attach a question (pick one randomly from the concept)
       const questions = concept.questions || [];
@@ -172,7 +185,7 @@ export default class HouseGenerator {
       // Excepts for FP in list
       let skip = false;
       for (const fpe of excepts) {
-        if(fpe.id === fp.id) {
+        if (fpe.id === fp.id) {
           skip = true;
           break;
         }
@@ -218,8 +231,8 @@ export default class HouseGenerator {
     return selected;
   }
 
-  useFloorPlan(floorplanName) {
-    const index = this.pool.findIndex((fp) => fp.name === floorplanName);
+  useFloorPlan(id) {
+    const index = this.pool.findIndex((fp) => fp.id === id);
     if (index === -1) return null;
     const fp = this.pool[index];
     this.pool.splice(index, 1);

@@ -1,0 +1,1655 @@
+{
+  "topic": "The World",
+  "concepts": [
+    {
+      "topic": "The World",
+      "concept": "Countries",
+      "questions": [
+        {
+          "question": "Which country is known as the Land of the Rising Sun?",
+          "correctAnswer": "Japan",
+          "wrongAnswer1": "China",
+          "wrongAnswer2": "Thailand",
+          "wrongAnswer3": "South Korea",
+          "explanation": "Japan is famously known as the Land of the Rising Sun because it is located east of the Asian continent where the sun rises.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which country has the largest land area in the world?",
+          "correctAnswer": "Russia",
+          "wrongAnswer1": "Canada",
+          "wrongAnswer2": "China",
+          "wrongAnswer3": "United States",
+          "explanation": "Russia is the largest country in the world by land area, spanning across Eastern Europe and northern Asia.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which country is famous for the Eiffel Tower?",
+          "correctAnswer": "France",
+          "wrongAnswer1": "Italy",
+          "wrongAnswer2": "Spain",
+          "wrongAnswer3": "Germany",
+          "explanation": "The Eiffel Tower is an iconic landmark located in Paris, the capital of France.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Continents",
+      "questions": [
+        {
+          "question": "Which continent is known as the largest by land area?",
+          "correctAnswer": "Asia",
+          "wrongAnswer1": "Africa",
+          "wrongAnswer2": "Europe",
+          "wrongAnswer3": "Antarctica",
+          "explanation": "Asia is the largest continent in the world by land area, covering about 30% of the Earth's total land surface.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which continent is entirely located in the Southern Hemisphere?",
+          "correctAnswer": "Australia",
+          "wrongAnswer1": "Europe",
+          "wrongAnswer2": "North America",
+          "wrongAnswer3": "Asia",
+          "explanation": "Australia is the only continent that is entirely located in the Southern Hemisphere.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which continent is known for having the most countries?",
+          "correctAnswer": "Africa",
+          "wrongAnswer1": "Asia",
+          "wrongAnswer2": "South America",
+          "wrongAnswer3": "Europe",
+          "explanation": "Africa has 54 recognized countries, making it the continent with the most countries.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Oceans",
+      "questions": [
+        {
+          "question": "Which ocean is the largest by surface area?",
+          "correctAnswer": "The Pacific Ocean",
+          "wrongAnswer1": "The Atlantic Ocean",
+          "wrongAnswer2": "The Indian Ocean",
+          "wrongAnswer3": "The Arctic Ocean",
+          "explanation": "The Pacific Ocean is the largest ocean, covering more surface area than all the Earth's land combined.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the main reason ocean currents are important for Earth's climate?",
+          "correctAnswer": "They help regulate global temperatures by redistributing heat.",
+          "wrongAnswer1": "They increase ocean salinity worldwide.",
+          "wrongAnswer2": "They create large tidal waves frequently.",
+          "wrongAnswer3": "They prevent marine biodiversity loss.",
+          "explanation": "Ocean currents transfer warm and cold water around the world, which helps regulate global climate and temperatures.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which ocean is known for having the warmest average surface temperature?",
+          "correctAnswer": "The Indian Ocean",
+          "wrongAnswer1": "The Atlantic Ocean",
+          "wrongAnswer2": "The Southern Ocean",
+          "wrongAnswer3": "The Arctic Ocean",
+          "explanation": "The Indian Ocean generally has the warmest surface temperatures due to its location near the equator and tropical regions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Mountains",
+      "questions": [
+        {
+          "question": "What is the tallest mountain in the world?",
+          "correctAnswer": "Mount Everest",
+          "wrongAnswer1": "K2",
+          "wrongAnswer2": "Kangchenjunga",
+          "wrongAnswer3": "Lhotse",
+          "explanation": "Mount Everest is the tallest mountain in the world with a peak at 8,848 meters above sea level.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which mountain range is known for having the highest peaks in the world?",
+          "correctAnswer": "The Himalayas",
+          "wrongAnswer1": "The Andes",
+          "wrongAnswer2": "The Rockies",
+          "wrongAnswer3": "The Alps",
+          "explanation": "The Himalayas contain the highest peaks in the world including Mount Everest.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What geological process primarily leads to the formation of mountains?",
+          "correctAnswer": "Tectonic plate collision",
+          "wrongAnswer1": "Volcanic eruption",
+          "wrongAnswer2": "Erosion",
+          "wrongAnswer3": "Sedimentation",
+          "explanation": "Mountains primarily form through the collision and folding of tectonic plates.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Rivers",
+      "questions": [
+        {
+          "question": "Which river is known as the longest river in the world?",
+          "correctAnswer": "The Nile River",
+          "wrongAnswer1": "The Amazon River",
+          "wrongAnswer2": "The Yangtze River",
+          "wrongAnswer3": "The Mississippi River",
+          "explanation": "The Nile River is generally recognized as the longest river in the world, stretching over 6,650 kilometers, although the Amazon River is the largest by volume.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the primary source of most rivers?",
+          "correctAnswer": "Mountains and glaciers",
+          "wrongAnswer1": "Oceans",
+          "wrongAnswer2": "Deserts",
+          "wrongAnswer3": "Rainforests",
+          "explanation": "Most rivers originate from mountains or glaciers where melting snow or precipitation collects and flows downhill to form rivers.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following rivers flows through the most countries?",
+          "correctAnswer": "The Danube River",
+          "wrongAnswer1": "The Amazon River",
+          "wrongAnswer2": "The Mississippi River",
+          "wrongAnswer3": "The Ganges River",
+          "explanation": "The Danube River flows through ten countries in Europe, making it one of the rivers that flows through the most countries.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Climates",
+      "questions": [
+        {
+          "question": "What is the main characteristic of a tropical climate?",
+          "correctAnswer": "High temperatures and heavy rainfall throughout the year",
+          "wrongAnswer1": "Cold temperatures with little rainfall",
+          "wrongAnswer2": "Mild temperatures with dry summers",
+          "wrongAnswer3": "Extreme cold and snow during most months",
+          "explanation": "Tropical climates are characterized by consistently high temperatures and significant rainfall all year round, supporting lush vegetation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which climate zone is typically found near the poles?",
+          "correctAnswer": "Polar climate with extremely cold temperatures",
+          "wrongAnswer1": "Desert climate with hot and dry conditions",
+          "wrongAnswer2": "Mediterranean climate with wet winters",
+          "wrongAnswer3": "Temperate climate with moderate seasons",
+          "explanation": "Polar climates are located near the Earth's poles and have extremely cold temperatures with ice and snow cover for most of the year.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does a desert climate differ from a tropical climate?",
+          "correctAnswer": "Desert climates have very low rainfall and high temperature variations",
+          "wrongAnswer1": "Desert climates have heavy rainfall and consistent temperatures",
+          "wrongAnswer2": "Tropical climates experience cold winters and hot summers",
+          "wrongAnswer3": "Tropical climates have dry conditions with freezing temperatures",
+          "explanation": "Desert climates are known for very low precipitation and large temperature differences between day and night, unlike tropical climates which have abundant rainfall and warm temperatures year-round.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Cultures",
+      "questions": [
+        {
+          "question": "What is culture typically defined as?",
+          "correctAnswer": "The customs, arts, social institutions, and achievements of a particular nation or people",
+          "wrongAnswer1": "The physical features and climate of a country",
+          "wrongAnswer2": "The laws and government policies of a region",
+          "wrongAnswer3": "The economic resources and industries of a community",
+          "explanation": "Culture encompasses the customs, arts, social institutions, and achievements that characterize a particular nation or group of people, reflecting their shared way of life.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does language influence culture?",
+          "correctAnswer": "Language helps transmit traditions and social norms from one generation to another",
+          "wrongAnswer1": "Language only affects the daily communication but not cultural values",
+          "wrongAnswer2": "Language limits cultural development by restricting expression",
+          "wrongAnswer3": "Language is unrelated to culture and only serves practical communication",
+          "explanation": "Language is a key element in culture as it is the primary means by which traditions, stories, beliefs, and social norms are passed down through generations.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is an example of cultural practice?",
+          "correctAnswer": "Celebrating a national holiday with traditional food and dance",
+          "wrongAnswer1": "Driving a car on the right side of the road",
+          "wrongAnswer2": "Using technology to communicate globally",
+          "wrongAnswer3": "Building skyscrapers in cities",
+          "explanation": "Cultural practices include activities that are part of a society's traditions and customs, such as celebrating holidays with specific foods and dances.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Languages",
+      "questions": [
+        {
+          "question": "What is the most spoken language in the world by number of native speakers?",
+          "correctAnswer": "Mandarin Chinese",
+          "wrongAnswer1": "English",
+          "wrongAnswer2": "Spanish",
+          "wrongAnswer3": "Hindi",
+          "explanation": "Mandarin Chinese has the highest number of native speakers globally, primarily due to China's large population.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which language family does English belong to?",
+          "correctAnswer": "Indo-European",
+          "wrongAnswer1": "Sino-Tibetan",
+          "wrongAnswer2": "Afro-Asiatic",
+          "wrongAnswer3": "Dravidian",
+          "explanation": "English is part of the Indo-European language family, which includes many languages spoken in Europe and parts of Asia.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What writing system is used for the Japanese language?",
+          "correctAnswer": "A combination of Kanji and Kana",
+          "wrongAnswer1": "Latin Alphabet",
+          "wrongAnswer2": "Cyrillic Script",
+          "wrongAnswer3": "Arabic Script",
+          "explanation": "Japanese writing uses Kanji characters derived from Chinese, along with two syllabaries called Hiragana and Katakana, collectively known as Kana.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Geography",
+      "questions": [
+        {
+          "question": "What is the largest continent on Earth?",
+          "correctAnswer": "Asia",
+          "wrongAnswer1": "Africa",
+          "wrongAnswer2": "Europe",
+          "wrongAnswer3": "Antarctica",
+          "explanation": "Asia is the largest continent in terms of both area and population.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which river is known as the longest river in the world?",
+          "correctAnswer": "The Nile",
+          "wrongAnswer1": "The Amazon",
+          "wrongAnswer2": "The Yangtze",
+          "wrongAnswer3": "The Mississippi",
+          "explanation": "The Nile River is traditionally recognized as the longest river in the world, flowing through northeastern Africa.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the term used for a large landmass that is smaller than a continent?",
+          "correctAnswer": "A peninsula",
+          "wrongAnswer1": "An island",
+          "wrongAnswer2": "A plateau",
+          "wrongAnswer3": "A desert",
+          "explanation": "A peninsula is a piece of land bordered by water on most sides but connected to a mainland, smaller than a continent.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Population",
+      "questions": [
+        {
+          "question": "Which continent has the highest population?",
+          "correctAnswer": "Asia",
+          "wrongAnswer1": "Europe",
+          "wrongAnswer2": "Africa",
+          "wrongAnswer3": "South America",
+          "explanation": "Asia is the most populous continent, home to more than half of the world's population.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the term for the average number of children a woman is expected to have during her lifetime in a population?",
+          "correctAnswer": "Fertility rate",
+          "wrongAnswer1": "Mortality rate",
+          "wrongAnswer2": "Population density",
+          "wrongAnswer3": "Migration rate",
+          "explanation": "Fertility rate measures the average number of children born to a woman over her lifetime and affects population growth.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which factor does NOT directly increase a country’s population size?",
+          "correctAnswer": "Emigration",
+          "wrongAnswer1": "Birth rate",
+          "wrongAnswer2": "Immigration",
+          "wrongAnswer3": "Natural increase",
+          "explanation": "Emigration reduces a country's population by people moving out, whereas birth rate, immigration and natural increase add to the population.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Economies",
+      "questions": [
+        {
+          "question": "What type of economy is characterized by private ownership and free markets?",
+          "correctAnswer": "Capitalist economy",
+          "wrongAnswer1": "Command economy",
+          "wrongAnswer2": "Traditional economy",
+          "wrongAnswer3": "Mixed economy",
+          "explanation": "A capitalist economy is based on private ownership of resources and market-driven decisions with minimal government intervention.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which economic system relies primarily on government control and planning?",
+          "correctAnswer": "Command economy",
+          "wrongAnswer1": "Capitalist economy",
+          "wrongAnswer2": "Mixed economy",
+          "wrongAnswer3": "Traditional economy",
+          "explanation": "A command economy is one where the government makes most economic decisions and controls resources.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What term describes the combined systems of production, consumption, and exchange in a country?",
+          "correctAnswer": "Economy",
+          "wrongAnswer1": "Government",
+          "wrongAnswer2": "Population",
+          "wrongAnswer3": "Society",
+          "explanation": "An economy encompasses all activities related to production, distribution, and consumption of goods and services in a country.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Cities",
+      "questions": [
+        {
+          "question": "Which city is the capital of Japan?",
+          "correctAnswer": "Tokyo",
+          "wrongAnswer1": "Kyoto",
+          "wrongAnswer2": "Osaka",
+          "wrongAnswer3": "Hiroshima",
+          "explanation": "Tokyo is the capital and largest city of Japan, known for its modern architecture and vibrant culture.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which city is famous for the Eiffel Tower?",
+          "correctAnswer": "Paris",
+          "wrongAnswer1": "London",
+          "wrongAnswer2": "New York",
+          "wrongAnswer3": "Rome",
+          "explanation": "Paris is famous for the Eiffel Tower, a global cultural icon of France and one of the most recognizable structures in the world.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which city is known as the Big Apple?",
+          "correctAnswer": "New York City",
+          "wrongAnswer1": "Los Angeles",
+          "wrongAnswer2": "Chicago",
+          "wrongAnswer3": "Miami",
+          "explanation": "New York City is known as the Big Apple, a nickname that originated in the 1920s related to horse racing and later popularized in music and culture.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Timezones",
+      "questions": [
+        {
+          "question": "What is a timezone?",
+          "correctAnswer": "A region where the same standard time is used",
+          "wrongAnswer1": "A place where clocks run slower",
+          "wrongAnswer2": "An area with no daylight",
+          "wrongAnswer3": "A zone where time changes every minute",
+          "explanation": "A timezone is a geographical region where people use the same standard time for legal, commercial, and social purposes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why do we have different timezones around the world?",
+          "correctAnswer": "Because the Earth rotates on its axis",
+          "wrongAnswer1": "Because the Sun emits different light in regions",
+          "wrongAnswer2": "Due to the position of the moon",
+          "wrongAnswer3": "Because of changes in the seasons",
+          "explanation": "Different timezones exist because the Earth rotates on its axis, causing the Sun to be in different positions over different parts of the planet at the same time.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the starting point for measuring timezones called?",
+          "correctAnswer": "The Prime Meridian",
+          "wrongAnswer1": "The Equator",
+          "wrongAnswer2": "The International Date Line",
+          "wrongAnswer3": "The Tropic of Cancer",
+          "explanation": "The Prime Meridian, located at 0 degrees longitude, is the reference point for measuring timezones around the world.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Borders",
+      "questions": [
+        {
+          "question": "What is the primary purpose of borders between countries?",
+          "correctAnswer": "To define the geographic limits of a country's territory",
+          "wrongAnswer1": "To separate different languages within a country",
+          "wrongAnswer2": "To create economic trade zones inside a country",
+          "wrongAnswer3": "To mark tourist attractions",
+          "explanation": "Borders are established to define the geographic limits where a country's government has sovereignty and jurisdiction.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of border is determined by natural features like rivers or mountains?",
+          "correctAnswer": "Physical border",
+          "wrongAnswer1": "Political border",
+          "wrongAnswer2": "Cultural border",
+          "wrongAnswer3": "Economic border",
+          "explanation": "Physical borders are natural boundaries that are formed by features like rivers or mountain ranges between countries.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a challenge caused by international borders?",
+          "correctAnswer": "Controlling immigration and customs",
+          "wrongAnswer1": "Creating domestic laws",
+          "wrongAnswer2": "Setting school curriculums",
+          "wrongAnswer3": "Determining national holidays",
+          "explanation": "International borders require governments to control immigration and customs to regulate who and what enters their territory.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Natural resources",
+      "questions": [
+        {
+          "question": "What are natural resources?",
+          "correctAnswer": "Materials found in nature used by humans",
+          "wrongAnswer1": "Products made in factories",
+          "wrongAnswer2": "Items bought in stores",
+          "wrongAnswer3": "Things only found in outer space",
+          "explanation": "Natural resources are materials people get from the environment to use for various purposes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of a renewable natural resource?",
+          "correctAnswer": "Sunlight",
+          "wrongAnswer1": "Coal",
+          "wrongAnswer2": "Oil",
+          "wrongAnswer3": "Natural gas",
+          "explanation": "Renewable resources like sunlight can be replenished naturally over time, unlike fossil fuels such as coal and oil.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is conservation important for natural resources?",
+          "correctAnswer": "To ensure future generations have access to them",
+          "wrongAnswer1": "To increase immediate profits",
+          "wrongAnswer2": "To reduce production costs",
+          "wrongAnswer3": "To avoid using technology",
+          "explanation": "Conserving natural resources helps maintain their availability for future use and protects the environment.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Wildlife",
+      "questions": [
+        {
+          "question": "What is the main reason why wildlife conservation is important?",
+          "correctAnswer": "To protect biodiversity and maintain ecosystems",
+          "wrongAnswer1": "To increase urban development areas",
+          "wrongAnswer2": "To reduce global tourism",
+          "wrongAnswer3": "To promote industrial growth",
+          "explanation": "Wildlife conservation focuses on protecting biodiversity and maintaining healthy ecosystems, ensuring the survival of various species and the balance of nature.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a typical threat to wildlife?",
+          "correctAnswer": "Habitat destruction due to deforestation",
+          "wrongAnswer1": "Planting more trees in a forest",
+          "wrongAnswer2": "Creating protected natural reserves",
+          "wrongAnswer3": "Organizing wildlife education programs",
+          "explanation": "Habitat destruction, often caused by activities like deforestation, is one of the main threats to wildlife as it reduces the living space and resources necessary for animals and plants to survive.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why are apex predators important in wildlife ecosystems?",
+          "correctAnswer": "They help maintain population balance of other species",
+          "wrongAnswer1": "They consume the most plants",
+          "wrongAnswer2": "They increase disease in the ecosystem",
+          "wrongAnswer3": "They prevent water pollution",
+          "explanation": "Apex predators play a key role in controlling the population of prey species, maintaining balance in the ecosystem and supporting biodiversity.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Environment",
+      "questions": [
+        {
+          "question": "What is the primary cause of global warming?",
+          "correctAnswer": "Increased levels of greenhouse gases in the atmosphere",
+          "wrongAnswer1": "Decreased solar activity",
+          "wrongAnswer2": "More volcanic eruptions",
+          "wrongAnswer3": "Increased ocean currents",
+          "explanation": "Global warming is primarily caused by higher concentrations of greenhouse gases like carbon dioxide, which trap heat in the atmosphere.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a renewable source of energy?",
+          "correctAnswer": "Solar energy",
+          "wrongAnswer1": "Coal",
+          "wrongAnswer2": "Natural gas",
+          "wrongAnswer3": "Oil",
+          "explanation": "Solar energy is renewable because it comes from the sun and is sustainable, unlike fossil fuels which are finite.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a major consequence of deforestation?",
+          "correctAnswer": "Loss of biodiversity",
+          "wrongAnswer1": "Increase in ice caps",
+          "wrongAnswer2": "Rise in sea levels",
+          "wrongAnswer3": "Decrease in rainfall in deserts",
+          "explanation": "Deforestation leads to habitat loss, which reduces biodiversity and affects ecosystems worldwide.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "History",
+      "questions": [
+        {
+          "question": "Who was the first President of the United States?",
+          "correctAnswer": "George Washington",
+          "wrongAnswer1": "Thomas Jefferson",
+          "wrongAnswer2": "Abraham Lincoln",
+          "wrongAnswer3": "John Adams",
+          "explanation": "George Washington was elected as the first President of the United States in 1789 and served two terms.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What ancient civilization built the pyramids in Egypt?",
+          "correctAnswer": "The Egyptians",
+          "wrongAnswer1": "The Romans",
+          "wrongAnswer2": "The Greeks",
+          "wrongAnswer3": "The Aztecs",
+          "explanation": "The ancient Egyptians constructed the pyramids as tombs for their pharaohs and as monuments of their civilization.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which event marked the beginning of World War II?",
+          "correctAnswer": "The invasion of Poland by Germany",
+          "wrongAnswer1": "The bombing of Pearl Harbor",
+          "wrongAnswer2": "The signing of the Treaty of Versailles",
+          "wrongAnswer3": "The assassination of Archduke Franz Ferdinand",
+          "explanation": "World War II began in 1939 when Germany invaded Poland, prompting Britain and France to declare war on Germany.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Governments",
+      "questions": [
+        {
+          "question": "What type of government is ruled by a king or queen?",
+          "correctAnswer": "Monarchy",
+          "wrongAnswer1": "Democracy",
+          "wrongAnswer2": "Republic",
+          "wrongAnswer3": "Anarchy",
+          "explanation": "A monarchy is a form of government where a king or queen rules, often inheriting the position by birth.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In which type of government do citizens directly vote on laws and policies?",
+          "correctAnswer": "Direct democracy",
+          "wrongAnswer1": "Oligarchy",
+          "wrongAnswer2": "Constitutional monarchy",
+          "wrongAnswer3": "Dictatorship",
+          "explanation": "Direct democracy allows citizens to vote directly on laws and policies rather than electing representatives to do so.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What distinguishes a federal government system from a unitary government system?",
+          "correctAnswer": "Power is divided between central and regional authorities in a federal system",
+          "wrongAnswer1": "All power is held by the central government in a federal system",
+          "wrongAnswer2": "Regional governments have total independence in a federal system",
+          "wrongAnswer3": "Federal systems do not have a central government",
+          "explanation": "In a federal system, power is shared between the national government and regional governments, unlike unitary systems where the central government holds all authority.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Transportation",
+      "questions": [
+        {
+          "question": "What is the main advantage of air transportation?",
+          "correctAnswer": "It is the fastest way to travel long distances",
+          "wrongAnswer1": "It is the cheapest mode of transport",
+          "wrongAnswer2": "It can carry the heaviest goods",
+          "wrongAnswer3": "It is the slowest way to travel",
+          "explanation": "Air transportation is the fastest mode for covering long distances compared to road, rail, or water transport, making it ideal for quick travel across countries or continents.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which mode of transportation is most commonly used for transporting heavy goods over land?",
+          "correctAnswer": "Rail transport",
+          "wrongAnswer1": "Bicycle transport",
+          "wrongAnswer2": "Air transport",
+          "wrongAnswer3": "Walking",
+          "explanation": "Rail transport is commonly used to move heavy goods over land because trains can carry large loads over long distances more efficiently and cost-effectively than trucks or other methods.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is water transportation considered important for international trade?",
+          "correctAnswer": "Because it can carry large quantities of goods at a lower cost",
+          "wrongAnswer1": "Because it is the fastest mode of transport",
+          "wrongAnswer2": "Because it is used only for passenger travel",
+          "wrongAnswer3": "Because it is always cheaper than road transport",
+          "explanation": "Water transportation is essential for international trade due to its ability to ship large volumes of goods across oceans and seas at relatively low costs compared to air or land transport.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Tourism",
+      "questions": [
+        {
+          "question": "What is one of the main reasons people travel to different countries?",
+          "correctAnswer": "To experience new cultures and traditions",
+          "wrongAnswer1": "To avoid doing any work",
+          "wrongAnswer2": "To stay in their own country",
+          "wrongAnswer3": "To eat fast food only",
+          "explanation": "People travel to new countries mainly to explore and experience different cultures, traditions, and environments.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a popular type of tourism?",
+          "correctAnswer": "Ecotourism, which focuses on natural environments",
+          "wrongAnswer1": "Urban avoidance tourism, which means staying only in cities",
+          "wrongAnswer2": "Industrial tourism, visiting factories only",
+          "wrongAnswer3": "Virtual tourism, without traveling anywhere",
+          "explanation": "Ecotourism is popular because it promotes visiting natural areas with a focus on conservation and sustainability.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How can tourism positively impact a country's economy?",
+          "correctAnswer": "By creating jobs and generating income from visitor spending",
+          "wrongAnswer1": "By increasing pollution and traffic congestion",
+          "wrongAnswer2": "By harming local traditions and culture",
+          "wrongAnswer3": "By reducing national budget for infrastructure",
+          "explanation": "Tourism brings economic benefits through spending on hotels, food, transportation, and attractions, which creates employment and income.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Maps",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a map?",
+          "correctAnswer": "To represent geographical information visually",
+          "wrongAnswer1": "To show online social connections",
+          "wrongAnswer2": "To display television channels",
+          "wrongAnswer3": "To provide weather forecasts",
+          "explanation": "Maps are designed to visually represent geographical information such as locations, physical features, and boundaries.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common feature found on most maps?",
+          "correctAnswer": "A scale to measure distances",
+          "wrongAnswer1": "A list of historical events",
+          "wrongAnswer2": "A recipe for local dishes",
+          "wrongAnswer3": "A calendar of holidays",
+          "explanation": "Maps commonly include scales that help users understand the distance between points on the map relative to real-world distances.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What type of map shows the natural features of an area, like mountains and rivers?",
+          "correctAnswer": "Physical map",
+          "wrongAnswer1": "Political map",
+          "wrongAnswer2": "Climate map",
+          "wrongAnswer3": "Road map",
+          "explanation": "Physical maps focus on showing natural features such as mountains, rivers, and lakes rather than political boundaries or roads.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Globalization",
+      "questions": [
+        {
+          "question": "What is the primary effect of globalization on world economies?",
+          "correctAnswer": "It increases economic interdependence among countries",
+          "wrongAnswer1": "It isolates countries economically",
+          "wrongAnswer2": "It decreases international trade",
+          "wrongAnswer3": "It limits technological exchange",
+          "explanation": "Globalization promotes economic interdependence by increasing trade, investment, and technological exchange among countries.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a major contributor to globalization?",
+          "correctAnswer": "Advancements in communication technology",
+          "wrongAnswer1": "Increase in local policies",
+          "wrongAnswer2": "Restrictions on international travel",
+          "wrongAnswer3": "Decline in global trade agreements",
+          "explanation": "Advancements in communication technology, such as the internet and mobile devices, have significantly contributed to globalization by making it easier to share information worldwide.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How has globalization affected cultural diversity?",
+          "correctAnswer": "It has led to both cultural exchange and concerns about cultural homogenization",
+          "wrongAnswer1": "It has completely eliminated cultural differences",
+          "wrongAnswer2": "It has had no impact on culture",
+          "wrongAnswer3": "It has strictly preserved all local cultures unchanged",
+          "explanation": "Globalization fosters cultural exchange but also raises concerns about dominant cultures overwhelming local traditions, leading to cultural homogenization.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Trade",
+      "questions": [
+        {
+          "question": "What is the main purpose of trade between countries?",
+          "correctAnswer": "To exchange goods and services to meet mutual needs",
+          "wrongAnswer1": "To increase the population of a country",
+          "wrongAnswer2": "To eliminate all imports and exports",
+          "wrongAnswer3": "To create identical products in every country",
+          "explanation": "Trade allows countries to obtain goods and services they do not produce efficiently on their own, fostering economic cooperation and specialization.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common benefit of international trade?",
+          "correctAnswer": "Access to a wider variety of goods and services",
+          "wrongAnswer1": "Complete economic independence from other countries",
+          "wrongAnswer2": "Guarantee that prices stay the same in all countries",
+          "wrongAnswer3": "A country will no longer need to produce anything domestically",
+          "explanation": "International trade gives countries access to goods and services produced elsewhere, often at lower costs and with more variety.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does a trade surplus indicate about a country?",
+          "correctAnswer": "It exports more goods and services than it imports",
+          "wrongAnswer1": "It imports more goods and services than it exports",
+          "wrongAnswer2": "It has no involvement in international trade",
+          "wrongAnswer3": "It produces only raw materials and no finished products",
+          "explanation": "A trade surplus means a country is selling more goods and services to other countries than it is buying from them, which can influence economic strength.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Technology",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the Internet?",
+          "correctAnswer": "To enable communication and access to information globally",
+          "wrongAnswer1": "To control television broadcasting",
+          "wrongAnswer2": "To provide a platform for physical mail delivery",
+          "wrongAnswer3": "To manufacture electronic devices",
+          "explanation": "The Internet is a global network designed primarily for communication and accessing information worldwide.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which technology is essential for smartphones to connect to the internet without cables?",
+          "correctAnswer": "Wireless technology",
+          "wrongAnswer1": "Fiber optic cables",
+          "wrongAnswer2": "Hydraulic systems",
+          "wrongAnswer3": "Mechanical switches",
+          "explanation": "Wireless technology allows smartphones to access the internet without physical connections like cables.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How has technology impacted global communication?",
+          "correctAnswer": "By making communication faster and more accessible worldwide",
+          "wrongAnswer1": "By limiting communication to local areas",
+          "wrongAnswer2": "By increasing the cost of sending messages",
+          "wrongAnswer3": "By reducing the number of languages used",
+          "explanation": "Technology has enabled faster and wider communication across the globe, breaking down geographic barriers.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Agriculture",
+      "questions": [
+        {
+          "question": "What is the primary purpose of agriculture?",
+          "correctAnswer": "To produce food, fiber, and other products by farming",
+          "wrongAnswer1": "To extract minerals from the earth",
+          "wrongAnswer2": "To build urban infrastructure",
+          "wrongAnswer3": "To provide transportation services",
+          "explanation": "Agriculture involves cultivating soil, growing crops, and raising animals for food and other products essential to human life.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common crop grown in agriculture?",
+          "correctAnswer": "Wheat",
+          "wrongAnswer1": "Iron ore",
+          "wrongAnswer2": "Plastic",
+          "wrongAnswer3": "Concrete",
+          "explanation": "Wheat is a staple crop grown around the world for food production, unlike minerals or manufactured materials.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which factor is crucial for successful agriculture?",
+          "correctAnswer": "Fertile soil",
+          "wrongAnswer1": "High altitude",
+          "wrongAnswer2": "Strong winds",
+          "wrongAnswer3": "Cold temperatures",
+          "explanation": "Fertile soil provides the necessary nutrients plants need for growth, making it essential for agriculture.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Education",
+      "questions": [
+        {
+          "question": "What is the primary purpose of education in most societies?",
+          "correctAnswer": "To provide knowledge and skills for personal and professional development",
+          "wrongAnswer1": "To entertain people during their leisure time",
+          "wrongAnswer2": "To restrict access to information",
+          "wrongAnswer3": "To encourage ignorance of global issues",
+          "explanation": "Education is primarily intended to impart knowledge and skills that help individuals develop personally and professionally, enabling them to contribute effectively to society.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common worldwide challenge faced by education systems?",
+          "correctAnswer": "Ensuring equal access to quality education for all children",
+          "wrongAnswer1": "Limiting the number of schools in urban areas",
+          "wrongAnswer2": "Promoting only one language for all students",
+          "wrongAnswer3": "Focusing solely on memorization without understanding",
+          "explanation": "One of the major global challenges in education is providing equal access to quality learning opportunities regardless of a child's background or location.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "In the context of global education, what role do technology and digital tools most often play?",
+          "correctAnswer": "They help broaden access to educational resources and enhance learning experiences",
+          "wrongAnswer1": "They replace teachers entirely in all classrooms",
+          "wrongAnswer2": "They limit students to using only traditional textbooks",
+          "wrongAnswer3": "They prevent students from collaborating with peers",
+          "explanation": "Technology and digital tools are widely used to expand access to education and create interactive, engaging learning environments, though they complement rather than replace traditional teaching.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Health",
+      "questions": [
+        {
+          "question": "What is a common practice to maintain good health?",
+          "correctAnswer": "Eating a balanced diet regularly",
+          "wrongAnswer1": "Avoiding all physical activity",
+          "wrongAnswer2": "Sleeping only two hours a night",
+          "wrongAnswer3": "Ignoring regular medical check-ups",
+          "explanation": "Eating a balanced diet regularly provides essential nutrients that the body needs to function properly, which is crucial for maintaining good health.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which factor greatly impacts the health of populations worldwide?",
+          "correctAnswer": "Access to clean water and sanitation",
+          "wrongAnswer1": "Wearing bright colored clothes",
+          "wrongAnswer2": "Reading books without breaks",
+          "wrongAnswer3": "Using smartphones excessively",
+          "explanation": "Access to clean water and sanitation significantly reduces the spread of infectious diseases and is vital for good health.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is an important global health challenge affecting many countries?",
+          "correctAnswer": "Controlling the spread of infectious diseases",
+          "wrongAnswer1": "Increasing the number of cars on roads",
+          "wrongAnswer2": "Building more skyscrapers in cities",
+          "wrongAnswer3": "Promoting video gaming",
+          "explanation": "Controlling the spread of infectious diseases is a critical global health challenge that requires coordinated efforts to protect population health.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Demographics",
+      "questions": [
+        {
+          "question": "What does the term demographics refer to?",
+          "correctAnswer": "Statistics about the population such as age, gender, and ethnicity",
+          "wrongAnswer1": "Types of animals in a region",
+          "wrongAnswer2": "Geographical features of a country",
+          "wrongAnswer3": "Economic activities of a city",
+          "explanation": "Demographics involve statistical data relating to the population and particular groups within it, including age, gender, ethnicity, and other characteristics.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT typically considered demographic information?",
+          "correctAnswer": "Soil type in agricultural areas",
+          "wrongAnswer1": "Population density",
+          "wrongAnswer2": "Birth rates",
+          "wrongAnswer3": "Literacy rates",
+          "explanation": "Demographic information relates to human population characteristics, so soil type is unrelated and not a demographic statistic.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is demographic data important for countries?",
+          "correctAnswer": "It helps plan services like healthcare, education, and infrastructure",
+          "wrongAnswer1": "It determines the weather and climate conditions",
+          "wrongAnswer2": "It predicts geological events such as earthquakes",
+          "wrongAnswer3": "It sets the price of local goods and services directly",
+          "explanation": "Demographic data aids governments and organizations in making decisions about resource allocation and policy development based on population needs.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Religion",
+      "questions": [
+        {
+          "question": "Which religion is known for following the teachings of Jesus Christ?",
+          "correctAnswer": "Christianity",
+          "wrongAnswer1": "Islam",
+          "wrongAnswer2": "Buddhism",
+          "wrongAnswer3": "Hinduism",
+          "explanation": "Christianity is based on the teachings of Jesus Christ and is one of the largest religions in the world.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the holy book of Islam called?",
+          "correctAnswer": "The Quran",
+          "wrongAnswer1": "The Bible",
+          "wrongAnswer2": "The Torah",
+          "wrongAnswer3": "The Vedas",
+          "explanation": "The Quran is the sacred text of Islam, believed to be the word of God as revealed to Prophet Muhammad.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which religion primarily believes in reincarnation and the law of karma?",
+          "correctAnswer": "Hinduism",
+          "wrongAnswer1": "Christianity",
+          "wrongAnswer2": "Judaism",
+          "wrongAnswer3": "Islam",
+          "explanation": "Hinduism teaches the concepts of reincarnation and karma as key parts of its belief system.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Urbanization",
+      "questions": [
+        {
+          "question": "What is urbanization primarily characterized by?",
+          "correctAnswer": "The increasing population of people living in cities",
+          "wrongAnswer1": "The growth of rural farming communities",
+          "wrongAnswer2": "The expansion of forested areas",
+          "wrongAnswer3": "The increase in desert land",
+          "explanation": "Urbanization refers to the process where more people move to and live in cities, leading to city growth.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which factor most commonly drives urbanization?",
+          "correctAnswer": "People seeking better employment opportunities in cities",
+          "wrongAnswer1": "Desire to live closer to wildlife",
+          "wrongAnswer2": "Increased farming land in urban areas",
+          "wrongAnswer3": "More natural resources in rural areas",
+          "explanation": "Job availability and economic opportunities often attract people from rural to urban areas, fueling urbanization.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a major environmental concern linked with rapid urbanization?",
+          "correctAnswer": "Increased pollution and loss of green spaces",
+          "wrongAnswer1": "Expansion of wildlife habitats",
+          "wrongAnswer2": "Reduction in air pollution",
+          "wrongAnswer3": "Growth of agricultural land",
+          "explanation": "Rapid urbanization often comes with environmental challenges such as pollution and reduction of natural areas.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Pollution",
+      "questions": [
+        {
+          "question": "What is a primary cause of air pollution?",
+          "correctAnswer": "Emissions from vehicles and factories",
+          "wrongAnswer1": "Planting more trees",
+          "wrongAnswer2": "Using solar energy",
+          "wrongAnswer3": "Recycling waste",
+          "explanation": "Air pollution is mainly caused by emissions released into the air from vehicles, factories, and burning fossil fuels.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a major effect of water pollution?",
+          "correctAnswer": "Harm to aquatic life and unsafe drinking water",
+          "wrongAnswer1": "Increased agricultural production",
+          "wrongAnswer2": "Improved water clarity",
+          "wrongAnswer3": "Increase in fish population",
+          "explanation": "Water pollution introduces harmful substances into water bodies, negatively affecting aquatic life and making water unsafe for human consumption.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How can humans help reduce pollution in urban areas?",
+          "correctAnswer": "By using public transport and reducing waste",
+          "wrongAnswer1": "By increasing industrial production",
+          "wrongAnswer2": "By cutting down more trees",
+          "wrongAnswer3": "By using more plastic products",
+          "explanation": "Using public transport reduces vehicle emissions and reducing waste limits pollution caused by garbage and industrial processes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Conservation",
+      "questions": [
+        {
+          "question": "What is the primary goal of conservation?",
+          "correctAnswer": "To protect natural resources and wildlife for future generations",
+          "wrongAnswer1": "To increase industrial production and urban development",
+          "wrongAnswer2": "To promote the use of non-renewable energy sources",
+          "wrongAnswer3": "To expand agricultural lands without restrictions",
+          "explanation": "Conservation aims to protect natural ecosystems and wildlife so that these resources are preserved for future generations rather than being depleted or destroyed.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common method used in conservation efforts?",
+          "correctAnswer": "Establishing protected areas such as national parks and wildlife reserves",
+          "wrongAnswer1": "Clearing forests for new construction",
+          "wrongAnswer2": "Releasing invasive species into new environments",
+          "wrongAnswer3": "Increasing the use of plastic products",
+          "explanation": "Creating protected areas helps secure habitats from human destruction and maintains biodiversity, which is central to conservation efforts.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does conservation help combat climate change?",
+          "correctAnswer": "By preserving forests and natural habitats, which absorb carbon dioxide from the atmosphere",
+          "wrongAnswer1": "By increasing the burning of fossil fuels for energy",
+          "wrongAnswer2": "By promoting widespread deforestation for agriculture",
+          "wrongAnswer3": "By encouraging excessive use of chemical pesticides",
+          "explanation": "Conservation supports climate change mitigation by maintaining ecosystems like forests that act as carbon sinks, thereby reducing greenhouse gas concentrations.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Oceans currents",
+      "questions": [
+        {
+          "question": "What primarily drives ocean currents?",
+          "correctAnswer": "Wind patterns and Earth's rotation",
+          "wrongAnswer1": "Tidal forces from the moon alone",
+          "wrongAnswer2": "The gravitational pull of the sun",
+          "wrongAnswer3": "Volcanic activity under the ocean",
+          "explanation": "Ocean currents are mainly driven by wind patterns and the rotation of the Earth which affect the surface water movement.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which ocean is home to the Gulf Stream current?",
+          "correctAnswer": "The Atlantic Ocean",
+          "wrongAnswer1": "The Pacific Ocean",
+          "wrongAnswer2": "The Indian Ocean",
+          "wrongAnswer3": "The Arctic Ocean",
+          "explanation": "The Gulf Stream is a major current in the Atlantic Ocean, moving warm water from the Gulf of Mexico northwards along the east coast of the United States and across the Atlantic.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do ocean currents affect coastal climates?",
+          "correctAnswer": "They regulate temperatures by moving warm or cold water near coastlines",
+          "wrongAnswer1": "They cause frequent earthquakes along the coast",
+          "wrongAnswer2": "They generate coastal winds that bring heavy rainfall constantly",
+          "wrongAnswer3": "They lead to permanent fog in coastal areas",
+          "explanation": "Ocean currents impact coastal climates by transferring heat; warm currents can raise temperatures while cold currents can cool coastal regions.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Deserts",
+      "questions": [
+        {
+          "question": "Which of the following is the largest hot desert in the world?",
+          "correctAnswer": "The Sahara Desert",
+          "wrongAnswer1": "The Gobi Desert",
+          "wrongAnswer2": "The Kalahari Desert",
+          "wrongAnswer3": "The Arabian Desert",
+          "explanation": "The Sahara Desert is the largest hot desert in the world, covering much of North Africa.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What characteristic is most common among deserts?",
+          "correctAnswer": "Low precipitation levels",
+          "wrongAnswer1": "Dense vegetation",
+          "wrongAnswer2": "High annual rainfall",
+          "wrongAnswer3": "Cold temperatures",
+          "explanation": "Deserts are defined primarily by their low precipitation levels, resulting in dry conditions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which desert is known for being the coldest desert on Earth?",
+          "correctAnswer": "The Antarctic Desert",
+          "wrongAnswer1": "The Mojave Desert",
+          "wrongAnswer2": "The Sonoran Desert",
+          "wrongAnswer3": "The Atacama Desert",
+          "explanation": "The Antarctic Desert, located in Antarctica, is the coldest desert on Earth due to its extreme cold and dry climate.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Forests",
+      "questions": [
+        {
+          "question": "What percentage of the Earth's land area is covered by forests?",
+          "correctAnswer": "About 31 percent",
+          "wrongAnswer1": "About 10 percent",
+          "wrongAnswer2": "About 50 percent",
+          "wrongAnswer3": "About 70 percent",
+          "explanation": "Forests cover approximately 31 percent of the Earth's land area, making them a significant ecosystem globally.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a major benefit provided by forests?",
+          "correctAnswer": "They help in carbon dioxide absorption",
+          "wrongAnswer1": "They increase desert areas",
+          "wrongAnswer2": "They reduce rainfall",
+          "wrongAnswer3": "They cause soil erosion",
+          "explanation": "Forests play a critical role in absorbing carbon dioxide, which helps to mitigate climate change.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of forest is characterized by trees that lose their leaves seasonally?",
+          "correctAnswer": "Deciduous forest",
+          "wrongAnswer1": "Rainforest",
+          "wrongAnswer2": "Coniferous forest",
+          "wrongAnswer3": "Tropical forest",
+          "explanation": "Deciduous forests are known for trees that shed their leaves during certain seasons, usually in autumn.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Glaciers",
+      "questions": [
+        {
+          "question": "What is a glacier?",
+          "correctAnswer": "A large mass of ice that moves slowly over land",
+          "wrongAnswer1": "A type of desert with hot sand dunes",
+          "wrongAnswer2": "An underground river of melted snow",
+          "wrongAnswer3": "A tropical forest with dense vegetation",
+          "explanation": "A glacier is a large, slow-moving mass of ice on land formed from compacted snow.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do glaciers move?",
+          "correctAnswer": "By the force of gravity making the ice flow slowly downhill",
+          "wrongAnswer1": "By wind pushing the ice across the surface",
+          "wrongAnswer2": "By tidal forces from ocean waves",
+          "wrongAnswer3": "By melting and freezing repeatedly in place",
+          "explanation": "Glaciers move due to gravity pulling the ice mass slowly downhill over time.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What impact do glaciers have on the landscape?",
+          "correctAnswer": "They shape valleys and carve mountains through erosion",
+          "wrongAnswer1": "They increase volcanic activity in the area",
+          "wrongAnswer2": "They plant trees and increase soil fertility",
+          "wrongAnswer3": "They cause deserts to expand by drying out the soil",
+          "explanation": "Glaciers erode rock and soil as they move, creating valleys and mountainous landscapes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Earthquakes",
+      "questions": [
+        {
+          "question": "What causes an earthquake?",
+          "correctAnswer": "The movement of tectonic plates beneath the Earth's surface",
+          "wrongAnswer1": "Heavy rainfall leading to soil erosion",
+          "wrongAnswer2": "Strong winds during a storm",
+          "wrongAnswer3": "A large volcanic eruption on the surface",
+          "explanation": "Earthquakes are caused primarily by the movement of tectonic plates beneath the Earth's surface, which creates seismic waves.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which scale is commonly used to measure the magnitude of an earthquake?",
+          "correctAnswer": "The Richter scale",
+          "wrongAnswer1": "The Celsius scale",
+          "wrongAnswer2": "The Beaufort scale",
+          "wrongAnswer3": "The Fujita scale",
+          "explanation": "The Richter scale is commonly used to quantify the magnitude of an earthquake based on seismic wave measurements.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why do earthquakes mostly occur along tectonic plate boundaries?",
+          "correctAnswer": "Because these boundaries are areas where plates interact and stress builds up, causing slips.",
+          "wrongAnswer1": "Because volcanoes erupt only at plate boundaries.",
+          "wrongAnswer2": "Because these areas receive more rainfall which triggers earthquakes.",
+          "wrongAnswer3": "Because these regions have higher temperatures causing the ground to expand.",
+          "explanation": "Tectonic plate boundaries are active zones where plates collide, separate, or slide past each other, causing stress accumulation that is released as earthquakes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Volcanoes",
+      "questions": [
+        {
+          "question": "What causes a volcano to erupt?",
+          "correctAnswer": "Magma rises from beneath the Earth's crust and breaks through the surface",
+          "wrongAnswer1": "Water accumulates and evaporates rapidly on the surface",
+          "wrongAnswer2": "Wind causes the rocks to crack and explode",
+          "wrongAnswer3": "Ice melts and causes the ground to split apart",
+          "explanation": "A volcano erupts when magma from beneath the Earth's crust rises up and breaks through the surface, releasing lava, ash, and gases.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a type of volcano?",
+          "correctAnswer": "Tornado volcano",
+          "wrongAnswer1": "Shield volcano",
+          "wrongAnswer2": "Stratovolcano",
+          "wrongAnswer3": "Cinder cone volcano",
+          "explanation": "Tornado volcano is not a recognized type of volcano. The main types are shield, stratovolcano, and cinder cone volcanoes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why are volcanoes often found at the edges of tectonic plates?",
+          "correctAnswer": "Because magma can escape through cracks where plates meet",
+          "wrongAnswer1": "Because water collects there and fuels eruptions",
+          "wrongAnswer2": "Because these areas are colder and allow eruptions",
+          "wrongAnswer3": "Because sun exposure causes rocks to melt and erupt",
+          "explanation": "Volcanoes commonly occur at tectonic plate edges where plates move and create cracks that allow magma to escape to the surface.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Natural disasters",
+      "questions": [
+        {
+          "question": "What is the primary cause of earthquakes?",
+          "correctAnswer": "Movement of tectonic plates",
+          "wrongAnswer1": "Heavy rainfall",
+          "wrongAnswer2": "Volcanic eruptions alone",
+          "wrongAnswer3": "Tornadoes",
+          "explanation": "Earthquakes are mainly caused by the movement of tectonic plates beneath the Earth's surface.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which natural disaster is characterized by a rapidly rotating column of air touching the ground?",
+          "correctAnswer": "Tornado",
+          "wrongAnswer1": "Hurricane",
+          "wrongAnswer2": "Flood",
+          "wrongAnswer3": "Earthquake",
+          "explanation": "A tornado is a violently rotating column of air extending from a thunderstorm to the ground, causing destruction along its path.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which natural disaster often results from the sudden release of energy in the Earth's crust?",
+          "correctAnswer": "Earthquake",
+          "wrongAnswer1": "Tsunami",
+          "wrongAnswer2": "Drought",
+          "wrongAnswer3": "Avalanche",
+          "explanation": "An earthquake occurs due to sudden energy release in the Earth's crust, causing seismic waves and ground shaking.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Renewable energy",
+      "questions": [
+        {
+          "question": "What is the main source of solar energy?",
+          "correctAnswer": "The sun",
+          "wrongAnswer1": "The wind",
+          "wrongAnswer2": "The ocean",
+          "wrongAnswer3": "Geothermal heat",
+          "explanation": "Solar energy is derived directly from the sun's rays, which can be converted into electricity or heat.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common renewable energy source?",
+          "correctAnswer": "Wind power",
+          "wrongAnswer1": "Coal power",
+          "wrongAnswer2": "Natural gas",
+          "wrongAnswer3": "Nuclear power",
+          "explanation": "Wind power is renewable because it uses wind, a natural and replenishable resource, unlike fossil fuels such as coal or natural gas.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is renewable energy considered better for the environment?",
+          "correctAnswer": "It produces little or no greenhouse gas emissions",
+          "wrongAnswer1": "It is cheaper to produce than all fossil fuels",
+          "wrongAnswer2": "It always produces energy regardless of weather",
+          "wrongAnswer3": "It increases carbon dioxide in the atmosphere",
+          "explanation": "Renewable energy sources like solar and wind emit little or no greenhouse gases during energy production, helping reduce air pollution and combat climate change.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Cultural heritage",
+      "questions": [
+        {
+          "question": "What is cultural heritage primarily concerned with?",
+          "correctAnswer": "Preserving traditions and artifacts of a society",
+          "wrongAnswer1": "Innovating new technologies",
+          "wrongAnswer2": "Establishing political boundaries",
+          "wrongAnswer3": "Creating modern infrastructure",
+          "explanation": "Cultural heritage involves preserving the traditions, artifacts, and practices of a society that are passed down through generations.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of intangible cultural heritage?",
+          "correctAnswer": "Traditional music and dance",
+          "wrongAnswer1": "Ancient pyramids",
+          "wrongAnswer2": "Historical manuscripts",
+          "wrongAnswer3": "Famous sculptures",
+          "explanation": "Intangible cultural heritage includes practices and expressions such as traditional music, dance, and oral traditions, unlike tangible artifacts like pyramids or sculptures.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is protecting cultural heritage important for communities?",
+          "correctAnswer": "It helps maintain identity and continuity over time",
+          "wrongAnswer1": "It ensures economic growth through industrial development",
+          "wrongAnswer2": "It promotes global uniformity in culture",
+          "wrongAnswer3": "It encourages rapid modernization without preserving the past",
+          "explanation": "Protecting cultural heritage helps communities retain their unique identity, values, and history, fostering a sense of continuity and belonging.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Languages diversity",
+      "questions": [
+        {
+          "question": "What is language diversity?",
+          "correctAnswer": "The variety and differences of languages spoken around the world",
+          "wrongAnswer1": "The number of movies produced in different languages",
+          "wrongAnswer2": "The similarity between different languages",
+          "wrongAnswer3": "The use of one language globally",
+          "explanation": "Language diversity refers to the variety and differences of languages spoken by people around the world.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which factor contributes most to language diversity?",
+          "correctAnswer": "Geographical separation of communities",
+          "wrongAnswer1": "The use of computers",
+          "wrongAnswer2": "Global trade agreements",
+          "wrongAnswer3": "Technological inventions",
+          "explanation": "Geographical separation leads to communities developing their own distinct languages over time.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is preserving language diversity important?",
+          "correctAnswer": "It helps maintain cultural heritage and knowledge unique to different groups",
+          "wrongAnswer1": "It ensures everyone speaks the same language",
+          "wrongAnswer2": "It simplifies international communication",
+          "wrongAnswer3": "It reduces the number of languages spoken",
+          "explanation": "Preserving language diversity is important because each language carries unique cultural heritage and traditional knowledge.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Flag symbolism",
+      "questions": [
+        {
+          "question": "What does the red color commonly symbolize on national flags?",
+          "correctAnswer": "Courage and bravery",
+          "wrongAnswer1": "Peace and tranquility",
+          "wrongAnswer2": "Wealth and prosperity",
+          "wrongAnswer3": "Technology and innovation",
+          "explanation": "Red often symbolizes courage and bravery as it is associated with strength and valor in many cultures.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which element on a flag typically represents unity among different groups?",
+          "correctAnswer": "A circle or ring",
+          "wrongAnswer1": "Stripes",
+          "wrongAnswer2": "Triangles",
+          "wrongAnswer3": "Squares",
+          "explanation": "Circles or rings on flags often symbolize unity and inclusion, representing wholeness and continuity among groups.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does the color green usually symbolize on flags?",
+          "correctAnswer": "Nature and fertility",
+          "wrongAnswer1": "Industrial power",
+          "wrongAnswer2": "Justice and law",
+          "wrongAnswer3": "Freedom and independence",
+          "explanation": "Green is commonly used on flags to represent nature, fertility, and agricultural richness, reflecting a connection to the land.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Human rights",
+      "questions": [
+        {
+          "question": "What are human rights primarily concerned with?",
+          "correctAnswer": "Protecting individual freedoms and dignity",
+          "wrongAnswer1": "Regulating international trade agreements",
+          "wrongAnswer2": "Managing economic policies",
+          "wrongAnswer3": "Controlling immigration laws",
+          "explanation": "Human rights focus on protecting the basic freedoms and dignity of individuals regardless of nationality, ethnicity, or status.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a fundamental human right?",
+          "correctAnswer": "The right to freedom of speech",
+          "wrongAnswer1": "The right to own a car",
+          "wrongAnswer2": "The right to free internet service",
+          "wrongAnswer3": "The right to receive free education internationally",
+          "explanation": "Freedom of speech is recognized internationally as a fundamental human right, whereas the other options are not guaranteed universally.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which international document is known for outlining many human rights?",
+          "correctAnswer": "The Universal Declaration of Human Rights",
+          "wrongAnswer1": "The Treaty of Versailles",
+          "wrongAnswer2": "The Magna Carta",
+          "wrongAnswer3": "The Kyoto Protocol",
+          "explanation": "The Universal Declaration of Human Rights adopted by the United Nations in 1948 outlines fundamental human rights standards globally.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "International relations",
+      "questions": [
+        {
+          "question": "What is the primary focus of international relations as a field of study?",
+          "correctAnswer": "The study of interactions between countries and global organizations",
+          "wrongAnswer1": "The history of individual nations only",
+          "wrongAnswer2": "The internal politics of a single country",
+          "wrongAnswer3": "The economic policies within a country",
+          "explanation": "International relations focuses on how countries and international organizations interact, including diplomacy, conflict, trade, and cooperation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes a key goal of international relations?",
+          "correctAnswer": "Maintaining peace and preventing conflicts between nations",
+          "wrongAnswer1": "Promoting only the economic growth of one country",
+          "wrongAnswer2": "Focusing solely on cultural exchanges within a nation",
+          "wrongAnswer3": "Isolating countries from global affairs",
+          "explanation": "A major goal of international relations is to maintain peace and stability by managing conflicts and promoting cooperation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which international organization is widely known for promoting cooperation and peace among member countries?",
+          "correctAnswer": "The United Nations",
+          "wrongAnswer1": "The World Bank",
+          "wrongAnswer2": "The European Union",
+          "wrongAnswer3": "The International Monetary Fund",
+          "explanation": "The United Nations is an international organization focused on maintaining peace, security, and cooperation among countries.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Economic systems",
+      "questions": [
+        {
+          "question": "What is the main characteristic of a market economy?",
+          "correctAnswer": "Decisions are made by individuals and businesses based on supply and demand.",
+          "wrongAnswer1": "The government controls all production and distribution.",
+          "wrongAnswer2": "Resources are distributed based on tradition and customs.",
+          "wrongAnswer3": "The economy is controlled by a central authority planning all activities.",
+          "explanation": "A market economy is driven by individuals and businesses making decisions based on supply and demand without centralized control.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which economic system is characterized by government ownership of resources and production?",
+          "correctAnswer": "Command economy",
+          "wrongAnswer1": "Market economy",
+          "wrongAnswer2": "Traditional economy",
+          "wrongAnswer3": "Mixed economy",
+          "explanation": "A command economy is where the government owns resources and controls production decisions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What differentiates a mixed economy from a pure market economy?",
+          "correctAnswer": "It combines elements of both government control and free market.",
+          "wrongAnswer1": "It relies solely on traditional methods and customs.",
+          "wrongAnswer2": "The government owns all businesses and property.",
+          "wrongAnswer3": "It has no government involvement in economic decisions.",
+          "explanation": "A mixed economy blends aspects of free markets with some government regulation and intervention.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Migration",
+      "questions": [
+        {
+          "question": "What is migration?",
+          "correctAnswer": "The movement of people from one place to another",
+          "wrongAnswer1": "The study of ancient civilizations",
+          "wrongAnswer2": "The process of countries trading goods",
+          "wrongAnswer3": "The natural growth of a population",
+          "explanation": "Migration refers to the movement of people from one location to another, often for reasons such as work, safety, or better living conditions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common reason for migration?",
+          "correctAnswer": "Seeking better job opportunities",
+          "wrongAnswer1": "Deciding to learn a new language",
+          "wrongAnswer2": "Interest in international cuisine",
+          "wrongAnswer3": "Celebrating a cultural festival",
+          "explanation": "People often migrate to find better employment and improve their living standards.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is an example of migration caused by environmental factors?",
+          "correctAnswer": "Moving due to a natural disaster like a flood",
+          "wrongAnswer1": "Moving to attend a university",
+          "wrongAnswer2": "Moving to be closer to family that has migrated",
+          "wrongAnswer3": "Moving for a new job in the same country",
+          "explanation": "Environmental migration happens when people relocate because of factors such as natural disasters that make living in their original location difficult.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Conflict zones",
+      "questions": [
+        {
+          "question": "What is a major factor contributing to conflict zones around the world?",
+          "correctAnswer": "Competition for resources and political power",
+          "wrongAnswer1": "Abundance of natural resources with no political disputes",
+          "wrongAnswer2": "High levels of economic development and stability",
+          "wrongAnswer3": "International cooperation and peace treaties",
+          "explanation": "Many conflict zones arise due to competition over scarce resources and struggles for political control, which often lead to tension and violence.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which region has been historically known as a significant conflict zone due to ethnic and political disputes?",
+          "correctAnswer": "The Middle East",
+          "wrongAnswer1": "Scandinavian countries",
+          "wrongAnswer2": "The Caribbean islands",
+          "wrongAnswer3": "Antarctica",
+          "explanation": "The Middle East has long been a region with conflict zones arising from ethnic, religious, and political disagreements.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do conflict zones mainly affect the civilian population?",
+          "correctAnswer": "Displacement, loss of lives, and disruption of basic services",
+          "wrongAnswer1": "Increase in tourism and economic growth",
+          "wrongAnswer2": "Higher levels of education and healthcare access",
+          "wrongAnswer3": "Greater political stability and unity",
+          "explanation": "Conflict zones typically lead to severe humanitarian issues including displacement of people, casualties, and interruption of essential services.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "The World",
+      "concept": "Global issues",
+      "questions": [
+        {
+          "question": "Which of the following is a major global issue affecting climate change?",
+          "correctAnswer": "Increasing greenhouse gas emissions",
+          "wrongAnswer1": "Declining use of technology",
+          "wrongAnswer2": "Reduction in global population",
+          "wrongAnswer3": "Decrease in urbanization",
+          "explanation": "Increasing greenhouse gas emissions contribute to global warming and climate change, which is a major global issue.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a key factor in addressing global poverty?",
+          "correctAnswer": "Improving access to education and healthcare",
+          "wrongAnswer1": "Increasing advertising worldwide",
+          "wrongAnswer2": "Expanding private luxury markets",
+          "wrongAnswer3": "Limiting international trade",
+          "explanation": "Improving access to education and healthcare helps reduce poverty by empowering people and improving living standards.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which global issue is directly linked to deforestation?",
+          "correctAnswer": "Loss of biodiversity and climate impact",
+          "wrongAnswer1": "Expansion of desert areas due to volcanic activity",
+          "wrongAnswer2": "Increase in polar ice caps",
+          "wrongAnswer3": "Improvement in air quality worldwide",
+          "explanation": "Deforestation causes loss of forest habitats, reducing biodiversity and contributing to climate change through carbon release.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

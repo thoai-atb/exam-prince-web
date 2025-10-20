@@ -1,0 +1,1655 @@
+{
+  "topic": "Body Parts",
+  "concepts": [
+    {
+      "topic": "Body Parts",
+      "concept": "Head",
+      "questions": [
+        {
+          "question": "Which part of the body is typically considered the center of the nervous system?",
+          "correctAnswer": "The head",
+          "wrongAnswer1": "The hand",
+          "wrongAnswer2": "The foot",
+          "wrongAnswer3": "The arm",
+          "explanation": "The head contains the brain, which is the central part of the nervous system controlling most bodily functions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What part of the body contains the eyes, nose, and mouth?",
+          "correctAnswer": "The head",
+          "wrongAnswer1": "The chest",
+          "wrongAnswer2": "The leg",
+          "wrongAnswer3": "The back",
+          "explanation": "The head includes the face, where the eyes, nose, and mouth are located, essential for sensory functions and breathing.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which body part is protected by the skull?",
+          "correctAnswer": "The brain",
+          "wrongAnswer1": "The heart",
+          "wrongAnswer2": "The stomach",
+          "wrongAnswer3": "The liver",
+          "explanation": "The skull encases and protects the brain, which is located in the head.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Arm",
+      "questions": [
+        {
+          "question": "What are the main bones found in the human arm?",
+          "correctAnswer": "Humerus, radius, and ulna",
+          "wrongAnswer1": "Femur, tibia, and fibula",
+          "wrongAnswer2": "Skull, clavicle, and scapula",
+          "wrongAnswer3": "Radius, fibula, and humerus",
+          "explanation": "The human arm primarily contains three bones: the humerus in the upper arm, and the radius and ulna in the forearm.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which muscle is primarily responsible for bending the elbow?",
+          "correctAnswer": "Biceps brachii",
+          "wrongAnswer1": "Triceps brachii",
+          "wrongAnswer2": "Deltoid",
+          "wrongAnswer3": "Pectoralis major",
+          "explanation": "The biceps brachii muscle is responsible for flexing the elbow, allowing the arm to bend.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the joint called that connects the arm to the shoulder?",
+          "correctAnswer": "Glenohumeral joint",
+          "wrongAnswer1": "Elbow joint",
+          "wrongAnswer2": "Knee joint",
+          "wrongAnswer3": "Wrist joint",
+          "explanation": "The glenohumeral joint is the ball-and-socket joint connecting the arm to the shoulder, allowing a wide range of motion.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Leg",
+      "questions": [
+        {
+          "question": "What is the main function of the leg in the human body?",
+          "correctAnswer": "To support body weight and enable movement",
+          "wrongAnswer1": "To pump blood throughout the body",
+          "wrongAnswer2": "To protect the brain from injury",
+          "wrongAnswer3": "To digest food and absorb nutrients",
+          "explanation": "The leg supports the body weight and plays a crucial role in movement such as walking and running.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which bone is found in the upper part of the leg?",
+          "correctAnswer": "Femur",
+          "wrongAnswer1": "Humerus",
+          "wrongAnswer2": "Tibia",
+          "wrongAnswer3": "Fibula",
+          "explanation": "The femur is the bone in the upper leg, also known as the thigh bone.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What role do muscles in the leg mainly play?",
+          "correctAnswer": "They help in movement by contracting and relaxing",
+          "wrongAnswer1": "They produce blood cells",
+          "wrongAnswer2": "They regulate body temperature",
+          "wrongAnswer3": "They transmit signals to the brain",
+          "explanation": "Leg muscles contract and relax to facilitate movement like walking and running.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Hand",
+      "questions": [
+        {
+          "question": "How many fingers does a typical human hand have?",
+          "correctAnswer": "Five fingers including the thumb",
+          "wrongAnswer1": "Four fingers including the thumb",
+          "wrongAnswer2": "Six fingers including the thumb",
+          "wrongAnswer3": "Seven fingers including the thumb",
+          "explanation": "A typical human hand has five digits: four fingers and one thumb.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which part of the hand is opposable and allows humans to grasp objects?",
+          "correctAnswer": "The thumb",
+          "wrongAnswer1": "The pinky finger",
+          "wrongAnswer2": "The palm",
+          "wrongAnswer3": "The wrist",
+          "explanation": "The thumb is opposable, meaning it can touch the tips of the other fingers, which allows humans to grasp and manipulate objects.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What bones primarily make up the structure of the hand?",
+          "correctAnswer": "Carpals, metacarpals, and phalanges",
+          "wrongAnswer1": "Tarsals, metatarsals, and phalanges",
+          "wrongAnswer2": "Femur, tibia, and fibula",
+          "wrongAnswer3": "Clavicle, scapula, and humerus",
+          "explanation": "The hand consists of carpals (wrist bones), metacarpals (palm bones), and phalanges (finger bones).",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Foot",
+      "questions": [
+        {
+          "question": "What is the primary function of the foot in the human body?",
+          "correctAnswer": "To support body weight and enable walking",
+          "wrongAnswer1": "To protect the hands from injury",
+          "wrongAnswer2": "To pump blood through the body",
+          "wrongAnswer3": "To help with hearing sounds",
+          "explanation": "The foot supports the body's weight and provides balance and mobility, allowing a person to stand, walk, run, and jump.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which part of the body is directly connected to the foot?",
+          "correctAnswer": "The ankle",
+          "wrongAnswer1": "The wrist",
+          "wrongAnswer2": "The elbow",
+          "wrongAnswer3": "The neck",
+          "explanation": "The ankle is the joint that connects the foot to the leg, allowing for movement and flexibility.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How many bones are there approximately in one human foot?",
+          "correctAnswer": "About 26 bones",
+          "wrongAnswer1": "About 10 bones",
+          "wrongAnswer2": "About 5 bones",
+          "wrongAnswer3": "About 50 bones",
+          "explanation": "A human foot contains approximately 26 bones, forming the structure that supports the body and enables various movements.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Eye",
+      "questions": [
+        {
+          "question": "What part of the body is responsible for vision?",
+          "correctAnswer": "The eye",
+          "wrongAnswer1": "The ear",
+          "wrongAnswer2": "The nose",
+          "wrongAnswer3": "The hand",
+          "explanation": "The eye is the organ responsible for detecting light and allowing us to see.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which part of the eye controls the amount of light entering?",
+          "correctAnswer": "The iris",
+          "wrongAnswer1": "The pupil",
+          "wrongAnswer2": "The retina",
+          "wrongAnswer3": "The cornea",
+          "explanation": "The iris adjusts the size of the pupil to control how much light enters the eye.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the light-sensitive layer at the back of the eye called?",
+          "correctAnswer": "The retina",
+          "wrongAnswer1": "The lens",
+          "wrongAnswer2": "The cornea",
+          "wrongAnswer3": "The sclera",
+          "explanation": "The retina contains cells that detect light and send signals to the brain for vision.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Ear",
+      "questions": [
+        {
+          "question": "What is the primary function of the ear?",
+          "correctAnswer": "To detect and interpret sounds",
+          "wrongAnswer1": "To pump blood throughout the body",
+          "wrongAnswer2": "To support balance and body structure",
+          "wrongAnswer3": "To produce hormones",
+          "explanation": "The primary function of the ear is to detect and interpret sound waves, allowing us to hear. It also helps with balance, but its main role is hearing.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which part of the ear is responsible for converting sound vibrations into electrical signals?",
+          "correctAnswer": "The cochlea",
+          "wrongAnswer1": "The eardrum",
+          "wrongAnswer2": "The outer ear",
+          "wrongAnswer3": "The ear canal",
+          "explanation": "The cochlea in the inner ear converts sound vibrations into electrical signals that are sent to the brain for interpretation.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Balance is primarily maintained by which part of the ear?",
+          "correctAnswer": "The semicircular canals",
+          "wrongAnswer1": "The auditory nerve",
+          "wrongAnswer2": "The outer ear",
+          "wrongAnswer3": "The cochlea",
+          "explanation": "The semicircular canals in the inner ear contain fluid and sensors that help detect head movement and maintain balance.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Nose",
+      "questions": [
+        {
+          "question": "What is the primary function of the nose in the human body?",
+          "correctAnswer": "To detect smells and breathe air",
+          "wrongAnswer1": "To digest food",
+          "wrongAnswer2": "To hear sounds",
+          "wrongAnswer3": "To pump blood",
+          "explanation": "The nose is responsible for detecting smells and allowing the intake of air for breathing, making it essential for both smell and respiration.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which structure inside the nose helps to filter and warm the air we breathe?",
+          "correctAnswer": "Nasal mucosa and cilia",
+          "wrongAnswer1": "Teeth",
+          "wrongAnswer2": "Eardrum",
+          "wrongAnswer3": "Vocal cords",
+          "explanation": "The nasal mucosa and tiny hair-like structures called cilia filter and warm the air before it reaches the lungs, protecting the respiratory system.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which bone forms the bridge of the nose in the human skull?",
+          "correctAnswer": "Nasal bone",
+          "wrongAnswer1": "Femur",
+          "wrongAnswer2": "Clavicle",
+          "wrongAnswer3": "Scapula",
+          "explanation": "The nasal bone is a small bone that forms the bridge of the nose and supports the cartilage that shapes the lower part of the nose.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Mouth",
+      "questions": [
+        {
+          "question": "What is the main function of the mouth in the human body?",
+          "correctAnswer": "To begin the process of digestion by breaking down food",
+          "wrongAnswer1": "To pump blood throughout the body",
+          "wrongAnswer2": "To filter toxins from the blood",
+          "wrongAnswer3": "To protect the body from infections",
+          "explanation": "The mouth is responsible for the initial stage of digestion, where food is broken down by chewing and mixed with saliva.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a part of the mouth?",
+          "correctAnswer": "Esophagus",
+          "wrongAnswer1": "Tongue",
+          "wrongAnswer2": "Teeth",
+          "wrongAnswer3": "Palate",
+          "explanation": "The esophagus is a tube that connects the throat to the stomach and is not located in the mouth, unlike the tongue, teeth, and palate which are all parts of the mouth.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which sense is primarily associated with the mouth?",
+          "correctAnswer": "Taste",
+          "wrongAnswer1": "Smell",
+          "wrongAnswer2": "Sight",
+          "wrongAnswer3": "Hearing",
+          "explanation": "The mouth contains taste buds on the tongue, which are responsible for detecting taste, while smell, sight, and hearing involve other parts of the body.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Neck",
+      "questions": [
+        {
+          "question": "What is the primary function of the neck in the human body?",
+          "correctAnswer": "It supports the head and allows for its movement",
+          "wrongAnswer1": "It protects the internal organs of the chest",
+          "wrongAnswer2": "It is the main part for digestion",
+          "wrongAnswer3": "It controls breathing",
+          "explanation": "The neck serves to support the head and enable its movement, while also housing important structures like blood vessels and nerves.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following structures is NOT found in the neck?",
+          "correctAnswer": "Heart",
+          "wrongAnswer1": "Thyroid gland",
+          "wrongAnswer2": "Trachea",
+          "wrongAnswer3": "Carotid artery",
+          "explanation": "The heart is located in the chest, not the neck. The neck contains the thyroid gland, trachea, and carotid arteries among other structures.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which bone primarily forms the support framework of the neck?",
+          "correctAnswer": "Cervical vertebrae",
+          "wrongAnswer1": "Thoracic vertebrae",
+          "wrongAnswer2": "Skull bones",
+          "wrongAnswer3": "Ribs",
+          "explanation": "The cervical vertebrae are the bones of the neck that support the head and allow its mobility, unlike thoracic vertebrae which are part of the upper back and ribs which protect the chest.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Chest",
+      "questions": [
+        {
+          "question": "Which part of the body is commonly referred to as the chest?",
+          "correctAnswer": "The area between the neck and the abdomen on the front of the body",
+          "wrongAnswer1": "The region around the waist and hips",
+          "wrongAnswer2": "The lower part of the back",
+          "wrongAnswer3": "The area around the neck and shoulders",
+          "explanation": "The chest is the front part of the torso located between the neck and the abdomen, housing vital organs such as the heart and lungs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What organs are primarily protected by the chest?",
+          "correctAnswer": "Heart and lungs",
+          "wrongAnswer1": "Stomach and liver",
+          "wrongAnswer2": "Kidneys and bladder",
+          "wrongAnswer3": "Brain and spinal cord",
+          "explanation": "The chest contains the ribcage which protects the heart and lungs, vital organs essential for circulation and respiration.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which muscle is a major part of the chest?",
+          "correctAnswer": "Pectoralis major",
+          "wrongAnswer1": "Biceps brachii",
+          "wrongAnswer2": "Quadriceps femoris",
+          "wrongAnswer3": "Deltoid",
+          "explanation": "The pectoralis major is a large muscle in the chest that helps with movements of the shoulder and arm.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Back",
+      "questions": [
+        {
+          "question": "Which part of the body is commonly referred to as the back?",
+          "correctAnswer": "The rear surface of the torso from the neck to the pelvis",
+          "wrongAnswer1": "The front side of the torso including the chest and abdomen",
+          "wrongAnswer2": "The lower limbs including the thighs and legs",
+          "wrongAnswer3": "The sides of the torso stretching from the armpits to the waist",
+          "explanation": "The back is the rear surface of the torso extending from the neck to the pelvis, opposite the chest and abdomen.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which group of muscles is primarily located on the back?",
+          "correctAnswer": "Trapezius and latissimus dorsi muscles",
+          "wrongAnswer1": "Pectoralis major and minor muscles",
+          "wrongAnswer2": "Quadriceps and hamstring muscles",
+          "wrongAnswer3": "Biceps and triceps muscles",
+          "explanation": "The trapezius and latissimus dorsi are major muscles located on the back, involved in movements of the shoulder and arm.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is the main function of the vertebrae in the back?",
+          "correctAnswer": "To provide structural support and protect the spinal cord",
+          "wrongAnswer1": "To facilitate movement of the jaw",
+          "wrongAnswer2": "To aid in blood circulation to the limbs",
+          "wrongAnswer3": "To generate nerve signals for the brain",
+          "explanation": "The vertebrae form the spinal column, which supports the body and encases the spinal cord protecting it from injury.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Shoulder",
+      "questions": [
+        {
+          "question": "Which bone is primarily associated with the shoulder joint?",
+          "correctAnswer": "The scapula",
+          "wrongAnswer1": "The femur",
+          "wrongAnswer2": "The tibia",
+          "wrongAnswer3": "The clavicle",
+          "explanation": "The scapula, or shoulder blade, is the main bone involved in forming the shoulder joint along with the humerus.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What muscle group mainly controls the movement of the shoulder?",
+          "correctAnswer": "Rotator cuff muscles",
+          "wrongAnswer1": "Quadriceps",
+          "wrongAnswer2": "Hamstrings",
+          "wrongAnswer3": "Calf muscles",
+          "explanation": "The rotator cuff muscles are responsible for stabilizing and moving the shoulder joint.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a common injury related to the shoulder?",
+          "correctAnswer": "Rotator cuff tear",
+          "wrongAnswer1": "Meniscus tear",
+          "wrongAnswer2": "Achilles tendon rupture",
+          "wrongAnswer3": "Plantar fasciitis",
+          "explanation": "A rotator cuff tear is a frequent injury involving the shoulder muscles that can impair arm movement and cause pain.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Elbow",
+      "questions": [
+        {
+          "question": "What is the primary function of the elbow in the human body?",
+          "correctAnswer": "It allows the arm to bend and straighten, enabling movement.",
+          "wrongAnswer1": "It is responsible for rotating the hand completely around.",
+          "wrongAnswer2": "It connects the shoulder directly to the fingers.",
+          "wrongAnswer3": "It produces blood cells in the arm.",
+          "explanation": "The elbow acts as a hinge joint that allows bending and straightening of the arm, essential for many arm movements.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which bones meet at the elbow joint?",
+          "correctAnswer": "The humerus, radius, and ulna bones meet at the elbow.",
+          "wrongAnswer1": "The femur, tibia, and fibula meet at the elbow.",
+          "wrongAnswer2": "The clavicle, scapula, and humerus meet at the elbow.",
+          "wrongAnswer3": "The radius, clavicle, and femur meet at the elbow.",
+          "explanation": "The elbow joint is formed where the upper arm bone (humerus) meets the two forearm bones (radius and ulna).",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What type of joint is the elbow?",
+          "correctAnswer": "The elbow is a hinge joint allowing movement primarily in one plane.",
+          "wrongAnswer1": "The elbow is a ball and socket joint allowing movement in many directions.",
+          "wrongAnswer2": "The elbow is a fixed joint allowing no movement.",
+          "wrongAnswer3": "The elbow is a pivot joint allowing rotational movement only.",
+          "explanation": "The elbow operates mainly as a hinge joint, permitting bending and straightening of the arm.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Wrist",
+      "questions": [
+        {
+          "question": "What is the primary function of the wrist in the human body?",
+          "correctAnswer": "To connect the hand to the forearm and allow for movement",
+          "wrongAnswer1": "To protect the chest cavity",
+          "wrongAnswer2": "To transmit signals to the brain",
+          "wrongAnswer3": "To pump blood throughout the body",
+          "explanation": "The wrist connects the hand to the forearm and allows for a wide range of movements, making it essential for hand mobility.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which bones primarily make up the wrist?",
+          "correctAnswer": "Carpal bones",
+          "wrongAnswer1": "Metatarsal bones",
+          "wrongAnswer2": "Phalanges",
+          "wrongAnswer3": "Tarsal bones",
+          "explanation": "The wrist is primarily made up of eight carpal bones arranged in two rows, enabling complex movements.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following movements is enabled by the wrist joint?",
+          "correctAnswer": "Flexion and extension",
+          "wrongAnswer1": "Rotation of the elbow",
+          "wrongAnswer2": "Extension of the knee",
+          "wrongAnswer3": "Flexion of the ankle",
+          "explanation": "The wrist joint allows flexion (bending) and extension (straightening) of the hand, essential for various hand functions.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Knee",
+      "questions": [
+        {
+          "question": "What is the primary function of the knee in the human body?",
+          "correctAnswer": "To connect the thigh bone to the shin bone and allow leg movement",
+          "wrongAnswer1": "To connect the arm bones and allow hand movement",
+          "wrongAnswer2": "To protect the brain inside the skull",
+          "wrongAnswer3": "To pump blood throughout the body",
+          "explanation": "The knee connects the thigh bone (femur) to the shin bone (tibia) and allows for bending and movement of the leg.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which type of joint is the knee classified as?",
+          "correctAnswer": "Hinge joint",
+          "wrongAnswer1": "Ball and socket joint",
+          "wrongAnswer2": "Pivot joint",
+          "wrongAnswer3": "Fixed joint",
+          "explanation": "The knee is a hinge joint that primarily allows bending and straightening of the leg.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which bones form the knee joint?",
+          "correctAnswer": "Femur, tibia, and patella",
+          "wrongAnswer1": "Humerus, radius, and ulna",
+          "wrongAnswer2": "Scapula, clavicle, and humerus",
+          "wrongAnswer3": "Skull bones",
+          "explanation": "The knee joint is formed by the femur (thigh bone), tibia (shin bone), and patella (kneecap).",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Ankle",
+      "questions": [
+        {
+          "question": "What is the primary function of the ankle joint?",
+          "correctAnswer": "To connect the foot to the leg and allow movement",
+          "wrongAnswer1": "To connect the hand to the arm and allow movement",
+          "wrongAnswer2": "To support the skull and protect the brain",
+          "wrongAnswer3": "To connect the ribs to the spine",
+          "explanation": "The ankle connects the foot to the leg and allows movements such as walking and running.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which bones primarily make up the ankle joint?",
+          "correctAnswer": "Tibia, fibula, and talus",
+          "wrongAnswer1": "Femur, patella, and tibia",
+          "wrongAnswer2": "Radius, ulna, and carpals",
+          "wrongAnswer3": "Humerus, scapula, and clavicle",
+          "explanation": "The ankle joint is formed by the tibia and fibula of the leg and the talus bone of the foot.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What type of joint is the ankle?",
+          "correctAnswer": "A hinge joint allowing up and down movement",
+          "wrongAnswer1": "A ball-and-socket joint allowing multi-directional movement",
+          "wrongAnswer2": "A pivot joint allowing rotational movement",
+          "wrongAnswer3": "A fixed joint with no movement",
+          "explanation": "The ankle is a hinge joint permitting primarily up and down motion of the foot.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Fingers",
+      "questions": [
+        {
+          "question": "How many fingers does a typical human hand have?",
+          "correctAnswer": "Five fingers",
+          "wrongAnswer1": "Four fingers",
+          "wrongAnswer2": "Six fingers",
+          "wrongAnswer3": "Seven fingers",
+          "explanation": "A typical human hand has five fingers, including the thumb, which is classified as a finger.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the name of the finger opposite the thumb?",
+          "correctAnswer": "Little finger",
+          "wrongAnswer1": "Index finger",
+          "wrongAnswer2": "Middle finger",
+          "wrongAnswer3": "Ring finger",
+          "explanation": "The finger opposite the thumb is called the little finger, or pinky finger, and is on the outer edge of the hand opposite the thumb.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which finger is usually the longest on a human hand?",
+          "correctAnswer": "Middle finger",
+          "wrongAnswer1": "Index finger",
+          "wrongAnswer2": "Ring finger",
+          "wrongAnswer3": "Little finger",
+          "explanation": "The middle finger is typically the longest finger on the human hand, located between the index and ring fingers.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Toes",
+      "questions": [
+        {
+          "question": "How many toes does a typical human foot have?",
+          "correctAnswer": "Five toes per foot",
+          "wrongAnswer1": "Seven toes per foot",
+          "wrongAnswer2": "Three toes per foot",
+          "wrongAnswer3": "Ten toes per foot",
+          "explanation": "A typical human foot has five toes. Each foot usually has five toes, making a total of ten toes on both feet.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the primary function of toes?",
+          "correctAnswer": "To provide balance and support when standing or walking",
+          "wrongAnswer1": "To help with finger movements",
+          "wrongAnswer2": "To protect the heel",
+          "wrongAnswer3": "To improve arm strength",
+          "explanation": "Toes play an essential role in maintaining balance and providing support for the body when standing, walking, or running.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which toe is usually the longest on the human foot?",
+          "correctAnswer": "The big toe",
+          "wrongAnswer1": "The pinky toe",
+          "wrongAnswer2": "The middle toe",
+          "wrongAnswer3": "The second toe",
+          "explanation": "Generally, the big toe is the longest and strongest toe on the human foot, crucial for balance and pushing off during walking.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Hair",
+      "questions": [
+        {
+          "question": "What is the primary function of hair on the human body?",
+          "correctAnswer": "To protect the skin and regulate body temperature",
+          "wrongAnswer1": "To help with taste perception",
+          "wrongAnswer2": "To improve vision",
+          "wrongAnswer3": "To assist in digestion",
+          "explanation": "Hair primarily helps protect the skin from ultraviolet rays and helps with temperature regulation by trapping heat or cooling the body.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which protein mainly makes up human hair?",
+          "correctAnswer": "Keratin",
+          "wrongAnswer1": "Collagen",
+          "wrongAnswer2": "Elastin",
+          "wrongAnswer3": "Myosin",
+          "explanation": "Hair is primarily composed of keratin, a fibrous structural protein that provides strength and resilience.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which part of the hair is visible above the skin?",
+          "correctAnswer": "The hair shaft",
+          "wrongAnswer1": "The hair follicle",
+          "wrongAnswer2": "The sebaceous gland",
+          "wrongAnswer3": "The dermis",
+          "explanation": "The hair shaft is the part of the hair that extends above the surface of the skin and is visible. The follicle is below the skin.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Brain",
+      "questions": [
+        {
+          "question": "What is the primary function of the brain in the human body?",
+          "correctAnswer": "To control and coordinate bodily functions",
+          "wrongAnswer1": "To digest food and absorb nutrients",
+          "wrongAnswer2": "To pump blood throughout the body",
+          "wrongAnswer3": "To provide structure and support to the body",
+          "explanation": "The brain is responsible for controlling and coordinating all bodily functions including movement, sensation, thought, and emotions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which part of the brain is mainly responsible for processing sensory information?",
+          "correctAnswer": "The cerebral cortex",
+          "wrongAnswer1": "The cerebellum",
+          "wrongAnswer2": "The brainstem",
+          "wrongAnswer3": "The medulla oblongata",
+          "explanation": "The cerebral cortex is the outer layer of the brain that processes sensory information and enables functions like thinking and decision-making.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of these is NOT a component of the brain?",
+          "correctAnswer": "The femur",
+          "wrongAnswer1": "The cerebrum",
+          "wrongAnswer2": "The cerebellum",
+          "wrongAnswer3": "The brainstem",
+          "explanation": "The femur is a bone in the leg, not a part of the brain. The cerebrum, cerebellum, and brainstem are all parts of the brain.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Heart",
+      "questions": [
+        {
+          "question": "What is the primary function of the heart in the human body?",
+          "correctAnswer": "To pump blood throughout the body",
+          "wrongAnswer1": "To digest food",
+          "wrongAnswer2": "To control breathing",
+          "wrongAnswer3": "To remove waste products",
+          "explanation": "The heart's primary function is to pump blood, which carries oxygen and nutrients to tissues and removes waste products.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which chamber of the heart receives oxygen-rich blood from the lungs?",
+          "correctAnswer": "Left atrium",
+          "wrongAnswer1": "Right atrium",
+          "wrongAnswer2": "Left ventricle",
+          "wrongAnswer3": "Right ventricle",
+          "explanation": "The left atrium receives oxygen-rich blood from the lungs, which it then passes to the left ventricle for pumping to the rest of the body.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What type of muscle makes up the heart?",
+          "correctAnswer": "Cardiac muscle",
+          "wrongAnswer1": "Skeletal muscle",
+          "wrongAnswer2": "Smooth muscle",
+          "wrongAnswer3": "Voluntary muscle",
+          "explanation": "The heart is made up of cardiac muscle, which is an involuntary muscle specialized for continuous rhythmic contractions.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Lungs",
+      "questions": [
+        {
+          "question": "What is the primary function of the lungs in the human body?",
+          "correctAnswer": "To exchange oxygen and carbon dioxide",
+          "wrongAnswer1": "To pump blood throughout the body",
+          "wrongAnswer2": "To digest food and absorb nutrients",
+          "wrongAnswer3": "To control body temperature",
+          "explanation": "The primary function of the lungs is to facilitate the exchange of oxygen and carbon dioxide between the air we breathe and the bloodstream.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Where in the body are the lungs located?",
+          "correctAnswer": "In the chest cavity on either side of the heart",
+          "wrongAnswer1": "In the abdominal cavity next to the stomach",
+          "wrongAnswer2": "In the neck near the trachea",
+          "wrongAnswer3": "In the brain near the cerebellum",
+          "explanation": "The lungs are located in the chest cavity, one on each side of the heart, protected by the rib cage.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following structures connects the lungs to the throat?",
+          "correctAnswer": "The trachea",
+          "wrongAnswer1": "The esophagus",
+          "wrongAnswer2": "The diaphragm",
+          "wrongAnswer3": "The bronchioles",
+          "explanation": "The trachea, also known as the windpipe, connects the lungs to the throat and allows air to travel to and from the lungs.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Stomach",
+      "questions": [
+        {
+          "question": "What is the primary function of the stomach in the human body?",
+          "correctAnswer": "To break down food using acids and enzymes",
+          "wrongAnswer1": "To pump blood throughout the body",
+          "wrongAnswer2": "To filter waste from the blood",
+          "wrongAnswer3": "To control body movements",
+          "explanation": "The stomach uses acids and enzymes to chemically break down food, preparing it for digestion and absorption in the intestines.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Where is the stomach located in the human body?",
+          "correctAnswer": "In the upper abdomen, below the ribs",
+          "wrongAnswer1": "In the chest near the heart",
+          "wrongAnswer2": "In the lower abdomen near the intestines",
+          "wrongAnswer3": "In the neck area, behind the throat",
+          "explanation": "The stomach is located in the upper abdomen, just below the ribs and diaphragm, between the esophagus and the small intestine.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes the stomach's role in digestion?",
+          "correctAnswer": "Mixing food with digestive juices to form chyme",
+          "wrongAnswer1": "Absorbing nutrients directly into the bloodstream",
+          "wrongAnswer2": "Filtering toxins out of the body",
+          "wrongAnswer3": "Producing insulin to regulate blood sugar",
+          "explanation": "The stomach mixes ingested food with gastric juices to create chyme, a semi-liquid mixture that moves to the intestines for further digestion and absorption.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Liver",
+      "questions": [
+        {
+          "question": "What is the primary function of the liver in the human body?",
+          "correctAnswer": "To filter toxins from the blood and produce bile",
+          "wrongAnswer1": "To pump blood throughout the body",
+          "wrongAnswer2": "To break down food in the stomach",
+          "wrongAnswer3": "To store oxygen for the bloodstream",
+          "explanation": "The liver's primary function includes filtering toxins from the blood and producing bile to aid digestion.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a function of the liver?",
+          "correctAnswer": "Producing insulin for blood sugar regulation",
+          "wrongAnswer1": "Storing vitamins and minerals",
+          "wrongAnswer2": "Detoxifying harmful substances",
+          "wrongAnswer3": "Producing bile to help digest fats",
+          "explanation": "The liver does not produce insulin; that function is performed by the pancreas. The liver stores vitamins and minerals, detoxifies substances, and produces bile.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Where is the liver located in the human body?",
+          "correctAnswer": "In the upper right side of the abdomen just below the diaphragm",
+          "wrongAnswer1": "In the lower left side of the abdomen near the intestines",
+          "wrongAnswer2": "In the chest cavity next to the heart",
+          "wrongAnswer3": "In the pelvis below the bladder",
+          "explanation": "The liver is located in the upper right quadrant of the abdomen just beneath the diaphragm, which is crucial for its role in filtering blood and producing bile.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Kidneys",
+      "questions": [
+        {
+          "question": "What is the primary function of the kidneys in the human body",
+          "correctAnswer": "To filter waste products from the blood and produce urine",
+          "wrongAnswer1": "To pump blood throughout the body",
+          "wrongAnswer2": "To control body temperature",
+          "wrongAnswer3": "To produce hormones that regulate growth",
+          "explanation": "The kidneys filter waste and excess substances from the blood, forming urine which is then expelled from the body.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Where are the kidneys located in the human body",
+          "correctAnswer": "On either side of the spine, just below the ribcage",
+          "wrongAnswer1": "In the chest cavity near the heart",
+          "wrongAnswer2": "In the lower abdomen near the bladder",
+          "wrongAnswer3": "In the head, behind the eyes",
+          "explanation": "The kidneys are located on both sides of the spine beneath the ribcage to efficiently filter blood coming from the heart.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following substances do the kidneys help regulate in the body",
+          "correctAnswer": "Electrolytes such as sodium and potassium",
+          "wrongAnswer1": "Glucose and insulin",
+          "wrongAnswer2": "Oxygen and carbon dioxide",
+          "wrongAnswer3": "Fat and cholesterol",
+          "explanation": "The kidneys regulate levels of electrolytes including sodium and potassium to maintain proper fluid balance and cell function.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Bladder",
+      "questions": [
+        {
+          "question": "What is the primary function of the bladder in the human body?",
+          "correctAnswer": "To store urine until it is ready to be expelled",
+          "wrongAnswer1": "To filter toxins from the blood",
+          "wrongAnswer2": "To produce digestive enzymes",
+          "wrongAnswer3": "To pump blood throughout the body",
+          "explanation": "The bladder's primary function is to hold urine produced by the kidneys until it is convenient to release it from the body.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Where is the bladder located in the human body?",
+          "correctAnswer": "In the lower abdomen, behind the pelvic bone",
+          "wrongAnswer1": "In the chest cavity, near the lungs",
+          "wrongAnswer2": "On the right side of the abdomen, near the liver",
+          "wrongAnswer3": "Inside the brain near the cerebellum",
+          "explanation": "The bladder is a hollow organ located in the lower abdominal area behind the pelvic bone.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which muscle controls the release of urine from the bladder?",
+          "correctAnswer": "The sphincter muscle",
+          "wrongAnswer1": "The biceps muscle",
+          "wrongAnswer2": "The diaphragm muscle",
+          "wrongAnswer3": "The quadriceps muscle",
+          "explanation": "The sphincter muscle controls the opening and closing of the bladder to release urine when appropriate.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Skin",
+      "questions": [
+        {
+          "question": "What is the primary function of the skin?",
+          "correctAnswer": "Protecting the body from external harm",
+          "wrongAnswer1": "Helping the body digest food",
+          "wrongAnswer2": "Producing blood cells",
+          "wrongAnswer3": "Pumping blood throughout the body",
+          "explanation": "The skin acts as a barrier to protect the body from environmental hazards such as pathogens and physical injuries.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which layer of the skin contains blood vessels and nerves?",
+          "correctAnswer": "The dermis",
+          "wrongAnswer1": "The epidermis",
+          "wrongAnswer2": "The hypodermis",
+          "wrongAnswer3": "The cuticle",
+          "explanation": "The dermis is the middle layer of the skin that contains blood vessels, nerves, and other structures.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What pigment gives the skin its color?",
+          "correctAnswer": "Melanin",
+          "wrongAnswer1": "Keratin",
+          "wrongAnswer2": "Collagen",
+          "wrongAnswer3": "Hemoglobin",
+          "explanation": "Melanin is the pigment produced by cells in the skin that determines skin color and helps protect against UV radiation.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Bones",
+      "questions": [
+        {
+          "question": "What is the primary function of bones in the human body?",
+          "correctAnswer": "To provide structure and support to the body",
+          "wrongAnswer1": "To pump blood throughout the body",
+          "wrongAnswer2": "To digest food",
+          "wrongAnswer3": "To produce hormones",
+          "explanation": "Bones provide the structural framework for the body, protecting organs and allowing movement by anchoring muscles.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a major bone in the human arm?",
+          "correctAnswer": "Humerus",
+          "wrongAnswer1": "Femur",
+          "wrongAnswer2": "Tibia",
+          "wrongAnswer3": "Patella",
+          "explanation": "The humerus is the bone of the upper arm, connecting the shoulder to the elbow.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the name of the bone that forms the front part of the skull?",
+          "correctAnswer": "Frontal bone",
+          "wrongAnswer1": "Mandible",
+          "wrongAnswer2": "Clavicle",
+          "wrongAnswer3": "Scapula",
+          "explanation": "The frontal bone forms the forehead and the upper part of the eye sockets, constituting the front part of the skull.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Muscles",
+      "questions": [
+        {
+          "question": "Which of the following is the primary function of muscles in the human body?",
+          "correctAnswer": "To contract and produce movement",
+          "wrongAnswer1": "To transmit nerve signals",
+          "wrongAnswer2": "To store fat for energy",
+          "wrongAnswer3": "To protect internal organs",
+          "explanation": "Muscles contract and relax to produce movement in the body, enabling activities such as walking, lifting, and other motions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What type of muscle is under voluntary control and attached to bones?",
+          "correctAnswer": "Skeletal muscle",
+          "wrongAnswer1": "Smooth muscle",
+          "wrongAnswer2": "Cardiac muscle",
+          "wrongAnswer3": "Involuntary muscle",
+          "explanation": "Skeletal muscles are voluntarily controlled muscles attached to bones, responsible for body movements.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which muscle type is found in the heart and responsible for pumping blood?",
+          "correctAnswer": "Cardiac muscle",
+          "wrongAnswer1": "Skeletal muscle",
+          "wrongAnswer2": "Smooth muscle",
+          "wrongAnswer3": "Striated muscle",
+          "explanation": "Cardiac muscle is specialized muscle tissue found only in the heart, responsible for involuntary contractions that pump blood.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Teeth",
+      "questions": [
+        {
+          "question": "What is the primary function of teeth in the human body?",
+          "correctAnswer": "To break down food into smaller pieces",
+          "wrongAnswer1": "To pump blood through the body",
+          "wrongAnswer2": "To regulate body temperature",
+          "wrongAnswer3": "To produce hormones for digestion",
+          "explanation": "Teeth are primarily used to break down food into smaller pieces to aid in digestion.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which part of the tooth contains nerves and blood vessels?",
+          "correctAnswer": "Pulp",
+          "wrongAnswer1": "Enamel",
+          "wrongAnswer2": "Crown",
+          "wrongAnswer3": "Gum",
+          "explanation": "The pulp is the central part of the tooth that contains nerves and blood vessels.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What type of teeth are primarily used for tearing food?",
+          "correctAnswer": "Canine teeth",
+          "wrongAnswer1": "Molars",
+          "wrongAnswer2": "Incisors",
+          "wrongAnswer3": "Premolars",
+          "explanation": "Canine teeth are pointed and are primarily used for tearing food.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Tongue",
+      "questions": [
+        {
+          "question": "What is the primary function of the tongue in the human body?",
+          "correctAnswer": "To help with tasting, swallowing, and speaking",
+          "wrongAnswer1": "To pump blood throughout the body",
+          "wrongAnswer2": "To filter waste from the blood",
+          "wrongAnswer3": "To regulate body temperature",
+          "explanation": "The tongue is essential for tasting food, helping in swallowing, and forming speech sounds.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which muscle group makes up the tongue?",
+          "correctAnswer": "Skeletal muscles",
+          "wrongAnswer1": "Cardiac muscles",
+          "wrongAnswer2": "Smooth muscles",
+          "wrongAnswer3": "Involuntary muscles",
+          "explanation": "The tongue is composed mainly of skeletal muscles, allowing voluntary movement for various functions.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How does the tongue contribute to the sense of taste?",
+          "correctAnswer": "It has taste buds that detect different flavors",
+          "wrongAnswer1": "It produces digestive enzymes to break down food",
+          "wrongAnswer2": "It is covered with skin that senses temperature",
+          "wrongAnswer3": "It helps produce saliva to aid swallowing",
+          "explanation": "The tongue contains numerous taste buds, each sensitive to different taste qualities like sweet, sour, salty, and bitter.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Thumb",
+      "questions": [
+        {
+          "question": "Which finger is the thumb?",
+          "correctAnswer": "The first finger on the hand that is opposable to the other fingers",
+          "wrongAnswer1": "The middle finger on the hand",
+          "wrongAnswer2": "The smallest finger on the hand",
+          "wrongAnswer3": "The finger next to the little finger",
+          "explanation": "The thumb is the first finger on the hand and is unique because it can oppose the other fingers, allowing grasping.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a unique feature of the thumb compared to other fingers?",
+          "correctAnswer": "It is opposable, meaning it can touch the other fingers",
+          "wrongAnswer1": "It is the longest finger",
+          "wrongAnswer2": "It has no bones",
+          "wrongAnswer3": "It is always shorter than other fingers",
+          "explanation": "The opposability of the thumb allows it to touch the other fingers, which helps in gripping and holding objects.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is the thumb important for hand function?",
+          "correctAnswer": "It helps in gripping and manipulating objects by opposing the other fingers",
+          "wrongAnswer1": "It is used mainly for writing",
+          "wrongAnswer2": "It is not important and has no special function",
+          "wrongAnswer3": "It only serves decorative purposes",
+          "explanation": "The thumb’s ability to oppose the other fingers is crucial for gripping and handling objects effectively.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Hip",
+      "questions": [
+        {
+          "question": "What is the main function of the hip in the human body?",
+          "correctAnswer": "To support the weight of the body and allow leg movement",
+          "wrongAnswer1": "To pump blood throughout the body",
+          "wrongAnswer2": "To protect the brain from injury",
+          "wrongAnswer3": "To regulate body temperature",
+          "explanation": "The hip supports the body's weight in both static (standing) and dynamic (walking or running) postures, and it allows for movement of the legs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which bones primarily form the hip joint?",
+          "correctAnswer": "The pelvis and the femur",
+          "wrongAnswer1": "The tibia and fibula",
+          "wrongAnswer2": "The scapula and clavicle",
+          "wrongAnswer3": "The humerus and radius",
+          "explanation": "The hip joint is formed where the head of the femur fits into the acetabulum of the pelvis.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How does the hip contribute to human mobility?",
+          "correctAnswer": "By providing a ball-and-socket joint that allows for a wide range of leg movements",
+          "wrongAnswer1": "By locking the leg in place to prevent movement",
+          "wrongAnswer2": "By acting as a hinge joint allowing only back and forth motion",
+          "wrongAnswer3": "By connecting the arm to the torso",
+          "explanation": "The hip's ball-and-socket joint configuration allows for flexibility and rotation of the leg in multiple directions, essential for walking, running, and other movements.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Ribs",
+      "questions": [
+        {
+          "question": "What is the primary function of ribs in the human body?",
+          "correctAnswer": "Protecting the chest organs such as the heart and lungs",
+          "wrongAnswer1": "Producing blood cells in the marrow",
+          "wrongAnswer2": "Supporting the weight of the body",
+          "wrongAnswer3": "Facilitating movement of the arms",
+          "explanation": "The ribs form a protective cage around vital chest organs like the heart and lungs, shielding them from injury.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How many pairs of ribs does a typical adult human have?",
+          "correctAnswer": "Twelve pairs",
+          "wrongAnswer1": "Ten pairs",
+          "wrongAnswer2": "Fourteen pairs",
+          "wrongAnswer3": "Eight pairs",
+          "explanation": "A typical adult human has twelve pairs of ribs, totaling twenty-four ribs that form the rib cage.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which part of the ribs connects directly to the spine?",
+          "correctAnswer": "The posterior end of the ribs",
+          "wrongAnswer1": "The anterior end attached to the sternum",
+          "wrongAnswer2": "The middle section of the ribs",
+          "wrongAnswer3": "The cartilage part connecting to the sternum",
+          "explanation": "The posterior ends of ribs connect to the thoracic vertebrae of the spine, allowing for flexibility and support.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Spine",
+      "questions": [
+        {
+          "question": "What is the primary function of the spine in the human body?",
+          "correctAnswer": "To support the body and protect the spinal cord",
+          "wrongAnswer1": "To pump blood throughout the body",
+          "wrongAnswer2": "To assist in digestion of food",
+          "wrongAnswer3": "To produce hormones for metabolism",
+          "explanation": "The spine supports the body structure and protects the spinal cord, which is crucial for transmitting signals between the brain and the rest of the body.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a section of the human spine?",
+          "correctAnswer": "Thoracic, Lumbar, Mandibular",
+          "wrongAnswer1": "Cervical, Thoracic, Lumbar",
+          "wrongAnswer2": "Lumbar, Sacral, Cervical",
+          "wrongAnswer3": "Sacral, Coccygeal, Thoracic",
+          "explanation": "The mandible is part of the jaw, not a section of the spine. The spine is divided into cervical, thoracic, lumbar, sacral, and coccygeal sections.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How many vertebrae typically make up the human spine?",
+          "correctAnswer": "About 33 vertebrae",
+          "wrongAnswer1": "About 12 vertebrae",
+          "wrongAnswer2": "About 24 vertebrae",
+          "wrongAnswer3": "About 40 vertebrae",
+          "explanation": "The human spine usually consists of 33 vertebrae including cervical, thoracic, lumbar, sacral, and coccygeal vertebrae that vary slightly among individuals.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Scalp",
+      "questions": [
+        {
+          "question": "What is the primary function of the scalp?",
+          "correctAnswer": "To protect the skull and support hair growth",
+          "wrongAnswer1": "To aid in chewing food",
+          "wrongAnswer2": "To support the nose structure",
+          "wrongAnswer3": "To regulate blood circulation in the legs",
+          "explanation": "The scalp covers and protects the skull and contains hair follicles that support hair growth. It does not assist in chewing, nose structure, or leg circulation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which layer of the scalp contains hair follicles?",
+          "correctAnswer": "The skin layer",
+          "wrongAnswer1": "The bone layer",
+          "wrongAnswer2": "The muscle layer",
+          "wrongAnswer3": "The blood vessel layer",
+          "explanation": "Hair follicles are located in the skin layer of the scalp, which is the outermost part. Bone and muscle layers do not contain hair follicles.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What common condition affects the scalp?",
+          "correctAnswer": "Dandruff",
+          "wrongAnswer1": "Athlete's foot",
+          "wrongAnswer2": "Conjunctivitis",
+          "wrongAnswer3": "Gingivitis",
+          "explanation": "Dandruff is a common scalp condition involving flaking skin. Athlete's foot affects the feet, conjunctivitis affects the eyes, and gingivitis affects the gums.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Palm",
+      "questions": [
+        {
+          "question": "What is the palm?",
+          "correctAnswer": "The inner surface of the hand between the wrist and fingers",
+          "wrongAnswer1": "The back side of the hand where the knuckles are",
+          "wrongAnswer2": "The tips of the fingers used for touch",
+          "wrongAnswer3": "The part of the arm between the elbow and wrist",
+          "explanation": "The palm refers to the inside surface of the hand, which is between the wrist and the fingers, opposite the back of the hand.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is NOT a function of the palm?",
+          "correctAnswer": "Hearing sounds",
+          "wrongAnswer1": "Gripping objects",
+          "wrongAnswer2": "Sensing touch",
+          "wrongAnswer3": "Supporting hand movements",
+          "explanation": "The palm is involved in gripping, sensing touch, and supporting hand movements but it does not play any role in hearing sounds.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What kind of skin covers the palm?",
+          "correctAnswer": "Thick and hairless skin",
+          "wrongAnswer1": "Thin and hairy skin",
+          "wrongAnswer2": "Scaly and rough skin",
+          "wrongAnswer3": "Soft and furry skin",
+          "explanation": "The skin on the palm is thick and hairless to provide protection and improve grip.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Heel",
+      "questions": [
+        {
+          "question": "What part of the body is the heel located on?",
+          "correctAnswer": "At the back of the foot",
+          "wrongAnswer1": "At the tip of the finger",
+          "wrongAnswer2": "On the back of the head",
+          "wrongAnswer3": "On the palm of the hand",
+          "explanation": "The heel is the back part of the foot below the ankle.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which bone is primarily associated with the heel?",
+          "correctAnswer": "Calcaneus",
+          "wrongAnswer1": "Femur",
+          "wrongAnswer2": "Radius",
+          "wrongAnswer3": "Clavicle",
+          "explanation": "The calcaneus is the large bone forming the heel of the foot.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a common cause of heel pain?",
+          "correctAnswer": "Plantar fasciitis",
+          "wrongAnswer1": "Tennis elbow",
+          "wrongAnswer2": "Carpal tunnel syndrome",
+          "wrongAnswer3": "Migraine",
+          "explanation": "Plantar fasciitis is inflammation of a tissue near the heel causing pain when walking or standing.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Thigh",
+      "questions": [
+        {
+          "question": "What is the primary function of the thigh in the human body?",
+          "correctAnswer": "It supports the weight of the body and enables leg movement",
+          "wrongAnswer1": "It protects the brain from injury",
+          "wrongAnswer2": "It pumps blood throughout the body",
+          "wrongAnswer3": "It filters waste products from the blood",
+          "explanation": "The thigh is the part of the leg that supports the body's weight and plays a key role in leg movement, including walking and running.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which major bone is found in the thigh?",
+          "correctAnswer": "Femur",
+          "wrongAnswer1": "Tibia",
+          "wrongAnswer2": "Humerus",
+          "wrongAnswer3": "Radius",
+          "explanation": "The femur is the large bone located in the thigh, known as the strongest and longest bone in the human body.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What muscle group is primarily located in the front of the thigh?",
+          "correctAnswer": "Quadriceps",
+          "wrongAnswer1": "Biceps",
+          "wrongAnswer2": "Hamstrings",
+          "wrongAnswer3": "Triceps",
+          "explanation": "The quadriceps are a group of muscles located at the front of the thigh responsible for extending the knee.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Calf",
+      "questions": [
+        {
+          "question": "What part of the body is referred to as the calf?",
+          "correctAnswer": "The back portion of the lower leg between the knee and ankle",
+          "wrongAnswer1": "The front part of the thigh",
+          "wrongAnswer2": "The upper arm between shoulder and elbow",
+          "wrongAnswer3": "The area around the ankle",
+          "explanation": "The calf is the back portion of the lower leg, situated between the knee and the ankle, containing muscles like the gastrocnemius.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which muscle is most associated with the calf?",
+          "correctAnswer": "Gastrocnemius",
+          "wrongAnswer1": "Biceps brachii",
+          "wrongAnswer2": "Quadriceps",
+          "wrongAnswer3": "Deltoid",
+          "explanation": "The gastrocnemius is the large muscle that forms the bulk of the calf and is responsible for movements like plantar flexion of the foot.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a common injury related to the calf muscle?",
+          "correctAnswer": "Calf strain",
+          "wrongAnswer1": "Rotator cuff tear",
+          "wrongAnswer2": "Shin splints",
+          "wrongAnswer3": "Tennis elbow",
+          "explanation": "A calf strain occurs when the calf muscle is overstretched or torn, often due to sudden acceleration or overuse.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Nape",
+      "questions": [
+        {
+          "question": "What is the nape of the neck?",
+          "correctAnswer": "The back part of the neck",
+          "wrongAnswer1": "The front part of the neck",
+          "wrongAnswer2": "The side part of the neck",
+          "wrongAnswer3": "The top of the head",
+          "explanation": "The nape refers to the back part of the neck, just below the hairline.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which body part is located at the nape?",
+          "correctAnswer": "The skin and muscles at the back of the neck",
+          "wrongAnswer1": "The cartilage of the ear",
+          "wrongAnswer2": "The bone in the front of the neck",
+          "wrongAnswer3": "The muscle at the shoulder blade",
+          "explanation": "The nape includes the skin and muscles located at the back of the neck.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "The nape is commonly associated with which feature?",
+          "correctAnswer": "The area below the hairline on the back of the neck",
+          "wrongAnswer1": "The area around the chin",
+          "wrongAnswer2": "The area behind the ears",
+          "wrongAnswer3": "The area above the eyebrows",
+          "explanation": "The nape is the area below the hairline on the back of the neck, often targeted in hairstyles and massages.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Forearm",
+      "questions": [
+        {
+          "question": "What is the forearm primarily composed of?",
+          "correctAnswer": "Two bones called the radius and ulna",
+          "wrongAnswer1": "A single bone called the humerus",
+          "wrongAnswer2": "Three bones called the femur, tibia, and fibula",
+          "wrongAnswer3": "Multiple bones including the scapula and clavicle",
+          "explanation": "The forearm contains two long bones, the radius and ulna, which allow for rotation and movement of the wrist and hand.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which joint connects the forearm to the upper arm?",
+          "correctAnswer": "The elbow joint",
+          "wrongAnswer1": "The shoulder joint",
+          "wrongAnswer2": "The wrist joint",
+          "wrongAnswer3": "The knee joint",
+          "explanation": "The elbow joint connects the forearm bones (radius and ulna) to the humerus of the upper arm, enabling bending and rotation.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a common function of muscles in the forearm?",
+          "correctAnswer": "Controlling wrist and finger movements",
+          "wrongAnswer1": "Moving the shoulder blade",
+          "wrongAnswer2": "Bending the knee",
+          "wrongAnswer3": "Rotating the neck",
+          "explanation": "Forearm muscles control precise movements like wrist rotation and finger flexion, essential for gripping and manipulating objects.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Nostrils",
+      "questions": [
+        {
+          "question": "What is the primary function of nostrils?",
+          "correctAnswer": "To allow air to enter the nose for breathing",
+          "wrongAnswer1": "To help with chewing food",
+          "wrongAnswer2": "To produce saliva",
+          "wrongAnswer3": "To protect the eyes",
+          "explanation": "Nostrils are openings that allow air to enter the nose so that it can be warmed, filtered, and directed to the lungs for breathing.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which part of the body contains the nostrils?",
+          "correctAnswer": "The nose",
+          "wrongAnswer1": "The ears",
+          "wrongAnswer2": "The mouth",
+          "wrongAnswer3": "The throat",
+          "explanation": "Nostrils are part of the nose and are the two openings on the external part that let air in and out.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do nostrils help in the sense of smell?",
+          "correctAnswer": "They allow air carrying scents to enter the nose to reach olfactory receptors",
+          "wrongAnswer1": "They produce the smell chemicals themselves",
+          "wrongAnswer2": "They block harmful smells from entering the body",
+          "wrongAnswer3": "They filter out bad odors completely",
+          "explanation": "Nostrils allow scent molecules in the air to enter the nose and reach the olfactory receptors, enabling the sense of smell.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Eyelashes",
+      "questions": [
+        {
+          "question": "What is the primary function of eyelashes?",
+          "correctAnswer": "To protect the eyes from dust and debris",
+          "wrongAnswer1": "To improve night vision",
+          "wrongAnswer2": "To help with color perception",
+          "wrongAnswer3": "To regulate eye temperature",
+          "explanation": "Eyelashes mainly serve to protect the eyes by catching dust and debris and preventing them from entering the eye.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Where are eyelashes located on the body?",
+          "correctAnswer": "Along the edges of the eyelids",
+          "wrongAnswer1": "On the eyebrows",
+          "wrongAnswer2": "On the scalp",
+          "wrongAnswer3": "Inside the mouth",
+          "explanation": "Eyelashes grow along the edges of the eyelids and help protect the eyes from foreign particles.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about eyelashes?",
+          "correctAnswer": "They are sensitive to touch and trigger blinking.",
+          "wrongAnswer1": "They grow from the eyebrows.",
+          "wrongAnswer2": "They do not have any nerves connected to them.",
+          "wrongAnswer3": "They are mainly used for smelling.",
+          "explanation": "Eyelashes have nerve endings that make them sensitive to touch, causing the eye to blink when something comes close, helping protect the eye.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Eyebrows",
+      "questions": [
+        {
+          "question": "What is the primary function of eyebrows?",
+          "correctAnswer": "To protect the eyes from sweat and debris",
+          "wrongAnswer1": "To improve hearing ability",
+          "wrongAnswer2": "To help with breathing",
+          "wrongAnswer3": "To enhance the sense of taste",
+          "explanation": "Eyebrows help protect the eyes by diverting sweat and debris away from them, keeping vision clear and eyes safe.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes the location of the eyebrows?",
+          "correctAnswer": "Above the eyes on the forehead",
+          "wrongAnswer1": "Below the nose on the upper lip",
+          "wrongAnswer2": "On the sides of the neck",
+          "wrongAnswer3": "Around the wrist",
+          "explanation": "Eyebrows are located directly above the eyes on the forehead, forming a protective ridge.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do eyebrows contribute to facial expression?",
+          "correctAnswer": "They help convey emotions like surprise or anger",
+          "wrongAnswer1": "They change the color of the eyes",
+          "wrongAnswer2": "They control the movement of the mouth",
+          "wrongAnswer3": "They help with hearing sounds",
+          "explanation": "Eyebrows move to convey emotions such as surprise, anger, or confusion, playing a key role in nonverbal communication.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Cheeks",
+      "questions": [
+        {
+          "question": "What part of the body are cheeks located on?",
+          "correctAnswer": "On the sides of the face below the eyes",
+          "wrongAnswer1": "On the top of the head",
+          "wrongAnswer2": "On the back of the hands",
+          "wrongAnswer3": "On the feet near the toes",
+          "explanation": "Cheeks are the fleshy parts on the sides of the face below the eyes, often associated with expressions and blushing.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these is a main function of cheeks?",
+          "correctAnswer": "Helping in chewing by holding food in the mouth",
+          "wrongAnswer1": "Pumping blood throughout the body",
+          "wrongAnswer2": "Protecting the skull from injury",
+          "wrongAnswer3": "Helping in breathing through the nose",
+          "explanation": "Cheeks help in the process of chewing by holding food in the mouth and assisting with chewing movements.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What muscle primarily makes up the cheeks?",
+          "correctAnswer": "Buccinator muscle",
+          "wrongAnswer1": "Biceps brachii muscle",
+          "wrongAnswer2": "Quadriceps muscle",
+          "wrongAnswer3": "Deltoid muscle",
+          "explanation": "The buccinator muscle is the main muscle of the cheeks and helps with chewing and facial expressions.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Chin",
+      "questions": [
+        {
+          "question": "Which part of the face is located just below the mouth?",
+          "correctAnswer": "Chin",
+          "wrongAnswer1": "Forehead",
+          "wrongAnswer2": "Cheek",
+          "wrongAnswer3": "Nose",
+          "explanation": "The chin is located just below the mouth on the face.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the name of the protruding part of the face that supports the lower lip?",
+          "correctAnswer": "Chin",
+          "wrongAnswer1": "Temple",
+          "wrongAnswer2": "Jawbone",
+          "wrongAnswer3": "Earlobe",
+          "explanation": "The chin is the part of the face that protrudes below the lower lip and supports it.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which facial feature helps to define the shape of the lower face?",
+          "correctAnswer": "Chin",
+          "wrongAnswer1": "Eyebrows",
+          "wrongAnswer2": "Nostrils",
+          "wrongAnswer3": "Cheeks",
+          "explanation": "The chin is a key feature that defines the shape and contour of the lower part of the face.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Groin",
+      "questions": [
+        {
+          "question": "What area of the body is referred to as the groin?",
+          "correctAnswer": "The region between the abdomen and thigh",
+          "wrongAnswer1": "The lower back area",
+          "wrongAnswer2": "The upper arm area",
+          "wrongAnswer3": "The chest region",
+          "explanation": "The groin is the area where the abdomen meets the inner thigh, often referred to in anatomy as the inguinal region.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes the groin?",
+          "correctAnswer": "It is the crease or fold between the abdomen and thigh",
+          "wrongAnswer1": "It is the back of the knee",
+          "wrongAnswer2": "It is the front of the elbow",
+          "wrongAnswer3": "It is the area around the neck",
+          "explanation": "The groin is the crease where the abdomen transitions to the thigh, important for movements involving the hips and legs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is the groin an important area in the human body?",
+          "correctAnswer": "It contains muscles and nerves important for leg movement",
+          "wrongAnswer1": "It is primarily composed of bone structures",
+          "wrongAnswer2": "It houses the lungs and heart",
+          "wrongAnswer3": "It is mainly used for digestion",
+          "explanation": "The groin area contains muscles like the adductors and important nerves that contribute to leg movement and stability.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Body Parts",
+      "concept": "Waist",
+      "questions": [
+        {
+          "question": "What is the waist in the human body?",
+          "correctAnswer": "The narrow part of the torso between the ribs and hips",
+          "wrongAnswer1": "The lower part of the leg below the knee",
+          "wrongAnswer2": "The broad chest area where the lungs are located",
+          "wrongAnswer3": "The upper arm between shoulder and elbow",
+          "explanation": "The waist is the narrow section of the body located between the ribs and the hips, often considered the midpoint of the torso.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which body parts are directly above and below the waist?",
+          "correctAnswer": "Ribs are above and hips are below the waist",
+          "wrongAnswer1": "Shoulders are above and knees are below the waist",
+          "wrongAnswer2": "Neck is above and feet are below the waist",
+          "wrongAnswer3": "Chest is above and elbows are below the waist",
+          "explanation": "The waist is situated between the ribs (above) and the hips (below) on the human body.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why is the waist important in movement and posture?",
+          "correctAnswer": "It supports the upper body and allows bending and twisting",
+          "wrongAnswer1": "It helps to pump blood throughout the body",
+          "wrongAnswer2": "It controls the movement of the fingers",
+          "wrongAnswer3": "It protects the brain inside the skull",
+          "explanation": "The waist region supports the upper body and plays a key role in movements such as bending and twisting, contributing to posture and flexibility.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

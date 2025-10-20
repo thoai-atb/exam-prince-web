@@ -4,6 +4,7 @@ import FloorPlanInfo from "./FloorPlanInfo";
 import { useHouseManager } from "../pages/HouseContainer";
 import ExamEntrance from "./ExamEntrance";
 import ExamSubmission from "./ExamSubmission";
+import ExamLibrary from "./ExamLibrary";
 
 export default function QuestionPanel() {
   const [selectedFloorPlan, setSelectedFloorPlan] = useState(null);
@@ -99,6 +100,10 @@ export default function QuestionPanel() {
         <ExamSubmission
           submitable={houseManagerRef.current.items["sheet"] > 0}
           onSubmit={() => houseManagerRef.current.submit()}
+        />
+      )}
+      {selectedFloorPlan.special === "library" && (
+        <ExamLibrary 
         />
       )}
 

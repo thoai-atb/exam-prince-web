@@ -13,6 +13,8 @@ export default class HouseManager {
     this.exiting = false;
     this.submitted = false;
     this.topic = topic.data;
+    this.startTimeStamp = new Date();
+    this.endTimeStamp = new Date();
 
     // Pass the topic data to HouseGenerator
     this.generator = new HouseGenerator(rows, cols, 100, this.topic);
@@ -99,7 +101,7 @@ export default class HouseManager {
 
     // ✅ Use the topic name dynamically
     const submissionFloorPlan = new FloorPlan({
-      id: "FP-51",
+      id: "FP-52",
       name: "EXAM SUBMISSION",
       color: "#AAAAAA",
       doors: { north: false, south: true, west: true, east: true },
@@ -199,7 +201,11 @@ export default class HouseManager {
     }
 
     this.roomOpenSession.setSelectedFloorPlan(selectedFP);
-    this.notify();
+    if (selectedFP.special) {
+      this.useFloorPlan();
+    } else {
+      this.notify();
+    }
   }
 
   // MAIN STEPS: openRoom -> selectFloorPlan -> [setUserAnswer] -> useFloorPlan
@@ -229,7 +235,7 @@ export default class HouseManager {
     if (!this.roomOpenSession?.selectedFloorPlan) return;
 
     const floorplan = this.generator.useFloorPlan(
-      this.roomOpenSession.selectedFloorPlan.name
+      this.roomOpenSession.selectedFloorPlan.id
     );
     const [row, col] = [this.roomOpenSession.row, this.roomOpenSession.col];
     this.rooms[row][col].open(floorplan);

@@ -1,0 +1,1655 @@
+{
+  "topic": "Animals",
+  "concepts": [
+    {
+      "topic": "Animals",
+      "concept": "Mammals",
+      "questions": [
+        {
+          "question": "Which of the following characteristics is typical of mammals?",
+          "correctAnswer": "They have hair or fur on their bodies",
+          "wrongAnswer1": "They lay eggs everywhere",
+          "wrongAnswer2": "They breathe through gills",
+          "wrongAnswer3": "They have feathers",
+          "explanation": "Mammals are characterized by having hair or fur on their bodies, unlike birds which have feathers, and fish which have gills. Most mammals give birth to live young rather than laying eggs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What distinguishes mammals from other vertebrates?",
+          "correctAnswer": "Mammals have mammary glands that produce milk to feed their young",
+          "wrongAnswer1": "Mammals can breathe underwater using gills",
+          "wrongAnswer2": "Mammals have scales covering their body",
+          "wrongAnswer3": "Mammals lay eggs exclusively",
+          "explanation": "The presence of mammary glands which produce milk is a defining feature of mammals, setting them apart from reptiles, birds, and fish. While some mammals lay eggs, most give live birth.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of these animals is NOT a mammal?",
+          "correctAnswer": "Crocodile",
+          "wrongAnswer1": "Dolphin",
+          "wrongAnswer2": "Elephant",
+          "wrongAnswer3": "Bat",
+          "explanation": "Crocodiles are reptiles, not mammals. Dolphins, elephants, and bats are all mammals with different adaptations but share key mammalian traits like live birth and mammary glands.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Reptiles",
+      "questions": [
+        {
+          "question": "Which of these animals is a reptile?",
+          "correctAnswer": "Turtle",
+          "wrongAnswer1": "Frog",
+          "wrongAnswer2": "Salmon",
+          "wrongAnswer3": "Eagle",
+          "explanation": "Turtles are reptiles because they have dry scaly skin and lay eggs on land, unlike frogs which are amphibians, salmon which are fish, and eagles which are birds.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What characteristic is common to all reptiles?",
+          "correctAnswer": "They have scaly skin",
+          "wrongAnswer1": "They have fur",
+          "wrongAnswer2": "They live in water only",
+          "wrongAnswer3": "They have feathers",
+          "explanation": "All reptiles have scaly skin which helps prevent water loss. Reptiles do not have fur or feathers and are not restricted to living in water only.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which method do most reptiles use to regulate their body temperature?",
+          "correctAnswer": "Basking in the sun to absorb heat",
+          "wrongAnswer1": "Shivering to generate heat",
+          "wrongAnswer2": "Sweating to cool down",
+          "wrongAnswer3": "Moving to warmer water",
+          "explanation": "Reptiles are ectothermic and regulate their body temperature by basking in the sun to absorb heat. They do not shiver like mammals or sweat to cool down.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Birds",
+      "questions": [
+        {
+          "question": "Which bird is known for its ability to mimic human speech?",
+          "correctAnswer": "Parrot",
+          "wrongAnswer1": "Eagle",
+          "wrongAnswer2": "Penguin",
+          "wrongAnswer3": "Owl",
+          "explanation": "Parrots have a unique vocal ability that allows them to mimic sounds, including human speech.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What type of bird is known for its impressive migratory flights across continents?",
+          "correctAnswer": "Swallow",
+          "wrongAnswer1": "Flamingo",
+          "wrongAnswer2": "Peacock",
+          "wrongAnswer3": "Canary",
+          "explanation": "Swallows are famous for their long-distance migrations, often traveling thousands of miles between breeding and wintering grounds.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which bird is flightless and native to Antarctica?",
+          "correctAnswer": "Penguin",
+          "wrongAnswer1": "Ostrich",
+          "wrongAnswer2": "Albatross",
+          "wrongAnswer3": "Falcon",
+          "explanation": "Penguins are flightless birds adapted to cold environments, primarily found in Antarctica and surrounding regions.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Amphibians",
+      "questions": [
+        {
+          "question": "Which of the following is a common characteristic of amphibians?",
+          "correctAnswer": "They live both in water and on land.",
+          "wrongAnswer1": "They have fur to keep warm.",
+          "wrongAnswer2": "They breathe only through lungs.",
+          "wrongAnswer3": "They lay eggs on dry land.",
+          "explanation": "Amphibians typically have life stages in both aquatic and terrestrial environments, starting with water-based larvae and then often moving to land as adults.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What type of skin do amphibians generally have?",
+          "correctAnswer": "Moist and permeable skin.",
+          "wrongAnswer1": "Dry and scaly skin.",
+          "wrongAnswer2": "Furry skin to retain heat.",
+          "wrongAnswer3": "Hard shell covering.",
+          "explanation": "Amphibians have moist and permeable skin which allows them to absorb water and breathe through their skin, unlike reptiles or mammals.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is the process called when amphibians develop from larvae to adult form?",
+          "correctAnswer": "Metamorphosis",
+          "wrongAnswer1": "Photosynthesis",
+          "wrongAnswer2": "Hibernation",
+          "wrongAnswer3": "Moulting",
+          "explanation": "Amphibians undergo metamorphosis, a process where they change from a larval form (like a tadpole) to an adult form (such as a frog), involving significant physical changes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Fish",
+      "questions": [
+        {
+          "question": "What is a common characteristic of most fish?",
+          "correctAnswer": "They breathe using gills.",
+          "wrongAnswer1": "They breathe using lungs.",
+          "wrongAnswer2": "They have fur covering their bodies.",
+          "wrongAnswer3": "They primarily live on land.",
+          "explanation": "Fish primarily breathe underwater using gills, which extract oxygen from water.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is true about fish scales?",
+          "correctAnswer": "They help protect fish and reduce water resistance.",
+          "wrongAnswer1": "They are used by fish to breathe.",
+          "wrongAnswer2": "They grow continuously like human hair.",
+          "wrongAnswer3": "They are made of bone.",
+          "explanation": "Fish scales provide protection and streamline the fish's body to help movement in water.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which type of fish is known for having a cartilaginous skeleton?",
+          "correctAnswer": "Sharks",
+          "wrongAnswer1": "Salmon",
+          "wrongAnswer2": "Goldfish",
+          "wrongAnswer3": "Clownfish",
+          "explanation": "Sharks have skeletons made of cartilage rather than bone, unlike most other fish.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Insects",
+      "questions": [
+        {
+          "question": "Which of the following is an insect?",
+          "correctAnswer": "Butterfly",
+          "wrongAnswer1": "Spider",
+          "wrongAnswer2": "Frog",
+          "wrongAnswer3": "Lizard",
+          "explanation": "Butterflies are insects characterized by having six legs and three body parts, unlike spiders which are arachnids with eight legs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What characteristic distinguishes insects from other arthropods?",
+          "correctAnswer": "Having six legs",
+          "wrongAnswer1": "Having eight legs",
+          "wrongAnswer2": "Having many wings",
+          "wrongAnswer3": "Having a tail",
+          "explanation": "Insects have six legs, which distinguishes them from other arthropods like spiders that have eight legs.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which part of the insect's body contains the wings?",
+          "correctAnswer": "Thorax",
+          "wrongAnswer1": "Head",
+          "wrongAnswer2": "Abdomen",
+          "wrongAnswer3": "Antennae",
+          "explanation": "The thorax of an insect is the middle body part where the wings and legs are attached.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Arachnids",
+      "questions": [
+        {
+          "question": "Which of the following is a characteristic feature of arachnids?",
+          "correctAnswer": "They have eight legs and no antennae.",
+          "wrongAnswer1": "They have six legs and antennae.",
+          "wrongAnswer2": "They have wings and compound eyes.",
+          "wrongAnswer3": "They have fins and scales.",
+          "explanation": "Arachnids, such as spiders and scorpions, typically have eight legs and lack antennae, distinguishing them from insects which have six legs and antennae.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which animal is classified as an arachnid?",
+          "correctAnswer": "Spider",
+          "wrongAnswer1": "Butterfly",
+          "wrongAnswer2": "Frog",
+          "wrongAnswer3": "Crab",
+          "explanation": "Spiders are arachnids, characterized by eight legs and two body segments, unlike butterflies which are insects, frogs which are amphibians, and crabs which are crustaceans.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a common habitat for many arachnids?",
+          "correctAnswer": "Forests, deserts, and human homes.",
+          "wrongAnswer1": "Open oceans and deep rivers.",
+          "wrongAnswer2": "Snowy mountain peaks exclusively.",
+          "wrongAnswer3": "Only inside freshwater lakes.",
+          "explanation": "Arachnids are versatile and can be found in forests, deserts, and even inside human homes, but not typically in aquatic environments like oceans or lakes.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Herbivores",
+      "questions": [
+        {
+          "question": "What type of diet do herbivores primarily have?",
+          "correctAnswer": "They mainly eat plants and vegetation",
+          "wrongAnswer1": "They mostly consume other animals",
+          "wrongAnswer2": "They eat both plants and animals equally",
+          "wrongAnswer3": "They survive on minerals and rocks",
+          "explanation": "Herbivores are animals that primarily eat plants, leaves, fruits, and other vegetation to obtain their nutrients.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following animals is a typical herbivore?",
+          "correctAnswer": "Deer",
+          "wrongAnswer1": "Lion",
+          "wrongAnswer2": "Shark",
+          "wrongAnswer3": "Eagle",
+          "explanation": "Deer feed mainly on plants and are classic herbivores, unlike lions, sharks, and eagles, which are carnivores or omnivores.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do herbivores typically digest tough plant materials?",
+          "correctAnswer": "They often have specialized stomachs or longer digestive systems to break down cellulose",
+          "wrongAnswer1": "They use powerful stomach acids like carnivores",
+          "wrongAnswer2": "They primarily digest plants using external fermentation",
+          "wrongAnswer3": "They rely on eating fermented plants only",
+          "explanation": "Many herbivores have evolved specialized digestive systems, such as multi-chambered stomachs or longer intestines, to effectively break down cellulose in plants.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Carnivores",
+      "questions": [
+        {
+          "question": "What is the primary diet of carnivores?",
+          "correctAnswer": "They mostly eat other animals.",
+          "wrongAnswer1": "They mostly eat plants.",
+          "wrongAnswer2": "They mostly eat fruits and vegetables.",
+          "wrongAnswer3": "They mostly eat insects and seeds.",
+          "explanation": "Carnivores primarily consume meat from other animals as their main source of nutrition.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following animals is a carnivore?",
+          "correctAnswer": "Lion",
+          "wrongAnswer1": "Elephant",
+          "wrongAnswer2": "Giraffe",
+          "wrongAnswer3": "Cow",
+          "explanation": "Lions are classic examples of carnivores because they hunt and eat other animals.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What adaptation helps carnivores catch and consume their prey?",
+          "correctAnswer": "Sharp teeth and claws",
+          "wrongAnswer1": "Flat teeth for grinding plants",
+          "wrongAnswer2": "Long neck for reaching leaves",
+          "wrongAnswer3": "Camouflage to stay hidden from prey",
+          "explanation": "Carnivores have sharp teeth and claws that help them catch, kill, and eat other animals effectively.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Omnivores",
+      "questions": [
+        {
+          "question": "What type of diet do omnivores have?",
+          "correctAnswer": "They eat both plants and animals.",
+          "wrongAnswer1": "They eat only plants.",
+          "wrongAnswer2": "They eat only animals.",
+          "wrongAnswer3": "They do not eat food.",
+          "explanation": "Omnivores consume both plant-based and animal-based food, unlike herbivores or carnivores that specialize in one type of diet.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following animals is an example of an omnivore?",
+          "correctAnswer": "Bear",
+          "wrongAnswer1": "Cow",
+          "wrongAnswer2": "Lion",
+          "wrongAnswer3": "Eagle",
+          "explanation": "Bears eat both plants and animals, making them omnivores. Cows are herbivores, while lions and eagles are carnivores.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why are omnivores considered adaptable in their feeding habits?",
+          "correctAnswer": "Because they can eat a variety of foods from plants and animals.",
+          "wrongAnswer1": "Because they only eat a specific type of plant.",
+          "wrongAnswer2": "Because they hunt only large prey.",
+          "wrongAnswer3": "Because they only eat meat.",
+          "explanation": "The ability of omnivores to consume both plant and animal matter allows them to survive in diverse environments with varying food availability.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Domesticated Animals",
+      "questions": [
+        {
+          "question": "Which of the following is a common domesticated animal?",
+          "correctAnswer": "Dog",
+          "wrongAnswer1": "Lion",
+          "wrongAnswer2": "Eagle",
+          "wrongAnswer3": "Shark",
+          "explanation": "Dogs have been domesticated by humans for thousands of years and are commonly kept as pets or working animals.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is one primary reason humans domesticate animals?",
+          "correctAnswer": "To provide companionship and assistance",
+          "wrongAnswer1": "To make wild animals more aggressive",
+          "wrongAnswer2": "To increase their natural hunting skills",
+          "wrongAnswer3": "To prevent them from reproducing",
+          "explanation": "Humans domesticate animals primarily to provide companionship, food, transportation, or help with work, not to increase aggression or hunting skills.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which animal is commonly domesticated for its milk?",
+          "correctAnswer": "Cow",
+          "wrongAnswer1": "Tiger",
+          "wrongAnswer2": "Elephant",
+          "wrongAnswer3": "Cheetah",
+          "explanation": "Cows are widely domesticated to provide milk and dairy products, unlike wild animals such as tigers or cheetahs.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Wild Animals",
+      "questions": [
+        {
+          "question": "Which habitat is most suitable for wild animals?",
+          "correctAnswer": "Forests and jungles where they can live naturally",
+          "wrongAnswer1": "City parks with many people",
+          "wrongAnswer2": "Indoor homes with humans",
+          "wrongAnswer3": "Shopping malls and busy streets",
+          "explanation": "Wild animals thrive in natural habitats like forests and jungles which provide food, shelter, and space for survival.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a key characteristic of wild animals?",
+          "correctAnswer": "They live independently in natural environments",
+          "wrongAnswer1": "They rely on humans for food and shelter",
+          "wrongAnswer2": "They are usually kept as pets",
+          "wrongAnswer3": "They live only in water bodies",
+          "explanation": "Wild animals live independently in nature and are not domesticated or dependent on humans for survival.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these animals is considered a wild animal?",
+          "correctAnswer": "Tiger, because it lives freely in the wild",
+          "wrongAnswer1": "Dog, because it lives with humans as a pet",
+          "wrongAnswer2": "Cow, because it is raised for farming",
+          "wrongAnswer3": "Parrot, because it is often kept as a pet",
+          "explanation": "Tigers are wild animals living naturally in forest habitats, unlike dogs, cows, or parrots which are typically domesticated.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Endangered Species",
+      "questions": [
+        {
+          "question": "What is the primary reason some species become endangered?",
+          "correctAnswer": "Loss of their natural habitat",
+          "wrongAnswer1": "Having too many offspring",
+          "wrongAnswer2": "Widespread population across multiple continents",
+          "wrongAnswer3": "Living in protected reserves",
+          "explanation": "Species often become endangered primarily because their natural habitats are destroyed or altered, reducing their living space and resources needed for survival.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a consequence of a species becoming endangered?",
+          "correctAnswer": "Reduced biodiversity in ecosystems",
+          "wrongAnswer1": "Increase in food supplies for predators",
+          "wrongAnswer2": "Greater population stability",
+          "wrongAnswer3": "Expansion of their natural range",
+          "explanation": "Endangered species contribute to reduced biodiversity, which can disrupt ecosystem balance and function.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a common method used to protect endangered species?",
+          "correctAnswer": "Establishing wildlife reserves and protected areas",
+          "wrongAnswer1": "Introducing predators to control their population",
+          "wrongAnswer2": "Increasing urban development around their habitats",
+          "wrongAnswer3": "Hunting them to reduce numbers",
+          "explanation": "Protected areas and wildlife reserves help preserve habitats and provide a safe environment for endangered species to recover.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Animal Habitats",
+      "questions": [
+        {
+          "question": "What type of habitat do polar bears primarily live in?",
+          "correctAnswer": "Arctic ice and tundra regions",
+          "wrongAnswer1": "Tropical rainforests",
+          "wrongAnswer2": "Desert dunes",
+          "wrongAnswer3": "Freshwater lakes",
+          "explanation": "Polar bears are adapted to live in cold Arctic environments, mainly on sea ice and tundra areas where they hunt seals.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which habitat is characterized by dense trees and a high amount of rainfall supporting diverse animal species?",
+          "correctAnswer": "Rainforest",
+          "wrongAnswer1": "Savanna",
+          "wrongAnswer2": "Grassland",
+          "wrongAnswer3": "Desert",
+          "explanation": "Rainforests have dense vegetation and receive high rainfall which creates a perfect environment for many different animal species.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why are wetlands important habitats for animals?",
+          "correctAnswer": "They provide water, food, and shelter for a variety of aquatic and terrestrial species",
+          "wrongAnswer1": "They offer dry ground for desert animals to survive",
+          "wrongAnswer2": "They are areas with permanent ice and snow",
+          "wrongAnswer3": "They are hot and sandy regions with sparse vegetation",
+          "explanation": "Wetlands are crucial because they offer resources such as water and nutrients that support a wide range of animals including birds, fish, and amphibians.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Animal Adaptations",
+      "questions": [
+        {
+          "question": "What is the main purpose of animal adaptations?",
+          "correctAnswer": "To help animals survive in their environment",
+          "wrongAnswer1": "To make animals look beautiful",
+          "wrongAnswer2": "To help animals learn new skills",
+          "wrongAnswer3": "To increase animal size",
+          "explanation": "Animal adaptations are traits that help animals survive and reproduce in their specific environments.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of a behavioral adaptation?",
+          "correctAnswer": "Migrating to warmer areas during winter",
+          "wrongAnswer1": "Having sharp teeth for hunting",
+          "wrongAnswer2": "Camouflaged fur to blend into surroundings",
+          "wrongAnswer3": "Thick fur to stay warm in cold climates",
+          "explanation": "Behavioral adaptations involve actions animals take to survive, such as migration, whereas sharp teeth and fur characteristics are physical adaptations.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do physical adaptations differ from behavioral adaptations?",
+          "correctAnswer": "Physical adaptations are body features that help survival, behavioral adaptations are actions animals perform",
+          "wrongAnswer1": "Physical adaptations are learned behaviors, behavioral adaptations are inherited",
+          "wrongAnswer2": "Physical adaptations change daily, behavioral adaptations do not",
+          "wrongAnswer3": "Physical adaptations help in finding mates, behavioral adaptations do not",
+          "explanation": "Physical adaptations involve changes in an animal's body, while behavioral adaptations involve changes in how an animal acts.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Migration Patterns",
+      "questions": [
+        {
+          "question": "What is the main reason animals migrate?",
+          "correctAnswer": "To find more favorable living conditions",
+          "wrongAnswer1": "To avoid predators permanently",
+          "wrongAnswer2": "To establish permanent residence",
+          "wrongAnswer3": "To find new mates every day",
+          "explanation": "Animals primarily migrate to find better living conditions such as suitable climate, food availability, or breeding grounds.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which factor commonly influences the timing of animal migration?",
+          "correctAnswer": "Seasonal changes in temperature",
+          "wrongAnswer1": "Daily changes in weather",
+          "wrongAnswer2": "Random events",
+          "wrongAnswer3": "Presence of humans",
+          "explanation": "Seasonal changes, especially temperature and food availability shifts, commonly trigger animals to migrate at specific times of the year.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do many migratory animals navigate during their journeys?",
+          "correctAnswer": "Using Earth’s magnetic field and stars",
+          "wrongAnswer1": "Following the loudest sounds",
+          "wrongAnswer2": "Tracking the smell of water",
+          "wrongAnswer3": "Which animals migrate spontaneously without navigation",
+          "explanation": "Many migratory animals use natural cues like the Earth's magnetic field and celestial navigation to find their way during long migrations.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Nocturnal Animals",
+      "questions": [
+        {
+          "question": "What characteristic is common among most nocturnal animals?",
+          "correctAnswer": "They are active primarily at night",
+          "wrongAnswer1": "They can only live in water",
+          "wrongAnswer2": "They only eat plants during daytime",
+          "wrongAnswer3": "They hibernate in the summer",
+          "explanation": "Nocturnal animals are those that are active primarily during the night rather than the day.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why do many nocturnal animals have enhanced senses?",
+          "correctAnswer": "To help them navigate and find food in the dark",
+          "wrongAnswer1": "Because they are less intelligent during the day",
+          "wrongAnswer2": "To protect themselves from sunlight",
+          "wrongAnswer3": "Because they are only active in the winter",
+          "explanation": "Nocturnal animals often have enhanced senses such as better night vision or hearing to help them survive and be active in the dark.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following animals is considered nocturnal?",
+          "correctAnswer": "Owl",
+          "wrongAnswer1": "Eagle",
+          "wrongAnswer2": "Parrot",
+          "wrongAnswer3": "Sparrow",
+          "explanation": "Owls are well-known nocturnal animals as they hunt and are most active during the night.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Aquatic Animals",
+      "questions": [
+        {
+          "question": "Which of the following is an example of an aquatic animal?",
+          "correctAnswer": "Dolphin",
+          "wrongAnswer1": "Elephant",
+          "wrongAnswer2": "Lion",
+          "wrongAnswer3": "Eagle",
+          "explanation": "Dolphins live in the water, making them aquatic animals, while elephants, lions, and eagles live on land.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What characteristic is common among most aquatic animals?",
+          "correctAnswer": "They live in water",
+          "wrongAnswer1": "They can fly",
+          "wrongAnswer2": "They live in trees",
+          "wrongAnswer3": "They live underground",
+          "explanation": "Aquatic animals typically live in water environments such as oceans, rivers, and lakes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which environment would you most likely find aquatic animals?",
+          "correctAnswer": "Ocean",
+          "wrongAnswer1": "Desert",
+          "wrongAnswer2": "Forest",
+          "wrongAnswer3": "Mountains",
+          "explanation": "Aquatic animals live in water environments like oceans, not in dry land environments such as deserts, forests, or mountains.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Terrestrial Animals",
+      "questions": [
+        {
+          "question": "What is a defining characteristic of terrestrial animals?",
+          "correctAnswer": "They live primarily on land rather than in water.",
+          "wrongAnswer1": "They spend most of their life underwater.",
+          "wrongAnswer2": "They exclusively live in trees and bushes.",
+          "wrongAnswer3": "They can only survive in desert environments.",
+          "explanation": "Terrestrial animals are animals that live mainly on land as opposed to living in water or air.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these animals is a terrestrial animal?",
+          "correctAnswer": "Elephant",
+          "wrongAnswer1": "Shark",
+          "wrongAnswer2": "Dolphin",
+          "wrongAnswer3": "Jellyfish",
+          "explanation": "Elephants live on land and are therefore terrestrial animals, while the others live in water.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why do some terrestrial animals have specialized feet or limbs?",
+          "correctAnswer": "To help them move efficiently on different types of land surfaces.",
+          "wrongAnswer1": "To help them breathe underwater.",
+          "wrongAnswer2": "To allow them to fly long distances.",
+          "wrongAnswer3": "To enable them to live in colder climates only.",
+          "explanation": "Terrestrial animals often have adaptations such as specialized feet or limbs that help them move effectively on land.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Flying Animals",
+      "questions": [
+        {
+          "question": "Which of these animals is known for flying?",
+          "correctAnswer": "Eagle",
+          "wrongAnswer1": "Elephant",
+          "wrongAnswer2": "Whale",
+          "wrongAnswer3": "Snake",
+          "explanation": "Eagles are birds and are known for their ability to fly with great skill and power.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What adaptation helps bats to fly efficiently?",
+          "correctAnswer": "Wing membrane stretched between fingers",
+          "wrongAnswer1": "Feathers covering their bodies",
+          "wrongAnswer2": "Scales on their wings",
+          "wrongAnswer3": "Gills for breathing in water",
+          "explanation": "Bats have a wing structure formed by a membrane stretched between elongated fingers, allowing efficient flight.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Among these, which animal is capable of sustained flight?",
+          "correctAnswer": "Albatross",
+          "wrongAnswer1": "Flying fish",
+          "wrongAnswer2": "Squirrel glider",
+          "wrongAnswer3": "Flying lemur",
+          "explanation": "Albatrosses are seabirds capable of sustained long-distance flight, unlike flying fish or gliding mammals that cannot maintain powered flight.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Animal Communication",
+      "questions": [
+        {
+          "question": "What is one primary way animals communicate with each other?",
+          "correctAnswer": "Using sounds and vocalizations",
+          "wrongAnswer1": "By writing messages",
+          "wrongAnswer2": "Through electronic devices",
+          "wrongAnswer3": "By changing their eye color",
+          "explanation": "Many animals use sounds and vocalizations as a primary method to communicate information such as warnings, mating calls, or social bonding.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of non-verbal communication in animals?",
+          "correctAnswer": "Using body language such as posture and gestures",
+          "wrongAnswer1": "Typing on a keyboard",
+          "wrongAnswer2": "Sending emails",
+          "wrongAnswer3": "Reading books",
+          "explanation": "Animals often use body language like posture, gestures, and facial expressions to communicate non-verbally with others of their species.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why do bees perform a waggle dance?",
+          "correctAnswer": "To show other bees the location of food sources",
+          "wrongAnswer1": "To scare away predators",
+          "wrongAnswer2": "To attract mates",
+          "wrongAnswer3": "To indicate when it will rain",
+          "explanation": "Bees perform a waggle dance to communicate the direction and distance of food sources to other members of the hive.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Animal Intelligence",
+      "questions": [
+        {
+          "question": "Which animal is known for using tools to obtain food?",
+          "correctAnswer": "The chimpanzee uses sticks to extract termites from mounds.",
+          "wrongAnswer1": "The lion uses sticks to extract termites from mounds.",
+          "wrongAnswer2": "The eagle uses sticks to extract termites from mounds.",
+          "wrongAnswer3": "The dolphin uses sticks to extract termites from mounds.",
+          "explanation": "Chimpanzees are known for their ability to use tools, such as sticks, to access food like termites, showcasing their problem-solving skills.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What behavior demonstrates intelligence in dolphins?",
+          "correctAnswer": "Dolphins use echolocation to hunt and communicate effectively.",
+          "wrongAnswer1": "Dolphins build nests in trees for shelter.",
+          "wrongAnswer2": "Dolphins change their skin color to attract mates.",
+          "wrongAnswer3": "Dolphins hibernate during winter.",
+          "explanation": "Dolphins use echolocation, a form of biological sonar, to locate prey and interact, showing their sophisticated cognitive abilities.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do elephants show signs of advanced intelligence?",
+          "correctAnswer": "Elephants recognize themselves in mirrors, indicating self-awareness.",
+          "wrongAnswer1": "Elephants fly to migrate during seasons.",
+          "wrongAnswer2": "Elephants communicate only through loud roars without gestures.",
+          "wrongAnswer3": "Elephants build dams like beavers for water control.",
+          "explanation": "Self-recognition in mirrors is a classic test for self-awareness, which elephants pass, indicating high cognitive complexity.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Animal Behavior",
+      "questions": [
+        {
+          "question": "What is the main purpose of migration in animals?",
+          "correctAnswer": "To find better food and breeding areas",
+          "wrongAnswer1": "To escape predators",
+          "wrongAnswer2": "To socialize with other animals",
+          "wrongAnswer3": "To find new shelter",
+          "explanation": "Migration occurs mainly to help animals find better food and breeding locations, especially during different seasons.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which behavior is an example of animals using tools?",
+          "correctAnswer": "A bird using a stick to extract insects from a tree bark",
+          "wrongAnswer1": "A lion stalking its prey silently",
+          "wrongAnswer2": "A dog wagging its tail to show happiness",
+          "wrongAnswer3": "A fish swimming upstream to spawn",
+          "explanation": "Using tools involves manipulating objects in the environment to achieve a goal, such as a bird using a stick to get insects.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What does imprinting refer to in animal behavior?",
+          "correctAnswer": "A rapid learning process occurring at a specific life stage forming strong attachments",
+          "wrongAnswer1": "Gradual adaptation to new environments over years",
+          "wrongAnswer2": "Conscious decision-making based on previous experiences",
+          "wrongAnswer3": "Random movements during foraging activities",
+          "explanation": "Imprinting is a critical period learning process where young animals form attachments, often to their parents, which influences their future behavior.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Animal Tracking",
+      "questions": [
+        {
+          "question": "What is the primary purpose of animal tracking in wildlife studies?",
+          "correctAnswer": "To monitor animal movements and behavior",
+          "wrongAnswer1": "To train animals for human interaction",
+          "wrongAnswer2": "To capture animals for zoos",
+          "wrongAnswer3": "To feed animals in the wild",
+          "explanation": "Animal tracking is mainly used to observe and study the movements and behavior of animals in their natural habitat for conservation and research purposes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which technology is often used to track animals remotely?",
+          "correctAnswer": "Radio telemetry",
+          "wrongAnswer1": "Infrared cameras",
+          "wrongAnswer2": "Ultrasound imaging",
+          "wrongAnswer3": "Microscopes",
+          "explanation": "Radio telemetry involves attaching a small radio transmitter to animals, allowing researchers to track their location remotely via radio signals.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a common method for marking animals to facilitate tracking?",
+          "correctAnswer": "Attaching GPS collars",
+          "wrongAnswer1": "Painting with bright colors",
+          "wrongAnswer2": "Notching animal teeth",
+          "wrongAnswer3": "Using natural markings only",
+          "explanation": "Attaching GPS collars is a widespread method to track the exact location and movement patterns of animals over time.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Pollinators",
+      "questions": [
+        {
+          "question": "What is the primary role of pollinators in the environment?",
+          "correctAnswer": "To transfer pollen from one flower to another and aid in plant reproduction",
+          "wrongAnswer1": "To eat large quantities of plants and control vegetation",
+          "wrongAnswer2": "To produce honey for human consumption",
+          "wrongAnswer3": "To provide shelter for small animals",
+          "explanation": "Pollinators help plants reproduce by transferring pollen, which allows fertilization and seed production.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following animals is a common pollinator?",
+          "correctAnswer": "Bees",
+          "wrongAnswer1": "Lions",
+          "wrongAnswer2": "Sharks",
+          "wrongAnswer3": "Elephants",
+          "explanation": "Bees are one of the most well-known pollinators, helping many plants to reproduce by carrying pollen.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why are pollinators important for agriculture?",
+          "correctAnswer": "Because they help increase crop yields by enabling plants to produce fruit and seeds",
+          "wrongAnswer1": "Because they prevent soil erosion by burrowing",
+          "wrongAnswer2": "Because they control pest populations by hunting insects",
+          "wrongAnswer3": "Because they provide wool and meat products for farming",
+          "explanation": "Pollinators are crucial in agriculture as they enable flowering plants to produce fruits and seeds, thus improving crop production.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Predators",
+      "questions": [
+        {
+          "question": "What does a predator primarily do in its ecosystem?",
+          "correctAnswer": "Hunts and eats other animals for food",
+          "wrongAnswer1": "Produces its own food through photosynthesis",
+          "wrongAnswer2": "Feeds only on plants",
+          "wrongAnswer3": "Lives exclusively in water",
+          "explanation": "Predators are animals that hunt and consume other animals as their primary source of food.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is an example of a predator?",
+          "correctAnswer": "Lion",
+          "wrongAnswer1": "Cow",
+          "wrongAnswer2": "Sheep",
+          "wrongAnswer3": "Deer",
+          "explanation": "Lions are predators because they hunt other animals for food, unlike cows, sheep, and deer which are herbivores.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Predators use specific adaptations to catch prey. Which adaptation is commonly found in predators?",
+          "correctAnswer": "Sharp teeth and claws",
+          "wrongAnswer1": "Brightly colored feathers to attract mates",
+          "wrongAnswer2": "Large flat teeth for grinding plants",
+          "wrongAnswer3": "Ability to photosynthesize",
+          "explanation": "Sharp teeth and claws help predators catch, hold, and kill their prey efficiently.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Prey",
+      "questions": [
+        {
+          "question": "What is the main characteristic of prey animals?",
+          "correctAnswer": "They are hunted by predators for food",
+          "wrongAnswer1": "They hunt other animals for food",
+          "wrongAnswer2": "They live only in water habitats",
+          "wrongAnswer3": "They are plants that produce oxygen",
+          "explanation": "Prey animals are typically hunted by predators and serve as a food source in the ecosystem.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is most likely an example of prey?",
+          "correctAnswer": "A rabbit in a forest",
+          "wrongAnswer1": "A lion in the savannah",
+          "wrongAnswer2": "An eagle building a nest",
+          "wrongAnswer3": "A shark hunting fish",
+          "explanation": "Rabbits are common prey animals hunted by predators, whereas lions, eagles, and sharks are generally predators or top hunters.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do prey species commonly avoid being caught?",
+          "correctAnswer": "By using camouflage and quick movements",
+          "wrongAnswer1": "By increasing their size rapidly",
+          "wrongAnswer2": "By building complex nests",
+          "wrongAnswer3": "By hibernating for long periods",
+          "explanation": "Prey animals often use camouflage to blend in with their environment and quick movements to escape predators.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Animal Families",
+      "questions": [
+        {
+          "question": "Which family does the lion belong to?",
+          "correctAnswer": "Felidae",
+          "wrongAnswer1": "Canidae",
+          "wrongAnswer2": "Ursidae",
+          "wrongAnswer3": "Cervidae",
+          "explanation": "The lion belongs to the Felidae family, which includes cats. Canidae includes dogs, Ursidae includes bears, and Cervidae includes deer.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "In which animal family would you classify wolves?",
+          "correctAnswer": "Canidae",
+          "wrongAnswer1": "Felidae",
+          "wrongAnswer2": "Bovidae",
+          "wrongAnswer3": "Hominidae",
+          "explanation": "Wolves belong to the Canidae family, which also includes dogs and foxes. Felidae are cats, Bovidae includes cattle and goats, Hominidae includes great apes.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which family does an elephant belong to?",
+          "correctAnswer": "Elephantidae",
+          "wrongAnswer1": "Proboscidea",
+          "wrongAnswer2": "Hippopotamidae",
+          "wrongAnswer3": "Rhinocerotidae",
+          "explanation": "Elephants are classified under the Elephantidae family. Proboscidea is the order that includes Elephantidae, Hippopotamidae is the hippo family, and Rhinocerotidae is the rhino family.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Animal Kingdom",
+      "questions": [
+        {
+          "question": "Which of the following is a characteristic of the Animal Kingdom?",
+          "correctAnswer": "They are multicellular and heterotrophic organisms.",
+          "wrongAnswer1": "They perform photosynthesis to produce food.",
+          "wrongAnswer2": "They have cell walls made of cellulose.",
+          "wrongAnswer3": "They reproduce only asexually.",
+          "explanation": "Animals are multicellular organisms that are heterotrophic, meaning they obtain food by consuming other organisms. They do not perform photosynthesis, have no cell walls, and reproduce sexually or asexually depending on the species.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How is the Animal Kingdom primarily classified?",
+          "correctAnswer": "Based on characteristics such as body structure, symmetry, and development.",
+          "wrongAnswer1": "Based on the color of animals.",
+          "wrongAnswer2": "Based on the size of animals.",
+          "wrongAnswer3": "Based on the habitat of animals only.",
+          "explanation": "Classification in the Animal Kingdom is mainly based on anatomical and developmental characteristics such as body symmetry, presence of tissues, and embryonic development, rather than traits like color or size.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following groups does NOT belong to the Animal Kingdom?",
+          "correctAnswer": "Fungi",
+          "wrongAnswer1": "Mammals",
+          "wrongAnswer2": "Birds",
+          "wrongAnswer3": "Fish",
+          "explanation": "Fungi are a separate kingdom distinct from animals. Mammals, birds, and fish are all part of the Animal Kingdom, whereas fungi have different cellular structures and nutritional methods.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Cold Blooded",
+      "questions": [
+        {
+          "question": "What does it mean when an animal is cold blooded?",
+          "correctAnswer": "Its body temperature changes with the environment.",
+          "wrongAnswer1": "It always maintains a warm body temperature.",
+          "wrongAnswer2": "It lives only in cold places.",
+          "wrongAnswer3": "It needs external heat to digest food.",
+          "explanation": "Cold-blooded animals cannot regulate their body temperature internally, so their body temperature varies with the temperature of their surroundings.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following animals is typically cold blooded?",
+          "correctAnswer": "Snake",
+          "wrongAnswer1": "Dog",
+          "wrongAnswer2": "Elephant",
+          "wrongAnswer3": "Rabbit",
+          "explanation": "Snakes are cold-blooded reptiles that rely on external sources to regulate their body temperature, unlike warm-blooded mammals like dogs, elephants, and rabbits.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why are cold blooded animals often found basking in the sun?",
+          "correctAnswer": "To raise their body temperature.",
+          "wrongAnswer1": "To cool their bodies down.",
+          "wrongAnswer2": "To hide from predators.",
+          "wrongAnswer3": "To find mates.",
+          "explanation": "Cold-blooded animals bask in the sun to absorb heat and increase their body temperature because they cannot generate heat internally.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Warm Blooded",
+      "questions": [
+        {
+          "question": "Which of the following animals is warm blooded?",
+          "correctAnswer": "A bird",
+          "wrongAnswer1": "A crocodile",
+          "wrongAnswer2": "A frog",
+          "wrongAnswer3": "A fish",
+          "explanation": "Birds are warm blooded animals, meaning they can regulate their body temperature internally, unlike reptiles, amphibians, and fish which are cold blooded.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What does it mean for an animal to be warm blooded?",
+          "correctAnswer": "It can maintain a constant body temperature regardless of the environment.",
+          "wrongAnswer1": "It relies solely on the external environment for body temperature.",
+          "wrongAnswer2": "It changes color to absorb more heat.",
+          "wrongAnswer3": "It hibernates during cold seasons.",
+          "explanation": "Warm blooded animals regulate their body temperature internally, keeping it steady even when environmental temperatures change.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which group of animals are all warm blooded?",
+          "correctAnswer": "Mammals",
+          "wrongAnswer1": "Reptiles",
+          "wrongAnswer2": "Amphibians",
+          "wrongAnswer3": "Fish",
+          "explanation": "Mammals are warm blooded animals, while reptiles, amphibians, and fish are cold blooded.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Animal Conservation",
+      "questions": [
+        {
+          "question": "What is the primary goal of animal conservation?",
+          "correctAnswer": "To protect and preserve animal species and their habitats",
+          "wrongAnswer1": "To increase the number of animals in zoos",
+          "wrongAnswer2": "To train animals for entertainment purposes",
+          "wrongAnswer3": "To promote hunting of endangered species",
+          "explanation": "Animal conservation focuses on protecting animals and their natural habitats to ensure their survival and biodiversity.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following is a common threat that animal conservation efforts try to address?",
+          "correctAnswer": "Habitat destruction caused by human activities",
+          "wrongAnswer1": "Abundance of natural food sources",
+          "wrongAnswer2": "Excessive animal reproduction rates",
+          "wrongAnswer3": "Overpopulation of certain species",
+          "explanation": "Habitat destruction due to deforestation, urbanization, and pollution is a major threat that animal conservation aims to mitigate.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "How do protected areas like national parks contribute to animal conservation?",
+          "correctAnswer": "By providing safe habitats where animals are protected from hunting and habitat loss",
+          "wrongAnswer1": "By keeping animals isolated from their natural environment",
+          "wrongAnswer2": "By allowing unrestricted tourism that interacts closely with wildlife",
+          "wrongAnswer3": "By relocating animals to urban areas for protection",
+          "explanation": "Protected areas safeguard ecosystems and wildlife by limiting human interference and preventing habitat destruction.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Animal Extinction",
+      "questions": [
+        {
+          "question": "What is a primary cause of animal extinction?",
+          "correctAnswer": "Habitat destruction due to human activities",
+          "wrongAnswer1": "Animals naturally choosing to disappear",
+          "wrongAnswer2": "Increased rainfall and plant growth",
+          "wrongAnswer3": "Animals evolving to new species frequently",
+          "explanation": "Habitat destruction, often caused by human activities like deforestation and urban development, is one of the main reasons for animal extinction.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following human actions can contribute directly to animal extinction?",
+          "correctAnswer": "Overhunting and poaching",
+          "wrongAnswer1": "Preserving natural habitats",
+          "wrongAnswer2": "Breeding animals in captivity for conservation",
+          "wrongAnswer3": "Creating wildlife reserves",
+          "explanation": "Overhunting and poaching reduce animal populations drastically, which can lead to extinction if not controlled.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why is biodiversity important in preventing animal extinction?",
+          "correctAnswer": "It maintains ecosystem stability and resilience",
+          "wrongAnswer1": "It causes more species to compete and die off",
+          "wrongAnswer2": "It prevents animals from migrating",
+          "wrongAnswer3": "It reduces the genetic variation within species",
+          "explanation": "Biodiversity helps ecosystems remain stable and resilient, supporting varied species survival and reducing the risk of extinction.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Animal Classification",
+      "questions": [
+        {
+          "question": "Which of the following groups includes animals that have a backbone?",
+          "correctAnswer": "Vertebrates",
+          "wrongAnswer1": "Invertebrates",
+          "wrongAnswer2": "Amphibians",
+          "wrongAnswer3": "Mollusks",
+          "explanation": "Vertebrates are animals that have a backbone, while invertebrates lack one. Amphibians and mollusks are examples of specific animal groups, but vertebrates is the broader category indicating the presence of a backbone.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What characteristic is used to classify animals into mammals?",
+          "correctAnswer": "Presence of mammary glands",
+          "wrongAnswer1": "Ability to fly",
+          "wrongAnswer2": "Having scales",
+          "wrongAnswer3": "Laying eggs",
+          "explanation": "Mammals are classified by the presence of mammary glands which produce milk to feed their young. Other options like flying, scales, or laying eggs are characteristics found in other animal groups.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which animal classification is based on the type of body covering an animal has?",
+          "correctAnswer": "Classes such as mammals, birds, reptiles, and fish",
+          "wrongAnswer1": "Phyla such as Arthropoda and Mollusca",
+          "wrongAnswer2": "Species name",
+          "wrongAnswer3": "Genus name",
+          "explanation": "Animal classes such as mammals, birds, reptiles, and fish are partly classified by their body coverings like fur, feathers, or scales, whereas phyla, genus, and species are other levels of classification not solely determined by body covering.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Animal Reproduction",
+      "questions": [
+        {
+          "question": "What is the main difference between sexual and asexual reproduction in animals?",
+          "correctAnswer": "Sexual reproduction involves two parents and genetic mixing, while asexual reproduction involves one parent and produces identical offspring.",
+          "wrongAnswer1": "Sexual reproduction produces clones, while asexual reproduction always produces different offspring.",
+          "wrongAnswer2": "Asexual reproduction involves two parents, while sexual reproduction involves one parent.",
+          "wrongAnswer3": "There is no difference between sexual and asexual reproduction in animals.",
+          "explanation": "Sexual reproduction requires two parents and results in offspring with genetic material from both, increasing variation. Asexual reproduction requires only one parent and produces genetically identical offspring.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following animals commonly reproduce through external fertilization?",
+          "correctAnswer": "Frogs and many fish species reproduce through external fertilization.",
+          "wrongAnswer1": "Lions and wolves reproduce through external fertilization.",
+          "wrongAnswer2": "Elephants and whales reproduce through external fertilization.",
+          "wrongAnswer3": "Birds and insects reproduce through external fertilization.",
+          "explanation": "External fertilization occurs when eggs and sperm are released into the environment outside the body, common in amphibians and many fish species.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "What is a common advantage of viviparous reproduction in animals?",
+          "correctAnswer": "The developing embryo is protected and nourished inside the mother's body, increasing survival chances.",
+          "wrongAnswer1": "Eggs are laid in large numbers to increase survival chances.",
+          "wrongAnswer2": "Offspring develop outside the body without parental care.",
+          "wrongAnswer3": "Reproduction happens only once in a lifetime, conserving energy.",
+          "explanation": "Viviparous animals give birth to live young that develop inside the mother, which helps protect and nourish them before birth.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Animal Lifespan",
+      "questions": [
+        {
+          "question": "Which animal is known to have one of the longest lifespans?",
+          "correctAnswer": "Galapagos tortoise",
+          "wrongAnswer1": "House mouse",
+          "wrongAnswer2": "Golden retriever",
+          "wrongAnswer3": "Common pigeon",
+          "explanation": "The Galapagos tortoise is known to live over 100 years, making it one of the animals with the longest lifespans.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What factor most influences the lifespan of mammals?",
+          "correctAnswer": "Metabolic rate and body size",
+          "wrongAnswer1": "Color of fur",
+          "wrongAnswer2": "Diet only",
+          "wrongAnswer3": "Geographical location exclusively",
+          "explanation": "Metabolic rate and body size are key factors that influence how long mammals tend to live, with larger animals often living longer.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why do some animals like the mayfly have extremely short lifespans?",
+          "correctAnswer": "They primarily focus on reproduction and have limited adult physiology",
+          "wrongAnswer1": "Due to lack of food sources",
+          "wrongAnswer2": "They are preyed upon heavily",
+          "wrongAnswer3": "They live in harsh climates only",
+          "explanation": "Mayflies have short lifespans because their adult stage is focused on reproduction and they lack feeding structures, limiting their survival time.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Animal Physiology",
+      "questions": [
+        {
+          "question": "What is the primary function of red blood cells in animals?",
+          "correctAnswer": "To transport oxygen throughout the body",
+          "wrongAnswer1": "To fight infections",
+          "wrongAnswer2": "To regulate body temperature",
+          "wrongAnswer3": "To produce hormones",
+          "explanation": "Red blood cells contain hemoglobin, which binds to oxygen and carries it from the lungs to tissues throughout the body.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which organ system in animals is responsible for removing waste products from the blood?",
+          "correctAnswer": "The excretory system",
+          "wrongAnswer1": "The respiratory system",
+          "wrongAnswer2": "The circulatory system",
+          "wrongAnswer3": "The digestive system",
+          "explanation": "The excretory system includes organs like the kidneys, which filter blood to remove waste products and maintain fluid balance.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do endothermic animals primarily regulate their body temperature?",
+          "correctAnswer": "By generating heat through metabolic processes",
+          "wrongAnswer1": "By changing their skin color",
+          "wrongAnswer2": "By moving to different environments",
+          "wrongAnswer3": "By absorbing heat from the sun",
+          "explanation": "Endothermic animals maintain body temperature internally by producing heat through metabolism, unlike ectotherms which rely on external sources.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Animal Diet",
+      "questions": [
+        {
+          "question": "What type of diet do herbivores primarily follow?",
+          "correctAnswer": "Eating mostly plants such as leaves and grass",
+          "wrongAnswer1": "Consuming mainly other animals for energy",
+          "wrongAnswer2": "Eating both plants and animals equally",
+          "wrongAnswer3": "Feeding on fungi and decomposed matter",
+          "explanation": "Herbivores are animals that mainly eat plants, including leaves, grass, and other vegetation.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following best describes a carnivore's diet?",
+          "correctAnswer": "Eating primarily meat from other animals",
+          "wrongAnswer1": "Eating mostly fruits and vegetables",
+          "wrongAnswer2": "Eating plants and small insects",
+          "wrongAnswer3": "Consuming decayed organic material",
+          "explanation": "Carnivores feed on the flesh of other animals, making meat their main source of nutrition.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Omnivores have a diet that includes:",
+          "correctAnswer": "Both plant-based foods and animal-based foods",
+          "wrongAnswer1": "Only plant-based foods like fruits and vegetables",
+          "wrongAnswer2": "Only animal-based foods such as meat",
+          "wrongAnswer3": "Only fungi and decomposed organic matter",
+          "explanation": "Omnivores eat a mixed diet including both plants and animals, allowing them a wider range of food sources.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Animal Shelter",
+      "questions": [
+        {
+          "question": "What is the primary purpose of an animal shelter?",
+          "correctAnswer": "To provide temporary care and find homes for lost or abandoned animals",
+          "wrongAnswer1": "To train animals for entertainment shows",
+          "wrongAnswer2": "To serve as a permanent home for all animals",
+          "wrongAnswer3": "To sell animals to pet stores",
+          "explanation": "Animal shelters provide temporary care and seek to find permanent homes for animals that are lost, abandoned, or surrendered.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following services is commonly offered by animal shelters?",
+          "correctAnswer": "Adoption of pets to new owners",
+          "wrongAnswer1": "Veterinary surgeries unrelated to shelter animals",
+          "wrongAnswer2": "Training animals for circus performances",
+          "wrongAnswer3": "Selling wild animals as pets",
+          "explanation": "Animal shelters commonly offer adoption services to help animals find new homes, and may provide basic care including vaccinations and spaying/neutering.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why do animal shelters often spay or neuter animals before adoption?",
+          "correctAnswer": "To control the animal population and reduce stray animals",
+          "wrongAnswer1": "To make animals more aggressive",
+          "wrongAnswer2": "To increase the animal's lifespan artificially",
+          "wrongAnswer3": "To change the animal's species",
+          "explanation": "Spaying or neutering helps prevent overpopulation and reduces the number of stray or unwanted animals in the community.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Animal Migration",
+      "questions": [
+        {
+          "question": "What is animal migration?",
+          "correctAnswer": "The regular movement of animals from one place to another",
+          "wrongAnswer1": "The process where animals change their color",
+          "wrongAnswer2": "Animals staying in one place all year",
+          "wrongAnswer3": "Animals growing new body parts",
+          "explanation": "Animal migration refers to the regular movement of animals, often seasonally, from one habitat to another for reasons such as breeding, food, or climate.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following animals is well known for its long-distance migration?",
+          "correctAnswer": "Monarch butterfly",
+          "wrongAnswer1": "Giraffe",
+          "wrongAnswer2": "Elephant",
+          "wrongAnswer3": "Lion",
+          "explanation": "Monarch butterflies are famous for their long-distance migration, traveling thousands of miles from North America to central Mexico.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why do many animals migrate?",
+          "correctAnswer": "To find food, suitable climate, or breeding grounds",
+          "wrongAnswer1": "To avoid predators only",
+          "wrongAnswer2": "To change their body color",
+          "wrongAnswer3": "To build nests",
+          "explanation": "Many animals migrate mainly to find food, better climate conditions, or suitable areas for breeding and raising their young.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Animal Senses",
+      "questions": [
+        {
+          "question": "Which sense is most developed in dogs compared to humans?",
+          "correctAnswer": "Sense of smell",
+          "wrongAnswer1": "Sense of sight",
+          "wrongAnswer2": "Sense of taste",
+          "wrongAnswer3": "Sense of hearing",
+          "explanation": "Dogs have a highly developed sense of smell, far superior to humans, which they use for tracking and detecting scents.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What sense do bats primarily use to navigate and find food in the dark?",
+          "correctAnswer": "Echolocation",
+          "wrongAnswer1": "Sense of touch",
+          "wrongAnswer2": "Sense of sight",
+          "wrongAnswer3": "Sense of smell",
+          "explanation": "Bats use echolocation by emitting sounds and listening for echoes to navigate and locate prey in the dark.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "How do sharks mainly detect the electrical fields produced by other animals?",
+          "correctAnswer": "Through the ampullae of Lorenzini",
+          "wrongAnswer1": "Using their lateral line system",
+          "wrongAnswer2": "By their keen eyesight",
+          "wrongAnswer3": "By their sense of smell",
+          "explanation": "Sharks have specialized organs called ampullae of Lorenzini that detect electrical fields generated by other living creatures.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Endangered Mammals",
+      "questions": [
+        {
+          "question": "Which of the following mammals is considered endangered due to habitat loss and poaching?",
+          "correctAnswer": "Amur leopard",
+          "wrongAnswer1": "House mouse",
+          "wrongAnswer2": "Eastern gray squirrel",
+          "wrongAnswer3": "Peregrine falcon",
+          "explanation": "The Amur leopard is endangered primarily due to habitat loss and poaching, unlike common species like the house mouse or eastern gray squirrel which are not endangered. The peregrine falcon is a bird, not a mammal.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What is a major cause of the decline in populations of endangered mammals such as the Sumatran tiger?",
+          "correctAnswer": "Loss of forest habitat",
+          "wrongAnswer1": "Excessive water pollution",
+          "wrongAnswer2": "Spread of avian diseases",
+          "wrongAnswer3": "Overfishing in nearby rivers",
+          "explanation": "Endangered mammals like the Sumatran tiger are mainly affected by habitat loss due to deforestation, rather than water pollution, avian diseases, or overfishing, which affect other species or ecosystems.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Why are conservation efforts important for mammals like the Black-footed ferret?",
+          "correctAnswer": "They help prevent extinction and maintain ecosystem balance",
+          "wrongAnswer1": "They make these animals suitable as household pets",
+          "wrongAnswer2": "They exclusively increase tourism revenue",
+          "wrongAnswer3": "They allow genetic modification to create new species",
+          "explanation": "Conservation efforts are crucial to prevent extinction and maintain ecological balance. They are not about pet suitability, tourism alone, or creating new species by genetic modification.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Coral Reef",
+      "questions": [
+        {
+          "question": "What is a coral reef primarily made of?",
+          "correctAnswer": "Calcium carbonate secreted by coral polyps",
+          "wrongAnswer1": "Sand and rock deposits",
+          "wrongAnswer2": "Seaweed and algae",
+          "wrongAnswer3": "Small fish and crustaceans",
+          "explanation": "Coral reefs are primarily composed of calcium carbonate structures secreted by coral polyps, which provide a habitat for many marine species.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following animals is commonly found in coral reef ecosystems?",
+          "correctAnswer": "Clownfish",
+          "wrongAnswer1": "Polar bear",
+          "wrongAnswer2": "Elephant",
+          "wrongAnswer3": "Kangaroo",
+          "explanation": "Clownfish live among anemones in coral reefs, relying on this ecosystem for shelter and food.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Why are coral reefs important to marine biodiversity?",
+          "correctAnswer": "They provide habitat and shelter for a diverse range of marine species",
+          "wrongAnswer1": "They increase water temperature globally",
+          "wrongAnswer2": "They reduce oxygen levels in the ocean",
+          "wrongAnswer3": "They cause erosion on shorelines",
+          "explanation": "Coral reefs support a rich diversity of marine life by offering habitat, breeding grounds, and protection to many species.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Savannah Animals",
+      "questions": [
+        {
+          "question": "Which one of these animals is commonly found in the savannah?",
+          "correctAnswer": "Lion",
+          "wrongAnswer1": "Polar bear",
+          "wrongAnswer2": "Penguin",
+          "wrongAnswer3": "Panda",
+          "explanation": "Lions are commonly found in the savannahs of Africa, whereas polar bears live in the Arctic, penguins in cold southern regions, and pandas in forests in China.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What adaptation helps giraffes survive in the savannah?",
+          "correctAnswer": "Long necks to reach high leaves",
+          "wrongAnswer1": "Thick fur to stay warm",
+          "wrongAnswer2": "Webbed feet to swim",
+          "wrongAnswer3": "Ability to fly short distances",
+          "explanation": "Giraffes have long necks that allow them to reach leaves high up in trees, an adaptation important for survival in the savannah. Thick fur, webbed feet, and flying are not relevant adaptations for giraffes.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which of the following is a key food source for many savannah herbivores?",
+          "correctAnswer": "Grass",
+          "wrongAnswer1": "Fish",
+          "wrongAnswer2": "Tree bark",
+          "wrongAnswer3": "Insects",
+          "explanation": "Grass is the main food source for most herbivores in the savannah like zebras and wildebeests. Fish and insects are not primary diet components for these animals, and tree bark is generally not consumed in large amounts by savannah herbivores.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Forest Animals",
+      "questions": [
+        {
+          "question": "Which of the following animals is commonly found in forest habitats?",
+          "correctAnswer": "Deer",
+          "wrongAnswer1": "Dolphin",
+          "wrongAnswer2": "Camel",
+          "wrongAnswer3": "Penguin",
+          "explanation": "Deer are commonly found in forest habitats where they feed on vegetation and live in wooded areas.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What adaptation helps many forest animals survive in dense woodland areas?",
+          "correctAnswer": "Camouflage to blend with trees and leaves",
+          "wrongAnswer1": "Bright colors to attract mates",
+          "wrongAnswer2": "Ability to swim long distances",
+          "wrongAnswer3": "Camels storing water in humps",
+          "explanation": "Many forest animals use camouflage to blend in with their environment, helping them avoid predators and hunt prey.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which forest animal is known for its ability to climb trees with great agility?",
+          "correctAnswer": "Squirrel",
+          "wrongAnswer1": "Elephant",
+          "wrongAnswer2": "Tiger",
+          "wrongAnswer3": "Penguin",
+          "explanation": "Squirrels are highly agile climbers that live in forests and use trees for shelter and food storage.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Desert Animals",
+      "questions": [
+        {
+          "question": "Which animal is well adapted to survive in desert conditions?",
+          "correctAnswer": "Camel",
+          "wrongAnswer1": "Penguin",
+          "wrongAnswer2": "Dolphin",
+          "wrongAnswer3": "Elephant",
+          "explanation": "Camels are adapted to survive in desert environments with features like water storage and heat tolerance.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What adaptation helps desert animals conserve water?",
+          "correctAnswer": "Being active mainly at night",
+          "wrongAnswer1": "Drinking plenty of water during the day",
+          "wrongAnswer2": "Having a thick layer of fur",
+          "wrongAnswer3": "Living in large groups",
+          "explanation": "Many desert animals are nocturnal to avoid the heat and reduce water loss during the hot daytime.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which desert animal is known for its ability to change color to blend with the desert environment?",
+          "correctAnswer": "Horned lizard",
+          "wrongAnswer1": "Fennec fox",
+          "wrongAnswer2": "Gila monster",
+          "wrongAnswer3": "Meerkat",
+          "explanation": "Horned lizards can change their skin color to match their surroundings for camouflage in deserts.",
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Arctic Animals",
+      "questions": [
+        {
+          "question": "Which animal is known for its thick white fur and lives in the Arctic?",
+          "correctAnswer": "Polar bear",
+          "wrongAnswer1": "Lion",
+          "wrongAnswer2": "Elephant",
+          "wrongAnswer3": "Kangaroo",
+          "explanation": "Polar bears have thick white fur that helps them blend into the snowy Arctic environment and keep warm.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What special adaptation helps the Arctic fox survive in cold temperatures?",
+          "correctAnswer": "Its fur changes color with the seasons",
+          "wrongAnswer1": "It hibernates all winter",
+          "wrongAnswer2": "It has webbed feet for swimming",
+          "wrongAnswer3": "It has large ears to dissipate heat",
+          "explanation": "The Arctic fox's fur changes from brown or gray in summer to white in winter, providing camouflage and insulation in the Arctic.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which Arctic animal is known for long migrations and thick blubber for insulation?",
+          "correctAnswer": "Caribou",
+          "wrongAnswer1": "Penguin",
+          "wrongAnswer2": "Grizzly bear",
+          "wrongAnswer3": "Sea otter",
+          "explanation": "Caribou migrate long distances and have thick blubber and fur to survive the extreme cold of the Arctic region.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Jungle Animals",
+      "questions": [
+        {
+          "question": "Which of the following animals is commonly found in the jungle?",
+          "correctAnswer": "Tiger",
+          "wrongAnswer1": "Polar bear",
+          "wrongAnswer2": "Camel",
+          "wrongAnswer3": "Penguin",
+          "explanation": "The tiger is a well-known jungle animal, typically found in dense forests and jungles. Polar bears live in the Arctic, camels in deserts, and penguins in cold coastal regions.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What characteristic helps jungle animals like monkeys survive in their environment?",
+          "correctAnswer": "Ability to climb trees",
+          "wrongAnswer1": "Ability to swim long distances",
+          "wrongAnswer2": "Ability to burrow underground",
+          "wrongAnswer3": "Ability to fly long distances",
+          "explanation": "Many jungle animals such as monkeys have strong climbing abilities which help them move through the forest canopy to find food and avoid predators.",
+          "difficulty": "Intermediate"
+        },
+        {
+          "question": "Which adaptation is most important for camouflage of jungle animals?",
+          "correctAnswer": "Green or brown coloring to blend with leaves and trees",
+          "wrongAnswer1": "Bright colors to scare away predators",
+          "wrongAnswer2": "Heavy fur to protect from cold",
+          "wrongAnswer3": "Large eyes to see in the dark",
+          "explanation": "Many jungle animals have green or brown coloring which helps them blend into the leafy environment, making it harder for predators to spot them.",
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Farm Animals",
+      "questions": [
+        {
+          "question": "Which animal is commonly raised on farms for its milk production?",
+          "correctAnswer": "Cow",
+          "wrongAnswer1": "Chicken",
+          "wrongAnswer2": "Pig",
+          "wrongAnswer3": "Horse",
+          "explanation": "Cows are commonly raised on farms primarily for milk production, while chickens are raised for eggs and meat, pigs for meat, and horses for work or riding.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What farm animal is known for producing wool?",
+          "correctAnswer": "Sheep",
+          "wrongAnswer1": "Cow",
+          "wrongAnswer2": "Pig",
+          "wrongAnswer3": "Goose",
+          "explanation": "Sheep are raised on farms for their wool, which is sheared and used in textiles. Cows produce milk, pigs are raised for meat, and geese are not typically farmed for wool.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of the following farm animals is primarily raised for its eggs?",
+          "correctAnswer": "Chicken",
+          "wrongAnswer1": "Pig",
+          "wrongAnswer2": "Cow",
+          "wrongAnswer3": "Sheep",
+          "explanation": "Chickens are primarily raised for egg production on farms. Pigs are raised for meat, cows for milk, and sheep for wool or meat.",
+          "difficulty": "Basic"
+        }
+      ]
+    },
+    {
+      "topic": "Animals",
+      "concept": "Zoo Animals",
+      "questions": [
+        {
+          "question": "Which animal is commonly found in zoos and is known for its black and white stripes?",
+          "correctAnswer": "Zebra",
+          "wrongAnswer1": "Giraffe",
+          "wrongAnswer2": "Elephant",
+          "wrongAnswer3": "Flamingo",
+          "explanation": "Zebras are known for their distinctive black and white stripes and are commonly found in zoos.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "What zoo animal is famous for its large trunk and tusks?",
+          "correctAnswer": "Elephant",
+          "wrongAnswer1": "Lion",
+          "wrongAnswer2": "Penguin",
+          "wrongAnswer3": "Kangaroo",
+          "explanation": "Elephants are known for their large trunks and tusks, distinguishing them among zoo animals.",
+          "difficulty": "Basic"
+        },
+        {
+          "question": "Which of these zoo animals is a big cat known for its mane?",
+          "correctAnswer": "Lion",
+          "wrongAnswer1": "Tiger",
+          "wrongAnswer2": "Leopard",
+          "wrongAnswer3": "Cheetah",
+          "explanation": "The lion is a big cat recognized by its maned appearance, often called the king of the jungle.",
+          "difficulty": "Basic"
+        }
+      ]
+    }
+  ]
+}

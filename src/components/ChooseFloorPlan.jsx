@@ -95,7 +95,7 @@ export default function ChooseFloorPlan() {
 
               return (
                 <div
-                  key={fp.name}
+                  key={fp.id}
                   className={`flex items-center gap-2 rounded-md p-2 cursor-pointer transition-all
                     ${index === selectedIndex ? "bg-gray-700" : "hover:bg-gray-700"}
                     ${!canSelect ? "opacity-50 cursor-not-allowed" : ""}

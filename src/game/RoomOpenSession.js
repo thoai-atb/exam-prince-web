@@ -16,7 +16,6 @@ export default class RoomOpenSession {
 
   addFloorPlan(floorPlan) {
     this.floorPlans.push(floorPlan);
-    console.log("PLANS: ", this.floorPlans);
   }
 
   setSelectedFloorPlan(floorPlan) {
