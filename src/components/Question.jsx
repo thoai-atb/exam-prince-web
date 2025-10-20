@@ -71,11 +71,11 @@ export default function Question({
 
   return (
     <div className="mt-4 w-full bg-gray-900 p-4 rounded-md space-y-3 transition-none">
-      <h3 className="text-md font-semibold">{question.concept}</h3>
-      <p className="text-sm">{question.question}</p>
+      <h3 className="text-md font-bold">{question.concept}</h3>
+      <p className="text-base">{question.question}</p>
 
       {/* Answers */}
-      <div className="flex flex-col gap-2 mt-2 text-xs">
+      <div className="flex flex-col gap-2 mt-2 text-sm">
         {question.answers.map((answer, idx) => {
           let displayAnswer = answer;
 

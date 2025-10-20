@@ -3,7 +3,7 @@ import KeyboardButton from "./KeyBoardButton";
 
 export default function ExamEntrance({ onExit }) {
   return (
-    <div className="mt-4 flex flex-col text-start gap-4 text-sm text-gray-300 bg-gray-900 w-full p-6 rounded-md">
+    <div className="mt-4 flex flex-col text-start gap-4 text-base text-gray-300 bg-gray-900 w-full p-6 rounded-md">
       <p className="font-semibold text-white mb-1 text-center">🏛️ Exam Entrance</p>
 
       <p>You will walk through rooms, take questions and submit test.</p>

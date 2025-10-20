@@ -105,9 +105,9 @@ export default class HouseGenerator {
           fp.cost = 1;
       }
 
-      // 3-way: 50% chance cost 1 pencil
+      // 3-way: 75% chance cost 1 pencil
       if (doorCount === 3) {
-        if (Math.random() < 0.5)
+        if (Math.random() < 0.75)
           fp.cost = 1;
         else
           fp.cost = 0;
@@ -193,6 +193,7 @@ export default class HouseGenerator {
       if (skip) continue;
 
       let isValid = false;
+      let rotateDirection = Math.random() < 0.5;
 
       for (let i = 0; i < 4; i++) { // try 0°, 90°, 180°, 270°
         const hasConnection = Object.keys(mustConnect).some(
@@ -210,7 +211,7 @@ export default class HouseGenerator {
           break;
         }
 
-        fp.rotate(); // 🔁 mutate directly
+        fp.rotate(rotateDirection); // 🔁 mutate directly
       }
 
       if (isValid) validPool.push(fp);

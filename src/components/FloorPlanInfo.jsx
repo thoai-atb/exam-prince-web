@@ -17,7 +17,7 @@ export default function FloorPlanInfo({ floorPlan }) {
         fontSize="1rem"
       />
 
-      <div className="flex flex-col justify-center gap-2 text-sm text-left w-64">
+      <div className="flex flex-col justify-center gap-2 text-sm text-left w-96">
         <InfoField label="Floor plan ID" value={floorPlan.id} />
         <InfoField label="Room" value={floorPlan.name} />
         <InfoField

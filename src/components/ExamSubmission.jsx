@@ -16,13 +16,13 @@ export default function ExamSubmission({ submitable, onSubmit }) {
   }, [submitable, onSubmit]);
 
   return (
-    <div className="mt-4 flex flex-col text-start gap-4 text-sm text-gray-300 bg-gray-900 w-full p-6 rounded-md">
+    <div className="mt-4 flex flex-col text-start gap-4 text-base text-gray-300 bg-gray-900 w-full p-6 rounded-md">
       <p className="font-semibold text-white mb-2 text-center">🏛️ Exam Submission</p>
 
       <p>This is where you submit your exam papers.</p>
 
       <p className="mt-2">
-        You are REQUIRED to have an <b>answer sheet</b>.
+        You are REQUIRED to have an <b>answer sheet</b> to write your answers.
       </p>
 
       <p className="mt-2">

@@ -73,11 +73,13 @@ export default function QuestionPanel() {
     houseManagerRef.current.useFloorPlan();
   };
 
-  if (!selectedFloorPlan) return <div style={{ width: "32rem" }} className="opacity-0" />;
+  const width = "40rem";
+
+  if (!selectedFloorPlan) return <div style={{ width }} className="opacity-0" />;
 
   return (
     <div
-      style={{ width: "32rem" }}
+      style={{ width }}
       className="flex flex-col items-center justify-center bg-gray-800 text-white min-w-30 shadow-md p-6 rounded-md space-y-4"
     >
       <FloorPlanInfo floorPlan={selectedFloorPlan} />

@@ -77,7 +77,7 @@ export default function ChooseFloorPlan() {
       className="bg-gray-800 text-white shadow-md overflow-hidden ease-out mb-8"
       style={{
         transition: "all 0.3s ease-out",
-        width: isVisible ? "28rem" : "0.5rem",
+        width: isVisible ? "32rem" : "0.5rem",
         padding: isVisible ? "1rem" : "0.25rem",
         opacity: isVisible ? 1 : 0,
       }}
