@@ -52,7 +52,7 @@ export default function HouseContainer({ topic, onExit }) {
     <HouseManagerContext.Provider value={managerRef}>
       {/* Main Game */}
       {!showResult && (
-        <main className="flex flex-row gap-4">
+        <main className="flex flex-row gap-2">
           {/* Left Panel – Items */}
           <div className="flex">
             <ItemPanel />

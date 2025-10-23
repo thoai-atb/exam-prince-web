@@ -52,7 +52,7 @@ export default function House() {
   const { rooms } = state;
 
   return (
-    <div className="grid grid-cols-5 gap-1">
+    <div className="grid grid-cols-5 gap-0.5 min-w-fit">
       {rooms.map((row, r) =>
         row.map((room, c) => (
           <Room

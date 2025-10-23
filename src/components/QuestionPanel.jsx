@@ -5,6 +5,7 @@ import { useHouseManager } from "../pages/HouseContainer";
 import ExamEntrance from "./ExamEntrance";
 import ExamSubmission from "./ExamSubmission";
 import ExamLibrary from "./ExamLibrary";
+import KeyboardButton from "./KeyBoardButton";
 
 export default function QuestionPanel() {
   const [selectedFloorPlan, setSelectedFloorPlan] = useState(null);
@@ -80,7 +81,7 @@ export default function QuestionPanel() {
   return (
     <div
       style={{ width }}
-      className="flex flex-col items-center justify-center bg-gray-800 text-white min-w-30 shadow-md p-6 rounded-md space-y-4"
+      className="relative flex flex-col items-center justify-center bg-gray-800 text-white min-w-30 shadow-md p-6 rounded-md space-y-3"
     >
       <FloorPlanInfo floorPlan={selectedFloorPlan} />
 
@@ -105,8 +106,19 @@ export default function QuestionPanel() {
         />
       )}
       {selectedFloorPlan.special === "library" && (
-        <ExamLibrary 
+        <ExamLibrary
         />
+      )}
+
+      {!houseManagerRef.current.isDrafting() && (
+        <p className="flex flex-wrap items-center text-gray-400 gap-1 text-xs">
+          Move with
+          <KeyboardButton>W</KeyboardButton>
+          <KeyboardButton>A</KeyboardButton>
+          <KeyboardButton>S</KeyboardButton>
+          <KeyboardButton>D</KeyboardButton>
+          <span className="ml-1">or 🖱️ mouse click on rooms.</span>
+        </p>
       )}
 
       {cheat && (

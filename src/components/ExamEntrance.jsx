@@ -8,15 +8,6 @@ export default function ExamEntrance({ onExit }) {
 
       <p>You will walk through rooms, take questions and submit test.</p>
 
-      <p className="mt-2 flex flex-wrap items-center gap-1">
-        Movement using
-        <KeyboardButton>W</KeyboardButton>
-        <KeyboardButton>A</KeyboardButton>
-        <KeyboardButton>S</KeyboardButton>
-        <KeyboardButton>D</KeyboardButton>
-        <span className="ml-1">or 🖱️ Mouse Clicks.</span>
-      </p>
-
       <p className="mt-2">
         Once a room is opened, a floor plan must be selected and an answer must be given before continuing.
       </p>
