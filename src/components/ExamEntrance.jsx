@@ -1,5 +1,5 @@
 import React from "react";
-import KeyboardButton from "./KeyBoardButton";
+import KeyboardButton from "./KeyboardButton";
 
 export default function ExamEntrance({ onExit }) {
   return (

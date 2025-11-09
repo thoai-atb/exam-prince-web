@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import KeyboardButton from "./KeyBoardButton";
+import KeyboardButton from "./KeyboardButton";
 import { subscribeKeyboard } from "../input/controls";
 
 export default function ExamSubmission({ submitable, onSubmit }) {

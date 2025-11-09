@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import KeyboardButton from "./KeyBoardButton";
+import KeyboardButton from "./KeyboardButton";
 import { subscribeKeyboard } from "../input/controls";
 import ItemDictionary from "../game/ItemDictionary";
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Button from "./Button";
 import { subscribeKeyboard } from "../input/controls";
-import KeyboardButton from "./KeyBoardButton";
+import KeyboardButton from "./KeyboardButton";
 import { useHouseManager } from "../pages/HouseContainer";
 
 export default function ExitModal({ visible, onConfirm, onCancel }) {

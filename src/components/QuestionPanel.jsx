@@ -5,7 +5,7 @@ import { useHouseManager } from "../pages/HouseContainer";
 import ExamEntrance from "./ExamEntrance";
 import ExamSubmission from "./ExamSubmission";
 import ExamLibrary from "./ExamLibrary";
-import KeyboardButton from "./KeyBoardButton";
+import KeyboardButton from "./KeyboardButton";
 
 export default function QuestionPanel() {
   const [selectedFloorPlan, setSelectedFloorPlan] = useState(null);
