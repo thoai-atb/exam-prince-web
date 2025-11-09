@@ -29,14 +29,14 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
-          cache-dependency-path: './exam-web/package.json'
+          cache-dependency-path: './exam-prince-web/package.json'
 
       - name: Install dependencies
-        working-directory: ./exam-web
+        working-directory: ./exam-prince-web
         run: npm ci
 
       - name: Build
-        working-directory: ./exam-web
+        working-directory: ./exam-prince-web
         run: npm run build
 
       - name: Setup Pages
@@ -45,7 +45,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './exam-web/dist'
+          path: './exam-prince-web/dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
