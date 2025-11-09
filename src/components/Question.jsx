@@ -120,7 +120,7 @@ export default function Question({
             className="bg-gray-800 px-12 py-2 hover:bg-gray-500 cursor-pointer text-white rounded-md transition-all"
             onClick={handleProceed}
           >
-            Confirm
+            Continue
           </div>
           <div className="text-gray-500">
             <KeyboardButton>E</KeyboardButton>
