@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:gh": "BASE_PATH=/exam-prince-web/ vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

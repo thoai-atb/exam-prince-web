@@ -32,7 +32,7 @@ export default function ExamResult({ onExit }) {
     <div className="flex flex-row gap-4 max-h-4/5">
       <div className="relative flex flex-col gap-8 p-4 w-96 font-serif border-black border-8 items-center justify-center bg-gray-300 text-black overflow-hidden">
         <img
-          src="/logo.png"
+          src={`${import.meta.env.BASE_URL}logo.png`}
           alt="Exam Prince Stamp"
           className="absolute opacity-20 w-20 h-20 rotate-[-15deg] bottom-28 right-8 pointer-events-none select-none z-100"
         />

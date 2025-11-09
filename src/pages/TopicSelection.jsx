@@ -37,7 +37,7 @@ export default function TopicSelection({ onSelect }) {
       {/* 🌟 App Header */}
       <div className="flex flex-col items-center">
         <img
-          src="/logo.png"
+          src={`${import.meta.env.BASE_URL}logo.png`}
           alt="Exam Prince Logo"
           className="w-20 h-20 mb-2 drop-shadow-lg border-4 border-black"
         />
