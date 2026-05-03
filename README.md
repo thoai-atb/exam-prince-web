@@ -1,16 +1,57 @@
-# React + Vite
+# Exam Prince
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Exam Prince is a quiz adventure game built with React and Vite.
+Instead of answering questions on a static form, you walk through a house, open rooms, choose floor plans, and solve topic-based questions to complete an exam run.
 
-Currently, two official plugins are available:
+## Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Exam Prince gameplay](./screenshot.png)
 
-## React Compiler
+## Game Concept
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+You start by selecting a topic from the built-in JSON question banks.
+Inside the house, each room represents a question challenge:
 
-## Expanding the ESLint configuration
+- Open rooms and reveal questions.
+- Select the correct floor plan and answer to progress.
+- Wrong answers lock the room as failed.
+- Find the single answer sheet item and submit it at the exam submission area.
+- Receive a final certificate with score and letter grade.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The final score is based on discovered rooms, correct answers, and failed rooms.
+
+## Controls
+
+- `W`, `A`, `S`, `D`: movement/navigation actions.
+- `E`: context action (continue/select/submit in supported screens).
+- `Q`: available in the keyboard input system for context-specific interactions.
+
+## Core Flow
+
+1. Pick a topic on the topic selection screen.
+2. Enter the house exam session.
+3. Explore, open rooms, and answer questions.
+4. Collect required item(s), especially the answer sheet.
+5. Submit your exam.
+6. View result summary with score and grade.
+
+## Tech Stack
+
+- React
+- Vite
+- Tailwind-style utility classes for UI styling
+
+## Local Development
+
+Install dependencies and start the dev server:
+
+```bash
+npm install
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
